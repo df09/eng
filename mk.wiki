@@ -1,4 +1,5 @@
-запустить базовую версию:
-  login/register
-  main menu
-  pronouns
+Flask + React/Next.js: REST API, SPA
+  запустить базовую версию:
+    main menu
+    pronouns
+    login/register
