@@ -1,0 +1,4 @@
+запустить базовую версию:
+  login/register
+  main menu
+  pronouns

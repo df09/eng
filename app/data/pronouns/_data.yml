@@ -1,0 +1,1700 @@
+Personal Pronouns, subject form (личные местоимения, именительный падеж):
+  I:
+    ipa: /aɪ/
+    translation: я
+    number: singular
+    person: 1
+    examples:
+      - eng: I am here.
+        ru: Я здесь.
+      - eng: I like coffee.
+        ru: Мне нравится кофе.
+      - eng: I will call you tomorrow.
+        ru: Я позвоню тебе завтра.
+      - eng: I don't understand this.
+        ru: Я этого не понимаю.
+      - eng: I need help.
+        ru: Мне нужна помощь.
+  you(personal-subject/singular):
+    ipa: /juː/
+    translation: ты
+    number: singular
+    person: 2
+    examples:
+      - eng: You are my friend.
+        ru: Ты мой друг.
+      - eng: You can do it.
+        ru: Ты можешь это сделать.
+      - eng: You look tired.
+        ru: Ты выглядишь уставшим.
+      - eng: Are you coming with us?
+        ru: Ты пойдёшь с нами?
+      - eng: You forgot your keys.
+        ru: Ты забыл свои ключи.
+  he:
+    ipa: /hiː/
+    translation: он
+    number: singular
+    person: 3
+    examples:
+      - eng: He is a teacher.
+        ru: Он учитель.
+      - eng: He works every day.
+        ru: Он работает каждый день.
+      - eng: He likes pizza.
+        ru: Он любит пиццу.
+      - eng: He will help you.
+        ru: Он поможет тебе.
+      - eng: He went to the store.
+        ru: Он пошел в магазин.
+  she:
+    ipa: /ʃiː/
+    translation: она
+    number: singular
+    person: 3
+    examples:
+      - eng: She loves coffee.
+        ru: Она любит кофе.
+      - eng: She is very kind.
+        ru: Она очень добрая.
+      - eng: She told me the truth.
+        ru: Она сказала мне правду.
+      - eng: She is reading a book.
+        ru: Она читает книгу.
+      - eng: She lives nearby.
+        ru: Она живёт рядом.
+  it(personal-subject):
+    ipa: /ɪt/
+    translation: оно
+    number: singular
+    person: 3
+    examples:
+      - eng: It is raining.
+        ru: Идёт дождь.
+      - eng: It looks delicious.
+        ru: Оно выглядит вкусно.
+      - eng: It is very expensive.
+        ru: Оно очень дорого.
+      - eng: I found it in the drawer.
+        ru: Я нашел это в ящике.
+      - eng: It is a good idea.
+        ru: Это хорошая идея.
+  we:
+    ipa: /wiː/
+    translation: мы
+    number: plural
+    person: 1
+    examples:
+      - eng: We are happy.
+        ru: Мы счастливы.
+      - eng: We will meet tomorrow.
+        ru: Мы встретимся завтра.
+      - eng: We like this place.
+        ru: Нам нравится это место.
+      - eng: We are going to the park.
+        ru: Мы идём в парк.
+      - eng: We need more time.
+        ru: Нам нужно больше времени.
+  you (personal-subject/plural):
+    ipa: /juː/
+    translation: вы
+    number: plural
+    person: 2
+    examples:
+      - eng: You are welcome here.
+        ru: Вы здесь желанны.
+      - eng: You should try this.
+        ru: Вы должны попробовать это.
+      - eng: You are very polite.
+        ru: Вы очень вежливы.
+      - eng: Are you ready for the meeting?
+        ru: Вы готовы к встрече?
+      - eng: You did a great job.
+        ru: Вы отлично справились.
+  they:
+    ipa: /ðeɪ/
+    translation: они
+    number: plural
+    person: 3
+    examples:
+      - eng: They are coming.
+        ru: Они идут.
+      - eng: They work together.
+        ru: Они работают вместе.
+      - eng: They have a big house.
+        ru: У них большой дом.
+      - eng: Are they here yet?
+        ru: Они уже здесь?
+      - eng: They enjoy traveling.
+        ru: Им нравится путешествовать.
+
+Personal Pronouns, object form (личные местоимения, косвенные падежи):
+  me (personal-object/родительный):
+    ipa: /miː/
+    translation: меня(п.род.)
+    number: singular
+    person: 1
+    examples:
+      - eng: He saw me.
+        ru: Он видел меня.
+      - eng: They invited me to the party.
+        ru: Они пригласили меня на вечеринку.
+      - eng: She found me in the garden.
+        ru: Она нашла меня в саду.
+      - eng: The teacher praised me.
+        ru: Учитель похвалил меня.
+      - eng: They accused me of cheating.
+        ru: Они обвинили меня в обмане.
+  me(personal-object/дательный):
+    ipa: /miː/
+    translation: мне
+    number: singular
+    person: 1
+    examples:
+      - eng: She gave me a gift.
+        ru: Она дала мне подарок.
+      - eng: They sent me a letter.
+        ru: Они отправили мне письмо.
+      - eng: Can you pass me the salt?
+        ru: Можешь передать мне соль?
+      - eng: The book belongs to me.
+        ru: Эта книга принадлежит мне.
+      - eng: Tell me the truth.
+        ru: Скажи мне правду.
+  me(personal-object/винительный):
+    ipa: /miː/
+    translation: меня(п.вин.)
+    number: singular
+    person: 1
+    examples:
+      - eng: Please help me.
+        ru: Пожалуйста, помоги мне.
+      - eng: They saw me yesterday.
+        ru: Они видели меня вчера.
+      - eng: He invited me to dinner.
+        ru: Он пригласил меня на ужин.
+      - eng: She called me last night.
+        ru: Она звонила мне вчера вечером.
+      - eng: The dog followed me home.
+        ru: Собака пошла за мной домой.
+  me(personal-object/творительный):
+    ipa: /miː/
+    translation: мной
+    number: singular
+    person: 1
+    examples:
+      - eng: She is happy with me.
+        ru: Она счастлива со мной.
+      - eng: They worked with me on the project.
+        ru: Они работали со мной над проектом.
+      - eng: The teacher was impressed by me.
+        ru: Учитель был впечатлён мной.
+      - eng: He argued with me about politics.
+        ru: Он спорил со мной о политике.
+      - eng: They danced with me at the party.
+        ru: Они танцевали со мной на вечеринке.
+  me(personal-object/предложный):
+    ipa: /miː/
+    translation: обо мне
+    number: singular
+    person: 1
+    examples:
+      - eng: She always talks about me.
+        ru: Она всегда говорит обо мне.
+      - eng: What do you think about me?
+        ru: Что ты думаешь обо мне?
+      - eng: They wrote a story about me.
+        ru: Они написали историю обо мне.
+      - eng: The article is about me.
+        ru: Эта статья обо мне.
+      - eng: Don’t worry about me.
+        ru: Не переживай обо мне.
+  you(personal-object/родительный):
+    ipa: /juː/
+    translation: тебя(п.род.), вас(п.род.)
+    number: singular/plural
+    person: 2
+    examples:
+      - eng: I saw you yesterday.
+        ru: Я видел тебя вчера.
+      - eng: They invited you to the meeting.
+        ru: Они пригласили вас на встречу.
+      - eng: She remembered you from school.
+        ru: Она вспомнила тебя из школы.
+      - eng: They accused you of lying.
+        ru: Они обвинили тебя во лжи.
+      - eng: I need to talk to you.
+        ru: Мне нужно поговорить с тобой.
+  you(personal-object/дательный):
+    ipa: /juː/
+    translation: тебе, вам
+    number: singular/plural
+    person: 2
+    examples:
+      - eng: She gave you a gift.
+        ru: Она дала тебе подарок.
+      - eng: They sent you a letter.
+        ru: Они отправили вам письмо.
+      - eng: Can I show you something?
+        ru: Могу показать тебе что-то?
+      - eng: The book belongs to you.
+        ru: Эта книга принадлежит вам.
+      - eng: Tell you the truth.
+        ru: Скажи тебе правду.
+  you(personal-object/винительный):
+    ipa: /juː/
+    translation: тебя(п.вин.), вас(п.вин.)
+    number: singular/plural
+    person: 2
+    examples:
+      - eng: Please help you with the project.
+        ru: Пожалуйста, помоги тебе с проектом.
+      - eng: They saw you at the party.
+        ru: Они видели вас на вечеринке.
+      - eng: She called you last night.
+        ru: Она звонила тебе вчера вечером.
+      - eng: He invited you to dinner.
+        ru: Он пригласил тебя на ужин.
+      - eng: I trust you.
+        ru: Я доверяю тебе.
+  you(personal-object/творительный):
+    ipa: /juː/
+    translation: тобой, вами
+    number: singular/plural
+    person: 2
+    examples:
+      - eng: They worked with you on the project.
+        ru: Они работали с тобой над проектом.
+      - eng: She danced with you at the party.
+        ru: Она танцевала с вами на вечеринке.
+      - eng: The teacher was impressed by you.
+        ru: Учитель был впечатлён тобой.
+      - eng: He argued with you about politics.
+        ru: Он спорил с тобой о политике.
+      - eng: They traveled with you last summer.
+        ru: Они путешествовали с тобой прошлым летом.
+  you(personal-object/предложный):
+    ipa: /juː/
+    translation: о тебе, о вас
+    number: singular/plural
+    person: 2
+    examples:
+      - eng: They talked about you yesterday.
+        ru: Они говорили о тебе вчера.
+      - eng: The story is about you.
+        ru: История о тебе.
+      - eng: She always thinks about you.
+        ru: Она всегда думает о тебе.
+      - eng: Don’t worry about you.
+        ru: Не переживай о тебе.
+      - eng: What do you know about yourself?
+        ru: Что ты знаешь о тебе?
+  him(personal-object/родительный):
+    ipa: /hɪm/
+    translation: его(m./п.род.)
+    number: singular
+    person: 3
+    examples:
+      - eng: I saw him at the park.
+        ru: Я видел его в парке.
+      - eng: They accused him of lying.
+        ru: Они обвинили его во лжи.
+      - eng: She found him sleeping.
+        ru: Она нашла его спящим.
+      - eng: The teacher praised him for his work.
+        ru: Учитель похвалил его за работу.
+      - eng: I met him yesterday.
+        ru: Я встретил его вчера.
+  him(personal-object/дательный):
+    ipa: /hɪm/
+    translation: ему(m.)
+    number: singular
+    person: 3
+    examples:
+      - eng: She gave him a gift.
+        ru: Она дала ему подарок.
+      - eng: They sent him a letter.
+        ru: Они отправили ему письмо.
+      - eng: Can you show him the way?
+        ru: Можешь показать ему дорогу?
+      - eng: The dog belongs to him.
+        ru: Собака принадлежит ему.
+      - eng: Tell him the truth.
+        ru: Скажи ему правду.
+  him(personal-object/винительный): # ???
+    ipa: /hɪm/
+    translation: его(m./п.вин.)
+    number: singular
+    person: 3
+    examples:
+      - eng: They invited him to the meeting.
+        ru: Они пригласили его на встречу.
+      - eng: She called him yesterday.
+        ru: Она звонила ему вчера.
+      - eng: The dog followed him home.
+        ru: Собака пошла за ним домой.
+      - eng: Please help him with his project.
+        ru: Пожалуйста, помогите ему с его проектом.
+      - eng: I don't trust him.
+        ru: Я не доверяю ему.
+  him(personal-object/творительный):
+    ipa: /hɪm/
+    translation: им(п.тв/m.)
+    number: singular
+    person: 3
+    examples:
+      - eng: They worked with him on the project.
+        ru: Они работали с ним над проектом.
+      - eng: She danced with him at the party.
+        ru: Она танцевала с ним на вечеринке.
+      - eng: The teacher was impressed by him.
+        ru: Учитель был впечатлён им.
+      - eng: He argued with him about politics.
+        ru: Он спорил с ним о политике.
+      - eng: They traveled with him last summer.
+        ru: Они путешествовали с ним прошлым летом.
+  him(personal-object/предложный):
+    ipa: /hɪm/
+    translation: о нём(m.)
+    number: singular
+    person: 3
+    examples:
+      - eng: They talked about him yesterday.
+        ru: Они говорили о нём вчера.
+      - eng: The story is about him.
+        ru: История о нём.
+      - eng: She always thinks about him.
+        ru: Она всегда думает о нём.
+      - eng: Don’t worry about him.
+        ru: Не переживай о нём.
+      - eng: What do you know about him?
+        ru: Что ты знаешь о нём?
+  her(personal-object/родительный):
+    ipa: /hɜːr/
+    translation: её(п.род)
+    number: singular
+    person: 3
+    examples:
+      - eng: I saw her at the store.
+        ru: Я видел её в магазине.
+      - eng: They accused her of cheating.
+        ru: Они обвинили её в обмане.
+      - eng: She praised the girl for her efforts.
+        ru: Она похвалила её за её усилия.
+      - eng: I met her last night.
+        ru: Я встретил её вчера вечером.
+      - eng: He followed her to the park.
+        ru: Он следовал за ней в парк.
+  her(personal-object/дательный):
+    ipa: /hɜːr/
+    translation: ей
+    number: singular
+    person: 3
+    examples:
+      - eng: They gave her a gift.
+        ru: Они дали ей подарок.
+      - eng: Can you pass her the salt?
+        ru: Можешь передать ей соль?
+      - eng: The book belongs to her.
+        ru: Эта книга принадлежит ей.
+      - eng: He showed her the way.
+        ru: Он показал ей дорогу.
+      - eng: Tell her the truth.
+        ru: Скажи ей правду.
+  her(personal-object/винительный):
+    ipa: /hɜːr/
+    translation: её(п.вин)
+    number: singular
+    person: 3
+    examples:
+      - eng: I love her.
+        ru: Я люблю её.
+      - eng: He called her last night.
+        ru: Он звонил ей вчера вечером.
+      - eng: Please help the girl with her homework.
+        ru: Пожалуйста, помоги ей с домашним заданием.
+      - eng: I don’t trust her.
+        ru: Я не доверяю ей.
+      - eng: They saw her at the mall.
+        ru: Они видели её в торговом центре.
+  her(personal-object/творительный):
+    ipa: /hɜːr/
+    translation: ею
+    number: singular
+    person: 3
+    examples:
+      - eng: They worked with her on the project.
+        ru: Они работали с ней над проектом.
+      - eng: She danced with her at the party.
+        ru: Она танцевала с ней на вечеринке.
+      - eng: The teacher was impressed by her.
+        ru: Учитель был впечатлён ею.
+      - eng: He argued with her about the topic.
+        ru: Он спорил с ней о теме.
+      - eng: They traveled with her last summer.
+        ru: Они путешествовали с ней прошлым летом.
+  her(personal-object/предложный):
+    ipa: /hɜːr/
+    translation: о ней
+    number: singular
+    person: 3
+    examples:
+      - eng: They talked about her yesterday.
+        ru: Они говорили о ней вчера.
+      - eng: The story is about her.
+        ru: История о ней.
+      - eng: She always thinks about her.
+        ru: Она всегда думает о ней.
+      - eng: Don’t worry about her.
+        ru: Не переживай о ней.
+      - eng: What do you know about her?
+        ru: Что ты знаешь о ней?
+  it(personal-object/родительный):
+    ipa: /ɪt/
+    translation: его(n./п.род)
+    number: singular
+    person: 3
+    examples:
+      - eng: She saw it on the table.
+        ru: Она увидела его на столе.
+      - eng: I took it from the box.
+        ru: Я взял его из коробки.
+      - eng: They repaired it yesterday.
+        ru: Они починили его вчера.
+      - eng: The teacher noticed it immediately.
+        ru: Учитель заметил его сразу.
+      - eng: I remember it very well.
+        ru: Я очень хорошо помню его.
+  it(personal-object/дательный):
+    ipa: /ɪt/
+    translation: ему(n.)
+    number: singular
+    person: 3
+    examples:
+      - eng: She gave it a name.
+        ru: Она дала ему имя.
+      - eng: They sent it to the laboratory.
+        ru: Они отправили его в лабораторию.
+      - eng: He showed it to his friend.
+        ru: Он показал его своему другу.
+      - eng: I offered it to the team.
+        ru: Я предложил его команде.
+      - eng: They assigned it a task.
+        ru: Они назначили ему задачу.
+  it(personal-object/винительный):
+    ipa: /ɪt/
+    translation: его(n./п.вин)
+    number: singular
+    person: 3
+    examples:
+      - eng: I found it under the bed.
+        ru: Я нашёл его под кроватью.
+      - eng: She moved it to another room.
+        ru: Она передвинула его в другую комнату.
+      - eng: They lost it during the trip.
+        ru: Они потеряли его во время поездки.
+      - eng: Please fix it as soon as possible.
+        ru: Пожалуйста, почини его как можно скорее.
+      - eng: He bought it yesterday.
+        ru: Он купил его вчера.
+  it(personal-object/творительный):
+    ipa: /ɪt/
+    translation: им(п.тв/n.)
+    number: singular
+    person: 3
+    examples:
+      - eng: They worked with it all night.
+        ru: Они работали с ним всю ночь.
+      - eng: She cleaned the floor with it.
+        ru: Она убрала пол с его помощью.
+      - eng: He impressed everyone with it.
+        ru: Он впечатлил всех с его помощью.
+      - eng: They solved the problem with it.
+        ru: Они решили проблему с его помощью.
+      - eng: I decorated the room with it.
+        ru: Я украсил комнату с его помощью.
+  it(personal-object/предложный):
+    ipa: /ɪt/
+    translation: о нём(n.)
+    number: singular
+    person: 3
+    examples:
+      - eng: They talked about it yesterday.
+        ru: Они говорили о нём вчера.
+      - eng: What do you know about it?
+        ru: Что ты знаешь о нём?
+      - eng: Don’t worry about it.
+        ru: Не переживай о нём.
+      - eng: The story is about it.
+        ru: История о нём.
+      - eng: She always thinks about it.
+        ru: Она всегда думает о нём.
+  us(personal-object/родительный):
+    ipa: /ʌs/
+    translation: нас(п.род)
+    number: plural
+    person: 1
+    examples:
+      - eng: They saw us at the party.
+        ru: Они видели нас на вечеринке.
+      - eng: She invited us to her house.
+        ru: Она пригласила нас к себе домой.
+      - eng: The teacher praised us for our work.
+        ru: Учитель похвалил нас за нашу работу.
+      - eng: He remembered us from school.
+        ru: Он вспомнил нас из школы.
+      - eng: They accused us of cheating.
+        ru: Они обвинили нас в обмане.
+  us(personal-object/дательный):
+    ipa: /ʌs/
+    translation: нам
+    number: plural
+    person: 1
+    examples:
+      - eng: She gave us a gift.
+        ru: Она дала нам подарок.
+      - eng: They sent us a letter.
+        ru: Они отправили нам письмо.
+      - eng: Can you show us the way?
+        ru: Можешь показать нам дорогу?
+      - eng: The book belongs to us.
+        ru: Эта книга принадлежит нам.
+      - eng: Tell us the truth.
+        ru: Скажи нам правду.
+  us(personal-object/винительный):
+    ipa: /ʌs/
+    translation: нас(п.вин)
+    number: plural
+    person: 1
+    examples:
+      - eng: They invited us to the party.
+        ru: Они пригласили нас на вечеринку.
+      - eng: Please help us with the project.
+        ru: Пожалуйста, помогите нам с проектом.
+      - eng: I saw us in the mirror.
+        ru: Я видел нас в зеркале.
+      - eng: She called us yesterday.
+        ru: Она звонила нам вчера.
+      - eng: The dog followed us home.
+        ru: Собака пошла за нами домой.
+  us(personal-object/творительный):
+    ipa: /ʌs/
+    translation: нами
+    number: plural
+    person: 1
+    examples:
+      - eng: They worked with us on the project.
+        ru: Они работали с нами над проектом.
+      - eng: She danced with us at the party.
+        ru: Она танцевала с нами на вечеринке.
+      - eng: The teacher was impressed by us.
+        ru: Учитель был впечатлён нами.
+      - eng: He argued with us about politics.
+        ru: Он спорил с нами о политике.
+      - eng: They traveled with us last summer.
+        ru: Они путешествовали с нами прошлым летом.
+  us(personal-object/предложный):
+    ipa: /ʌs/
+    translation: о нас
+    number: plural
+    person: 1
+    examples:
+      - eng: They talked about us yesterday.
+        ru: Они говорили о нас вчера.
+      - eng: The story is about us.
+        ru: История о нас.
+      - eng: She always thinks about us.
+        ru: Она всегда думает о нас.
+      - eng: Don’t worry about us.
+        ru: Не переживай о нас.
+      - eng: What do you know about us?
+        ru: Что ты знаешь о нас?
+  them(personal-object/родительный):
+    ipa: /ðɛm/
+    translation: их(п.род)
+    number: plural
+    person: 3
+    examples:
+      - eng: I saw them at the park.
+        ru: Я видел их в парке.
+      - eng: They invited them to the meeting.
+        ru: Они пригласили их на встречу.
+      - eng: She remembered them from school.
+        ru: Она вспомнила их из школы.
+      - eng: We need to talk to them.
+        ru: Нам нужно поговорить с ними.
+      - eng: They accused them of lying.
+        ru: Они обвинили их во лжи.
+  them(personal-object/дательный):
+    ipa: /ðɛm/
+    translation: им(п.дат)
+    number: plural
+    person: 3
+    examples:
+      - eng: She gave them a gift.
+        ru: Она дала им подарок.
+      - eng: They sent them a letter.
+        ru: Они отправили им письмо.
+      - eng: Can I show them something?
+        ru: Могу показать им что-то?
+      - eng: The book belongs to them.
+        ru: Эта книга принадлежит им.
+      - eng: Tell them the truth.
+        ru: Скажи им правду.
+  them(personal-object/винительный):
+    ipa: /ðɛm/
+    translation: их(п.вин)
+    number: plural
+    person: 3
+    examples:
+      - eng: I trust them.
+        ru: Я доверяю им.
+      - eng: Please help them with the project.
+        ru: Пожалуйста, помогите им с проектом.
+      - eng: They saw them at the party.
+        ru: Они видели их на вечеринке.
+      - eng: She called them yesterday.
+        ru: Она звонила им вчера.
+      - eng: He invited them to dinner.
+        ru: Он пригласил их на ужин.
+  them(personal-object/творительный):
+    ipa: /ðɛm/
+    translation: ими
+    number: plural
+    person: 3
+    examples:
+      - eng: They worked with them on the project.
+        ru: Они работали с ними над проектом.
+      - eng: She danced with them at the party.
+        ru: Она танцевала с ними на вечеринке.
+      - eng: The teacher was impressed by them.
+        ru: Учитель был впечатлён ими.
+      - eng: He argued with them about politics.
+        ru: Он спорил с ними о политике.
+      - eng: They traveled with them last summer.
+        ru: Они путешествовали с ними прошлым летом.
+  them(personal-object/предложный):
+    ipa: /ðɛm/
+    translation: о них
+    number: plural
+    person: 3
+    examples:
+      - eng: They talked about them yesterday.
+        ru: Они говорили о них вчера.
+      - eng: The story is about them.
+        ru: История о них.
+      - eng: She always thinks about them.
+        ru: Она всегда думает о них.
+      - eng: Don’t worry about them.
+        ru: Не переживай о них.
+      - eng: What do you know about them?
+        ru: Что ты знаешь о них?
+
+Possessive Pronouns  (Притяжательные местоимения):
+  mine:
+    ipa: /maɪn/
+    translation: мой(poss-pron)
+    number: singular
+    person: 1
+    examples:
+      - eng: This book is mine.
+        ru: Эта книга моя.
+      - eng: The choice is mine.
+        ru: Выбор за мной.
+      - eng: That bag is mine.
+        ru: Эта сумка моя.
+      - eng: This seat is mine.
+        ru: Это место моё.
+      - eng: The decision was mine.
+        ru: Решение было моим.
+  yours:
+    ipa: /jɔːrz/
+    translation: твой
+    number: singular
+    person: 2
+    examples:
+      - eng: This bag is yours.
+        ru: Эта сумка твоя.
+      - eng: That pen is yours.
+        ru: Эта ручка твоя.
+      - eng: Is this car yours?
+        ru: Эта машина твоя?
+      - eng: The house is yours.
+        ru: Этот дом твой.
+      - eng: These keys are yours.
+        ru: Эти ключи твои.
+  his(poss-pron):
+    ipa: /hɪz/
+    translation: его(poss-pron/m.)
+    number: singular
+    person: 3
+    examples:
+      - eng: The coat is his.
+        ru: Пальто его.
+      - eng: This bike is his.
+        ru: Этот велосипед его.
+      - eng: Is that notebook his?
+        ru: Это его тетрадь?
+      - eng: The idea was his.
+        ru: Это была его идея.
+      - eng: The credit goes to him and his work.
+        ru: Заслуга принадлежит ему и его работе.
+  hers:
+    ipa: /hɜːrz/
+    translation: её(poss-pron)
+    number: singular
+    person: 3
+    examples:
+      - eng: The house is hers.
+        ru: Дом её.
+      - eng: This scarf is hers.
+        ru: Этот шарф её.
+      - eng: The victory was hers.
+        ru: Победа была её.
+      - eng: That decision was hers.
+        ru: Это решение было её.
+      - eng: The responsibility is hers.
+        ru: Ответственность лежит на ней.
+  its(poss-pron):
+    ipa: /ɪts/
+    translation: его(poss-pron/n.)
+    number: singular
+    person: 3
+    examples:
+      - eng: The decision is its.
+        ru: Решение его.
+      - eng: Its name is unique.
+        ru: Его название уникально.
+      - eng: The color is its.
+        ru: Цвет его.
+      - eng: Its role is important.
+        ru: Его роль важна.
+      - eng: The sound is its.
+        ru: Звук его.
+  ours:
+    ipa: /aʊrz/
+    translation: наш(poss-pron)
+    number: plural
+    person: 1
+    examples:
+      - eng: This victory is ours.
+        ru: Эта победа наша.
+      - eng: The house is ours.
+        ru: Дом наш.
+      - eng: This problem is ours to solve.
+        ru: Это наша проблема, которую нужно решить.
+      - eng: That car is ours.
+        ru: Эта машина наша.
+      - eng: The plan is ours.
+        ru: План наш.
+  yours:
+    ipa: /jɔːrz/
+    translation: ваш(poss-pron)
+    number: plural
+    person: 2
+    examples:
+      - eng: The tickets are yours.
+        ru: Билеты ваши.
+      - eng: This success is yours.
+        ru: Этот успех ваш.
+      - eng: The choice is yours.
+        ru: Выбор за вами.
+      - eng: The responsibility is yours.
+        ru: Ответственность ваша.
+      - eng: The decision was yours.
+        ru: Решение было вашим.
+  theirs:
+    ipa: /ðɛrz/
+    translation: их(poss-pron)
+    number: plural
+    person: 3
+    examples:
+      - eng: The car is theirs.
+        ru: Машина их.
+      - eng: The books are theirs.
+        ru: Книги их.
+      - eng: This problem is theirs to handle.
+        ru: Эта проблема на них.
+      - eng: The success was theirs.
+        ru: Успех был их.
+      - eng: The blame is theirs.
+        ru: Вина их.
+Possessive Adjectives (Притяжательные прилагательные):
+  my:
+    ipa: /maɪ/
+    translation: мой(poss-adj)
+    number: singular
+    person: 1
+    examples:
+      - eng: My book is on the table.
+        ru: Моя книга на столе.
+      - eng: My car is very old.
+        ru: Моя машина очень старая.
+      - eng: My house is near the park.
+        ru: Мой дом рядом с парком.
+      - eng: My friend is waiting for me.
+        ru: Мой друг ждёт меня.
+      - eng: My phone is charging.
+        ru: Мой телефон заряжается.
+  your:
+    ipa: /jɔːr/
+    translation: твой
+    number: singular
+    person: 2
+    examples:
+      - eng: Your keys are here.
+        ru: Твои ключи здесь.
+      - eng: Your dog is very friendly.
+        ru: Твоя собака очень дружелюбная.
+      - eng: Your work is impressive.
+        ru: Твоя работа впечатляет.
+      - eng: Where is your bag?
+        ru: Где твоя сумка?
+      - eng: I love your idea.
+        ru: Мне нравится твоя идея.
+  his(poss-adj):
+    ipa: /hɪz/
+    translation: его(poss-adj/m.)
+    number: singular
+    person: 3
+    examples:
+      - eng: His dog is friendly.
+        ru: Его собака дружелюбная.
+      - eng: His house is very big.
+        ru: Его дом очень большой.
+      - eng: I like his car.
+        ru: Мне нравится его машина.
+      - eng: His work is inspiring.
+        ru: Его работа вдохновляющая.
+      - eng: Where is his book?
+        ru: Где его книга?
+  her(poss-adj):
+    ipa: /hɜːr/
+    translation: её
+    number: singular
+    person: 3
+    examples:
+      - eng: Her ideas are brilliant.
+        ru: Её идеи блестящие.
+      - eng: Her voice is beautiful.
+        ru: Её голос прекрасен.
+      - eng: Her house is near the school.
+        ru: Её дом рядом со школой.
+      - eng: I like her style.
+        ru: Мне нравится её стиль.
+      - eng: This is her favorite color.
+        ru: Это её любимый цвет.
+  its(poss-adj):
+    ipa: /ɪts/
+    translation: его(poss-adj/n.)
+    number: singular
+    person: 3
+    examples:
+      - eng: Its color is vibrant.
+        ru: Его цвет яркий.
+      - eng: Its size is perfect.
+        ru: Его размер идеален.
+      - eng: I like its design.
+        ru: Мне нравится его дизайн.
+      - eng: Its role is important.
+        ru: Его роль важна.
+      - eng: Its sound is unique.
+        ru: Его звук уникален.
+  our:
+    ipa: /aʊr/
+    translation: наш(poss-adj)
+    number: plural
+    person: 1
+    examples:
+      - eng: Our team is strong.
+        ru: Наша команда сильная.
+      - eng: Our house is on the corner.
+        ru: Наш дом на углу.
+      - eng: Our car is parked outside.
+        ru: Наша машина припаркована снаружи.
+      - eng: Our work is almost done.
+        ru: Наша работа почти завершена.
+      - eng: Our friends are coming over.
+        ru: Наши друзья идут к нам.
+  your:
+    ipa: /jɔːr/
+    translation: ваш(poss-adj)
+    number: plural
+    person: 2
+    examples:
+      - eng: Your efforts matter.
+        ru: Ваши усилия важны.
+      - eng: Your house is beautiful.
+        ru: Ваш дом красивый.
+      - eng: Where is your car?
+        ru: Где ваша машина?
+      - eng: Your kids are very polite.
+        ru: Ваши дети очень вежливы.
+      - eng: I like your idea.
+        ru: Мне нравится ваша идея.
+  their:
+    ipa: /ðɛr/
+    translation: их(poss-adj)
+    number: plural
+    person: 3
+    examples:
+      - eng: Their house is beautiful.
+        ru: Их дом красивый.
+      - eng: Their dog is very playful.
+        ru: Их собака очень игривая.
+      - eng: Their car is new.
+        ru: Их машина новая.
+      - eng: Their kids are at school.
+        ru: Их дети в школе.
+      - eng: I like their work.
+        ru: Мне нравится их работа.
+
+# Reflexive Pronouns (Возвратные местоимения):
+#   myself:
+#     ipa: /maɪˈsɛlf/
+#     translation: себя(s/1st), сам(s/1st)
+#     number: singular
+#     person: 1
+#     examples:
+#       - eng: I hurt myself.
+#         ru: Я поранил себя.
+#       - eng: I taught myself to play guitar.
+#         ru: Я научил себя играть на гитаре.
+#       - eng: I made this cake myself.
+#         ru: Я сам сделал этот торт.
+#       - eng: I can do it by myself.
+#         ru: Я могу сделать это сам.
+#       - eng: I saw myself in the mirror.
+#         ru: Я увидел себя в зеркале.
+#   yourself:
+#     ipa: /jɔːrˈsɛlf/
+#     translation: себя(s/2st), сам(s/2st)
+#     number: singular
+#     person: 2
+#     examples:
+#       - eng: Take care of yourself.
+#         ru: Заботься о себе.
+#       - eng: Did you hurt yourself?
+#         ru: Ты поранил себя?
+#       - eng: You should be proud of yourself.
+#         ru: Ты должен гордиться собой.
+#       - eng: Enjoy yourself at the party!
+#         ru: Наслаждайся вечеринкой!
+#       - eng: Look at yourself in the mirror.
+#         ru: Посмотри на себя в зеркало.
+#   himself:
+#     ipa: /hɪmˈsɛlf/
+#     translation: себя(s/3st/m.), сам
+#     number: singular
+#     person: 3
+#     examples:
+#       - eng: He blamed himself.
+#         ru: Он винил себя.
+#       - eng: He introduced himself to the group.
+#         ru: Он представился группе.
+#       - eng: He taught himself to cook.
+#         ru: Он научил себя готовить.
+#       - eng: He saw himself in the reflection.
+#         ru: Он увидел себя в отражении.
+#       - eng: He hurt himself while working.
+#         ru: Он поранился, работая.
+#   herself:
+#     ipa: /hɜːrˈsɛlf/
+#     translation: себя(s/3st/f.), сама
+#     number: singular
+#     person: 3
+#     examples:
+#       - eng: She taught herself French.
+#         ru: Она сама выучила французский.
+#       - eng: She introduced herself to the class.
+#         ru: Она представилась классу.
+#       - eng: She looked at herself in the mirror.
+#         ru: Она посмотрела на себя в зеркало.
+#       - eng: She hurt herself while running.
+#         ru: Она поранилась, бегая.
+#       - eng: She made herself a cup of tea.
+#         ru: Она сделала себе чашку чая.
+#   itself:
+#     ipa: /ɪtˈsɛlf/
+#     translation: себя(s/3st/n.), само
+#     number: singular
+#     person: 3
+#     examples:
+#       - eng: The cat cleaned itself.
+#         ru: Кошка вымыла себя.
+#       - eng: The company prides itself on quality.
+#         ru: Компания гордится своим качеством.
+#       - eng: The machine turned itself off.
+#         ru: Машина выключилась сама.
+#       - eng: The door closed itself.
+#         ru: Дверь закрылась сама.
+#       - eng: The dog hurt itself while playing.
+#         ru: Собака поранилась, играя.
+#   ourselves:
+#     ipa: /aʊərˈsɛlvz/
+#     translation: себя(p/1st), сами(p/1st)
+#     number: plural
+#     person: 1
+#     examples:
+#       - eng: We did it ourselves.
+#         ru: Мы сделали это сами.
+#       - eng: We should be proud of ourselves.
+#         ru: Мы должны гордиться собой.
+#       - eng: We found ourselves lost in the forest.
+#         ru: Мы оказались потеряны в лесу.
+#       - eng: Let's introduce ourselves to the new neighbors.
+#         ru: Давайте представимся новым соседям.
+#       - eng: We taught ourselves to code.
+#         ru: Мы сами научились программировать.
+#   yourselves:
+#     ipa: /jɔːrˈsɛlvz/
+#     translation: себя(p/2st), сами(p/2st)
+#     number: plural
+#     person: 2
+#     examples:
+#       - eng: You should prepare yourselves.
+#         ru: Вы должны подготовиться.
+#       - eng: Did you enjoy yourselves at the party?
+#         ru: Вы хорошо провели время на вечеринке?
+#       - eng: Look at yourselves in the photos.
+#         ru: Посмотрите на себя на фотографиях.
+#       - eng: You should be proud of yourselves.
+#         ru: Вы должны гордиться собой.
+#       - eng: Take care of yourselves.
+#         ru: Заботьтесь о себе.
+#   themselves:
+#     ipa: /ðɛmˈsɛlvz/
+#     translation: себя(p/3st), сами(p/3st)
+#     number: plural
+#     person: 3
+#     examples:
+#       - eng: They helped themselves to some food.
+#         ru: Они угостились едой.
+#       - eng: They introduced themselves to the group.
+#         ru: Они представились группе.
+#       - eng: They taught themselves new skills.
+#         ru: Они научили себя новым навыкам.
+#       - eng: They found themselves in a difficult situation.
+#         ru: Они оказались в сложной ситуации.
+#       - eng: They hurt themselves while working.
+#         ru: Они поранились, работая.
+
+Demonstrative Pronouns (Указательные местоимения):
+  this:
+    ipa: /ðɪs/
+    translation: это(demonstrative)
+    number: singular
+    examples:
+      - eng: This is my house.
+        ru: Это мой дом.
+      - eng: This is a great idea.
+        ru: Это отличная идея.
+      - eng: I like this dress.
+        ru: Мне нравится это платье.
+      - eng: This is for you.
+        ru: Это для тебя.
+      - eng: Do you see this?
+        ru: Ты видишь это?
+  that(demonstrative):
+    ipa: /ðæt/
+    translation: то
+    number: singular
+    examples:
+      - eng: That is a beautiful painting.
+        ru: То красивая картина.
+      - eng: I don’t understand that.
+        ru: Я не понимаю это.
+      - eng: That is not mine.
+        ru: То не моё.
+      - eng: Look at that building.
+        ru: Посмотри на то здание.
+      - eng: That was an amazing performance.
+        ru: То было удивительное представление.
+  these:
+    ipa: /ðiːz/
+    translation: эти
+    number: plural
+    examples:
+      - eng: These are my friends.
+        ru: Это мои друзья.
+      - eng: I like these shoes.
+        ru: Мне нравятся эти туфли.
+      - eng: These are your keys.
+        ru: Это твои ключи.
+      - eng: Are these yours?
+        ru: Это твои?
+      - eng: These books are interesting.
+        ru: Эти книги интересные.
+  those:
+    ipa: /ðoʊz/
+    translation: те
+    number: plural
+    examples:
+      - eng: Those are expensive shoes.
+        ru: Те туфли дорогие.
+      - eng: I want to buy those apples.
+        ru: Я хочу купить те яблоки.
+      - eng: Those were the best days of my life.
+        ru: Это были лучшие дни моей жизни.
+      - eng: Who owns those cars?
+        ru: Кому принадлежат те машины?
+      - eng: Those people are very kind.
+        ru: Те люди очень добрые.
+
+Interrogative Pronouns (Вопросительные местоимения):
+  who(interrogative):
+    ipa: /huː/
+    translation: кто(interrogative)
+    examples:
+      - eng: Who is there?
+        ru: Кто там?
+      - eng: Who are you talking to?
+        ru: С кем ты разговариваешь?
+      - eng: Who will help us?
+        ru: Кто нам поможет?
+      - eng: Who wrote this book?
+        ru: Кто написал эту книгу?
+      - eng: Who knows the answer?
+        ru: Кто знает ответ?
+  whom(interrogative):
+    ipa: /huːm/
+    translation: кого(interrogative), кому(interrogative)
+    examples:
+      - eng: Whom did you see?
+        ru: Кого ты видел?
+      - eng: Whom should I ask about this?
+        ru: Кого мне спросить об этом?
+      - eng: Whom are you talking about?
+        ru: О ком ты говоришь?
+      - eng: To whom did you send the letter?
+        ru: Кому ты отправил письмо?
+      - eng: Whom do you trust the most?
+        ru: Кому ты доверяешь больше всего?
+  whose(interrogative):
+    ipa: /huːz/
+    translation: чей(interrogative)
+    examples:
+      - eng: Whose book is this?
+        ru: Чья это книга?
+      - eng: Whose bag is on the chair?
+        ru: Чья сумка на стуле?
+      - eng: Whose idea was it?
+        ru: Чья это была идея?
+      - eng: Whose car is parked outside?
+        ru: Чья машина припаркована снаружи?
+      - eng: Whose turn is it?
+        ru: Чья очередь?
+  which(interrogative):
+    ipa: /wɪtʃ/
+    translation: который(interrogative)
+    examples:
+      - eng: Which one do you prefer?
+        ru: Который из них ты предпочитаешь?
+      - eng: Which color do you like more?
+        ru: Какой цвет тебе нравится больше?
+      - eng: Which book should I read first?
+        ru: Какую книгу мне прочитать первой?
+      - eng: Which way is faster?
+        ru: Какой путь быстрее?
+      - eng: Which team won the match?
+        ru: Какая команда выиграла матч?
+  what:
+    ipa: /wɒt/
+    translation: что
+    examples:
+      - eng: What is your name?
+        ru: Как тебя зовут?
+      - eng: What are you doing?
+        ru: Что ты делаешь?
+      - eng: What is this for?
+        ru: Для чего это?
+      - eng: What happened here?
+        ru: Что здесь случилось?
+      - eng: What do you want to eat?
+        ru: Что ты хочешь съесть?
+
+Relative Pronouns (Относительные местоимения):
+  who(relative):
+    ipa: /huː/
+    translation: кто(relative)
+    examples:
+      - eng: This is the man who helped us.
+        ru: Это человек, который помог нам.
+      - eng: She knows the teacher who gave the lecture.
+        ru: Она знает преподавателя, который читал лекцию.
+      - eng: I met the person who wrote this book.
+        ru: Я встретил человека, который написал эту книгу.
+      - eng: The girl who lives next door is very kind.
+        ru: Девочка, которая живёт по соседству, очень добрая.
+      - eng: The boy who broke the window apologized.
+        ru: Мальчик, который разбил окно, извинился.
+  whom(relative):
+    ipa: /huːm/
+    translation: кого(relative), кому(relative)
+    examples:
+      - eng: The person whom I saw was kind.
+        ru: Человек, которого я видел, был добр.
+      - eng: The friend to whom I gave the book liked it.
+        ru: Друг, которому я дал книгу, понравилась.
+      - eng: She is the one whom we trust the most.
+        ru: Она та, кому мы доверяем больше всего.
+      - eng: The man whom you called is busy now.
+        ru: Мужчина, которому ты звонил, сейчас занят.
+      - eng: The woman whom they invited didn't come.
+        ru: Женщина, которую они пригласили, не пришла.
+  whose(relative):
+    ipa: /huːz/
+    translation: чей(relative)
+    examples:
+      - eng: The car whose owner is unknown was towed.
+        ru: Машина, чей владелец неизвестен, была эвакуирована.
+      - eng: I found the dog whose collar was lost.
+        ru: Я нашёл собаку, чей ошейник был потерян.
+      - eng: The artist whose work we admire is here.
+        ru: Художник, чьей работой мы восхищаемся, здесь.
+      - eng: She knows the student whose homework was late.
+        ru: Она знает студента, чья домашняя работа была сдана с опозданием.
+      - eng: This is the house whose roof was repaired.
+        ru: Это дом, чья крыша была отремонтирована.
+  which(relative):
+    ipa: /wɪtʃ/
+    translation: который(relative)
+    examples:
+      - eng: The book which I read was fascinating.
+        ru: Книга, которую я прочитал, была увлекательной.
+      - eng: The car which he bought is very fast.
+        ru: Машина, которую он купил, очень быстрая.
+      - eng: The movie which we watched was amazing.
+        ru: Фильм, который мы посмотрели, был потрясающим.
+      - eng: The room which she cleaned looks great.
+        ru: Комната, которую она убрала, выглядит отлично.
+      - eng: The idea which they proposed was brilliant.
+        ru: Идея, которую они предложили, была блестящей.
+  that(relative):
+    ipa: /ðæt/
+    translation: что(relative)
+    examples:
+      - eng: This is the house that Jack built.
+        ru: Это дом, который построил Джек.
+      - eng: The bag that she bought is expensive.
+        ru: Сумка, которую она купила, дорогая.
+      - eng: The train that we took was late.
+        ru: Поезд, на который мы сели, опоздал.
+      - eng: The phone that he lost was found.
+        ru: Телефон, который он потерял, был найден.
+      - eng: The story that she told was interesting.
+        ru: История, которую она рассказала, была интересной.
+
+Indefinite Pronouns (Неопределённые местоимения):
+  some:
+    ipa: /sʌm/
+    translation: несколько(indefinite), немного(indefinite)
+    examples:
+      - eng: I need some water.
+        ru: Мне нужно немного воды.
+      - eng: Some people enjoy reading.
+        ru: Некоторым людям нравится читать.
+      - eng: Could you lend me some money?
+        ru: Можешь одолжить мне немного денег?
+      - eng: She brought some flowers.
+        ru: Она принесла немного цветов.
+      - eng: We have some news to share.
+        ru: У нас есть новости, которыми мы хотим поделиться.
+  any:
+    ipa: /ˈɛni/
+    translation: любой, какой-нибудь
+    examples:
+      - eng: Do you have any questions?
+        ru: У вас есть какие-нибудь вопросы?
+      - eng: You can choose any book you like.
+        ru: Ты можешь выбрать любую книгу, которая тебе нравится.
+      - eng: Is there any food left?
+        ru: Осталась ли какая-нибудь еда?
+      - eng: I didn’t see any difference.
+        ru: Я не заметил никакой разницы.
+      - eng: Do you know any good restaurants nearby?
+        ru: Ты знаешь какие-нибудь хорошие рестораны поблизости?
+  none(indefinite):
+    ipa: /nʌn/
+    translation: никто(indefinite/for-group), никакой
+    examples:
+      - eng: None of them came.
+        ru: Никто из них не пришёл.
+      - eng: None of the answers were correct.
+        ru: Ни один из ответов не был правильным.
+      - eng: None of the students passed the test.
+        ru: Ни один из студентов не сдал тест.
+      - eng: There’s none left in the fridge.
+        ru: В холодильнике ничего не осталось.
+      - eng: None of us knew about it.
+        ru: Никто из нас не знал об этом.
+  all(indefinite):
+    ipa: /ɔːl/
+    translation: все(indefinite), всё(indefinite)
+    examples:
+      - eng: All is well.
+        ru: Всё хорошо.
+      - eng: All the students passed the exam.
+        ru: Все студенты сдали экзамен.
+      - eng: She gave all her time to the project.
+        ru: Она отдала всё своё время проекту.
+      - eng: All of us were excited.
+        ru: Все мы были взволнованы.
+      - eng: All the cookies are gone.
+        ru: Все печенья закончились.
+  one:
+    ipa: /wʌn/
+    translation: один, кто-то(formal/устар.)
+    examples:
+      - eng: One should always be polite.
+        ru: Всегда нужно быть вежливым.
+      - eng: One of the students is absent.
+        ru: Один из студентов отсутствует.
+      - eng: Do you want one or two cups of coffee?
+        ru: Ты хочешь одну или две чашки кофе?
+      - eng: One must respect others.
+        ru: Нужно уважать других.
+      - eng: She bought one for herself.
+        ru: Она купила один для себя.
+  someone:
+    ipa: /ˈsʌmwʌn/
+    translation: кто-то(formal)
+    examples:
+      - eng: Someone is at the door.
+        ru: Кто-то у двери.
+      - eng: Someone left their phone here.
+        ru: Кто-то оставил здесь свой телефон.
+      - eng: She met someone new yesterday.
+        ru: Она встретила кого-то нового вчера.
+      - eng: Someone should take responsibility.
+        ru: Кто-то должен взять на себя ответственность.
+      - eng: Is someone coming to help us?
+        ru: Кто-то придёт, чтобы помочь нам?
+  anyone:
+    ipa: /ˈɛniwʌn/
+    translation: кто угодно(formal)
+    examples:
+      - eng: Is there anyone who can help?
+        ru: Есть кто-нибудь, кто может помочь?
+      - eng: Anyone can join the club.
+        ru: Любой может вступить в клуб.
+      - eng: Did anyone call while I was out?
+        ru: Кто-нибудь звонил, пока меня не было?
+      - eng: Does anyone know the answer?
+        ru: Кто-нибудь знает ответ?
+      - eng: Anyone can learn to swim.
+        ru: Каждый может научиться плавать.
+  no one(indefinite):
+    ipa: /ˈnoʊ wʌn/
+    translation: никто(indefinite/formal)
+    examples:
+      - eng: No one knows the answer.
+        ru: Никто не знает ответа.
+      - eng: No one came to the meeting.
+        ru: Никто не пришёл на встречу.
+      - eng: No one can solve this problem.
+        ru: Никто не может решить эту проблему.
+      - eng: She told no one about her plans.
+        ru: Она никому не рассказала о своих планах.
+      - eng: No one is allowed to enter.
+        ru: Никому не разрешено входить.
+  everyone:
+    ipa: /ˈɛvrɪwʌn/
+    translation: каждый(formal)
+    examples:
+      - eng: Everyone is here.
+        ru: Все здесь.
+      - eng: Everyone enjoyed the party.
+        ru: Всем понравилась вечеринка.
+      - eng: Everyone should contribute to the project.
+        ru: Каждый должен внести свой вклад в проект.
+      - eng: Everyone knows the story.
+        ru: Все знают эту историю.
+      - eng: Everyone is welcome to join.
+        ru: Всем рады присоединиться.
+  somebody:
+    ipa: /ˈsʌmbɒdi/
+    translation: кто-то(casual)
+    examples:
+      - eng: Somebody left their bag.
+        ru: Кто-то оставил свою сумку.
+      - eng: Somebody is waiting for you outside.
+        ru: Кто-то ждёт тебя снаружи.
+      - eng: Somebody called while you were out.
+        ru: Кто-то звонил, пока тебя не было.
+      - eng: I think somebody forgot their keys.
+        ru: Думаю, кто-то забыл свои ключи.
+      - eng: Somebody needs to take action.
+        ru: Кто-то должен принять меры.
+  anybody:
+    ipa: /ˈɛnibɒdi/
+    translation: кто угодно(casual)
+    examples:
+      - eng: Anybody can do it.
+        ru: Кто угодно может это сделать.
+      - eng: Is there anybody home?
+        ru: Есть кто-нибудь дома?
+      - eng: Does anybody know where she is?
+        ru: Кто-нибудь знает, где она?
+      - eng: Anybody can join this event.
+        ru: Любой может присоединиться к этому событию.
+      - eng: I didn’t see anybody there.
+        ru: Я никого там не видел.
+  nobody(indefinite):
+    ipa: /ˈnoʊbɒdi/
+    translation: никто(indefinite/casual)
+    examples:
+      - eng: Nobody was home.
+        ru: Никого не было дома.
+      - eng: Nobody called me today.
+        ru: Никто не звонил мне сегодня.
+      - eng: Nobody understands this problem.
+        ru: Никто не понимает эту проблему.
+      - eng: Nobody has the answer.
+        ru: Никто не знает ответа.
+      - eng: Nobody can replace her.
+        ru: Никто не может её заменить.
+  everybody:
+    ipa: /ˈɛvrɪbɒdi/
+    translation: каждый(casual)
+    examples:
+      - eng: Everybody loves music.
+        ru: Все любят музыку.
+      - eng: Everybody was invited to the party.
+        ru: Все были приглашены на вечеринку.
+      - eng: Does everybody agree with this idea?
+        ru: Все согласны с этой идеей?
+      - eng: Everybody is working hard.
+        ru: Все работают усердно.
+      - eng: Everybody should have a chance to speak.
+        ru: У всех должна быть возможность высказаться.
+
+Negative Pronouns (Отрицательные местоимения):
+  no one(negative):
+    ipa: /ˈnoʊ wʌn/
+    translation: никто(negative/formal)
+    examples:
+      - eng: No one can enter.
+        ru: Никто не может войти.
+      - eng: No one knew the answer.
+        ru: Никто не знал ответа.
+      - eng: No one wants to leave early.
+        ru: Никто не хочет уходить рано.
+      - eng: No one saw what happened.
+        ru: Никто не видел, что произошло.
+      - eng: No one was ready for the test.
+        ru: Никто не был готов к тесту.
+  nobody(negative):
+    ipa: /ˈnoʊbɒdi/
+    translation: никто(negative/casual)
+    examples:
+      - eng: Nobody saw him.
+        ru: Никто его не видел.
+      - eng: Nobody was in the room.
+        ru: Никого не было в комнате.
+      - eng: Nobody can help with this task.
+        ru: Никто не может помочь с этим заданием.
+      - eng: Nobody believed her story.
+        ru: Никто не поверил её истории.
+      - eng: Nobody is answering the phone.
+        ru: Никто не отвечает на телефон.
+  none(negative):
+    ipa: /nʌn/
+    translation: никто(negative/for-group)
+    examples:
+      - eng: None of them agreed.
+        ru: Никто из них не согласился.
+      - eng: None of the plans worked.
+        ru: Ни один из планов не сработал.
+      - eng: None of the students passed the exam.
+        ru: Никто из студентов не сдал экзамен.
+      - eng: None of us knew what to do.
+        ru: Никто из нас не знал, что делать.
+      - eng: None of the cookies are left.
+        ru: Печенье закончилось.
+  nothing:
+    ipa: /ˈnʌθɪŋ/
+    translation: ничего
+    examples:
+      - eng: There is nothing to worry about.
+        ru: Не о чем волноваться.
+      - eng: She has nothing to say.
+        ru: Ей нечего сказать.
+      - eng: Nothing is more important than health.
+        ru: Ничего нет важнее здоровья.
+      - eng: I have nothing in my pockets.
+        ru: У меня ничего нет в карманах.
+      - eng: Nothing will stop us.
+        ru: Ничто нас не остановит.
+
+Reciprocal Pronouns (Взаимные местоимения):
+  each other:
+    ipa: /iːtʃ ˈʌðər/
+    translation: друг друга(для двух)
+    examples:
+      - eng: They respect each other.
+        ru: Они уважают друг друга.
+      - eng: We help each other with our tasks.
+        ru: Мы помогаем друг другу с задачами.
+      - eng: The twins often fight with each other.
+        ru: Близнецы часто ссорятся друг с другом.
+      - eng: They looked at each other and smiled.
+        ru: Они посмотрели друг на друга и улыбнулись.
+      - eng: The students shared their books with each other.
+        ru: Студенты поделились своими книгами друг с другом.
+  one another:
+    ipa: /wʌn əˈnʌðər/
+    translation: друг друга(для трех и более)
+    examples:
+      - eng: We should help one another.
+        ru: Нам следует помогать друг другу.
+      - eng: They care for one another deeply.
+        ru: Они глубоко заботятся друг о друге.
+      - eng: The neighbors support one another.
+        ru: Соседи поддерживают друг друга.
+      - eng: They smiled at one another warmly.
+        ru: Они тепло улыбнулись друг другу.
+      - eng: One another’s ideas were discussed in the meeting.
+        ru: На собрании обсуждали идеи друг друга.
+
+Determiners/Quantifiers (Определительные местоимения):
+  all(determiners):
+    ipa: /ɔːl/
+    translation: всё(determiners), все(determiners)
+    examples:
+      - eng: All children like to play.
+        ru: Все дети любят играть.
+      - eng: All the books are on the table.
+        ru: Все книги на столе.
+      - eng: She gave all her money to charity.
+        ru: Она отдала все свои деньги на благотворительность.
+      - eng: All we can do is wait.
+        ru: Всё, что мы можем сделать, — это ждать.
+      - eng: All the seats are taken.
+        ru: Все места заняты.
+  both:
+    ipa: /boʊθ/
+    translation: оба
+    examples:
+      - eng: Both options are good.
+        ru: Оба варианта хороши.
+      - eng: We visited both cities during our trip.
+        ru: Мы посетили оба города во время поездки.
+      - eng: Both of them are my friends.
+        ru: Оба из них мои друзья.
+      - eng: She likes both tea and coffee.
+        ru: Ей нравятся и чай, и кофе.
+      - eng: Both answers are correct.
+        ru: Оба ответа верны.
+  either:
+    ipa: /ˈiːðər/ or /ˈaɪðər/
+    translation: любой из двух
+    examples:
+      - eng: Either day works for me.
+        ru: Любой из двух дней мне подходит.
+      - eng: You can take either book.
+        ru: Ты можешь взять любую из двух книг.
+      - eng: Either option is fine.
+        ru: Любой вариант подойдёт.
+      - eng: You can choose either path.
+        ru: Ты можешь выбрать любой из двух путей.
+      - eng: I don’t think either of us knows the answer.
+        ru: Думаю, ни один из нас не знает ответа.
+  neither:
+    ipa: /ˈnaɪðər/ or /ˈniːðər/
+    translation: ни один из двух
+    examples:
+      - eng: Neither answer is correct.
+        ru: Ни один из ответов не верен.
+      - eng: Neither of them was available.
+        ru: Никто из них не был доступен.
+      - eng: She liked neither dress.
+        ru: Ей не понравилось ни одно платье.
+      - eng: Neither of the roads leads to the city.
+        ru: Ни одна из дорог не ведёт к городу.
+      - eng: Neither team won the match.
+        ru: Ни одна команда не выиграла матч.
+  each:
+    ipa: /iːtʃ/
+    translation: каждый(по отдельности)
+    examples:
+      - eng: Each student has a book.
+        ru: У каждого студента есть книга.
+      - eng: Each of us has a role to play.
+        ru: У каждого из нас есть своя роль.
+      - eng: Each house in the village is unique.
+        ru: Каждый дом в деревне уникален.
+      - eng: Each member contributed to the project.
+        ru: Каждый участник внёс свой вклад в проект.
+      - eng: She gave a gift to each child.
+        ru: Она подарила подарок каждому ребёнку.
+  every:
+    ipa: /ˈɛvri/
+    translation: каждый(из всех)
+    examples:
+      - eng: Every person has a chance.
+        ru: У каждого человека есть шанс.
+      - eng: Every child deserves an education.
+        ru: Каждый ребёнок заслуживает образования.
+      - eng: Every day brings new opportunities.
+        ru: Каждый день приносит новые возможности.
+      - eng: Every house on the street is decorated.
+        ru: Каждый дом на улице украшен.
+      - eng: I visit my grandmother every weekend.
+        ru: Я навещаю бабушку каждые выходные.
+  many:
+    ipa: /ˈmɛni/
+    translation: много(countable)
+    examples:
+      - eng: Many people agree.
+        ru: Многие согласны.
+      - eng: There are many ways to solve this problem.
+        ru: Существует много способов решить эту проблему.
+      - eng: She has many friends.
+        ru: У неё много друзей.
+      - eng: Many of the participants arrived late.
+        ru: Многие участники опоздали.
+      - eng: He made many mistakes in the test.
+        ru: Он сделал много ошибок в тесте.
+  much:
+    ipa: /mʌtʃ/
+    translation: много(uncountable)
+    examples:
+      - eng: There isn’t much time.
+        ru: Времени немного.
+      - eng: How much water do you need?
+        ru: Сколько воды тебе нужно?
+      - eng: She doesn’t have much experience.
+        ru: У неё не так много опыта.
+      - eng: He ate too much cake.
+        ru: Он съел слишком много торта.
+      - eng: Is there much work left to do?
+        ru: Осталось ли много работы?
+  several:
+    ipa: /ˈsɛvrəl/
+    translation: несколько(determiners)
+    examples:
+      - eng: Several cars are parked outside.
+        ru: Несколько машин припаркованы снаружи.
+      - eng: She invited several friends to the party.
+        ru: Она пригласила несколько друзей на вечеринку.
+      - eng: There are several options to choose from.
+        ru: Есть несколько вариантов на выбор.
+      - eng: He spent several days in the hospital.
+        ru: Он провёл несколько дней в больнице.
+      - eng: I’ve been to Paris several times.
+        ru: Я был в Париже несколько раз.
+  few:
+    ipa: /fjuː/
+    translation: немного(determiners)
+    examples:
+      - eng: Few people attended the meeting.
+        ru: Мало людей пришли на встречу.
+      - eng: She has only a few close friends.
+        ru: У неё есть только несколько близких друзей.
+      - eng: There are a few things we need to discuss.
+        ru: Есть несколько вещей, которые нам нужно обсудить.
+      - eng: He made a few good points in his speech.
+        ru: Он сделал несколько хороших замечаний в своей речи.
+      - eng: Few students understood the lesson.
+        ru: Мало студентов поняли урок.

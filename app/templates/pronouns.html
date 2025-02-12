@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!--  {'category_eng': 'Personal Pronouns, object form', -->
+<!--   'category_ru': 'личные местоимения, косвенные падежи', -->
+<!--   'estimate': 'F', -->
+<!--   'example_eng': 'He remembered us from school.', -->
+<!--   'example_ru': 'Он вспомнил нас из школы.', -->
+<!--   'id': 168, -->
+<!--   'ipa': '/ʌs/', -->
+<!--   'is_suspicious': 0, -->
+<!--   'number': 'plural', -->
+<!--   'person': 1, -->
+<!--   'points': 0, -->
+<!--   'pronoun': 'us(personal-object/родительный)', -->
+<!--   'pronoun_clean': 'us', -->
+<!--   'pronoun_details': 'personal-object/родительный', -->
+<!--   'translation': 'нас(п.род)', -->
+<!--   'translation_clean': 'нас', -->
+<!--   'translation_details': 'п.род'}] -->
+<html>
+<head>
+  <title>Pronouns</title>
+</head>
+<body>
+  <h1>{{ q.category_eng }}</h1>
+  <h3>({{ q.category_ru }})</h3>
+  <form action="/mode/pronouns" method="post">
+      <p>{{ q_text | safe }}</p>
+      <button type="submit">Send</button>
+  </form>
+  {% if result is not none %}
+      <p>Your answer: {{ answer }}</p>
+      <p>{% if result %}✔ Correct!{% else %}❌ Incorrect! The correct answer is: {{ q.pronoun_clean }}{% endif %}</p>
+  {% endif %}
+</body>
+</html>

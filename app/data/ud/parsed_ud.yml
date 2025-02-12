@@ -1,0 +1,286 @@
+total:
+  DEPREL:
+    - "acl (adnominal clause / адъективная придаточная)"
+    - "acl:relcl (relative clause / относительная придаточная)"
+    - "advcl (adverbial clause / обстоятельственная придаточная)"
+    - "advcl:relcl (relative adverbial clause / относительная обстоятельственная)"
+    - "advmod (adverbial modifier / обстоятельственное определение)"
+    - "amod (adjectival modifier / атрибутивное определение)"
+    - "appos (apposition / приложение)"
+    - "aux (auxiliary / вспомогательный глагол)"
+    - "aux:pass (passive auxiliary / вспомогательный пассив)"
+    - "case (case marker / показатель падежа)"
+    - "cc (coordinating conjunction / сочинительный союз)"
+    - "cc:preconj (preconjunct / предваряющий союз)"
+    - "ccomp (clausal complement / клаузальное дополнение)"
+    - "compound (compound / составное слово)"
+    - "compound:prt (phrasal verb particle / частица фразового глагола)"
+    - "conj (conjunct / сочиненный элемент)"
+    - "cop (copula / связка)"
+    - "csubj (clausal subject / клаузальное подлежащее)"
+    - "csubj:outer (outer clausal subject / внешнее клаузальное подлежащее)"
+    - "csubj:pass (passive clausal subject / клаузальное пассивное подлежащее)"
+    - "dep (unspecified dependent / неуточненное зависимое)"
+    - "det (determiner / детерминатив)"
+    - "det:predet (predeterminer / предваряющий детерминатив)"
+    - "discourse (discourse element / дискурсивный элемент)"
+    - "dislocated (dislocated element / смещенный элемент)"
+    - "expl (expletive / экзистенциальный элемент)"
+    - "fixed (fixed expression / устойчивое выражение)"
+    - "flat (flat structure / плоская структура)"
+    - "goeswith (goes with / восстанавливаемое слово)"
+    - "iobj (indirect object / косвенное дополнение)"
+    - "list (list / перечисление)"
+    - "mark (marker / маркер подчинения)"
+    - "nmod (nominal modifier / номинальное определение)"
+    - "nmod:desc (descriptive nominal modifier / описательное номинальное определение)"
+    - "nmod:poss (possessive nominal modifier / притяжательное номинальное определение)"
+    - "nmod:unmarked (unmarked nominal modifier / немаркированное номинальное определение)"
+    - "nsubj (nominal subject / номинальное подлежащее)"
+    - "nsubj:outer (outer nominal subject / внешнее номинальное подлежащее)"
+    - "nsubj:pass (passive nominal subject / номинальное пассивное подлежащее)"
+    - "nummod (numeral modifier / числовое определение)"
+    - "obj (object / прямое дополнение)"
+    - "obl (oblique modifier / косвенное дополнение)"
+    - "obl:agent (agent modifier / агентивное определение)"
+    - "obl:unmarked (unmarked oblique modifier / немаркированное косвенное дополнение)"
+    - "orphan (orphan / осиротевший элемент)"
+    - "parataxis (parataxis / паратаксис)"
+    - "punct (punctuation / пунктуация)"
+    - "reparandum (reparandum / исправляемое слово)"
+    - "root (root / корень)"
+    - "vocative (vocative / звательная форма)"
+    - "xcomp (open clausal complement / открытое клаузальное дополнение)"
+  UPOS:
+    - "ADJ (adjective / прилагательное)"
+    - "ADP (adposition / предлог или послелог)"
+    - "ADV (adverb / наречие)"
+    - "AUX (auxiliary verb / вспомогательный глагол)"
+    - "CCONJ (coordinating conjunction / сочинительный союз)"
+    - "DET (determiner / детерминатив)"
+    - "INTJ (interjection / междометие)"
+    - "NOUN (noun / существительное)"
+    - "NUM (numeral / числительное)"
+    - "PART (particle / частица)"
+    - "PRON (pronoun / местоимение)"
+    - "PROPN (proper noun / имя собственное)"
+    - "PUNCT (punctuation / пунктуация)"
+    - "SCONJ (subordinating conjunction / подчинительный союз)"
+    - "SYM (symbol / символ)"
+    - "VERB (verb / глагол)"
+    - "X (other / прочее)"
+  XPOS:
+    - "$ (symbol / символ, например, $)"
+    - "'' (closing quotation mark / закрывающая кавычка)"
+    - ", (comma / запятая)"
+    - "-LRB- (left round bracket / левая круглая скобка)"
+    - "-RRB- (right round bracket / правая круглая скобка)"
+    - ". (period / точка)"
+    - ": (colon / двоеточие)"
+    - "ADD (additional / дополнительное, часто используется для нерегулярных текстов)"
+    - "AFX (affix / аффикс)"
+    - "CC (coordinating conjunction / сочинительный союз)"
+    - "CD (cardinal number / количественное числительное)"
+    - "DT (determiner / детерминатив)"
+    - "EX (existential there / бытийное there)"
+    - "FW (foreign word / иностранное слово)"
+    - "GW (goes with / частицы или слова, идущие вместе)"
+    - "HYPH (hyphen / дефис)"
+    - "IN (preposition or subordinating conjunction / предлог или подчинительный союз)"
+    - "JJ (adjective / прилагательное)"
+    - "JJR (comparative adjective / сравнительная степень прилагательного)"
+    - "JJS (superlative adjective / превосходная степень прилагательного)"
+    - "LS (list item marker / маркер пункта списка)"
+    - "MD (modal auxiliary / модальный глагол)"
+    - "NFP (non-final punctuation / неконечный знак пунктуации)"
+    - "NN (noun, singular or mass / существительное, единственное число или неисчисляемое)"
+    - "NNP (proper noun, singular / имя собственное, единственное число)"
+    - "NNPS (proper noun, plural / имя собственное, множественное число)"
+    - "NNS (noun, plural / существительное, множественное число)"
+    - "PDT (predeterminer / преддетерминатив)"
+    - "POS (possessive ending / притяжательное окончание)"
+    - "PRP (personal pronoun / личное местоимение)"
+    - "PRP$ (possessive pronoun / притяжательное местоимение)"
+    - "RB (adverb / наречие)"
+    - "RBR (comparative adverb / сравнительная степень наречия)"
+    - "RBS (superlative adverb / превосходная степень наречия)"
+    - "RP (particle / частица)"
+    - "SYM (symbol / символ)"
+    - "TO (to / частица to)"
+    - "UH (interjection / междометие)"
+    - "VB (verb, base form / глагол, базовая форма)"
+    - "VBD (verb, past tense / глагол, прошедшее время)"
+    - "VBG (verb, gerund or present participle / глагол, герундий или настоящее причастие)"
+    - "VBN (verb, past participle / глагол, причастие прошедшего времени)"
+    - "VBP (verb, non-3rd person singular present / глагол, настоящее время, не 3-е лицо единственного числа)"
+    - "VBZ (verb, 3rd person singular present / глагол, настоящее время, 3-е лицо единственного числа)"
+    - "WDT (wh-determiner / вопросительный детерминатив)"
+    - "WP (wh-pronoun / вопросительное местоимение)"
+    - "WP$ (possessive wh-pronoun / притяжательное вопросительное местоимение)"
+    - "WRB (wh-adverb / вопросительное наречие)"
+    - "_ (placeholder / заполнитель)"
+    - "`` (opening quotation mark / открывающая кавычка)"
+    - "VERB (general verb category / общая категория глаголов)"
+  DEPREL -> UPOS:
+    acl: ADJ, ADP, ADV, AUX, NOUN, NUM, PART, PRON, PROPN, SYM, VERB
+    acl:relcl: ADJ, ADP, ADV, AUX, DET, INTJ, NOUN, NUM, PRON, PROPN, SYM, VERB
+    advcl: ADJ, ADP, ADV, AUX, DET, INTJ, NOUN, NUM, PART, PRON, PROPN, SYM, VERB, X
+    advcl:relcl: ADJ, ADP, ADV, AUX, NOUN, NUM, PRON, VERB
+    advmod: ADJ, ADP, ADV, DET, NOUN, PART, PRON, SYM
+    amod: ADJ, ADP, ADV, NUM, PART, PRON, SYM, VERB, X
+    appos: ADJ, ADV, AUX, CCONJ, DET, INTJ, NOUN, NUM, PRON, PROPN, SYM, VERB, X
+    aux: AUX
+    aux:pass: AUX
+    case: ADJ, ADP, ADV, INTJ, NOUN, PART, SCONJ, SYM, VERB, X
+    cc: ADP, ADV, CCONJ, PART, SYM, VERB, X
+    cc:preconj: CCONJ
+    ccomp: ADJ, ADP, ADV, AUX, DET, INTJ, NOUN, NUM, PART, PRON, PROPN, SCONJ, SYM, VERB, X
+    compound: ADJ, ADP, ADV, AUX, CCONJ, DET, INTJ, NOUN, NUM, PART, PRON, PROPN, SYM, VERB, X
+    compound:prt: ADP
+    conj: ADJ, ADP, ADV, AUX, CCONJ, DET, INTJ, NOUN, NUM, PART, PRON, PROPN, SCONJ, SYM, VERB, X
+    cop: AUX
+    csubj: ADJ, ADV, AUX, NOUN, PART, PRON, PROPN, VERB
+    csubj:outer: NOUN, VERB
+    csubj:pass: ADJ, AUX, NOUN, VERB
+    dep: ADJ, ADP, ADV, AUX, INTJ, NOUN, NUM, PRON, PROPN, SYM, VERB, X
+    det: DET, PRON
+    det:predet: DET, PRON
+    discourse: ADJ, ADV, INTJ, NOUN, NUM, PRON, SYM, VERB, X
+    dislocated: DET, NOUN, NUM, PRON, PROPN, VERB
+    expl: PRON
+    fixed: ADJ, ADP, ADV, AUX, CCONJ, DET, NOUN, PART, SCONJ, VERB, X
+    flat: ADJ, ADP, INTJ, NOUN, NUM, PROPN, SYM, X
+    goeswith: X
+    iobj: DET, NOUN, NUM, PRON, PROPN
+    list: ADJ, NOUN, NUM, PROPN, SYM, VERB, X
+    mark: ADJ, ADP, ADV, PART, SCONJ, VERB
+    nmod: ADJ, ADP, ADV, CCONJ, DET, INTJ, NOUN, NUM, PART, PRON, PROPN, SYM, VERB, X
+    nmod:desc: NOUN
+    nmod:poss: ADV, DET, INTJ, NOUN, NUM, PRON, PROPN, X
+    nmod:unmarked: ADJ, DET, NOUN, NUM, PRON, PROPN, SYM, X
+    nsubj: ADJ, ADV, DET, INTJ, NOUN, NUM, PRON, PROPN, SYM, VERB, X
+    nsubj:outer: ADJ, DET, NOUN, NUM, PRON, PROPN
+    nsubj:pass: ADJ, ADV, DET, NOUN, NUM, PRON, PROPN, SYM, VERB
+    nummod: NOUN, NUM, SYM
+    obj: ADJ, ADV, DET, INTJ, NOUN, NUM, PRON, PROPN, SYM, VERB, X
+    obl: ADJ, ADP, ADV, DET, INTJ, NOUN, NUM, PRON, PROPN, SYM, VERB, X
+    obl:agent: ADJ, ADV, DET, NOUN, NUM, PRON, PROPN, X
+    obl:unmarked: ADJ, ADV, DET, NOUN, NUM, PRON, PROPN, SYM, X
+    orphan: ADJ, ADV, AUX, NOUN, NUM, PRON, PROPN, VERB, X
+    parataxis: ADJ, ADV, AUX, DET, INTJ, NOUN, NUM, PART, PRON, PROPN, SYM, VERB, X
+    punct: PUNCT
+    reparandum: ADJ, ADP, ADV, AUX, CCONJ, DET, INTJ, NOUN, NUM, PART, PRON, PROPN, SCONJ, VERB
+    root: ADJ, ADP, ADV, AUX, CCONJ, DET, INTJ, NOUN, NUM, PART, PRON, PROPN, SYM, VERB, X
+    vocative: DET, NOUN, NUM, PRON, PROPN
+    xcomp: ADJ, ADV, AUX, DET, NOUN, NUM, PART, PRON, PROPN, SYM, VERB, X
+EWT:
+  DEPREL: acl, acl:relcl, advcl, advcl:relcl, advmod, amod, appos, aux, aux:pass, case, cc, cc:preconj, ccomp, compound, compound:prt, conj, cop, csubj, csubj:outer, csubj:pass, dep, det, det:predet, discourse, dislocated, expl, fixed, flat, goeswith, iobj, list, mark, nmod, nmod:desc, nmod:poss, nmod:unmarked, nsubj, nsubj:outer, nsubj:pass, nummod, obj, obl, obl:agent, obl:unmarked, orphan, parataxis, punct, reparandum, root, vocative, xcomp
+  UPOS: ADJ, ADP, ADV, AUX, CCONJ, DET, INTJ, NOUN, NUM, PART, PRON, PROPN, PUNCT, SCONJ, SYM, VERB, X
+  XPOS: $, '', ,, -LRB-, -RRB-, ., :, ADD, AFX, CC, CD, DT, EX, FW, GW, HYPH, IN, JJ, JJR, JJS, LS, MD, NFP, NN, NNP, NNPS, NNS, PDT, POS, PRP, PRP$, RB, RBR, RBS, RP, SYM, TO, UH, VB, VBD, VBG, VBN, VBP, VBZ, WDT, WP, WP$, WRB, _, ``
+  DEPREL -> UPOS:
+    acl: ADJ, ADP, ADV, AUX, NOUN, PRON, PROPN, VERB
+    acl:relcl: ADJ, ADP, ADV, AUX, NOUN, NUM, PRON, PROPN, SYM, VERB
+    advcl: ADJ, ADV, AUX, DET, INTJ, NOUN, NUM, PART, PRON, PROPN, SYM, VERB
+    advcl:relcl: ADJ, ADV, AUX, NOUN, PRON, VERB
+    advmod: ADJ, ADP, ADV, DET, NOUN, PART, PRON, SYM
+    amod: ADJ, NUM, PART, SYM, VERB, X
+    appos: ADJ, DET, NOUN, NUM, PRON, PROPN, SYM, VERB, X
+    aux: AUX
+    aux:pass: AUX
+    case: ADJ, ADP, ADV, PART, SCONJ, SYM, VERB, X
+    cc: ADP, ADV, CCONJ, PART, SYM, VERB, X
+    cc:preconj: CCONJ
+    ccomp: ADJ, ADV, AUX, DET, INTJ, NOUN, NUM, PART, PRON, PROPN, SCONJ, SYM, VERB
+    compound: ADJ, ADP, ADV, AUX, CCONJ, NOUN, NUM, PART, PRON, PROPN, SYM, VERB, X
+    compound:prt: ADP
+    conj: ADJ, ADP, ADV, AUX, CCONJ, DET, INTJ, NOUN, NUM, PART, PRON, PROPN, SCONJ, SYM, VERB, X
+    cop: AUX
+    csubj: ADJ, ADV, NOUN, PART, PROPN, VERB
+    csubj:outer: VERB
+    csubj:pass: NOUN, VERB
+    dep: ADP, ADV, NOUN
+    det: DET, PRON
+    det:predet: DET, PRON
+    discourse: ADJ, ADV, INTJ, NOUN, NUM, PROPN, SYM, VERB, X
+    dislocated: NOUN
+    expl: PRON
+    fixed: ADJ, ADP, ADV, AUX, CCONJ, DET, NOUN, PART, SCONJ, VERB
+    flat: NOUN, NUM, PROPN, X
+    goeswith: X
+    iobj: DET, NOUN, NUM, PRON, PROPN
+    list: ADJ, NOUN, NUM, PROPN, SYM, VERB, X
+    mark: ADJ, ADP, ADV, PART, SCONJ, VERB
+    nmod: ADJ, ADP, ADV, CCONJ, DET, INTJ, NOUN, NUM, PRON, PROPN, SYM, VERB, X
+    nmod:desc: NOUN
+    nmod:poss: DET, INTJ, NOUN, NUM, PRON, PROPN
+    nmod:unmarked: ADJ, DET, NOUN, NUM, PRON, PROPN, SYM, X
+    nsubj: ADJ, DET, NOUN, NUM, PRON, PROPN, SYM, VERB
+    nsubj:outer: ADJ, DET, NOUN, NUM, PRON
+    nsubj:pass: ADJ, DET, NOUN, NUM, PRON, PROPN, SYM
+    nummod: NOUN, NUM
+    obj: ADJ, ADV, DET, INTJ, NOUN, NUM, PRON, PROPN, SYM, VERB, X
+    obl: ADJ, ADP, ADV, DET, NOUN, NUM, PRON, PROPN, SYM, X
+    obl:agent: ADJ, DET, NOUN, NUM, PRON, PROPN
+    obl:unmarked: ADJ, ADV, DET, NOUN, NUM, PRON, PROPN, SYM, X
+    orphan: ADJ, ADV, NOUN, VERB
+    parataxis: ADJ, ADV, AUX, DET, INTJ, NOUN, NUM, PART, PRON, PROPN, SYM, VERB, X
+    punct: PUNCT
+    reparandum: ADP, AUX, DET, NOUN, NUM, PART, PRON, PROPN, SCONJ, SYM, VERB
+    root: ADJ, ADV, AUX, DET, INTJ, NOUN, NUM, PART, PRON, PROPN, PUNCT, SYM, VERB, X
+    vocative: DET, NOUN, NUM, PRON, PROPN
+    xcomp: ADJ, ADV, AUX, DET, NOUN, NUM, PART, PRON, PROPN, SYM, VERB
+GUM:
+  DEPREL: acl, acl:relcl, advcl, advcl:relcl, advmod, amod, appos, aux, aux:pass, case, cc, cc:preconj, ccomp, compound, compound:prt, conj, cop, csubj, csubj:outer, csubj:pass, dep, det, det:predet, discourse, dislocated, expl, fixed, flat, goeswith, iobj, list, mark, nmod, nmod:poss, nmod:unmarked, nsubj, nsubj:outer, nsubj:pass, nummod, obj, obl, obl:agent, obl:unmarked, orphan, parataxis, punct, reparandum, root, vocative, xcomp
+  UPOS: ADJ, ADP, ADV, AUX, CCONJ, DET, INTJ, NOUN, NUM, PART, PRON, PROPN, PUNCT, SCONJ, SYM, VERB, X
+  XPOS: $, '', ,, -LRB-, -RRB-, ., :, CC, CD, DT, EX, FW, GW, HYPH, IN, JJ, JJR, JJS, LS, MD, NN, NNP, NNPS, NNS, PDT, POS, PRP, PRP$, RB, RBR, RBS, RP, SYM, TO, UH, VB, VBD, VBG, VBN, VBP, VBZ, VERB, WDT, WP, WP$, WRB, _, ``
+  DEPREL -> UPOS:
+    acl: ADJ, ADV, AUX, NOUN, NUM, PART, PRON, PROPN, SYM, VERB
+    acl:relcl: ADJ, ADP, ADV, AUX, DET, INTJ, NOUN, NUM, PRON, PROPN, SYM, VERB
+    advcl: ADJ, ADP, ADV, AUX, DET, INTJ, NOUN, NUM, PART, PRON, PROPN, VERB, X
+    advcl:relcl: ADJ, ADP, ADV, AUX, NOUN, NUM, PRON, VERB
+    advmod: ADJ, ADP, ADV, DET, NOUN, PART, PRON, SYM
+    amod: ADJ, ADP, ADV, NUM, PRON, VERB, X
+    appos: ADJ, ADV, AUX, CCONJ, DET, INTJ, NOUN, NUM, PRON, PROPN, SYM, VERB, X
+    aux: AUX
+    aux:pass: AUX
+    case: ADJ, ADP, ADV, INTJ, NOUN, PART, SYM, VERB, X
+    cc: ADV, CCONJ, SYM, X
+    cc:preconj: CCONJ
+    ccomp: ADJ, ADP, ADV, AUX, INTJ, NOUN, NUM, PRON, PROPN, SCONJ, VERB, X
+    compound: ADJ, ADP, ADV, AUX, DET, INTJ, NOUN, NUM, PRON, PROPN, SYM, VERB, X
+    compound:prt: ADP
+    conj: ADJ, ADP, ADV, AUX, CCONJ, DET, INTJ, NOUN, NUM, PART, PRON, PROPN, SCONJ, SYM, VERB, X
+    cop: AUX
+    csubj: ADJ, ADV, AUX, NOUN, PRON, PROPN, VERB
+    csubj:outer: NOUN, VERB
+    csubj:pass: ADJ, NOUN, VERB
+    dep: ADJ, ADP, ADV, AUX, INTJ, NOUN, NUM, PRON, PROPN, SYM, VERB, X
+    det: DET
+    det:predet: DET
+    discourse: ADJ, ADV, INTJ, NOUN, NUM, PRON, SYM, VERB, X
+    dislocated: DET, NOUN, NUM, PRON, PROPN, VERB
+    expl: PRON
+    fixed: ADJ, ADP, ADV, AUX, DET, NOUN, SCONJ, VERB, X
+    flat: ADJ, ADP, INTJ, NOUN, NUM, PROPN, SYM, X
+    goeswith: X
+    iobj: DET, NOUN, PRON, PROPN
+    list: NOUN, NUM, PROPN, SYM, X
+    mark: ADJ, ADV, PART, SCONJ, VERB
+    nmod: ADJ, ADP, ADV, CCONJ, DET, INTJ, NOUN, NUM, PART, PRON, PROPN, SYM, VERB, X
+    nmod:poss: ADV, DET, NOUN, NUM, PRON, PROPN, X
+    nmod:unmarked: ADJ, NOUN, NUM, PRON, PROPN, SYM, X
+    nsubj: ADJ, ADV, DET, INTJ, NOUN, NUM, PRON, PROPN, SYM, X
+    nsubj:outer: ADJ, DET, NOUN, NUM, PRON, PROPN
+    nsubj:pass: ADJ, ADV, DET, NOUN, NUM, PRON, PROPN, VERB
+    nummod: NOUN, NUM, SYM
+    obj: ADJ, ADV, DET, INTJ, NOUN, NUM, PRON, PROPN, SYM, X
+    obl: ADJ, ADP, ADV, DET, INTJ, NOUN, NUM, PRON, PROPN, SYM, VERB, X
+    obl:agent: ADJ, ADV, DET, NOUN, PRON, PROPN, X
+    obl:unmarked: ADJ, DET, NOUN, NUM, PRON, PROPN, SYM
+    orphan: ADV, AUX, NOUN, NUM, PRON, PROPN, VERB, X
+    parataxis: ADJ, ADV, AUX, DET, INTJ, NOUN, NUM, PART, PRON, PROPN, SYM, VERB, X
+    punct: PUNCT
+    reparandum: ADJ, ADP, ADV, AUX, CCONJ, DET, INTJ, NOUN, NUM, PART, PRON, PROPN, SCONJ, VERB
+    root: ADJ, ADP, ADV, AUX, CCONJ, DET, INTJ, NOUN, NUM, PART, PRON, PROPN, SYM, VERB, X
+    vocative: NOUN, PRON, PROPN
+    xcomp: ADJ, ADV, AUX, DET, NOUN, NUM, PART, PRON, PROPN, VERB, X
