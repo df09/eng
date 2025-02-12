@@ -1,0 +1,35 @@
+U.S. CUSTOMARY SYSTEM
+
+temperature:
+  C: −40, −35, −30, −25, −20, −15, −10, −5,  0,  5, 10, 15, 20, 25, 30, 35,  40
+  F: −40, −31, −22, −13,  −4,   5,  14, 23, 32, 41, 50, 59, 68, 77, 86, 95, 104
+
+lenght/weight/capacity:
+  +--------------------+------------+----------+
+  | Name               | Relation   | Metric   |
+  +--------------------+------------+----------+
+  | LENGHT:            |            |          |
+  | P  (pica)          | ...        | 4.233 mm |
+  | in (inch)          | 6    P     | 2.54 sm  |
+  | ft (foot)          | 12   in    | 30.48 sm |
+  | yd (yard)          | 3    ft    | 0,914 m  |
+  | mi (mile)          | 1760 yd    | 1,6 km   |
+  +--------------------+------------+----------+
+  | WEIGHT:            |            |          |
+  | dr  (dram)         | ...        | 1.7  g   |
+  | oz  (ounce)        | 16   dr    | 28.3 g   |
+  | lb  (pound)        | 16   oz    | 0.45 kg  |
+  | ton (ton)          | 2000 lb    | 907  kg  |
+  +--------------------+------------+----------+
+  | CAPACITY:          |            |          |
+  | tsp   (teaspoon)   | ...        | 4.9   ml |
+  | tbsp  (tablespoon) | 3    tsp   | 14.7  ml |
+  | fl oz (fluid oz)   | 2    tbsp  | 29.5  ml |
+  | jig   (shot)       | 1.5  fl oz | 44.3  ml |
+  | gi    (gill)       | 4    fl oz | 118.3 ml |
+  | c     (cup)        | 8    fl oz | 236.5 ml |
+  | pt    (pint)       | 16   fl oz | 0.47  l  |
+  | qt    (quart)      | 2    pt    | 0.95  l  |
+  | gal   (gallon)     | 4    qt    | 3.8   l  |
+  | bbl   (barrel)     | 31.5 gal   | 119   l  |
+  +--------------------+------------+----------+

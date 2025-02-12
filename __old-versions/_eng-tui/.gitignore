@@ -1,0 +1,11 @@
+# cache
+**/__pycache__
+curses
+logging
+signal
+time
+# special
+*.log
+data/users/*
+!data/users/_default
+./templates/cache/*

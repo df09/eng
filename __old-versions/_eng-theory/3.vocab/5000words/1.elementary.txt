@@ -1,0 +1,426 @@
+nature              природа                   
+flower              цветок                    
+water               вода                      
+air                 воздух                    
+life                жизнь                     
+death               смерть                    
+land                земля                     
+star                звезда                    
+grass               трава                     
+tree                дерево                    
+gold                золото                    
+silver              серебро                   
+sound               звук                      
+fire                огонь
+sky                 небо
+ground              земля                      
+sun                 солнце                     
+rain                дождь                      
+moon                луна                       
+stone               камень                     
+wind                ветер                      
+smoke               дым, курить                
+river               река                       
+sea                 море                       
+lake                озеро                      
+ocean               океан                      
+beach               пляж                       
+forest              лес                        
+ice                 лёд                        
+color               цвет                       
+weather             погода                     
+snow                снег                       
+animal              животное                   
+bird                птица                      
+egg                 яйцо                       
+dog                 собака                     
+cat                 кошка                      
+bear                медведь                    
+wolf                волк                       
+fox                 лиса                       
+fish                рыба                       
+dolphin             дельфин                    
+camel               верблюд                    
+horse               лошадь                     
+chicken             курица, цыплёнок           
+eagle               орёл
+cow                 корова
+duck                утка
+goose               гусь
+mouse               мышь
+pig                 свинья
+rat                 крыса
+bull                бык
+lion                лев
+bee                 пчела
+spider              паук
+elephant            слон
+monkey              обезьяна
+tiger               тигр
+fox                 лиса
+shit                дерьмо    
+
+people              люди
+man                 человек, мужик
+woman               женщина
+child               ребёнок
+person              человек
+family              семья
+mother              мать
+father              отец
+parent              родитель
+girl                девочка
+boy                 мальчик
+enemy               враг
+friend              друг
+wife                жена
+dad                 папа
+mom                 мама
+son                 сын
+baby (babe)         крошка
+brother             брат
+sister              сестра
+daughter            дочь
+husband             муж
+teacher             учитель
+soldier             солдат
+engineer            инженер
+policeman           полицейский
+guy                 парень, чувак
+girlfriend          девушка (его)
+boyfriend           парень (её)
+sir                 сэр                   
+
+body        тело          
+back        спина         
+finger      палец         
+hand        рука          
+head        голова        
+wing        крыло         
+face        лицо          
+brain       мозг          
+eye         глаз          
+nose        нос           
+ear         ухо           
+mouth       рот           
+foot        нога          
+heart       сердце        
+soul        душа          
+mind        разум         
+voice       голос         
+hair        волосы        
+blood       кровь         
+                          
+thing       вещь
+ring        кольцо
+toy         игрушка
+book        книга
+textbook    учебник
+notebook    тетрадь
+page        страница
+tale        сказка
+button      кнопка
+door        дверь
+car         автомобиль
+ship        корабль
+bus         автобус
+bike        мотоцикл
+pen         ручка
+pencil      карандаш
+mirror      зеркало
+news        новости
+map         карта
+bed         кровать
+picture     картинка
+table       стол
+wall        стена
+window      окно
+box         коробка
+present     подарок
+ball        мяч
+screen      экран
+net         сеть
+knife       нож
+spoon       ложка
+fork        вилка
+cup         чашка
+plate       тарелка
+clock       часы
+coin        монета
+device      прибор                              
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+
+
+
+
+
+
+time        время         
+year        год           
+hour        час           
+week        неделя        
+month       месяц         
+day         день          
+evening     вечер         
+night       ночь          
+morning     утро          
+January     январь        
+February    февраль       
+March       март          
+April       апрель        
+May         май           
+June        июнь          
+July        июль                       
+August      август
+September   сентябрь
+October     октябрь       food        еда
+November    ноябрь        breakfast   завтрак
+December    декабрь       lunch       обед
+Monday      понедельник   dinner      ужин
+Tuesday     вторник       supper      поздний ужин
+Wednesday   среда         bottle      бутылка
+Thursday    четверг       milk        молоко
+Friday      пятница       meat        мясо
+Saturday    суббота       sugar       сахар
+Sunday      воскресенье   cake        пироженое
+spring      весна         cheese      сыр
+summer      лето          fruit       фрукт
+autumn      осень         bread       хлеб
+winter      зима          tea         чай
+                          soup        суп
+                          pasta       макароны             
+
+beer        пиво           way            путь
+apple       яблоко         light          свет
+lemon       лимон          force          сила
+cherry      вишня          power          сила
+orange      апельсин       top            верх
+juice       сок            size           размер
+                           half           половина
+                           speed          скорость
+world       мир            luck           удача
+country     страна         trouble        проблема
+kingdom     королевство    fortune        удача, случай
+capital     столица        danger         опасность
+city        город          war            война
+place       место          victory        победа
+school      школа          peace          мир
+lesson      урок           holiday        праздник
+hospital    больница       web            сеть, паутина
+job         работа         mail           почта
+market      рынок
+street      улица
+road        дорога         do             делать
+town        город          have           иметь
+shop        магазин        go             идти
+money       деньги         get            получать
+price       цена           know           знать
+home        дом            make           делать
+house       дом            can/could      может / мог
+castle      замок          would/should   бы
+room        комната        must           должен
+kitchen     кухня          think          думать
+bedroom     спальня        like           любить
+toilet      туалет         see            видеть
+bathroom    ванная         take           брать
+word        слово          come           приходить
+letter      буква          work           работать
+message     сообщение      use            использовать
+speech      речь           look           смотреть
+song        песня          want           хотеть
+name        имя, назвать   hope           надеяться
+last name   фамилия        find           находить
+nickname    прозвище       give           давать
+question    вопрос         tell           говорить
+fun         веселье        call           звать
+truth       правда         need           нуждаться
+joke        шутка          may            мочь
+language    язык           wash           мыть
+game        игра           feel           чувствовать
+party       вечеринка      play           играть
+king        король         try            пробовать
+queen       королева       live           жить
+god         бог            show           показывать
+devil       дьявол         ask            спрашивать
+art         искусство      help           помогать
+hell        ад             talk           разговаривать
+paradise    рай            move           двигаться
+
+begin        начинать          push               толкать
+become       становиться       fall               падать
+build        строить           fly                летать
+start        начинать          hunt               охотиться
+change       изменять          finish             заканчивать
+let          позволять         delete             удалять
+run          бежать            sing               петь
+write        писать            cook               готовить
+keep         держать           dream              мечтать
+hold         держать           dance              танцевать
+repeat       повторять         sell               продавать
+put          класть            drink              пить
+end          заканчивать(ся)   respect            уважать
+study        учиться           enjoy              наслаждаться
+hear         слышать           forget             забывать
+teach        учить             wish               желать
+close        закрывать         cry                плакать
+open         открывать         mix                смешивать
+add          добавлять         print              печатать
+love         любить            jump               прыгать
+believe      верить            hate               ненавидеть
+read         читать            kiss               целовать
+mean         значить           excuse             извинять
+pay          платить           translate          переводить
+stand        стоять            swim               плавать
+understand   понимать          relax              расслабляться
+learn        учиться           fuck               трахать
+sit          сидеть
+win          побеждать
+break        ломать            more/most          более / наиболее
+lose         терять            less/least         менее / наименее
+lose         проигрывать       right              правый
+watch        смотреть          left               левый
+speak        говорить          new                новый
+stop         останавливать     good/better/best   хороший / лучший
+walk         идти пешком       bad/worse/worst    плохой / худший
+cut          резать            last               последний
+wait         ждать             own                собственный
+kill         убивать           usual              обычный
+buy          покупать          long               длинный
+remember     помнить           high               высокий
+die          умирать           little             маленький
+answer       отвечать          great              великий
+fight        драться           real               реальный
+pull         тянуть            each               каждый
+paint        рисовать          old                старый
+eat          есть              big                большой
+listen       слушать           same               тот же
+smile        улыбаться         next               следующий
+save         спасать           large              обширный
+choose       выбирать          kind               добрый
+sleep        спать             small              маленький
+travel       путешествовать    young              молодой
+fill         наполнять         beautiful          красивый
+                               cheap              дешёвый
+light             лёгкий               number      число
+dark              тёмный               zero                        0
+true              верный, правильный   one                         1
+hard              тяжёлый, жёсткий     two                         2
+soft              мягкий               three                       3
+close              близкий             four                        4
+far               далёкий              five                        5
+final             последний            six                         6
+low               низкий               seven                       7
+easy              лёгкий               eight                       8
+difficult         трудный              nine                        9
+strong            сильный              ten                        10
+quick             быстрый              eleven                     11
+short             короткий             twelve                     12
+slow              медленный            thirteen                   13
+dear              дорогой, уважаемый   fourteen                   14
+glad              радостный            fifteen                    15
+happy             счастливый           sixteen                    16
+drunk (drunken)   пьяный               seventeen                  17
+sad               грустный             eighteen                   18
+dead              мёртвый              nineteen                   19
+ready             готовый              twenty                     20
+fake              поддельный           hundred                   100
+social            общественный         thousand                 1000
+random            случайный            first       первый
+fast              быстрый              second      второй
+main              главный              third       третий
+hot               горячий
+cold              холодный
+warm              тёплый               just        просто
+full              полный               now         сейчас
+heavy             тяжёлый              then        тогда
+black             чёрный               back        назад
+white             белый                forward     вперёд
+red               красный              well        хорошо
+green             зелёный              only        только
+blue              синий                also        также
+yellow            жёлтый               even        даже
+gray/grey         серый                very        очень
+pink              розовый              down        вниз
+orange            оранжевый            still       всё ещё
+clean             чистый               never       никогда
+dirty             грязный              again       снова
+nice              приятный             today       сегодня
+modern            современный          tonight     сегодня
+right             правильный           tomorrow    завтра
+wrong             неправильный         yesterday   вчера
+fresh             свежий               always      всегда
+strange           странный             enough      достаточно
+crazy             безумный             often       часто
+mad               безумный             together    вместе
+wild              дикий                already     уже
+cool              классный             maybe       может быть
+sweet             сладкий              soon        скоро
+                                       forever     навсегда
+all               все                by         через
+any               любой              for        для
+anybody           любой              from       из
+anyone            любой              in         в
+anything          что угодно         of         из
+each              каждый             into       в
+every             каждый             near       около
+everybody         каждый (человек)   under      под
+everything        всё                with       с
+he                он                 without    без
+here              здесь              and        и
+it                это                because    потому что
+itself, oneself   сам, себя          against    против
+nobody            никто              but        но
+nothing           ничто              if         если
+she               она                not        не
+some              некоторое кол-во   or         или
+somebody          кто-нибудь         so         так
+someone           кто-нибудь         than       чем
+something         что-нибудь         too        слишком
+sometimes         иногда             while      пока
+such              такой              until      до тех пор
+there             там                of         из
+they              они                off        из, вне
+this / that       этот / тот         on         на
+these / those     эти / те           over       над
+we                мы                 to         в, к
+you               ты                 please     пожалуйста
+how               как                sorry      мне жаль
+when              когда              hello      привет
+where             где                bye        пока
+what              что                hi         привет
+who               кто                goodbye    до свидания
+why               почему             yes/yeah   да
+which             который            no         нет
+other             другой
+another           любой другой
+many              много
+much              много
+few               мало
+away              прочь
+along             вдоль
+behind            за
+else              ещё
+upon              на
+about             о
+above             над
+after             за
+among             среди
+around            вокруг
+at                у, на
+before            до
+between           между
+through           через

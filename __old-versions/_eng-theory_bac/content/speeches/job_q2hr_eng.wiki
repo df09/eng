@@ -1,0 +1,184 @@
+%% Hello.
+Hello.
+My name is Ilya. You can call me Elijah.
+To be honest, I'm a little bit worried because:
+  First,  I have weak English - it's my second language,
+          and I haven't had to do interviews in English before.
+  Second, I've recently arrived in the USA, and the job search here
+          as an IT specialist is a new experience for me.
+However, I hope that I will be a good candidate for you.
+%% Briefly tell me about yourself.
+%% Provide a brief overview of yourself.
+%% Share a concise introduction about yourself.
+In short, I'm a DevOps engineer. I'm 29 years old. I'm from Russia.
+8 months ago, I moved to live in the USA due to recent events in Ukraine.
+A week ago, I received a work permit,
+  and now I want to continue evolving(advancing/developing) as a DevOps engineer.
+My relevant work experience, excluding the months when I didn't work:
+5 years and 5 months (since July 2017).
+Of those, the last 3 years and 3 months, I've been working as a DevOps engineer.
+Before that, I worked as a web developer for 2 years and 2 months:
+  handling full stack responsibilities with a focus on backend, coding in PHP and JS.
+
+%% What salary(compensation) do you offer(are you offering)?
+Could you please provide me with information about
+  the salary range expected for the vacancy you are offering?
+I'm asking this because I don't fully understand the local job market yet,
+  and I don't want to find myself in an awkward situation,
+  because I requested a salary that was too high.
+%% What are your salary expectations?
+%% What salary are you looking for?
+%% What kind of salary are you aiming for?
+This has always been a challenging question for me, and in Russia, and especially now.
+I think somewhere in the range of X to Y per year would be great(work well).
+%% Why so(that amount/range)?
+%% Why that (+particular/specific) figure(number)?
+%% Do you consider it an appropriate(to be a fitting/is a suitable) salary for you?
+I'd like to highlight(emphasize) that I have a limited understanding (don't have a solid)
+of the local market here. This is an approximate(rough) estimate
+  based on my review of salaries for similar vacancies on the Internet (online).
+In any case, I don't have any job offers at the moment,
+  and any salary you offer me would be the best offer for me.
+Just assess my qualifications, and if you find me suitable,
+  please suggest(propose) a salary that you presume(deem/consider) appropriate(fitting).
+
+%% How do you consider(evaluate/access/gauge/view) your expertise(proficiency/level)?
+%% How skilled of a specialist do you consider yourself to be?
+That's a difficult question for me. Let's say.. I assess(consider) myself as a Middle.
+I haven't really found a foolproof way to gauge my skill level,
+  mainly because the DevOps field encompasses a wide array of tools and technologies.
+Sometimes my work experience aligns well with a company's tech stack, sometimes it doesn't.
+In cases where it aligns, I might be perceived(seen) as a senior, whereas in other cases,
+  there's no assurance(guarantee) I'll even be considered for a position(this job).
+Subjectively, I'd rate myself as a confident Meddle-level specialist(professional).
+Anyway, at all my previous jobs, my supervisors were generally satisfied with me(my performance),
+  considering my experience at the time and the salary I was receiving.
+However, the more I learn, the more I realize how much I still have to learn (don't know).
+%% Name your strengths and weaknesses.
+%% What are your strengths and weaknesses?
+%% Share your strengths and areas for improvement.
+My weaknesses (areas for improvement) from most critical to less critical:
+  English language proficiency
+  Databases  - I'm not suited for a full-fledged database administrator role.
+  Networking - I lack(don't have) enough knowledge and the required experience (qualifications)
+               for a full-fledged network administrator role.
+My strengths in descending order:
+  Monitoring, logging, tracing, alerting - I enjoy setting up monitoring for large(extensive) infrastructures.
+    I have(possess) hands-on experience with tools like Prometheus, Grafana, Alertmanager, ELK, Sentry.
+  Git-flow/CI-CD - I've been (+actively) involved in implementing (I've contributed to setting up)
+    git-flow and CI/CD processes from scratch. Though(although) such tasks require(do demand/necessitate)
+    a significant(substantial) investment of time (amount of time investment).
+    The Tools I've used(utilized) include GitLab and GitLab CI.
+  I believe that my programming skills are better than what is typically expected of system administrators:
+    Languages and technologies I'm familiar with(proficient in/skilled in):
+      Git    - I'd rate(rank) myself as a B level.
+      Bash   - I'd rate(rank) myself as a B level.
+      Python - I'd rate(rank) myself at a C level.
+      PHP/JS/CSS - Outdated skills from when I worked as a web developer(my time as a web developer).
+    I understand(comprehend/grasp) some principles of programming patterns,
+      such as Object-Oriented Programming, Object-Relational Mapping, Model-View-Controller and a few more.
+    I have a surface-level understanding of algorithms and data structures.
+      I'm familiar with (I know about) the concept of asymptotic complexity
+      (I know what asymptotic complexity is).
+      and how to evaluate(access/gauge) algorithm efficiency.
+%% What achievements can you share?
+%% Can you provide more details about your accomplishments?
+%% What are the most interesting tasks you've tackled?
+%% What are some of the most engaging(intriguing) challenges you've taken on(faced)?
+Once(There was an instance where), I independently implemented(set up) and configured
+  a monitoring system for a company: Prometheus, Grafana, and Alertmanager integrated with Slack.
+For the same company, I developed(crafted) a Python program that scanned(surveyed) the infrastructure
+  and dynamically generated Grafana dashboards.
+For(in) another company(organization), I standardized git-flow practices for development teams.
+  Thanks to this, I was able(It helped me/This enabled me) achieve(to implement/to establish)
+  a full-fledged(comprehensive/complete) CI/CD.
+Additionally, I also created(developed/authored) a Python API client
+  for an internal corporate site to automate(streamline) colleagues' workflow.
+I created(developed) a Helm chart for Sentry that includes a complex migration-system during installation.
+  The free version involved(required) deployment via(through) docker-compose (used docker-compose for deployment).
+  In the end(As a result/Ultimately), I ended up(wound up) with around(approximately/roughly) 30 manifests:
+    7 Deployments, 3 StatefulSets, 10 Services, 5 Jobs, and 5 CronJobs.
+%% Could you (share more details about/elaborate on/provide an in-depth overview of) your work experience?
+My latest(most recent) role as a DevOps specialist(professional) was in a small startup in Moscow.
+  Working within a team of 3, which included myself,
+    my team lead, who is also (+working as) an Site Reliability Engineer
+    and system administrator working with hardware.
+  It can be said, that I was responsible for managing(I managed)
+    around(about/approximately) 70% of the infrastructure,
+    which fortunately(thankfully) wasn't overly complex(extensive).
+  Key responsibilities included(encompassed):
+    Around 300 servers, 3 development teams with(of) approximately 5 persons each.
+    10 microservices-based applications, with 4 stages for each.
+  I handled (My responsibilities encompassed) all tasks(nearly everything)
+    except direct hardware management and network setup(configuration).
+Prior to(before) that, I worked in(contributed to/was engaged with) a Russian retail network
+  resembling(akin to) 7-Eleven.
+  I supported(My role entailed supporting) the online store, warehouse services,
+    and delivery systems across all environments, within(working in) a team of 10 DevOps engineers.
+Prior to(before) that, I worked in(contributed to/was engaged with) a major(prominent) Russian bank,
+  comparable to (akin to/that resembled) BofA.
+  The workload included(involved) around(about) 3000 fairly(relatively) similar(uniform) servers.
+  Responsibilities(My duties) encompassed:
+    Maintaining mobile app services (excluding production environments),
+    establishing CI/CD processes, supporting monitoring and logging systems.
+Prior to(before) that, I worked in(contributed to/was engaged with)
+  another major(prominent) Russian bank as a systems administrator.
+  Although the role was straightforward(simple), it was necessary(I needed this position) for my resume.
+  Because my prior experience was only(only consisted of) two years in development
+  and I wasn't initially(immediately) recognized(seen) as a DevOps engineer.
+  The workload consisted of 10 servers, with approximately(roughly) 10 Docker containers each.
+  (+My) Responsibilities involved(encompassed) manual application deployment and maintenance.
+My initial relevant work experience was as a web developer.
+  I was engaged with(worked in) this role for 2 years and 2 months.
+  Besides(Apart from) website development, I gained(obtained) a general(comprehensive)
+    understanding of the internet, Linux, Git, command-line operations,
+    and the various roles within the IT field(landscape).
+  Tasks encompassed(included) developing and maintaining online stores on Magento.
+  I had(My role encompassed) full-stack responsibilities,
+    primarily(mainly focusing on) backend (PHP) and some frontend work.
+
+%% How do you handle(manage) conflicts with colleagues or superiors?
+If (+it's) possible(feasible), I would choose(opt) to postpone(defer) addressing the conflict(issue)
+  until the next day. Because It's often a good idea to give everyone involved some time to cool down,
+    reflect on the situation, and recharge(get some rest).
+  Taking a step back and approaching the conflict with a clear mind
+    can often lead to a more productive resolution.
+Then, after some time, I would take steps to resolve (work towards resolving) the conflict.
+If there's no possibility of delaying, I would address the conflict directly(right away).
+When it comes to conflict resolution:
+  Firstly, I would attempt to resolve the issue through one-on-one communication.
+    Often, open communication can clarify misunderstandings.
+  If that doesn't lead to a resolution, I would escalate the matter to my supervisor.
+%% What's most important to you at work?
+%% What do you consider when choosing a job?
+%% What factors(criteria) influence your job choices(preferences)?
+%% What holds the most significance for(the utmost importance to) you in a work environment(setting)?
+First and foremost(At the forefront), I prioritize
+  intellectual fulfillment(satisfaction) from the work itself:
+  having an up-to-date tech stack, engaging tasks, and opportunities for skill growth(enhancement).
+Secondly, I usually admit without hesitation(second thoughts/wavering) that it's about money.
+  (+And) Thirdly(In third place), is a friendly team.
+Because, however you (spin/look at) it, work is undoubtedly(ultimately)
+  more about earning(income) than making friends.
+But, currently(at this point/now), my second priority is loyalty and a friendly team atmosphere.
+Because, again, my English is still weak, and this might be annoying to my future colleagues(coworkers).
+%% What are your future plans(aspirations for the future)?
+%% What aspirations do you have for the future?
+%% What do you envision for yourself in the future?
+%% How do you see(envision) your career growth(progressing)?
+I aspire to achieve fluency in English and continue to grow as a DevOps engineer.
+if the opportunity arises, I wish to delve deeper into subjects(areas)
+  like computer networks, Linux kernel, and programming languages like C/C++/assembly.
+%% Do you possess(have/hold) a technical degree?
+%% How about (What's) your education(educational background)?
+I don't possess(have/hold) a higher education degree in a technical field.
+My educational background is in fine arts.
+But I didn't complete university; I dropped out after a year and a half
+  due to financial reasons(issues/constraints).
+Later, for approximately three years, I worked first as a web designer
+  and then as a 3D artist in the gaming industry.
+After that(Subsequently), my interest shifted towards programming,
+  and I joined my elder brother as an intern programmer.
+I had the valuable experience of spending 2 years working
+  under his mentorship as a backend developer in PHP.
+This was my first relevant experience for this job position.

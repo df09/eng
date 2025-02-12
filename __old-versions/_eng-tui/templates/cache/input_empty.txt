@@ -1,0 +1,2 @@
+Empty input not allowed.
+Press <any key> to continue.

@@ -1,0 +1,11 @@
+name       , abbr  , consist   , metric
+teaspoon   , tsp   , none      , 4.9 ml
+tablespoon , tbsp  , 3 tsp     , 14.7 ml
+fluid oz   , fl oz , 2 tbsp    , 29.5 ml
+shot       , jig   , 1.5 fl oz , 44.3 ml
+gill       , gi    , 4 fl oz   , 118.3 ml
+cup        , c     , 8 fl oz   , 236.5 ml
+pint       , pt    , 16 fl oz  , 0.47 l
+quart      , qt    , 2 pt      , 0.95 l
+gallon     , gal   , 4 qt      , 3.8 l
+barrel     , bbl   , 31.5 gal  , 119 l

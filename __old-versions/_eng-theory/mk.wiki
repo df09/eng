@@ -1,0 +1,99 @@
+Предложение(sentence):
+  Простое:
+    категории:⠝
+      Времена:
+        Simple: Present(Active/Passive) Past(Active/Passive) Future(Active/Passive) Subjunctive(Active/Passive) FIP(Active/Passive)
+        Continuous: Present Past Future Subjunctive FIP
+        Perfect: Present Past Future Subjunctive FIP
+        Perfect Continuous: Present Past Future Subjunctive FIP
+        check другие способы выражать будущее которые можно включить в матрицу⠁
+        passive: нет группы Perfect continuous и времени Future Continuous.⠁
+
+      Наклонения/залоги:
+        Изъявительное (the Indicative Mood) - реальные факты.
+          активный залог (Active Voice)
+          пассивный залог (Passive Voice)
+        Повелительное (the Imperative Mood) - приказы, побуждения.
+        Сослагательное (the Subjunctive Mood) - предположения, желания/сожаления, советы
+        Conditional Tenses: выражение гипотетических ситуаций.⠉
+          conditionals:
+            0 - реальное общеизвестное: if-present/present
+            1 - реальное частное: if-present/future
+            2 - гипотетическое будущее: if-past/subjective
+            3 - гипотетическое прошлое: if-past-perfect/future-in-the-past
+            4 - mix: all posible variations
+            замены для if:
+              1 - when/unless/even if/provided that/should/otherwise/etc..
+              2 - would/where i to/if i were to/if it weren't for/etc..
+              3 - would have/had i/if it hadn't been for/had it not been for/etc..
+
+          +could/should/mayht⠁
+          q:
+            The Suppositional Mood
+          group-1:
+            Present Subjunctive⠁
+            Past Subjunctive⠁
+            Past Perfect Subjunctive⠁
+          group-2:
+            should c Indefinite Infinitive и с Perfect Infinitive.⠉
+            Why should he write such a strange letter? — С чего бы ему писать такое странное письмо?
+          group-3:
+            should и would с Indefinite Infinitive и с Perfect Infinitive.⠉
+            If I won the first prize, I should be happy. — Если бы я выиграл первый приз, я был бы счастлив.
+        Future in the Past: будущее, рассматриваемого с точки зрения прошлого.⠉
+          Future Simple in the Past: I would eat.
+          Future Continuous in the Past: I would be eating.
+          Future Perfect in the Past: I would have eaten.
+          Future Perfect Continuous in the Past: I would have been eating.
+      По цели высказывания (Purpose);
+        Утвердительное (Declarative)
+        Вопросительное (Interrogative)
+      Полярность (Polarity):
+        Positive
+        Negative
+    matrix:⠋
+      q:
+        to be⠁
+        to have⠁
+        to get⠁
+        to do⠁
+        to go⠁
+        "causative structures"⠉
+      N-Simple
+        Indicative-Active  Declarative Positive
+        Indicative-Active  Declarative Negative
+        Indicative-Active  Interrogative Positive
+        Indicative-Active  Interrogative Negative
+        Indicative-Passive Declarative Positive
+        Indicative-Passive Declarative Negative
+        Indicative-Passive Interrogative Positive
+        Indicative-Passive Interrogative Negative
+        Imperative         Declarative Positive
+        Imperative         Declarative Negative
+        Imperative         Interrogative Positive
+        Imperative         Interrogative Negative
+        Subjunctive⠉
+
+      P-Simple
+      F-Simple
+      N-Continuous
+      P-Continuous
+      F-Continuous
+      N-Perfect
+      P-Perfect
+      F-Perfect
+      N-PerfectContinuous
+      P-PerfectContinuous
+      F-PerfectContinuous
+        check другие способы выражать будущее⠉
+
+лексика/фонетика:⠉
+  научиться split алфавит
+  Фонетика - научиться произносить все звуки⠉
+    IPA chart
+      minimal pairs: bed/bad/...⠁
+      Color vovel chart⠁
+      Мнемонические устройства (Mnemonics)⠁
+        Использование рифм, акронимов и ассоциаций для запоминания согласных звуков и их произношения. Например:
+          /ʃ/ - "Shh, be quiet" (звук шипения)
+          /t/ - "Tick-tock" (звук часов)

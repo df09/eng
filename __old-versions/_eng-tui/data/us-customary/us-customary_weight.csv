@@ -1,0 +1,5 @@
+name  , abbr , consist , metric
+dram  , dr   , none    , 1.7 g
+ounce , oz   , 16 dr   , 28.3 g
+pound , lb   , 16 oz   , 0.45 kg
+ton   , ton  , 2000 lb , 907 kg

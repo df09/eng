@@ -1,0 +1,73 @@
+PrincipalParts(главные члены предложения):
+  subject(подлежащее)
+    = +формальное подлежащее: it/there/they/you =
+    = +complex =
+      = noun phrase =
+      = в виде clause =
+  predicate(сказуемое)
+      именное:
+        %% verb-link obj
+        simple
+        = complex =
+      глагольное:
+        simple
+        = complex =
+          aspectual/modal main/gerud
+            = +obj between =
+            = +prepositional between =
+            = +когда использовать частицу to =
+            == gerund or inf or bare ==
+              == + в имееных gerund/inf/bare ==
+              %% perfect'ные формы инфинитива и герундия:
+              %%   староанглийский
+              = разобрать ситуацию: verb obj gerund/inf =
+              = разобрать ситуацию: verb prepositional gerund/inf =
+              = complex? =
+                = inf + inf =
+          == more: check site ==
+          == more: check site ==
+          == more: check site ==
+SecondaryParts(второстепенные члены предложения):
+  Object(дополнение)
+    Direct(прямое):
+      %% usage: над кем совершается действие
+      %% предлог не нужен
+      = complex? =
+    Indirect(непрямое):
+      = 1 тип =
+        %% usage: для которого это действие происходит
+        %% выражает как использовать предлог
+      = 2 тип =
+        %% usage: указывает на адресата действия
+        %% выражает как использовать предлог
+      = complex? =
+    = complement =
+      = это тоже что и доплнение с предлогом? =
+      = complex? =
+    = Cognate(родственное)? =
+  Attribute(определение):
+    %% usage: (subj,obj,именное сказ.)<-какой?
+    location:
+      prepositional
+      postpositional
+    types:
+      simple
+      prepositional phrases (предложные фразы)
+      Apposition(приложение):
+        Close(необособленное)
+        Loose(обособленное)
+  AdverbialModifier(обстоятельство)
+    %% usage: predicate<-(как, каким образом, где)
+    types:
+      of time (обстоятельства времени)
+      of frequency (обстоятельства частоты)
+      of place and direction (обстоятельства места и направления)
+      of manner (обстоятельства образа действия)
+      of degree and measure (обстоятельства степени и меры)
+      of cause (обстоятельства причины)
+      of comparison (обстоятельства сравнения)
+      of purpose (обстоятельства цели)
+      of concession (обстоятельства уступки, допущения)
+      of result and consequences (обстоятельства результата и последствий)
+      of condition (обстоятельства условия)
+    = + Absolute constructions (самостоятельные обороты) =

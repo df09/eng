@@ -1,0 +1,408 @@
+main-clause:
+  == выделить отдельно: ==
+    = simple predicate =
+    = compex predicate =
+      = modal+inf =
+      = modal+gerund =
+      = aspectual+gerund =
+      = aspectual+inf =
+  %% instances:
+  %%   regular/irregular
+  %%   to be/to do/to have
+  %%   action/state
+  %%   transitive/intransitive
+  %%   modal:
+  %%     can/could/be able to
+  %%     = доработать список =
+  %% faces:
+  %%   1s
+  %%   3s
+  %%   p
+  Simple:
+    Present:
+      Indicative:
+        Active:
+          v:
+            +: s12p          v
+               s3            vs
+            -: s12p do not   v
+               s3   does not v
+          v+gerund:
+            +: s12p          v  gerund
+               s3            vs gerund
+            -: s12p do not   v  gerund
+               s3   does not v  gerund
+        Passive:
+          %% only transitive verbs
+          p.be:
+            +: sp to-be(sp) v3
+            -: sp to-be(sp) not v3
+          p.get:
+            v3:
+              +: sp to-get(sp) v3(action-verb)
+              -: sp not to-get(sp) v3(action-verb)
+            adj:
+              +: sp to-get(sp) adj
+              -: sp not to-get(sp) adj
+          p.have:
+            +: subject [modal] to-have object v3
+            -: subject (be,do,have) not [modal] to-have object v3
+          modal:
+            present:
+              subj modal be v3
+            past:
+              subj modal have been v3
+          gerund:
+            +: s12p          v  being v3
+               s3            vs being v3
+            -: s12p do not   v  being v3
+               s3   does not v  being v3
+      Interrogative:
+        = with have/has/had with modal verbs =
+        General(общий)/Alternative(альтернативный):
+          Q:
+            Active:
+              +: aux/modal/to-be sp v?
+              -:
+                full: aux/modal/to-be sp not v?
+                short: aux/modal/to-be not(n't) sp v?
+            Passive:
+              %% only transitive verbs
+              p.be:
+                = тут нет did, потому что потомучто? =
+                +: to-be(sp) sp v3?
+                -: to-be(sp) not sp v3?
+              p.get:
+                v3: ???
+                adj: ???
+              p.have:
+                +: (be,do,have) subject to-have object [modal] v3
+                -: (be,do,have) not subject to-have object [modal] v3
+          A:
+            +: yes, subject aux/modal/to-be.
+            -: no, subject aux/modal/to-be not.
+        Special(специальный):
+          toSubject(к подлежащему):
+            Active:
+              +: who/what aux/modal/to-be v?
+              -: who/what aux/modal/to-be not v?
+            Passive: none
+          other:
+            Active:
+              +: wh-word aux/modal/to-be object v?
+              -: wh-word aux/modal/to-be not object v?
+            Passive:
+              %% only transitive verbs
+              p.be:
+                +: wh-word to-be(sp) sp v3?
+                -: wh-word to-be(sp) not sp v3?
+              p.get:
+                v3: ???
+                adj: ???
+              p.have:
+                +: wh-word (be,do,have) subject to-have object [modal] v3
+                -: wh-word (be,do,have) not subject to-have object [modal] v3
+        Tag(разделительный):
+          Active/Passive:
+            +: main-clause(s1), aux(s2) not s2?
+               main-clause(s23p), aux(s23p) not s23p?
+            -: main-clause(s1), aux(s2) s2?
+               main-clause(s23p), aux(s23p) s23p?
+             = main-clause, shall I? =
+             = main-clause, right? =
+      Imperative:
+        Active:
+          +: s2p2:   v
+                     do+v
+             s13p13: let+pronoun+v
+                     do+let+pronoun+v
+          -: s2p2:   not+v
+                     do+not+v
+             s13p13: let+pronoun+not+v
+                     do+not+let+pronoun+v
+        Passive: none
+    Continuous:
+      %% only action-verb
+      Indicative:
+        Active: ...
+        Passive:
+          %% only transitive verbs
+      Interrogative:
+        Active: ...
+        Passive:
+          %% only transitive verbs
+    Perfect:
+      Indicative:
+        Active: ...
+        Passive:
+          %% only transitive verbs
+      Interrogative:
+        Active: ...
+        Passive:
+          %% only transitive verbs
+    PerfectContinuous:
+      %% only action-verb
+      %% no passive
+      Indicative: ...
+      Interrogative: ...
+    == Modals ==
+  Past:
+    Simple:
+      Indicative:
+        Active: ...
+        Passive:
+          %% only transitive verbs
+      Interrogative:
+        Active: ...
+        Passive:
+          %% only transitive verbs
+    Continuous:
+      %% only action-verb
+      Indicative:
+        Active: ...
+        Passive:
+          %% only transitive verbs
+      Interrogative:
+        Active: ...
+        Passive:
+          %% only transitive verbs
+    Perfect:
+      Indicative:
+        Active: ...
+        Passive:
+          %% only transitive verbs
+      Interrogative:
+        Active: ...
+        Passive:
+          %% only transitive verbs
+    PerfectContinuous:
+      %% only action-verb
+      %% no passive
+      Indicative: ...
+      Interrogative: ...
+    == Modals ==
+  Future:
+    == furure in the past? ==
+    Simple:
+      Indicative:
+        Active: ...
+        Passive:
+          %% only transitive verbs
+      Interrogative:
+        Active: ...
+        Passive:
+          %% only transitive verbs
+    Continuous:
+      %% only action-verb
+      %% no passive
+      Indicative: ...
+      Interrogative: ...
+    Perfect:
+      Indicative:
+        Active: ...
+        Passive:
+          %% only transitive verbs
+      Interrogative:
+        Active: ...
+        Passive:
+          %% only transitive verbs
+    PerfectContinuous:
+      %% only action-verb
+      %% no passive
+      Indicative: ...
+      Interrogative: ...
+    == Modals ==
+      == +modal to be constructions ==
+    == Future in the past ==
+word-order:
+  = check active/passive =
+  = check +/- =
+  = can complex adverbialmod move to start? =
+  = +вставные слова рандом? =
+  = complement(смысловое дополнение) =
+  == где здесь attribute? ==
+  = enough стоит всегда после attribute =
+  %% наречия:
+  %%   end position
+  %%   front position
+  %%   mid position
+  Indicative:
+    = adverbialmod frequency: sometimes, another? =
+    determener
+    attribute
+    subject
+      excl:
+        повелительное наклонение
+        урезанные разговорные предложения
+    attribute
+      if subject неопределенное местоимение
+      if attribute change sense subject
+    adverbialmod frequency
+    predicate(сказуемое)
+    attribute
+      if predicate link-verb
+    adverbialmod frequency
+      if predicate = am/is/are/was/were
+        = to be? =
+    predicate(сказуемое)
+      if complex
+    determener
+    object(дополнение)
+      == двунаправленные глаголы: ==
+        somthing(прямое) to somebody(непрямое)
+          if we use "it","them" we prefer this formul
+            = other? =
+        somebody(непрямое) somthing(прямое)
+        = give lent pass send show ... =
+    adverbialmod place
+    adverbialmod time
+    %% == adverbialmod усиления: ==
+    %%   перед attribute
+    = adverbialmod frequency: yet, another? =
+  == Interrogative: ==
+  == Imperative: ==
+
+предлоги:
+  время:
+    at/on/in
+      %% down->up logic
+      dont use after:
+        this/last/next/every
+        = other? =
+      +in = через without scale
+    from to/utnil/since/for
+    before/after/during/while
+      before/after + verb-ing
+      = during/while/for - difference? =
+  места:
+    at/on/in
+      %% векторно: точка/площадь/большие пространства
+      %% геометрически: точка/поверхность/внутри
+      = больше приколов для каждого =
+    to
+      %% наравление, вектор
+      = ситуации когда предолг не нужен (ex. go home) =
+  == устойчивые связки с предлогами ==
+    prepositional+obj
+  == предлоги с прилагательными и герундиями и глаголами ==
+    == особые случаи: фразовые глаголы ==
+
+sentence(предложение):
+  = check active/passive =
+  = check +/- =
+  simple(простое): ...
+  compoundsentence(сложносочиненное):
+    %% and but or so because
+    можно опускать subject если он одинаковый
+      тогда запятая не ставится
+        = можно с запятой? =
+    and:
+      ставится запятая везде кроме последнего элемента в цепочке
+        и только в последнем ставится союз
+    because:
+      он может быть в начале предложения
+  complex(подчинененное):
+    %% == попробовать подругому систематизировать? ==
+    %% == SubjunctiveClause/ThatClause ==
+    %%     Subjunctive 1
+    %%       The Present Subjunctive
+    %%       The Past Subjunctive
+    %%     Subjunctive 2
+    %% == The Suppositional Mood ==
+    %%   %% что это?
+    relative-clause:
+      %% interrogative: main
+      %% если к союзу относится предлог то предлог ставится в конец
+      %% предлог в начале - формально, в конце - разговорно
+      defining:
+        usage: влияет на смысл
+        conj:  who, which, that
+        coma:  no
+      non-defining:
+        usage: не влияет на смысл
+        conj:  who, which
+        coma:  yes
+      %% к subject
+      %% к object
+      == к predicate? ==
+      %% = когда союзные слова не нужны =
+      %%   = когда не являются подлежащим =
+      = положение предлогов =
+    if-clause(условное):
+      %% interrogative: main
+      %% position and coma:
+      %%   condition, main
+      %%   main condition
+      == когда используется инверсия ==
+      == + I wish (4 types too) ==
+      = полный список союзов =
+        = + wish / if only =
+      zero(нулевой):
+        usage:   общее правило
+        if/main: present / present
+                 %% повелительное наклонение для совета
+        conj:    if/when/every-time
+                 = other? =
+      first(первый):
+        usage:   возможное в будущем
+        if/main: present / future
+                 %% повелительное наклонение для совета
+                 %% модальные глаголы заменяют will
+                   = формы специфические =
+        conj:    if/when
+                 = other? =
+      second(второй):
+        usage:   невозможное в настоящем/будущем
+        if/main: past simple  / would inf
+                 %% to be особенный: was->were
+                 %% модальные глаголы заменяют would
+                   = формы специфические =
+        conj:    if
+                 = when/while/before/after/until =
+                 = other? =
+      third(третий):
+        usage:   невозможное в прошлом
+        if/main: past perfect / would have v3
+                 %% модальные глаголы заменяют would
+                   = формы second condition =
+        conj:    if
+                 инверсия без союза
+                 = other? =
+      mix-1:
+        usage:   условие в настоящем, событие невозможное в прошлом
+        if/main: second / third
+      mix-2:
+        usage:   условие в прошлом, событие невозможное в настоящем/будущем
+        if/main: third / second
+    speech:
+      directed speech(прямая речь):
+        = double check: =
+          "Direct?!," main.
+          Main, "direct."
+          "Direct," main, "direct."
+      reported speech(косвенная речь):
+        present/past -> согласование времен
+          == +исключения когда согласование не нужно здесь ==
+        future simple -> future in the past
+          == что делать с другими аспектными формами будущего? ==
+        = изменение указателей времени и места - таблица =
+        interrogative:
+          reported-clause: +if/whether -aux
+        == modals: ==
+          меняются:
+            can -> could / can't -> wouldn't be able to /
+            may -> might / must -> had to /
+            will -> would / have/has to -> had to
+          не меняются:
+            should/would/could/might/ought to/need/had to/had better
+
+    придаточное-подлежащее
+    придаточное-сказуемое
+    придаточное-определение
+    придаточное-дополнительное
+    придаточное-обстоятельственное
+    == wh-clause? ==
+    == ing-clause/ed-clause(причастные/деепричастные обороты)==
+    == придаточное времени?: ==
+      %% when/while/before/after:
+      %%   если when первый - запятая

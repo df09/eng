@@ -1,0 +1,6 @@
+name , abbr , consist , metric
+pica , P    , none    , 4.23 mm
+inch , in   , 6 P     , 2.54 sm
+foot , ft   , 12 in   , 30.48 sm
+yard , yd   , 3 ft    , 0.91 m
+mile , mi   , 1760 yd , 1.6 km
