@@ -4,37 +4,13 @@ import src.helpers.colors as c
 from src.helpers.cmd import cmd
 
 class User():
-    def __init__(self, name=False):
-        # login
-        self.name = name if name else self.login()
-        # fs
+    def __init__(self, username):
+        self.name = username
         self.path = f'data/users/{self.name}'
         self.f_data = f'{self.path}/_data.yml'
         self.f_progress_pronouns = f'{self.path}/progress_pronouns.csv'
-        # register
-        if not fo.f_exist(self.f_data):
-            self.create_user()
-        # pronouns data
         self.data = fo.yml2dict(self.f_data)
         self.df_progress_pronouns = pdo.load(self.f_progress_pronouns)
-
-    def login(self):
-        name = input('login: ').lower().strip()
-        if not name:
-            print('введите имя пользователя чтобы начать')
-            name = self.login()
-        if name == '_default':
-            print('нельзя использовать это имя пользователя')
-            name = self.login()
-        return name
-
-    def create_user(self):
-        cmd(f'cp -r data/users/_default {self.path}')
-        data = fo.yml2dict(self.f_data)
-        data['name'] = self.name
-        fo.dict2yml(data, self.f_data)
-        print(f'New user was created: {self.name}')
-        return data
 
     #   ┌─ df09 ──────┐
     # ┌─┴─ pronouns ──┴─────────────────────────────────────────────────────────┐
@@ -45,7 +21,10 @@ class User():
         total,progress,a,b,c_est,d,f = self.data['stats']['pronouns'].values()
         # bar
         total_bar_length = 70
-        scale = total_bar_length / total
+        if total == 0:
+            scale = total_bar_length
+        else:
+            scale = total_bar_length / total
         f_length = round(f * scale)
         d_length = round(d * scale)
         c_length = round(c_est * scale)
@@ -63,14 +42,14 @@ class User():
         estimations = f'[c]A:{a} [b]B:{b} [g]C:{c_est} [y]D:{d} [r]F:{f}'.ljust(44)
         summary = f'[x]{progress}/{total}'.rjust(10)
         # render
-        c.p(f'[x]  ┌─ [y]{self.name}[x] ──────┐')
+        c.p(f'[x]    ┌─ [y]{self.name}[x] ──────┐')
         c.p(f'[x]┌─┴─ pronouns ──┴────────────────────────────────────────────────────────┐')
-        c.p(f'[x]│ {estimations}                                  {summary} │')
+        c.p(f'[x]│ {estimations}                                    {summary} │')
         c.p(f'[x]│ {bar} │')
         c.p(f'[x]└────────────────────────────────────────────────────────────────────────┘')
         # return
         return f'[x]  ┌─ [y]{self.name}[x] ──────┐\n'+\
                f'[x]┌─┴─ pronouns ──┴────────────────────────────────────────────────────────┐\n'+\
-               f'[x]│ {estimations}                                  {summary} │\n'+\
+               f'[x]│ {estimations}                                    {summary} │\n'+\
                f'[x]│ {bar} │\n'+\
                f'[x]└─────────────────────────────────────────────────────────────────────\n'

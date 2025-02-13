@@ -1,4 +1,13 @@
 Flask, без rest api + Tailwind
+
+todo:
+  main menu:
+    stats
+    choose_mode
+  login
+  unlogin
+  resister
+
 modes:
   input(прям по середине вопроса)
     level 2: input(прям по середине вопроса) + пропечатывать поверх
@@ -31,9 +40,9 @@ scheme 1:
     user_id: 0
     user_name: df09
   progress:
-    progress_id: 
+    progress_id:
     user_id: 0
-    
+
 
   'estimate': 'F',
   'example_eng': 'He remembered us from school.',
@@ -51,7 +60,7 @@ scheme 1:
 
 scheme 1:
   question: "два плюс два будет ___. четыре ___ два будет два."
-  correct: 
+  correct:
 
 
 
