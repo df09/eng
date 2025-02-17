@@ -1,5 +1,38 @@
-<h1>Main Menu</h1>
+<style>
+    body {
+        font-family: monospace;
+        text-align: center;
+        background-color: #1e1e1e;
+        color: #fff;
+    }
+    .table-container {
+        display: inline-block;
+        border: 2px solid #fff;
+        padding: 10px;
+        margin-top: 20px;
+    }
+    .header {
+        border-bottom: 2px solid #fff;
+        padding: 5px;
+    }
+    .progress-bar {
+        background-color: #444;
+        border: 1px solid #fff;
+        height: 20px;
+        position: relative;
+        margin: 5px 0;
+    }
+    .progress {
+        background-color: #4caf50;
+        height: 100%;
+        text-align: right;
+        padding-right: 5px;
+        color: black;
+        font-weight: bold;
+    }
+</style>
 
+<h1>Main Menu</h1>
 {% with messages = get_flashed_messages(with_categories=true) %}
   {% if messages %}
     {% for category, message in messages %}
@@ -9,10 +42,21 @@
 {% endwith %}
 
 <h3>Stats</h3>
-<pre>{{ stats }}</pre>
+<div class="table-container">
+    <div class="header">df09</div>
+    <div class="header">pronouns</div>
+    <div>
+        F:{{ stats.f }} D:{{ stats.d }} C:{{ stats.c }} B:{{ stats.b }} A:{{ stats.a }}
+    </div>
+    <div class="progress-bar">
+        <div class="progress">
+            {{ stats.progress }}/{{ stats.total }}
+        </div>
+    </div>
+</div>
 
 <h3>Choose Mode</h3>
-<form action='/' method="post">
+<form action='/choose_mode' method="post">
     <button type="submit" name="mode" value="1">Pronouns</button>
     <button type="submit" name="mode" value="2">Verbs Irregular</button>
 </form>

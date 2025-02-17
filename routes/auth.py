@@ -2,7 +2,7 @@ from flask import Blueprint, render_template, request, redirect, url_for, flash,
 from routes import bcrypt
 import src.helpers.fo as fo
 from src.helpers.cmd import cmd
-from pprint import pprint as pp
+from logger import logger
 
 
 auth_bp = Blueprint('auth', __name__)
@@ -15,7 +15,8 @@ def register():
         path = f'data/users/{username}'
         if not fo.f_exist(path):
             # prepare fs
-            cmd(f'cp -r data/users/_default {path}')
+            logger.info(cmd('pwd'))
+            cmd(f'cp -r ./data/users/_default ./{path}')
             data = fo.yml2dict(f'{path}/_data.yml')
             data['name'] = username
             data['password'] = password
@@ -33,8 +34,8 @@ def login():
         username = request.form['username']
         password = request.form['password']
         if username != '_default':
-            path = f'data/users/{username}'
-            if fo.f_exist(path):
+            path = f'./data/users/{username}'
+            if fo.d_exist(path):
                 saved_password = fo.yml2dict(f'{path}/_data.yml')['password']
                 if bcrypt.check_password_hash(saved_password, password):
                     session['user'] = username
