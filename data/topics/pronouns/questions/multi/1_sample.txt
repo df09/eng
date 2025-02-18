@@ -1,0 +1,2 @@
+In the {{ city }}, there is an old castle surrounded by dense {{ vegetation }}.
+According to legend, a hidden {{ object }} is buried within its walls, but no one has ever found it.

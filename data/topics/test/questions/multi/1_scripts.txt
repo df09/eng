@@ -1,0 +1,5 @@
+Bash script to {{ list files }} in current dir:
+```
+#!/bin/bash
+ls -l
+```
