@@ -7,7 +7,7 @@ class User():
         self.name = username
         self.path = f'data/users/{self.name}'
         self.f_data = f'{self.path}/_data.yml'
-        self.f_progress_pronouns = f'{self.path}/progress_pronouns.csv'
+        self.f_progress_pronouns = f'{self.path}/progress.csv'
         self.data = fo.yml2dict(self.f_data)
         self.df_progress_pronouns = pdo.load(self.f_progress_pronouns)
         self.stats = self.get_stats()

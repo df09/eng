@@ -5,7 +5,6 @@ from src.pronouns import Pronouns
 from logger import logger
 import re
 
-
 index_bp = Blueprint('index', __name__)
 
 # === main menu ===================================
