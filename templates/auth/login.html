@@ -1,0 +1,16 @@
+{% extends 'layouts/base.html' %}
+{% block title %}Login{% endblock %}
+{% block header %}Login{% endblock %}
+{% block content %}
+<div class="container">
+  {% include 'layouts/messages.html' %}
+  <section class="login">
+    <form action='{{ url_for("auth.login") }}' method="POST">
+      <input type="text" name="username" placeholder="Username" required>
+      <input type="password" name="password" placeholder="Password" required>
+      <button type="submit">Login</button>
+    </form>
+    <a href='{{ url_for("auth.register") }}'>Register</a>
+  </section>
+</div>
+{% endblock %}

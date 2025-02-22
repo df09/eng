@@ -1,7 +1,7 @@
 # Flask, без rest api + Tailwind
 mk:
   # topics
-  # ├── test
+  # ├── 0_test
   # │   ├── notes
   # │   │   └── mk.wiki
   # │   ├── questions
@@ -11,18 +11,13 @@ mk:
   # │   │   ├── selects.csv
   # │   │   └── singels.csv
   # │   └── theory.txt
-  # └── topics.csv
 
-  index:
-    show progress
-    show topics
   topic:
     get batch
-      load user progress
-    show batch:
-      identify q_type
-        render q_type
-  tipic-post:
+    identify question type
+    show question by type
+
+  topic-post:
     check_answer
     save progress
 

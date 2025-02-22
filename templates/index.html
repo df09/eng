@@ -1,9 +1,9 @@
-{% extends 'base.html' %}
+{% extends 'layouts/base.html' %}
 {% block title %}Main Menu{% endblock %}
 {% block header %}Main Menu{% endblock %}
 {% block content %}
 <div class="container">
-  {% include 'messages.html' %}
+  {% include 'layouts/messages.html' %}
   <section class="topics">
     <h3>Topics</h3>
     <table>
@@ -16,7 +16,7 @@
       <tbody>
         {% for tid, tname in topics.items() %}
         <tr>
-          <td><a href="{{ url_for('index.choose_mode', mode=tid ) }}">{{ tid }}.{{ tname }}</a></td>
+          <td><a href="{{ url_for('index.choose_topic', tid=tid) }}">{{ tid }}.{{ tname }}</a></td>
           <td>
             {% set stat = stats | selectattr("topic_id", "equalto", tid) | first %}
             {% if stat %}

@@ -7,6 +7,7 @@ from logger import logger
 import re
 
 index_bp = Blueprint('index', __name__)
+topics = Topics()
 
 # === main menu ===================================
 def login_required(f):
@@ -19,41 +20,47 @@ def login_required(f):
 @index_bp.route('/')
 @login_required
 def index():
-    topics = Topics()
     user = User(session['user'], topics.data)
     stats = user.df_stats.to_dict(orient="records")
     return render_template('index.html', topics=topics.data, stats=stats)
+@index_bp.route('/choose_topic', methods=['GET', 'POST'])
+def choose_topic():
+    tid = request.args.get('tid')
+    if not tid or not tid.isdigit():
+        return 'Invalid tid', 400  # Проверка на число
+    tid = int(tid)
+    if tid in topics.data:
+        # Очистка старых вопросов, если пользователь переключает тему
+        session.pop('qs', None)
+        session.pop('q_index', None)
+        # Перенаправление на страницу темы
+        return redirect(url_for('index.topic', tid=tid))
+    return 'tid not supported', 400
 
-@index_bp.route('/choose_mode', methods=['POST'])
-def choose_mode():
-    mode = request.form.get('mode')
-    if mode == '1':
-        return redirect(url_for('index.mode_pronouns'))
-    return 'Mode not supported', 400
-
-# === mode_pronouns ===================================
-@index_bp.route('/mode/topic', methods=['GET', 'POST'])
-def mode_pronouns():
-    user = User(session['user'])
-    topic = Topic()
-    # get new batch
-    if 'q_index' not in session:
+# === topic ===================================
+@index_bp.route('/topic/<int:tid>')
+def topic(tid):
+    if tid not in topics.data:
+        return 'Invalid topic', 400
+    user = User(session['user'], topics.data)  # Загружаем пользователя
+    topic = Topic(tid, topics.data[tid])  # Загружаем тему
+    # Если вопросов ещё нет, создаём новую пачку
+    if 'qs' not in session or 'q_index' not in session:
         session['q_index'] = 0
         session['qs'] = topic.get_batch(user.df_progress_pronouns, 30).to_dict(orient='records')
-        logger.info(session['qs'])
     qs = session['qs']
     index = session['q_index']
+    # Если вопросы закончились, сбрасываем сессию и возвращаем в главное меню
     if index >= len(qs):
         session.pop('q_index')
         session.pop('qs')
         return redirect(url_for('index.index'))
+    # Получаем текущий вопрос
     q = qs[index]
-    def insert_input_field(text, word):
-        return re.sub(rf'\b{re.escape(word)}\b', '<input type="text" name="answer" required>', text, flags=re.IGNORECASE)
-    q_text = insert_input_field(q['example_eng'], q['pronoun_clean'])
-    if request.method == 'POST':
-        answer = request.form.get('answer', '').strip()
-        result, _, _ = topic.check_answer(answer, q['pronoun_clean'])
-        session['q_index'] += 1
-        return render_template('topic.html', q_text=q_text, q=q, result=result, answer=answer)
-    return render_template('topic.html', q_text=q_text, q=q)
+    # Определяем тип вопроса
+    q_type = q.get('q_type', 'q_select')  # По умолчанию q_select
+    # Перенаправляем на соответствующий шаблон
+    if q_type == 'q_select': return redirect(url_for('index.q_select', tid=tid, qid=index))
+    if q_type == 'q_single': return redirect(url_for('index.q_single', tid=tid, qid=index))
+    if q_type == 'q_multi':  return redirect(url_for('index.q_multi',  tid=tid, qid=index))
+    return 'Unknown question type', 400

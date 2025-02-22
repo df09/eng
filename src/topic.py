@@ -10,24 +10,15 @@ import src.helpers.colors as c
 from src.helpers.cmd import cmd
 
 class Topic:
-    def __init__(self, name):
-        self.nme = name
-        self.path = f'data/topics/{self.name}'
+    def __init__(self, tid, name):
+        self.id = tid
+        self.name = name
+        self.estimate_ranges = {'F':[0,2],'D':[3,5],'C':[6,9],'B':[10,14],'A':[15,999]}
+        self.path = f'data/topics/{self.id}_{self.name}'
         self.theory = fo.txt2str(f'{self.path}/theory.txt')
         self.q_selects = pdo.load(f'{self.path}/questions/selects.csv')
-        self.q_singels = pdo.load(f'{self.path}/questions/singels.csv')
-        # self.q_multi = self.load_multi_questions()
-
-        # prepare data
-        self.df_questions = self.data2questions(self.data)
-        self.validate_questions(self.df_questions)
-        pdo.save(self.df_questions, self.f_questions)
-        # run logic
-        self.estimate_ranges = {'F': [0,2], 'D': [3,5], 'C': [6,9], 'B': [10,14], 'A': 15}
-
-    # def load_multi_questions():
-    #     q_multi = 
-    #     return q_multi
+        # TODO: self.q_singels = pdo.load(f'{self.path}/questions/singels.csv')
+        # TODO: self.q_multi = self.load_multi_questions()
 
     # prepare df_batch
     def data2questions(self, data):
