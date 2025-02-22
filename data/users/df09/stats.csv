@@ -1,2 +1,2 @@
-id , topic_id , progress , a , b , c , d , f
-0  , 0        , 0        , 0 , 0 , 0 , 0 , 0
+id , topic_id , a , b , c , d , f , in_progress 
+0  , 0        , 0 , 1 , 2 , 3 , 1 , 7          

@@ -1,5 +1,32 @@
 # Flask, без rest api + Tailwind
 mk:
+  # topics
+  # ├── test
+  # │   ├── notes
+  # │   │   └── mk.wiki
+  # │   ├── questions
+  # │   │   ├── multi
+  # │   │   │   ├── 0_cmds.txt
+  # │   │   │   └── 1_scripts.txt
+  # │   │   ├── selects.csv
+  # │   │   └── singels.csv
+  # │   └── theory.txt
+  # └── topics.csv
+
+  index:
+    show progress
+    show topics
+  topic:
+    get batch
+      load user progress
+    show batch:
+      identify q_type
+        render q_type
+  tipic-post:
+    check_answer
+    save progress
+
+
   templates and routs for all question types and their modes:
     selects
     singels:

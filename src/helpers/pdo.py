@@ -1,5 +1,4 @@
 import pandas as pd
-import src.helpers.colors as c
 
 # fs
 def load(csvfile, columns=False, allow_empty=False):
@@ -12,7 +11,7 @@ def load(csvfile, columns=False, allow_empty=False):
         if columns:
             df = pd.DataFrame(columns=columns).set_index('id')
         if not allow_empty:
-            raise FileNotFoundError(c.z(f'[r]ERROR:[c] csv-file not found: {csvfile}'))
+            raise FileNotFoundError(f'ERROR: csv-file not found: {csvfile}')
     return df
 def save(df, csvfile):
     # Проверяем, существует ли уже колонка 'id'
@@ -35,9 +34,9 @@ def filter(df, where=None, where_not=None, sorts=None, allow_empty=False, allow_
         df = df[mask_not]
     if where or where_not:
         if df.empty and not allow_empty:
-            raise Exception(c.z(f'[r]ERROR:[c] no matches found. [y]<addnew> is not allowed.'))
+            raise Exception(f'ERROR: no matches found. <addnew> is not allowed.')
         if len(df) > 1 and not allow_many:
-            raise Exception(c.z(f'[r]ERROR:[c] found more than 1 matches. [y]<many> is not allowed.'))
+            raise Exception(f'ERROR: found more than 1 matches. <many> is not allowed.')
     if sorts:
         sort_columns = list(sorts.keys())
         ascending = [True if sorts[col] == 'up' else False for col in sort_columns]
@@ -65,11 +64,11 @@ def update(df, where, values, allow_addnew=False, allow_many=False):
     # check
     if matches.empty:
         if not allow_addnew:
-            raise Exception(c.z(f'[r]ERROR:[c] no matches found. [y]<addnew> is not allowed.'))
+            raise Exception(f'ERROR: no matches found. <addnew> is not allowed.')
         return addnew(df, {**where, **values})
     if len(matches) > 1:
         if not allow_many:
-            raise Exception(c.z(f'[r]ERROR:[c] found more than 1 matches. [y]<many> is not allowed.'))
+            raise Exception(f'ERROR: found more than 1 matches. <many> is not allowed.')
     for key, value in values.items():
         # Check if the value type is compatible with the column type and convert if necessary
         if not pd.api.types.is_dtype_equal(df[key].dtype, pd.Series([value]).dtype):

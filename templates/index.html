@@ -1,64 +1,47 @@
-<style>
-    body {
-        font-family: monospace;
-        text-align: center;
-        background-color: #1e1e1e;
-        color: #fff;
-    }
-    .table-container {
-        display: inline-block;
-        border: 2px solid #fff;
-        padding: 10px;
-        margin-top: 20px;
-    }
-    .header {
-        border-bottom: 2px solid #fff;
-        padding: 5px;
-    }
-    .progress-bar {
-        background-color: #444;
-        border: 1px solid #fff;
-        height: 20px;
-        position: relative;
-        margin: 5px 0;
-    }
-    .progress {
-        background-color: #4caf50;
-        height: 100%;
-        text-align: right;
-        padding-right: 5px;
-        color: black;
-        font-weight: bold;
-    }
-</style>
-
-<h1>Main Menu</h1>
-{% with messages = get_flashed_messages(with_categories=true) %}
-  {% if messages %}
-    {% for category, message in messages %}
-      <div class="alert alert-{{ category }}">{{ message }}</div>
-    {% endfor %}
-  {% endif %}
-{% endwith %}
-
-<h3>Stats</h3>
-<div class="table-container">
-    <div class="header">df09</div>
-    <div class="header">pronouns</div>
-    <div>
-        F:{{ stats.f }} D:{{ stats.d }} C:{{ stats.c }} B:{{ stats.b }} A:{{ stats.a }}
-    </div>
-    <div class="progress-bar">
-        <div class="progress">
-            {{ stats.progress }}/{{ stats.total }}
-        </div>
-    </div>
+{% extends 'base.html' %}
+{% block title %}Main Menu{% endblock %}
+{% block header %}Main Menu{% endblock %}
+{% block content %}
+<div class="container">
+  {% include 'messages.html' %}
+  <section class="topics">
+    <h3>Topics</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>Topic</th>
+          <th>stats & Progress</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for tid, tname in topics.items() %}
+        <tr>
+          <td><a href="{{ url_for('index.choose_mode', mode=tid ) }}">{{ tid }}.{{ tname }}</a></td>
+          <td>
+            {% set stat = stats | selectattr("topic_id", "equalto", tid) | first %}
+            {% if stat %}
+              <div>
+                <div class="stats">
+                  <span class="grade F">F: {{ stat.f }}</span>
+                  <span class="grade D">D: {{ stat.d }}</span>
+                  <span class="grade C">C: {{ stat.c }}</span>
+                  <span class="grade B">B: {{ stat.b }}</span>
+                  <span class="grade A">A: {{ stat.a }}</span>
+                </div>
+                <div class="progress">
+                  <span class="progress">{{ stat.in_progress }}/100</span>
+                </div>
+              </div>
+              <div class="progress-bar">
+                <div class="progress" style="width: {{ stat.in_progress }}%;"></div>
+              </div>
+            {% else %}
+              <span>No stats available</span>
+            {% endif %}
+          </td>
+        {% endfor %}
+      </tbody>
+    </table>
+  </section>
 </div>
-
-<h3>Choose Mode</h3>
-<form action='/choose_mode' method="post">
-    <button type="submit" name="mode" value="1">Pronouns</button>
-    <button type="submit" name="mode" value="2">Verbs Irregular</button>
-</form>
-
-<a href='{{ url_for("auth.logout") }}'>Logout</a>
+{% endblock %}
