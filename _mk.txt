@@ -1,44 +1,37 @@
 # Flask, без rest api + Tailwind
 mk:
-  # topics
-  # ├── 0_test
-  # │   ├── notes
-  # │   │   └── mk.wiki
-  # │   ├── questions
-  # │   │   ├── multi
-  # │   │   │   ├── 0_cmds.txt
-  # │   │   │   └── 1_scripts.txt
-  # │   │   ├── selects.csv
-  # │   │   └── singels.csv
-  # │   └── theory.txt
 
-  topic:
-    get batch
-    identify question type
-    show question by type
+  ПРОДУМАТЬ ЛОГИКУ ВОПРОСОВ, ЧТО ЭТО ЗА ТРИ ТИПА, ПОЧЕМУ Я ИХ СОЗДАЛ
+  ПРОДУМАТЬ ЛОГИКУ ВОПРОСОВ, ЧТО ЭТО ЗА ТРИ ТИПА, ПОЧЕМУ Я ИХ СОЗДАЛ
+  ПРОДУМАТЬ ЛОГИКУ ВОПРОСОВ, ЧТО ЭТО ЗА ТРИ ТИПА, ПОЧЕМУ Я ИХ СОЗДАЛ
+  ПРОДУМАТЬ ЛОГИКУ ВОПРОСОВ, ЧТО ЭТО ЗА ТРИ ТИПА, ПОЧЕМУ Я ИХ СОЗДАЛ
 
-  topic-post:
-    check_answer
-    save progress
-
-
-  templates and routs for all question types and their modes:
-    selects
-    singels:
-      f: dnd
-      abcd: input
-    multi:
-      f: dnd
-      abcd: input
-      # <pre>
-      #   {{ content }}
-      # </pre>
-      # <div id='dnd'>...</div>
-      # <input id='input' type='text' value=''>
-  apply user progress and stats
-  apply styles
-  apply js-dynamic
-  apply hotkeys
+  q-select:
+    render
+      depend on estimation:
+        ??? choose
+        ??? input
+        ??? input whole thing
+    answer
+    save-progress
+  q-input:
+    render
+      depend on estimation:
+        f: dnd
+        abcd: input
+    answer
+    save-progress
+  q-multi:
+    get_question
+    render
+      depend on estimation:
+        f: dnd
+        abcd: input
+    answer
+    save-progress
+  upd front:
+    js-dynamic
+    hotkeys
 
 todo:
   добавить зубрежку

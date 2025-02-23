@@ -1,18 +1,29 @@
 import pandas as pd
 
-# fs
-def load(csvfile, columns=False, allow_empty=False):
+def load(csvfile, allow_empty=False):
     try:
-        df = pd.read_csv(csvfile, sep=',', quotechar='"')
-        df = df.rename(columns=lambda x: x.strip())
-        df = df.apply(lambda col: col.apply(lambda x: x.strip() if isinstance(x, str) else x))
-        df.set_index('id', inplace=True)
+        # Загружаем CSV
+        df = pd.read_csv(csvfile, sep=',', quotechar='"', index_col=False)
+        # Удаляем пробелы по краям в заголовках
+        df.rename(columns=lambda x: x.strip(), inplace=True)
+        # Проверяем, есть ли колонка 'id'
+        if "id" not in df.columns:
+            raise ValueError(f"Missing 'id' column in {csvfile}. Available columns: {df.columns.tolist()}")
+        # проверяем чтобы небыло продублированых id
+        duplicates = df[df["id"].duplicated()]["id"].tolist()
+        if duplicates:
+            raise ValueError(f"Duplicate IDs found: {duplicates} in {csvfile}")
+        # Проверяем, содержит ли csv строки со значениями
+        if df.empty:
+            if allow_empty:
+                return df
+            raise ValueError(f"File {csvfile} is empty or unreadable")
+        # Удаляем пробелы по краям во всех строковых значениях
+        df = df.applymap(lambda x: x.strip() if isinstance(x, str) else x)
+        return df
     except FileNotFoundError:
-        if columns:
-            df = pd.DataFrame(columns=columns).set_index('id')
-        if not allow_empty:
-            raise FileNotFoundError(f'ERROR: csv-file not found: {csvfile}')
-    return df
+        raise FileNotFoundError(f"ERROR: csv-file not found: {csvfile}")
+
 def save(df, csvfile):
     # Проверяем, существует ли уже колонка 'id'
     if 'id' not in df.columns:

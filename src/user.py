@@ -15,10 +15,10 @@ class User():
         self.f_progress = f'{self.path}/progress.csv'
         self.data = fo.yml2dict(self.f_data)
         self.df_stats = self.get_stats(topics_data)
-        self.df_progress = pdo.load(self.f_progress)
+        self.df_progress = pdo.load(self.f_progress, allow_empty=True)
 
     def get_stats(self, topics_data):
-        df_stats = pdo.load(self.f_stats)
+        df_stats = pdo.load(self.f_stats, allow_empty=True)
         df_stats["topic_id"] = df_stats["topic_id"].astype(int, errors="ignore")
         missing_topics = [tid for tid in topics_data if tid not in df_stats["topic_id"].values]
         # Добавить недостающие topic_id со значениями по умолчанию

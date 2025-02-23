@@ -64,3 +64,129 @@
 2025-02-22 14:49:14,996:main:INFO: <class 'str'>
 2025-02-22 14:49:14,996:main:INFO: 0
 2025-02-22 14:49:14,996:main:INFO: -------
+2025-02-22 18:28:40,951:main:INFO:                           question         correct                                          options
+id                                                                                                 
+0          change file permissions  chmod 755 file  chmod 777 file; chmod 755 file; chown user file
+1   properly kill a process by PID     kill -9 PID                kill PID; kill -9 PID; rm -rf PID
+2                     switch users        su; sudo                             su; sudo; ls -l; man
+2025-02-22 18:29:22,543:main:INFO:                           question         correct                                          options
+id                                                                                                 
+0          change file permissions  chmod 755 file  chmod 777 file; chmod 755 file; chown user file
+1   properly kill a process by PID     kill -9 PID                kill PID; kill -9 PID; rm -rf PID
+2                     switch users        su; sudo                             su; sudo; ls -l; man
+2025-02-22 18:29:35,377:main:INFO:                           question         correct                                          options
+id                                                                                                 
+0          change file permissions  chmod 755 file  chmod 777 file; chmod 755 file; chown user file
+1   properly kill a process by PID     kill -9 PID                kill PID; kill -9 PID; rm -rf PID
+2                     switch users        su; sudo                             su; sudo; ls -l; man
+2025-02-22 18:30:25,010:main:INFO:                           question         correct                                          options
+id                                                                                                 
+0          change file permissions  chmod 755 file  chmod 777 file; chmod 755 file; chown user file
+1   properly kill a process by PID     kill -9 PID                kill PID; kill -9 PID; rm -rf PID
+2                     switch users        su; sudo                             su; sudo; ls -l; man
+2025-02-22 18:30:25,014:main:WARNING: ['question', 'correct', 'options']
+2025-02-22 18:42:18,581:main:INFO: >>>>>>
+2025-02-22 18:42:18,581:main:INFO: {'question': 'switch users', 'correct': 'su; sudo', 'options': 'su; sudo; ls -l; man', 'kind': 'selects', 'translation': nan}
+2025-02-22 18:42:18,581:main:INFO: <<<<<<
+2025-02-22 18:43:22,221:main:INFO: >>>>>>
+2025-02-22 18:43:22,221:main:INFO: {'question': 'change file permissions', 'correct': 'chmod 755 file', 'options': 'chmod 777 file; chmod 755 file; chown user file', 'kind': 'select', 'translation': nan}
+2025-02-22 18:43:22,221:main:INFO: <<<<<<
+2025-02-22 19:30:10,406:main:INFO:                                             question                                        translation
+0                         current directory: _(pwd).                    вывести текущий каталог: [pwd].
+1  view last 10 lines of a file: _(tail -n 10) <f...  посмотреть последние 10 строк файла: [tail -n ...
+2  find files with "bash" in name: _(find . -name...  найти файлы с "bash" в названии: [find . -name...
+2025-02-22 19:32:07,112:main:INFO: 0
+2025-02-22 19:32:07,112:main:INFO: single
+2025-02-22 19:32:07,112:main:INFO: 4
+2025-02-22 19:36:01,157:main:INFO: 0
+2025-02-22 19:36:01,157:main:INFO: single
+2025-02-22 19:36:01,157:main:INFO: 4
+2025-02-22 19:38:08,073:main:INFO: 0
+2025-02-22 19:38:08,073:main:INFO: single
+2025-02-22 19:38:08,073:main:INFO: 4
+2025-02-22 19:39:35,771:main:INFO: 0
+2025-02-22 19:39:35,771:main:INFO: single
+2025-02-22 19:39:35,771:main:INFO: 4
+2025-02-22 19:40:03,497:main:INFO: 0
+2025-02-22 19:40:03,497:main:INFO: single
+2025-02-22 19:40:03,497:main:INFO: 4
+2025-02-22 19:40:37,941:main:INFO: 0
+2025-02-22 19:40:37,942:main:INFO: single
+2025-02-22 19:40:37,942:main:INFO: 4
+2025-02-22 19:42:02,387:main:INFO: 0
+2025-02-22 19:42:02,388:main:INFO: single
+2025-02-22 19:42:02,388:main:INFO: 4
+2025-02-22 19:42:11,234:main:INFO: 0
+2025-02-22 19:42:11,234:main:INFO: single
+2025-02-22 19:42:11,234:main:INFO: 4
+2025-02-22 19:42:20,575:main:INFO: 0
+2025-02-22 19:42:20,575:main:INFO: single
+2025-02-22 19:42:20,575:main:INFO: 4
+2025-02-22 19:43:00,031:main:INFO: 0
+2025-02-22 19:43:00,032:main:INFO: single
+2025-02-22 19:43:00,032:main:INFO: 4
+2025-02-22 19:44:04,884:main:INFO: >>> df_progress_combined:
+2025-02-22 19:44:04,884:main:INFO:   id topic_id question_kind question_id points estimation  estimation_numeric
+0  0        0        select           0      0          F                   1
+1  1        0        select           1      0          F                   1
+2  2        0        select           2      0          F                   1
+5  5        0        single           3      0          F                   1
+2025-02-22 19:44:04,889:main:INFO: <<<
+2025-02-22 19:44:04,889:main:INFO: >>> candidates:
+2025-02-22 19:44:04,889:main:INFO:   id topic_id question_kind question_id points estimation  estimation_numeric
+0  0        0        select           0      0          F                   1
+1  1        0        select           1      0          F                   1
+2  2        0        select           2      0          F                   1
+5  5        0        single           3      0          F                   1
+2025-02-22 19:44:04,894:main:INFO: <<<
+2025-02-22 19:44:14,884:main:INFO: >>> df_progress_combined:
+2025-02-22 19:44:14,884:main:INFO:   id topic_id question_kind question_id points estimation  estimation_numeric
+0  0        0        select           0      0          F                   1
+1  1        0        select           1      0          F                   1
+2  2        0        select           2      0          F                   1
+5  5        0        single           3      0          F                   1
+2025-02-22 19:44:14,888:main:INFO: <<<
+2025-02-22 19:44:14,889:main:INFO: >>> candidates:
+2025-02-22 19:44:14,889:main:INFO:   id topic_id question_kind question_id points estimation  estimation_numeric
+0  0        0        select           0      0          F                   1
+1  1        0        select           1      0          F                   1
+2  2        0        select           2      0          F                   1
+5  5        0        single           3      0          F                   1
+2025-02-22 19:44:14,893:main:INFO: <<<
+2025-02-22 19:44:14,893:main:INFO: >>> question:
+2025-02-22 19:44:14,893:main:INFO: id                         0
+topic_id                   0
+question_kind         select
+question_id                0
+points                     0
+estimation                 F
+estimation_numeric         1
+Name: 0, dtype: object
+2025-02-22 19:44:14,894:main:INFO: <<<
+2025-02-22 19:44:25,429:main:INFO: >>> df_progress_combined:
+2025-02-22 19:44:25,429:main:INFO:   id topic_id question_kind question_id points estimation  estimation_numeric
+0  0        0        select           0      0          F                   1
+1  1        0        select           1      0          F                   1
+2  2        0        select           2      0          F                   1
+5  5        0        single           3      0          F                   1
+2025-02-22 19:44:25,434:main:INFO: <<<
+2025-02-22 19:44:25,434:main:INFO: >>> candidates:
+2025-02-22 19:44:25,434:main:INFO:   id topic_id question_kind question_id points estimation  estimation_numeric
+0  0        0        select           0      0          F                   1
+1  1        0        select           1      0          F                   1
+2  2        0        select           2      0          F                   1
+5  5        0        single           3      0          F                   1
+2025-02-22 19:44:25,439:main:INFO: <<<
+2025-02-22 19:44:25,439:main:INFO: >>> question:
+2025-02-22 19:44:25,439:main:INFO: id                         0
+topic_id                   0
+question_kind         select
+question_id                0
+points                     0
+estimation                 F
+estimation_numeric         1
+Name: 0, dtype: object
+2025-02-22 19:44:25,439:main:INFO: <<<
+2025-02-22 19:44:25,454:main:INFO: 0
+2025-02-22 19:44:25,454:main:INFO: select
+2025-02-22 19:44:25,454:main:INFO: 0

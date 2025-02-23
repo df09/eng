@@ -23,44 +23,75 @@ def index():
     user = User(session['user'], topics.data)
     stats = user.df_stats.to_dict(orient="records")
     return render_template('index.html', topics=topics.data, stats=stats)
-@index_bp.route('/choose_topic', methods=['GET', 'POST'])
+@index_bp.route('/choose_topic', methods=['GET'])
 def choose_topic():
     tid = request.args.get('tid')
     if not tid or not tid.isdigit():
         return 'Invalid tid', 400  # Проверка на число
     tid = int(tid)
-    if tid in topics.data:
-        # Очистка старых вопросов, если пользователь переключает тему
-        session.pop('qs', None)
-        session.pop('q_index', None)
-        # Перенаправление на страницу темы
-        return redirect(url_for('index.topic', tid=tid))
-    return 'tid not supported', 400
+    return redirect(url_for('index.topic', tid=tid))
 
 # === topic ===================================
 @index_bp.route('/topic/<int:tid>')
+@login_required
 def topic(tid):
     if tid not in topics.data:
-        return 'Invalid topic', 400
-    user = User(session['user'], topics.data)  # Загружаем пользователя
-    topic = Topic(tid, topics.data[tid])  # Загружаем тему
-    # Если вопросов ещё нет, создаём новую пачку
-    if 'qs' not in session or 'q_index' not in session:
-        session['q_index'] = 0
-        session['qs'] = topic.get_batch(user.df_progress_pronouns, 30).to_dict(orient='records')
-    qs = session['qs']
-    index = session['q_index']
-    # Если вопросы закончились, сбрасываем сессию и возвращаем в главное меню
-    if index >= len(qs):
-        session.pop('q_index')
-        session.pop('qs')
-        return redirect(url_for('index.index'))
-    # Получаем текущий вопрос
-    q = qs[index]
-    # Определяем тип вопроса
-    q_type = q.get('q_type', 'q_select')  # По умолчанию q_select
-    # Перенаправляем на соответствующий шаблон
-    if q_type == 'q_select': return redirect(url_for('index.q_select', tid=tid, qid=index))
-    if q_type == 'q_single': return redirect(url_for('index.q_single', tid=tid, qid=index))
-    if q_type == 'q_multi':  return redirect(url_for('index.q_multi',  tid=tid, qid=index))
+        return f'Invalid topic - id:{tid}', 400
+    user = User(session['user'], topics.data)
+    topic = Topic(tid, topics.data[tid])
+    question = topic.choose_question(user.df_progress)
+    q_kind = question["question_kind"]
+    qid = question["question_id"]
+    if q_kind == 'select': return redirect(url_for('index.q_select', tid=tid, qid=qid))
+    if q_kind == 'single': return redirect(url_for('index.q_single', tid=tid, qid=qid))
+    if q_kind == 'multi':  return redirect(url_for('index.q_multi',  tid=tid, qid=qid))
     return 'Unknown question type', 400
+# === questions ===================================
+@index_bp.route('/topic/<int:tid>/q_select/<int:qid>', methods=['GET', 'POST'])
+@login_required
+def q_select(tid, qid):
+    # TODO: if estimate F   - ???
+    # TODO: if estimate D,C - ???
+    # TODO: if estimate B,A - ???
+    user = User(session['user'], topics.data)
+    topic = Topic(tid, topics.data[tid])
+    q = topic.get_question(tid, 'select', qid)
+
+    # if request.method == 'POST':
+    #     answer = request.form.get('answer', '').strip()
+    #     result = topic.check_answer(answer, q)
+    #     session['q_index'] += 1
+    #     return render_template('q_select.html', q=q, result=result, answer=answer)
+    return render_template('q_select.html', q=q)
+
+@index_bp.route('/topic/<int:tid>/q_single/<int:qid>', methods=['GET', 'POST'])
+@login_required
+def q_single(tid, qid):
+    # TODO: if estimate F   - ???
+    # TODO: if estimate D,C - ???
+    # TODO: if estimate B,A - ???
+    user = User(session['user'], topics.data)
+    topic = Topic(tid, topics.data[tid])
+    q = topic.get_question(tid, 'single', qid)
+    # if request.method == 'POST':
+    #     answer = request.form.get('answer', '').strip()
+    #     result = topic.check_answer(answer, q)
+    #     session['q_index'] += 1
+    #     return render_template('q_single.html', q=q, result=result, answer=answer)
+    return render_template('q_single.html', q=q)
+
+@index_bp.route('/topic/<int:tid>/q_multi/<int:qid>', methods=['GET', 'POST'])
+@login_required
+def q_multi(tid, qid, q):
+    # TODO: if estimate F   - ???
+    # TODO: if estimate D,C - ???
+    # TODO: if estimate B,A - ???
+    user = User(session['user'], topics.data)
+    topic = Topic(tid, topics.data[tid])
+    q = topic.get_question(tid, 'multi', qid)
+    # if request.method == 'POST':
+    #     answer = request.form.get('answer', '').strip()
+    #     result = topic.check_answer(answer, q)
+    #     session['q_index'] += 1
+    #     return render_template('q_multi.html', q=q, result=result, answer=answer)
+    return render_template('q_multi.html', q=q)
