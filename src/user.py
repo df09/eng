@@ -18,83 +18,59 @@ class User():
         self.df_progress = pdo.load(self.f_progress, allow_empty=True)
         self.estimate_ranges = {'F':[0, 2],'D':[3, 5],'C':[6, 9],'B':[10, 14],'A':[15, 999]}
 
-    # TODO: также по этому пути:
-    # TODO:     f'data/{tid}_{tname}/questions/_total.txt'
-    # TODO: лежит текстовый файл, в котором записано просто число - сколько всего вопросов в этом топике.
-    # TODO: нужно получить это число и добавить в df_stats в колонку 'total' соотвествкнно
     def get_stats(self, topics_data):
         df_stats = pdo.load(self.f_stats, allow_empty=True)
         df_stats["topic_id"] = df_stats["topic_id"].astype(int, errors="ignore")
-        missing_topics = [tid for tid in topics_data if tid not in df_stats["topic_id"].values]
-        def read_total(tid, tname):
-            path = f"data/{tid}_{tname}/questions/_total.txt"
-            try:
-                with open(path, "r") as f:
-                    return int(f.read().strip())
-            except Exception:
-                return 0
-        # Добавляем недостающие topic_id с вычисленным total
-        new_rows = pd.DataFrame([
-            {"id": len(df_stats) + i, "topic_id": tid,
-             "a": 0, "b": 0, "c": 0, "d": 0, "f": 0, "in_progress": 0,
-             "total": read_total(tid, topics_data[tid])}
-            for i, tid in enumerate(missing_topics)
-        ])
-        df_stats = pd.concat([df_stats, new_rows], ignore_index=True)
-        # Обновляем колонку 'total' для всех записей
-        df_stats["total"] = df_stats["topic_id"].apply(
-            lambda tid: read_total(tid, topics_data.get(tid, ""))
-        )
+        existing_topics = set(df_stats["topic_id"])
+        new_rows = []
+        for tid, topic_name in topics_data.items():
+            topic_path = f"data/topics/{tid}_{topic_name}/questions/_total.txt"
+            total = int(fo.txt2str(topic_path))
+            if tid not in existing_topics:
+                new_rows.append({
+                    "id": len(df_stats) + len(new_rows),
+                    "topic_id": tid,
+                    "A": 0, "B": 0, "C": 0, "D": 0, "F": 0,
+                    "in_progress": 0,
+                    "total": total
+                })
+            else:
+                df_stats.loc[df_stats["topic_id"] == tid, "total"] = total
+        if new_rows:
+            df_stats = pd.concat([df_stats, pd.DataFrame(new_rows)], ignore_index=True)
         return df_stats
 
     def save_progress(self, tid, q_kind, qid, result):
-        """
-        Обновляет прогресс пользователя после ответа на вопрос.
-        Параметры:
-            tid (int)     - ID темы
-            q_kind (str)  - Тип вопроса ('choose', 'input', 'fill')
-            qid (int)     - ID вопроса
-            result (bool) - Верно ли отвечен вопрос
-        Возвращает:
-            bool: True, если прогресс успешно сохранён.
-        """
-        # Проверяем, существует ли запись об этом вопросе
         existing_row = self.df_progress[
             (self.df_progress["topic_id"] == tid) &
             (self.df_progress["question_kind"] == q_kind) &
             (self.df_progress["question_id"] == qid)
         ]
         if not existing_row.empty:
-            # Если запись существует, обновляем её
             index = existing_row.index[0]
-            if result:
-                self.df_progress.at[index, "points"] += 1  # Увеличиваем на 1
-            elif self.df_progress.at[index, "points"] > 0:
-                self.df_progress.at[index, "points"] -= 1  # Уменьшаем, но не даём уйти в отрицательные значения
+            self.df_progress.at[index, "points"] = max(0, self.df_progress.at[index, "points"] + (1 if result else -1))
         else:
-            # Если записи нет, создаем новую
-            new_id = self.df_progress["id"].max() + 1 if not self.df_progress.empty else 1
-            new_row = {
-                "id": new_id,
-                "topic_id": tid,
-                "question_kind": q_kind,
-                "question_id": qid,
-                "points": 1 if result else 0,  # Начальное значение не может быть отрицательным
-                "estimation": "F"
-            }
-            self.df_progress = pd.concat([self.df_progress, pd.DataFrame([new_row])], ignore_index=True)
-        # Пересчитываем estimation на основе points
-        for key, (low, high) in self.estimate_ranges.items():
-            self.df_progress.loc[
-                (self.df_progress["topic_id"] == tid) &
-                (self.df_progress["question_kind"] == q_kind) &
-                (self.df_progress["question_id"] == qid) &
-                (self.df_progress["points"].between(low, high)),
-                "estimation"
-            ] = key
-        # Сохраняем обновлённый CSV
+            new_id = self.df_progress["id"].max() + 1 if not self.df_progress.empty else 0
+            self.df_progress = pd.concat([self.df_progress, pd.DataFrame([{
+                "id": new_id, "topic_id": tid, "question_kind": q_kind, "question_id": qid,
+                "points": 1 if result else 0, "estimation": "F"
+            }])], ignore_index=True)
+        # Обновляем estimation
+        self.df_progress["estimation"] = self.df_progress["points"].apply(
+            lambda p: next((k for k, (low, high) in self.estimate_ranges.items() if low <= p <= high), "F")
+        )
         pdo.save(self.df_progress, self.f_progress)
+        self.upd_stats()
         return True
 
-    def save_stats(self, tid, q_kind, qid, result):
-
+    def upd_stats(self):
+        self.df_stats[["A", "B", "C", "D", "F"]] = 0  # Обнуляем оценки (без in_progress)
+        # Группировка и подсчет количества вопросов по оценкам
+        progress_counts = self.df_progress.groupby(["topic_id", "estimation"]).size().unstack(fill_value=0)
+        for grade in self.estimate_ranges.keys():
+            if grade in progress_counts:
+                self.df_stats[grade] = self.df_stats["topic_id"].map(progress_counts[grade]).fillna(0).astype(int)
+        # in_progress теперь сумма всех категорий A, B, C, D, F
+        self.df_stats["in_progress"] = self.df_stats[["A", "B", "C", "D", "F"]].sum(axis=1)
+        # Сохраняем обновленный CSV
+        pdo.save(self.df_stats, self.f_stats)

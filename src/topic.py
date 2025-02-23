@@ -2,6 +2,7 @@ import os
 import re
 from logger import logger
 import src.helpers.fo as fo
+import pandas as pd
 import src.helpers.pdo as pdo
 
 
@@ -106,4 +107,4 @@ class Topic:
         num_input = len(self.qs['input'])
         num_fill = len(self.qs['fill'])
         total = num_choose + num_input + num_fill
-        fo.str2txt(total, self.f_total)
+        fo.str2txt(str(total), self.f_total)

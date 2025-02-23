@@ -23,21 +23,17 @@ def login_required(f):
 @index_bp.route('/')
 @login_required
 def index():
+    # init/validate topics
+    for tid, tname in topics.data.items():
+        topic = Topic(tid, tname)
+    # proceed
     user = User(session['user'], topics.data)
     stats = user.df_stats.to_dict(orient="records")
     return render_template('index.html', page='index', topics=topics.data, stats=stats)
-@index_bp.route('/choose_topic', methods=['GET'])
-def choose_topic():
-    tid = request.args.get('tid')
-    if not tid or not tid.isdigit():
-        return 'Invalid tid', 400  # Проверка на число
-    tid = int(tid)
-    return redirect(url_for('index.topic', tid=tid))
-
 # === topic ===================================
-@index_bp.route('/topic/<int:tid>')
+@index_bp.route('/topic/<int:tid>', methods=['GET'])
 @login_required
-def topic(tid):
+def topic(tid):  # tid уже передаётся из URL
     if tid not in topics.data:
         return f'Invalid topic - id:{tid}', 400
     user = User(session['user'], topics.data)
@@ -45,10 +41,12 @@ def topic(tid):
     question = topic.choose_question(user.df_progress)
     q_kind = question["question_kind"]
     qid = question["question_id"]
-    if q_kind == 'choose': return redirect(url_for('index.q_choose', tid=tid, qid=qid))
-    if q_kind == 'input': return redirect(url_for('index.q_input', tid=tid, qid=qid))
-    if q_kind == 'fill':  return redirect(url_for('index.q_fill', tid=tid, qid=qid))
-    return 'Unknown question type', 400
+    routes = {
+        'choose': 'index.q_choose',
+        'input': 'index.q_input',
+        'fill': 'index.q_fill'
+    }
+    return redirect(url_for(routes.get(q_kind, 'index.unknown_question'), tid=tid, qid=qid))
 
 # === q_choose ===================================
 @index_bp.route('/topic/<int:tid>/q_choose/<int:qid>', methods=['GET', 'POST'])
@@ -74,6 +72,7 @@ def q_choose(tid, qid):
         }
         return jsonify(response_data)
     return render_template('q_choose.html', page='q_choose', tid=tid, tname=topic.name, q=q, shuffled_options=options)
+
 # === q_input ===================================
 @index_bp.route('/topic/<int:tid>/q_input/<int:qid>', methods=['GET', 'POST'])
 @login_required
@@ -97,6 +96,7 @@ def q_input(tid, qid):
         }
         return jsonify(response_data)
     return render_template('q_input.html', page='q_input', tid=tid, tname=topic.name, q=q)
+
 # === q_fill ===================================
 @index_bp.route('/topic/<int:tid>/q_fill/<int:qid>', methods=['GET', 'POST'])
 @login_required

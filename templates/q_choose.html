@@ -6,7 +6,7 @@
 {% block content %}
 <section class="q_choose">
   <p class="m0"><strong>Question:</strong> {{ q.question }}</p>
-  <form id="q-choose-form" class="q-choose-form dflex pv10" action="{{ url_for('index.q_choose', tid=tid, qid=q.id) }}" method="post">
+  <form id="q-choose-form" class="q-choose-form dflex col pv10" action="{{ url_for('index.q_choose', tid=tid, qid=q.id) }}" method="post">
     <div class="options">
       {% for option in shuffled_options %}
       <label>
