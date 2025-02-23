@@ -12,19 +12,18 @@ class Topic:
         self.id = tid
         self.name = name
         self.estimation_order = {'F':1,'D':2,'C':3,'B':4,'A': 5}
-        self.estimate_ranges = {'F':[0, 2],'D':[3, 5],'C':[6, 9],'B':[10, 14],'A':[15, 999]}
         self.path = f'data/topics/{self.id}_{self.name}'
         self.qs = {
-            'select': pdo.load(f'{self.path}/questions/selects.csv').to_dict(orient="records"),
-            'single': pdo.load(f'{self.path}/questions/singles.csv').to_dict(orient="records"),
+            'choose': pdo.load(f'{self.path}/questions/chooses.csv').to_dict(orient="records"),
+            'input': pdo.load(f'{self.path}/questions/inputs.csv').to_dict(orient="records"),
             # TODO
-            'multi': self.load_multi_questions()
+            'fill': self.load_fill_questions()
         }
         # TODO: просто дать ссылку на readme?
         self.theory = fo.txt2str(f'{self.path}/theory.txt')
 
     # TODO
-    def load_multi_questions(self):
+    def load_fill_questions(self):
         return {}
 
     # === get question ===================================
@@ -33,7 +32,7 @@ class Topic:
         Выбирает вопрос с наименьшим 'estimation', если несколько — выбирает случайный.
         Если вопрос отсутствует в 'df_progress', ему присваивается points=0, estimation='F'.
         Возвращает:
-            kind (str)  - question kind ('select', 'single', 'multi')
+            kind (str)  - question kind ('choose', 'input', 'fill')
             qid  (int)  - id вопроса
         """
         # Объединяем все вопросы в один список, добавляя kind

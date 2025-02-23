@@ -190,3 +190,4 @@ Name: 0, dtype: object
 2025-02-22 19:44:25,454:main:INFO: 0
 2025-02-22 19:44:25,454:main:INFO: select
 2025-02-22 19:44:25,454:main:INFO: 0
+2025-02-22 21:46:57,491:main:INFO: {'code': 0, 'success': True, 'out': '/home/df09/init/projects/works/glass/_eng', 'err': False}

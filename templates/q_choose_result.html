@@ -1,0 +1,28 @@
+{% extends 'layouts/base.html' %}
+{% block title %}Q-Choose Result{% endblock %}
+{% block header %}Q-Choose Result{% endblock %}
+{% block content %}
+<div class="container">
+  <section class="q_choose_result">
+    <p><strong>Question:</strong> {{ q_result.question }}</p>
+    <div class="options">
+      <p><strong>Your answer:</strong>
+        {% for ans in q_result.selected %}
+          <span class="{% if ans in q_result.correct %}correct{% else %}incorrect{% endif %}">{{ ans }}</span>
+        {% endfor %}
+      </p>
+      <p><strong>Correct answer:</strong>
+        {% for ans in q_result.correct %}
+          <span class="correct">{{ ans }}</span>
+        {% endfor %}
+      </p>
+    </div>
+    {% if q_result.is_correct %}
+      <p class="correct">✅ Correct!</p>
+    {% else %}
+      <p class="incorrect">❌ Incorrect. Try again!</p>
+    {% endif %}
+    <a href="{{ url_for('index.topic', tid=tid) }}" class="btn">Next Question</a>
+  </section>
+</div>
+{% endblock %}

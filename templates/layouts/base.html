@@ -13,6 +13,8 @@
   <main>
     {% block content %}{% endblock %}
   </main>
-  {% include 'layouts/footer.html' %}
+  <footer>
+      <a href="{{ url_for('auth.logout') }}" class="logout-btn">Logout</a>
+  </footer>
 </body>
 </html>
