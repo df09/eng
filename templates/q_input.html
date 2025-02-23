@@ -5,17 +5,65 @@
 {% endblock %}
 {% block content %}
 <section class="q_input">
-  <!-- <h1>{{ q.category_eng }}</h1> -->
-  <!-- <h3>({{ q.category_ru }})</h3> -->
-  <!-- <form action="/mode/pronouns" method="post"> -->
-  <!--     <p>{{ q_text | safe }}</p> -->
-  <!--     <button type="submit">Send</button> -->
-  <!-- </form> -->
-  <!-- {% if result is not none %} -->
-  <!--     <p>Your answer: {{ answer }}</p> -->
-  <!--     <p>{% if result %}✔ Correct!{% else %}❌ Incorrect! The correct answer is: {{ q.pronoun_clean }}{% endif %}</p> -->
-
-  {{ q }}
-
+  <p class="m0"><strong>Question:</strong> {{ q.question }}</p>
+  <form id="q-input-form" class="q-input-form dflex pv10" action="{{ url_for('index.q_input', tid=tid, qid=q.id) }}" method="post">
+    <input id="q-input" class="q-input-input p5" type="text" name="answer" placeholder="Your answer..." required>
+    <button type="submit" class="btn btn-g ml5">Submit</button>
+  </form>
+  <!-- Блок для отображения результата -->
+  <div id="result-container" class="hidden">
+    <p><strong>Your answer:</strong> <span id="user-answer"></span></p>
+    <p><strong>Correct answer:</strong> <span id="correct-answer" class="correct"></span></p>
+    <p id="result-message"></p>
+    <button id="next-question" class="btn btn-g mt10">Next Question</button>
+  </div>
 </section>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    const form = document.getElementById("q-input-form");
+    const inputField = document.getElementById("q-input");
+    const resultContainer = document.getElementById("result-container");
+    const userAnswer = document.getElementById("user-answer");
+    const correctAnswer = document.getElementById("correct-answer");
+    const resultMessage = document.getElementById("result-message");
+    const nextQuestionBtn = document.getElementById("next-question");
+
+    form.addEventListener("submit", function (event) {
+        event.preventDefault();
+        
+        const formData = new FormData(form);
+
+        fetch(form.action, {
+            method: "POST",
+            body: formData
+        })
+        .then(response => response.json())
+        .then(data => {
+            if (data.success) {
+                userAnswer.textContent = data.selected;
+                correctAnswer.textContent = data.correct;
+                resultMessage.textContent = data.is_correct ? "✅ Correct!" : "❌ Incorrect. Try again!";
+                resultMessage.className = data.is_correct ? "correct" : "incorrect";
+
+                form.classList.add("hidden");
+                resultContainer.classList.remove("hidden");
+
+                // Если правильный ответ, кнопка ведёт на следующий вопрос
+                if (data.is_correct) {
+                    nextQuestionBtn.onclick = function () {
+                        window.location.href = data.next_question_url;
+                    };
+                } else {
+                    nextQuestionBtn.onclick = function () {
+                        resultContainer.classList.add("hidden");
+                        form.classList.remove("hidden");
+                        inputField.value = "";
+                    };
+                }
+            }
+        })
+        .catch(error => console.error("Error:", error));
+    });
+});
+</script>
 {% endblock %}

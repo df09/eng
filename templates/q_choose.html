@@ -1,12 +1,12 @@
 {% extends 'layouts/base.html' %}
 {% block title %}Q-Choose{% endblock %}
 {% block header %}
-  <a href="{{ url_for('index.index') }}">MainMenu</a><span>/{{ tid }}.{{ tname }}/Q-Choose<span>
+  <a href="{{ url_for('index.index') }}">MainMenu</a><span>/{{ tid }}.{{ tname }}/Q-Choose</span>
 {% endblock %}
 {% block content %}
 <section class="q_choose">
-  <p><strong>Question:</strong> {{ q.question }}</p>
-  <form action="{{ url_for('index.q_choose', tid=tid, qid=q.id) }}" method="post">
+  <p class="m0"><strong>Question:</strong> {{ q.question }}</p>
+  <form id="q-choose-form" class="q-choose-form dflex pv10" action="{{ url_for('index.q_choose', tid=tid, qid=q.id) }}" method="post">
     <div class="options">
       {% for option in shuffled_options %}
       <label>
@@ -15,7 +15,65 @@
       </label><br>
       {% endfor %}
     </div>
-    <button type="submit">Submit</button>
+    <button type="submit" class="btn btn-g mt10">Submit</button>
   </form>
+  <!-- Блок для отображения результата -->
+  <div id="result-container" class="hidden">
+    <p><strong>Your answer:</strong>
+      <span id="user-answer"></span>
+    </p>
+    <p><strong>Correct answer:</strong>
+      <span id="correct-answer" class="correct"></span>
+    </p>
+    <p id="result-message"></p>
+    <button id="next-question" class="btn btn-g mt10">Next Question</button>
+  </div>
 </section>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    const form = document.getElementById("q-choose-form");
+    const resultContainer = document.getElementById("result-container");
+    const userAnswer = document.getElementById("user-answer");
+    const correctAnswer = document.getElementById("correct-answer");
+    const resultMessage = document.getElementById("result-message");
+    const nextQuestionBtn = document.getElementById("next-question");
+
+    form.addEventListener("submit", function (event) {
+        event.preventDefault();
+
+        const formData = new FormData(form);
+
+        fetch(form.action, {
+            method: "POST",
+            body: formData
+        })
+        .then(response => response.json())
+        .then(data => {
+            if (data.success) {
+                userAnswer.textContent = data.selected.join(", ");
+                correctAnswer.textContent = data.correct.join(", ");
+                resultMessage.textContent = data.is_correct ? "✅ Correct!" : "❌ Incorrect. Try again!";
+                resultMessage.className = data.is_correct ? "correct" : "incorrect";
+
+                form.classList.add("hidden");
+                resultContainer.classList.remove("hidden");
+
+                if (data.is_correct) {
+                    nextQuestionBtn.onclick = function () {
+                        window.location.href = data.next_question_url;
+                    };
+                } else {
+                    nextQuestionBtn.onclick = function () {
+                        resultContainer.classList.add("hidden");
+                        form.classList.remove("hidden");
+                        form.reset();
+                    };
+                }
+            }
+        })
+        .catch(error => console.error("Error:", error));
+    });
+});
+</script>
 {% endblock %}

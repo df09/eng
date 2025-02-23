@@ -18,16 +18,33 @@ class User():
         self.df_progress = pdo.load(self.f_progress, allow_empty=True)
         self.estimate_ranges = {'F':[0, 2],'D':[3, 5],'C':[6, 9],'B':[10, 14],'A':[15, 999]}
 
+    # TODO: также по этому пути:
+    # TODO:     f'data/{tid}_{tname}/questions/_total.txt'
+    # TODO: лежит текстовый файл, в котором записано просто число - сколько всего вопросов в этом топике.
+    # TODO: нужно получить это число и добавить в df_stats в колонку 'total' соотвествкнно
     def get_stats(self, topics_data):
         df_stats = pdo.load(self.f_stats, allow_empty=True)
         df_stats["topic_id"] = df_stats["topic_id"].astype(int, errors="ignore")
         missing_topics = [tid for tid in topics_data if tid not in df_stats["topic_id"].values]
-        # Добавить недостающие topic_id со значениями по умолчанию
-        new_rows = pd.DataFrame([{ "id": len(df_stats) + i, "topic_id": tid,
-                "a": 0, "b": 0, "c": 0, "d": 0, "f": 0, "in_progress": 0
-            } for i, tid in enumerate(missing_topics)])
-        # Объединяем старые и новые данные
+        def read_total(tid, tname):
+            path = f"data/{tid}_{tname}/questions/_total.txt"
+            try:
+                with open(path, "r") as f:
+                    return int(f.read().strip())
+            except Exception:
+                return 0
+        # Добавляем недостающие topic_id с вычисленным total
+        new_rows = pd.DataFrame([
+            {"id": len(df_stats) + i, "topic_id": tid,
+             "a": 0, "b": 0, "c": 0, "d": 0, "f": 0, "in_progress": 0,
+             "total": read_total(tid, topics_data[tid])}
+            for i, tid in enumerate(missing_topics)
+        ])
         df_stats = pd.concat([df_stats, new_rows], ignore_index=True)
+        # Обновляем колонку 'total' для всех записей
+        df_stats["total"] = df_stats["topic_id"].apply(
+            lambda tid: read_total(tid, topics_data.get(tid, ""))
+        )
         return df_stats
 
     def save_progress(self, tid, q_kind, qid, result):
@@ -78,3 +95,6 @@ class User():
         # Сохраняем обновлённый CSV
         pdo.save(self.df_progress, self.f_progress)
         return True
+
+    def save_stats(self, tid, q_kind, qid, result):
+

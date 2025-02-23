@@ -5,7 +5,9 @@ from src.topics import Topics
 from src.topic import Topic
 from logger import logger
 from random import shuffle
+from flask import jsonify
 import re
+
 
 index_bp = Blueprint('index', __name__)
 topics = Topics()
@@ -23,7 +25,7 @@ def login_required(f):
 def index():
     user = User(session['user'], topics.data)
     stats = user.df_stats.to_dict(orient="records")
-    return render_template('index.html', css='index', topics=topics.data, stats=stats)
+    return render_template('index.html', page='index', topics=topics.data, stats=stats)
 @index_bp.route('/choose_topic', methods=['GET'])
 def choose_topic():
     tid = request.args.get('tid')
@@ -55,46 +57,47 @@ def q_choose(tid, qid):
     user = User(session['user'], topics.data)
     topic = Topic(tid, topics.data[tid])
     q = topic.get_question(tid, 'choose', qid)
-    # Перемешиваем чекбоксы перед отправкой в шаблон
     options = [opt.strip() for opt in q["options"].split(";")]
     shuffle(options)
     if request.method == 'POST':
-        selected_answers = set(request.form.getlist('answer'))  # Выбранные ответы пользователя
-        correct_answers = set(q["correct"].split(";"))  # Правильные ответы
-        if selected_answers:  # Проверяем только если что-то выбрано
-            result = selected_answers == correct_answers
-            user.save_progress(tid, 'choose', qid, result)
-            # Сохраняем результат в сессии, чтобы отобразить на странице результата
-            session['q_result'] = {
-                "question": q["question"],
-                "selected": list(selected_answers),
-                "correct": list(correct_answers),
-                "is_correct": result
-            }
-            return redirect(url_for('index.q_choose_result', tid=tid,tname=topic.name, qid=qid))
-    return render_template('q_choose.html', css='q_choose', tid=tid,tname=topic.name, q=q, shuffled_options=options)
-@index_bp.route('/topic/<int:tid>/q_choose/<int:qid>/result')
-@login_required
-def q_choose_result(tid, qid):
-    q_result = session.pop('q_result', None)  # Извлекаем и удаляем данные из сессии
-    topic = Topic(tid, topics.data[tid])
-    if not q_result:
-        return redirect(url_for('index.q_choose', tid=tid,tname=topic.name, qid=qid))  # Если нет данных, вернуться к вопросу
-    return render_template('q_choose_result.html', css='q_choose_result', q_result=q_result, tid=tid,tname=topic.name, qid=qid)
-
-# === q_input/q_fill ===================================
+        selected_answers = set(request.form.getlist('answer'))
+        correct_answers = set(q["correct"].split(";"))
+        result = selected_answers == correct_answers
+        user.save_progress(tid, 'choose', qid, result)
+        response_data = {
+            "success": True,
+            "question": q["question"],
+            "selected": list(selected_answers),
+            "correct": list(correct_answers),
+            "is_correct": result,
+            "next_question_url": url_for('index.topic', tid=tid) if result else ""
+        }
+        return jsonify(response_data)
+    return render_template('q_choose.html', page='q_choose', tid=tid, tname=topic.name, q=q, shuffled_options=options)
+# === q_input ===================================
 @index_bp.route('/topic/<int:tid>/q_input/<int:qid>', methods=['GET', 'POST'])
 @login_required
 def q_input(tid, qid):
     user = User(session['user'], topics.data)
     topic = Topic(tid, topics.data[tid])
     q = topic.get_question(tid, 'input', qid)
-    # if request.method == 'POST':
-    #     answer = request.form.get('answer', '').strip()
-    #     result = topic.check_answer(answer, q)
-    #     session['q_index'] += 1
-    #     return render_template('q_input.html', css='q_input',tid=tid,tname=topic.name, q=q, result=result, answer=answer)
-    return render_template('q_input.html', css='q_input',tid=tid,tname=topic.name, q=q)
+    q['question'], q['correct'] = topic.format_q_input(q['question'])
+    if request.method == 'POST':
+        answer = request.form.get('answer', '').strip()
+        correct_answer = q["correct"].strip()
+        result = answer.lower() == correct_answer.lower()
+        user.save_progress(tid, 'input', qid, result)
+        response_data = {
+            "success": True,
+            "question": q["question"],
+            "selected": answer,
+            "correct": correct_answer,
+            "is_correct": result,
+            "next_question_url": url_for('index.topic', tid=tid) if result else ""
+        }
+        return jsonify(response_data)
+    return render_template('q_input.html', page='q_input', tid=tid, tname=topic.name, q=q)
+# === q_fill ===================================
 @index_bp.route('/topic/<int:tid>/q_fill/<int:qid>', methods=['GET', 'POST'])
 @login_required
 def q_fill(tid, qid, q):
@@ -105,5 +108,5 @@ def q_fill(tid, qid, q):
     #     answer = request.form.get('answer', '').strip()
     #     result = topic.check_answer(answer, q)
     #     session['q_index'] += 1
-    #     return render_template('q_fill.html', css='q_fill',tid=tid,tname=topic.name, q=q, result=result, answer=answer)
-    return render_template('q_fill.html', css='q_fill',tid=tid,tname=topic.name, q=q)
+    #     return render_template('q_fill.html', page='q_fill',tid=tid,tname=topic.name, q=q, result=result, answer=answer)
+    return render_template('q_fill.html', page='q_fill',tid=tid,tname=topic.name, q=q)

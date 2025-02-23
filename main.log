@@ -191,3 +191,19 @@ Name: 0, dtype: object
 2025-02-22 19:44:25,454:main:INFO: select
 2025-02-22 19:44:25,454:main:INFO: 0
 2025-02-22 21:46:57,491:main:INFO: {'code': 0, 'success': True, 'out': '/home/df09/init/projects/works/glass/_eng', 'err': False}
+2025-02-23 13:00:13,088:main:INFO: {'code': 0, 'success': True, 'out': '/home/df09/init/projects/works/glass/_eng', 'err': False}
+2025-02-23 13:23:39,716:main:INFO: {'id': 0, 'question': 'change file permissions', 'correct': 'chmod 755 file', 'options': 'chmod 777 file; chmod 755 file; chown user file'}
+2025-02-23 13:24:24,721:main:INFO: {'id': 3, 'question': 'find files with "bash" in name: _(find . -name "*bash*").', 'translation': 'найти файлы с "bash" в названии: [find . -name "*bash*"].'}
+2025-02-23 13:26:38,709:main:INFO: {'id': 3, 'question': 'find files with "bash" in name: _(find . -name "*bash*").', 'translation': 'найти файлы с "bash" в названии: [find . -name "*bash*"].'}
+2025-02-23 13:26:46,979:main:INFO: {'id': 3, 'question': 'find files with "bash" in name: _(find . -name "*bash*").', 'translation': 'найти файлы с "bash" в названии: [find . -name "*bash*"].'}
+2025-02-23 13:27:03,660:main:INFO: {'id': 3, 'question': 'find files with "bash" in name: _(find . -name "*bash*").', 'translation': 'найти файлы с "bash" в названии: [find . -name "*bash*"].'}
+2025-02-23 13:27:50,265:main:INFO: {'id': 3, 'question': 'find files with "bash" in name: _(find . -name "*bash*").', 'translation': 'найти файлы с "bash" в названии: [find . -name "*bash*"].'}
+2025-02-23 13:27:50,266:main:INFO: {'id': 3, 'question': 'find files with "bash" in name: ___.', 'translation': 'найти файлы с "bash" в названии: [find . -name "*bash*"].', 'correct': 'find . -name "*bash*"'}
+2025-02-23 13:28:26,118:main:INFO: {'id': 3, 'question': 'find files with "bash" in name: _(find . -name "*bash*").', 'translation': 'найти файлы с "bash" в названии: [find . -name "*bash*"].'}
+2025-02-23 13:28:26,118:main:INFO: {'id': 3, 'question': 'find files with "bash" in name: ___.', 'translation': 'найти файлы с "bash" в названии: [find . -name "*bash*"].', 'correct': 'find . -name "*bash*"'}
+2025-02-23 13:28:34,625:main:INFO: {'id': 3, 'question': 'find files with "bash" in name: _(find . -name "*bash*").', 'translation': 'найти файлы с "bash" в названии: [find . -name "*bash*"].'}
+2025-02-23 13:28:34,625:main:INFO: {'id': 3, 'question': 'find files with "bash" in name: ___.', 'translation': 'найти файлы с "bash" в названии: [find . -name "*bash*"].', 'correct': 'find . -name "*bash*"'}
+2025-02-23 13:28:40,450:main:INFO: {'id': 3, 'question': 'find files with "bash" in name: _(find . -name "*bash*").', 'translation': 'найти файлы с "bash" в названии: [find . -name "*bash*"].'}
+2025-02-23 13:28:40,450:main:INFO: {'id': 3, 'question': 'find files with "bash" in name: ___.', 'translation': 'найти файлы с "bash" в названии: [find . -name "*bash*"].', 'correct': 'find . -name "*bash*"'}
+2025-02-23 13:28:46,890:main:INFO: {'id': 2, 'question': 'view last 10 lines of a file: _(tail -n 10) <file>.', 'translation': 'посмотреть последние 10 строк файла: [tail -n 10 <file>].'}
+2025-02-23 13:28:46,890:main:INFO: {'id': 2, 'question': 'view last 10 lines of a file: ___ <file>.', 'translation': 'посмотреть последние 10 строк файла: [tail -n 10 <file>].', 'correct': 'tail -n 10'}

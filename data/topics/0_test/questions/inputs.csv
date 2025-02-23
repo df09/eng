@@ -1,4 +1,4 @@
 id,question,translation
-1,current directory: _(pwd).,вывести текущий каталог: [pwd].
-2,view last 10 lines of a file: _(tail -n 10) <file>.,посмотреть последние 10 строк файла: [tail -n 10 <file>].
-3,find files with "bash" in name: _(find . -name "*bash*").,найти файлы с "bash" в названии: [find . -name "*bash*"].
+0,current directory: _(pwd).,вывести текущий каталог: [pwd].
+1,view last 10 lines of a file: _(tail -n 10) <file>.,посмотреть последние 10 строк файла: [tail -n 10 <file>].
+2,find files with "bash" in name: _(find . -name "*bash*").,найти файлы с "bash" в названии: [find . -name "*bash*"].

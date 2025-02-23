@@ -1,10 +1,8 @@
 import os
-import random
-import pandas as pd
-from collections import defaultdict
+import re
+from logger import logger
 import src.helpers.fo as fo
 import src.helpers.pdo as pdo
-from logger import logger
 
 
 class Topic:
@@ -13,20 +11,20 @@ class Topic:
         self.name = name
         self.estimation_order = {'F':1,'D':2,'C':3,'B':4,'A': 5}
         self.path = f'data/topics/{self.id}_{self.name}'
+        self.f_q_chooses = f'{self.path}/questions/chooses.csv'
+        self.f_q_inputs = f'{self.path}/questions/inputs.csv'
+        self.d_q_fill = f'{self.path}/questions/fill'
+        self.f_total = f'{self.path}/questions/_total.txt'
         self.qs = {
-            'choose': pdo.load(f'{self.path}/questions/chooses.csv').to_dict(orient="records"),
-            'input': pdo.load(f'{self.path}/questions/inputs.csv').to_dict(orient="records"),
-            # TODO
+            'choose': pdo.load(self.f_q_chooses).to_dict(orient="records"),
+            'input': pdo.load(self.f_q_inputs).to_dict(orient="records"),
             'fill': self.load_fill_questions()
         }
+        self.upd_total()
         # TODO: просто дать ссылку на readme?
         self.theory = fo.txt2str(f'{self.path}/theory.txt')
 
-    # TODO
-    def load_fill_questions(self):
-        return {}
-
-    # === get question ===================================
+    # === q.common ===================================
     def choose_question(self, df_progress):
         """
         Выбирает вопрос с наименьшим 'estimation', если несколько — выбирает случайный.
@@ -56,7 +54,6 @@ class Topic:
             'points': 0,
             'estimation': 'F'
         })
-        # Объединяем прогресс пользователя с дефолтным списком вопросов (без дубликатов)
         df_progress_combined = pd.concat([df_progress_filtered, default_progress]).drop_duplicates(subset=["question_id"], keep="first")
         # Преобразуем 'estimation' в числовое значение
         estimation_order = {"F": 1, "D": 2, "C": 3, "B": 4, "A": 5}
@@ -65,9 +62,7 @@ class Topic:
         min_estimation = df_progress_combined["estimation_numeric"].min()
         candidates = df_progress_combined[df_progress_combined["estimation_numeric"] == min_estimation]
         selected = candidates.sample(n=1).iloc[0]
-        # Возвращаем только kind, tid, qid
         return selected
-
     def get_question(self, tid, q_kind, qid):
         # Загружаем вопросы нужного типа
         df_questions = pd.DataFrame(self.qs[q_kind])
@@ -78,3 +73,37 @@ class Topic:
         if question.empty:
             raise ValueError(f"Question ID {qid} not found in topic {tid} (type '{q_kind}').")
         return question.iloc[0].to_dict()
+
+    # === q.input ===================================
+    def format_q_input(self, question):
+        """
+        Заменяет _(ответ) на '___' и возвращает вопрос + правильный ответ отдельно.
+        """
+        match = re.search(r'_\((.*?)\)', question)
+        if not match:
+            raise ValueError("Вопрос не содержит правильного ответа в формате _(ответ).")
+        correct_answer = match.group(1)  # Извлекаем текст внутри _(...)
+        formatted_question = question.replace(match.group(0), '___')  # Заменяем _(...) на ___
+        return formatted_question, correct_answer
+
+    # === q.fill ===================================
+    # TODO
+    def load_fill_questions(self):
+        """Загружает fill-вопросы из директории."""
+        fill_questions = []
+        if os.path.exists(self.d_q_fill):
+            for filename in os.listdir(self.d_q_fill):
+                if filename.endswith('.txt'):
+                    filepath = os.path.join(self.d_q_fill, filename)
+                    with open(filepath, 'r', encoding='utf-8') as f:
+                        question_text = f.read().strip()
+                        fill_questions.append({'id': filename[:-4], 'question': question_text})
+        return fill_questions
+
+    # === total ===================================
+    def upd_total(self):
+        num_choose = len(self.qs['choose'])
+        num_input = len(self.qs['input'])
+        num_fill = len(self.qs['fill'])
+        total = num_choose + num_input + num_fill
+        fo.str2txt(total, self.f_total)

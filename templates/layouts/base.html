@@ -6,20 +6,20 @@
   <title>{% block title %}Default Title{% endblock %}</title>
   <link rel="stylesheet" href="{{ url_for('static', filename='css/common.css') }}">
   <link rel="stylesheet" href="{{ url_for('static', filename='css/base.css') }}">
-  {% if css %}
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/'+css+'.css') }}">
-  {% endif %}
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/'+page+'.css') }}">
 </head>
 <body class='dflex p0 m0'>
   <div class='wrap dflex col p10'>
     {% include 'layouts/messages.html' %}
     <header class="dflex row">
       <div class="title p5">{% block header %}Header{% endblock %}</div>
-      <div class="logout p5">
-        <a href="{{ url_for('auth.logout') }}" class="logout-btn">Logout</a>
-      </div>
+      {% if page not in ['login', 'register'] %}
+        <div class="logout p5">
+          <a href="{{ url_for('auth.logout') }}" class="logout-btn">Logout</a>
+        </div>
+      {% endif %}
     </header>
-    <main class='container'>
+    <main class='container p10'>
       {% block content %}{% endblock %}
     </main>
   </div>

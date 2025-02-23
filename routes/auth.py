@@ -26,7 +26,7 @@ def register():
             flash('Account created!', 'success')
             return redirect(url_for('index.index'))
         flash('Username already exists!', 'danger')
-    return render_template('auth/register.html')
+    return render_template('auth/register.html', page='register')
 
 @auth_bp.route('/login', methods=['GET', 'POST'])
 def login():
@@ -42,7 +42,7 @@ def login():
                     flash('Login successful!', 'success')
                     return redirect(url_for('index.index'))
         flash('Login failed. Check username and password.', 'danger')
-    return render_template('auth/login.html')
+    return render_template('auth/login.html', page='login')
 
 @auth_bp.route('/logout')
 def logout():
