@@ -7,7 +7,10 @@
 <section class="q_input">
   <p class="m0"><strong>Question:</strong> {{ q.question }}</p>
   <form id="q-input-form" class="q-input-form dflex pv10" action="{{ url_for('index.q_input', tid=tid, qid=q.id) }}" method="post">
-    <input id="q-input" class="q-input-input p5" type="text" name="answer" placeholder="Your answer..." required>
+    <input id="q-input" class="q-input-input p5" 
+           type="text" name="answer" placeholder="Your answer..." 
+           autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" 
+           required>
     <button type="submit" class="btn btn-g ml5">Submit</button>
   </form>
   <!-- Блок для отображения результата -->

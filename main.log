@@ -207,3 +207,15 @@ Name: 0, dtype: object
 2025-02-23 13:28:40,450:main:INFO: {'id': 3, 'question': 'find files with "bash" in name: ___.', 'translation': 'найти файлы с "bash" в названии: [find . -name "*bash*"].', 'correct': 'find . -name "*bash*"'}
 2025-02-23 13:28:46,890:main:INFO: {'id': 2, 'question': 'view last 10 lines of a file: _(tail -n 10) <file>.', 'translation': 'посмотреть последние 10 строк файла: [tail -n 10 <file>].'}
 2025-02-23 13:28:46,890:main:INFO: {'id': 2, 'question': 'view last 10 lines of a file: ___ <file>.', 'translation': 'посмотреть последние 10 строк файла: [tail -n 10 <file>].', 'correct': 'tail -n 10'}
+2025-02-23 15:29:32,571:main:INFO: {'sudo', 'su'}
+2025-02-23 15:29:32,571:main:INFO: {' sudo', 'su'}
+2025-02-23 15:30:05,524:main:INFO: {'man', 'sudo'}
+2025-02-23 15:30:05,524:main:INFO: {' sudo', 'su'}
+2025-02-23 15:33:43,242:main:INFO: {'ls -l', 'man'}
+2025-02-23 15:33:43,242:main:INFO: {'su', ' sudo'}
+2025-02-23 15:33:49,722:main:INFO: {'sudo', 'su'}
+2025-02-23 15:33:49,723:main:INFO: {'su', ' sudo'}
+2025-02-23 15:33:58,350:main:INFO: {'sudo', 'su'}
+2025-02-23 15:33:58,350:main:INFO: {'su', ' sudo'}
+2025-02-23 15:37:09,774:main:INFO: {'su', 'sudo'}
+2025-02-23 15:37:09,774:main:INFO: {' sudo', 'su'}

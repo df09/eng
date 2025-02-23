@@ -5,21 +5,19 @@ def load(csvfile, allow_empty=False):
         # Загружаем CSV
         df = pd.read_csv(csvfile, sep=',', quotechar='"', index_col=False)
         # Удаляем пробелы по краям в заголовках
-        df.rename(columns=lambda x: x.strip(), inplace=True)
+        df.columns = df.columns.str.strip()
         # Проверяем, есть ли колонка 'id'
         if "id" not in df.columns:
             raise ValueError(f"Missing 'id' column in {csvfile}. Available columns: {df.columns.tolist()}")
-        # проверяем чтобы небыло продублированых id
+        # Проверяем на дубликаты 'id'
         duplicates = df[df["id"].duplicated()]["id"].tolist()
         if duplicates:
             raise ValueError(f"Duplicate IDs found: {duplicates} in {csvfile}")
-        # Проверяем, содержит ли csv строки со значениями
-        if df.empty:
-            if allow_empty:
-                return df
+        # Проверяем, пуст ли CSV
+        if df.empty and not allow_empty:
             raise ValueError(f"File {csvfile} is empty or unreadable")
         # Удаляем пробелы по краям во всех строковых значениях
-        df[df.select_dtypes(include=['object']).columns] = df[df.select_dtypes(include=['object']).columns].map(lambda x: x.strip() if isinstance(x, str) else x)
+        df = df.applymap(lambda x: x.strip() if isinstance(x, str) else x)
         return df
     except FileNotFoundError:
         raise FileNotFoundError(f"ERROR: csv-file not found: {csvfile}")

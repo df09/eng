@@ -18,6 +18,12 @@
     <button type="submit" class="btn btn-g mt10">Submit</button>
   </form>
   <!-- Блок для отображения результата -->
+
+  <pre>
+    {{ selected_answers | pprint }}
+    {{ correct_answers | pprint }}
+  </pre>
+
   <div id="result-container" class="hidden">
     <p><strong>Your answer:</strong>
       <span id="user-answer"></span>

@@ -58,9 +58,9 @@ def q_choose(tid, qid):
     options = [opt.strip() for opt in q["options"].split(";")]
     shuffle(options)
     if request.method == 'POST':
-        selected_answers = set(request.form.getlist('answer'))
-        correct_answers = set(q["correct"].split(";"))
-        result = selected_answers == correct_answers
+        selected_answers = {opt.strip() for opt in request.form.getlist('answer')}
+        correct_answers = {opt.strip() for opt in q["correct"].split(";")}
+        result = selected_answers == correct_answers  # Порядок теперь не имеет значения
         user.save_progress(tid, 'choose', qid, result)
         response_data = {
             "success": True,
