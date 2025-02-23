@@ -23,7 +23,7 @@ def login_required(f):
 def index():
     user = User(session['user'], topics.data)
     stats = user.df_stats.to_dict(orient="records")
-    return render_template('index.html', topics=topics.data, stats=stats)
+    return render_template('index.html', css='index', topics=topics.data, stats=stats)
 @index_bp.route('/choose_topic', methods=['GET'])
 def choose_topic():
     tid = request.args.get('tid')
@@ -45,7 +45,7 @@ def topic(tid):
     qid = question["question_id"]
     if q_kind == 'choose': return redirect(url_for('index.q_choose', tid=tid, qid=qid))
     if q_kind == 'input': return redirect(url_for('index.q_input', tid=tid, qid=qid))
-    if q_kind == 'fill':  return redirect(url_for('index.q_fill',  tid=tid, qid=qid))
+    if q_kind == 'fill':  return redirect(url_for('index.q_fill', tid=tid, qid=qid))
     return 'Unknown question type', 400
 
 # === q_choose ===================================
@@ -71,15 +71,16 @@ def q_choose(tid, qid):
                 "correct": list(correct_answers),
                 "is_correct": result
             }
-            return redirect(url_for('index.q_choose_result', tid=tid, qid=qid))
-    return render_template('q_choose.html', tid=tid, q=q, shuffled_options=options)
+            return redirect(url_for('index.q_choose_result', tid=tid,tname=topic.name, qid=qid))
+    return render_template('q_choose.html', css='q_choose', tid=tid,tname=topic.name, q=q, shuffled_options=options)
 @index_bp.route('/topic/<int:tid>/q_choose/<int:qid>/result')
 @login_required
 def q_choose_result(tid, qid):
     q_result = session.pop('q_result', None)  # Извлекаем и удаляем данные из сессии
+    topic = Topic(tid, topics.data[tid])
     if not q_result:
-        return redirect(url_for('index.q_choose', tid=tid, qid=qid))  # Если нет данных, вернуться к вопросу
-    return render_template('q_choose_result.html', q_result=q_result, tid=tid, qid=qid)
+        return redirect(url_for('index.q_choose', tid=tid,tname=topic.name, qid=qid))  # Если нет данных, вернуться к вопросу
+    return render_template('q_choose_result.html', css='q_choose_result', q_result=q_result, tid=tid,tname=topic.name, qid=qid)
 
 # === q_input/q_fill ===================================
 @index_bp.route('/topic/<int:tid>/q_input/<int:qid>', methods=['GET', 'POST'])
@@ -92,8 +93,8 @@ def q_input(tid, qid):
     #     answer = request.form.get('answer', '').strip()
     #     result = topic.check_answer(answer, q)
     #     session['q_index'] += 1
-    #     return render_template('q_input.html', q=q, result=result, answer=answer)
-    return render_template('q_input.html', q=q)
+    #     return render_template('q_input.html', css='q_input',tid=tid,tname=topic.name, q=q, result=result, answer=answer)
+    return render_template('q_input.html', css='q_input',tid=tid,tname=topic.name, q=q)
 @index_bp.route('/topic/<int:tid>/q_fill/<int:qid>', methods=['GET', 'POST'])
 @login_required
 def q_fill(tid, qid, q):
@@ -104,5 +105,5 @@ def q_fill(tid, qid, q):
     #     answer = request.form.get('answer', '').strip()
     #     result = topic.check_answer(answer, q)
     #     session['q_index'] += 1
-    #     return render_template('q_fill.html', q=q, result=result, answer=answer)
-    return render_template('q_fill.html', q=q)
+    #     return render_template('q_fill.html', css='q_fill',tid=tid,tname=topic.name, q=q, result=result, answer=answer)
+    return render_template('q_fill.html', css='q_fill',tid=tid,tname=topic.name, q=q)

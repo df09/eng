@@ -1,0 +1,31 @@
+.container {
+    width: 100%;
+    background: var(--bg-w, #f8f9fa);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+.topics table { width: 100%; border-collapse: collapse; }
+.topics th, .topics td { border: 1px solid var(--brd-w, #adb5bd); text-align: left; }
+.topics th { background-color: var(--bg-b, #cce5ff); color: #000; }
+.topics td a {
+    color: var(--b, #0056b3);
+    text-decoration: none;
+    font-size: 20px;
+}
+.topics td a:hover { text-decoration: underline; }
+.stats .F { background-color: #ffeff1; color: #dc3545; }
+.stats .D { background-color: #fff8e6; color: #e6b114; }
+.stats .C { background-color: #e6f4ea; color: #3fa356; }
+.stats .B { background-color: #cce5ff; color: #0056b3; }
+.stats .A { background-color: #adb5bd; color: #000; }
+.progress-bar {
+    width: 100%;
+    height: 8px;
+    overflow: hidden;
+    margin-top: 5px;
+    background-color: rgb(173, 181, 189);
+}
+.progress-bar .progress {
+    height: 100%;
+    background: var(--g, #3fa356);
+    transition: width 0.3s ease-in-out;
+}

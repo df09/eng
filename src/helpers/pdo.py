@@ -19,7 +19,7 @@ def load(csvfile, allow_empty=False):
                 return df
             raise ValueError(f"File {csvfile} is empty or unreadable")
         # Удаляем пробелы по краям во всех строковых значениях
-        df = df.applymap(lambda x: x.strip() if isinstance(x, str) else x)
+        df[df.select_dtypes(include=['object']).columns] = df[df.select_dtypes(include=['object']).columns].map(lambda x: x.strip() if isinstance(x, str) else x)
         return df
     except FileNotFoundError:
         raise FileNotFoundError(f"ERROR: csv-file not found: {csvfile}")

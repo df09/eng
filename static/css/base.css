@@ -1,0 +1,18 @@
+body {
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+}
+.wrap {
+    width: 80%;
+    max-width: 800px;
+}
+header .title a { font-size: 30px; }
+header .title span { font-size: 30px; color: rgb(193, 193, 193); }
+header .logout a { font-size: 20px; }
+.messages {}
+.container {
+    width: 100%;
+    background: var(--bg-w, #f8f9fa);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
