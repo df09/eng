@@ -1,4 +1,4 @@
-Bash script to {{ list files }} in current dir:
+Bash script to _(list files) in current dir:
 ```
 #!/bin/bash
 ls -l

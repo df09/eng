@@ -1,4 +1,4 @@
 Fill in the missing part:
-  Command | Action
-  ls -l   | {{ Show files }}
-  df -h   | {{ Disk usage }}
+  Command  | Action
+  _(ls -l) | Show files
+  _(df -h) | Disk usage
