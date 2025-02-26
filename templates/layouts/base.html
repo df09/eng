@@ -11,7 +11,7 @@
 <body class='dflex p0 m0'>
   <div class='wrap dflex col p10'>
     {% include 'layouts/messages.html' %}
-    <header class="dflex row">
+    <header class="dflex row jc-between ai-center">
       <div class="title p5">{% block header %}Header{% endblock %}</div>
       {% if page not in ['login', 'register'] %}
         <div class="logout p5">
@@ -23,5 +23,7 @@
       {% block content %}{% endblock %}
     </main>
   </div>
+  <script src="{{ url_for('static', filename='js/common.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/'+page+'.js') }}"></script>
 </body>
 </html>

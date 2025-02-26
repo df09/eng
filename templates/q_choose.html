@@ -1,85 +1,35 @@
 {% extends 'layouts/base.html' %}
 {% block title %}Q-Choose{% endblock %}
 {% block header %}
-  <a href="{{ url_for('index.index') }}">MainMenu</a><span>/{{ tid }}.{{ tname }}/Q-Choose</span>
+  <a href='{{ url_for('index.index') }}'>MainMenu</a><span>/{{ tid }}.{{ tname }}/Q-Choose</span>
 {% endblock %}
 {% block content %}
-<section class="q_choose">
-  <p class="m0"><strong>Question:</strong> {{ q.question }}</p>
-  <form id="q-choose-form" class="q-choose-form dflex col pv10" action="{{ url_for('index.q_choose', tid=tid, qid=q.id) }}" method="post">
-    <div class="options">
+<section class='q_choose'>
+  <p class='m0'><strong>{{ q.estimation }}</strong> {{ q.points }}/{{ q.threshhold }}</p>
+  <p class='m0'><strong>Q:</strong> {{ q.question }}</p>
+  <form id='q-choose-form' class='q-choose-form dflex col pv10'
+    autocomplete='off' autocorrect='off' autocapitalize='off' spellcheck='false'
+    action='{{ url_for("index.q_choose", tid=tid, qid=q.id) }}' method='post'>
+
+    <div class='options'>
+      {% set vim_keys = ['f', 'd', 's', 'a', 'g', 'j', 'k', 'l', ';', 'h'] %}
       {% for option in shuffled_options %}
-      <label>
-        <input type="checkbox" name="answer" value="{{ option }}">
-        {{ option }}
-      </label><br>
+        {% set vim_shortcut = vim_keys[loop.index - 1] if loop.index - 1 < vim_keys|length else '' %}
+        {% set shortcut = loop.index if loop.index < 10 else ('asdfghjkl'[loop.index - 10] if loop.index - 10 < 9 else '') %}
+        <input class='option-input' type='checkbox' id='option{{ loop.index }}' name='answer' value='{{ option }}'>
+        <label for='option{{ loop.index }}' class='option-label m0 m5 dflex row ai-center jc-start'>
+          <span class='shortcut-key m5 r'>{{ shortcut }}.{{ vim_shortcut }}:</span>
+          <span class='option-text fx1 m5 p5 bg-w brd-w hov'>{{ option }}</span>
+        </label>
       {% endfor %}
     </div>
-    <button type="submit" class="btn btn-g mt10">Submit</button>
+
+    <div class='submit-section dflex row jc-start ai-center'>
+      <button id='q-choose-submit' type='submit' class='submit btn btn-g m5'>Submit</button>
+      <button id='next-question' class='next-question dnone btn m5'>Next Question</button>
+      <p id='result-message' class='result-message dnone m0 p0 pl10'></p>
+      <p id="msg-select" class="dnone result-message r m0 p0 pl10">Please select at least one option.</p>
+    </div>
   </form>
-  <!-- Блок для отображения результата -->
-
-  <pre>
-    {{ selected_answers | pprint }}
-    {{ correct_answers | pprint }}
-  </pre>
-
-  <div id="result-container" class="hidden">
-    <p><strong>Your answer:</strong>
-      <span id="user-answer"></span>
-    </p>
-    <p><strong>Correct answer:</strong>
-      <span id="correct-answer" class="correct"></span>
-    </p>
-    <p id="result-message"></p>
-    <button id="next-question" class="btn btn-g mt10">Next Question</button>
-  </div>
 </section>
-
-<script>
-document.addEventListener("DOMContentLoaded", function () {
-    const form = document.getElementById("q-choose-form");
-    const resultContainer = document.getElementById("result-container");
-    const userAnswer = document.getElementById("user-answer");
-    const correctAnswer = document.getElementById("correct-answer");
-    const resultMessage = document.getElementById("result-message");
-    const nextQuestionBtn = document.getElementById("next-question");
-
-    form.addEventListener("submit", function (event) {
-        event.preventDefault();
-
-        const formData = new FormData(form);
-
-        fetch(form.action, {
-            method: "POST",
-            body: formData
-        })
-        .then(response => response.json())
-        .then(data => {
-            if (data.success) {
-                userAnswer.textContent = data.selected.join(", ");
-                correctAnswer.textContent = data.correct.join(", ");
-                resultMessage.textContent = data.is_correct ? "✅ Correct!" : "❌ Incorrect. Try again!";
-                resultMessage.className = data.is_correct ? "correct" : "incorrect";
-
-                form.classList.add("hidden");
-                resultContainer.classList.remove("hidden");
-
-                if (data.is_correct) {
-                    nextQuestionBtn.onclick = function () {
-                        window.location.href = data.next_question_url;
-                    };
-                } else {
-                    nextQuestionBtn.onclick = function () {
-                        resultContainer.classList.add("hidden");
-                        form.classList.remove("hidden");
-                        form.reset();
-                    };
-                }
-            }
-        })
-        .catch(error => console.error("Error:", error));
-    });
-});
-</script>
 {% endblock %}

@@ -1,26 +1,62 @@
 import pandas as pd
+import os
+import time
 
-def load(csvfile, allow_empty=False):
+def load(csvfile, allow_empty=False, retries=5, delay=0.2):
+    """Загружает CSV, ожидая разблокировки файла при временной блокировке."""
     try:
-        # Загружаем CSV
-        df = pd.read_csv(csvfile, sep=',', quotechar='"', index_col=False)
-        # Удаляем пробелы по краям в заголовках
-        df.columns = df.columns.str.strip()
-        # Проверяем, есть ли колонка 'id'
-        if "id" not in df.columns:
-            raise ValueError(f"Missing 'id' column in {csvfile}. Available columns: {df.columns.tolist()}")
-        # Проверяем на дубликаты 'id'
-        duplicates = df[df["id"].duplicated()]["id"].tolist()
-        if duplicates:
-            raise ValueError(f"Duplicate IDs found: {duplicates} in {csvfile}")
-        # Проверяем, пуст ли CSV
-        if df.empty and not allow_empty:
-            raise ValueError(f"File {csvfile} is empty or unreadable")
-        # Удаляем пробелы по краям во всех строковых значениях
-        df = df.applymap(lambda x: x.strip() if isinstance(x, str) else x)
-        return df
+        for attempt in range(retries):
+            if not os.path.exists(csvfile):
+                raise FileNotFoundError(f"ERROR: CSV file not found: {csvfile}")
+
+            try:
+                with open(csvfile, 'r') as f:
+                    first_line = f.readline().strip()
+
+                # Проверяем, есть ли заголовки (первая строка не должна быть пустой)
+                if not first_line:
+                    if attempt < retries - 1:
+                        time.sleep(delay)
+                        continue
+                    raise ValueError(f"File {csvfile} has no valid headers")
+
+                # Пробуем загрузить CSV
+                df = pd.read_csv(csvfile, sep=',', quotechar='"', index_col=False)
+
+                # Проверяем, содержит ли файл заголовки (колонки)
+                if df.shape[1] == 0:
+                    if attempt < retries - 1:
+                        time.sleep(delay)
+                        continue
+                    raise ValueError(f"File {csvfile} has no valid columns")
+
+                # Если файл пуст (нет строк), но содержит заголовки — допускаем, если allow_empty=True
+                if df.empty and not allow_empty:
+                    raise ValueError(f"File {csvfile} is empty but must contain data")
+
+                # Удаляем пробелы в заголовках
+                df.columns = df.columns.str.strip()
+
+                # Проверяем на дубликаты 'id', если колонка существует
+                if "id" in df.columns:
+                    duplicates = df[df["id"].duplicated()]["id"].tolist()
+                    if duplicates:
+                        raise ValueError(f"Duplicate IDs found: {duplicates} in {csvfile}")
+
+                # Удаляем пробелы по краям во всех строковых значениях
+                df = df.map(lambda x: x.strip() if isinstance(x, str) else x)
+
+                return df
+
+            except (pd.errors.EmptyDataError, PermissionError, OSError):
+                # Ошибки могут возникать, если файл заблокирован или временно пуст
+                if attempt < retries - 1:
+                    time.sleep(delay)
+                    continue
+                raise ValueError(f"File {csvfile} is temporarily locked or unreadable")
+
     except FileNotFoundError:
-        raise FileNotFoundError(f"ERROR: csv-file not found: {csvfile}")
+        raise FileNotFoundError(f"ERROR: CSV file not found: {csvfile}")
 
 def save(df, csvfile):
     # Проверяем, существует ли уже колонка 'id'

@@ -16,8 +16,23 @@
 .dflex{display:flex;}
 .dblock{display:block;}
 /* ===== common.col/row ============================ */
-.col { display: flex; flex-direction: column; }
-.row { display: flex; flex-direction: row; align-items: center; justify-content: space-between; }
+.col { flex-direction: column; }
+.row { flex-direction: row; }
+.jc-start { justify-content: flex-start; }
+.jc-center { justify-content: center; }
+.jc-end { justify-content: flex-end; }
+.jc-between { justify-content: space-between; }
+.jc-around { justify-content: space-around; }
+.ai-start { align-items: flex-start; }
+.ai-center { align-items: center; }
+.ai-end { align-items: flex-end; }
+.fx1 { flex-grow: 1; } /* Растягивается на всю доступную ширину */
+.fx2 { flex-grow: 2; } /* Занимает в 2 раза больше места, чем fx1 */
+.fx0 { flex-grow: 0; } /* Не растягивается */
+.fxs { flex-shrink: 1; } /* Сжимается при нехватке места */
+.fxn { flex-shrink: 0; } /* Не сжимается */
+.fxb { flex-basis: auto; } /* Автоматическая ширина */
+.fxb100 { flex-basis: 100%; } /* Всегда 100% ширины */
 /* ===== common.padding/margin ============================ */
 .p10{padding:10px;} .p5{padding:5px;} .p0{padding:0;}
 .pt10{padding-top:10px;} .pt5{padding-top:5px;} .pt0{padding-top:0;}
@@ -39,19 +54,22 @@
 .link:hover { color: darkblue; text-decoration: none; }
 .link:active { color: red; }
 /* ===== common.colors-fg/bg ============================ */
-.w{color:#6c757d;} .g{color:#3fa356;} .y{color:#e6b114;} .r{color:#dc3545;} .b{color:#0056b3;}
+.w{color:#6c757d;}
+.g{color:#288f40;}
+.y{color:#e6b114;}
+.r{color:#c22130;}
+.b{color:#0056b3;}
 .bg-w{background-color:#f8f9fa;}
 .bg-g{background-color:#e6f4ea;}
 .bg-y{background-color:#fff8e6;}
 .bg-r{background-color:#ffeff1;}
 .bg-b{background-color:#cce5ff;}
-/* ===== common.colors brd ============================ */
-.brd{border:1px solid;}
-.brd-w{border-color:#adb5bd;}
-.brd-g{border-color:#3fa356;}
-.brd-y{border-color:#e6b114;}
-.brd-r{border-color:#ff909b;}
-.brd-b{border-color:#0056b3;}
+.brd-w{border:1px solid #d2d2d2;}
+.brd-g{border:1px solid #72dd8b;}
+.brd-y{border:1px solid #e6b114;}
+.brd-r{border:1px solid #ffc0c6;}
+.brd-b{border:1px solid #0056b3;}
+.hov:hover { filter: brightness(95%) contrast(105%); }
 /* ===== common.btn ============================ */
 .btn-w, .btn-g, .btn-y, .btn-r, .btn-b {
   font-weight: bold;

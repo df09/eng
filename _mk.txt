@@ -1,12 +1,11 @@
 mk:
   q-choose:
-    style question
-    style answer
+    оценка
   q-input:
     style question
     style answer
-  js-dynamic
-    +add hotkeys
+    горячки
+    оценка
   q-fill:
     # purpose:
     #   тоже самое что и input, но сразу задется несколько input вопросов.
@@ -20,7 +19,7 @@ mk:
     #   render
     #   get answer
     #   save-progress
- 
+
   main menu:
     добавить total - насколько я выучил все что можно u
       и чтобы при клике все вопросы задавались в перемешку,

@@ -18,8 +18,10 @@ class Topic:
         self.f_total = f'{self.path}/questions/_total.txt'
         self.qs = {
             'choose': pdo.load(self.f_q_chooses).to_dict(orient="records"),
-            'input': pdo.load(self.f_q_inputs).to_dict(orient="records"),
-            'fill': self.load_fill_questions()
+            # 'input': pdo.load(self.f_q_inputs).to_dict(orient="records"),
+            # 'fill': self.load_fill_questions()
+            'input': {},
+            'fill': {},
         }
         self.upd_total()
         # TODO: просто дать ссылку на readme?
