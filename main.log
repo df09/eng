@@ -219,3 +219,993 @@ Name: 0, dtype: object
 2025-02-23 15:33:58,350:main:INFO: {'su', ' sudo'}
 2025-02-23 15:37:09,774:main:INFO: {'su', 'sudo'}
 2025-02-23 15:37:09,774:main:INFO: {' sudo', 'su'}
+2025-02-26 20:14:11,184:main:INFO: {'id': 1, 'topic_id': 0, 'question_kind': 'choose', 'question_id': 1, 'points': 3, 'estimation': 'D'}
+2025-02-26 20:15:01,761:main:INFO: {'id': 1, 'topic_id': 0, 'question_kind': 'choose', 'question_id': 1, 'points': 3, 'estimation': 'D'}
+2025-02-26 20:15:01,761:main:INFO: [3, 5]
+2025-02-26 20:15:14,865:main:INFO: {'id': 1, 'topic_id': 0, 'question_kind': 'choose', 'question_id': 1, 'points': 3, 'estimation': 'D'}
+2025-02-26 20:15:14,865:main:INFO: 5
+2025-02-26 21:03:14,368:main:INFO: id                         0
+topic_id                   0
+question_kind         choose
+question_id                0
+points                     4
+estimation                 D
+estimation_numeric         2
+Name: 0, dtype: object
+2025-02-26 21:06:31,629:main:INFO: [{'id': 0, 'question': 'current directory: _(pwd).', 'translation': 'вывести текущий каталог: [pwd].', 'kind': 'input'}, {'id': 1, 'question': 'view last 10 lines of a file: _(tail -n 10) <file>.', 'translation': 'посмотреть последние 10 строк файла: [tail -n 10 <file>].', 'kind': 'input'}, {'id': 2, 'question': 'find files with "bash" in name: _(find . -name "*bash*").', 'translation': 'найти файлы с "bash" в названии: [find . -name "*bash*"].', 'kind': 'input'}]
+2025-02-26 21:06:31,632:main:INFO: id                         0
+topic_id                   0
+question_kind         choose
+question_id                0
+points                     4
+estimation                 D
+estimation_numeric         2
+Name: 0, dtype: object
+2025-02-26 21:09:46,104:main:INFO: [{'id': 0, 'question': 'current directory: _(pwd).', 'translation': 'вывести текущий каталог: [pwd].', 'kind': 'input'}, {'id': 1, 'question': 'view last 10 lines of a file: _(tail -n 10) <file>.', 'translation': 'посмотреть последние 10 строк файла: [tail -n 10 <file>].', 'kind': 'input'}, {'id': 2, 'question': 'find files with "bash" in name: _(find . -name "*bash*").', 'translation': 'найти файлы с "bash" в названии: [find . -name "*bash*"].', 'kind': 'input'}]
+2025-02-26 21:09:46,108:main:INFO: id                         0
+topic_id                   0
+question_kind         choose
+question_id                0
+points                     4
+estimation                 D
+estimation_numeric         2
+Name: 0, dtype: object
+2025-02-26 21:11:01,014:main:INFO: [{'id': 0, 'question': 'current directory: _(pwd).', 'translation': 'вывести текущий каталог: [pwd].', 'kind': 'input'}, {'id': 1, 'question': 'view last 10 lines of a file: _(tail -n 10) <file>.', 'translation': 'посмотреть последние 10 строк файла: [tail -n 10 <file>].', 'kind': 'input'}, {'id': 2, 'question': 'find files with "bash" in name: _(find . -name "*bash*").', 'translation': 'найти файлы с "bash" в названии: [find . -name "*bash*"].', 'kind': 'input'}]
+2025-02-26 21:11:01,017:main:INFO: id                         0
+topic_id                   0
+question_kind         choose
+question_id                0
+points                     4
+estimation                 D
+estimation_numeric         2
+Name: 0, dtype: object
+2025-02-26 21:11:12,245:main:INFO: [{'id': 0, 'question': 'current directory: _(pwd).', 'translation': 'вывести текущий каталог: [pwd].', 'kind': 'input'}, {'id': 1, 'question': 'view last 10 lines of a file: _(tail -n 10) <file>.', 'translation': 'посмотреть последние 10 строк файла: [tail -n 10 <file>].', 'kind': 'input'}, {'id': 2, 'question': 'find files with "bash" in name: _(find . -name "*bash*").', 'translation': 'найти файлы с "bash" в названии: [find . -name "*bash*"].', 'kind': 'input'}]
+2025-02-26 21:11:12,249:main:INFO: id                         0
+topic_id                   0
+question_kind         choose
+question_id                0
+points                     4
+estimation                 D
+estimation_numeric         2
+Name: 0, dtype: object
+2025-02-26 21:15:45,391:main:INFO: [{'id': 0, 'question': 'change file permissions', 'correct': 'chmod 755 file', 'options': 'chmod 777 file; chmod 755 file; chown user file', 'kind': 'choose'}, {'id': 1, 'question': 'properly kill a process by PID', 'correct': 'kill -9 PID', 'options': 'kill PID; kill -9 PID; rm -rf PID', 'kind': 'choose'}, {'id': 2, 'question': 'switch users', 'correct': 'su; sudo', 'options': 'su; sudo; ls -l; man', 'kind': 'choose'}, {'id': 0, 'question': 'current directory: _(pwd).', 'translation': 'вывести текущий каталог: [pwd].', 'kind': 'input'}, {'id': 1, 'question': 'view last 10 lines of a file: _(tail -n 10) <file>.', 'translation': 'посмотреть последние 10 строк файла: [tail -n 10 <file>].', 'kind': 'input'}, {'id': 2, 'question': 'find files with "bash" in name: _(find . -name "*bash*").', 'translation': 'найти файлы с "bash" в названии: [find . -name "*bash*"].', 'kind': 'input'}]
+2025-02-26 21:15:45,396:main:INFO: id                         0
+topic_id                   0
+question_kind         choose
+question_id                0
+points                     4
+estimation                 D
+estimation_numeric         2
+Name: 0, dtype: object
+2025-02-26 21:17:47,273:main:INFO: id                         0
+topic_id                   0
+question_kind         choose
+question_id                0
+points                     4
+estimation                 D
+estimation_numeric         2
+Name: 0, dtype: object
+2025-02-26 21:18:48,192:main:INFO: [{'id': 0, 'question': 'change file permissions', 'correct': 'chmod 755 file', 'options': 'chmod 777 file; chmod 755 file; chown user file', 'kind': 'choose'}, {'id': 1, 'question': 'properly kill a process by PID', 'correct': 'kill -9 PID', 'options': 'kill PID; kill -9 PID; rm -rf PID', 'kind': 'choose'}, {'id': 2, 'question': 'switch users', 'correct': 'su; sudo', 'options': 'su; sudo; ls -l; man', 'kind': 'choose'}, {'id': 0, 'question': 'current directory: _(pwd).', 'translation': 'вывести текущий каталог: [pwd].', 'kind': 'input'}, {'id': 1, 'question': 'view last 10 lines of a file: _(tail -n 10) <file>.', 'translation': 'посмотреть последние 10 строк файла: [tail -n 10 <file>].', 'kind': 'input'}, {'id': 2, 'question': 'find files with "bash" in name: _(find . -name "*bash*").', 'translation': 'найти файлы с "bash" в названии: [find . -name "*bash*"].', 'kind': 'input'}]
+2025-02-26 21:18:48,213:main:INFO: [{'id': 0, 'question': 'change file permissions', 'correct': 'chmod 755 file', 'options': 'chmod 777 file; chmod 755 file; chown user file', 'kind': 'choose'}, {'id': 1, 'question': 'properly kill a process by PID', 'correct': 'kill -9 PID', 'options': 'kill PID; kill -9 PID; rm -rf PID', 'kind': 'choose'}, {'id': 2, 'question': 'switch users', 'correct': 'su; sudo', 'options': 'su; sudo; ls -l; man', 'kind': 'choose'}, {'id': 0, 'question': 'current directory: _(pwd).', 'translation': 'вывести текущий каталог: [pwd].', 'kind': 'input'}, {'id': 1, 'question': 'view last 10 lines of a file: _(tail -n 10) <file>.', 'translation': 'посмотреть последние 10 строк файла: [tail -n 10 <file>].', 'kind': 'input'}, {'id': 2, 'question': 'find files with "bash" in name: _(find . -name "*bash*").', 'translation': 'найти файлы с "bash" в названии: [find . -name "*bash*"].', 'kind': 'input'}]
+2025-02-26 21:18:48,235:main:INFO: [{'id': 0, 'question': 'change file permissions', 'correct': 'chmod 755 file', 'options': 'chmod 777 file; chmod 755 file; chown user file', 'kind': 'choose'}, {'id': 1, 'question': 'properly kill a process by PID', 'correct': 'kill -9 PID', 'options': 'kill PID; kill -9 PID; rm -rf PID', 'kind': 'choose'}, {'id': 2, 'question': 'switch users', 'correct': 'su; sudo', 'options': 'su; sudo; ls -l; man', 'kind': 'choose'}, {'id': 0, 'question': 'current directory: _(pwd).', 'translation': 'вывести текущий каталог: [pwd].', 'kind': 'input'}, {'id': 1, 'question': 'view last 10 lines of a file: _(tail -n 10) <file>.', 'translation': 'посмотреть последние 10 строк файла: [tail -n 10 <file>].', 'kind': 'input'}, {'id': 2, 'question': 'find files with "bash" in name: _(find . -name "*bash*").', 'translation': 'найти файлы с "bash" в названии: [find . -name "*bash*"].', 'kind': 'input'}]
+2025-02-26 21:18:48,257:main:INFO: [{'id': 0, 'question': 'change file permissions', 'correct': 'chmod 755 file', 'options': 'chmod 777 file; chmod 755 file; chown user file', 'kind': 'choose'}, {'id': 1, 'question': 'properly kill a process by PID', 'correct': 'kill -9 PID', 'options': 'kill PID; kill -9 PID; rm -rf PID', 'kind': 'choose'}, {'id': 2, 'question': 'switch users', 'correct': 'su; sudo', 'options': 'su; sudo; ls -l; man', 'kind': 'choose'}, {'id': 0, 'question': 'current directory: _(pwd).', 'translation': 'вывести текущий каталог: [pwd].', 'kind': 'input'}, {'id': 1, 'question': 'view last 10 lines of a file: _(tail -n 10) <file>.', 'translation': 'посмотреть последние 10 строк файла: [tail -n 10 <file>].', 'kind': 'input'}, {'id': 2, 'question': 'find files with "bash" in name: _(find . -name "*bash*").', 'translation': 'найти файлы с "bash" в названии: [find . -name "*bash*"].', 'kind': 'input'}]
+2025-02-26 21:18:48,279:main:INFO: [{'id': 0, 'question': 'change file permissions', 'correct': 'chmod 755 file', 'options': 'chmod 777 file; chmod 755 file; chown user file', 'kind': 'choose'}, {'id': 1, 'question': 'properly kill a process by PID', 'correct': 'kill -9 PID', 'options': 'kill PID; kill -9 PID; rm -rf PID', 'kind': 'choose'}, {'id': 2, 'question': 'switch users', 'correct': 'su; sudo', 'options': 'su; sudo; ls -l; man', 'kind': 'choose'}, {'id': 0, 'question': 'current directory: _(pwd).', 'translation': 'вывести текущий каталог: [pwd].', 'kind': 'input'}, {'id': 1, 'question': 'view last 10 lines of a file: _(tail -n 10) <file>.', 'translation': 'посмотреть последние 10 строк файла: [tail -n 10 <file>].', 'kind': 'input'}, {'id': 2, 'question': 'find files with "bash" in name: _(find . -name "*bash*").', 'translation': 'найти файлы с "bash" в названии: [find . -name "*bash*"].', 'kind': 'input'}]
+2025-02-26 21:18:48,298:main:INFO: [{'id': 0, 'question': 'change file permissions', 'correct': 'chmod 755 file', 'options': 'chmod 777 file; chmod 755 file; chown user file', 'kind': 'choose'}, {'id': 1, 'question': 'properly kill a process by PID', 'correct': 'kill -9 PID', 'options': 'kill PID; kill -9 PID; rm -rf PID', 'kind': 'choose'}, {'id': 2, 'question': 'switch users', 'correct': 'su; sudo', 'options': 'su; sudo; ls -l; man', 'kind': 'choose'}, {'id': 0, 'question': 'current directory: _(pwd).', 'translation': 'вывести текущий каталог: [pwd].', 'kind': 'input'}, {'id': 1, 'question': 'view last 10 lines of a file: _(tail -n 10) <file>.', 'translation': 'посмотреть последние 10 строк файла: [tail -n 10 <file>].', 'kind': 'input'}, {'id': 2, 'question': 'find files with "bash" in name: _(find . -name "*bash*").', 'translation': 'найти файлы с "bash" в названии: [find . -name "*bash*"].', 'kind': 'input'}]
+2025-02-26 21:18:48,319:main:INFO: [{'id': 0, 'question': 'change file permissions', 'correct': 'chmod 755 file', 'options': 'chmod 777 file; chmod 755 file; chown user file', 'kind': 'choose'}, {'id': 1, 'question': 'properly kill a process by PID', 'correct': 'kill -9 PID', 'options': 'kill PID; kill -9 PID; rm -rf PID', 'kind': 'choose'}, {'id': 2, 'question': 'switch users', 'correct': 'su; sudo', 'options': 'su; sudo; ls -l; man', 'kind': 'choose'}, {'id': 0, 'question': 'current directory: _(pwd).', 'translation': 'вывести текущий каталог: [pwd].', 'kind': 'input'}, {'id': 1, 'question': 'view last 10 lines of a file: _(tail -n 10) <file>.', 'translation': 'посмотреть последние 10 строк файла: [tail -n 10 <file>].', 'kind': 'input'}, {'id': 2, 'question': 'find files with "bash" in name: _(find . -name "*bash*").', 'translation': 'найти файлы с "bash" в названии: [find . -name "*bash*"].', 'kind': 'input'}]
+2025-02-26 21:18:48,341:main:INFO: [{'id': 0, 'question': 'change file permissions', 'correct': 'chmod 755 file', 'options': 'chmod 777 file; chmod 755 file; chown user file', 'kind': 'choose'}, {'id': 1, 'question': 'properly kill a process by PID', 'correct': 'kill -9 PID', 'options': 'kill PID; kill -9 PID; rm -rf PID', 'kind': 'choose'}, {'id': 2, 'question': 'switch users', 'correct': 'su; sudo', 'options': 'su; sudo; ls -l; man', 'kind': 'choose'}, {'id': 0, 'question': 'current directory: _(pwd).', 'translation': 'вывести текущий каталог: [pwd].', 'kind': 'input'}, {'id': 1, 'question': 'view last 10 lines of a file: _(tail -n 10) <file>.', 'translation': 'посмотреть последние 10 строк файла: [tail -n 10 <file>].', 'kind': 'input'}, {'id': 2, 'question': 'find files with "bash" in name: _(find . -name "*bash*").', 'translation': 'найти файлы с "bash" в названии: [find . -name "*bash*"].', 'kind': 'input'}]
+2025-02-26 21:18:48,361:main:INFO: [{'id': 0, 'question': 'change file permissions', 'correct': 'chmod 755 file', 'options': 'chmod 777 file; chmod 755 file; chown user file', 'kind': 'choose'}, {'id': 1, 'question': 'properly kill a process by PID', 'correct': 'kill -9 PID', 'options': 'kill PID; kill -9 PID; rm -rf PID', 'kind': 'choose'}, {'id': 2, 'question': 'switch users', 'correct': 'su; sudo', 'options': 'su; sudo; ls -l; man', 'kind': 'choose'}, {'id': 0, 'question': 'current directory: _(pwd).', 'translation': 'вывести текущий каталог: [pwd].', 'kind': 'input'}, {'id': 1, 'question': 'view last 10 lines of a file: _(tail -n 10) <file>.', 'translation': 'посмотреть последние 10 строк файла: [tail -n 10 <file>].', 'kind': 'input'}, {'id': 2, 'question': 'find files with "bash" in name: _(find . -name "*bash*").', 'translation': 'найти файлы с "bash" в названии: [find . -name "*bash*"].', 'kind': 'input'}]
+2025-02-26 21:18:48,380:main:INFO: [{'id': 0, 'question': 'change file permissions', 'correct': 'chmod 755 file', 'options': 'chmod 777 file; chmod 755 file; chown user file', 'kind': 'choose'}, {'id': 1, 'question': 'properly kill a process by PID', 'correct': 'kill -9 PID', 'options': 'kill PID; kill -9 PID; rm -rf PID', 'kind': 'choose'}, {'id': 2, 'question': 'switch users', 'correct': 'su; sudo', 'options': 'su; sudo; ls -l; man', 'kind': 'choose'}, {'id': 0, 'question': 'current directory: _(pwd).', 'translation': 'вывести текущий каталог: [pwd].', 'kind': 'input'}, {'id': 1, 'question': 'view last 10 lines of a file: _(tail -n 10) <file>.', 'translation': 'посмотреть последние 10 строк файла: [tail -n 10 <file>].', 'kind': 'input'}, {'id': 2, 'question': 'find files with "bash" in name: _(find . -name "*bash*").', 'translation': 'найти файлы с "bash" в названии: [find . -name "*bash*"].', 'kind': 'input'}]
+2025-02-26 21:19:57,790:main:INFO: None
+2025-02-26 21:19:57,812:main:INFO: None
+2025-02-26 21:19:57,833:main:INFO: None
+2025-02-26 21:19:57,854:main:INFO: None
+2025-02-26 21:19:57,875:main:INFO: None
+2025-02-26 21:19:57,894:main:INFO: None
+2025-02-26 21:19:57,914:main:INFO: None
+2025-02-26 21:19:57,934:main:INFO: None
+2025-02-26 21:19:57,954:main:INFO: None
+2025-02-26 21:19:57,974:main:INFO: None
+2025-02-26 21:20:05,378:main:INFO: None
+2025-02-26 21:20:05,400:main:INFO: None
+2025-02-26 21:20:05,421:main:INFO: None
+2025-02-26 21:20:05,441:main:INFO: None
+2025-02-26 21:20:05,461:main:INFO: None
+2025-02-26 21:20:05,482:main:INFO: None
+2025-02-26 21:20:05,502:main:INFO: None
+2025-02-26 21:20:05,522:main:INFO: None
+2025-02-26 21:20:05,543:main:INFO: None
+2025-02-26 21:20:05,563:main:INFO: None
+2025-02-26 21:20:22,981:main:INFO: None
+2025-02-26 21:20:23,002:main:INFO: None
+2025-02-26 21:20:23,025:main:INFO: None
+2025-02-26 21:20:23,047:main:INFO: None
+2025-02-26 21:20:23,067:main:INFO: None
+2025-02-26 21:20:23,089:main:INFO: None
+2025-02-26 21:20:23,111:main:INFO: None
+2025-02-26 21:20:23,133:main:INFO: None
+2025-02-26 21:20:23,153:main:INFO: None
+2025-02-26 21:20:23,173:main:INFO: None
+2025-02-26 21:20:56,382:main:INFO: None
+2025-02-26 21:20:56,404:main:INFO: None
+2025-02-26 21:20:56,424:main:INFO: None
+2025-02-26 21:20:56,446:main:INFO: None
+2025-02-26 21:20:56,468:main:INFO: None
+2025-02-26 21:20:56,488:main:INFO: None
+2025-02-26 21:20:56,510:main:INFO: None
+2025-02-26 21:20:56,531:main:INFO: None
+2025-02-26 21:20:56,552:main:INFO: None
+2025-02-26 21:20:56,572:main:INFO: None
+2025-02-26 21:21:09,276:main:INFO: {'choose': [{'id': 0, 'question': 'change file permissions', 'correct': 'chmod 755 file', 'options': 'chmod 777 file; chmod 755 file; chown user file'}, {'id': 1, 'question': 'properly kill a process by PID', 'correct': 'kill -9 PID', 'options': 'kill PID; kill -9 PID; rm -rf PID'}, {'id': 2, 'question': 'switch users', 'correct': 'su; sudo', 'options': 'su; sudo; ls -l; man'}], 'input': [{'id': 0, 'question': 'current directory: _(pwd).', 'translation': 'вывести текущий каталог: [pwd].'}, {'id': 1, 'question': 'view last 10 lines of a file: _(tail -n 10) <file>.', 'translation': 'посмотреть последние 10 строк файла: [tail -n 10 <file>].'}, {'id': 2, 'question': 'find files with "bash" in name: _(find . -name "*bash*").', 'translation': 'найти файлы с "bash" в названии: [find . -name "*bash*"].'}], 'fill': {}}
+2025-02-26 21:21:09,298:main:INFO: {'choose': [{'id': 0, 'question': 'change file permissions', 'correct': 'chmod 755 file', 'options': 'chmod 777 file; chmod 755 file; chown user file'}, {'id': 1, 'question': 'properly kill a process by PID', 'correct': 'kill -9 PID', 'options': 'kill PID; kill -9 PID; rm -rf PID'}, {'id': 2, 'question': 'switch users', 'correct': 'su; sudo', 'options': 'su; sudo; ls -l; man'}], 'input': [{'id': 0, 'question': 'current directory: _(pwd).', 'translation': 'вывести текущий каталог: [pwd].'}, {'id': 1, 'question': 'view last 10 lines of a file: _(tail -n 10) <file>.', 'translation': 'посмотреть последние 10 строк файла: [tail -n 10 <file>].'}, {'id': 2, 'question': 'find files with "bash" in name: _(find . -name "*bash*").', 'translation': 'найти файлы с "bash" в названии: [find . -name "*bash*"].'}], 'fill': {}}
+2025-02-26 21:21:09,319:main:INFO: {'choose': [{'id': 0, 'question': 'change file permissions', 'correct': 'chmod 755 file', 'options': 'chmod 777 file; chmod 755 file; chown user file'}, {'id': 1, 'question': 'properly kill a process by PID', 'correct': 'kill -9 PID', 'options': 'kill PID; kill -9 PID; rm -rf PID'}, {'id': 2, 'question': 'switch users', 'correct': 'su; sudo', 'options': 'su; sudo; ls -l; man'}], 'input': [{'id': 0, 'question': 'current directory: _(pwd).', 'translation': 'вывести текущий каталог: [pwd].'}, {'id': 1, 'question': 'view last 10 lines of a file: _(tail -n 10) <file>.', 'translation': 'посмотреть последние 10 строк файла: [tail -n 10 <file>].'}, {'id': 2, 'question': 'find files with "bash" in name: _(find . -name "*bash*").', 'translation': 'найти файлы с "bash" в названии: [find . -name "*bash*"].'}], 'fill': {}}
+2025-02-26 21:21:09,339:main:INFO: {'choose': [{'id': 0, 'question': 'change file permissions', 'correct': 'chmod 755 file', 'options': 'chmod 777 file; chmod 755 file; chown user file'}, {'id': 1, 'question': 'properly kill a process by PID', 'correct': 'kill -9 PID', 'options': 'kill PID; kill -9 PID; rm -rf PID'}, {'id': 2, 'question': 'switch users', 'correct': 'su; sudo', 'options': 'su; sudo; ls -l; man'}], 'input': [{'id': 0, 'question': 'current directory: _(pwd).', 'translation': 'вывести текущий каталог: [pwd].'}, {'id': 1, 'question': 'view last 10 lines of a file: _(tail -n 10) <file>.', 'translation': 'посмотреть последние 10 строк файла: [tail -n 10 <file>].'}, {'id': 2, 'question': 'find files with "bash" in name: _(find . -name "*bash*").', 'translation': 'найти файлы с "bash" в названии: [find . -name "*bash*"].'}], 'fill': {}}
+2025-02-26 21:21:09,361:main:INFO: {'choose': [{'id': 0, 'question': 'change file permissions', 'correct': 'chmod 755 file', 'options': 'chmod 777 file; chmod 755 file; chown user file'}, {'id': 1, 'question': 'properly kill a process by PID', 'correct': 'kill -9 PID', 'options': 'kill PID; kill -9 PID; rm -rf PID'}, {'id': 2, 'question': 'switch users', 'correct': 'su; sudo', 'options': 'su; sudo; ls -l; man'}], 'input': [{'id': 0, 'question': 'current directory: _(pwd).', 'translation': 'вывести текущий каталог: [pwd].'}, {'id': 1, 'question': 'view last 10 lines of a file: _(tail -n 10) <file>.', 'translation': 'посмотреть последние 10 строк файла: [tail -n 10 <file>].'}, {'id': 2, 'question': 'find files with "bash" in name: _(find . -name "*bash*").', 'translation': 'найти файлы с "bash" в названии: [find . -name "*bash*"].'}], 'fill': {}}
+2025-02-26 21:21:09,381:main:INFO: {'choose': [{'id': 0, 'question': 'change file permissions', 'correct': 'chmod 755 file', 'options': 'chmod 777 file; chmod 755 file; chown user file'}, {'id': 1, 'question': 'properly kill a process by PID', 'correct': 'kill -9 PID', 'options': 'kill PID; kill -9 PID; rm -rf PID'}, {'id': 2, 'question': 'switch users', 'correct': 'su; sudo', 'options': 'su; sudo; ls -l; man'}], 'input': [{'id': 0, 'question': 'current directory: _(pwd).', 'translation': 'вывести текущий каталог: [pwd].'}, {'id': 1, 'question': 'view last 10 lines of a file: _(tail -n 10) <file>.', 'translation': 'посмотреть последние 10 строк файла: [tail -n 10 <file>].'}, {'id': 2, 'question': 'find files with "bash" in name: _(find . -name "*bash*").', 'translation': 'найти файлы с "bash" в названии: [find . -name "*bash*"].'}], 'fill': {}}
+2025-02-26 21:21:09,402:main:INFO: {'choose': [{'id': 0, 'question': 'change file permissions', 'correct': 'chmod 755 file', 'options': 'chmod 777 file; chmod 755 file; chown user file'}, {'id': 1, 'question': 'properly kill a process by PID', 'correct': 'kill -9 PID', 'options': 'kill PID; kill -9 PID; rm -rf PID'}, {'id': 2, 'question': 'switch users', 'correct': 'su; sudo', 'options': 'su; sudo; ls -l; man'}], 'input': [{'id': 0, 'question': 'current directory: _(pwd).', 'translation': 'вывести текущий каталог: [pwd].'}, {'id': 1, 'question': 'view last 10 lines of a file: _(tail -n 10) <file>.', 'translation': 'посмотреть последние 10 строк файла: [tail -n 10 <file>].'}, {'id': 2, 'question': 'find files with "bash" in name: _(find . -name "*bash*").', 'translation': 'найти файлы с "bash" в названии: [find . -name "*bash*"].'}], 'fill': {}}
+2025-02-26 21:21:09,424:main:INFO: {'choose': [{'id': 0, 'question': 'change file permissions', 'correct': 'chmod 755 file', 'options': 'chmod 777 file; chmod 755 file; chown user file'}, {'id': 1, 'question': 'properly kill a process by PID', 'correct': 'kill -9 PID', 'options': 'kill PID; kill -9 PID; rm -rf PID'}, {'id': 2, 'question': 'switch users', 'correct': 'su; sudo', 'options': 'su; sudo; ls -l; man'}], 'input': [{'id': 0, 'question': 'current directory: _(pwd).', 'translation': 'вывести текущий каталог: [pwd].'}, {'id': 1, 'question': 'view last 10 lines of a file: _(tail -n 10) <file>.', 'translation': 'посмотреть последние 10 строк файла: [tail -n 10 <file>].'}, {'id': 2, 'question': 'find files with "bash" in name: _(find . -name "*bash*").', 'translation': 'найти файлы с "bash" в названии: [find . -name "*bash*"].'}], 'fill': {}}
+2025-02-26 21:21:09,445:main:INFO: {'choose': [{'id': 0, 'question': 'change file permissions', 'correct': 'chmod 755 file', 'options': 'chmod 777 file; chmod 755 file; chown user file'}, {'id': 1, 'question': 'properly kill a process by PID', 'correct': 'kill -9 PID', 'options': 'kill PID; kill -9 PID; rm -rf PID'}, {'id': 2, 'question': 'switch users', 'correct': 'su; sudo', 'options': 'su; sudo; ls -l; man'}], 'input': [{'id': 0, 'question': 'current directory: _(pwd).', 'translation': 'вывести текущий каталог: [pwd].'}, {'id': 1, 'question': 'view last 10 lines of a file: _(tail -n 10) <file>.', 'translation': 'посмотреть последние 10 строк файла: [tail -n 10 <file>].'}, {'id': 2, 'question': 'find files with "bash" in name: _(find . -name "*bash*").', 'translation': 'найти файлы с "bash" в названии: [find . -name "*bash*"].'}], 'fill': {}}
+2025-02-26 21:21:09,465:main:INFO: {'choose': [{'id': 0, 'question': 'change file permissions', 'correct': 'chmod 755 file', 'options': 'chmod 777 file; chmod 755 file; chown user file'}, {'id': 1, 'question': 'properly kill a process by PID', 'correct': 'kill -9 PID', 'options': 'kill PID; kill -9 PID; rm -rf PID'}, {'id': 2, 'question': 'switch users', 'correct': 'su; sudo', 'options': 'su; sudo; ls -l; man'}], 'input': [{'id': 0, 'question': 'current directory: _(pwd).', 'translation': 'вывести текущий каталог: [pwd].'}, {'id': 1, 'question': 'view last 10 lines of a file: _(tail -n 10) <file>.', 'translation': 'посмотреть последние 10 строк файла: [tail -n 10 <file>].'}, {'id': 2, 'question': 'find files with "bash" in name: _(find . -name "*bash*").', 'translation': 'найти файлы с "bash" в названии: [find . -name "*bash*"].'}], 'fill': {}}
+2025-02-26 21:21:36,663:main:INFO: {'choose': [{'id': 0, 'question': 'change file permissions', 'correct': 'chmod 755 file', 'options': 'chmod 777 file; chmod 755 file; chown user file'}, {'id': 1, 'question': 'properly kill a process by PID', 'correct': 'kill -9 PID', 'options': 'kill PID; kill -9 PID; rm -rf PID'}, {'id': 2, 'question': 'switch users', 'correct': 'su; sudo', 'options': 'su; sudo; ls -l; man'}], 'input': [{'id': 0, 'question': 'current directory: _(pwd).', 'translation': 'вывести текущий каталог: [pwd].'}, {'id': 1, 'question': 'view last 10 lines of a file: _(tail -n 10) <file>.', 'translation': 'посмотреть последние 10 строк файла: [tail -n 10 <file>].'}, {'id': 2, 'question': 'find files with "bash" in name: _(find . -name "*bash*").', 'translation': 'найти файлы с "bash" в названии: [find . -name "*bash*"].'}], 'fill': {}}
+2025-02-26 21:21:36,685:main:INFO: {'choose': [{'id': 0, 'question': 'change file permissions', 'correct': 'chmod 755 file', 'options': 'chmod 777 file; chmod 755 file; chown user file'}, {'id': 1, 'question': 'properly kill a process by PID', 'correct': 'kill -9 PID', 'options': 'kill PID; kill -9 PID; rm -rf PID'}, {'id': 2, 'question': 'switch users', 'correct': 'su; sudo', 'options': 'su; sudo; ls -l; man'}], 'input': [{'id': 0, 'question': 'current directory: _(pwd).', 'translation': 'вывести текущий каталог: [pwd].'}, {'id': 1, 'question': 'view last 10 lines of a file: _(tail -n 10) <file>.', 'translation': 'посмотреть последние 10 строк файла: [tail -n 10 <file>].'}, {'id': 2, 'question': 'find files with "bash" in name: _(find . -name "*bash*").', 'translation': 'найти файлы с "bash" в названии: [find . -name "*bash*"].'}], 'fill': {}}
+2025-02-26 21:21:36,706:main:INFO: {'choose': [{'id': 0, 'question': 'change file permissions', 'correct': 'chmod 755 file', 'options': 'chmod 777 file; chmod 755 file; chown user file'}, {'id': 1, 'question': 'properly kill a process by PID', 'correct': 'kill -9 PID', 'options': 'kill PID; kill -9 PID; rm -rf PID'}, {'id': 2, 'question': 'switch users', 'correct': 'su; sudo', 'options': 'su; sudo; ls -l; man'}], 'input': [{'id': 0, 'question': 'current directory: _(pwd).', 'translation': 'вывести текущий каталог: [pwd].'}, {'id': 1, 'question': 'view last 10 lines of a file: _(tail -n 10) <file>.', 'translation': 'посмотреть последние 10 строк файла: [tail -n 10 <file>].'}, {'id': 2, 'question': 'find files with "bash" in name: _(find . -name "*bash*").', 'translation': 'найти файлы с "bash" в названии: [find . -name "*bash*"].'}], 'fill': {}}
+2025-02-26 21:21:36,728:main:INFO: {'choose': [{'id': 0, 'question': 'change file permissions', 'correct': 'chmod 755 file', 'options': 'chmod 777 file; chmod 755 file; chown user file'}, {'id': 1, 'question': 'properly kill a process by PID', 'correct': 'kill -9 PID', 'options': 'kill PID; kill -9 PID; rm -rf PID'}, {'id': 2, 'question': 'switch users', 'correct': 'su; sudo', 'options': 'su; sudo; ls -l; man'}], 'input': [{'id': 0, 'question': 'current directory: _(pwd).', 'translation': 'вывести текущий каталог: [pwd].'}, {'id': 1, 'question': 'view last 10 lines of a file: _(tail -n 10) <file>.', 'translation': 'посмотреть последние 10 строк файла: [tail -n 10 <file>].'}, {'id': 2, 'question': 'find files with "bash" in name: _(find . -name "*bash*").', 'translation': 'найти файлы с "bash" в названии: [find . -name "*bash*"].'}], 'fill': {}}
+2025-02-26 21:21:36,749:main:INFO: {'choose': [{'id': 0, 'question': 'change file permissions', 'correct': 'chmod 755 file', 'options': 'chmod 777 file; chmod 755 file; chown user file'}, {'id': 1, 'question': 'properly kill a process by PID', 'correct': 'kill -9 PID', 'options': 'kill PID; kill -9 PID; rm -rf PID'}, {'id': 2, 'question': 'switch users', 'correct': 'su; sudo', 'options': 'su; sudo; ls -l; man'}], 'input': [{'id': 0, 'question': 'current directory: _(pwd).', 'translation': 'вывести текущий каталог: [pwd].'}, {'id': 1, 'question': 'view last 10 lines of a file: _(tail -n 10) <file>.', 'translation': 'посмотреть последние 10 строк файла: [tail -n 10 <file>].'}, {'id': 2, 'question': 'find files with "bash" in name: _(find . -name "*bash*").', 'translation': 'найти файлы с "bash" в названии: [find . -name "*bash*"].'}], 'fill': {}}
+2025-02-26 21:21:36,769:main:INFO: {'choose': [{'id': 0, 'question': 'change file permissions', 'correct': 'chmod 755 file', 'options': 'chmod 777 file; chmod 755 file; chown user file'}, {'id': 1, 'question': 'properly kill a process by PID', 'correct': 'kill -9 PID', 'options': 'kill PID; kill -9 PID; rm -rf PID'}, {'id': 2, 'question': 'switch users', 'correct': 'su; sudo', 'options': 'su; sudo; ls -l; man'}], 'input': [{'id': 0, 'question': 'current directory: _(pwd).', 'translation': 'вывести текущий каталог: [pwd].'}, {'id': 1, 'question': 'view last 10 lines of a file: _(tail -n 10) <file>.', 'translation': 'посмотреть последние 10 строк файла: [tail -n 10 <file>].'}, {'id': 2, 'question': 'find files with "bash" in name: _(find . -name "*bash*").', 'translation': 'найти файлы с "bash" в названии: [find . -name "*bash*"].'}], 'fill': {}}
+2025-02-26 21:21:36,789:main:INFO: {'choose': [{'id': 0, 'question': 'change file permissions', 'correct': 'chmod 755 file', 'options': 'chmod 777 file; chmod 755 file; chown user file'}, {'id': 1, 'question': 'properly kill a process by PID', 'correct': 'kill -9 PID', 'options': 'kill PID; kill -9 PID; rm -rf PID'}, {'id': 2, 'question': 'switch users', 'correct': 'su; sudo', 'options': 'su; sudo; ls -l; man'}], 'input': [{'id': 0, 'question': 'current directory: _(pwd).', 'translation': 'вывести текущий каталог: [pwd].'}, {'id': 1, 'question': 'view last 10 lines of a file: _(tail -n 10) <file>.', 'translation': 'посмотреть последние 10 строк файла: [tail -n 10 <file>].'}, {'id': 2, 'question': 'find files with "bash" in name: _(find . -name "*bash*").', 'translation': 'найти файлы с "bash" в названии: [find . -name "*bash*"].'}], 'fill': {}}
+2025-02-26 21:21:36,809:main:INFO: {'choose': [{'id': 0, 'question': 'change file permissions', 'correct': 'chmod 755 file', 'options': 'chmod 777 file; chmod 755 file; chown user file'}, {'id': 1, 'question': 'properly kill a process by PID', 'correct': 'kill -9 PID', 'options': 'kill PID; kill -9 PID; rm -rf PID'}, {'id': 2, 'question': 'switch users', 'correct': 'su; sudo', 'options': 'su; sudo; ls -l; man'}], 'input': [{'id': 0, 'question': 'current directory: _(pwd).', 'translation': 'вывести текущий каталог: [pwd].'}, {'id': 1, 'question': 'view last 10 lines of a file: _(tail -n 10) <file>.', 'translation': 'посмотреть последние 10 строк файла: [tail -n 10 <file>].'}, {'id': 2, 'question': 'find files with "bash" in name: _(find . -name "*bash*").', 'translation': 'найти файлы с "bash" в названии: [find . -name "*bash*"].'}], 'fill': {}}
+2025-02-26 21:21:36,831:main:INFO: {'choose': [{'id': 0, 'question': 'change file permissions', 'correct': 'chmod 755 file', 'options': 'chmod 777 file; chmod 755 file; chown user file'}, {'id': 1, 'question': 'properly kill a process by PID', 'correct': 'kill -9 PID', 'options': 'kill PID; kill -9 PID; rm -rf PID'}, {'id': 2, 'question': 'switch users', 'correct': 'su; sudo', 'options': 'su; sudo; ls -l; man'}], 'input': [{'id': 0, 'question': 'current directory: _(pwd).', 'translation': 'вывести текущий каталог: [pwd].'}, {'id': 1, 'question': 'view last 10 lines of a file: _(tail -n 10) <file>.', 'translation': 'посмотреть последние 10 строк файла: [tail -n 10 <file>].'}, {'id': 2, 'question': 'find files with "bash" in name: _(find . -name "*bash*").', 'translation': 'найти файлы с "bash" в названии: [find . -name "*bash*"].'}], 'fill': {}}
+2025-02-26 21:21:36,851:main:INFO: {'choose': [{'id': 0, 'question': 'change file permissions', 'correct': 'chmod 755 file', 'options': 'chmod 777 file; chmod 755 file; chown user file'}, {'id': 1, 'question': 'properly kill a process by PID', 'correct': 'kill -9 PID', 'options': 'kill PID; kill -9 PID; rm -rf PID'}, {'id': 2, 'question': 'switch users', 'correct': 'su; sudo', 'options': 'su; sudo; ls -l; man'}], 'input': [{'id': 0, 'question': 'current directory: _(pwd).', 'translation': 'вывести текущий каталог: [pwd].'}, {'id': 1, 'question': 'view last 10 lines of a file: _(tail -n 10) <file>.', 'translation': 'посмотреть последние 10 строк файла: [tail -n 10 <file>].'}, {'id': 2, 'question': 'find files with "bash" in name: _(find . -name "*bash*").', 'translation': 'найти файлы с "bash" в названии: [find . -name "*bash*"].'}], 'fill': {}}
+2025-02-26 21:26:15,563:main:INFO:    id  topic_id question_kind  question_id  points estimation
+0   0         0        choose            0       4          D
+1   1         0        choose            1       6          C
+2   2         0        choose            2      17          A
+2025-02-26 21:26:15,590:main:INFO:    id  topic_id question_kind  question_id  points estimation
+0   0         0        choose            0       4          D
+1   1         0        choose            1       6          C
+2   2         0        choose            2      17          A
+2025-02-26 21:26:15,613:main:INFO:    id  topic_id question_kind  question_id  points estimation
+0   0         0        choose            0       4          D
+1   1         0        choose            1       6          C
+2   2         0        choose            2      17          A
+2025-02-26 21:26:15,637:main:INFO:    id  topic_id question_kind  question_id  points estimation
+0   0         0        choose            0       4          D
+1   1         0        choose            1       6          C
+2   2         0        choose            2      17          A
+2025-02-26 21:26:15,663:main:INFO:    id  topic_id question_kind  question_id  points estimation
+0   0         0        choose            0       4          D
+1   1         0        choose            1       6          C
+2   2         0        choose            2      17          A
+2025-02-26 21:26:15,688:main:INFO:    id  topic_id question_kind  question_id  points estimation
+0   0         0        choose            0       4          D
+1   1         0        choose            1       6          C
+2   2         0        choose            2      17          A
+2025-02-26 21:26:15,712:main:INFO:    id  topic_id question_kind  question_id  points estimation
+0   0         0        choose            0       4          D
+1   1         0        choose            1       6          C
+2   2         0        choose            2      17          A
+2025-02-26 21:26:15,739:main:INFO:    id  topic_id question_kind  question_id  points estimation
+0   0         0        choose            0       4          D
+1   1         0        choose            1       6          C
+2   2         0        choose            2      17          A
+2025-02-26 21:26:15,764:main:INFO:    id  topic_id question_kind  question_id  points estimation
+0   0         0        choose            0       4          D
+1   1         0        choose            1       6          C
+2   2         0        choose            2      17          A
+2025-02-26 21:26:15,787:main:INFO:    id  topic_id question_kind  question_id  points estimation
+0   0         0        choose            0       4          D
+1   1         0        choose            1       6          C
+2   2         0        choose            2      17          A
+2025-02-26 21:26:22,934:main:INFO:    id  topic_id question_kind  question_id  points estimation
+0   0         0        choose            0       4          D
+1   1         0        choose            1       6          C
+2   2         0        choose            2      17          A
+2025-02-26 21:26:22,961:main:INFO:    id  topic_id question_kind  question_id  points estimation
+0   0         0        choose            0       4          D
+1   1         0        choose            1       6          C
+2   2         0        choose            2      17          A
+2025-02-26 21:26:22,985:main:INFO:    id  topic_id question_kind  question_id  points estimation
+0   0         0        choose            0       4          D
+1   1         0        choose            1       6          C
+2   2         0        choose            2      17          A
+2025-02-26 21:26:23,010:main:INFO:    id  topic_id question_kind  question_id  points estimation
+0   0         0        choose            0       4          D
+1   1         0        choose            1       6          C
+2   2         0        choose            2      17          A
+2025-02-26 21:26:23,035:main:INFO:    id  topic_id question_kind  question_id  points estimation
+0   0         0        choose            0       4          D
+1   1         0        choose            1       6          C
+2   2         0        choose            2      17          A
+2025-02-26 21:26:23,058:main:INFO:    id  topic_id question_kind  question_id  points estimation
+0   0         0        choose            0       4          D
+1   1         0        choose            1       6          C
+2   2         0        choose            2      17          A
+2025-02-26 21:26:23,082:main:INFO:    id  topic_id question_kind  question_id  points estimation
+0   0         0        choose            0       4          D
+1   1         0        choose            1       6          C
+2   2         0        choose            2      17          A
+2025-02-26 21:26:23,108:main:INFO:    id  topic_id question_kind  question_id  points estimation
+0   0         0        choose            0       4          D
+1   1         0        choose            1       6          C
+2   2         0        choose            2      17          A
+2025-02-26 21:26:23,132:main:INFO:    id  topic_id question_kind  question_id  points estimation
+0   0         0        choose            0       4          D
+1   1         0        choose            1       6          C
+2   2         0        choose            2      17          A
+2025-02-26 21:26:23,158:main:INFO:    id  topic_id question_kind  question_id  points estimation
+0   0         0        choose            0       4          D
+1   1         0        choose            1       6          C
+2   2         0        choose            2      17          A
+2025-02-26 21:31:25,081:main:INFO: id                        3
+topic_id                  0
+question_kind         input
+question_id               0
+points                    0
+estimation                F
+key                     NaN
+estimation_numeric        1
+Name: 3, dtype: object
+2025-02-26 21:57:37,192:main:INFO: id                        5
+topic_id                  0
+question_kind         input
+question_id               2
+points                    0
+estimation                F
+key                     NaN
+estimation_numeric        1
+Name: 5, dtype: object
+2025-02-26 22:00:34,125:main:INFO: id                        3
+topic_id                  0
+question_kind         input
+question_id               0
+points                    0
+estimation                F
+key                     NaN
+estimation_numeric        1
+Name: 3, dtype: object
+2025-02-26 22:04:31,818:main:INFO: id                        3
+topic_id                  0
+question_kind         input
+question_id               0
+points                    0
+estimation                F
+key                     NaN
+estimation_numeric        1
+Name: 3, dtype: object
+2025-02-26 22:04:58,441:main:INFO: id                        4
+topic_id                  0
+question_kind         input
+question_id               1
+points                    0
+estimation                F
+key                     NaN
+estimation_numeric        1
+Name: 4, dtype: object
+2025-02-26 22:35:32,746:main:INFO: id                          3
+topic_id                    0
+question_kind           input
+question_id                 1
+points                      1
+estimation                  F
+key                   input_1
+estimation_numeric          1
+Name: 3, dtype: object
+2025-02-26 22:39:17,815:main:INFO: id                          3
+topic_id                    0
+question_kind           input
+question_id                 1
+points                      0
+estimation                  F
+key                   input_1
+estimation_numeric          1
+Name: 3, dtype: object
+2025-02-26 22:39:20,659:main:INFO: id                          3
+topic_id                    0
+question_kind           input
+question_id                 1
+points                      0
+estimation                  F
+key                   input_1
+estimation_numeric          1
+Name: 3, dtype: object
+2025-02-26 22:39:23,818:main:INFO: id                        5
+topic_id                  0
+question_kind         input
+question_id               2
+points                    0
+estimation                F
+key                     NaN
+estimation_numeric        1
+Name: 5, dtype: object
+2025-02-26 22:39:27,796:main:INFO: id                          4
+topic_id                    0
+question_kind           input
+question_id                 2
+points                      0
+estimation                  F
+key                   input_2
+estimation_numeric          1
+Name: 4, dtype: object
+2025-02-26 22:39:30,112:main:INFO: id                        5
+topic_id                  0
+question_kind         input
+question_id               0
+points                    0
+estimation                F
+key                     NaN
+estimation_numeric        1
+Name: 5, dtype: object
+2025-02-26 22:39:31,893:main:INFO: id                          5
+topic_id                    0
+question_kind           input
+question_id                 0
+points                      0
+estimation                  F
+key                   input_0
+estimation_numeric          1
+Name: 5, dtype: object
+2025-02-26 22:39:33,265:main:INFO: id                          3
+topic_id                    0
+question_kind           input
+question_id                 1
+points                      0
+estimation                  F
+key                   input_1
+estimation_numeric          1
+Name: 3, dtype: object
+2025-02-26 22:39:34,640:main:INFO: id                          4
+topic_id                    0
+question_kind           input
+question_id                 2
+points                      0
+estimation                  F
+key                   input_2
+estimation_numeric          1
+Name: 4, dtype: object
+2025-02-26 22:39:36,014:main:INFO: id                          5
+topic_id                    0
+question_kind           input
+question_id                 0
+points                      0
+estimation                  F
+key                   input_0
+estimation_numeric          1
+Name: 5, dtype: object
+2025-02-26 22:39:37,152:main:INFO: id                          3
+topic_id                    0
+question_kind           input
+question_id                 1
+points                      0
+estimation                  F
+key                   input_1
+estimation_numeric          1
+Name: 3, dtype: object
+2025-02-26 22:39:38,341:main:INFO: id                          4
+topic_id                    0
+question_kind           input
+question_id                 2
+points                      0
+estimation                  F
+key                   input_2
+estimation_numeric          1
+Name: 4, dtype: object
+2025-02-26 22:39:39,440:main:INFO: id                          4
+topic_id                    0
+question_kind           input
+question_id                 2
+points                      0
+estimation                  F
+key                   input_2
+estimation_numeric          1
+Name: 4, dtype: object
+2025-02-26 22:39:46,012:main:INFO: id                          4
+topic_id                    0
+question_kind           input
+question_id                 2
+points                      0
+estimation                  F
+key                   input_2
+estimation_numeric          1
+Name: 4, dtype: object
+2025-02-26 22:40:01,539:main:INFO: id                          4
+topic_id                    0
+question_kind           input
+question_id                 2
+points                      0
+estimation                  F
+key                   input_2
+estimation_numeric          1
+Name: 4, dtype: object
+2025-02-26 22:40:11,873:main:INFO: id                          5
+topic_id                    0
+question_kind           input
+question_id                 0
+points                      0
+estimation                  F
+key                   input_0
+estimation_numeric          1
+Name: 5, dtype: object
+2025-02-26 22:40:15,783:main:INFO: id                          3
+topic_id                    0
+question_kind           input
+question_id                 1
+points                      0
+estimation                  F
+key                   input_1
+estimation_numeric          1
+Name: 3, dtype: object
+2025-02-26 22:40:23,591:main:INFO: id                          3
+topic_id                    0
+question_kind           input
+question_id                 1
+points                      1
+estimation                  F
+key                   input_1
+estimation_numeric          1
+Name: 3, dtype: object
+2025-02-26 22:40:31,316:main:INFO: id                          5
+topic_id                    0
+question_kind           input
+question_id                 0
+points                      1
+estimation                  F
+key                   input_0
+estimation_numeric          1
+Name: 5, dtype: object
+2025-02-26 22:40:34,728:main:INFO: id                          5
+topic_id                    0
+question_kind           input
+question_id                 0
+points                      2
+estimation                  F
+key                   input_0
+estimation_numeric          1
+Name: 5, dtype: object
+2025-02-26 22:40:42,077:main:INFO: id                          3
+topic_id                    0
+question_kind           input
+question_id                 1
+points                      2
+estimation                  F
+key                   input_1
+estimation_numeric          1
+Name: 3, dtype: object
+2025-02-26 22:40:47,383:main:INFO: id                          3
+topic_id                    0
+question_kind           input
+question_id                 1
+points                      0
+estimation                  F
+key                   input_1
+estimation_numeric          1
+Name: 3, dtype: object
+2025-02-26 22:40:49,281:main:INFO: id                          3
+topic_id                    0
+question_kind           input
+question_id                 1
+points                      0
+estimation                  F
+key                   input_1
+estimation_numeric          1
+Name: 3, dtype: object
+2025-02-26 22:41:13,591:main:INFO: id                          3
+topic_id                    0
+question_kind           input
+question_id                 1
+points                      0
+estimation                  F
+key                   input_1
+estimation_numeric          1
+Name: 3, dtype: object
+2025-02-26 22:41:15,001:main:INFO: id                          3
+topic_id                    0
+question_kind           input
+question_id                 1
+points                      0
+estimation                  F
+key                   input_1
+estimation_numeric          1
+Name: 3, dtype: object
+2025-02-26 22:41:20,291:main:INFO: id                          3
+topic_id                    0
+question_kind           input
+question_id                 1
+points                      1
+estimation                  F
+key                   input_1
+estimation_numeric          1
+Name: 3, dtype: object
+2025-02-26 22:41:25,732:main:INFO: id                          3
+topic_id                    0
+question_kind           input
+question_id                 1
+points                      2
+estimation                  F
+key                   input_1
+estimation_numeric          1
+Name: 3, dtype: object
+2025-02-26 22:41:30,924:main:INFO: id                          4
+topic_id                    0
+question_kind           input
+question_id                 2
+points                      1
+estimation                  F
+key                   input_2
+estimation_numeric          1
+Name: 4, dtype: object
+2025-02-26 22:41:41,208:main:INFO: id                          4
+topic_id                    0
+question_kind           input
+question_id                 2
+points                      2
+estimation                  F
+key                   input_2
+estimation_numeric          1
+Name: 4, dtype: object
+2025-02-26 22:43:29,136:main:INFO: id                          4
+topic_id                    0
+question_kind           input
+question_id                 2
+points                      1
+estimation                  F
+key                   input_2
+estimation_numeric          1
+Name: 4, dtype: object
+2025-02-26 22:43:49,570:main:INFO: id                          4
+topic_id                    0
+question_kind           input
+question_id                 2
+points                      0
+estimation                  F
+key                   input_2
+estimation_numeric          1
+Name: 4, dtype: object
+2025-02-26 22:44:00,165:main:INFO: id                          4
+topic_id                    0
+question_kind           input
+question_id                 2
+points                      1
+estimation                  F
+key                   input_2
+estimation_numeric          1
+Name: 4, dtype: object
+2025-02-26 22:44:28,314:main:INFO: id                          4
+topic_id                    0
+question_kind           input
+question_id                 2
+points                      0
+estimation                  F
+key                   input_2
+estimation_numeric          1
+Name: 4, dtype: object
+2025-02-26 22:44:38,323:main:INFO: id                          4
+topic_id                    0
+question_kind           input
+question_id                 2
+points                      1
+estimation                  F
+key                   input_2
+estimation_numeric          1
+Name: 4, dtype: object
+2025-02-26 22:44:52,950:main:INFO: id                          4
+topic_id                    0
+question_kind           input
+question_id                 2
+points                      0
+estimation                  F
+key                   input_2
+estimation_numeric          1
+Name: 4, dtype: object
+2025-02-26 22:45:03,147:main:INFO: id                          4
+topic_id                    0
+question_kind           input
+question_id                 2
+points                      1
+estimation                  F
+key                   input_2
+estimation_numeric          1
+Name: 4, dtype: object
+2025-02-26 22:45:12,173:main:INFO: id                          4
+topic_id                    0
+question_kind           input
+question_id                 2
+points                      2
+estimation                  F
+key                   input_2
+estimation_numeric          1
+Name: 4, dtype: object
+2025-02-26 22:45:22,671:main:INFO: id                           0
+topic_id                     0
+question_kind           choose
+question_id                  0
+points                       4
+estimation                   D
+key                   choose_0
+estimation_numeric           2
+Name: 0, dtype: object
+2025-02-26 22:45:27,382:main:INFO: id                          4
+topic_id                    0
+question_kind           input
+question_id                 2
+points                      3
+estimation                  D
+key                   input_2
+estimation_numeric          2
+Name: 4, dtype: object
+2025-02-26 22:45:36,972:main:INFO: id                          3
+topic_id                    0
+question_kind           input
+question_id                 1
+points                      3
+estimation                  D
+key                   input_1
+estimation_numeric          2
+Name: 3, dtype: object
+2025-02-26 22:45:43,463:main:INFO: id                          5
+topic_id                    0
+question_kind           input
+question_id                 0
+points                      3
+estimation                  D
+key                   input_0
+estimation_numeric          2
+Name: 5, dtype: object
+2025-02-26 22:45:47,799:main:INFO: id                          5
+topic_id                    0
+question_kind           input
+question_id                 0
+points                      4
+estimation                  D
+key                   input_0
+estimation_numeric          2
+Name: 5, dtype: object
+2025-02-26 22:45:51,200:main:INFO: id                          5
+topic_id                    0
+question_kind           input
+question_id                 0
+points                      5
+estimation                  D
+key                   input_0
+estimation_numeric          2
+Name: 5, dtype: object
+2025-02-26 22:45:54,073:main:INFO: id                           0
+topic_id                     0
+question_kind           choose
+question_id                  0
+points                       5
+estimation                   D
+key                   choose_0
+estimation_numeric           2
+Name: 0, dtype: object
+2025-02-26 22:45:57,171:main:INFO: id                          4
+topic_id                    0
+question_kind           input
+question_id                 2
+points                      4
+estimation                  D
+key                   input_2
+estimation_numeric          2
+Name: 4, dtype: object
+2025-02-26 22:46:11,658:main:INFO: id                          3
+topic_id                    0
+question_kind           input
+question_id                 1
+points                      4
+estimation                  D
+key                   input_1
+estimation_numeric          2
+Name: 3, dtype: object
+2025-02-26 22:46:17,701:main:INFO: id                          4
+topic_id                    0
+question_kind           input
+question_id                 2
+points                      5
+estimation                  D
+key                   input_2
+estimation_numeric          2
+Name: 4, dtype: object
+2025-02-26 22:53:46,589:main:INFO: id                          3
+topic_id                    0
+question_kind           input
+question_id                 1
+points                      5
+estimation                  D
+key                   input_1
+estimation_numeric          2
+Name: 3, dtype: object
+2025-02-26 22:53:52,742:main:INFO: id                          3
+topic_id                    0
+question_kind           input
+question_id                 1
+points                      6
+estimation                  C
+key                   input_1
+estimation_numeric          3
+Name: 3, dtype: object
+2025-02-26 22:53:59,456:main:INFO: id                           0
+topic_id                     0
+question_kind           choose
+question_id                  0
+points                       6
+estimation                   C
+key                   choose_0
+estimation_numeric           3
+Name: 0, dtype: object
+2025-02-26 22:54:03,506:main:INFO: id                          5
+topic_id                    0
+question_kind           input
+question_id                 0
+points                      6
+estimation                  C
+key                   input_0
+estimation_numeric          3
+Name: 5, dtype: object
+2025-02-26 22:54:06,566:main:INFO: id                          5
+topic_id                    0
+question_kind           input
+question_id                 0
+points                      7
+estimation                  C
+key                   input_0
+estimation_numeric          3
+Name: 5, dtype: object
+2025-02-26 22:54:08,664:main:INFO: id                          3
+topic_id                    0
+question_kind           input
+question_id                 1
+points                      7
+estimation                  C
+key                   input_1
+estimation_numeric          3
+Name: 3, dtype: object
+2025-02-26 22:54:17,736:main:INFO: id                           1
+topic_id                     0
+question_kind           choose
+question_id                  1
+points                       6
+estimation                   C
+key                   choose_1
+estimation_numeric           3
+Name: 1, dtype: object
+2025-02-26 22:54:24,174:main:INFO: id                          4
+topic_id                    0
+question_kind           input
+question_id                 2
+points                      6
+estimation                  C
+key                   input_2
+estimation_numeric          3
+Name: 4, dtype: object
+2025-02-26 22:54:36,316:main:INFO: id                           0
+topic_id                     0
+question_kind           choose
+question_id                  0
+points                       7
+estimation                   C
+key                   choose_0
+estimation_numeric           3
+Name: 0, dtype: object
+2025-02-26 22:54:39,282:main:INFO: id                           0
+topic_id                     0
+question_kind           choose
+question_id                  0
+points                       8
+estimation                   C
+key                   choose_0
+estimation_numeric           3
+Name: 0, dtype: object
+2025-02-26 22:54:42,086:main:INFO: id                          5
+topic_id                    0
+question_kind           input
+question_id                 0
+points                      8
+estimation                  C
+key                   input_0
+estimation_numeric          3
+Name: 5, dtype: object
+2025-02-26 22:54:44,201:main:INFO: id                          4
+topic_id                    0
+question_kind           input
+question_id                 2
+points                      7
+estimation                  C
+key                   input_2
+estimation_numeric          3
+Name: 4, dtype: object
+2025-02-26 22:54:57,511:main:INFO: id                           0
+topic_id                     0
+question_kind           choose
+question_id                  0
+points                       9
+estimation                   C
+key                   choose_0
+estimation_numeric           3
+Name: 0, dtype: object
+2025-02-26 22:55:00,420:main:INFO: id                          5
+topic_id                    0
+question_kind           input
+question_id                 0
+points                      9
+estimation                  C
+key                   input_0
+estimation_numeric          3
+Name: 5, dtype: object
+2025-02-26 22:55:04,421:main:INFO: id                          3
+topic_id                    0
+question_kind           input
+question_id                 1
+points                      8
+estimation                  C
+key                   input_1
+estimation_numeric          3
+Name: 3, dtype: object
+2025-02-26 22:55:11,069:main:INFO: id                          4
+topic_id                    0
+question_kind           input
+question_id                 2
+points                      8
+estimation                  C
+key                   input_2
+estimation_numeric          3
+Name: 4, dtype: object
+2025-02-26 22:55:24,611:main:INFO: id                          3
+topic_id                    0
+question_kind           input
+question_id                 1
+points                      9
+estimation                  C
+key                   input_1
+estimation_numeric          3
+Name: 3, dtype: object
+2025-02-26 22:55:30,310:main:INFO: id                           1
+topic_id                     0
+question_kind           choose
+question_id                  1
+points                       7
+estimation                   C
+key                   choose_1
+estimation_numeric           3
+Name: 1, dtype: object
+2025-02-26 22:55:34,524:main:INFO: id                          4
+topic_id                    0
+question_kind           input
+question_id                 2
+points                      9
+estimation                  C
+key                   input_2
+estimation_numeric          3
+Name: 4, dtype: object
+2025-02-26 22:55:46,517:main:INFO: id                           1
+topic_id                     0
+question_kind           choose
+question_id                  1
+points                       8
+estimation                   C
+key                   choose_1
+estimation_numeric           3
+Name: 1, dtype: object
+2025-02-26 22:55:50,019:main:INFO: id                           1
+topic_id                     0
+question_kind           choose
+question_id                  1
+points                       9
+estimation                   C
+key                   choose_1
+estimation_numeric           3
+Name: 1, dtype: object
+2025-02-26 22:55:53,508:main:INFO: id                          3
+topic_id                    0
+question_kind           input
+question_id                 1
+points                     10
+estimation                  B
+key                   input_1
+estimation_numeric          4
+Name: 3, dtype: object
+2025-02-26 22:55:57,418:main:INFO: id                          3
+topic_id                    0
+question_kind           input
+question_id                 1
+points                      9
+estimation                  C
+key                   input_1
+estimation_numeric          3
+Name: 3, dtype: object
+2025-02-26 22:55:58,774:main:INFO: id                          3
+topic_id                    0
+question_kind           input
+question_id                 1
+points                      8
+estimation                  C
+key                   input_1
+estimation_numeric          3
+Name: 3, dtype: object
+2025-02-26 22:56:00,103:main:INFO: id                          3
+topic_id                    0
+question_kind           input
+question_id                 1
+points                      7
+estimation                  C
+key                   input_1
+estimation_numeric          3
+Name: 3, dtype: object
+2025-02-26 22:56:01,284:main:INFO: id                          3
+topic_id                    0
+question_kind           input
+question_id                 1
+points                      6
+estimation                  C
+key                   input_1
+estimation_numeric          3
+Name: 3, dtype: object
+2025-02-26 22:56:02,536:main:INFO: id                          3
+topic_id                    0
+question_kind           input
+question_id                 1
+points                      5
+estimation                  D
+key                   input_1
+estimation_numeric          2
+Name: 3, dtype: object
+2025-02-26 22:56:03,540:main:INFO: id                          3
+topic_id                    0
+question_kind           input
+question_id                 1
+points                      4
+estimation                  D
+key                   input_1
+estimation_numeric          2
+Name: 3, dtype: object
+2025-02-26 22:56:04,964:main:INFO: id                          3
+topic_id                    0
+question_kind           input
+question_id                 1
+points                      3
+estimation                  D
+key                   input_1
+estimation_numeric          2
+Name: 3, dtype: object
+2025-02-26 22:56:06,315:main:INFO: id                          3
+topic_id                    0
+question_kind           input
+question_id                 1
+points                      2
+estimation                  F
+key                   input_1
+estimation_numeric          1
+Name: 3, dtype: object
+2025-02-26 22:56:07,617:main:INFO: id                          3
+topic_id                    0
+question_kind           input
+question_id                 1
+points                      1
+estimation                  F
+key                   input_1
+estimation_numeric          1
+Name: 3, dtype: object
+2025-02-26 22:56:08,628:main:INFO: id                          3
+topic_id                    0
+question_kind           input
+question_id                 1
+points                      0
+estimation                  F
+key                   input_1
+estimation_numeric          1
+Name: 3, dtype: object
+2025-02-26 22:56:09,988:main:INFO: id                          3
+topic_id                    0
+question_kind           input
+question_id                 1
+points                      0
+estimation                  F
+key                   input_1
+estimation_numeric          1
+Name: 3, dtype: object
+2025-02-26 22:56:11,158:main:INFO: id                          3
+topic_id                    0
+question_kind           input
+question_id                 1
+points                      0
+estimation                  F
+key                   input_1
+estimation_numeric          1
+Name: 3, dtype: object

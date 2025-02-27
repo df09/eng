@@ -5,6 +5,8 @@ document.addEventListener('DOMContentLoaded', function () {
   const eNext = document.getElementById('next-question');
   const eLabels = document.querySelectorAll('.option-label');
   const eCheckboxes = document.querySelectorAll('.option-input');
+  const eEstimation = document.querySelector('.estimation');
+  const ePoints = eEstimation.nextElementSibling;
 
   let submitted = false; // Флаг для блокировки изменений
 
@@ -17,21 +19,21 @@ document.addEventListener('DOMContentLoaded', function () {
     const isChecked = Array.from(eCheckboxes).some(cb => cb.checked);
     if (!isChecked) {
       // Показываем сообщение о необходимости выбора
-      let msgSelect = document.getElementById('msg-select');
-      if (!msgSelect) {
-        msgSelect = document.createElement('p');
-        msgSelect.id = 'msg-select';
-        msgSelect.className = 'result-message r'; // Красный цвет ошибки
-        msgSelect.textContent = 'Please select at least one option.';
-        eMsg.parentNode.insertBefore(msgSelect, eMsg);
+      let eMsgSelect = document.getElementById('msg-select');
+      if (!eMsgSelect) {
+        eMsgSelect = document.createElement('p');
+        eMsgSelect.id = 'msg-select';
+        eMsgSelect.className = 'result-message r'; // Красный цвет ошибки
+        eMsgSelect.textContent = 'Please select at least one option.';
+        eMsg.parentNode.insertBefore(eMsgSelect, eMsg);
       }
-      msgSelect.classList.remove('dnone');
+      remCls(eMsgSelect, 'dnone');
       return;
     }
 
     // Если выбор сделан, скрываем сообщение об ошибке
-    const msgSelect = document.getElementById('msg-select');
-    if (msgSelect) msgSelect.classList.add('dnone');
+    const eMsgSelect = document.getElementById('msg-select');
+    if (eMsgSelect) addCls(eMsgSelect, 'dnone');
 
     submitted = true; // Флаг, что ответ уже отправлен
     const formData = new FormData(eForm);
@@ -39,6 +41,12 @@ document.addEventListener('DOMContentLoaded', function () {
       .then(response => response.json())
       .then(data => {
         if (data.success) {
+          // Обновляем progress
+          remCls(eEstimation, 'F','D','C','B','A');
+          addCls(eEstimation, data.progress.estimation);
+          eEstimation.textContent = data.progress.estimation + ':';
+          ePoints.textContent = data.progress.points+'/'+data.progress.threshhold;
+
           eLabels.forEach(e => {
             const inputId = e.getAttribute('for');
             const input = getEl('#' + inputId);
@@ -57,23 +65,22 @@ document.addEventListener('DOMContentLoaded', function () {
 
             // options
             if (data.correct.includes(value)) {
-              option.classList.remove('bg-w', 'brd-w');
-              option.classList.add('g', 'bg-g', 'brd-g'); // Правильный
+              remCls(option, 'bg-w', 'brd-w');
+              addCls(option, 'g', 'bg-g', 'brd-g'); // Правильный
             } else if (input.checked) {
-              option.classList.remove('bg-w', 'brd-w');
-              option.classList.add('r', 'bg-r', 'brd-r'); // Неправильный, но выбранный
+              remCls(option, 'bg-w', 'brd-w');
+              addCls(option, 'r', 'bg-r', 'brd-r'); // Неправильный, но выбранный
             }
             input.checked = false; // Снимаем выбор
           });
 
-          // Скрываем submit, показываем next
-          eSubmit.classList.add('dnone');
-          eNext.classList.remove('dnone', 'btn-g', 'btn-r');
-          eNext.classList.add(data.is_correct ? 'btn-g' : 'btn-r');
-
-          // Сообщение Correct / Incorrect
-          eMsg.classList.remove('dnone', 'g', 'r');
-          eMsg.classList.add(data.is_correct ? 'g' : 'r');
+          // submit/next
+          addCls(eSubmit, 'dnone');
+          remCls(eNext, 'dnone', 'btn-g', 'btn-r');
+          addCls(eNext, data.is_correct ? 'btn-g' : 'btn-r');
+          // result-message
+          remCls(eMsg, 'dnone', 'g', 'r');
+          addCls(eMsg, data.is_correct ? 'g' : 'r');
           eMsg.textContent = data.is_correct ? 'Correct!' : 'Incorrect.';
         }
       })
@@ -90,7 +97,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
   // Горячие клавиши
   const numKeys = ['1', '2', '3', '4', '5', '6', '7', '8', '9'];
-  const vimKeys = ['f', 'd', 's', 'a', 'g', 'j', 'k', 'l', ';', 'h']; // vim-like keys
+  const vimKeys = ['s', 'd', 'f', 'g', 'x', 'c', 'v', 'b', 'j', 'k']; // vim-like keys
   const keyMap = {};
 
   eCheckboxes.forEach((cb, i) => {

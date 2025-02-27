@@ -5,14 +5,20 @@
 {% endblock %}
 {% block content %}
 <section class='q_choose'>
-  <p class='m0'><strong>{{ q.estimation }}</strong> {{ q.points }}/{{ q.threshhold }}</p>
-  <p class='m0'><strong>Q:</strong> {{ q.question }}</p>
-  <form id='q-choose-form' class='q-choose-form dflex col pv10'
+  <p class='m0'>
+    <strong class='estimation {{ progress.estimation }} mr5'>{{ progress.estimation }}:</strong>
+    <span class='w'>{{ progress.points }}/{{ progress.threshhold }}</span>
+  </p>
+  <p class='m0'>
+    <strong class='b bg-b mr5'>Q:</strong>
+    <span>{{ q.question }}<span>
+  </p>
+  <form id='q-choose-form' class='q-choose-form dflex col pt10 pb5'
     autocomplete='off' autocorrect='off' autocapitalize='off' spellcheck='false'
     action='{{ url_for("index.q_choose", tid=tid, qid=q.id) }}' method='post'>
 
     <div class='options'>
-      {% set vim_keys = ['f', 'd', 's', 'a', 'g', 'j', 'k', 'l', ';', 'h'] %}
+      {% set vim_keys = ['s', 'd', 'f', 'g', 'x', 'c', 'v', 'b', 'j', 'k'] %}
       {% for option in shuffled_options %}
         {% set vim_shortcut = vim_keys[loop.index - 1] if loop.index - 1 < vim_keys|length else '' %}
         {% set shortcut = loop.index if loop.index < 10 else ('asdfghjkl'[loop.index - 10] if loop.index - 10 < 9 else '') %}
@@ -24,11 +30,11 @@
       {% endfor %}
     </div>
 
-    <div class='submit-section dflex row jc-start ai-center'>
+    <div class='submit-section dflex row jc-start ai-center mt10'>
       <button id='q-choose-submit' type='submit' class='submit btn btn-g m5'>Submit</button>
       <button id='next-question' class='next-question dnone btn m5'>Next Question</button>
       <p id='result-message' class='result-message dnone m0 p0 pl10'></p>
-      <p id="msg-select" class="dnone result-message r m0 p0 pl10">Please select at least one option.</p>
+      <p id="msg-select" class="dnone result-message r m0 p0 pl10">Please enter an answer.</p>
     </div>
   </form>
 </section>

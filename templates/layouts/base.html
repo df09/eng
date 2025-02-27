@@ -14,7 +14,7 @@
     <header class="dflex row jc-between ai-center">
       <div class="title p5">{% block header %}Header{% endblock %}</div>
       {% if page not in ['login', 'register'] %}
-        <div class="logout p5">
+        <div class="logout">
           <a href="{{ url_for('auth.logout') }}" class="logout-btn">Logout</a>
         </div>
       {% endif %}

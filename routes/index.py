@@ -3,6 +3,7 @@ from functools import wraps
 from src.user import User
 from src.topics import Topics
 from src.topic import Topic
+from src.helpers import pdo
 from logger import logger
 from random import shuffle
 import re
@@ -41,6 +42,7 @@ def topic(tid):
     user = get_current_user()
     topic = Topic(tid, topics.data[tid])
     question = topic.choose_question(user.df_progress)
+    logger.info(question)
     q_kind = question["question_kind"]
     qid = question["question_id"]
     routes = {'choose': 'index.q_choose', 'input': 'index.q_input', 'fill': 'index.q_fill'}
@@ -55,22 +57,35 @@ def q_choose(tid, qid):
     q = topic.get_question(tid, 'choose', qid)
     options = [opt.strip() for opt in q["options"].split(";")]
     shuffle(options)
-
+    # progress
+    progress = user.get_progress(tid, 'choose', qid)
+    # post
     if request.method == 'POST':
         selected_answers = {opt.strip() for opt in request.form.getlist('answer')}
         correct_answers = {opt.strip() for opt in q["correct"].split(";")}
         result = selected_answers == correct_answers
+        # progress
         user.save_progress(tid, 'choose', qid, result)
+        progress = user.get_progress(tid, 'choose', qid)
+
         return jsonify({
             "success": True,
             "question": q["question"],
             "selected": list(selected_answers),
             "correct": list(correct_answers),
             "is_correct": result,
-            "next_question_url": url_for('index.topic', tid=tid) if result else ""
+            'progress': {
+                'estimation': progress['estimation'],
+                'points': progress['points'],
+                'threshhold': user.estimate_ranges[progress['estimation']][1]
+            }
         })
-
-    return render_template('q_choose.html', page='q_choose', tid=tid, tname=topic.name, q=q, shuffled_options=options)
+    return render_template('q_choose.html', page='q_choose', tid=tid, tname=topic.name,
+                           q=q, shuffled_options=options, progress={
+                               'estimation': progress['estimation'],
+                               'points': progress['points'],
+                               'threshhold': user.estimate_ranges[progress['estimation']][1]
+                           })
 
 # === q_input ===================================
 @index_bp.route('/topic/<int:tid>/q_input/<int:qid>', methods=['GET', 'POST'])
@@ -80,22 +95,34 @@ def q_input(tid, qid):
     topic = Topic(tid, topics.data[tid])
     q = topic.get_question(tid, 'input', qid)
     q['question'], q['correct'] = topic.format_q_input(q['question'])
-
+    # progress
+    progress = user.get_progress(tid, 'input', qid)
+    # post
     if request.method == 'POST':
         answer = request.form.get('answer', '').strip()
         correct_answer = q["correct"].strip()
         result = answer.lower() == correct_answer.lower()
+        # progress
         user.save_progress(tid, 'input', qid, result)
+        progress = user.get_progress(tid, 'input', qid)
         return jsonify({
             "success": True,
             "question": q["question"],
             "selected": answer,
             "correct": correct_answer,
             "is_correct": result,
-            "next_question_url": url_for('index.topic', tid=tid) if result else ""
+            "next_question_url": url_for('index.topic', tid=tid) if result else "",
+            "progress": {
+                "estimation": progress["estimation"],
+                "points": progress["points"],
+                "threshhold": user.estimate_ranges[progress["estimation"]][1]
+            }
         })
-
-    return render_template('q_input.html', page='q_input', tid=tid, tname=topic.name, q=q)
+    return render_template('q_input.html', page='q_input', tid=tid, tname=topic.name, q=q, progress={
+        'estimation': progress['estimation'],
+        'points': progress['points'],
+        'threshhold': user.estimate_ranges[progress['estimation']][1]
+    })
 
 # === q_fill ===================================
 @index_bp.route('/topic/<int:tid>/q_fill/<int:qid>', methods=['GET', 'POST'])

@@ -11,7 +11,7 @@ class User:
         self.f_data = f'{self.path}/_data.yml'
         self.f_stats = f'{self.path}/stats.csv'
         self.f_progress = f'{self.path}/progress.csv'
-        
+
         # Загружаем единожды
         self.data = fo.yml2dict(self.f_data)
         self.df_stats = self.load_stats(topics_data)  # Оптимизированный метод
@@ -52,11 +52,21 @@ class User:
     def load_progress(self):
         """Загружает progress.csv только один раз."""
         df_progress = pdo.load(self.f_progress, allow_empty=True)
-
         if df_progress.empty:
             df_progress = pd.DataFrame(columns=["id", "topic_id", "question_kind", "question_id", "points", "estimation"])
-
         return df_progress
+
+    def get_progress(self, tid, q_kind, qid):
+        """Получает прогресс пользователя для текущего вопроса."""
+        where = {
+            'topic_id': tid,
+            'question_kind': q_kind,
+            'question_id': qid
+        }
+        progress_records = pdo.filter(self.df_progress, where=where, allow_empty=True)
+        if progress_records.empty:
+            return {'estimation': 'F', 'points': 0}
+        return progress_records.to_dict(orient="records")[0]
 
     def save_progress(self, tid, q_kind, qid, result):
         """Обновляет прогресс в памяти и записывает файл только при изменениях"""

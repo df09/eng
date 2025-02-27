@@ -19,7 +19,7 @@
         <td class='topic_stats p5'>
           {% set stat = stats | selectattr("topic_id", "equalto", tid) | first %}
           {% if stat %}
-            <div class='dflex row'>
+            <div class='dflex row ai-center jc-between'>
               <div class="stats dflex row">
                 <span class="grade p5 F">F:{{ stat.F }}</span>
                 <span class="grade p5 D">D:{{ stat.D }}</span>
