@@ -1,4 +1,6 @@
 id , question                                , translation
-0  , Столица Франции - [Париж].              , capital of france.
-1  , Число Пи примерно равно [3.14].         , the number pi is 3.14.
-2  , Вода состоит из [водород] и [кислород]. , the water consist of H and O.
+0  , _(I) am here.                , Я здесь.               
+1  , _(I) like coffee.            , Мне нравится кофе.    
+2  , _(I) will call you tomorrow. , Я позвоню тебе завтра.
+3  , _(I) don't understand this.  , Я этого не понимаю.  
+4  , _(I) need help.              , Мне нужна помощь. 

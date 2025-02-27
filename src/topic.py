@@ -18,9 +18,9 @@ class Topic:
         self.d_q_fill = f'{self.path}/questions/fill'
         self.f_total = f'{self.path}/questions/_total.txt'
         self.qs = {
-            'choose': pdo.load(self.f_q_chooses).to_dict(orient="records"),
+            'choose': pdo.load(self.f_q_chooses, allow_empty=True).to_dict(orient="records"),
             # 'choose': {},
-            'input': pdo.load(self.f_q_inputs).to_dict(orient="records"),
+            'input': pdo.load(self.f_q_inputs, allow_empty=True).to_dict(orient="records"),
             # 'input': {},
             # 'fill': self.load_fill_questions()
             'fill': {},

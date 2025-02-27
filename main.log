@@ -1209,3 +1209,111 @@ estimation                  F
 key                   input_1
 estimation_numeric          1
 Name: 3, dtype: object
+2025-02-27 00:03:54,809:main:INFO: id                        15
+topic_id                   1
+question_kind         choose
+question_id                4
+points                     0
+estimation                 F
+key                      NaN
+estimation_numeric         1
+Name: 9, dtype: object
+2025-02-27 00:08:40,041:main:INFO: id                        9
+topic_id                  1
+question_kind         input
+question_id               3
+points                    0
+estimation                F
+key                     NaN
+estimation_numeric        1
+Name: 3, dtype: object
+2025-02-27 00:08:52,263:main:INFO: id                        8
+topic_id                  1
+question_kind         input
+question_id               1
+points                    0
+estimation                F
+key                     NaN
+estimation_numeric        1
+Name: 2, dtype: object
+2025-02-27 00:08:53,764:main:INFO: id                          6
+topic_id                    1
+question_kind           input
+question_id                 3
+points                      1
+estimation                  F
+key                   input_3
+estimation_numeric          1
+Name: 0, dtype: object
+2025-02-27 00:08:55,327:main:INFO: id                          6
+topic_id                    1
+question_kind           input
+question_id                 3
+points                      2
+estimation                  F
+key                   input_3
+estimation_numeric          1
+Name: 0, dtype: object
+2025-02-27 00:08:56,940:main:INFO: id                          7
+topic_id                    1
+question_kind           input
+question_id                 1
+points                      1
+estimation                  F
+key                   input_1
+estimation_numeric          1
+Name: 1, dtype: object
+2025-02-27 00:08:58,437:main:INFO: id                       10
+topic_id                  1
+question_kind         input
+question_id               4
+points                    0
+estimation                F
+key                     NaN
+estimation_numeric        1
+Name: 4, dtype: object
+2025-02-27 00:08:59,889:main:INFO: id                          8
+topic_id                    1
+question_kind           input
+question_id                 4
+points                      1
+estimation                  F
+key                   input_4
+estimation_numeric          1
+Name: 2, dtype: object
+2025-02-27 00:09:01,349:main:INFO: id                          7
+topic_id                    1
+question_kind           input
+question_id                 1
+points                      2
+estimation                  F
+key                   input_1
+estimation_numeric          1
+Name: 1, dtype: object
+2025-02-27 00:09:02,923:main:INFO: id                        9
+topic_id                  1
+question_kind         input
+question_id               0
+points                    0
+estimation                F
+key                     NaN
+estimation_numeric        1
+Name: 3, dtype: object
+2025-02-27 00:09:04,587:main:INFO: id                       10
+topic_id                  1
+question_kind         input
+question_id               2
+points                    0
+estimation                F
+key                     NaN
+estimation_numeric        1
+Name: 4, dtype: object
+2025-02-27 00:09:05,820:main:INFO: id                         10
+topic_id                    1
+question_kind           input
+question_id                 2
+points                      1
+estimation                  F
+key                   input_2
+estimation_numeric          1
+Name: 10, dtype: object
