@@ -1,509 +1,664 @@
-id , question , translation
-
 Personal Pronouns, subject form (личные местоимения, именительный падеж):
-0   I                         I am here.                                    Я здесь.
-1   I                         I like coffee.                                Мне нравится кофе.
-2   I                         I will call you tomorrow.                     Я позвоню тебе завтра.
-3   I                         I don't understand this.                      Я этого не понимаю.
-4   I                         I need help.                                  Мне нужна помощь.
-5   you                       You are my friend.                            Ты мой друг.
-6   you                       You can do it.                                Ты можешь это сделать.
-7   you                       You look tired.                               Ты выглядишь уставшим.
-8   you                       Are you coming with us?                       Ты пойдёшь с нами?
-9   you                       You forgot your keys.                         Ты забыл свои ключи.
-10  he                        He is a teacher.                              Он учитель.
-11  he                        He works every day.                           Он работает каждый день.
-12  he                        He likes pizza.                               Он любит пиццу.
-13  he                        He will help you.                             Он поможет тебе.
-14  he                        He went to the store.                         Он пошел в магазин.
-15  she                       She loves coffee.                             Она любит кофе.
-16  she                       She is very kind.                             Она очень добрая.
-17  she                       She told me the truth.                        Она сказала мне правду.
-18  she                       She is reading a book.                        Она читает книгу.
-19  she                       She lives nearby.                             Она живёт рядом.
-20  it                        It is raining.                                Идёт дождь.
-21  it                        It looks delicious.                           Оно выглядит вкусно.
-22  it                        It is very expensive.                         Оно очень дорого.
-23  it                        I found it in the drawer.                     Я нашел это в ящике.
-24  it                        It is a good idea.                            Это хорошая идея.
-25  we                        We are happy.                                 Мы счастливы.
-26  we                        We will meet tomorrow.                        Мы встретимся завтра.
-27  we                        We like this place.                           Нам нравится это место.
-28  we                        We are going to the park.                     Мы идём в парк.
-29  we                        We need more time.                            Нам нужно больше времени.
-30  you                       You are welcome here.                         Вы здесь желанны.
-31  you                       You should try this.                          Вы должны попробовать это.
-32  you                       You are very polite.                          Вы очень вежливы.
-33  you                       Are you ready for the meeting?                Вы готовы к встрече?
-34  you                       You did a great job.                          Вы отлично справились.
-35  they                      They are coming.                              Они идут.
-36  they                      They work together.                           Они работают вместе.
-37  they                      They have a big house.                        У них большой дом.
-38  they                      Are they here yet?                            Они уже здесь?
-39  they                      They enjoy traveling.                         Им нравится путешествовать.
-
+  id;question;translation
+  0;_(I:s1) am here.;Я здесь.
+  1;_(I:s1) like coffee.;Мне нравится кофе.
+  2;_(I:s1) will call you tomorrow.;Я позвоню тебе завтра.
+  3;_(I:s1) don't understand this.;Я этого не понимаю.
+  4;_(I:s1) need help.;Мне нужна помощь.
+  5;_(You:s2) are my friend.;Ты мой друг.
+  6;_(You:s2) can do it.;Ты можешь это сделать.
+  7;_(You:s2) look tired.;Ты выглядишь уставшим.
+  8;_(You:s2) coming with us?;Ты пойдёшь с нами?
+  9;_(You:s2) forgot your keys.;Ты забыл свои ключи.
+  10;_(He:s3m) is a teacher.;Он учитель.
+  11;_(He:s3m) works every day.;Он работает каждый день.
+  12;_(He:s3m) likes pizza.;Он любит пиццу.
+  13;_(He:s3m) will help you.;Он поможет тебе.
+  14;_(He:s3m) went to the store.;Он пошел в магазин.
+  15;_(She:s3f) loves coffee.;Она любит кофе.
+  16;_(She:s3f) is very kind.;Она очень добрая.
+  17;_(She:s3f) told me the truth.;Она сказала мне правду.
+  18;_(She:s3f) is reading a book.;Она читает книгу.
+  19;_(She:s3f) lives nearby.;Она живёт рядом.
+  20;_(It:s3n) is raining.;Идёт дождь.
+  21;_(It:s3n) looks delicious.;Оно выглядит вкусно.
+  22;_(It:s3n) is very expensive.;Оно очень дорого.
+  23;_(I:s1) found it in the drawer.;Я нашел это в ящике.
+  24;_(It:s3n) is a good idea.;Это хорошая идея.
+  25;_(We:p1) are happy.;Мы счастливы.
+  26;_(We:p1) will meet tomorrow.;Мы встретимся завтра.
+  27;_(We:p1) like this place.;Нам нравится это место.
+  28;_(We:p1) are going to the park.;Мы идём в парк.
+  29;_(We:p1) need more time.;Нам нужно больше времени.
+  30;_(You:s2) are welcome here.;Вы здесь желанны.
+  31;_(You:s2) should try this.;Вы должны попробовать это.
+  32;_(You:s2) are very polite.;Вы очень вежливы.
+  33;_(You:s2) ready for the meeting?;Вы готовы к встрече?
+  34;_(You:s2) did a great job.;Вы отлично справились.
+  35;_(They:p3) are coming.;Они идут.
+  36;_(They:p3) work together.;Они работают вместе.
+  37;_(They:p3) have a big house.;У них большой дом.
+  38;_(They:p3) here yet?;Они уже здесь?
+  39;_(They:p3) enjoy traveling.;Им нравится путешествовать.
+  40;_(I:s1) was surprised when I saw the results.;Я был удивлён, когда увидел результаты.
+  41;She told me that _(I:s1) should try harder.;Она сказала мне, что я должен стараться больше.
+  42;We all know that _(you:s2) have the skills to succeed.;Мы все знаем, что у тебя есть навыки, чтобы добиться успеха.
+  43;They asked if _(you:s2) were available for the meeting.;Они спросили, свободны ли вы для встречи.
+  44;The teacher explained why _(he:s3m) missed the deadline.;Учитель объяснил, почему он пропустил крайний срок.
+  45;She couldn't believe that _(he:s3m) had lied to her.;Она не могла поверить, что он ей солгал.
+  46;Everyone was amazed by how fast _(she:s3f) solved the problem.;Все были поражены, как быстро она решила проблему.
+  47;We had no idea that _(she:s3f) spoke five languages.;Мы не знали, что она говорит на пяти языках.
+  48;The scientist proved that _(it:s3n) was possible to travel faster.;Учёный доказал, что это возможно путешествовать быстрее.
+  49;They debated whether _(it:s3n) should be changed.;Они спорили, стоит ли это изменить.
+  50;My friends and I realized that _(we:p1) needed a new plan.;Мои друзья и я поняли, что нам нужен новый план.
+  51;The manager reminded us that _(we:p1) had to finish by noon.;Менеджер напомнил нам, что мы должны закончить к полудню.
+  52;Can you explain why _(you:s2) made that decision?;Можешь объяснить, почему ты принял такое решение?
+  53;They were shocked that _(you:s2) knew the answer.;Они были шокированы, что ты знал ответ.
+  54;She was worried that _(he:s3m) wouldn't make it on time.;Она волновалась, что он не успеет вовремя.
+  55;The team believed that _(he:s3m) could lead them to victory.;Команда верила, что он сможет привести их к победе.
+  56;Everyone agreed that _(she:s3f) deserved the award.;Все согласились, что она заслужила награду.
+  57;We wondered why _(she:s3f) hadn't responded yet.;Мы задумались, почему она ещё не ответила.
+  58;It was clear that _(it:s3n) wouldn't work as planned.;Было ясно, что это не сработает, как планировалось.
+  59;The engineer confirmed that _(it:s3n) was built correctly.;Инженер подтвердил, что это было построено правильно.
+  60;They knew that _(we:p1) were trying our best.;Они знали, что мы старались изо всех сил.
+  61;The instructor told us that _(we:p1) needed more practice.;Инструктор сказал нам, что нам нужно больше практики.
+  62;She asked whether _(you:s2) wanted to join the project.;Она спросила, хочешь ли ты присоединиться к проекту.
+  63;The boss emphasized that _(you:s2) must be on time.;Босс подчеркнул, что ты должен быть вовремя.
+  64;We suspected that _(he:s3m) was hiding something.;Мы подозревали, что он что-то скрывает.
+  65;They admitted that _(he:s3m) was the best candidate.;Они признали, что он был лучшим кандидатом.
+  66;The professor mentioned that _(she:s3f) had done excellent research.;Профессор упомянул, что она провела отличное исследование.
+  67;Her friend revealed that _(she:s3f) had moved abroad.;Её друг рассказал, что она переехала за границу.
+  68;The expert concluded that _(it:s3n) was a breakthrough discovery.;Эксперт пришёл к выводу, что это было прорывное открытие.
+  69;They agreed that _(it:s3n) was the right decision.;Они согласились, что это было правильное решение.
+  70;We insisted that _(we:p1) should try again.;Мы настаивали, что мы должны попробовать снова.
+  71;They mentioned that _(we:p1) had the necessary experience.;Они упомянули, что у нас был необходимый опыт.
+  72;The manager confirmed that _(you:s2) had completed the task.;Менеджер подтвердил, что ты завершил задание.
+  73;He warned that _(you:s2) should be careful.;Он предупредил, что тебе следует быть осторожным.
+  74;The scientist explained why _(they:p3) changed the experiment.;Учёный объяснил, почему они изменили эксперимент.
+  75;We learned that _(they:p3) had already left.;Мы узнали, что они уже ушли.
+  76;The journalist reported that _(they:p3) had discovered new evidence.;Журналист сообщил, что они обнаружили новые доказательства.
+  77;She commented that _(they:p3) seemed very confident.;Она прокомментировала, что они казались очень уверенными.
+  78;It was obvious that _(they:p3) needed help.;Было очевидно, что им нужна помощь.
+  79;The report stated that _(they:p3) had reached an agreement.;В отчёте говорилось, что они достигли соглашения.
 Personal Pronouns, object form (личные местоимения, косвенные падежи):
-40  me                        He saw me.                                    Он видел меня.
-41  me                        They invited me to the party.                 Они пригласили меня на вечеринку.
-42  me                        She found me in the garden.                   Она нашла меня в саду.
-43  me                        The teacher praised me.                       Учитель похвалил меня.
-44  me                        They accused me of cheating.                  Они обвинили меня в обмане.
-45  me                        She gave me a gift.                           Она дала мне подарок.
-46  me                        They sent me a letter.                        Они отправили мне письмо.
-47  me                        Can you pass me the salt?                     Можешь передать мне соль?
-48  me                        The book belongs to me.                       Эта книга принадлежит мне.
-49  me                        Tell me the truth.                            Скажи мне правду.
-50  me                        Please help me.                               Пожалуйста, помоги мне.
-51  me                        They saw me yesterday.                        Они видели меня вчера.
-52  me                        He invited me to dinner.                      Он пригласил меня на ужин.
-53  me                        She called me last night.                     Она звонила мне вчера вечером.
-54  me                        The dog followed me home.                     Собака пошла за мной домой.
-55  me                        She is happy with me.                         Она счастлива со мной.
-56  me                        They worked with me on the project.           Они работали со мной над проектом.
-57  me                        The teacher was impressed by me.              Учитель был впечатлён мной.
-58  me                        He argued with me about politics.             Он спорил со мной о политике.
-59  me                        They danced with me at the party.             Они танцевали со мной на вечеринке.
-60  me                        She always talks about me.                    Она всегда говорит обо мне.
-61  me                        What do you think about me?                   Что ты думаешь обо мне?
-62  me                        They wrote a story about me.                  Они написали историю обо мне.
-63  me                        The article is about me.                      Эта статья обо мне.
-64  me                        Don’t worry about me.                         Не переживай обо мне.
-65  you                       I saw you yesterday.                          Я видел тебя вчера.
-66  you                       They invited you to the meeting.              Они пригласили вас на встречу.
-67  you                       She remembered you from school.               Она вспомнила тебя из школы.
-68  you                       They accused you of lying.                    Они обвинили тебя во лжи.
-69  you                       I need to talk to you.                        Мне нужно поговорить с тобой.
-70  you                       She gave you a gift.                          Она дала тебе подарок.
-71  you                       They sent you a letter.                       Они отправили вам письмо.
-72  you                       Can I show you something?                     Могу показать тебе что-то?
-73  you                       The book belongs to you.                      Эта книга принадлежит вам.
-74  you                       Tell you the truth.                           Скажи тебе правду.
-75  you                       Please help you with the project.             Пожалуйста, помоги тебе с проектом.
-76  you                       They saw you at the party.                    Они видели вас на вечеринке.
-77  you                       She called you last night.                    Она звонила тебе вчера вечером.
-78  you                       He invited you to dinner.                     Он пригласил тебя на ужин.
-79  you                       I trust you.                                  Я доверяю тебе.
-80  you                       They worked with you on the project.          Они работали с тобой над проектом.
-81  you                       She danced with you at the party.             Она танцевала с вами на вечеринке.
-82  you                       The teacher was impressed by you.             Учитель был впечатлён тобой.
-83  you                       He argued with you about politics.            Он спорил с тобой о политике.
-84  you                       They traveled with you last summer.           Они путешествовали с тобой прошлым летом.
-85  you                       They talked about you yesterday.              Они говорили о тебе вчера.
-86  you                       The story is about you.                       История о тебе.
-87  you                       She always thinks about you.                  Она всегда думает о тебе.
-88  you                       Don’t worry about you.                        Не переживай о тебе.
-89  you                       What do you know about yourself?              Что ты знаешь о тебе?
-90  him                       I saw him at the park.                        Я видел его в парке.                               
-91  him                       They accused him of lying.                    Они обвинили его во лжи.                          
-92  him                       She found him sleeping.                       Она нашла его спящим.                            
-93  him                       The teacher praised him for his work.         Учитель похвалил его за работу.                 
-94  him                       I met him yesterday.                          Я встретил его вчера.                          
-95  him                       She gave him a gift.                          Она дала ему подарок.                         
-96  him                       They sent him a letter.                       Они отправили ему письмо.                    
-97  him                       Can you show him the way?                     Можешь показать ему дорогу?                 
-98  him                       The dog belongs to him.                       Собака принадлежит ему.                    
-99  him                       Tell him the truth.                           Скажи ему правду.                         
-100 him                       They invited him to the meeting.              Они пригласили его на встречу.           
-101 him                       She called him yesterday.                     Она звонила ему вчера.                  
-102 him                       The dog followed him home.                    Собака пошла за ним домой.             
-103 him                       Please help him with his project.             Пожалуйста, помогите ему с его проектом.  
-104 him                       I don't trust him.                            Я не доверяю ему.                        
-105 him                       They worked with him on the project.          Они работали с ним над проектом.        
-106 him                       She danced with him at the party.             Она танцевала с ним на вечеринке.      
-107 him                       The teacher was impressed by him.             Учитель был впечатлён им.            
-108 him                       He argued with him about politics.            Он спорил с ним о политике.         
-109 him                       They traveled with him last summer.           Они путешествовали с ним прошлым летом. 
-110 him                       They talked about him yesterday.              Они говорили о нём вчера.         
-111 him                       The story is about him.                       История о нём.                   
-112 him                       She always thinks about him.                  Она всегда думает о нём.        
-113 him                       Don’t worry about him.                        Не переживай о нём.            
-114 him                       What do you know about him?                   Что ты знаешь о нём?          
-115 her                       I saw her at the store.                       Я видел её в магазине.       
-116 her                       They accused her of cheating.                 Они обвинили её в обмане.   
-117 her                       She praised the girl for her efforts.         Она похвалила её за её усилия.               
-118 her                       I met her last night.                         Я встретил её вчера вечером.                
-119 her                       He followed her to the park.                  Он следовал за ней в парк.                 
-120 her                       They gave her a gift.                         Они дали ей подарок.                      
-121 her                       Can you pass her the salt?                    Можешь передать ей соль?                 
-122 her                       The book belongs to her.                      Эта книга принадлежит ей.               
-123 her                       He showed her the way.                        Он показал ей дорогу.                  
-124 her                       Tell her the truth.                           Скажи ей правду.                      
-125 her                       I love her.                                   Я люблю её.                          
-126 her                       He called her last night.                     Он звонил ей вчера вечером.         
-127 her                       Please help the girl with her homework.       Пожалуйста, помоги ей с домашним заданием.     
-128 her                       I don’t trust her.                            Я не доверяю ей.                              
-129 her                       They saw her at the mall.                     Они видели её в торговом центре.             
-130 her                       They worked with her on the project.          Они работали с ней над проектом.            
-131 her                       She danced with her at the party.             Она танцевала с ней на вечеринке.          
-132 her                       The teacher was impressed by her.             Учитель был впечатлён ею.                 
-133 her                       He argued with her about the topic.           Он спорил с ней о теме.                  
-134 her                       They traveled with her last summer.           Они путешествовали с ней прошлым летом. 
-135 her                       They talked about her yesterday.              Они говорили о ней вчера.              
-136 her                       The story is about her.                       История о ней.                        
-137 her                       She always thinks about her.                  Она всегда думает о ней.             
-138 her                       Don’t worry about her.                        Не переживай о ней.                 
-139 her                       What do you know about her?                   Что ты знаешь о ней?               
-140 it                        She saw it on the table.                      Она увидела его на столе.         
-141 it                        I took it from the box.                       Я взял его из коробки.           
-142 it                        They repaired it yesterday.                   Они починили его вчера.         
-143 it                        The teacher noticed it immediately.           Учитель заметил его сразу.     
-144 it                        I remember it very well.                      Я очень хорошо помню его.     
-145 it                        She gave it a name.                           Она дала ему имя.            
-146 it                        They sent it to the laboratory.               Они отправили его в лабораторию. 
-147 it                        He showed it to his friend.                   Он показал его своему другу.    
-148 it                        I offered it to the team.                     Я предложил его команде.       
-149 it                        They assigned it a task.                      Они назначили ему задачу.     
-150 it                        I found it under the bed.                     Я нашёл его под кроватью.    
-151 it                        She moved it to another room.                 Она передвинула его в другую комнату.    
-152 it                        They lost it during the trip.                 Они потеряли его во время поездки.      
-153 it                        Please fix it as soon as possible.            Пожалуйста, почини его как можно скорее. 
-154 it                        He bought it yesterday.                       Он купил его вчера.                     
-155 it                        They worked with it all night.                Они работали с ним всю ночь.           
-156 it                        She cleaned the floor with it.                Она убрала пол с его помощью.         
-157 it                        He impressed everyone with it.                Он впечатлил всех с его помощью.     
-158 it                        They solved the problem with it.              Они решили проблему с его помощью.  
-159 it                        I decorated the room with it.                 Я украсил комнату с его помощью.   
-160 it                        They talked about it yesterday.               Они говорили о нём вчера.         
-161 it                        What do you know about it?                    Что ты знаешь о нём?             
-162 it                        Don’t worry about it.                         Не переживай о нём.             
-163 it                        The story is about it.                        История о нём.                 
-164 it                        She always thinks about it.                   Она всегда думает о нём.      
-165 us                        They saw us at the party.                     Они видели нас на вечеринке. 
-166 us                        She invited us to her house.                  Она пригласила нас к себе домой.  
-167 us                        The teacher praised us for our work.          Учитель похвалил нас за нашу работу. 
-168 us                        He remembered us from school.                 Он вспомнил нас из школы.        
-169 us                        They accused us of cheating.                  Они обвинили нас в обмане.      
-170 us                        She gave us a gift.                           Она дала нам подарок.          
-171 us                        They sent us a letter.                        Они отправили нам письмо.                       
-172 us                        Can you show us the way?                      Можешь показать нам дорогу?                    
-173 us                        The book belongs to us.                       Эта книга принадлежит нам.                    
-174 us                        Tell us the truth.                            Скажи нам правду.                            
-175 us                        They invited us to the party.                 Они пригласили нас на вечеринку.            
-176 us                        Please help us with the project.              Пожалуйста, помогите нам с проектом.       
-177 us                        I saw us in the mirror.                       Я видел нас в зеркале.                    
-178 us                        She called us yesterday.                      Она звонила нам вчера.                   
-179 us                        The dog followed us home.                     Собака пошла за нами домой.             
-180 us                        They worked with us on the project.           Они работали с нами над проектом.      
-181 us                        She danced with us at the party.              Она танцевала с нами на вечеринке.    
-182 us                        The teacher was impressed by us.              Учитель был впечатлён нами.          
-183 us                        He argued with us about politics.             Он спорил с нами о политике.        
-184 us                        They traveled with us last summer.            Они путешествовали с нами прошлым летом.          
-185 us                        They talked about us yesterday.               Они говорили о нас вчера.                        
-186 us                        The story is about us.                        История о нас.                                  
-187 us                        She always thinks about us.                   Она всегда думает о нас.                       
-188 us                        Don’t worry about us.                         Не переживай о нас.                           
-189 us                        What do you know about us?                    Что ты знаешь о нас?                         
-190 them                      I saw them at the park.                       Я видел их в парке.                         
-191 them                      They invited them to the meeting.             Они пригласили их на встречу.              
-192 them                      She remembered them from school.              Она вспомнила их из школы.                
-193 them                      We need to talk to them.                      Нам нужно поговорить с ними.             
-194 them                      They accused them of lying.                   Они обвинили их во лжи.                 
-195 them                      She gave them a gift.                         Она дала им подарок.                   
-196 them                      They sent them a letter.                      Они отправили им письмо.              
-197 them                      Can I show them something?                    Могу показать им что-то?             
-198 them                      The book belongs to them.                     Эта книга принадлежит им.           
-199 them                      Tell them the truth.                          Скажи им правду.                   
-200 them                      I trust them.                                 Я доверяю им.                     
-201 them                      Please help them with the project.            Пожалуйста, помогите им с проектом.  
-202 them                      They saw them at the party.                   Они видели их на вечеринке.         
-203 them                      She called them yesterday.                    Она звонила им вчера.              
-204 them                      He invited them to dinner.                    Он пригласил их на ужин.          
-205 them                      They worked with them on the project.         Они работали с ними над проектом.
-206 them                      She danced with them at the party.            Она танцевала с ними на вечеринке.  
-207 them                      The teacher was impressed by them.            Учитель был впечатлён ими.         
-208 them                      He argued with them about politics.           Он спорил с ними о политике.      
-209 them                      They traveled with them last summer.          Они путешествовали с ними прошлым летом.     
-210 them                      They talked about them yesterday.             Они говорили о них вчера.                   
-211 them                      The story is about them.                      История о них.                             
-212 them                      She always thinks about them.                 Она всегда думает о них.                  
-213 them                      Don’t worry about them.                       Не переживай о них.                      
-214 them                      What do you know about them?                  Что ты знаешь о них?                    
+  id;question;translation
+  80;He saw _(me:s1).;Он видел меня.
+  81;They invited _(me:s1) to the party.;Они пригласили меня на вечеринку.
+  82;She found _(me:s1) in the garden.;Она нашла меня в саду.
+  83;The teacher praised _(me:s1).;Учитель похвалил меня.
+  84;They accused _(me:s1) of cheating.;Они обвинили меня в обмане.
+  85;She gave _(me:s1) a gift.;Она дала мне подарок.
+  86;They sent _(me:s1) a letter.;Они отправили мне письмо.
+  87;Can you pass _(me:s1) the salt?;Можешь передать мне соль?
+  88;The book belongs to _(me:s1).;Эта книга принадлежит мне.
+  89;Tell _(me:s1) the truth.;Скажи мне правду.
+  90;Please help _(me:s1).;Пожалуйста, помоги мне.
+  91;They saw _(me:s1) yesterday.;Они видели меня вчера.
+  92;He invited _(me:s1) to dinner.;Он пригласил меня на ужин.
+  93;She called _(me:s1) last night.;Она звонила мне вчера вечером.
+  94;The dog followed _(me:s1) home.;Собака пошла за мной домой.
+  95;She is happy with _(me:s1).;Она счастлива со мной.
+  96;They worked with _(me:s1) on the project.;Они работали со мной над проектом.
+  97;The teacher was impressed by _(me:s1).;Учитель был впечатлён мной.
+  98;He argued with _(me:s1) about politics.;Он спорил со мной о политике.
+  99;They danced with _(me:s1) at the party.;Они танцевали со мной на вечеринке.
+  100;She always talks about _(me:s1).;Она всегда говорит обо мне.
+  101;What do you think about _(me:s1)?;Что ты думаешь обо мне?
+  102;They wrote a story about _(me:s1).;Они написали историю обо мне.
+  103;The article is about _(me:s1).;Эта статья обо мне.
+  104;Don’t worry about _(me:s1).;Не переживай обо мне.
+  105;I saw _(you:s2).;Я видел тебя вчера.
+  106;They invited _(you:p2) to the meeting.;Они пригласили вас на встречу.
+  107;She remembered _(you:s2) from school.;Она вспомнила тебя из школы.
+  108;They accused _(you:s2) of lying.;Они обвинили тебя во лжи.
+  109;I need to talk to _(you:s2).;Мне нужно поговорить с тобой.
+  110;She gave _(you:s2) a gift.;Она дала тебе подарок.
+  111;They sent _(you:p2) a letter.;Они отправили вам письмо.
+  112;Can I show _(you:s2) something?;Могу показать тебе что-то?
+  113;The book belongs to _(you:p2).;Эта книга принадлежит вам.
+  114;Tell _(you:s2) the truth.;Скажи тебе правду.
+  115;Please help _(you:s2) with the project.;Пожалуйста, помоги тебе с проектом.
+  116;They saw _(you:p2) at the party.;Они видели вас на вечеринке.
+  117;She called _(you:s2) last night.;Она звонила тебе вчера вечером.
+  118;He invited _(you:s2) to dinner.;Он пригласил тебя на ужин.
+  119;I trust _(you:s2).;Я доверяю тебе.
+  120;They worked with _(you:s2) on the project.;Они работали с тобой над проектом.
+  121;She danced with _(you:p2) at the party.;Она танцевала с вами на вечеринке.
+  122;The teacher was impressed by _(you:s2).;Учитель был впечатлён тобой.
+  123;He argued with _(you:s2) about politics.;Он спорил с тобой о политике.
+  124;They traveled with _(you:s2) last summer.;Они путешествовали с тобой прошлым летом.
+  125;They talked about _(you:s2) yesterday.;Они говорили о тебе вчера.
+  126;The story is about _(you:s2).;История о тебе.
+  127;She always thinks about _(you:s2).;Она всегда думает о тебе.
+  128;Don’t worry about _(you:s2).;Не переживай о тебе.
+  129;What do you know about _(yourself:s2)?;Что ты знаешь о себе?
+  130;I saw _(him:s3m).;Я видел его в парке.
+  131;They accused _(him:s3m) of lying.;Они обвинили его во лжи.
+  132;She found _(him:s3m) sleeping.;Она нашла его спящим.
+  133;The teacher praised _(him:s3m) for his work.;Учитель похвалил его за работу.
+  134;I met _(him:s3m) yesterday.;Я встретил его вчера.
+  135;She gave _(him:s3m) a gift.;Она дала ему подарок.
+  136;They sent _(him:s3m) a letter.;Они отправили ему письмо.
+  137;Can you show _(him:s3m) the way?;Можешь показать ему дорогу?
+  138;The dog belongs to _(him:s3m).;Собака принадлежит ему.
+  139;Tell _(him:s3m) the truth.;Скажи ему правду.
+  140;They invited _(him:s3m) to the meeting.;Они пригласили его на встречу.
+  141;She called _(him:s3m) yesterday.;Она звонила ему вчера.
+  142;The dog followed _(him:s3m) home.;Собака пошла за ним домой.
+  143;Please help _(him:s3m) with his project.;Пожалуйста, помогите ему с его проектом.
+  144;I don't trust _(him:s3m).;Я не доверяю ему.
+  145;They worked with _(him:s3m) on the project.;Они работали с ним над проектом.
+  146;She danced with _(him:s3m) at the party.;Она танцевала с ним на вечеринке.
+  147;The teacher was impressed by _(him:s3m).;Учитель был впечатлён им.
+  148;He argued with _(him:s3m) about politics.;Он спорил с ним о политике.
+  149;They traveled with _(him:s3m) last summer.;Они путешествовали с ним прошлым летом.
+  150;They talked about _(him:s3m) yesterday.;Они говорили о нём вчера.
+  151;The story is about _(him:s3m).;История о нём.
+  152;She always thinks about _(him:s3m).;Она всегда думает о нём.
+  153;Don’t worry about _(him:s3m).;Не переживай о нём.
+  154;What do you know about _(him:s3m)?;Что ты знаешь о нём?
+  155;I saw _(her:s3f) at the store.;Я видел её в магазине.
+  156;They accused _(her:s3f) of cheating.;Они обвинили её в обмане.
+  157;She praised the girl for _(her:s3f) efforts.;Она похвалила её за её усилия.
+  158;I met _(her:s3f) last night.;Я встретил её вчера вечером.
+  159;He followed _(her:s3f) to the park.;Он следовал за ней в парк.
+  160;They gave _(her:s3f) a gift.;Они дали ей подарок.
+  161;Can you pass _(her:s3f) the salt?;Можешь передать ей соль?
+  162;The book belongs to _(her:s3f).;Эта книга принадлежит ей.
+  163;He showed _(her:s3f) the way.;Он показал ей дорогу.
+  164;Tell _(her:s3f) the truth.;Скажи ей правду.
+  165;I love _(her:s3f).;Я люблю её.
+  166;He called _(her:s3f) last night.;Он звонил ей вчера вечером.
+  167;Please help _(her:s3f) with her homework.;Пожалуйста, помоги ей с домашним заданием.
+  168;I don’t trust _(her:s3f).;Я не доверяю ей.
+  169;They saw _(her:s3f) at the mall.;Они видели её в торговом центре.
+  170;They worked with _(her:s3f) on the project.;Они работали с ней над проектом.
+  171;She danced with _(her:s3f) at the party.;Она танцевала с ней на вечеринке.
+  172;The teacher was impressed by _(her:s3f).;Учитель был впечатлён ею.
+  173;He argued with _(her:s3f) about the topic.;Он спорил с ней о теме.
+  174;They traveled with _(her:s3f) last summer.;Они путешествовали с ней прошлым летом.
+  175;They talked about _(her:s3f) yesterday.;Они говорили о ней вчера.
+  176;The story is about _(her:s3f).;История о ней.
+  177;She always thinks about _(her:s3f).;Она всегда думает о ней.
+  178;Don’t worry about _(her:s3f).;Не переживай о ней.
+  179;What do you know about _(her:s3f)?;Что ты знаешь о ней?
+  180;She saw _(it:s3n) on the table.;Она увидела его на столе.
+  181;I took _(it:s3n) from the box.;Я взял его из коробки.
+  182;They repaired _(it:s3n) yesterday.;Они починили его вчера.
+  183;The teacher noticed _(it:s3n) immediately.;Учитель заметил его сразу.
+  184;I remember _(it:s3n) very well.;Я очень хорошо помню его.
+  185;She gave _(it:s3n) a name.;Она дала ему имя.
+  186;They sent _(it:s3n) to the laboratory.;Они отправили его в лабораторию.
+  187;He showed _(it:s3n) to his friend.;Он показал его своему другу.
+  188;I offered _(it:s3n) to the team.;Я предложил его команде.
+  189;They assigned _(it:s3n) a task.;Они назначили ему задачу.
+  190;I found _(it:s3n) under the bed.;Я нашёл его под кроватью.
+  191;She moved _(it:s3n) to another room.;Она передвинула его в другую комнату.
+  192;They lost _(it:s3n) during the trip.;Они потеряли его во время поездки.
+  193;Please fix _(it:s3n) as soon as possible.;Пожалуйста, почини его как можно скорее.
+  194;He bought _(it:s3n) yesterday.;Он купил его вчера.
+  195;They worked with _(it:s3n) all night.;Они работали с ним всю ночь.
+  196;She cleaned the floor with _(it:s3n).;Она убрала пол с его помощью.
+  197;He impressed everyone with _(it:s3n).;Он впечатлил всех с его помощью.
+  198;They solved the problem with _(it:s3n).;Они решили проблему с его помощью.
+  199;I decorated the room with _(it:s3n).;Я украсил комнату с его помощью.
+  200;They talked about _(it:s3n) yesterday.;Они говорили о нём вчера.
+  201;What do you know about _(it:s3n)?;Что ты знаешь о нём?
+  202;Don’t worry about _(it:s3n).;Не переживай о нём.
+  203;The story is about _(it:s3n).;История о нём.
+  204;She always thinks about _(it:s3n).;Она всегда думает о нём.
+  205;They saw _(us:p1) at the party.;Они видели нас на вечеринке.
+  206;She invited _(us:p1) to her house.;Она пригласила нас к себе домой.
+  207;The teacher praised _(us:p1) for our work.;Учитель похвалил нас за нашу работу.
+  208;He remembered _(us:p1) from school.;Он вспомнил нас из школы.
+  209;They accused _(us:p1) of cheating.;Они обвинили нас в обмане.
+  210;She gave _(us:p1) a gift.;Она дала нам подарок.
+  211;They sent _(us:p1) a letter.;Они отправили нам письмо.
+  212;Can you show _(us:p1) the way?;Можешь показать нам дорогу?
+  213;The book belongs to _(us:p1).;Эта книга принадлежит нам.
+  214;Tell _(us:p1) the truth.;Скажи нам правду.
+  215;They invited _(us:p1) to the party.;Они пригласили нас на вечеринку.
+  216;Please help _(us:p1) with the project.;Пожалуйста, помогите нам с проектом.
+  217;I saw _(us:p1) in the mirror.;Я видел нас в зеркале.
+  218;She called _(us:p1) yesterday.;Она звонила нам вчера.
+  219;The dog followed _(us:p1) home.;Собака пошла за нами домой.
+  220;They worked with _(us:p1) on the project.;Они работали с нами над проектом.
+  221;She danced with _(us:p1) at the party.;Она танцевала с нами на вечеринке.
+  222;The teacher was impressed by _(us:p1).;Учитель был впечатлён нами.
+  223;He argued with _(us:p1) about politics.;Он спорил с нами о политике.
+  224;They traveled with _(us:p1) last summer.;Они путешествовали с нами прошлым летом.
+  225;They talked about _(us:p1) yesterday.;Они говорили о нас вчера.
+  226;The story is about _(us:p1).;История о нас.
+  227;She always thinks about _(us:p1).;Она всегда думает о нас.
+  228;Don’t worry about _(us:p1).;Не переживай о нас.
+  229;What do you know about _(us:p1)?;Что ты знаешь о нас?
+  230;I saw _(them:p3) at the park.;Я видел их в парке.
+  231;They invited _(them:p3) to the meeting.;Они пригласили их на встречу.
+  232;She remembered _(them:p3) from school.;Она вспомнила их из школы.
+  233;We need to talk to _(them:p3).;Нам нужно поговорить с ними.
+  234;They accused _(them:p3) of lying.;Они обвинили их во лжи.
+  235;She gave _(them:p3) a gift.;Она дала им подарок.
+  236;They sent _(them:p3) a letter.;Они отправили им письмо.
+  237;Can I show _(them:p3) something?;Могу показать им что-то?
+  238;The book belongs to _(them:p3).;Эта книга принадлежит им.
+  239;Tell _(them:p3) the truth.;Скажи им правду.
+  240;I trust _(them:p3).;Я доверяю им.
+  241;Please help _(them:p3) with the project.;Пожалуйста, помогите им с проектом.
+  242;They saw _(them:p3) at the party.;Они видели их на вечеринке.
+  243;She called _(them:p3) yesterday.;Она звонила им вчера.
+  244;He invited _(them:p3) to dinner.;Он пригласил их на ужин.
+  245;They worked with _(them:p3) on the project.;Они работали с ними над проектом.
+  246;She danced with _(them:p3) at the party.;Она танцевала с ними на вечеринке.
+  247;The teacher was impressed by _(them:p3).;Учитель был впечатлён ими.
+  248;He argued with _(them:p3) about politics.;Он спорил с ними о политике.
+  249;They traveled with _(them:p3) last summer.;Они путешествовали с ними прошлым летом.
+  250;They talked about _(them:p3) yesterday.;Они говорили о них вчера.
+  251;The story is about _(them:p3).;История о них.
+  252;She always thinks about _(them:p3).;Она всегда думает о них.
+  253;Don’t worry about _(them:p3).;Не переживай о них.
+  254;What do you know about _(them:p3)?;Что ты знаешь о них?
 
 Possessive Pronouns (Притяжательные местоимения):
-215 mine                 This book is mine.                                 Эта книга моя.                                     
-216 mine                 The choice is mine.                                Выбор за мной.                                     
-217 mine                 That bag is mine.                                  Эта сумка моя.                                     
-218 mine                 This seat is mine.                                 Это место моё.                                     
-219 mine                 The decision was mine.                             Решение было моим.                                 
-220 yours                The tickets are yours.                             Билеты ваши.                                       
-221 yours                This success is yours.                             Этот успех ваш.                                    
-222 yours                The choice is yours.                               Выбор за вами.                                     
-223 yours                The responsibility is yours.                       Ответственность ваша.                              
-224 yours                The decision was yours.                            Решение было вашим.                            
-225 his                  The coat is his.                                   Пальто его.                                        
-226 his                  This bike is his.                                  Этот велосипед его.                                
-227 his                  Is that notebook his?                              Это его тетрадь?                                   
-228 his                  The idea was his.                                  Это была его идея.                                 
-229 his                  The credit goes to him and his work.               Заслуга принадлежит ему и его работе.              
-230 hers                 The house is hers.                                 Дом её.                                            
-231 hers                 This scarf is hers.                                Этот шарф её.                                      
-232 hers                 The victory was hers.                              Победа была её.                                    
-233 hers                 That decision was hers.                            Это решение было её.                               
-234 hers                 The responsibility is hers.                        Ответственность лежит на ней.                      
-235 its                  The decision is its.                               Решение его.                                       
-236 its                  Its name is unique.                                Его название уникально.                            
-237 its                  The color is its.                                  Цвет его.                                          
-238 its                  Its role is important.                             Его роль важна.                                    
-239 its                  The sound is its.                                  Звук его.                                          
-240 ours                 This victory is ours.                              Эта победа наша.                                   
-241 ours                 The house is ours.                                 Дом наш.                                           
-242 ours                 This problem is ours to solve.                     Это наша проблема, которую нужно решить.                   
-243 ours                 That car is ours.                                  Эта машина наша.                                   
-244 ours                 The plan is ours.                                  План наш.                                          
-245 theirs               The car is theirs.                                 Машина их.                                         
-246 theirs               The books are theirs.                              Книги их.                                          
-247 theirs               This problem is theirs to handle.                  Эта проблема на них.                               
-248 theirs               The success was theirs.                            Успех был их.                                  
-249 theirs               The blame is theirs.                               Вина их.                                           
+  id;question;translation
+  250;This pen is _(mine:s1).;Эта ручка моя.
+  251;The last word is _(mine:s1).;Последнее слово за мной.
+  252;The apartment is _(mine:s1).;Квартира моя.
+  253;This responsibility is _(mine:s1).;Эта ответственность моя.
+  254;That chair is _(mine:s1).;Тот стул мой.
+  255;This house is _(yours:s2).;Этот дом твой.
+  256;The final choice is _(yours:s2).;Окончательный выбор за тобой.
+  257;Is this laptop _(yours:s2)?;Этот ноутбук твой?
+  258;That opportunity was _(yours:s2).;Эта возможность была твоей.
+  259;This task is _(yours:s2).;Эта задача твоя.
+  260;The mistake was _(his:s3m).;Ошибка была его.
+  261;This project is _(his:s3m).;Этот проект его.
+  262;The responsibility was _(his:s3m).;Ответственность была его.
+  263;The decision is _(his:s3m).;Решение его.
+  264;That achievement was _(his:s3m).;Это достижение было его.
+  265;The suitcase is _(hers:s3f).;Чемодан её.
+  266;The credit is _(hers:s3f).;Заслуга её.
+  267;Is that phone _(hers:s3f)?;Этот телефон её?
+  268;The complaint was _(hers:s3f).;Жалоба была её.
+  269;That painting is _(hers:s3f).;Та картина её.
+  270;The influence is _(its:s3n).;Влияние его.
+  271;This power is _(its:s3n).;Эта сила его.
+  272;The charm is _(its:s3n).;Очарование его.
+  273;The meaning is _(its:s3n).;Значение его.
+  274;The territory is _(its:s3n).;Территория его.
+  275;The dream is _(ours:p1).;Мечта наша.
+  276;This future is _(ours:p1).;Это будущее наше.
+  277;The burden is _(ours:p1).;Бремя наше.
+  278;The idea was _(ours:p1).;Идея была нашей.
+  279;The happiness is _(ours:p1).;Счастье наше.
+  280;The land is _(theirs:p3).;Земля их.
+  281;The duty is _(theirs:p3).;Обязанность их.
+  282;That reward was _(theirs:p3).;Эта награда была их.
+  283;The authority is _(theirs:p3).;Власть их.
+  284;The responsibility is _(theirs:p3).;Ответственность их.
 
 Possessive Adjectives (Притяжательные прилагательные):
-250  my                   My book is on the table.                           , Моя книга на столе.                                 , 0
-251  my                   My car is very old.                                , Моя машина очень старая.                            , 0
-252  my                   My house is near the park.                         , Мой дом рядом с парком.                             , 0
-253  my                   My friend is waiting for me.                       , Мой друг ждёт меня.                                 , 0
-254  my                   My phone is charging.                              , Мой телефон заряжается.                             , 0
-255  your                 Your efforts matter.                               , Ваши усилия важны.                                  , 0
-256  your                 Your house is beautiful.                           , Ваш дом красивый.                                   , 0
-257  your                 Where is your car?                                 , Где ваша машина?                                    , 0
-258  your                 Your kids are very polite.                         , Ваши дети очень вежливы.                            , 0
-259  your                 I like your idea.                                  , Мне нравится ваша идея.                             , 0
-260  his                  His dog is friendly.                               , Его собака дружелюбная.                             , 0
-261  his                  His house is very big.                             , Его дом очень большой.                              , 0
-262  his                  I like his car.                                    , Мне нравится его машина.                            , 0
-263  his                  His work is inspiring.                             , Его работа вдохновляющая.                           , 0
-264  his                  Where is his book?                                 , Где его книга?                                      , 0
-265  her                  Her ideas are brilliant.                           , Её идеи блестящие.                                  , 0
-266  her                  Her voice is beautiful.                            , Её голос прекрасен.                                 , 0
-267  her                  Her house is near the school.                      , Её дом рядом со школой.                             , 0
-268  her                  I like her style.                                  , Мне нравится её стиль.                              , 0
-269  her                  This is her favorite color.                        , Это её любимый цвет.                                , 0
-270  its                  Its color is vibrant.                              , Его цвет яркий.                                     , 0
-271  its                  Its size is perfect.                               , Его размер идеален.                                 , 0
-272  its                  I like its design.                                 , Мне нравится его дизайн.                            , 0
-273  its                  Its role is important.                             , Его роль важна.                                     , 0
-274  its                  Its sound is unique.                               , Его звук уникален.                                  , 0
-275  our                  Our team is strong.                                , Наша команда сильная.                               , 0
-276  our                  Our house is on the corner.                        , Наш дом на углу.                                    , 0
-277  our                  Our car is parked outside.                         , Наша машина припаркована снаружи.                   , 0
-278  our                  Our work is almost done.                           , Наша работа почти завершена.                        , 0
-279  our                  Our friends are coming over.                       , Наши друзья идут к нам.                             , 0
-280  their                Their house is beautiful.                          , Их дом красивый.                                    , 0
-281  their                Their dog is very playful.                         , Их собака очень игривая.                            , 0
-282  their                Their car is new.                                  , Их машина новая.                                    , 0
-283  their                Their kids are at school.                          , Их дети в школе.                                    , 0
-284  their                I like their work.                                 , Мне нравится их работа.                             , 0
-285 , Demonstrative Pronouns  / Указательные местоимения      , this                 , this                ,                                    , /ðɪs/                  , это(demonstrative)           , это                    , demonstrative                , singular        ,                     , This is my house.                                  , Это мой дом.                                        , 0
-286 , Demonstrative Pronouns  / Указательные местоимения      , this                 , this                ,                                    , /ðɪs/                  , это(demonstrative)           , это                    , demonstrative                , singular        ,                     , This is a great idea.                              , Это отличная идея.                                  , 0
-287 , Demonstrative Pronouns  / Указательные местоимения      , this                 , this                ,                                    , /ðɪs/                  , это(demonstrative)           , это                    , demonstrative                , singular        ,                     , I like this dress.                                 , Мне нравится это платье.                            , 0
-288 , Demonstrative Pronouns  / Указательные местоимения      , this                 , this                ,                                    , /ðɪs/                  , это(demonstrative)           , это                    , demonstrative                , singular        ,                     , This is for you.                                   , Это для тебя.                                       , 0
-289 , Demonstrative Pronouns  / Указательные местоимения      , this                 , this                ,                                    , /ðɪs/                  , это(demonstrative)           , это                    , demonstrative                , singular        ,                     , Do you see this?                                   , Ты видишь это?                                      , 0
-290 , Demonstrative Pronouns  / Указательные местоимения      , that(demonstrative)  , that                , demonstrative                      , /ðæt/                  , то                           , то                     ,                              , singular        ,                     , That is a beautiful painting.                      , То красивая картина.                                , 0
-291 , Demonstrative Pronouns  / Указательные местоимения      , that(demonstrative)  , that                , demonstrative                      , /ðæt/                  , то                           , то                     ,                              , singular        ,                     , I don’t understand that.                           , Я не понимаю это.                                   , 0
-292 , Demonstrative Pronouns  / Указательные местоимения      , that(demonstrative)  , that                , demonstrative                      , /ðæt/                  , то                           , то                     ,                              , singular        ,                     , That is not mine.                                  , То не моё.                                          , 0
-293 , Demonstrative Pronouns  / Указательные местоимения      , that(demonstrative)  , that                , demonstrative                      , /ðæt/                  , то                           , то                     ,                              , singular        ,                     , Look at that building.                             , Посмотри на то здание.                              , 0
-294 , Demonstrative Pronouns  / Указательные местоимения      , that(demonstrative)  , that                , demonstrative                      , /ðæt/                  , то                           , то                     ,                              , singular        ,                     , That was an amazing performance.                   , То было удивительное представление.                 , 0
-295 , Demonstrative Pronouns  / Указательные местоимения      , these                , these               ,                                    , /ðiːz/                 , эти                          , эти                    ,                              , plural          ,                     , These are my friends.                              , Это мои друзья.                                     , 0
-296 , Demonstrative Pronouns  / Указательные местоимения      , these                , these               ,                                    , /ðiːz/                 , эти                          , эти                    ,                              , plural          ,                     , I like these shoes.                                , Мне нравятся эти туфли.                             , 0
-297 , Demonstrative Pronouns  / Указательные местоимения      , these                , these               ,                                    , /ðiːz/                 , эти                          , эти                    ,                              , plural          ,                     , These are your keys.                               , Это твои ключи.                                     , 0
-298 , Demonstrative Pronouns  / Указательные местоимения      , these                , these               ,                                    , /ðiːz/                 , эти                          , эти                    ,                              , plural          ,                     , Are these yours?                                   , Это твои?                                           , 0
-299 , Demonstrative Pronouns  / Указательные местоимения      , these                , these               ,                                    , /ðiːz/                 , эти                          , эти                    ,                              , plural          ,                     , These books are interesting.                       , Эти книги интересные.                               , 0
-300 , Demonstrative Pronouns  / Указательные местоимения      , those                , those               ,                                    , /ðoʊz/                 , те                           , те                     ,                              , plural          ,                     , Those are expensive shoes.                         , Те туфли дорогие.                                   , 0
-301 , Demonstrative Pronouns  / Указательные местоимения      , those                , those               ,                                    , /ðoʊz/                 , те                           , те                     ,                              , plural          ,                     , I want to buy those apples.                        , Я хочу купить те яблоки.                            , 0
-302 , Demonstrative Pronouns  / Указательные местоимения      , those                , those               ,                                    , /ðoʊz/                 , те                           , те                     ,                              , plural          ,                     , Those were the best days of my life.               , Это были лучшие дни моей жизни.                     , 0
-303 , Demonstrative Pronouns  / Указательные местоимения      , those                , those               ,                                    , /ðoʊz/                 , те                           , те                     ,                              , plural          ,                     , Who owns those cars?                               , Кому принадлежат те машины?                         , 0
-304 , Demonstrative Pronouns  / Указательные местоимения      , those                , those               ,                                    , /ðoʊz/                 , те                           , те                     ,                              , plural          ,                     , Those people are very kind.                        , Те люди очень добрые.                               , 0
-305 , Interrogative Pronouns  / Вопросительные местоимения    , who(interrogative)   , who                 , interrogative                      , /huː/                  , кто(interrogative)           , кто                    , interrogative                ,                 ,                     , Who is there?                                      , Кто там?                                            , 0
-306 , Interrogative Pronouns  / Вопросительные местоимения    , who(interrogative)   , who                 , interrogative                      , /huː/                  , кто(interrogative)           , кто                    , interrogative                ,                 ,                     , Who are you talking to?                            , С кем ты разговариваешь?                            , 0
-307 , Interrogative Pronouns  / Вопросительные местоимения    , who(interrogative)   , who                 , interrogative                      , /huː/                  , кто(interrogative)           , кто                    , interrogative                ,                 ,                     , Who will help us?                                  , Кто нам поможет?                                    , 0
-308 , Interrogative Pronouns  / Вопросительные местоимения    , who(interrogative)   , who                 , interrogative                      , /huː/                  , кто(interrogative)           , кто                    , interrogative                ,                 ,                     , Who wrote this book?                               , Кто написал эту книгу?                              , 0
-309 , Interrogative Pronouns  / Вопросительные местоимения    , who(interrogative)   , who                 , interrogative                      , /huː/                  , кто(interrogative)           , кто                    , interrogative                ,                 ,                     , Who knows the answer?                              , Кто знает ответ?                                    , 0
-310 , Interrogative Pronouns  / Вопросительные местоимения    , whom(interrogative)  , whom                , interrogative                      , /huːm/                 , "кого(interrogative)/кому(interrogative)"   , "interrogative)/кому(interrogative" ,                                                    ,                                                     , Whom did you see?                             , Кого ты видел?                                       , 0
-311 , Interrogative Pronouns  / Вопросительные местоимения    , whom(interrogative)  , whom                , interrogative                      , /huːm/                 , "кого(interrogative)/кому(interrogative)"   , "interrogative)/кому(interrogative" ,                                                    ,                                                     , Whom should I ask about this?                 , Кого мне спросить об этом?                           , 0
-312 , Interrogative Pronouns  / Вопросительные местоимения    , whom(interrogative)  , whom                , interrogative                      , /huːm/                 , "кого(interrogative)/кому(interrogative)"   , "interrogative)/кому(interrogative" ,                                                    ,                                                     , Whom are you talking about?                   , О ком ты говоришь?                                   , 0
-313 , Interrogative Pronouns  / Вопросительные местоимения    , whom(interrogative)  , whom                , interrogative                      , /huːm/                 , "кого(interrogative)/кому(interrogative)"   , "interrogative)/кому(interrogative" ,                                                    ,                                                     , To whom did you send the letter?              , Кому ты отправил письмо?                             , 0
-314 , Interrogative Pronouns  / Вопросительные местоимения    , whom(interrogative)  , whom                , interrogative                      , /huːm/                 , "кого(interrogative)/кому(interrogative)"   , "interrogative)/кому(interrogative" ,                                                    ,                                                     , Whom do you trust the most?                   , Кому ты доверяешь больше всего?                      , 0
-315 , Interrogative Pronouns  / Вопросительные местоимения    , whose(interrogative) , whose               , interrogative                      , /huːz/                 , чей(interrogative)           , чей                    , interrogative                ,                 ,                     , Whose book is this?                                , Чья это книга?                                      , 0
-316 , Interrogative Pronouns  / Вопросительные местоимения    , whose(interrogative) , whose               , interrogative                      , /huːz/                 , чей(interrogative)           , чей                    , interrogative                ,                 ,                     , Whose bag is on the chair?                         , Чья сумка на стуле?                                 , 0
-317 , Interrogative Pronouns  / Вопросительные местоимения    , whose(interrogative) , whose               , interrogative                      , /huːz/                 , чей(interrogative)           , чей                    , interrogative                ,                 ,                     , Whose idea was it?                                 , Чья это была идея?                                  , 0
-318 , Interrogative Pronouns  / Вопросительные местоимения    , whose(interrogative) , whose               , interrogative                      , /huːz/                 , чей(interrogative)           , чей                    , interrogative                ,                 ,                     , Whose car is parked outside?                       , Чья машина припаркована снаружи?                    , 0
-319 , Interrogative Pronouns  / Вопросительные местоимения    , whose(interrogative) , whose               , interrogative                      , /huːz/                 , чей(interrogative)           , чей                    , interrogative                ,                 ,                     , Whose turn is it?                                  , Чья очередь?                                        , 0
-320 , Interrogative Pronouns  / Вопросительные местоимения    , which(interrogative) , which               , interrogative                      , /wɪtʃ/                 , который(interrogative)       , который                , interrogative                ,                 ,                     , Which one do you prefer?                           , Который из них ты предпочитаешь?                    , 0
-321 , Interrogative Pronouns  / Вопросительные местоимения    , which(interrogative) , which               , interrogative                      , /wɪtʃ/                 , который(interrogative)       , который                , interrogative                ,                 ,                     , Which color do you like more?                      , Какой цвет тебе нравится больше?                    , 0
-322 , Interrogative Pronouns  / Вопросительные местоимения    , which(interrogative) , which               , interrogative                      , /wɪtʃ/                 , который(interrogative)       , который                , interrogative                ,                 ,                     , Which book should I read first?                    , Какую книгу мне прочитать первой?                   , 0
-323 , Interrogative Pronouns  / Вопросительные местоимения    , which(interrogative) , which               , interrogative                      , /wɪtʃ/                 , который(interrogative)       , который                , interrogative                ,                 ,                     , Which way is faster?                               , Какой путь быстрее?                                 , 0
-324 , Interrogative Pronouns  / Вопросительные местоимения    , which(interrogative) , which               , interrogative                      , /wɪtʃ/                 , который(interrogative)       , который                , interrogative                ,                 ,                     , Which team won the match?                          , Какая команда выиграла матч?                        , 0
-325 , Interrogative Pronouns  / Вопросительные местоимения    , what                 , what                ,                                    , /wɒt/                  , что                          , что                    ,                              ,                 ,                     , What is your name?                                 , Как тебя зовут?                                     , 0
-326 , Interrogative Pronouns  / Вопросительные местоимения    , what                 , what                ,                                    , /wɒt/                  , что                          , что                    ,                              ,                 ,                     , What are you doing?                                , Что ты делаешь?                                     , 0
-327 , Interrogative Pronouns  / Вопросительные местоимения    , what                 , what                ,                                    , /wɒt/                  , что                          , что                    ,                              ,                 ,                     , What is this for?                                  , Для чего это?                                       , 0
-328 , Interrogative Pronouns  / Вопросительные местоимения    , what                 , what                ,                                    , /wɒt/                  , что                          , что                    ,                              ,                 ,                     , What happened here?                                , Что здесь случилось?                                , 0
-329 , Interrogative Pronouns  / Вопросительные местоимения    , what                 , what                ,                                    , /wɒt/                  , что                          , что                    ,                              ,                 ,                     , What do you want to eat?                           , Что ты хочешь съесть?                               , 0
-330 , Relative Pronouns       / Относительные местоимения     , who(relative)        , who                 , relative                           , /huː/                  , кто(relative)                , кто                    , relative                     ,                 ,                     , This is the man who helped us.                     , "Это человек, который помог нам."                           , 0
-331 , Relative Pronouns       / Относительные местоимения     , who(relative)        , who                 , relative                           , /huː/                  , кто(relative)                , кто                    , relative                     ,                 ,                     , She knows the teacher who gave the lecture.        , "Она знает преподавателя, который читал лекцию."                        , 0
-332 , Relative Pronouns       / Относительные местоимения     , who(relative)        , who                 , relative                           , /huː/                  , кто(relative)                , кто                    , relative                     ,                 ,                     , I met the person who wrote this book.              , "Я встретил человека, который написал эту книгу."                   , 0
-333 , Relative Pronouns       / Относительные местоимения     , who(relative)        , who                 , relative                           , /huː/                  , кто(relative)                , кто                    , relative                     ,                 ,                     , The girl who lives next door is very kind.         , "Девочка, которая живёт по соседству, очень добрая."                                       , 0
-334 , Relative Pronouns       / Относительные местоимения     , who(relative)        , who                 , relative                           , /huː/                  , кто(relative)                , кто                    , relative                     ,                 ,                     , The boy who broke the window apologized.           , "Мальчик, который разбил окно, извинился."                                          , 0
-335 , Relative Pronouns       / Относительные местоимения     , whom(relative)       , whom                , relative                           , /huːm/                 , "кого(relative)              , кому(relative)"        , кого                         , "relative)      , кому(relative"      ,                                                    ,                                                     , The person whom I saw was kind.               , "Человек                                             , которого я видел                     , был добр."                                , 0
-336 , Relative Pronouns       / Относительные местоимения     , whom(relative)       , whom                , relative                           , /huːm/                 , "кого(relative)              , кому(relative)"        , кого                         , "relative)      , кому(relative"      ,                                                    ,                                                     , The friend to whom I gave the book liked it.  , "Друг                                                , которому я дал книгу                 , понравилась."                             , 0
-337 , Relative Pronouns       / Относительные местоимения     , whom(relative)       , whom                , relative                           , /huːm/                 , "кого(relative)              , кому(relative)"        , кого                         , "relative)      , кому(relative"      ,                                                    ,                                                     , She is the one whom we trust the most.        , "Она та                                              , кому мы доверяем больше всего."      , 0
-338 , Relative Pronouns       / Относительные местоимения     , whom(relative)       , whom                , relative                           , /huːm/                 , "кого(relative)              , кому(relative)"        , кого                         , "relative)      , кому(relative"      ,                                                    ,                                                     , The man whom you called is busy now.          , "Мужчина                                             , которому ты звонил                   , сейчас занят."                            , 0
-339 , Relative Pronouns       / Относительные местоимения     , whom(relative)       , whom                , relative                           , /huːm/                 , "кого(relative)              , кому(relative)"        , кого                         , "relative)      , кому(relative"      ,                                                    ,                                                     , The woman whom they invited didn't come.      , "Женщина                                             , которую они пригласили               , не пришла."                               , 0
-340 , Relative Pronouns       / Относительные местоимения     , whose(relative)      , whose               , relative                           , /huːz/                 , чей(relative)                , чей                    , relative                     ,                 ,                     , The car whose owner is unknown was towed.          , "Машина, чей владелец неизвестен                       , была эвакуирована."                                  , 0
-341 , Relative Pronouns       / Относительные местоимения     , whose(relative)      , whose               , relative                           , /huːz/                 , чей(relative)                , чей                    , relative                     ,                 ,                     , I found the dog whose collar was lost.             , "Я нашёл собаку, чей ошейник был потерян."                     , 0
-342 , Relative Pronouns       / Относительные местоимения     , whose(relative)      , whose               , relative                           , /huːz/                 , чей(relative)                , чей                    , relative                     ,                 ,                     , The artist whose work we admire is here.           , "Художник, чьей работой мы восхищаемся                   , здесь."                                              , 0
-343 , Relative Pronouns       / Относительные местоимения     , whose(relative)      , whose               , relative                           , /huːz/                 , чей(relative)                , чей                    , relative                     ,                 ,                     , She knows the student whose homework was late.     , "Она знает студента, чья домашняя работа была сдана с опозданием." , 0
-344 , Relative Pronouns       / Относительные местоимения     , whose(relative)      , whose               , relative                           , /huːz/                 , чей(relative)                , чей                    , relative                     ,                 ,                     , This is the house whose roof was repaired.         , "Это дом, чья крыша была отремонтирована."              , 0
-345 , Relative Pronouns       / Относительные местоимения     , which(relative)      , which               , relative                           , /wɪtʃ/                 , который(relative)            , который                , relative                     ,                 ,                     , The book which I read was fascinating.             , "Книга, которую я прочитал                            , была увлекательной."                                 , 0
-346 , Relative Pronouns       / Относительные местоимения     , which(relative)      , which               , relative                           , /wɪtʃ/                 , который(relative)            , который                , relative                     ,                 ,                     , The car which he bought is very fast.              , "Машина, которую он купил                              , очень быстрая."                                      , 0
-347 , Relative Pronouns       / Относительные местоимения     , which(relative)      , which               , relative                           , /wɪtʃ/                 , который(relative)            , который                , relative                     ,                 ,                     , The movie which we watched was amazing.            , "Фильм, который мы посмотрели                         , был потрясающим."                                    , 0
-348 , Relative Pronouns       / Относительные местоимения     , which(relative)      , which               , relative                           , /wɪtʃ/                 , который(relative)            , который                , relative                     ,                 ,                     , The room which she cleaned looks great.            , "Комната, которую она убрала                            , выглядит отлично."                                   , 0
-349 , Relative Pronouns       / Относительные местоимения     , which(relative)      , which               , relative                           , /wɪtʃ/                 , который(relative)            , который                , relative                     ,                 ,                     , The idea which they proposed was brilliant.        , "Идея, которую они предложили                        , была блестящей."                                     , 0
-350 , Relative Pronouns       / Относительные местоимения     , that(relative)       , that                , relative                           , /ðæt/                  , что(relative)                , что                    , relative                     ,                 ,                     , This is the house that Jack built.                 , "Это дом, который построил Джек."                       , 0
-351 , Relative Pronouns       / Относительные местоимения     , that(relative)       , that                , relative                           , /ðæt/                  , что(relative)                , что                    , relative                     ,                 ,                     , The bag that she bought is expensive.              , "Сумка, которую она купила                            , дорогая."                                            , 0
-352 , Relative Pronouns       / Относительные местоимения     , that(relative)       , that                , relative                           , /ðæt/                  , что(relative)                , что                    , relative                     ,                 ,                     , The train that we took was late.                   , "Поезд, на который мы сели                            , опоздал."                                            , 0
-353 , Relative Pronouns       / Относительные местоимения     , that(relative)       , that                , relative                           , /ðæt/                  , что(relative)                , что                    , relative                     ,                 ,                     , The phone that he lost was found.                  , "Телефон, который он потерял                            , был найден."                                         , 0
-354 , Relative Pronouns       / Относительные местоимения     , that(relative)       , that                , relative                           , /ðæt/                  , что(relative)                , что                    , relative                     ,                 ,                     , The story that she told was interesting.           , "История, которую она рассказала                        , была интересной."                                    , 0
-355 , Indefinite Pronouns     / Неопределённые местоимения    , some                 , some                ,                                    , /sʌm/                  , "несколько(indefinite)       , немного(indefinite)"   , несколько                    , "indefinite)    , немного(indefinite" ,                                                    ,                                                     , I need some water.                            , Мне нужно немного воды.                              , 0
-356 , Indefinite Pronouns     / Неопределённые местоимения    , some                 , some                ,                                    , /sʌm/                  , "несколько(indefinite)       , немного(indefinite)"   , несколько                    , "indefinite)    , немного(indefinite" ,                                                    ,                                                     , Some people enjoy reading.                    , Некоторым людям нравится читать.                     , 0
-357 , Indefinite Pronouns     / Неопределённые местоимения    , some                 , some                ,                                    , /sʌm/                  , "несколько(indefinite)       , немного(indefinite)"   , несколько                    , "indefinite)    , немного(indefinite" ,                                                    ,                                                     , Could you lend me some money?                 , Можешь одолжить мне немного денег?                   , 0
-358 , Indefinite Pronouns     / Неопределённые местоимения    , some                 , some                ,                                    , /sʌm/                  , "несколько(indefinite)       , немного(indefinite)"   , несколько                    , "indefinite)    , немного(indefinite" ,                                                    ,                                                     , She brought some flowers.                     , Она принесла немного цветов.                         , 0
-359 , Indefinite Pronouns     / Неопределённые местоимения    , some                 , some                ,                                    , /sʌm/                  , "несколько(indefinite)       , немного(indefinite)"   , несколько                    , "indefinite)    , немного(indefinite" ,                                                    ,                                                     , We have some news to share.                   , "У нас есть новости                                  , которыми мы хотим поделиться."       , 0
-360 , Indefinite Pronouns     / Неопределённые местоимения    , any                  , any                 ,                                    , /ˈɛni/                 , "любой                       , какой-нибудь"          , "любой                       , какой-нибудь"   ,                     ,                                                    ,                                                     , Do you have any questions?                    , У вас есть какие-нибудь вопросы?                     , 0
-361 , Indefinite Pronouns     / Неопределённые местоимения    , any                  , any                 ,                                    , /ˈɛni/                 , "любой                       , какой-нибудь"          , "любой                       , какой-нибудь"   ,                     ,                                                    ,                                                     , You can choose any book you like.             , "Ты можешь выбрать любую книгу                       , которая тебе нравится."              , 0
-362 , Indefinite Pronouns     / Неопределённые местоимения    , any                  , any                 ,                                    , /ˈɛni/                 , "любой                       , какой-нибудь"          , "любой                       , какой-нибудь"   ,                     ,                                                    ,                                                     , Is there any food left?                       , Осталась ли какая-нибудь еда?                        , 0
-363 , Indefinite Pronouns     / Неопределённые местоимения    , any                  , any                 ,                                    , /ˈɛni/                 , "любой                       , какой-нибудь"          , "любой                       , какой-нибудь"   ,                     ,                                                    ,                                                     , I didn’t see any difference.                  , Я не заметил никакой разницы.                        , 0
-364 , Indefinite Pronouns     / Неопределённые местоимения    , any                  , any                 ,                                    , /ˈɛni/                 , "любой                       , какой-нибудь"          , "любой                       , какой-нибудь"   ,                     ,                                                    ,                                                     , Do you know any good restaurants nearby?      , Ты знаешь какие-нибудь хорошие рестораны поблизости? , 0
-365 , Indefinite Pronouns     / Неопределённые местоимения    , none(indefinite)     , none                , indefinite                         , /nʌn/                  , "никто(indefinite/for-group) , никакой"               , "никто(indefinite/for-group) , никакой"        ,                     ,                                                    ,                                                     , None of them came.                            , Никто из них не пришёл.                              , 0
-366 , Indefinite Pronouns     / Неопределённые местоимения    , none(indefinite)     , none                , indefinite                         , /nʌn/                  , "никто(indefinite/for-group) , никакой"               , "никто(indefinite/for-group) , никакой"        ,                     ,                                                    ,                                                     , None of the answers were correct.             , Ни один из ответов не был правильным.                , 0
-367 , Indefinite Pronouns     / Неопределённые местоимения    , none(indefinite)     , none                , indefinite                         , /nʌn/                  , "никто(indefinite/for-group) , никакой"               , "никто(indefinite/for-group) , никакой"        ,                     ,                                                    ,                                                     , None of the students passed the test.         , Ни один из студентов не сдал тест.                   , 0
-368 , Indefinite Pronouns     / Неопределённые местоимения    , none(indefinite)     , none                , indefinite                         , /nʌn/                  , "никто(indefinite/for-group) , никакой"               , "никто(indefinite/for-group) , никакой"        ,                     ,                                                    ,                                                     , There’s none left in the fridge.              , В холодильнике ничего не осталось.                   , 0
-369 , Indefinite Pronouns     / Неопределённые местоимения    , none(indefinite)     , none                , indefinite                         , /nʌn/                  , "никто(indefinite/for-group) , никакой"               , "никто(indefinite/for-group) , никакой"        ,                     ,                                                    ,                                                     , None of us knew about it.                     , Никто из нас не знал об этом.                        , 0
-370 , Indefinite Pronouns     / Неопределённые местоимения    , all(indefinite)      , all                 , indefinite                         , /ɔːl/                  , "все(indefinite)             , всё(indefinite)"       , все                          , "indefinite)    , всё(indefinite"     ,                                                    ,                                                     , All is well.                                  , Всё хорошо.                                          , 0
-371 , Indefinite Pronouns     / Неопределённые местоимения    , all(indefinite)      , all                 , indefinite                         , /ɔːl/                  , "все(indefinite)             , всё(indefinite)"       , все                          , "indefinite)    , всё(indefinite"     ,                                                    ,                                                     , All the students passed the exam.             , Все студенты сдали экзамен.                          , 0
-372 , Indefinite Pronouns     / Неопределённые местоимения    , all(indefinite)      , all                 , indefinite                         , /ɔːl/                  , "все(indefinite)             , всё(indefinite)"       , все                          , "indefinite)    , всё(indefinite"     ,                                                    ,                                                     , She gave all her time to the project.         , Она отдала всё своё время проекту.                   , 0
-373 , Indefinite Pronouns     / Неопределённые местоимения    , all(indefinite)      , all                 , indefinite                         , /ɔːl/                  , "все(indefinite)             , всё(indefinite)"       , все                          , "indefinite)    , всё(indefinite"     ,                                                    ,                                                     , All of us were excited.                       , Все мы были взволнованы.                             , 0
-374 , Indefinite Pronouns     / Неопределённые местоимения    , all(indefinite)      , all                 , indefinite                         , /ɔːl/                  , "все(indefinite)             , всё(indefinite)"       , все                          , "indefinite)    , всё(indefinite"     ,                                                    ,                                                     , All the cookies are gone.                     , Все печенья закончились.                             , 0
-375 , Indefinite Pronouns     / Неопределённые местоимения    , one                  , one                 ,                                    , /wʌn/                  , "один                        , кто-то(formal/устар.)" , "один                        , кто-то"         , formal/устар.       ,                                                    ,                                                     , One should always be polite.                  , Всегда нужно быть вежливым.                          , 0
-376 , Indefinite Pronouns     / Неопределённые местоимения    , one                  , one                 ,                                    , /wʌn/                  , "один                        , кто-то(formal/устар.)" , "один                        , кто-то"         , formal/устар.       ,                                                    ,                                                     , One of the students is absent.                , Один из студентов отсутствует.                       , 0
-377 , Indefinite Pronouns     / Неопределённые местоимения    , one                  , one                 ,                                    , /wʌn/                  , "один                        , кто-то(formal/устар.)" , "один                        , кто-то"         , formal/устар.       ,                                                    ,                                                     , Do you want one or two cups of coffee?        , Ты хочешь одну или две чашки кофе?                   , 0
-378 , Indefinite Pronouns     / Неопределённые местоимения    , one                  , one                 ,                                    , /wʌn/                  , "один                        , кто-то(formal/устар.)" , "один                        , кто-то"         , formal/устар.       ,                                                    ,                                                     , One must respect others.                      , Нужно уважать других.                                , 0
-379 , Indefinite Pronouns     / Неопределённые местоимения    , one                  , one                 ,                                    , /wʌn/                  , "один                        , кто-то(formal/устар.)" , "один                        , кто-то"         , formal/устар.       ,                                                    ,                                                     , She bought one for herself.                   , Она купила один для себя.                            , 0
-380 , Indefinite Pronouns     / Неопределённые местоимения    , someone              , someone             ,                                    , /ˈsʌmwʌn/              , кто-то(formal)               , кто-то                 , formal                       ,                 ,                     , Someone is at the door.                            , Кто-то у двери.                                     , 0
-381 , Indefinite Pronouns     / Неопределённые местоимения    , someone              , someone             ,                                    , /ˈsʌmwʌn/              , кто-то(formal)               , кто-то                 , formal                       ,                 ,                     , Someone left their phone here.                     , Кто-то оставил здесь свой телефон.                  , 0
-382 , Indefinite Pronouns     / Неопределённые местоимения    , someone              , someone             ,                                    , /ˈsʌmwʌn/              , кто-то(formal)               , кто-то                 , formal                       ,                 ,                     , She met someone new yesterday.                     , Она встретила кого-то нового вчера.                 , 0
-383 , Indefinite Pronouns     / Неопределённые местоимения    , someone              , someone             ,                                    , /ˈsʌmwʌn/              , кто-то(formal)               , кто-то                 , formal                       ,                 ,                     , Someone should take responsibility.                , Кто-то должен взять на себя ответственность.        , 0
-384 , Indefinite Pronouns     / Неопределённые местоимения    , someone              , someone             ,                                    , /ˈsʌmwʌn/              , кто-то(formal)               , кто-то                 , formal                       ,                 ,                     , Is someone coming to help us?                      , "Кто-то придёт                                      , чтобы помочь нам?"                            , 0
-385 , Indefinite Pronouns     / Неопределённые местоимения    , anyone               , anyone              ,                                    , /ˈɛniwʌn/              , кто угодно(formal)           , кто угодно             , formal                       ,                 ,                     , Is there anyone who can help?                      , "Есть кто-нибудь                                    , кто может помочь?"                            , 0
-386 , Indefinite Pronouns     / Неопределённые местоимения    , anyone               , anyone              ,                                    , /ˈɛniwʌn/              , кто угодно(formal)           , кто угодно             , formal                       ,                 ,                     , Anyone can join the club.                          , Любой может вступить в клуб.                        , 0
-387 , Indefinite Pronouns     / Неопределённые местоимения    , anyone               , anyone              ,                                    , /ˈɛniwʌn/              , кто угодно(formal)           , кто угодно             , formal                       ,                 ,                     , Did anyone call while I was out?                   , "Кто-нибудь звонил                                  , пока меня не было?"                           , 0
-388 , Indefinite Pronouns     / Неопределённые местоимения    , anyone               , anyone              ,                                    , /ˈɛniwʌn/              , кто угодно(formal)           , кто угодно             , formal                       ,                 ,                     , Does anyone know the answer?                       , Кто-нибудь знает ответ?                             , 0
-389 , Indefinite Pronouns     / Неопределённые местоимения    , anyone               , anyone              ,                                    , /ˈɛniwʌn/              , кто угодно(formal)           , кто угодно             , formal                       ,                 ,                     , Anyone can learn to swim.                          , Каждый может научиться плавать.                     , 0
-390 , Indefinite Pronouns     / Неопределённые местоимения    , no one(indefinite)   , no one              , indefinite                         , /ˈnoʊ wʌn/             , никто(indefinite/formal)     , никто                  , indefinite/formal            ,                 ,                     , No one knows the answer.                           , Никто не знает ответа.                              , 0
-391 , Indefinite Pronouns     / Неопределённые местоимения    , no one(indefinite)   , no one              , indefinite                         , /ˈnoʊ wʌn/             , никто(indefinite/formal)     , никто                  , indefinite/formal            ,                 ,                     , No one came to the meeting.                        , Никто не пришёл на встречу.                         , 0
-392 , Indefinite Pronouns     / Неопределённые местоимения    , no one(indefinite)   , no one              , indefinite                         , /ˈnoʊ wʌn/             , никто(indefinite/formal)     , никто                  , indefinite/formal            ,                 ,                     , No one can solve this problem.                     , Никто не может решить эту проблему.                 , 0
-393 , Indefinite Pronouns     / Неопределённые местоимения    , no one(indefinite)   , no one              , indefinite                         , /ˈnoʊ wʌn/             , никто(indefinite/formal)     , никто                  , indefinite/formal            ,                 ,                     , She told no one about her plans.                   , Она никому не рассказала о своих планах.            , 0
-394 , Indefinite Pronouns     / Неопределённые местоимения    , no one(indefinite)   , no one              , indefinite                         , /ˈnoʊ wʌn/             , никто(indefinite/formal)     , никто                  , indefinite/formal            ,                 ,                     , No one is allowed to enter.                        , Никому не разрешено входить.                        , 0
-395 , Indefinite Pronouns     / Неопределённые местоимения    , everyone             , everyone            ,                                    , /ˈɛvrɪwʌn/             , каждый(formal)               , каждый                 , formal                       ,                 ,                     , Everyone is here.                                  , Все здесь.                                          , 0
-396 , Indefinite Pronouns     / Неопределённые местоимения    , everyone             , everyone            ,                                    , /ˈɛvrɪwʌn/             , каждый(formal)               , каждый                 , formal                       ,                 ,                     , Everyone enjoyed the party.                        , Всем понравилась вечеринка.                         , 0
-397 , Indefinite Pronouns     / Неопределённые местоимения    , everyone             , everyone            ,                                    , /ˈɛvrɪwʌn/             , каждый(formal)               , каждый                 , formal                       ,                 ,                     , Everyone should contribute to the project.         , Каждый должен внести свой вклад в проект.           , 0
-398 , Indefinite Pronouns     / Неопределённые местоимения    , everyone             , everyone            ,                                    , /ˈɛvrɪwʌn/             , каждый(formal)               , каждый                 , formal                       ,                 ,                     , Everyone knows the story.                          , Все знают эту историю.                              , 0
-399 , Indefinite Pronouns     / Неопределённые местоимения    , everyone             , everyone            ,                                    , /ˈɛvrɪwʌn/             , каждый(formal)               , каждый                 , formal                       ,                 ,                     , Everyone is welcome to join.                       , Всем рады присоединиться.                           , 0
-400 , Indefinite Pronouns     / Неопределённые местоимения    , somebody             , somebody            ,                                    , /ˈsʌmbɒdi/             , кто-то(casual)               , кто-то                 , casual                       ,                 ,                     , Somebody left their bag.                           , Кто-то оставил свою сумку.                          , 0
-401 , Indefinite Pronouns     / Неопределённые местоимения    , somebody             , somebody            ,                                    , /ˈsʌmbɒdi/             , кто-то(casual)               , кто-то                 , casual                       ,                 ,                     , Somebody is waiting for you outside.               , Кто-то ждёт тебя снаружи.                           , 0
-402 , Indefinite Pronouns     / Неопределённые местоимения    , somebody             , somebody            ,                                    , /ˈsʌmbɒdi/             , кто-то(casual)               , кто-то                 , casual                       ,                 ,                     , Somebody called while you were out.                , "Кто-то звонил                                      , пока тебя не было."                           , 0
-403 , Indefinite Pronouns     / Неопределённые местоимения    , somebody             , somebody            ,                                    , /ˈsʌmbɒdi/             , кто-то(casual)               , кто-то                 , casual                       ,                 ,                     , I think somebody forgot their keys.                , "Думаю                                              , кто-то забыл свои ключи."                     , 0
-404 , Indefinite Pronouns     / Неопределённые местоимения    , somebody             , somebody            ,                                    , /ˈsʌmbɒdi/             , кто-то(casual)               , кто-то                 , casual                       ,                 ,                     , Somebody needs to take action.                     , Кто-то должен принять меры.                         , 0
-405 , Indefinite Pronouns     / Неопределённые местоимения    , anybody              , anybody             ,                                    , /ˈɛnibɒdi/             , кто угодно(casual)           , кто угодно             , casual                       ,                 ,                     , Anybody can do it.                                 , Кто угодно может это сделать.                       , 0
-406 , Indefinite Pronouns     / Неопределённые местоимения    , anybody              , anybody             ,                                    , /ˈɛnibɒdi/             , кто угодно(casual)           , кто угодно             , casual                       ,                 ,                     , Is there anybody home?                             , Есть кто-нибудь дома?                               , 0
-407 , Indefinite Pronouns     / Неопределённые местоимения    , anybody              , anybody             ,                                    , /ˈɛnibɒdi/             , кто угодно(casual)           , кто угодно             , casual                       ,                 ,                     , Does anybody know where she is?                    , "Кто-нибудь знает                                   , где она?"                                     , 0
-408 , Indefinite Pronouns     / Неопределённые местоимения    , anybody              , anybody             ,                                    , /ˈɛnibɒdi/             , кто угодно(casual)           , кто угодно             , casual                       ,                 ,                     , Anybody can join this event.                       , Любой может присоединиться к этому событию.         , 0
-409 , Indefinite Pronouns     / Неопределённые местоимения    , anybody              , anybody             ,                                    , /ˈɛnibɒdi/             , кто угодно(casual)           , кто угодно             , casual                       ,                 ,                     , I didn’t see anybody there.                        , Я никого там не видел.                              , 0
-410 , Indefinite Pronouns     / Неопределённые местоимения    , nobody(indefinite)   , nobody              , indefinite                         , /ˈnoʊbɒdi/             , никто(indefinite/casual)     , никто                  , indefinite/casual            ,                 ,                     , Nobody was home.                                   , Никого не было дома.                                , 0
-411 , Indefinite Pronouns     / Неопределённые местоимения    , nobody(indefinite)   , nobody              , indefinite                         , /ˈnoʊbɒdi/             , никто(indefinite/casual)     , никто                  , indefinite/casual            ,                 ,                     , Nobody called me today.                            , Никто не звонил мне сегодня.                        , 0
-412 , Indefinite Pronouns     / Неопределённые местоимения    , nobody(indefinite)   , nobody              , indefinite                         , /ˈnoʊbɒdi/             , никто(indefinite/casual)     , никто                  , indefinite/casual            ,                 ,                     , Nobody understands this problem.                   , Никто не понимает эту проблему.                     , 0
-413 , Indefinite Pronouns     / Неопределённые местоимения    , nobody(indefinite)   , nobody              , indefinite                         , /ˈnoʊbɒdi/             , никто(indefinite/casual)     , никто                  , indefinite/casual            ,                 ,                     , Nobody has the answer.                             , Никто не знает ответа.                              , 0
-414 , Indefinite Pronouns     / Неопределённые местоимения    , nobody(indefinite)   , nobody              , indefinite                         , /ˈnoʊbɒdi/             , никто(indefinite/casual)     , никто                  , indefinite/casual            ,                 ,                     , Nobody can replace her.                            , Никто не может её заменить.                         , 0
-415 , Indefinite Pronouns     / Неопределённые местоимения    , everybody            , everybody           ,                                    , /ˈɛvrɪbɒdi/            , каждый(casual)               , каждый                 , casual                       ,                 ,                     , Everybody loves music.                             , Все любят музыку.                                   , 0
-416 , Indefinite Pronouns     / Неопределённые местоимения    , everybody            , everybody           ,                                    , /ˈɛvrɪbɒdi/            , каждый(casual)               , каждый                 , casual                       ,                 ,                     , Everybody was invited to the party.                , Все были приглашены на вечеринку.                   , 0
-417 , Indefinite Pronouns     / Неопределённые местоимения    , everybody            , everybody           ,                                    , /ˈɛvrɪbɒdi/            , каждый(casual)               , каждый                 , casual                       ,                 ,                     , Does everybody agree with this idea?               , Все согласны с этой идеей?                          , 0
-418 , Indefinite Pronouns     / Неопределённые местоимения    , everybody            , everybody           ,                                    , /ˈɛvrɪbɒdi/            , каждый(casual)               , каждый                 , casual                       ,                 ,                     , Everybody is working hard.                         , Все работают усердно.                               , 0
-419 , Indefinite Pronouns     / Неопределённые местоимения    , everybody            , everybody           ,                                    , /ˈɛvrɪbɒdi/            , каждый(casual)               , каждый                 , casual                       ,                 ,                     , Everybody should have a chance to speak.           , У всех должна быть возможность высказаться.         , 0
-420 , Negative Pronouns       / Отрицательные местоимения     , no one(negative)     , no one              , negative                           , /ˈnoʊ wʌn/             , никто(negative/formal)       , никто                  , negative/formal              ,                 ,                     , No one can enter.                                  , Никто не может войти.                               , 0
-421 , Negative Pronouns       / Отрицательные местоимения     , no one(negative)     , no one              , negative                           , /ˈnoʊ wʌn/             , никто(negative/formal)       , никто                  , negative/formal              ,                 ,                     , No one knew the answer.                            , Никто не знал ответа.                               , 0
-422 , Negative Pronouns       / Отрицательные местоимения     , no one(negative)     , no one              , negative                           , /ˈnoʊ wʌn/             , никто(negative/formal)       , никто                  , negative/formal              ,                 ,                     , No one wants to leave early.                       , Никто не хочет уходить рано.                        , 0
-423 , Negative Pronouns       / Отрицательные местоимения     , no one(negative)     , no one              , negative                           , /ˈnoʊ wʌn/             , никто(negative/formal)       , никто                  , negative/formal              ,                 ,                     , No one saw what happened.                          , "Никто не видел                                     , что произошло."                               , 0
-424 , Negative Pronouns       / Отрицательные местоимения     , no one(negative)     , no one              , negative                           , /ˈnoʊ wʌn/             , никто(negative/formal)       , никто                  , negative/formal              ,                 ,                     , No one was ready for the test.                     , Никто не был готов к тесту.                         , 0
-425 , Negative Pronouns       / Отрицательные местоимения     , nobody(negative)     , nobody              , negative                           , /ˈnoʊbɒdi/             , никто(negative/casual)       , никто                  , negative/casual              ,                 ,                     , Nobody saw him.                                    , Никто его не видел.                                 , 0
-426 , Negative Pronouns       / Отрицательные местоимения     , nobody(negative)     , nobody              , negative                           , /ˈnoʊbɒdi/             , никто(negative/casual)       , никто                  , negative/casual              ,                 ,                     , Nobody was in the room.                            , Никого не было в комнате.                           , 0
-427 , Negative Pronouns       / Отрицательные местоимения     , nobody(negative)     , nobody              , negative                           , /ˈnoʊbɒdi/             , никто(negative/casual)       , никто                  , negative/casual              ,                 ,                     , Nobody can help with this task.                    , Никто не может помочь с этим заданием.              , 0
-428 , Negative Pronouns       / Отрицательные местоимения     , nobody(negative)     , nobody              , negative                           , /ˈnoʊbɒdi/             , никто(negative/casual)       , никто                  , negative/casual              ,                 ,                     , Nobody believed her story.                         , Никто не поверил её истории.                        , 0
-429 , Negative Pronouns       / Отрицательные местоимения     , nobody(negative)     , nobody              , negative                           , /ˈnoʊbɒdi/             , никто(negative/casual)       , никто                  , negative/casual              ,                 ,                     , Nobody is answering the phone.                     , Никто не отвечает на телефон.                       , 0
-430 , Negative Pronouns       / Отрицательные местоимения     , none(negative)       , none                , negative                           , /nʌn/                  , никто(negative/for-group)    , никто                  , negative/for-group           ,                 ,                     , None of them agreed.                               , Никто из них не согласился.                         , 0
-431 , Negative Pronouns       / Отрицательные местоимения     , none(negative)       , none                , negative                           , /nʌn/                  , никто(negative/for-group)    , никто                  , negative/for-group           ,                 ,                     , None of the plans worked.                          , Ни один из планов не сработал.                      , 0
-432 , Negative Pronouns       / Отрицательные местоимения     , none(negative)       , none                , negative                           , /nʌn/                  , никто(negative/for-group)    , никто                  , negative/for-group           ,                 ,                     , None of the students passed the exam.              , Никто из студентов не сдал экзамен.                 , 0
-433 , Negative Pronouns       / Отрицательные местоимения     , none(negative)       , none                , negative                           , /nʌn/                  , никто(negative/for-group)    , никто                  , negative/for-group           ,                 ,                     , None of us knew what to do.                        , "Никто из нас не знал                               , что делать."                                  , 0
-434 , Negative Pronouns       / Отрицательные местоимения     , none(negative)       , none                , negative                           , /nʌn/                  , никто(negative/for-group)    , никто                  , negative/for-group           ,                 ,                     , None of the cookies are left.                      , Печенье закончилось.                                , 0
-435 , Negative Pronouns       / Отрицательные местоимения     , nothing              , nothing             ,                                    , /ˈnʌθɪŋ/               , ничего                       , ничего                 ,                              ,                 ,                     , There is nothing to worry about.                   , Не о чем волноваться.                               , 0
-436 , Negative Pronouns       / Отрицательные местоимения     , nothing              , nothing             ,                                    , /ˈnʌθɪŋ/               , ничего                       , ничего                 ,                              ,                 ,                     , She has nothing to say.                            , Ей нечего сказать.                                  , 0
-437 , Negative Pronouns       / Отрицательные местоимения     , nothing              , nothing             ,                                    , /ˈnʌθɪŋ/               , ничего                       , ничего                 ,                              ,                 ,                     , Nothing is more important than health.             , Ничего нет важнее здоровья.                         , 0
-438 , Negative Pronouns       / Отрицательные местоимения     , nothing              , nothing             ,                                    , /ˈnʌθɪŋ/               , ничего                       , ничего                 ,                              ,                 ,                     , I have nothing in my pockets.                      , У меня ничего нет в карманах.                       , 0
-439 , Negative Pronouns       / Отрицательные местоимения     , nothing              , nothing             ,                                    , /ˈnʌθɪŋ/               , ничего                       , ничего                 ,                              ,                 ,                     , Nothing will stop us.                              , Ничто нас не остановит.                             , 0
-440 , Reciprocal Pronouns     / Взаимные местоимения          , each other           , each other          ,                                    , /iːtʃ ˈʌðər/           , друг друга(для двух)         , друг друга             , для двух                     ,                 ,                     , They respect each other.                           , Они уважают друг друга.                             , 0
-441 , Reciprocal Pronouns     / Взаимные местоимения          , each other           , each other          ,                                    , /iːtʃ ˈʌðər/           , друг друга(для двух)         , друг друга             , для двух                     ,                 ,                     , We help each other with our tasks.                 , Мы помогаем друг другу с задачами.                  , 0
-442 , Reciprocal Pronouns     / Взаимные местоимения          , each other           , each other          ,                                    , /iːtʃ ˈʌðər/           , друг друга(для двух)         , друг друга             , для двух                     ,                 ,                     , The twins often fight with each other.             , Близнецы часто ссорятся друг с другом.              , 0
-443 , Reciprocal Pronouns     / Взаимные местоимения          , each other           , each other          ,                                    , /iːtʃ ˈʌðər/           , друг друга(для двух)         , друг друга             , для двух                     ,                 ,                     , They looked at each other and smiled.              , Они посмотрели друг на друга и улыбнулись.          , 0
-444 , Reciprocal Pronouns     / Взаимные местоимения          , each other           , each other          ,                                    , /iːtʃ ˈʌðər/           , друг друга(для двух)         , друг друга             , для двух                     ,                 ,                     , The students shared their books with each other.   , Студенты поделились своими книгами друг с другом.   , 0
-445 , Reciprocal Pronouns     / Взаимные местоимения          , one another          , one another         ,                                    , /wʌn əˈnʌðər/          , друг друга(для трех и более) , друг друга             , для трех и более             ,                 ,                     , We should help one another.                        , Нам следует помогать друг другу.                    , 0
-446 , Reciprocal Pronouns     / Взаимные местоимения          , one another          , one another         ,                                    , /wʌn əˈnʌðər/          , друг друга(для трех и более) , друг друга             , для трех и более             ,                 ,                     , They care for one another deeply.                  , Они глубоко заботятся друг о друге.                 , 0
-447 , Reciprocal Pronouns     / Взаимные местоимения          , one another          , one another         ,                                    , /wʌn əˈnʌðər/          , друг друга(для трех и более) , друг друга             , для трех и более             ,                 ,                     , The neighbors support one another.                 , Соседи поддерживают друг друга.                     , 0
-448 , Reciprocal Pronouns     / Взаимные местоимения          , one another          , one another         ,                                    , /wʌn əˈnʌðər/          , друг друга(для трех и более) , друг друга             , для трех и более             ,                 ,                     , They smiled at one another warmly.                 , Они тепло улыбнулись друг другу.                    , 0
-449 , Reciprocal Pronouns     / Взаимные местоимения          , one another          , one another         ,                                    , /wʌn əˈnʌðər/          , друг друга(для трех и более) , друг друга             , для трех и более             ,                 ,                     , One another’s ideas were discussed in the meeting. , На собрании обсуждали идеи друг друга.              , 0
-450 , Determiners/Quantifiers / Определительные местоимения   , all(determiners)     , all                 , determiners                        , /ɔːl/                  , "всё(determiners)            , все(determiners)"      , всё                          , "determiners)   , все(determiners"    ,                                                    ,                                                     , All children like to play.                    , Все дети любят играть.                               , 0
-451 , Determiners/Quantifiers / Определительные местоимения   , all(determiners)     , all                 , determiners                        , /ɔːl/                  , "всё(determiners)            , все(determiners)"      , всё                          , "determiners)   , все(determiners"    ,                                                    ,                                                     , All the books are on the table.               , Все книги на столе.                                  , 0
-452 , Determiners/Quantifiers / Определительные местоимения   , all(determiners)     , all                 , determiners                        , /ɔːl/                  , "всё(determiners)            , все(determiners)"      , всё                          , "determiners)   , все(determiners"    ,                                                    ,                                                     , She gave all her money to charity.            , Она отдала все свои деньги на благотворительность.   , 0
-453 , Determiners/Quantifiers / Определительные местоимения   , all(determiners)     , all                 , determiners                        , /ɔːl/                  , "всё(determiners)            , все(determiners)"      , всё                          , "determiners)   , все(determiners"    ,                                                    ,                                                     , All we can do is wait.                        , "Всё                                                 , что мы можем сделать                 , — это ждать."                             , 0
-454 , Determiners/Quantifiers / Определительные местоимения   , all(determiners)     , all                 , determiners                        , /ɔːl/                  , "всё(determiners)            , все(determiners)"      , всё                          , "determiners)   , все(determiners"    ,                                                    ,                                                     , All the seats are taken.                      , Все места заняты.                                    , 0
-455 , Determiners/Quantifiers / Определительные местоимения   , both                 , both                ,                                    , /boʊθ/                 , оба                          , оба                    ,                              ,                 ,                     , Both options are good.                             , Оба варианта хороши.                                , 0
-456 , Determiners/Quantifiers / Определительные местоимения   , both                 , both                ,                                    , /boʊθ/                 , оба                          , оба                    ,                              ,                 ,                     , We visited both cities during our trip.            , Мы посетили оба города во время поездки.            , 0
-457 , Determiners/Quantifiers / Определительные местоимения   , both                 , both                ,                                    , /boʊθ/                 , оба                          , оба                    ,                              ,                 ,                     , Both of them are my friends.                       , Оба из них мои друзья.                              , 0
-458 , Determiners/Quantifiers / Определительные местоимения   , both                 , both                ,                                    , /boʊθ/                 , оба                          , оба                    ,                              ,                 ,                     , She likes both tea and coffee.                     , "Ей нравятся и чай                                  , и кофе."                                      , 0
-459 , Determiners/Quantifiers / Определительные местоимения   , both                 , both                ,                                    , /boʊθ/                 , оба                          , оба                    ,                              ,                 ,                     , Both answers are correct.                          , Оба ответа верны.                                   , 0
-460 , Determiners/Quantifiers / Определительные местоимения   , either               , either              ,                                    , /ˈiːðər/ or /ˈaɪðər/   , любой из двух                , любой из двух          ,                              ,                 ,                     , Either day works for me.                           , Любой из двух дней мне подходит.                    , 0
-461 , Determiners/Quantifiers / Определительные местоимения   , either               , either              ,                                    , /ˈiːðər/ or /ˈaɪðər/   , любой из двух                , любой из двух          ,                              ,                 ,                     , You can take either book.                          , Ты можешь взять любую из двух книг.                 , 0
-462 , Determiners/Quantifiers / Определительные местоимения   , either               , either              ,                                    , /ˈiːðər/ or /ˈaɪðər/   , любой из двух                , любой из двух          ,                              ,                 ,                     , Either option is fine.                             , Любой вариант подойдёт.                             , 0
-463 , Determiners/Quantifiers / Определительные местоимения   , either               , either              ,                                    , /ˈiːðər/ or /ˈaɪðər/   , любой из двух                , любой из двух          ,                              ,                 ,                     , You can choose either path.                        , Ты можешь выбрать любой из двух путей.              , 0
-464 , Determiners/Quantifiers / Определительные местоимения   , either               , either              ,                                    , /ˈiːðər/ or /ˈaɪðər/   , любой из двух                , любой из двух          ,                              ,                 ,                     , I don’t think either of us knows the answer.       , "Думаю                                              , ни один из нас не знает ответа."              , 0
-465 , Determiners/Quantifiers / Определительные местоимения   , neither              , neither             ,                                    , /ˈnaɪðər/ or /ˈniːðər/ , ни один из двух              , ни один из двух        ,                              ,                 ,                     , Neither answer is correct.                         , Ни один из ответов не верен.                        , 0
-466 , Determiners/Quantifiers / Определительные местоимения   , neither              , neither             ,                                    , /ˈnaɪðər/ or /ˈniːðər/ , ни один из двух              , ни один из двух        ,                              ,                 ,                     , Neither of them was available.                     , Никто из них не был доступен.                       , 0
-467 , Determiners/Quantifiers / Определительные местоимения   , neither              , neither             ,                                    , /ˈnaɪðər/ or /ˈniːðər/ , ни один из двух              , ни один из двух        ,                              ,                 ,                     , She liked neither dress.                           , Ей не понравилось ни одно платье.                   , 0
-468 , Determiners/Quantifiers / Определительные местоимения   , neither              , neither             ,                                    , /ˈnaɪðər/ or /ˈniːðər/ , ни один из двух              , ни один из двух        ,                              ,                 ,                     , Neither of the roads leads to the city.            , Ни одна из дорог не ведёт к городу.                 , 0
-469 , Determiners/Quantifiers / Определительные местоимения   , neither              , neither             ,                                    , /ˈnaɪðər/ or /ˈniːðər/ , ни один из двух              , ни один из двух        ,                              ,                 ,                     , Neither team won the match.                        , Ни одна команда не выиграла матч.                   , 0
-470 , Determiners/Quantifiers / Определительные местоимения   , each                 , each                ,                                    , /iːtʃ/                 , каждый(по отдельности)       , каждый                 , по отдельности               ,                 ,                     , Each student has a book.                           , У каждого студента есть книга.                      , 0
-471 , Determiners/Quantifiers / Определительные местоимения   , each                 , each                ,                                    , /iːtʃ/                 , каждый(по отдельности)       , каждый                 , по отдельности               ,                 ,                     , Each of us has a role to play.                     , У каждого из нас есть своя роль.                    , 0
-472 , Determiners/Quantifiers / Определительные местоимения   , each                 , each                ,                                    , /iːtʃ/                 , каждый(по отдельности)       , каждый                 , по отдельности               ,                 ,                     , Each house in the village is unique.               , Каждый дом в деревне уникален.                      , 0
-473 , Determiners/Quantifiers / Определительные местоимения   , each                 , each                ,                                    , /iːtʃ/                 , каждый(по отдельности)       , каждый                 , по отдельности               ,                 ,                     , Each member contributed to the project.            , Каждый участник внёс свой вклад в проект.           , 0
-474 , Determiners/Quantifiers / Определительные местоимения   , each                 , each                ,                                    , /iːtʃ/                 , каждый(по отдельности)       , каждый                 , по отдельности               ,                 ,                     , She gave a gift to each child.                     , Она подарила подарок каждому ребёнку.               , 0
-475 , Determiners/Quantifiers / Определительные местоимения   , every                , every               ,                                    , /ˈɛvri/                , каждый(из всех)              , каждый                 , из всех                      ,                 ,                     , Every person has a chance.                         , У каждого человека есть шанс.                       , 0
-476 , Determiners/Quantifiers / Определительные местоимения   , every                , every               ,                                    , /ˈɛvri/                , каждый(из всех)              , каждый                 , из всех                      ,                 ,                     , Every child deserves an education.                 , Каждый ребёнок заслуживает образования.             , 0
-477 , Determiners/Quantifiers / Определительные местоимения   , every                , every               ,                                    , /ˈɛvri/                , каждый(из всех)              , каждый                 , из всех                      ,                 ,                     , Every day brings new opportunities.                , Каждый день приносит новые возможности.             , 0
-478 , Determiners/Quantifiers / Определительные местоимения   , every                , every               ,                                    , /ˈɛvri/                , каждый(из всех)              , каждый                 , из всех                      ,                 ,                     , Every house on the street is decorated.            , Каждый дом на улице украшен.                        , 0
-479 , Determiners/Quantifiers / Определительные местоимения   , every                , every               ,                                    , /ˈɛvri/                , каждый(из всех)              , каждый                 , из всех                      ,                 ,                     , I visit my grandmother every weekend.              , Я навещаю бабушку каждые выходные.                  , 0
-480 , Determiners/Quantifiers / Определительные местоимения   , many                 , many                ,                                    , /ˈmɛni/                , много(countable)             , много                  , countable                    ,                 ,                     , Many people agree.                                 , Многие согласны.                                    , 0
-481 , Determiners/Quantifiers / Определительные местоимения   , many                 , many                ,                                    , /ˈmɛni/                , много(countable)             , много                  , countable                    ,                 ,                     , There are many ways to solve this problem.         , Существует много способов решить эту проблему.      , 0
-482 , Determiners/Quantifiers / Определительные местоимения   , many                 , many                ,                                    , /ˈmɛni/                , много(countable)             , много                  , countable                    ,                 ,                     , She has many friends.                              , У неё много друзей.                                 , 0
-483 , Determiners/Quantifiers / Определительные местоимения   , many                 , many                ,                                    , /ˈmɛni/                , много(countable)             , много                  , countable                    ,                 ,                     , Many of the participants arrived late.             , Многие участники опоздали.                          , 0
-484 , Determiners/Quantifiers / Определительные местоимения   , many                 , many                ,                                    , /ˈmɛni/                , много(countable)             , много                  , countable                    ,                 ,                     , He made many mistakes in the test.                 , Он сделал много ошибок в тесте.                     , 0
-485 , Determiners/Quantifiers / Определительные местоимения   , much                 , much                ,                                    , /mʌtʃ/                 , много(uncountable)           , много                  , uncountable                  ,                 ,                     , There isn’t much time.                             , Времени немного.                                    , 0
-486 , Determiners/Quantifiers / Определительные местоимения   , much                 , much                ,                                    , /mʌtʃ/                 , много(uncountable)           , много                  , uncountable                  ,                 ,                     , How much water do you need?                        , Сколько воды тебе нужно?                            , 0
-487 , Determiners/Quantifiers / Определительные местоимения   , much                 , much                ,                                    , /mʌtʃ/                 , много(uncountable)           , много                  , uncountable                  ,                 ,                     , She doesn’t have much experience.                  , У неё не так много опыта.                           , 0
-488 , Determiners/Quantifiers / Определительные местоимения   , much                 , much                ,                                    , /mʌtʃ/                 , много(uncountable)           , много                  , uncountable                  ,                 ,                     , He ate too much cake.                              , Он съел слишком много торта.                        , 0
-489 , Determiners/Quantifiers / Определительные местоимения   , much                 , much                ,                                    , /mʌtʃ/                 , много(uncountable)           , много                  , uncountable                  ,                 ,                     , Is there much work left to do?                     , Осталось ли много работы?                           , 0
-490 , Determiners/Quantifiers / Определительные местоимения   , several              , several             ,                                    , /ˈsɛvrəl/              , несколько(determiners)       , несколько              , determiners                  ,                 ,                     , Several cars are parked outside.                   , Несколько машин припаркованы снаружи.               , 0
-491 , Determiners/Quantifiers / Определительные местоимения   , several              , several             ,                                    , /ˈsɛvrəl/              , несколько(determiners)       , несколько              , determiners                  ,                 ,                     , She invited several friends to the party.          , Она пригласила несколько друзей на вечеринку.       , 0
-492 , Determiners/Quantifiers / Определительные местоимения   , several              , several             ,                                    , /ˈsɛvrəl/              , несколько(determiners)       , несколько              , determiners                  ,                 ,                     , There are several options to choose from.          , Есть несколько вариантов на выбор.                  , 0
-493 , Determiners/Quantifiers / Определительные местоимения   , several              , several             ,                                    , /ˈsɛvrəl/              , несколько(determiners)       , несколько              , determiners                  ,                 ,                     , He spent several days in the hospital.             , Он провёл несколько дней в больнице.                , 0
-494 , Determiners/Quantifiers / Определительные местоимения   , several              , several             ,                                    , /ˈsɛvrəl/              , несколько(determiners)       , несколько              , determiners                  ,                 ,                     , I’ve been to Paris several times.                  , Я был в Париже несколько раз.                       , 0
-495 , Determiners/Quantifiers / Определительные местоимения   , few                  , few                 ,                                    , /fjuː/                 , немного(determiners)         , немного                , determiners                  ,                 ,                     , Few people attended the meeting.                   , Мало людей пришли на встречу.                       , 0
-496 , Determiners/Quantifiers / Определительные местоимения   , few                  , few                 ,                                    , /fjuː/                 , немного(determiners)         , немного                , determiners                  ,                 ,                     , She has only a few close friends.                  , У неё есть только несколько близких друзей.         , 0
-497 , Determiners/Quantifiers / Определительные местоимения   , few                  , few                 ,                                    , /fjuː/                 , немного(determiners)         , немного                , determiners                  ,                 ,                     , There are a few things we need to discuss.         , "Есть несколько вещей                               , которые нам нужно обсудить."                  , 0
-498 , Determiners/Quantifiers / Определительные местоимения   , few                  , few                 ,                                    , /fjuː/                 , немного(determiners)         , немного                , determiners                  ,                 ,                     , He made a few good points in his speech.           , Он сделал несколько хороших замечаний в своей речи. , 0
-499 , Determiners/Quantifiers / Определительные местоимения   , few                  , few                 ,                                    , /fjuː/                 , немного(determiners)         , немного                , determiners                  ,                 ,                     , Few students understood the lesson.                , Мало студентов поняли урок.                         , 0
+  id;question;translation
+  285;This is _(my:s1) book.;Это моя книга.
+  286;_(My:s1) car is very old.;Моя машина очень старая.
+  287;_(My:s1) house is near the park.;Мой дом рядом с парком.
+  288;_(My:s1) friend is waiting for me.;Мой друг ждёт меня.
+  289;_(My:s1) phone is charging.;Мой телефон заряжается.
+  290;_(Your:s2) efforts matter.;Ваши усилия важны.
+  291;_(Your:s2) house is beautiful.;Ваш дом красивый.
+  292;Where is _(your:s2) car?;Где ваша машина?
+  293;_(Your:s2) kids are very polite.;Ваши дети очень вежливы.
+  294;I like _(your:s2) idea.;Мне нравится ваша идея.
+  295;_(His:s3m) dog is friendly.;Его собака дружелюбная.
+  296;_(His:s3m) house is very big.;Его дом очень большой.
+  297;I like _(his:s3m) car.;Мне нравится его машина.
+  298;_(His:s3m) work is inspiring.;Его работа вдохновляющая.
+  299;Where is _(his:s3m) book?;Где его книга?
+  300;_(Her:s3f) ideas are brilliant.;Её идеи блестящие.
+  301;_(Her:s3f) voice is beautiful.;Её голос прекрасен.
+  302;_(Her:s3f) house is near the school.;Её дом рядом со школой.
+  303;I like _(her:s3f) style.;Мне нравится её стиль.
+  304;This is _(her:s3f) favorite color.;Это её любимый цвет.
+  305;_(Its:s3n) color is vibrant.;Его цвет яркий.
+  306;_(Its:s3n) size is perfect.;Его размер идеален.
+  307;I like _(its:s3n) design.;Мне нравится его дизайн.
+  308;_(Its:s3n) role is important.;Его роль важна.
+  309;_(Its:s3n) sound is unique.;Его звук уникален.
+  310;_(Our:p1) team is strong.;Наша команда сильная.
+  311;_(Our:p1) house is on the corner.;Наш дом на углу.
+  312;_(Our:p1) car is parked outside.;Наша машина припаркована снаружи.
+  313;_(Our:p1) work is almost done.;Наша работа почти завершена.
+  314;_(Our:p1) friends are coming over.;Наши друзья идут к нам.
+  315;_(Their:p3) house is beautiful.;Их дом красивый.
+  316;_(Their:p3) dog is very playful.;Их собака очень игривая.
+  317;_(Their:p3) car is new.;Их машина новая.
+  318;_(Their:p3) kids are at school.;Их дети в школе.
+  319;I like _(their:p3) work.;Мне нравится их работа.
+  320;I couldn’t believe how quickly _(my:s1) plans changed after the unexpected news.;Я не мог поверить, как быстро мои планы изменились после неожиданной новости.
+  321;After several revisions, _(my:s1) final decision turned out to be the best one.;После нескольких исправлений моё окончательное решение оказалось лучшим.
+  322;The professor praised _(my:s1) work, saying it showed deep understanding of the topic.;Профессор похвалил мою работу, сказав, что она демонстрирует глубокое понимание темы.
+  323;Without a doubt, _(my:s1) favorite way to relax is reading a good book in the evening.;Без сомнения, мой любимый способ расслабиться – это чтение хорошей книги вечером.
+  324;If _(my:s1) calculations are correct, we should reach the destination in two hours.;Если мои расчёты верны, мы должны добраться до места назначения через два часа.
+  325;After years of dedication, _(my:s1) hard work finally paid off.;После многих лет упорного труда моя работа наконец окупилась.
+  326;Right after _(my:s1) presentation, the audience started asking questions.;Сразу после моей презентации аудитория начала задавать вопросы.
+  327;By the time I arrived, _(your:s2) friends had already left for the airport.;К тому времени как я приехал, твои друзья уже уехали в аэропорт.
+  328;Could you remind me where _(your:s2) office is located in this building?;Не мог бы ты напомнить мне, где находится твой офис в этом здании?
+  329;No matter how hard you try, _(your:s2) efforts won’t go unnoticed by the management.;Как бы ты ни старался, твои усилия не останутся незамеченными руководством.
+  330;Despite the difficulties, _(your:s2) idea proved to be more effective than expected.;Несмотря на трудности, твоя идея оказалась более эффективной, чем ожидалось.
+  331;The fact that _(your:s2) argument was well-structured made a huge difference.;Тот факт, что твой аргумент был хорошо структурирован, сыграл большую роль.
+  332;Without _(your:s2) advice, I would have made a terrible mistake.;Без твоего совета я бы совершил ужасную ошибку.
+  333;When _(your:s2) schedule is so packed, how do you find time to relax?;Когда твой график такой плотный, как ты находишь время на отдых?
+  334;With every passing day, _(his:s3m) confidence in the project continued to grow.;С каждым днём его уверенность в проекте продолжала расти.
+  335;We were surprised to see that _(his:s3m) proposal had already been accepted.;Мы были удивлены, увидев, что его предложение уже было принято.
+  336;Without hesitation, _(his:s3m) decision influenced the outcome of the negotiation.;Без колебаний его решение повлияло на исход переговоров.
+  337;After years of hard work, _(his:s3m) dream of becoming a doctor finally came true.;После многих лет упорной работы его мечта стать врачом наконец сбылась.
+  338;Since _(his:s3m) arrival, things in the office have become more organized.;С момента его прибытия в офисе всё стало более организованным.
+  339;Although _(his:s3m) story was interesting, it lacked crucial details.;Хотя его рассказ был интересным, в нём не хватало важных деталей.
+  340;It’s fascinating how much _(his:s3m) perspective has changed over the years.;Удивительно, насколько изменилась его точка зрения за эти годы.
+  341;Although _(her:s3f) suggestions were controversial, they sparked an interesting discussion.;Хотя её предложения были спорными, они вызвали интересную дискуссию.
+  342;By the end of the meeting, _(her:s3f) influence on the team was undeniable.;К концу собрания её влияние на команду стало неоспоримым.
+  343;Everyone in the office noticed that _(her:s3f) enthusiasm was contagious.;Все в офисе заметили, что её энтузиазм был заразительным.
+  344;If you look closely, _(her:s3f) painting reveals an impressive level of detail.;Если присмотреться, её картина раскрывает впечатляющий уровень детализации.
+  345;Before making a decision, _(her:s3f) team conducted thorough research.;Перед принятием решения её команда провела тщательное исследование.
+  346;The moment _(her:s3f) name was mentioned, everyone turned to listen.;В тот момент, когда её имя было упомянуто, все обернулись, чтобы послушать.
+  347;Despite _(her:s3f) warnings, they continued with their risky plan.;Несмотря на её предупреждения, они продолжили свой рискованный план.
+  348;After the storm, _(its:s3n) structure remained surprisingly intact despite the strong winds.;После шторма его структура осталась удивительно неповреждённой, несмотря на сильные ветры.
+  349;Even though the company faced challenges, _(its:s3n) reputation remained solid.;Несмотря на трудности, её репутация осталась прочной.
+  350;Because of _(its:s3n) design, this bridge can withstand extreme weather conditions.;Благодаря своему дизайну, этот мост может выдерживать экстремальные погодные условия.
+  351;The new policy is controversial, but _(its:s3n) implementation has already begun.;Новая политика спорна, но её внедрение уже началось.
+  352;We were amazed by how much _(its:s3n) features had improved in the new version.;Мы были поражены тем, насколько улучшились его характеристики в новой версии.
+  353;Thanks to _(its:s3n) durability, this product lasts much longer than expected.;Благодаря своей прочности, этот продукт служит намного дольше, чем ожидалось.
+  354;If _(its:s3n) performance continues to improve, the company will thrive.;Если его производительность продолжит расти, компания будет процветать.
+  355;Although _(our:p1) team was smaller, we managed to win the competition.;Хотя наша команда была меньше, мы смогли выиграть соревнование.
+  356;After months of preparation, _(our:p1) project was finally approved by the board.;После нескольких месяцев подготовки наш проект наконец был одобрен советом.
+  357;It was clear that _(our:p1) approach to solving the issue was the most efficient.;Было очевидно, что наш подход к решению проблемы был самым эффективным.
+  358;Before we started the journey, _(our:p1) guide explained the safety rules in detail.;Перед тем как мы отправились в путешествие, наш гид подробно объяснил правила безопасности.
+  359;As a result of _(our:p1) collaboration, the project exceeded all expectations.;В результате нашего сотрудничества проект превзошёл все ожидания.
+  360;Because of _(our:p1) mistake, the deadline had to be extended.;Из-за нашей ошибки срок пришлось продлить.
+  361;Ever since _(our:p1) training began, we have become much more confident.;С тех пор как началась наша подготовка, мы стали гораздо увереннее.
+  362;As soon as the guests arrived, _(their:p3) attention was drawn to the stunning view.;Как только гости прибыли, их внимание привлек потрясающий вид.
+  363;Even after years of separation, _(their:p3) bond remained as strong as ever.;Даже после многих лет разлуки их связь осталась такой же крепкой.
+  364;No one expected _(their:p3) reaction to be so emotional.;Никто не ожидал, что их реакция будет такой эмоциональной.
+  365;Because of _(their:p3) efforts, the event turned out to be a great success.;Благодаря их усилиям мероприятие оказалось большим успехом.
+  366;Nobody doubted that _(their:p3) decision was the right one in the given situation.;Никто не сомневался, что их решение было верным в данной ситуации.
+  367;With _(their:p3) support, the organization was able to expand internationally.;С их поддержкой организация смогла выйти на международный уровень.
+  368;It was difficult to ignore _(their:p3) influence on the final result.;Было трудно игнорировать их влияние на окончательный результат.
+
+Demonstrative Pronouns (Указательные местоимения):
+  id;question;translation
+  367;Do you remember _(this:s,near) moment?;Ты помнишь этот момент?
+  368;_(This:s,near) problem needs to be solved immediately.;Эту проблему нужно решить немедленно.
+  369;Can you believe _(this:s,near) news?;Ты можешь поверить в эти новости?
+  370;I can’t stop thinking about _(this:s,near) possibility.;Я не могу перестать думать об этой возможности.
+  371;We need to focus on _(this:s,near) issue before moving forward.;Нам нужно сосредоточиться на этом вопросе, прежде чем двигаться дальше.
+  372;_(That:s,far) was one of the best experiences of my life.;То был один из лучших моментов в моей жизни.
+  373;She couldn’t believe _(that:s,far) actually happened.;Она не могла поверить, что это действительно произошло.
+  374;I don’t agree with _(that:s,far) opinion.;Я не согласен с этим мнением.
+  375;_(That:s,far) sound is coming from outside.;Тот звук идёт снаружи.
+  376;If you listen carefully, you’ll understand _(that:s,far) idea.;Если ты послушаешь внимательно, ты поймёшь ту идею.
+  377;_(These:p,near) pictures were taken during our vacation.;Эти фотографии были сделаны во время нашего отпуска.
+  378;I love _(these:p,near) colors in your painting.;Мне нравятся эти цвета в твоей картине.
+  379;We should consider _(these:p,near) factors before making a decision.;Нам стоит учитывать эти факторы перед принятием решения.
+  380;_(These:p,near) documents need to be signed by the manager.;Эти документы должны быть подписаны менеджером.
+  381;Are _(these:p,near) the keys you were looking for?;Это те ключи, которые ты искал?
+  382;Who left _(those:p,far) bags on the table?;Кто оставил те сумки на столе?
+  383;I remember _(those:p,far) days like they were yesterday.;Я помню те дни, как будто это было вчера.
+  384;_(Those:p,far) books belong to the library.;Те книги принадлежат библиотеке.
+  385;Could you pass me _(those:p,far) papers, please?;Можешь передать мне те бумаги, пожалуйста?
+  386;_(Those:p,far) ideas were ahead of their time.;Те идеи опередили своё время.
+  387;The weather was perfect during _(this:s,near) weekend.;Погода была идеальной в эти выходные.
+  388;Let’s talk about _(this:s,near) situation calmly.;Давай спокойно обсудим эту ситуацию.
+  389;_(That:s,far) was the moment I realized my mistake.;В тот момент я осознал свою ошибку.
+  390;I don’t think _(that:s,far) is a good idea.;Я не думаю, что это хорошая идея.
+  391;We need to discuss _(these:p,near) matters with the team.;Нам нужно обсудить эти вопросы с командой.
+  392;Why are _(these:p,near) prices so high?;Почему эти цены такие высокие?
+  393;The teacher asked about _(those:p,far) assignments.;Учитель спросил про те задания.
+  394;I found _(those:p,far) shoes in the closet.;Я нашёл те туфли в шкафу.
+  395;What do you think about _(this:s,near) design?;Что ты думаешь об этом дизайне?
+  396;_(That:s,far) building was constructed over a century ago.;То здание было построено более века назад.
+  397;_(These:p,near) questions are harder than I expected.;Эти вопросы сложнее, чем я ожидал.
+  398;She refused to answer _(those:p,far) accusations.;Она отказалась отвечать на те обвинения.
+  399;I have never seen _(this:s,near) kind of technology before.;Я никогда раньше не видел такую технологию.
+  400;_(That:s,far) decision changed everything.;То решение изменило всё.
+
+Interrogative Pronouns (Вопросительные местоимения):
+  id;question;translation
+  305;_(Who:subj) is there?;Кто там?
+  306;To _(whom:obj) are you talking?;С кем ты разговариваешь?
+  307;_(Who:subj) will help us?;Кто нам поможет?
+  308;_(Who:subj) wrote this book?;Кто написал эту книгу?
+  309;_(Who:subj) knows the answer?;Кто знает ответ?
+  310;_(Whom:obj) did you see?;Кого ты видел?
+  311;_(Whom:obj) should I ask about this?;Кого мне спросить об этом?
+  312;_(Whom:obj) are you talking about?;О ком ты говоришь?
+  313;To _(whom:obj) did you send the letter?;Кому ты отправил письмо?
+  314;_(Whom:obj) do you trust the most?;Кому ты доверяешь больше всего?
+  315;_(Whose:poss) book is this?;Чья это книга?
+  316;_(Whose:poss) bag is on the chair?;Чья сумка на стуле?
+  317;_(Whose:poss) idea was it?;Чья это была идея?
+  318;_(Whose:poss) car is parked outside?;Чья машина припаркована снаружи?
+  319;_(Whose:poss) turn is it?;Чья очередь?
+  320;_(Which:sel) one do you prefer?;Который из них ты предпочитаешь?
+  321;_(Which:sel) color do you like more?;Какой цвет тебе нравится больше?
+  322;_(Which:obj) book should I read first?;Какую книгу мне прочитать первой?
+  323;_(Which:subj) way is faster?;Какой путь быстрее?
+  324;_(Which:subj) team won the match?;Какая команда выиграла матч?
+  325;_(What:subj) is your name?;Как тебя зовут?
+  326;_(What:subj) are you doing?;Что ты делаешь?
+  327;_(What:obj) is this for?;Для чего это?
+  328;_(What:subj) happened here?;Что здесь случилось?
+  329;_(What:obj) do you want to eat?;Что ты хочешь съесть?
+  330;Do you know _(who:subj) will be responsible for the final decision?;Ты знаешь, кто будет ответственным за окончательное решение?
+  331;I’m curious to find out _(who:subj) actually made the mistake.;Мне любопытно узнать, кто на самом деле совершил ошибку.
+  332;They haven't decided yet _(who:subj) will represent the company at the conference.;Они ещё не решили, кто будет представлять компанию на конференции.
+  333;Can you tell me _(who:subj) was leading the project before you joined?;Ты можешь сказать мне, кто руководил проектом до твоего прихода?
+  334;I was surprised when I heard _(who:subj) got promoted so quickly.;Я был удивлён, когда услышал, кто так быстро получил повышение.
+  335;We need to determine _(whom:obj) the client prefers to work with.;Нам нужно выяснить, с кем клиент предпочитает работать.
+  336;It wasn’t clear _(whom:obj) they selected for the leadership role.;Было неясно, кого они выбрали на руководящую должность.
+  337;She asked _(whom:obj) she should report to regarding this matter.;Она спросила, кому ей следует отчитываться по этому вопросу.
+  338;He didn’t specify _(whom:obj) the invitation was meant for.;Он не уточнил, кому было предназначено приглашение.
+  339;We have yet to confirm _(whom:obj) the CEO will appoint as his assistant.;Мы ещё не подтвердили, кого генеральный директор назначит своим помощником.
+  340;Can you tell me _(whose:poss) signature is required on this document?;Ты можешь сказать мне, чья подпись требуется на этом документе?
+  341;They couldn’t agree on _(whose:poss) idea was more innovative.;Они не могли прийти к согласию, чья идея была более инновационной.
+  342;I still don't understand _(whose:poss) mistake caused the delay.;Я всё ещё не понимаю, чья ошибка привела к задержке.
+  343;The committee was unsure _(whose:poss) proposal should be prioritized.;Комитет не был уверен, чьё предложение следует поставить в приоритет.
+  344;She asked me _(whose:poss) responsibility it was to finalize the report.;Она спросила меня, чья ответственность – завершить отчёт.
+  345;We should carefully consider _(which:sel) option will benefit us the most.;Нам следует тщательно рассмотреть, какой вариант принесёт нам наибольшую пользу.
+  346;They are debating _(which:sel) strategy will be the most effective in the long run.;Они обсуждают, какая стратегия будет наиболее эффективной в долгосрочной перспективе.
+  347;It remains unclear _(which:sel) department will handle the new project.;До сих пор неясно, какое подразделение займётся новым проектом.
+  348;We have to analyze _(which:sel) solution aligns best with our goals.;Нам нужно проанализировать, какое решение лучше соответствует нашим целям.
+  349;The director is still considering _(which:sel) candidate is the best fit for the role.;Директор всё ещё рассматривает, какой кандидат лучше всего подходит для этой роли.
+  350;The professor asked _(what:subj) influences consumer behavior the most.;Профессор спросил, что больше всего влияет на поведение потребителей.
+  351;Nobody could explain _(what:subj) triggered the system failure.;Никто не мог объяснить, что вызвало сбой системы.
+  352;It’s important to understand _(what:subj) caused the sudden market shift.;Важно понять, что вызвало резкий сдвиг на рынке.
+  353;We still don’t know _(what:subj) will be covered in the final exam.;Мы до сих пор не знаем, что будет включено в итоговый экзамен.
+  354;They haven’t announced _(what:subj) will be discussed at the next meeting.;Они ещё не объявили, что будет обсуждаться на следующем собрании.
+  355;I want to find out _(what:obj) they are planning to introduce next quarter.;Я хочу выяснить, что они планируют внедрить в следующем квартале.
+  356;Can you clarify _(what:obj) the report is supposed to focus on?;Ты можешь уточнить, на чём должен быть сосредоточен этот отчёт?
+  357;She didn’t specify _(what:obj) the team needs to prepare before the deadline.;Она не уточнила, что команде нужно подготовить до крайнего срока.
+  358;We are trying to understand _(what:obj) the investors expect from the new policy.;Мы пытаемся понять, чего инвесторы ожидают от новой политики.
+  359;The manager wants to know _(what:obj) the employees think about the upcoming changes.;Менеджер хочет узнать, что сотрудники думают о предстоящих изменениях.
+
+> Relative Pronouns (Относительные местоимения)
+>   id;question;translation
+>   0;The teacher _(who:animate,f.ntrl/frml) helped us was very kind.;Учитель, который нам помог, был очень добрым.
+>   1;She met a scientist _(who:animate,f.ntrl/frml) discovered a new element.;Она встретила учёного, который открыл новый элемент.
+>   2;The woman _(who:animate,f.ntrl/frml) lives next door is a doctor.;Женщина, которая живёт по соседству, – врач.
+>   3;The author _(who:animate,f.ntrl/frml) wrote this book is famous.;Автор, который написал эту книгу, известен.
+>   4;I have a friend _(who:animate,f.ntrl/frml) loves hiking.;У меня есть друг, который любит пешие прогулки.
+>   5;The musician _(who:animate,f.ntrl/frml) you saw yesterday has won many awards.;Музыкант, которого ты видел вчера, выиграл много наград.
+>   6;The manager _(who:animate,f.ntrl/frml) oversees this department is very strict.;Менеджер, который курирует этот отдел, очень строг.
+>   7;There is a professor _(who:animate,f.ntrl/frml) specializes in ancient history.;Есть профессор, который специализируется на древней истории.
+>   8;My colleague _(who:animate,f.ntrl/frml) recently moved here is very friendly.;Мой коллега, который недавно сюда переехал, очень дружелюбный.
+>   9;The politician _(who:animate,f.ntrl/frml) proposed the law faced criticism.;Политик, который предложил этот закон, столкнулся с критикой.
+>   10;The consultant _(whom:animate,f.frml) we hired is very experienced.;Консультант, которого мы наняли, очень опытный.
+>   11;She spoke to the expert _(whom:animate,f.frml) you recommended.;Она поговорила с экспертом, которого ты порекомендовал.
+>   12;The professor _(whom:animate,f.frml) I respect the most is retiring.;Профессор, которого я больше всего уважаю, уходит на пенсию.
+>   13;The lawyer _(whom:animate,f.frml) they consulted gave great advice.;Адвокат, с которым они консультировались, дал отличный совет.
+>   14;The artist _(whom:animate,f.frml) we met at the gallery was fascinating.;Художник, с которым мы встретились в галерее, был очень интересным.
+>   15;The delegate _(whom:animate,f.frml) they appointed had a lot of experience.;Делегат, которого они назначили, имел большой опыт.
+>   16;The scientist _(whom:animate,f.frml) the committee chose will lead the project.;Учёный, которого выбрал комитет, будет руководить проектом.
+>   17;The doctor _(whom:animate,f.frml) you called is unavailable today.;Доктор, которого ты вызвал, сегодня недоступен.
+>   18;The speaker _(whom:animate,f.frml) they invited declined the offer.;Спикер, которого они пригласили, отказался от предложения.
+>   19;The actor _(whom:animate,f.frml) we saw at the event is a well-known celebrity.;Актёр, которого мы видели на мероприятии, – известная знаменитость.
+>   20;The guy _(that:animate,f.infr) fixed my car was really fast.;Парень, который починил мою машину, был очень быстрым.
+>   21;I know someone _(that:animate,f.infr) can help us.;Я знаю кого-то, кто может нам помочь.
+>   22;The teacher _(that:animate,f.infr) teaches math is really strict.;Учитель, который преподаёт математику, очень строгий.
+>   23;The kid _(that:animate,f.infr) won the race is my cousin.;Ребёнок, который выиграл гонку, – мой двоюродный брат.
+>   24;She has a friend _(that:animate,f.infr) loves rock music.;У неё есть друг, который любит рок-музыку.
+>   25;The man _(that:animate,f.infr) I saw yesterday looked familiar.;Мужчина, которого я видел вчера, выглядел знакомым.
+>   26;The workers _(that:animate,f.infr) they hired are very professional.;Рабочие, которых они наняли, очень профессиональные.
+>   27;The athlete _(that:animate,f.infr) broke the record trained for years.;Атлет, который побил рекорд, тренировался годами.
+>   28;The singer _(that:animate,f.infr) we heard last night was amazing.;Певец, которого мы слышали прошлой ночью, был потрясающим.
+>   29;The guy _(that:animate,f.infr) helped me find my phone was kind.;Парень, который помог мне найти телефон, был добрым.
+>   30;The book _(that:inanimate,f.ntrl) I read was fascinating.;Книга, которую я прочитал, была увлекательной.
+>   31;The car _(that:inanimate,f.ntrl) she bought is very expensive.;Машина, которую она купила, очень дорогая.
+>   32;The laptop _(that:inanimate,f.ntrl) you recommended works great.;Ноутбук, который ты порекомендовал, работает отлично.
+>   33;The movie _(that:inanimate,f.ntrl) we watched was boring.;Фильм, который мы посмотрели, был скучным.
+>   34;The song _(that:inanimate,f.ntrl) they played is my favorite.;Песня, которую они сыграли, моя любимая.
+>   35;The chair _(that:inanimate,f.ntrl) I repaired is now sturdy.;Стул, который я починил, теперь прочный.
+>   36;The road _(that:inanimate,f.ntrl) leads to the city is closed.;Дорога, которая ведёт в город, закрыта.
+>   37;The program _(that:inanimate,f.ntrl) he designed is user-friendly.;Программа, которую он разработал, удобна для пользователей.
+>   38;The idea _(that:inanimate,f.ntrl) they proposed is interesting.;Идея, которую они предложили, интересная.
+>   39;The coffee _(that:inanimate,f.ntrl) she made is delicious.;Кофе, который она приготовила, вкусный.
+>   40;The project _(which:inanimate,f.ntrl/frml) was approved will begin soon.;Проект, который был одобрен, скоро начнётся.
+>   41;The document _(which:inanimate,f.ntrl/frml) she sent contains errors.;Документ, который она отправила, содержит ошибки.
+>   42;The bridge _(which:inanimate,f.ntrl/frml) collapsed was very old.;Мост, который рухнул, был очень старым.
+>   43;The plan _(which:inanimate,f.ntrl/frml) they developed is detailed.;План, который они разработали, детализирован.
+>   44;The system _(which:inanimate,f.ntrl/frml) we use is efficient.;Система, которую мы используем, эффективная.
+>   45;The research _(which:inanimate,f.ntrl/frml) they conducted took years.;Исследование, которое они проводили, заняло годы.
+>   46;The method _(which:inanimate,f.ntrl/frml) they suggested is effective.;Метод, который они предложили, эффективен.
+>   47;The book _(which:inanimate,f.ntrl/frml) I borrowed is interesting.;Книга, которую я взял, интересная.
+>   48;The software _(which:inanimate,f.ntrl/frml) he created is revolutionary.;Программное обеспечение, которое он создал, революционное.
+>   49;The policy _(which:inanimate,f.ntrl/frml) was introduced has many benefits.;Политика, которая была введена, имеет много преимуществ.
+
+> indefinite pronouns (неопределённые местоимения):
+>   id;pronouns;question;translation
+>   0;some;I need _(some:n.singular/c.uncountable/a.inanimate/f.ntrl) water.;Мне нужно немного воды.
+>   1;some;Some _(some:n.plural/c.countable/a.animate/f.ntrl) people enjoy reading.;Некоторым людям нравится читать.
+>   2;some;Could you lend me _(some:n.singular/c.uncountable/a.inanimate/f.ntrl) money?;Можешь одолжить мне немного денег?
+>   3;some;She brought _(some:n.plural/c.countable/a.inanimate/f.ntrl) flowers.;Она принесла немного цветов.
+>   4;some;We have _(some:n.singular/c.uncountable/a.inanimate/f.ntrl) news to share.;У нас есть новости, которыми мы хотим поделиться.
+>   5;any;Do you have _(any:n.plural/c.countable/a.inanimate/f.ntrl) questions?;У вас есть какие-нибудь вопросы?
+>   6;any;You can choose _(any:n.singular/c.countable/a.inanimate/f.ntrl) book you like.;Ты можешь выбрать любую книгу, которая тебе нравится.
+>   7;any;Is there _(any:n.singular/c.uncountable/a.inanimate/f.ntrl) food left?;Осталась ли какая-нибудь еда?
+>   8;any;I didn’t see _(any:n.singular/c.uncountable/a.inanimate/f.ntrl) difference.;Я не заметил никакой разницы.
+>   9;any;Do you know _(any:n.plural/c.countable/a.inanimate/f.ntrl) good restaurants nearby?;Ты знаешь какие-нибудь хорошие рестораны поблизости?
+>   10;none;_(none:n.plural/c.countable/a.animate/f.ntrl) of them came.;Никто из них не пришёл.
+>   11;none;_(none:n.plural/c.countable/a.inanimate/f.ntrl) of the answers were correct.;Ни один из ответов не был правильным.
+>   12;none;_(none:n.plural/c.countable/a.animate/f.ntrl) of the students passed the test.;Ни один из студентов не сдал тест.
+>   13;none;There’s _(none:n.singular/c.uncountable/a.inanimate/f.ntrl) left in the fridge.;В холодильнике ничего не осталось.
+>   14;none;_(none:n.plural/c.countable/a.animate/f.ntrl) of us knew about it.;Никто из нас не знал об этом.
+>   15;all;_(all:n.singular/c.uncountable/a.inanimate/f.ntrl) is well.;Всё хорошо.
+>   16;all;_(all:n.plural/c.countable/a.animate/f.ntrl) the students passed the exam.;Все студенты сдали экзамен.
+>   17;all;She gave _(all:n.singular/c.uncountable/a.inanimate/f.ntrl) her time to the project.;Она отдала всё своё время проекту.
+>   18;all;_(all:n.plural/c.countable/a.animate/f.ntrl) of us were excited.;Все мы были взволнованы.
+>   19;all;_(all:n.plural/c.countable/a.inanimate/f.ntrl) the cookies are gone.;Все печенья закончились.
+>   20;one;_(one:n.singular/c.countable/a.animate/f.ntrl) should always be polite.;Всегда нужно быть вежливым.
+>   21;one;_(one:n.singular/c.countable/a.animate/f.ntrl) of the students is absent.;Один из студентов отсутствует.
+>   22;one;Do you want _(one:n.singular/c.countable/a.inanimate/f.ntrl) or two cups of coffee?;Ты хочешь одну или две чашки кофе?
+>   23;one;_(one:n.singular/c.countable/a.animate/f.ntrl) must respect others.;Нужно уважать других.
+>   24;one;She bought _(one:n.singular/c.countable/a.inanimate/f.ntrl) for herself.;Она купила один для себя.
+>   25;someone;_(someone:n.singular/c.countable/a.animate/f.ntrl) is at the door.;Кто-то у двери.
+>   26;someone;_(someone:n.singular/c.countable/a.animate/f.ntrl) left their phone here.;Кто-то оставил здесь свой телефон.
+>   27;someone;She met _(someone:n.singular/c.countable/a.animate/f.ntrl) new yesterday.;Она встретила кого-то нового вчера.
+>   28;someone;_(someone:n.singular/c.countable/a.animate/f.ntrl) should take responsibility.;Кто-то должен взять на себя ответственность.
+>   29;someone;Is _(someone:n.singular/c.countable/a.animate/f.ntrl) coming to help us?;Кто-то придёт, чтобы помочь нам?
+>   30;anyone;Is there _(anyone:n.singular/c.countable/a.animate/f.ntrl) who can help?;Есть кто-нибудь, кто может помочь?
+>   31;anyone;_(anyone:n.singular/c.countable/a.animate/f.ntrl) can join the club.;Любой может вступить в клуб.
+>   32;anyone;Did _(anyone:n.singular/c.countable/a.animate/f.ntrl) call while I was out?;Кто-нибудь звонил, пока меня не было?
+>   33;anyone;Does _(anyone:n.singular/c.countable/a.animate/f.ntrl) know the answer?;Кто-нибудь знает ответ?
+>   34;anyone;_(anyone:n.singular/c.countable/a.animate/f.ntrl) can learn to swim.;Каждый может научиться плавать.
+>   35;no one;_(no one:n.singular/c.countable/a.animate/f.ntrl) knows the answer.;Никто не знает ответа.
+>   36;no one;_(no one:n.singular/c.countable/a.animate/f.ntrl) came to the meeting.;Никто не пришёл на встречу.
+>   37;no one;_(no one:n.singular/c.countable/a.animate/f.ntrl) can solve this problem.;Никто не может решить эту проблему.
+>   38;no one;She told _(no one:n.singular/c.countable/a.animate/f.ntrl) about her plans.;Она никому не рассказала о своих планах.
+>   39;no one;_(no one:n.singular/c.countable/a.animate/f.ntrl) is allowed to enter.;Никому не разрешено входить.
+
+Negative Pronouns (Отрицательные местоимения):
+id  pronouns            question                                           translation
+420 no one              No one can enter.                                  Никто не может войти.
+421 no one              No one knew the answer.                            Никто не знал ответа.
+422 no one              No one wants to leave early.                       Никто не хочет уходить рано.
+423 no one              No one saw what happened.                          Никто не видел, что произошло.
+424 no one              No one was ready for the test.                     Никто не был готов к тесту.
+425 nobody              Nobody saw him.                                    Никто его не видел.
+426 nobody              Nobody was in the room.                            Никого не было в комнате.
+427 nobody              Nobody can help with this task.                    Никто не может помочь с этим заданием.
+428 nobody              Nobody believed her story.                         Никто не поверил её истории.
+429 nobody              Nobody is answering the phone.                     Никто не отвечает на телефон.
+430 none                None of them agreed.                               Никто из них не согласился.
+431 none                None of the plans worked.                          Ни один из планов не сработал.
+432 none                None of the students passed the exam.              Никто из студентов не сдал экзамен.
+433 none                None of us knew what to do.                        Никто из нас не знал, что делать.
+434 none                None of the cookies are left.                      Печенье закончилось.
+435 nothing             There is nothing to worry about.                   Не о чем волноваться.
+436 nothing             She has nothing to say.                            Ей нечего сказать.
+437 nothing             Nothing is more important than health.             Ничего нет важнее здоровья.
+438 nothing             I have nothing in my pockets.                      У меня ничего нет в карманах.
+439 nothing             Nothing will stop us.                              Ничто нас не остановит.
+
+Reciprocal Pronouns (Взаимные местоимения):
+id  pronouns            question                                           translation
+440 each other          They respect each other.                           Они уважают друг друга.
+441 each other          We help each other with our tasks.                 Мы помогаем друг другу с задачами.
+442 each other          The twins often fight with each other.             Близнецы часто ссорятся друг с другом.
+443 each other          They looked at each other and smiled.              Они посмотрели друг на друга и улыбнулись.
+444 each other          The students shared their books with each other.   Студенты поделились своими книгами друг с другом.
+445 one another         We should help one another.                        Нам следует помогать друг другу.
+446 one another         They care for one another deeply.                  Они глубоко заботятся друг о друге.
+447 one another         The neighbors support one another.                 Соседи поддерживают друг друга.
+448 one another         They smiled at one another warmly.                 Они тепло улыбнулись друг другу.
+449 one another         One another’s ideas were discussed in the meeting. На собрании обсуждали идеи друг друга.
+
+Determiners/Quantifiers 9Определительные местоимения):
+id  pronouns            question                                           translation
+450 all                 All children like to play.                         Все дети любят играть.
+451 all                 All the books are on the table.                    Все книги на столе.
+452 all                 She gave all her money to charity.                 Она отдала все свои деньги на благотворительность.
+453 all                 All we can do is wait.                             Всё, что мы можем сделать, это ждать.
+454 all                 All the seats are taken.                           Все места заняты.
+455 both                Both options are good.                             Оба варианта хороши.
+456 both                We visited both cities during our trip.            Мы посетили оба города во время поездки.
+457 both                Both of them are my friends.                       Оба из них мои друзья.
+458 both                She likes both tea and coffee.                     Ей нравятся и чай, и кофе.
+459 both                Both answers are correct.                          Оба ответа верны.
+460 either              Either day works for me.                           Любой из двух дней мне подходит.
+461 either              You can take either book.                          Ты можешь взять любую из двух книг.
+462 either              Either option is fine.                             Любой вариант подойдёт.
+463 either              You can choose either path.                        Ты можешь выбрать любой из двух путей.
+464 either              I don’t think either of us knows the answer.       Думаю, ни один из нас не знает ответа.
+465 neither             Neither answer is correct.                         Ни один из ответов не верен.
+466 neither             Neither of them was available.                     Никто из них не был доступен.
+467 neither             She liked neither dress.                           Ей не понравилось ни одно платье.
+468 neither             Neither of the roads leads to the city.            Ни одна из дорог не ведёт к городу.
+469 neither             Neither team won the match.                        Ни одна команда не выиграла матч.
+470 each                Each student has a book.                           У каждого студента есть книга.
+471 each                Each of us has a role to play.                     У каждого из нас есть своя роль.
+472 each                Each house in the village is unique.               Каждый дом в деревне уникален.
+473 each                Each member contributed to the project.            Каждый участник внёс свой вклад в проект.
+474 each                She gave a gift to each child.                     Она подарила подарок каждому ребёнку.
+475 every               Every person has a chance.                         У каждого человека есть шанс.
+476 every               Every child deserves an education.                 Каждый ребёнок заслуживает образования.
+477 every               Every day brings new opportunities.                Каждый день приносит новые возможности.
+478 every               Every house on the street is decorated.            Каждый дом на улице украшен.
+479 every               I visit my grandmother every weekend.              Я навещаю бабушку каждые выходные.
+480 many                Many people agree.                                 Многие согласны.
+481 many                There are many ways to solve this problem.         Существует много способов решить эту проблему.
+482 many                She has many friends.                              У неё много друзей.
+483 many                Many of the participants arrived late.             Многие участники опоздали.
+484 many                He made many mistakes in the test.                 Он сделал много ошибок в тесте.
+485 much                There isn’t much time.                             Времени немного.
+486 much                How much water do you need?                        Сколько воды тебе нужно?
+487 much                She doesn’t have much experience.                  У неё не так много опыта.
+488 much                He ate too much cake.                              Он съел слишком много торта.
+489 much                Is there much work left to do?                     Осталось ли много работы?
+490 several             Several cars are parked outside.                   Несколько машин припаркованы снаружи.
+491 several             She invited several friends to the party.          Она пригласила несколько друзей на вечеринку.
+492 several             There are several options to choose from.          Есть несколько вариантов на выбор.
+493 several             He spent several days in the hospital.             Он провёл несколько дней в больнице.
+494 several             I’ve been to Paris several times.                  Я был в Париже несколько раз.
+495 few                 Few people attended the meeting.                   Мало людей пришли на встречу.
+496 few                 She has only a few close friends.                  У неё есть только несколько близких друзей.
+497 few                 There are a few things we need to discuss.         Есть несколько вещей, которые нам нужно обсудить.
+498 few                 He made a few good points in his speech.           Он сделал несколько хороших замечаний в своей речи.
+499 few                 Few students understood the lesson.                Мало студентов поняли урок.

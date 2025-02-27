@@ -11,10 +11,17 @@ mk:
       показывать результат только когда все было введено
       автофокус
       горячки по tab/shift-tab
+  input: show translation
   main menu:
     add topic "total": суммарный результат по всем топикам + сумарныйе тесты по всем темам
     fix progress-bar
+  suspicious - добавить кнопку отметить с ремаркой + is_suspicious,hash:
+    при запуске проверять suspicious, если hash поменялся:
+      сносить прогресс у всех пользователей
+      обновлять hash
+      убирать is_suspicious
 # todo:
+#   input: A->S целиком пропечатывать предложение, показывая фоном что печатать правильно на англ, кроме clouse.
 #   main menu:
 #     add topic "extra": сслыки на внешние источники
 #   edit question feature:
