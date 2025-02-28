@@ -1,10 +1,31 @@
 {% extends 'layouts/base.html' %}
 {% block title %}Q-Fill{% endblock %}
 {% block header %}
-  <a href="{{ url_for('index.index') }}">MainMenu</a><span>/{{ tid }}.{{ tname }}/Q-Fill<span>
+  <a href='{{ url_for('index.index') }}'>MainMenu</a><span>/{{ tid }}.{{ tname }}/Q-Fill</span>
 {% endblock %}
 {% block content %}
 <section class="q_fill">
-  {{ q }}
+  <p class='m0'>
+    <strong class='estimation {{ progress.estimation }} mr5'>{{ progress.estimation }}:</strong>
+    <span class='w'>{{ progress.points }}/{{ progress.threshhold }}</span>
+  </p>
+  <p class='m0'>
+    <strong class='b bg-b mr5'>Q:</strong>
+    <span>Please fill in the gaps.<span>
+  </p>
+  <pre id="question-text" class="question-block">{{ q.question | safe }}</pre>
+
+  <form id='q-fill-form' class='q-fill-form dflex col jc-between pt10 pb5'
+        autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" 
+        action='{{ url_for("index.q_fill", tid=tid, qid=q.id) }}' method="post">
+    
+    <input id="q-fill-input" class="q-fill-input m0 p0" type="text" name="answer" required autofocus>
+
+    <div class='submit-section dflex row jc-start ai-center mt5'>
+      <button id='back-question' type="button" class='btn btn-y dnone'>Back</button>
+      <button id='next-question' type="button" class='btn btn-g'>Next</button>
+      <button id='q-fill-submit' type='submit' class='dnone btn btn-g'>Submit</button>
+    </div>
+  </form>
 </section>
 {% endblock %}

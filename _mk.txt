@@ -1,25 +1,55 @@
 mk:
   q-fill:
-    # purpose:
-    #   тоже самое что и input, но сразу задется несколько input вопросов.
-    #   например, заполнить грамматическую таблицу.
-    template
-    route-get
-      load fill-questions
-    route-post
-    js-dynamic
-      показывать результат только когда все было введено
-      автофокус
-      горячки по tab/shift-tab
-  input: show translation
+    get-template
+      check next functionality
+      check back functionality
+      check submit functionality
+      styles:
+        весь текст, того что нужно заполнить должен быть серый
+        активный:
+          автофокус
+          заменять прочерк на input
+          подсвечивать активно желтым
+        не активные:
+          не пустые:
+            подсвечивать желтым
+            fix yellow-spaces:
+              те пробелы что добавляются не должны быть желтыми,
+              желтый должен применяться только к тексту
+          пустые:
+            подствлять подчеркивания
+            должны быть белым цветом
+      check hotkeys
+        back:   shift+tab/стрелочка вверх/стрелочка влево
+        next:   enter/tab/стрелочка вниз/стрелочка вправо
+        submit: enter
+    post-route
+    post-template
+      check NextQuestion
+      горячки:
+        NextQuestion - enter
+      styles:
+        добавить метод который правильно подсвечивает красным опечатки и зеленым правильно введенные символы
+
+  q-input:
+    csv:
+      переименовать translation в explanation
+      replace "_()" на "[]"
+    show translation
+    show hints
+    добавить метод который правильно подсвечивает красным опечатки и зеленым правильно введенные символы
+
   main menu:
-    add topic "total": суммарный результат по всем топикам + сумарныйе тесты по всем темам
     fix progress-bar
+    add topic "total": суммарный результат по всем топикам + сумарныйе тесты по всем темам
+
   suspicious - добавить кнопку отметить с ремаркой + is_suspicious,hash:
+    на все виды вопросов: choose/input/fill
     при запуске проверять suspicious, если hash поменялся:
       сносить прогресс у всех пользователей
       обновлять hash
       убирать is_suspicious
+
 # todo:
 #   input: A->S целиком пропечатывать предложение, показывая фоном что печатать правильно на англ, кроме clouse.
 #   main menu:

@@ -15,15 +15,12 @@ class Topic:
         self.path = f'data/topics/{self.id}_{self.name}'
         self.f_q_chooses = f'{self.path}/questions/chooses.csv'
         self.f_q_inputs = f'{self.path}/questions/inputs.csv'
-        self.d_q_fill = f'{self.path}/questions/fill'
+        self.d_q_fills = f'{self.path}/questions/fills'
         self.f_total = f'{self.path}/questions/_total.txt'
         self.qs = {
             'choose': pdo.load(self.f_q_chooses, allow_empty=True).to_dict(orient="records"),
-            # 'choose': {},
             'input': pdo.load(self.f_q_inputs, allow_empty=True).to_dict(orient="records"),
-            # 'input': {},
-            # 'fill': self.load_fill_questions()
-            'fill': {},
+            'fill': self.load_fill_questions()
         }
         self.upd_total()
         # TODO: просто дать ссылку на readme?
@@ -74,11 +71,22 @@ class Topic:
         return candidates.sample(frac=1).sample(n=1).iloc[0]
 
     def get_question(self, tid, q_kind, qid):
-        # Загружаем вопросы нужного типа
+        """
+        Получает вопрос указанного типа из self.qs.
+        Для q_fill работает с обычным списком, а не с DataFrame.
+        """
+        if q_kind not in self.qs:
+            raise ValueError(f"Invalid question type '{q_kind}' for topic {tid}.")
+        if q_kind == 'fill':
+            # fill-вопросы хранятся в списке
+            question = next((q for q in self.qs['fill'] if q['id'] == str(qid)), None)
+            if not question:
+                raise ValueError(f"Question ID {qid} not found in topic {tid} (type '{q_kind}').")
+            return question
+        # Для остальных типов работаем с DataFrame
         df_questions = pd.DataFrame(self.qs[q_kind])
         if df_questions.empty:
             raise ValueError(f"No questions found in topic {tid} for type '{q_kind}'.")
-        # Ищем нужный вопрос
         question = df_questions[df_questions['id'] == qid]
         if question.empty:
             raise ValueError(f"Question ID {qid} not found in topic {tid} (type '{q_kind}').")
@@ -97,18 +105,42 @@ class Topic:
         return formatted_question, correct_answer
 
     # === q.fill ===================================
-    # TODO
     def load_fill_questions(self):
-        """Загружает fill-вопросы из директории."""
+        """Загружает fill-вопросы из файлов и парсит их с учетом пропусков."""
         fill_questions = []
-        if os.path.exists(self.d_q_fill):
-            for filename in os.listdir(self.d_q_fill):
-                if filename.endswith('.txt'):
-                    filepath = os.path.join(self.d_q_fill, filename)
-                    with open(filepath, 'r', encoding='utf-8') as f:
-                        question_text = f.read().strip()
-                        fill_questions.append({'id': filename[:-4], 'question': question_text})
+        for filename in os.listdir(self.d_q_fills):
+            qid, qname = filename.split('_')
+            filepath = os.path.join(self.d_q_fills, filename)
+            with open(filepath, 'r', encoding='utf-8') as f:
+                question = f.read().strip()
+                formatted_question, answers = self.format_q_fill(question)
+                fill_questions.append({
+                    'id': qid,
+                    'name': qname,
+                    'question': formatted_question,
+                    'answers': answers
+                })
         return fill_questions
+
+    def format_q_fill(self, question):
+        """
+        Заменяет все [число.ответ] на placeholder в виде <span class="blank" data-num="число">____</span>,
+        где количество символов соответствует длине исходной строки [число.ответ].
+        Собирает правильные ответы в порядке возрастания номеров.
+        """
+        # Находим все [num.answer]
+        matches = re.findall(r'\[(\d+)\.(.*?)\]', question)
+        # Сортируем по возрастанию номера
+        ordered = sorted(matches, key=lambda x: int(x[0]))
+        answers = [f"[{num}.{ans}]" for num, ans in ordered]
+        
+        def replace_match(match):
+            num, answer = match.groups()
+            placeholder = '_' * len(f"[{num}.{answer}]")
+            return f'<span class="blank m0 p0" data-num="{int(num)}">{placeholder}</span>'
+        
+        formatted_question = re.sub(r'\[(\d+)\.(.*?)\]', replace_match, question)
+        return formatted_question, answers
 
     # === total ===================================
     def upd_total(self):

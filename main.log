@@ -1317,3 +1317,39 @@ estimation                  F
 key                   input_2
 estimation_numeric          1
 Name: 10, dtype: object
+2025-02-27 21:38:30,462:main:INFO: id                          3
+topic_id                    0
+question_kind           input
+question_id                 1
+points                      0
+estimation                  F
+key                   input_1
+estimation_numeric          1
+Name: 3, dtype: object
+2025-02-27 21:38:40,889:main:INFO: id                          3
+topic_id                    0
+question_kind           input
+question_id                 1
+points                      1
+estimation                  F
+key                   input_1
+estimation_numeric          1
+Name: 3, dtype: object
+2025-02-27 21:38:46,594:main:INFO: id                          3
+topic_id                    0
+question_kind           input
+question_id                 1
+points                      2
+estimation                  F
+key                   input_1
+estimation_numeric          1
+Name: 3, dtype: object
+2025-02-27 21:38:51,380:main:INFO: id                          3
+topic_id                    0
+question_kind           input
+question_id                 1
+points                      3
+estimation                  D
+key                   input_1
+estimation_numeric          2
+Name: 3, dtype: object

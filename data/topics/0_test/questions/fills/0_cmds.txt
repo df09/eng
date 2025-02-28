@@ -1,4 +1,0 @@
-Fill in the missing part:
-  Command  | Action
-  _(ls -l) | Show files
-  _(df -h) | Disk usage

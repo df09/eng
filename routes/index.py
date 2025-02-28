@@ -42,7 +42,6 @@ def topic(tid):
     user = get_current_user()
     topic = Topic(tid, topics.data[tid])
     question = topic.choose_question(user.df_progress)
-    logger.info(question)
     q_kind = question["question_kind"]
     qid = question["question_id"]
     routes = {'choose': 'index.q_choose', 'input': 'index.q_input', 'fill': 'index.q_fill'}
@@ -132,4 +131,47 @@ def q_fill(tid, qid):
     topic = Topic(tid, topics.data[tid])
     q = topic.get_question(tid, 'fill', qid)
 
-    return render_template('q_fill.html', page='q_fill', tid=tid, tname=topic.name, q=q)
+    # Получаем прогресс
+    progress = user.get_progress(tid, 'fill', qid)
+
+    # Если 'estimation' отсутствует или некорректен, ставим F по умолчанию
+    estimation = progress.get("estimation", "F")
+    if estimation not in user.estimate_ranges:
+        estimation = "F"
+
+    # Получаем пороговое значение (верхняя граница диапазона)
+    threshhold = user.estimate_ranges[estimation][1]
+
+    # Добавляем `threshhold` в `progress`
+    progress["threshhold"] = threshhold
+
+    if request.method == 'POST':
+        answers = [ans.strip() for ans in request.form.getlist('answers')]
+        correct_answers = [ans.strip() for ans in q["answers"]]
+        result = answers == correct_answers
+
+        # Обновляем прогресс
+        user.save_progress(tid, 'fill', qid, result)
+        progress = user.get_progress(tid, 'fill', qid)
+
+        # Повторно вычисляем 'threshhold'
+        estimation = progress.get("estimation", "F")
+        if estimation not in user.estimate_ranges:
+            estimation = "F"
+        progress["threshhold"] = user.estimate_ranges[estimation][1]
+
+        return jsonify({
+            "success": True,
+            "question": q["question"],
+            "selected": answers,
+            "correct": correct_answers,
+            "is_correct": result,
+            "next_question_url": url_for('index.topic', tid=tid) if result else "",
+            "progress": {
+                "estimation": progress["estimation"],
+                "points": progress["points"],
+                "threshhold": progress["threshhold"]
+            }
+        })
+
+    return render_template('q_fill.html', page='q_fill', tid=tid, tname=topic.name, q=q, progress=progress)

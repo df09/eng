@@ -1,5 +1,0 @@
-Bash script to _(list files) in current dir:
-```
-#!/bin/bash
-ls -l
-```
