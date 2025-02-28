@@ -15,7 +15,7 @@
       <div class="title p5">{% block header %}Header{% endblock %}</div>
       {% if page not in ['login', 'register'] %}
         <div class="logout">
-          <a href="{{ url_for('auth.logout') }}" class="logout-btn">Logout</a>
+          <a href="{{ url_for('auth.logout') }}" class="logout-btn ai-end pb5">Logout</a>
         </div>
       {% endif %}
     </header>
