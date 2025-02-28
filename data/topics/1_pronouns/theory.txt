@@ -1,107 +1,23 @@
-ПРОЙТИСЬ ПО ВЗАИМОЗАМЕНЯЕМОСТИ ВО ВСЕХ КАТЕГОРИЯХ МЕСТОИМЕНИЙ
-ПРОЙТИСЬ ПО ВЗАИМОЗАМЕНЯЕМОСТИ ВО ВСЕХ КАТЕГОРИЯХ МЕСТОИМЕНИЙ
-ПРОЙТИСЬ ПО ВЗАИМОЗАМЕНЯЕМОСТИ ВО ВСЕХ КАТЕГОРИЯХ МЕСТОИМЕНИЙ
+сделать в таком же стиле:
+  Personal Pronouns, subject form (личные местоимения, именительный падеж):
+    id;question;translation
+    0;[I:g.personal-subj,n.s,p.1] am here.;Я здесь.
+    1;[I:g.personal-subj,n.s,p.1] like coffee.;Мне нравится кофе.
+  indefinite pronouns (неопределённые местоимения):
+    id;pronouns;question;translation
+    0;some;I need [some:g.indef,n.s,uncountable,inanimate,f.ntrl] water.;Мне нужно немного воды.
+    1;some;Some [some:g.indef,n.p,countable,animate,f.ntrl] people enjoy reading.;Некоторым людям нравится читать.
+    2;some;Could you lend me [some:g.indef,n.s,uncountable,inanimate,f.ntrl] money?;Можешь одолжить мне немного денег?
+  ...
 
-заменить _() на []
-
-ввести уточнительный словарик терминов:
+id долежен начинаться с 0.
+чтобы избежать взаимозамяемости добавь в [pronoun:XXX]
+используя нотацию:
   Number(Число)/Person(Лицо): Singular/Plural [s/p] + 1st/2nd/3rd(masc/fem/neut) [1/2/3/3m/3f/3n]
   Countability(Исчисляемость): Countable/Uncountable [c.countable/uncountable]
   Animacy(Одушевлённость): Animate/Inanimate [a.animate/inanimate]
   Formality(Формальность): Slang/Colloquial/Informal/Neutral/Formal [f.slng/coll/infr/ntrl/frml]
+  Distinction(разграничение): 1/2/1of2/Group/1ofGroup/Absolute [d.1/2/1of2/grp/1ofgrp/abs]
+  Emphasize(Подчеркивание-контекста): <Emphasize> [e.<emphasize>]
   ...
-
-сделать в таком же стиле:
-  Personal Pronouns, object form (личные местоимения, косвенные падежи):
-    id;question;translation
-    80;He saw _(me:s1).;Он видел меня.
-    81;They invited _(me:s1) to the party.;Они пригласили меня на вечеринку.
-    130;I saw _(him:s3m).;Я видел его в парке.
-    239;Tell _(them:p3) the truth.;Скажи им правду.
-    240;I trust _(them:p3).;Я доверяю им.
-    ...
-  после ":" идет указание числа лица и рода: s/p - число. 1/2/3m/3f/3n - лицо, род.
-  id долежен начинаться с 0.
-  чтобы избежать взаимозамяемости добать в _(pronoun:XXX)
-  используя нотацию:
-    Number(Число)/Person(Лицо): Singular/Plural [s/p] + 1st/2nd/3rd(masc/fem/neut) [1/2/3/3m/3f/3n]
-    Countability(Исчисляемость): Countable/Uncountable [c.countable/uncountable]
-    Animacy(Одушевлённость): Animate/Inanimate [a.animate/inanimate]
-    Formality(Формальность): Slang/Colloquial/Informal/Neutral/Formal [f.slng/coll/infr/ntrl/frml]
-  вместо XXX категории:
-    Animacy (Одушевлённость)
-    Formality (Формальность)
-    Number & Agreement (Число и согласование)
-
 вот это:
-  indefinite pronouns (неопределённые местоимения):
-  id  pronouns            question                                           translation
-  355 some                I need some water.                                 Мне нужно немного воды.
-  356 some                Some people enjoy reading.                         Некоторым людям нравится читать.
-  357 some                Could you lend me some money?                      Можешь одолжить мне немного денег?
-  358 some                She brought some flowers.                          Она принесла немного цветов.
-  359 some                We have some news to share.                        У нас есть новости, которыми мы хотим поделиться.
-  360 any                 Do you have any questions?                         У вас есть какие-нибудь вопросы?
-  361 any                 You can choose any book you like.                  Ты можешь выбрать любую книгу, которая тебе нравится.
-  362 any                 Is there any food left?                            Осталась ли какая-нибудь еда?
-  363 any                 I didn’t see any difference.                       Я не заметил никакой разницы.
-  364 any                 Do you know any good restaurants nearby?           Ты знаешь какие-нибудь хорошие рестораны поблизости?
-  365 none                None of them came.                                 Никто из них не пришёл.
-  366 none                None of the answers were correct.                  Ни один из ответов не был правильным.
-  367 none                None of the students passed the test.              Ни один из студентов не сдал тест.
-  368 none                There’s none left in the fridge.                   В холодильнике ничего не осталось.
-  369 none                None of us knew about it.                          Никто из нас не знал об этом.
-  370 all                 All is well.                                       Всё хорошо.
-  371 all                 All the students passed the exam.                  Все студенты сдали экзамен.
-  372 all                 She gave all her time to the project.              Она отдала всё своё время проекту.
-  373 all                 All of us were excited.                            Все мы были взволнованы.
-  374 all                 All the cookies are gone.                          Все печенья закончились.
-  375 one                 One should always be polite.                       Всегда нужно быть вежливым.
-  376 one                 One of the students is absent.                     Один из студентов отсутствует.
-  377 one                 Do you want one or two cups of coffee?             Ты хочешь одну или две чашки кофе?
-  378 one                 One must respect others.                           Нужно уважать других.
-  379 one                 She bought one for herself.                        Она купила один для себя.
-  380 someone             Someone is at the door.                            Кто-то у двери.
-  381 someone             Someone left their phone here.                     Кто-то оставил здесь свой телефон.
-  382 someone             She met someone new yesterday.                     Она встретила кого-то нового вчера.
-  383 someone             Someone should take responsibility.                Кто-то должен взять на себя ответственность.
-  384 someone             Is someone coming to help us?                      Кто-то придёт, чтобы помочь нам?
-  385 anyone              Is there anyone who can help?                      Есть кто-нибудь, кто может помочь?
-  386 anyone              Anyone can join the club.                          Любой может вступить в клуб.
-  387 anyone              Did anyone call while I was out?                   Кто-нибудь звонил, пока меня не было?
-  388 anyone              Does anyone know the answer?                       Кто-нибудь знает ответ?
-  389 anyone              Anyone can learn to swim.                          Каждый может научиться плавать.
-  390 no one              No one knows the answer.                           Никто не знает ответа.
-  391 no one              No one came to the meeting.                        Никто не пришёл на встречу.
-  392 no one              No one can solve this problem.                     Никто не может решить эту проблему.
-  393 no one              She told no one about her plans.                   Она никому не рассказала о своих планах.
-  394 no one              No one is allowed to enter.                        Никому не разрешено входить.
-  395 everyone            Everyone is here.                                  Все здесь.
-  396 everyone            Everyone enjoyed the party.                        Всем понравилась вечеринка.
-  397 everyone            Everyone should contribute to the project.         Каждый должен внести свой вклад в проект.
-  398 everyone            Everyone knows the story.                          Все знают эту историю.
-  399 everyone            Everyone is welcome to join.                       Всем рады присоединиться.
-  400 somebody            Somebody left their bag.                           Кто-то оставил свою сумку.
-  401 somebody            Somebody is waiting for you outside.               Кто-то ждёт тебя снаружи.
-  402 somebody            Somebody called while you were out.                Кто-то звонил, пока тебя не было.
-  403 somebody            I think somebody forgot their keys.                Думаю, кто-то забыл свои ключи.
-  404 somebody            Somebody needs to take action.                     Кто-то должен принять меры.
-  405 anybody             Anybody can do it.                                 Кто угодно может это сделать.
-  406 anybody             Is there anybody home?                             Есть кто-нибудь дома?
-  407 anybody             Does anybody know where she is?                    Кто-нибудь знает, где она?
-  408 anybody             Anybody can join this event.                       Любой может присоединиться к этому событию.
-  409 anybody             I didn’t see anybody there.                        Я никого там не видел.
-  410 nobody              Nobody was home.                                   Никого не было дома.
-  411 nobody              Nobody called me today.                            Никто не звонил мне сегодня.
-  412 nobody              Nobody understands this problem.                   Никто не понимает эту проблему.
-  413 nobody              Nobody has the answer.                             Никто не знает ответа.
-  414 nobody              Nobody can replace her.                            Никто не может её заменить.
-  415 everybody           Everybody loves music.                             Все любят музыку.
-  416 everybody           Everybody was invited to the party.                Все были приглашены на вечеринку.
-  417 everybody           Does everybody agree with this idea?               Все согласны с этой идеей?
-  418 everybody           Everybody is working hard.                         Все работают усердно.
-  419 everybody           Everybody should have a chance to speak.           У всех должна быть возможность высказаться.
-
-
-
-
