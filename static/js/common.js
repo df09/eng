@@ -10,10 +10,7 @@ function getEl(selector, pass=false) {
     const e = document.getElementById(selector.slice(1));
     if (!e) {
       if (pass) {return false}
-      tmUi.abort({
-        title: 'helpers.getEl:',
-        msg: '"'+selector+'" not found.'
-      })
+      alert('"'+selector+'" not found.')
     }
     return e;
   }
@@ -21,16 +18,10 @@ function getEl(selector, pass=false) {
   const els = document.querySelectorAll(selector);
   if (els.length === 0) {
     if (pass) {return false}
-    tmUi.abort({
-      title: 'helpers.getEl:',
-      msg: '"'+selector+'" not found.'
-    })
+    alert('"'+selector+'" not found.')
   }
   if (els.length > 1) {
-    tmUi.abort({
-      title: 'helpers.getEl:',
-      msg: '"'+selector+'" multiple found.'
-    })
+    alert('"'+selector+'" multiple found.')
   }
   e = els[0];
   console.log(selector, e);
@@ -40,10 +31,7 @@ function getEls(selector, pass=false) {
   const els = document.querySelectorAll(selector);
   if (els.length === 0) {
     if (pass) { return false; }
-    tmUi.abort({
-      title: 'helpers.getEls:',
-      msg: '"' + selector + '" not found.'
-    });
+    alert('"' + selector + '" not found.');
   }
   console.log('getEls "' + selector + '":', els);
   return els;

@@ -1,43 +1,16 @@
 mk:
   q-fill:
-    get-template
-      check next functionality
-      check back functionality
-      check submit functionality
-      styles:
-        весь текст, того что нужно заполнить должен быть серый
-        активный:
-          автофокус
-          заменять прочерк на input
-          подсвечивать активно желтым
-        не активные:
-          не пустые:
-            подсвечивать желтым
-            fix yellow-spaces:
-              те пробелы что добавляются не должны быть желтыми,
-              желтый должен применяться только к тексту
-          пустые:
-            подствлять подчеркивания
-            должны быть белым цветом
-      check hotkeys
-        back:   shift+tab/стрелочка вверх/стрелочка влево
-        next:   enter/tab/стрелочка вниз/стрелочка вправо
-        submit: enter
-    post-route
-    post-template
-      check NextQuestion
-      горячки:
-        NextQuestion - enter
-      styles:
-        добавить метод который правильно подсвечивает красным опечатки и зеленым правильно введенные символы
+    post-template styles: добавить метод который правильно подсвечивает красным опечатки и зеленым правильно введенные символы
+    get-template: styles: весь текст, того что нужно заполнить должен быть серый
 
   q-input:
-    csv:
-      переименовать translation в explanation
-      replace "_()" на "[]"
-    show translation
     show hints
     добавить метод который правильно подсвечивает красным опечатки и зеленым правильно введенные символы
+
+  q-fill/q-input:
+    show translation
+    показывать стату по теме тоже сразу сверху
+    q - менять на a
 
   main menu:
     fix progress-bar

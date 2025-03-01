@@ -4,27 +4,29 @@
   <a href='{{ url_for('index.index') }}'>MainMenu</a><span>/{{ tid }}.{{ tname }}/Q-Fill</span>
 {% endblock %}
 {% block content %}
-<section class="q_fill">
+<section class='q_fill'>
   <p class='m0'>
-    <strong class='estimation {{ progress.estimation }} mr5'>{{ progress.estimation }}:</strong>
-    <span class='w'>{{ progress.points }}/{{ progress.threshhold }}</span>
+    <strong id='estimation' class='estimation {{ progress.estimation }} mr5'>{{ progress.estimation }}:</strong>
+    <span id='points' class='points w'>{{ progress.points }}/{{ progress.threshhold }}</span>
   </p>
   <p class='m0'>
     <strong class='b bg-b mr5'>Q:</strong>
     <span>Please fill in the gaps.<span>
   </p>
-  <pre id="question-text" class="question-block">{{ q.question | safe }}</pre>
-
-  <form id='q-fill-form' class='q-fill-form dflex col jc-between pt10 pb5'
-        autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" 
-        action='{{ url_for("index.q_fill", tid=tid, qid=q.id) }}' method="post">
-    
-    <input id="q-fill-input" class="q-fill-input m0 p0" type="text" name="answer" required autofocus>
-
-    <div class='submit-section dflex row jc-start ai-center mt5'>
-      <button id='back-question' type="button" class='btn btn-y dnone'>Back</button>
-      <button id='next-question' type="button" class='btn btn-g'>Next</button>
-      <button id='q-fill-submit' type='submit' class='dnone btn btn-g'>Submit</button>
+  <pre id='question-text' class='question-block'>{{ q.question | safe }}</pre>
+  <form id='question-form' class='question-form dflex col jc-between pt10 pb5'
+        autocomplete='off' autocorrect='off' autocapitalize='off' spellcheck='false'
+        action='{{ url_for("index.q_fill", tid=tid, qid=q.id) }}' method='post'>
+    <input id='form-input' class='form-input m0 p0'
+      autocomplete='off' autocorrect='off' autocapitalize='off' spellcheck='false'
+      type='text' name='answer' required autofocus>
+    <div class='form-btns-section dflex row jc-start ai-center mt5'>
+      <button id='form-btn-back' type='button' class='form-btn-back dnone btn btn-b'>Back</button>
+      <button id='form-btn-next' type='button' class='form-btn-next dnone btn btn-b'>Next</button>
+      <button id='form-btn-submit' type='submit' class='form-btn-submit dnone btn btn-g'>Submit</button>
+      <button id='form-btn-next-question' class='form-btn-next-question dnone btn'>Next Question</button>
+      <p id='msg-result' class='msg-result dnone m0 p0 pl10'></p>
+      <p id='msg-empty' class='dnone msg-empty r m0 p0 pl10'>The input field should not be empty.</p>
     </div>
   </form>
 </section>

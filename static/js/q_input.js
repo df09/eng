@@ -1,13 +1,13 @@
 document.addEventListener('DOMContentLoaded', function () {
-  const eEstimation = document.querySelector('.estimation');
-  const ePoints = eEstimation.nextElementSibling;
-  const eQuestion = document.querySelector('.b.bg-b + span');
-  const eForm = document.getElementById('q-input-form');
-  const eInput = document.getElementById('q-input');
-  const eSubmit = document.getElementById('q-input-submit');
-  const eNext = document.getElementById('next-question');
-  const eMsg = document.getElementById('result-message');
-  const eMsgSelect = document.getElementById('msg-select');
+  const eEstimation = getEl('#estimation');
+  const ePoints = getEl('#points');
+  const eQuestion = getEl('#question-text');
+  const eForm = getEl('#question-form');
+  const eInput = getEl('#form-input');
+  const eSubmit = getEl('#form-btn-submit');
+  const eNextQuestion = getEl('#next-question');
+  const eMsgResult = getEl('#msg-result');
+  const eMsgEmpty = getEl('#msg-empty');
 
   let submitted = false;
   // Автофокус на поле ввода
@@ -18,10 +18,10 @@ document.addEventListener('DOMContentLoaded', function () {
     if (submitted) return;
     // Проверяем, введено ли хоть что-то
     if (!eInput.value.trim()) {
-      remCls(eMsgSelect, 'dnone');
+      remCls(eMsgEmpty, 'dnone');
       return;
     }
-    addCls(eMsg, 'dnone');
+    addCls(eMsgResult, 'dnone');
     submitted = true;
     const formData = new FormData(eForm);
     fetch(eForm.action, { method: 'POST', body: formData })
@@ -40,20 +40,20 @@ document.addEventListener('DOMContentLoaded', function () {
           eQuestion.innerHTML = eQuestion.innerHTML.replace('___', correctSpan.outerHTML);
           // input
           eInput.disabled = true;
-          // submit/next
+          // submit/eNextQuestion
           addCls(eSubmit, 'dnone', data.is_correct ? 'btn-g' : 'btn-r');
-          remCls(eNext, 'dnone');
-          addCls(eNext, data.is_correct ? 'btn-g' : 'btn-r');
-          // result-message
-          remCls(eMsg, 'dnone', 'g', 'r');
-          addCls(eMsg, data.is_correct ? 'g' : 'r');
-          eMsg.textContent = data.is_correct ? 'Correct!' : 'Incorrect.';
+          remCls(eNextQuestion, 'dnone');
+          addCls(eNextQuestion, data.is_correct ? 'btn-g' : 'btn-r');
+          // msg-result
+          remCls(eMsgResult, 'dnone', 'g', 'r');
+          addCls(eMsgResult, data.is_correct ? 'g' : 'r');
+          eMsgResult.textContent = data.is_correct ? 'Correct!' : 'Incorrect.';
         }
       }).catch(error => console.error('Error:', error));
   });
 
-  // Обработчик кнопки "Next"
-  eNext.addEventListener('click', () => {
+  // Обработчик кнопки "eNextQuestion"
+  eNextQuestion.addEventListener('click', () => {
     const match = window.location.pathname.match(/\/topic\/(\d+)\//);
     if (match) {
       window.location.href = '/topic/' + match[1];
@@ -63,9 +63,9 @@ document.addEventListener('DOMContentLoaded', function () {
   // Горячие клавиши
   document.addEventListener('keydown', (event) => {
     if (submitted) {
-      if (event.key === 'Enter' && !eNext.classList.contains('dnone')) {
+      if (event.key === 'Enter' && !eNextQuestion.classList.contains('dnone')) {
         event.preventDefault();
-        setTimeout(() => eNext.click(), 50);
+        setTimeout(() => eNextQuestion.click(), 50);
       }
       return;
     }

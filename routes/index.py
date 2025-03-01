@@ -26,11 +26,14 @@ def get_current_user():
     return g.user_obj
 
 # === main menu ===================================
+@index_bp.route('/img/favicon.ico')
+def favicon():
+    return send_from_directory('static', 'img/favicon.ico', mimetype='image/vnd.microsoft.icon')
 @index_bp.route('/')
 @login_required
 def index():
     user = get_current_user()
-    stats = user.df_stats.to_dict(orient="records")
+    stats = user.df_stats.to_dict(orient='records')
     return render_template('index.html', page='index', topics=topics.data, stats=stats)
 
 # === topic ===================================
@@ -42,8 +45,8 @@ def topic(tid):
     user = get_current_user()
     topic = Topic(tid, topics.data[tid])
     question = topic.choose_question(user.df_progress)
-    q_kind = question["question_kind"]
-    qid = question["question_id"]
+    q_kind = question['question_kind']
+    qid = question['question_id']
     routes = {'choose': 'index.q_choose', 'input': 'index.q_input', 'fill': 'index.q_fill'}
     return redirect(url_for(routes.get(q_kind, 'index.unknown_question'), tid=tid, qid=qid))
 
@@ -54,25 +57,25 @@ def q_choose(tid, qid):
     user = get_current_user()
     topic = Topic(tid, topics.data[tid])
     q = topic.get_question(tid, 'choose', qid)
-    options = [opt.strip() for opt in q["options"].split(";")]
+    options = [opt.strip() for opt in q['options'].split(';')]
     shuffle(options)
     # progress
     progress = user.get_progress(tid, 'choose', qid)
     # post
     if request.method == 'POST':
         selected_answers = {opt.strip() for opt in request.form.getlist('answer')}
-        correct_answers = {opt.strip() for opt in q["correct"].split(";")}
+        correct_answers = {opt.strip() for opt in q['correct'].split(';')}
         result = selected_answers == correct_answers
         # progress
         user.save_progress(tid, 'choose', qid, result)
         progress = user.get_progress(tid, 'choose', qid)
 
         return jsonify({
-            "success": True,
-            "question": q["question"],
-            "selected": list(selected_answers),
-            "correct": list(correct_answers),
-            "is_correct": result,
+            'success': True,
+            'question': q['question'],
+            'selected': list(selected_answers),
+            'correct': list(correct_answers),
+            'is_correct': result,
             'progress': {
                 'estimation': progress['estimation'],
                 'points': progress['points'],
@@ -99,22 +102,22 @@ def q_input(tid, qid):
     # post
     if request.method == 'POST':
         answer = request.form.get('answer', '').strip()
-        correct_answer = q["correct"].strip()
+        correct_answer = q['correct'].strip()
         result = answer.lower() == correct_answer.lower()
         # progress
         user.save_progress(tid, 'input', qid, result)
         progress = user.get_progress(tid, 'input', qid)
         return jsonify({
-            "success": True,
-            "question": q["question"],
-            "selected": answer,
-            "correct": correct_answer,
-            "is_correct": result,
-            "next_question_url": url_for('index.topic', tid=tid) if result else "",
-            "progress": {
-                "estimation": progress["estimation"],
-                "points": progress["points"],
-                "threshhold": user.estimate_ranges[progress["estimation"]][1]
+            'success': True,
+            'question': q['question'],
+            'selected': answer,
+            'correct': correct_answer,
+            'is_correct': result,
+            'next_question_url': url_for('index.topic', tid=tid) if result else '',
+            'progress': {
+                'estimation': progress['estimation'],
+                'points': progress['points'],
+                'threshhold': user.estimate_ranges[progress['estimation']][1]
             }
         })
     return render_template('q_input.html', page='q_input', tid=tid, tname=topic.name, q=q, progress={
@@ -130,48 +133,30 @@ def q_fill(tid, qid):
     user = get_current_user()
     topic = Topic(tid, topics.data[tid])
     q = topic.get_question(tid, 'fill', qid)
-
-    # Получаем прогресс
+    # progress
     progress = user.get_progress(tid, 'fill', qid)
-
-    # Если 'estimation' отсутствует или некорректен, ставим F по умолчанию
-    estimation = progress.get("estimation", "F")
-    if estimation not in user.estimate_ranges:
-        estimation = "F"
-
-    # Получаем пороговое значение (верхняя граница диапазона)
-    threshhold = user.estimate_ranges[estimation][1]
-
-    # Добавляем `threshhold` в `progress`
-    progress["threshhold"] = threshhold
-
     if request.method == 'POST':
         answers = [ans.strip() for ans in request.form.getlist('answers')]
-        correct_answers = [ans.strip() for ans in q["answers"]]
+        correct_answers = [ans.strip() for ans in q['answers']]
         result = answers == correct_answers
-
-        # Обновляем прогресс
+        # progress
         user.save_progress(tid, 'fill', qid, result)
         progress = user.get_progress(tid, 'fill', qid)
-
-        # Повторно вычисляем 'threshhold'
-        estimation = progress.get("estimation", "F")
-        if estimation not in user.estimate_ranges:
-            estimation = "F"
-        progress["threshhold"] = user.estimate_ranges[estimation][1]
-
         return jsonify({
-            "success": True,
-            "question": q["question"],
-            "selected": answers,
-            "correct": correct_answers,
-            "is_correct": result,
-            "next_question_url": url_for('index.topic', tid=tid) if result else "",
-            "progress": {
-                "estimation": progress["estimation"],
-                "points": progress["points"],
-                "threshhold": progress["threshhold"]
+            'success': True,
+            'question': q['question'],
+            'selected': answers,
+            'correct': correct_answers,
+            'is_correct': result,
+            'next_question_url': url_for('index.topic', tid=tid) if result else '',
+            'progress': {
+                'estimation': progress['estimation'],
+                'points': progress['points'],
+                'threshhold': user.estimate_ranges[progress['estimation']][1]
             }
         })
-
-    return render_template('q_fill.html', page='q_fill', tid=tid, tname=topic.name, q=q, progress=progress)
+    return render_template('q_fill.html', page='q_fill', tid=tid, tname=topic.name, q=q, progress={
+        'estimation': progress['estimation'],
+        'points': progress['points'],
+        'threshhold': user.estimate_ranges[progress['estimation']][1]
+    })

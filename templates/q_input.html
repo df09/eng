@@ -4,24 +4,24 @@
   <a href='{{ url_for('index.index') }}'>MainMenu</a><span>/{{ tid }}.{{ tname }}/Q-Input</span>
 {% endblock %}
 {% block content %}
-<section class="q_input">
+<section class='q_input'>
   <p class='m0'>
-    <strong class='estimation {{ progress.estimation }} mr5'>{{ progress.estimation }}:</strong>
-    <span class='w'>{{ progress.points }}/{{ progress.threshhold }}</span>
+    <strong id='estimation' class='estimation {{ progress.estimation }} mr5'>{{ progress.estimation }}:</strong>
+    <span id='points' class='points w'>{{ progress.points }}/{{ progress.threshhold }}</span>
   </p>
   <p class='m0'>
     <strong class='b bg-b mr5'>Q:</strong>
-    <span>{{ q.question }}<span>
+    <span id='question-text'>{{ q.question }}<span>
   </p>
-  <form id='q-input-form' class='q-input-form dflex col jc-between pt10 pb5'
-    autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" 
-    action='{{ url_for("index.q_input", tid=tid, qid=q.id) }}' method="post">
-    <input id="q-input" class="q-input-input" type="text" name="answer" placeholder="Your answer..." required autofocus>
+  <form id='question-form' class='question-form dflex col jc-between pt10 pb5'
+    autocomplete='off' autocorrect='off' autocapitalize='off' spellcheck='false' 
+    action='{{ url_for("index.q_input", tid=tid, qid=q.id) }}' method='post'>
+    <input id='form-input' class='form-input' type='text' name='answer' placeholder='Your answer...' required autofocus>
     <div class='submit-section dflex row jc-start ai-center mt5'>
-      <button id='q-input-submit' type='submit' class='submit btn btn-g'>Submit</button>
+      <button id='form-btn-submit' type='submit' class='submit btn btn-g'>Submit</button>
       <button id='next-question' class='next-question dnone btn'>Next Question</button>
-      <p id='result-message' class='result-message dnone m0 p0 pl10'></p>
-      <p id="msg-select" class="dnone result-message r m0 p0 pl10">Please select at least one option.</p>
+      <p id='msg-result' class='msg-result dnone m0 p0 pl10'></p>
+      <p id='msg-empty' class='dnone msg-empty r m0 p0 pl10'>Please select at least one option.</p>
     </div>
   </form>
 </section>
