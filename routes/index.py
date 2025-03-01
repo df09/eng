@@ -64,8 +64,8 @@ def q_choose(tid, qid):
     # post
     if request.method == 'POST':
         selected_answers = {opt.strip() for opt in request.form.getlist('answer')}
-        correct_answers = {opt.strip() for opt in q['correct'].split(';')}
-        result = selected_answers == correct_answers
+        raw_answers = {opt.strip() for opt in q['correct'].split(';')}
+        result = selected_answers == raw_answers
         # progress
         user.save_progress(tid, 'choose', qid, result)
         progress = user.get_progress(tid, 'choose', qid)
@@ -74,7 +74,7 @@ def q_choose(tid, qid):
             'success': True,
             'question': q['question'],
             'selected': list(selected_answers),
-            'correct': list(correct_answers),
+            'correct': list(raw_answers),
             'is_correct': result,
             'progress': {
                 'estimation': progress['estimation'],
@@ -133,21 +133,28 @@ def q_fill(tid, qid):
     user = get_current_user()
     topic = Topic(tid, topics.data[tid])
     q = topic.get_question(tid, 'fill', qid)
-    # progress
     progress = user.get_progress(tid, 'fill', qid)
+
     if request.method == 'POST':
-        answers = [ans.strip() for ans in request.form.getlist('answers')]
-        correct_answers = [ans.strip() for ans in q['answers']]
-        result = answers == correct_answers
-        # progress
+        user_answers = request.form.get('answers', '').strip()
+        raw_correct_answers = [ans.strip() for ans in q['answers']]
+        correct_answers = []
+        
+        for ans in raw_correct_answers:
+            match = re.search(r"\[1\.(.*?)\]", ans)
+            correct_answers.append(match.group(1).strip() if match else "")
+        
+        result = user_answers in correct_answers
         user.save_progress(tid, 'fill', qid, result)
         progress = user.get_progress(tid, 'fill', qid)
+        
         return jsonify({
             'success': True,
             'question': q['question'],
-            'selected': answers,
-            'correct': correct_answers,
-            'is_correct': result,
+            'user_answers': user_answers,
+            'raw_correct_answers': raw_correct_answers,
+            'correct_answers': correct_answers,
+            'result': result,
             'next_question_url': url_for('index.topic', tid=tid) if result else '',
             'progress': {
                 'estimation': progress['estimation'],
@@ -155,6 +162,7 @@ def q_fill(tid, qid):
                 'threshhold': user.estimate_ranges[progress['estimation']][1]
             }
         })
+    
     return render_template('q_fill.html', page='q_fill', tid=tid, tname=topic.name, q=q, progress={
         'estimation': progress['estimation'],
         'points': progress['points'],

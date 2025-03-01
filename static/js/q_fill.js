@@ -33,89 +33,85 @@ document.addEventListener('DOMContentLoaded', function () {
     eBlank.appendChild(eInput);
     eInput.focus();
   }
+  function highlightMistakes(userInput, correctInput) {
+    let resultHTML = '';
+    let len = Math.max(userInput.length, correctInput.length);
+    for (let i = 0; i < len; i++) {
+      let userChar = userInput[i] || ' ';
+      let correctChar = correctInput[i] || ' ';
+      let styles = userChar === correctChar ? 'g bg-g': 'r bg-r';
+      resultHTML += styles ? '<span class="' + styles + '">' + correctChar + '</span>' : correctChar;
+    }
+    return resultHTML;
+  }
 
   // actions
   function actionBack() {
     const eBlank = eBlanks[idx];
-    // upd old input
     eBlank.innerHTML = '_'.repeat(parseInt(eBlank.dataset.maxlength, 10));
     remCls(eBlank, 'filled', 'y', 'bg-y');
-    // upd new input
     answers.pop();
     idx--;
     underline2blank();
-    // upd buttons and messages
     updateButtonsAndMessages();
   }
   function actionNext() {
     const userInput = eInput.value.trim();
     const eBlank = eBlanks[idx];
-    // check empty input
     if (!userInput) { show(eMsgEmpty); eInput.focus(); return; }
-    // upd old input
     answers[idx] = userInput;
     eBlank.innerHTML = userInput.padEnd(parseInt(eBlank.dataset.maxlength, 10), ' ');
     addCls(eBlank, 'filled', 'y', 'bg-y');
-    // upd new input
     if (idx < eBlanks.length - 1) {
       idx++;
       underline2blank();
     }
-    // upd buttons
     updateButtonsAndMessages();
   }
   function actionSubmit() {
     const userInput = eInput.value.trim();
     const eBlank = eBlanks[idx];
-    // check empty input
     if (!userInput) { show(eMsgEmpty); eInput.focus(); return; }
-    // upd old input
     answers[idx] = userInput;
     eBlank.innerHTML = userInput.padEnd(parseInt(eBlank.dataset.maxlength, 10), ' ');
     addCls(eBlank, 'filled', 'y', 'bg-y');
-    // post data
+    
     fetch(eForm.action, {
       method: 'POST',
       body: new FormData(eForm)
     })
     .then(response => response.json())
     .then(data => {
-      // upd estimation
+      console.log('---------------');
+      console.log('data:');
+      console.log(data);
+      // estimation
       remCls(eEstimation, 'F', 'D', 'C', 'B', 'A');
-      console.log('data.progress:')
-      console.log(data.progress)
       addCls(eEstimation, data.progress.estimation);
       eEstimation.textContent = data.progress.estimation + ':';
       ePoints.textContent = data.progress.points + '/' + data.progress.threshhold;
-      // spellcheck blanks
-      function highlightMistakes(userInput, correctInput) {
-          let resultHTML = "";
-          let len = Math.max(userInput.length, correctInput.length);
-          for (let i = 0; i < len; i++) {
-              let userChar = userInput[i] || "";
-              let correctChar = correctInput[i] || "";
-              if (userChar === correctChar) {
-                  resultHTML += userChar;
-              } else {
-                  resultHTML += `<span class="error">${userChar || " "}</span>`;
-              }
-          }
-          return resultHTML;
-      }
-      data.correct.forEach((correctAnswer, i) => {
-          let eBlank = eBlanks[i];
-          let userAnswer = answers[i] || "";
-          if (userAnswer !== correctAnswer) {
-              eBlank.innerHTML = highlightMistakes(userAnswer, correctAnswer);
-              addCls(eBlank, 'bg-r');  // Красная подсветка ошибки
+      // spellcheck
+      eBlanks.forEach((e, i) => {
+          remCls(e, 'y', 'bg-y');
+          let userAnswer = answers[i].trim();
+          let correctAnswer = data.correct[i].replace(/^\[\d+\./, '').trim().slice(0, -1).trim();
+          let maxLength = parseInt(e.dataset.maxlength, 10);
+          let paddedCorrectAnswer = correctAnswer.padEnd(maxLength, ' ');
+          console.log('------------------------');
+          console.log('userAnswer:', userAnswer);
+          console.log('correctAnswer:', correctAnswer);
+          console.log('userAnswer === correctAnswer:', userAnswer === correctAnswer);
+          if (userAnswer === correctAnswer) {
+              addCls(e, 'g', 'bg-g');
+              e.innerHTML = paddedCorrectAnswer;
           } else {
-              addCls(eBlank, 'bg-g');  // Зелёная подсветка верного ответа
+              e.innerHTML = highlightMistakes(userAnswer.padEnd(maxLength, ' '), paddedCorrectAnswer);
           }
       });
-      // upd buttons
+      // buttons and messages
       idx++;
-      addCls(eNextQuestion, data.is_correct ? 'btn-g':'btn-r');
-      addCls(eMsgResult, data.is_correct ? 'g':'r');
+      addCls(eNextQuestion, data.is_correct ? 'btn-g' : 'btn-r');
+      addCls(eMsgResult, data.is_correct ? 'g' : 'r');
       eMsgResult.textContent = data.is_correct ? 'Correct!' : 'Incorrect.';
       hide(eBack, eNext, eSubmit, eMsgEmpty);
       show(eNextQuestion, eMsgResult);
@@ -123,7 +119,6 @@ document.addEventListener('DOMContentLoaded', function () {
     .catch(error => console.error('Error:', error));
   }
   function actionNextQuestion() {
-    console.log('actionNextQuestion stat..')
     const match = window.location.pathname.match(/\/topic\/(\d+)\//);
     window.location.href = '/topic/' + match[1];
   }
