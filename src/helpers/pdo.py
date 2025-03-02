@@ -1,6 +1,7 @@
 import pandas as pd
 import os
 import time
+import numpy as np
 
 def load(csvfile, allow_empty=False, retries=5, delay=0.2):
     """Загружает CSV, ожидая разблокировки файла при временной блокировке."""
@@ -65,6 +66,7 @@ def save(df, csvfile):
     else:
         df_to_save = df
     df_to_save.to_csv(csvfile, index=False)
+
 # filter:select/sort
 def filter(df, where=None, where_not=None, sorts=None, allow_empty=False, allow_many=False):
     if where:
@@ -87,6 +89,7 @@ def filter(df, where=None, where_not=None, sorts=None, allow_empty=False, allow_
         ascending = [True if sorts[col] == 'up' else False for col in sort_columns]
         df = df.sort_values(by=sort_columns, ascending=ascending)
     return df
+
 # +
 def addnew(df, values):
     if isinstance(values, dict):
@@ -120,3 +123,13 @@ def update(df, where, values, allow_addnew=False, allow_many=False):
             value = pd.Series([value]).astype(df[key].dtype).iloc[0]
         df.loc[mask, key] = value
     return df
+
+def convert_int64(obj):
+    """Рекурсивно преобразует все np.int64 в int."""
+    if isinstance(obj, np.int64):
+        return int(obj)
+    elif isinstance(obj, list):
+        return [convert_int64(i) for i in obj]
+    elif isinstance(obj, dict):
+        return {k: convert_int64(v) for k, v in obj.items()}
+    return obj

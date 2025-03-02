@@ -1,5 +1,5 @@
 > Personal Pronouns, subject form (личные местоимения, именительный падеж):
->   id;question;translation
+>   id;question;explanation
 >   0;[I:g.personal-subj,n.s,p.1] am here.;Я здесь.
 >   1;[I:g.personal-subj,n.s,p.1] like coffee.;Мне нравится кофе.
 >   2;[I:g.personal-subj,n.s,p.1] will call you tomorrow.;Я позвоню тебе завтра.
@@ -81,7 +81,7 @@
 >   78;It was obvious that [they:g.personal-subj,n.p,p.3] needed help.;Было очевидно, что им нужна помощь.
 >   79;The report stated that [they:g.personal-subj,n.p,p.3] had reached an agreement.;В отчёте говорилось, что они достигли соглашения.
 > Personal Pronouns, object form (личные местоимения, косвенные падежи):
->   id;question;translation
+>   id;question;explanation
 >   80;He saw [me:g.personal-obj,n.s,p.1].;Он видел меня.
 >   81;They invited [me:g.personal-obj,n.s,p.1] to the party.;Они пригласили меня на вечеринку.
 >   82;She found [me:g.personal-obj,n.s,p.1] in the garden.;Она нашла меня в саду.
@@ -258,7 +258,7 @@
 >   253;Don’t worry about [them:g.personal-obj,n.p,p.3].;Не переживай о них.
 >   254;What do you know about [them:g.personal-obj,n.p,p.3]?;Что ты знаешь о них?
 > Possessive Pronouns (Притяжательные местоимения):
->   id;question;translation
+>   id;question;explanation
 >   250;This pen is [mine:g.poss-pron,n.s,p.1].;Эта ручка моя.
 >   251;The last word is [mine:g.poss-pron,n.s,p.1].;Последнее слово за мной.
 >   252;The apartment is [mine:g.poss-pron,n.s,p.1].;Квартира моя.
@@ -295,7 +295,7 @@
 >   283;The authority is [theirs:g.poss-pron,n.p,p.3].;Власть их.
 >   284;The responsibility is [theirs:g.poss-pron,n.p,p.3].;Ответственность их.
 > Possessive Adjectives (Притяжательные прилагательные):
->   id;question;translation
+>   id;question;explanation
 >   285;This is [my:g.poss-adj,n.s,p.1] book.;Это моя книга.
 >   286;[My:g.poss-adj,n.s,p.1] car is very old.;Моя машина очень старая.
 >   287;[My:g.poss-adj,n.s,p.1] house is near the park.;Мой дом рядом с парком.
@@ -381,7 +381,7 @@
 >   367;With [their:g.poss-adj,n.p,p.3] support, the organization was able to expand internationally.;С их поддержкой организация смогла выйти на международный уровень.
 >   368;It was difficult to ignore [their:g.poss-adj,n.p,p.3] influence on the final result.;Было трудно игнорировать их влияние на окончательный результат.
 > Demonstrative Pronouns (Указательные местоимения):
->   id;question;translation
+>   id;question;explanation
 >   367;Do you remember [this:g.demonstr,n.s,near] moment?;Ты помнишь этот момент?
 >   368;[This:g.demonstr,n.s,near] problem needs to be solved immediately.;Эту проблему нужно решить немедленно.
 >   369;Can you believe [this:g.demonstr,n.s,near] news?;Ты можешь поверить в эти новости?
@@ -418,7 +418,7 @@
 >   400;[That:g.demonstr,n.s,far] decision changed everything.;То решение изменило всё.
 
 Interrogative Pronouns (Вопросительные местоимения):
-  id;question;translation
+  id;question;explanation
   305;[Who:g.interrog,subj] is there?;Кто там?
   307;[Who:g.interrog,subj] will help us?;Кто нам поможет?
   308;[Who:g.interrog,subj] wrote this book?;Кто написал эту книгу?
@@ -489,7 +489,7 @@ which
 
 
 > Relative Pronouns (Относительные местоимения)
->   id;question;translation
+>   id;question;explanation
 >   0;The teacher [who:g.relative,animate,f.ntrl/frml] helped us was very kind.;Учитель, который нам помог, был очень добрым.
 >   1;She met a scientist [who:g.relative,animate,f.ntrl/frml] discovered a new element.;Она встретила учёного, который открыл новый элемент.
 >   2;The woman [who:g.relative,animate,f.ntrl/frml] lives next door is a doctor.;Женщина, которая живёт по соседству, – врач.
@@ -541,7 +541,7 @@ which
 >   48;The software [which:g.relative,inanimate,f.ntrl/frml] he created is revolutionary.;Программное обеспечение, которое он создал, революционное.
 >   49;The policy [which:g.relative,inanimate,f.ntrl/frml] was introduced has many benefits.;Политика, которая была введена, имеет много преимуществ.
 > indefinite pronouns (неопределённые местоимения):
->   id;pronouns;question;translation
+>   id;pronouns;question;explanation
 >   0;some;I need [some:g.indef,n.s,uncountable,inanimate,f.ntrl] water.;Мне нужно немного воды.
 >   1;some;Some [some:g.indef,n.p,countable,animate,f.ntrl] people enjoy reading.;Некоторым людям нравится читать.
 >   2;some;Could you lend me [some:g.indef,n.s,uncountable,inanimate,f.ntrl] money?;Можешь одолжить мне немного денег?
@@ -583,7 +583,7 @@ which
 >   38;no one;She told [no one:g.indef,n.s,countable,animate,f.ntrl] about her plans.;Она никому не рассказала о своих планах.
 >   39;no one;[no one:g.indef,n.s,countable,animate,f.ntrl] is allowed to enter.;Никому не разрешено входить.
 > Negative Pronouns (Отрицательные местоимения):
->   id;question;translation
+>   id;question;explanation
 >   0;There is [nothing:g.negative,a.n,d.abs] to worry about.;Не о чем волноваться.
 >   1;She has [nothing:g.negative,a.n,d.abs] to say.;Ей нечего сказать.
 >   2;[nothing:g.negative,a.n,d.abs] is more important than health.;Ничего нет важнее здоровья.
@@ -625,7 +625,7 @@ which
 >   36;We looked for volunteers, but [none:g.negative,a.y/n,d.group] wanted to help.;Мы искали добровольцев, но никто не захотел помочь.
 >   37;I wanted answers, but [none:g.negative,a.y/n,d.group] of them made sense.;Я хотел получить ответы, но ни один из них не имел смысла.
 > Reciprocal Pronouns (Взаимные местоимения):
->   id;question;translation
+>   id;question;explanation
 >   0;They respect [each other:g.reciprocal,d.2,f.ntrl/frml].;Они уважают друг друга.
 >   1;We always support [each other:g.reciprocal,d.2,f.ntrl/frml].;Мы всегда поддерживаем друг друга.
 >   2;John and Lisa looked at [each other:g.reciprocal,d.2,f.ntrl/frml] in surprise.;Джон и Лиза удивленно посмотрели друг на друга.
@@ -657,7 +657,7 @@ which
 >   28;The executives shared insights with [one another:g.reciprocal,d.grp,f.frml].;Руководители обменивались идеями друг с другом.
 >   29;The representatives of different nations learned from [one another:g.reciprocal,d.grp,f.frml].;Представители разных наций учились друг у друга.
 > Determiners/Quantifiers (Определительные местоимения):
->   id;question;translation
+>   id;question;explanation
 >   0;You can take [either:g.determ,c.y,d.1of2,e.positive] seat near the window.;Ты можешь занять любое из двух мест у окна.
 >   1;I don’t think [either:g.determ,c.y,d.1of2,e.positive] solution is perfect.;Я не думаю, что любое из двух решений идеально.
 >   2;You may choose [either:g.determ,c.y,d.1of2,e.positive] method for your experiment.;Ты можешь выбрать любой из двух методов для эксперимента.

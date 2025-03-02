@@ -57,16 +57,16 @@ class User:
         return df_progress
 
     def get_progress(self, tid, q_kind, qid):
-        '''Получает прогресс пользователя для текущего вопроса.'''
-        where = {
-            'topic_id': tid,
-            'question_kind': q_kind,
-            'question_id': qid
-        }
+        """Получает прогресс пользователя для текущего вопроса."""
+        where = {'topic_id': tid, 'question_kind': q_kind, 'question_id': qid}
         progress_records = pdo.filter(self.df_progress, where=where, allow_empty=True)
         if progress_records.empty:
-            return {'estimation': 'F', 'points': 0}
-        return progress_records.to_dict(orient='records')[0]
+            estimation, points = 'F', 0
+        else:
+            record = progress_records.iloc[0]
+            estimation, points = record['estimation'], record['points']
+        threshold = self.estimate_ranges[estimation][1]
+        return pdo.convert_int64({'estimation': estimation, 'points': points, 'threshold': threshold})
 
     def save_progress(self, tid, q_kind, qid, result):
         '''Обновляет прогресс в памяти и записывает файл только при изменениях'''

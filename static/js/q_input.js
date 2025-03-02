@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function () {
   const eForm = getEl('#question-form');
   const eInput = getEl('#form-input');
   const eSubmit = getEl('#form-btn-submit');
-  const eNextQuestion = getEl('#next-question');
+  const eNextQuestion = getEl('#form-btn-next-question');
   const eMsgResult = getEl('#msg-result');
   const eMsgEmpty = getEl('#msg-empty');
 
@@ -27,28 +27,25 @@ document.addEventListener('DOMContentLoaded', function () {
     fetch(eForm.action, { method: 'POST', body: formData })
       .then(response => response.json())
       .then(data => {
-        if (data.success) {
-          // progress
-          remCls(eEstimation, 'F', 'D', 'C', 'B', 'A');
-          addCls(eEstimation, data.progress.estimation);
-          eEstimation.textContent = data.progress.estimation + ':';
-          ePoints.textContent = data.progress.points + '/' + data.progress.threshhold;
-          // question
-          const correctSpan = document.createElement('span');
-          correctSpan.textContent = data.correct;
-          addCls(correctSpan, data.is_correct ? 'g' : 'r');
-          eQuestion.innerHTML = eQuestion.innerHTML.replace('___', correctSpan.outerHTML);
-          // input
-          eInput.disabled = true;
-          // submit/eNextQuestion
-          addCls(eSubmit, 'dnone', data.is_correct ? 'btn-g' : 'btn-r');
-          remCls(eNextQuestion, 'dnone');
-          addCls(eNextQuestion, data.is_correct ? 'btn-g' : 'btn-r');
-          // msg-result
-          remCls(eMsgResult, 'dnone', 'g', 'r');
-          addCls(eMsgResult, data.is_correct ? 'g' : 'r');
-          eMsgResult.textContent = data.is_correct ? 'Correct!' : 'Incorrect.';
-        }
+        const userAnswer = data.answer
+        // estimation
+        remCls(eEstimation, 'F', 'D', 'C', 'B', 'A');
+        addCls(eEstimation, data.progress.estimation);
+        eEstimation.textContent = data.progress.estimation + ':';
+        ePoints.textContent = data.progress.points + '/' + data.progress.threshold;
+        // question and spellcheck
+        const eBlank = document.createElement('span');
+        eBlank.innerHTML = highlightMistakes(data.answer, data.question.correct, data.is_correct);
+        eQuestion.innerHTML = eQuestion.innerHTML.replace('___', eBlank.outerHTML);
+        // input
+        eInput.disabled = true;
+        // buttons and messages
+        addCls(eSubmit, data.is_correct ? 'btn-g' : 'btn-r');
+        addCls(eNextQuestion, data.is_correct ? 'btn-g' : 'btn-r');
+        addCls(eMsgResult, data.is_correct ? 'g' : 'r');
+        eMsgResult.textContent = data.is_correct ? 'Correct!' : 'Incorrect.';
+        hide(eSubmit);
+        show(eNextQuestion, eMsgResult);
       }).catch(error => console.error('Error:', error));
   });
 

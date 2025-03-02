@@ -5,8 +5,7 @@ from src.topics import Topics
 from src.topic import Topic
 from src.helpers import pdo
 from logger import logger
-from random import shuffle
-import re
+import json
 
 index_bp = Blueprint('index', __name__)
 topics = Topics()
@@ -50,121 +49,72 @@ def topic(tid):
     routes = {'choose': 'index.q_choose', 'input': 'index.q_input', 'fill': 'index.q_fill'}
     return redirect(url_for(routes.get(q_kind, 'index.unknown_question'), tid=tid, qid=qid))
 
+# === q_helpers ===================================
+def init_q_rout(tid, q_kind, qid):
+    user = get_current_user()
+    topic = Topic(tid, topics.data[tid])
+    progress = user.get_progress(tid, q_kind, qid)
+    question = topic.get_question(tid, q_kind, qid)
+    return user, topic, question, progress
+
 # === q_choose ===================================
 @index_bp.route('/topic/<int:tid>/q_choose/<int:qid>', methods=['GET', 'POST'])
 @login_required
 def q_choose(tid, qid):
-    user = get_current_user()
-    topic = Topic(tid, topics.data[tid])
-    q = topic.get_question(tid, 'choose', qid)
-    options = [opt.strip() for opt in q['options'].split(';')]
-    shuffle(options)
-    # progress
-    progress = user.get_progress(tid, 'choose', qid)
-    # post
+    q_kind = 'choose'
+    user, topic, question, progress = init_q_rout(tid, q_kind, qid)
     if request.method == 'POST':
-        selected_answers = {opt.strip() for opt in request.form.getlist('answer')}
-        raw_answers = {opt.strip() for opt in q['correct'].split(';')}
-        result = selected_answers == raw_answers
-        # progress
-        user.save_progress(tid, 'choose', qid, result)
-        progress = user.get_progress(tid, 'choose', qid)
-
+        answer = sorted(x.strip() for x in request.form.getlist('answer'))
+        is_correct = answer == question['correct']
+        user.save_progress(tid, q_kind, qid, is_correct)
+        progress = user.get_progress(tid, q_kind, qid)
         return jsonify({
-            'success': True,
-            'question': q['question'],
-            'selected': list(selected_answers),
-            'correct': list(raw_answers),
-            'is_correct': result,
-            'progress': {
-                'estimation': progress['estimation'],
-                'points': progress['points'],
-                'threshhold': user.estimate_ranges[progress['estimation']][1]
-            }
+            'progress': progress,
+            'question': question,
+            'answer': answer,
+            'is_correct': is_correct,
         })
     return render_template('q_choose.html', page='q_choose', tid=tid, tname=topic.name,
-                           q=q, shuffled_options=options, progress={
-                               'estimation': progress['estimation'],
-                               'points': progress['points'],
-                               'threshhold': user.estimate_ranges[progress['estimation']][1]
-                           })
+                           question=question, progress=progress)
 
 # === q_input ===================================
 @index_bp.route('/topic/<int:tid>/q_input/<int:qid>', methods=['GET', 'POST'])
 @login_required
 def q_input(tid, qid):
-    user = get_current_user()
-    topic = Topic(tid, topics.data[tid])
-    q = topic.get_question(tid, 'input', qid)
-    q['question'], q['correct'] = topic.format_q_input(q['question'])
-    # progress
-    progress = user.get_progress(tid, 'input', qid)
-    # post
+    q_kind = 'input'
+    user, topic, question, progress = init_q_rout(tid, q_kind, qid)
     if request.method == 'POST':
-        answer = request.form.get('answer', '').strip()
-        correct_answer = q['correct'].strip()
-        result = answer.lower() == correct_answer.lower()
-        # progress
-        user.save_progress(tid, 'input', qid, result)
-        progress = user.get_progress(tid, 'input', qid)
+        answer = request.form.get('answer')
+        is_correct = answer.strip().lower() == question['correct'].strip().lower()
+        user.save_progress(tid, q_kind, qid, is_correct)
+        progress = user.get_progress(tid, q_kind, qid)
         return jsonify({
-            'success': True,
-            'question': q['question'],
-            'selected': answer,
-            'correct': correct_answer,
-            'is_correct': result,
-            'next_question_url': url_for('index.topic', tid=tid) if result else '',
-            'progress': {
-                'estimation': progress['estimation'],
-                'points': progress['points'],
-                'threshhold': user.estimate_ranges[progress['estimation']][1]
-            }
+            'progress': progress,
+            'question': question,
+            'answer': answer,
+            'is_correct': is_correct,
         })
-    return render_template('q_input.html', page='q_input', tid=tid, tname=topic.name, q=q, progress={
-        'estimation': progress['estimation'],
-        'points': progress['points'],
-        'threshhold': user.estimate_ranges[progress['estimation']][1]
-    })
+    return render_template('q_input.html', page='q_input', tid=tid, tname=topic.name,
+                           question=question, progress=progress)
 
 # === q_fill ===================================
 @index_bp.route('/topic/<int:tid>/q_fill/<int:qid>', methods=['GET', 'POST'])
 @login_required
 def q_fill(tid, qid):
-    user = get_current_user()
-    topic = Topic(tid, topics.data[tid])
-    q = topic.get_question(tid, 'fill', qid)
-    progress = user.get_progress(tid, 'fill', qid)
-
+    q_kind = 'fill'
+    user, topic, question, progress = init_q_rout(tid, q_kind, qid)
     if request.method == 'POST':
-        user_answers = request.form.get('answers', '').strip()
-        raw_correct_answers = [ans.strip() for ans in q['answers']]
-        correct_answers = []
-        
-        for ans in raw_correct_answers:
-            match = re.search(r"\[1\.(.*?)\]", ans)
-            correct_answers.append(match.group(1).strip() if match else "")
-        
-        result = user_answers in correct_answers
-        user.save_progress(tid, 'fill', qid, result)
-        progress = user.get_progress(tid, 'fill', qid)
-        
+        answer = request.form.get('answer')
+        user_answers = [ans.strip().lower() for ans in json.loads(answer)]
+        correct_answers = [item[1].strip().lower() for item in question["correct"]]
+        is_correct = user_answers == correct_answers
+        user.save_progress(tid, q_kind, qid, is_correct)
+        progress = user.get_progress(tid, q_kind, qid)
         return jsonify({
-            'success': True,
-            'question': q['question'],
-            'user_answers': user_answers,
-            'raw_correct_answers': raw_correct_answers,
-            'correct_answers': correct_answers,
-            'result': result,
-            'next_question_url': url_for('index.topic', tid=tid) if result else '',
-            'progress': {
-                'estimation': progress['estimation'],
-                'points': progress['points'],
-                'threshhold': user.estimate_ranges[progress['estimation']][1]
-            }
+            'progress': progress,
+            'question': question,
+            'answer': answer,
+            'is_correct': is_correct,
         })
-    
-    return render_template('q_fill.html', page='q_fill', tid=tid, tname=topic.name, q=q, progress={
-        'estimation': progress['estimation'],
-        'points': progress['points'],
-        'threshhold': user.estimate_ranges[progress['estimation']][1]
-    })
+    return render_template('q_fill.html', page='q_fill', tid=tid, tname=topic.name,
+                           question=question, progress=progress)

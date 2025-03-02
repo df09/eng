@@ -17,6 +17,5 @@
 .form-input { border: none; }
 .form-input:focus-visible { outline: none; }
 .form-btn-back, .form-btn-next, .form-btn-submit, .form-btn-next-question { width: fit-content; }
-
-.msg-result { font-weight: bold; color: #dc3545; }
+.msg-result { font-weight: bold; }
 .msg-empty { font-weight: bold; }

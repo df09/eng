@@ -1,5 +1,4 @@
 document.addEventListener('DOMContentLoaded', function () {
-  // vars
   const eEstimation = getEl('#estimation');
   const ePoints = getEl('#points');
   const eQuestion = getEl('#question-text');
@@ -33,17 +32,6 @@ document.addEventListener('DOMContentLoaded', function () {
     eBlank.appendChild(eInput);
     eInput.focus();
   }
-  function highlightMistakes(userInput, correctInput) {
-    let resultHTML = '';
-    let len = Math.max(userInput.length, correctInput.length);
-    for (let i = 0; i < len; i++) {
-      let userChar = userInput[i] || ' ';
-      let correctChar = correctInput[i] || ' ';
-      let styles = userChar === correctChar ? 'g bg-g': 'r bg-r';
-      resultHTML += styles ? '<span class="' + styles + '">' + correctChar + '</span>' : correctChar;
-    }
-    return resultHTML;
-  }
 
   // actions
   function actionBack() {
@@ -68,6 +56,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }
     updateButtonsAndMessages();
   }
+
   function actionSubmit() {
     const userInput = eInput.value.trim();
     const eBlank = eBlanks[idx];
@@ -75,38 +64,28 @@ document.addEventListener('DOMContentLoaded', function () {
     answers[idx] = userInput;
     eBlank.innerHTML = userInput.padEnd(parseInt(eBlank.dataset.maxlength, 10), ' ');
     addCls(eBlank, 'filled', 'y', 'bg-y');
-    
+
+    getEl('#hidden-answer').value = JSON.stringify(answers);
     fetch(eForm.action, {
       method: 'POST',
       body: new FormData(eForm)
     })
     .then(response => response.json())
     .then(data => {
-      console.log('---------------');
-      console.log('data:');
-      console.log(data);
       // estimation
       remCls(eEstimation, 'F', 'D', 'C', 'B', 'A');
       addCls(eEstimation, data.progress.estimation);
       eEstimation.textContent = data.progress.estimation + ':';
-      ePoints.textContent = data.progress.points + '/' + data.progress.threshhold;
+      ePoints.textContent = data.progress.points + '/' + data.progress.threshold;
       // spellcheck
-      eBlanks.forEach((e, i) => {
-          remCls(e, 'y', 'bg-y');
+      eBlanks.forEach((eBlank, i) => {
+          remCls(eBlank, 'y', 'bg-y');
           let userAnswer = answers[i].trim();
-          let correctAnswer = data.correct[i].replace(/^\[\d+\./, '').trim().slice(0, -1).trim();
-          let maxLength = parseInt(e.dataset.maxlength, 10);
+          let correctAnswer = data.question.correct[i][1]
+          console.log(userAnswer, correctAnswer)
+          let maxLength = parseInt(eBlank.dataset.maxlength, 10);
           let paddedCorrectAnswer = correctAnswer.padEnd(maxLength, ' ');
-          console.log('------------------------');
-          console.log('userAnswer:', userAnswer);
-          console.log('correctAnswer:', correctAnswer);
-          console.log('userAnswer === correctAnswer:', userAnswer === correctAnswer);
-          if (userAnswer === correctAnswer) {
-              addCls(e, 'g', 'bg-g');
-              e.innerHTML = paddedCorrectAnswer;
-          } else {
-              e.innerHTML = highlightMistakes(userAnswer.padEnd(maxLength, ' '), paddedCorrectAnswer);
-          }
+          eBlank.innerHTML = highlightMistakes(userAnswer.padEnd(maxLength, ' '), paddedCorrectAnswer, data.is_correct);
       });
       // buttons and messages
       idx++;
@@ -115,13 +94,12 @@ document.addEventListener('DOMContentLoaded', function () {
       eMsgResult.textContent = data.is_correct ? 'Correct!' : 'Incorrect.';
       hide(eBack, eNext, eSubmit, eMsgEmpty);
       show(eNextQuestion, eMsgResult);
-    })
-    .catch(error => console.error('Error:', error));
+    }).catch(error => console.error('Error:', error));
   }
   function actionNextQuestion() {
     const match = window.location.pathname.match(/\/topic\/(\d+)\//);
     window.location.href = '/topic/' + match[1];
-  }
+  };
 
   // listeners
   eBack.addEventListener('click', actionBack);

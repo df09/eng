@@ -3,7 +3,6 @@ from routes import bcrypt
 from routes.index import index_bp
 from routes.auth import auth_bp
 from logger import logger
-from flask_debugtoolbar import DebugToolbarExtension
 
 
 # init
@@ -11,9 +10,6 @@ app = Flask(__name__)
 app.config['SECRET_KEY'] = 'e8b7e89b5a98e0c3e6f2d4a9b30c3a9d2f7a8b92e4a1c8d5f6e3b7d5c9f1e2a3'
 app.config['DEBUG_TB_INTERCEPT_REDIRECTS'] = False
 app.debug = True
-
-# debug
-toolbar = DebugToolbarExtension(app)
 
 # routes
 bcrypt.init_app(app)

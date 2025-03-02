@@ -24,7 +24,6 @@ function getEl(selector, pass=false) {
     alert('"'+selector+'" multiple found.')
   }
   e = els[0];
-  console.log(selector, e);
   return e;
 }
 function getEls(selector, pass=false) {
@@ -33,7 +32,6 @@ function getEls(selector, pass=false) {
     if (pass) { return false; }
     alert('"' + selector + '" not found.');
   }
-  console.log('getEls "' + selector + '":', els);
   return els;
 }
 // hotkeys
@@ -46,3 +44,22 @@ function getKey(event, keys, n) {
   if (k === 'Meta') return event.metaKey;
   return event.key === k;
 }
+
+// helpers
+function highlightMistakes(userInput, correctInput, is_correct) {
+  let resultHTML = '';
+  let len = Math.max(userInput.length, correctInput.length);
+  for (let i = 0; i < len; i++) {
+    let userChar = userInput[i] || ' ';
+    let correctChar = correctInput[i] || ' ';
+    let styles = userChar === correctChar ? 'g bg-g' : 'r bg-r';
+    resultHTML += '<span class="' + styles + '">' + correctChar + '</span>';
+  }
+  return resultHTML;
+}
+
+
+
+
+
+
