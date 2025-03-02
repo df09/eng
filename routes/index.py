@@ -42,7 +42,6 @@ def topic(tid):
     if tid not in topics.data:
         return f'Invalid topic - id:{tid}', 400
     user = get_current_user()
-    user.df_progress = user.load_progress()  # обновляем df_progress
     topic = Topic(tid, topics.data[tid])
     question = topic.choose_question(user.df_progress)
     q_kind = question['question_kind']
@@ -54,24 +53,23 @@ def topic(tid):
 def init_q_rout(tid, q_kind, qid):
     user = get_current_user()
     topic = Topic(tid, topics.data[tid])
-    progress = user.get_progress(tid, q_kind, qid)
+    stat = user.get_stat4topic(tid)
+    progress = user.get_progress4question(tid, q_kind, qid)
     question = topic.get_question(tid, q_kind, qid)
-    return user, topic, question, progress
+    return user, topic, stat, progress, question
 
 # === q_choose ===================================
 @index_bp.route('/topic/<int:tid>/q_choose/<int:qid>', methods=['GET', 'POST'])
 @login_required
 def q_choose(tid, qid):
     q_kind = 'choose'
-    user, topic, question, progress = init_q_rout(tid, q_kind, qid)
-    stat = next((s for s in user.df_stats.to_dict(orient='records') if s['topic_id'] == tid), {})
+    user, topic, stat, progress, question = init_q_rout(tid, q_kind, qid)
     if request.method == 'POST':
         answer = sorted(x.strip() for x in request.form.getlist('answer'))
         is_correct = answer == question['correct']
-        user.upd_progress(tid, q_kind, qid, is_correct)
-        user.upd_stats()
-        progress = user.get_progress(tid, q_kind, qid)
-        stat = next((s for s in user.df_stats.to_dict(orient='records') if s['topic_id'] == tid), {})
+        user.upd_df_progress(tid, q_kind, qid, is_correct)
+        user.upd_df_stats()
+        _, _, stat, progress, question = init_q_rout(tid, q_kind, qid)
         return jsonify({
             'stat': stat,
             'progress': progress,
@@ -87,15 +85,13 @@ def q_choose(tid, qid):
 @login_required
 def q_input(tid, qid):
     q_kind = 'input'
-    user, topic, question, progress = init_q_rout(tid, q_kind, qid)
-    stat = next((s for s in user.df_stats.to_dict(orient='records') if s['topic_id'] == tid), {})
+    user, topic, stat, progress, question = init_q_rout(tid, q_kind, qid)
     if request.method == 'POST':
         answer = request.form.get('answer')
         is_correct = answer.strip().lower() == question['correct'].strip().lower()
-        user.upd_progress(tid, q_kind, qid, is_correct)
-        user.upd_stats()
-        progress = user.get_progress(tid, q_kind, qid)
-        stat = next((s for s in user.df_stats.to_dict(orient='records') if s['topic_id'] == tid), {})
+        user.upd_df_progress(tid, q_kind, qid, is_correct)
+        user.upd_df_stats()
+        _, _, stat, progress, question = init_q_rout(tid, q_kind, qid)
         return jsonify({
             'stat': stat,
             'progress': progress,
@@ -111,17 +107,15 @@ def q_input(tid, qid):
 @login_required
 def q_fill(tid, qid):
     q_kind = 'fill'
-    user, topic, question, progress = init_q_rout(tid, q_kind, qid)
-    stat = next((s for s in user.df_stats.to_dict(orient='records') if s['topic_id'] == tid), {})
+    user, topic, stat, progress, question = init_q_rout(tid, q_kind, qid)
     if request.method == 'POST':
         answer = request.form.get('answer')
         user_answers = [ans.strip().lower() for ans in json.loads(answer)]
         correct_answers = [item[1].strip().lower() for item in question["correct"]]
         is_correct = user_answers == correct_answers
-        user.upd_progress(tid, q_kind, qid, is_correct)
-        user.upd_stats()
-        progress = user.get_progress(tid, q_kind, qid)
-        stat = next((s for s in user.df_stats.to_dict(orient='records') if s['topic_id'] == tid), {})
+        user.upd_df_progress(tid, q_kind, qid, is_correct)
+        user.upd_df_stats()
+        _, _, stat, progress, question = init_q_rout(tid, q_kind, qid)
         return jsonify({
             'stat': stat,
             'progress': progress,

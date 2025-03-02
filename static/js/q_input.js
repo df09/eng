@@ -73,7 +73,7 @@ document.addEventListener('DOMContentLoaded', function () {
         eMsgResult.textContent = data.is_correct ? 'Correct!' : 'Incorrect.';
         hide(eSubmit);
         show(eNextQuestion, eMsgResult);
-      }).catch(error => console.error('Error:', error));
+      });
   });
 
   // Обработчик кнопки "Next"

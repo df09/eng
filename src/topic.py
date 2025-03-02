@@ -12,7 +12,7 @@ class Topic:
     def __init__(self, tid, name):
         self.id = tid
         self.name = name
-        self.estimation_order = {'F':1,'D':2,'C':3,'B':4,'A': 5}
+        self.estimation_order = {'N':0,'F':1,'D':2,'C':3,'B':4,'A':5,'S1':6,'S2':7,'S3':8}
         self.path = f'data/topics/{self.id}_{self.name}'
         self.f_q_chooses = f'{self.path}/questions/chooses.csv'
         self.f_q_inputs = f'{self.path}/questions/inputs.csv'
@@ -29,19 +29,23 @@ class Topic:
 
     # === load.choose ===================================
     def load_choose_questions(self):
-        questions = pdo.load(self.f_q_chooses, allow_empty=True).to_dict(orient='records')
+        df = pdo.load(self.f_q_chooses, allow_empty=True)
+        df = df.fillna('')  # Заменяем NaN на пустые строки
+        df = df.applymap(lambda x: 0 if isinstance(x, float) and pd.isna(x) else x)  # Убираем NaN
+        questions = df.to_dict(orient='records')
         for question in questions:
             question['is_suspicious'] = question.get('is_suspicious', 0) or 0
-            question['hash'] = '' if pd.isna(question.get('hash', '')) else question['hash']
         return questions
 
     # === load.input ===================================
     def load_input_questions(self):
-        questions = pdo.load(self.f_q_inputs, allow_empty=True).to_dict(orient='records')
+        df = pdo.load(self.f_q_inputs, allow_empty=True)
+        df = df.fillna('')  # Убираем NaN из строк
+        df = df.applymap(lambda x: 0 if isinstance(x, float) and pd.isna(x) else x)  # Убираем NaN
+        questions = df.to_dict(orient='records')
         for question in questions:
             question['question'], question['correct'], question['hints'] = self.format_q_input(question['question'])
             question['is_suspicious'] = question.get('is_suspicious', 0) or 0
-            question['hash'] = '' if pd.isna(question.get('hash', '')) else question['hash']
         return questions
     def format_q_input(self, question):
         '''
@@ -68,6 +72,7 @@ class Topic:
                 is_suspicious, hash_value = 0, ''
             elif len(parts) >= 3:  # <id>_<name>_<hash>
                 qid, qname, hash_value = parts[0], parts[1], '_'.join(parts[2:])
+                hash_value = hash_value if pd.notna(hash_value) else ''  # Убираем NaN
                 is_suspicious = 1
             else:
                 raise ValueError(f"Unexpected filename format: {filename}")
@@ -81,7 +86,7 @@ class Topic:
                     'question': formatted_question,
                     'correct': correct,
                     'is_suspicious': is_suspicious,
-                    'hash': '' if pd.isna(hash_value) else hash_value
+                    'hash': hash_value
                 })
         return questions
     def format_q_fill(self, question):
@@ -100,17 +105,13 @@ class Topic:
 
     # === common ===================================
     def upd_total(self):
-        num_choose = len(self.qs['choose'])
-        num_input = len(self.qs['input'])
-        num_fill = len(self.qs['fill'])
+        num_choose = len(self.qs.get('choose', []))
+        num_input = len(self.qs.get('input', []))
+        num_fill = len(self.qs.get('fill', []))
         total = num_choose + num_input + num_fill
         fo.str2txt(str(total), self.f_total)
 
     def choose_question(self, df_progress):
-        '''
-        Выбирает вопрос с наименьшим 'estimation', если несколько — выбирает случайный.
-        Если вопрос отсутствует в 'df_progress', ему присваивается points=0, estimation='F'.
-        '''
         # Объединяем все вопросы в один список, добавляя kind
         questions = []
         for kind, q_list in self.qs.items():
@@ -129,7 +130,7 @@ class Topic:
         # Определяем, какие вопросы отсутствуют в прогрессе
         missing_questions = df_questions[~df_questions['key'].isin(df_progress4topic['key'])]
         # Добавляем недостающие вопросы
-        new_id = df_progress['id'].max() + 1 if not df_progress.empty else 0
+        new_id = df_progress['id'].max(skipna=True) + 1 if not df_progress.empty else 0
         if not missing_questions.empty:
             new_progress = pd.DataFrame({
                 'id': range(new_id, new_id + len(missing_questions)),
@@ -137,13 +138,14 @@ class Topic:
                 'question_kind': missing_questions['kind'].values,
                 'question_id': missing_questions['id'].values,
                 'points': 0,
-                'estimation': 'F'
+                'estimation': 'N',
+                'updated_at': pd.Timestamp.utcnow()
             })
             df_progress_combined = pd.concat([df_progress4topic, new_progress], ignore_index=True)
         else:
             df_progress_combined = df_progress4topic.copy()
         # Преобразуем 'estimation' в числовое значение
-        df_progress_combined['estimation_numeric'] = df_progress_combined['estimation'].map(self.estimation_order)
+        df_progress_combined['estimation_numeric'] = df_progress_combined['estimation'].map(self.estimation_order).fillna(0).astype(int)
         # Находим вопрос с минимальным 'estimation'
         min_estimation = df_progress_combined['estimation_numeric'].min()
         candidates = df_progress_combined[df_progress_combined['estimation_numeric'] == min_estimation]
@@ -162,8 +164,6 @@ class Topic:
             question = next((q for q in self.qs['fill'] if q['id'] == str(qid)), None)
             if not question:
                 raise ValueError(f'Question ID {qid} not found in topic {tid} (type "{q_kind}").')
-            # Убираем NaN в hash
-            question['hash'] = '' if pd.isna(question.get('hash', '')) else question['hash']
             return pdo.convert_int64(question)
         # Для остальных типов работаем с DataFrame
         df_questions = pd.DataFrame(self.qs[q_kind])
@@ -172,9 +172,7 @@ class Topic:
         question = df_questions[df_questions['id'] == qid]
         if question.empty:
             raise ValueError(f'Question ID {qid} not found in topic {tid} (type "{q_kind}").')
-        data = question.iloc[0].to_dict()
-        # Убираем NaN в hash
-        data['hash'] = '' if pd.isna(data.get('hash', '')) else data['hash']
+        data = question.iloc[0].fillna('').to_dict()
         if q_kind == 'choose':
             # Перемешиваем опции для 'choose'
             options = [opt.strip() for opt in data['options'].split(';')]

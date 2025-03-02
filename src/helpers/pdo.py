@@ -3,8 +3,9 @@ import os
 import time
 import numpy as np
 
-def load(csvfile, allow_empty=False, retries=5, delay=0.2):
-    """Загружает CSV, ожидая разблокировки файла при временной блокировке."""
+
+def load(csvfile, sep=',', allow_empty=False, retries=5, delay=0.2):
+    """Загружает CSV, корректируя заголовки и типы данных, но не делает 'id' индексом."""
     try:
         for attempt in range(retries):
             if not os.path.exists(csvfile):
@@ -21,36 +22,28 @@ def load(csvfile, allow_empty=False, retries=5, delay=0.2):
                         continue
                     raise ValueError(f"File {csvfile} has no valid headers")
 
-                # Пробуем загрузить CSV
-                df = pd.read_csv(csvfile, sep=',', quotechar='"', index_col=False)
+                # Загружаем CSV без превращения 'id' в индекс
+                df = pd.read_csv(csvfile, sep=sep, quotechar='"', index_col=False)
 
-                # Проверяем, содержит ли файл заголовки (колонки)
-                if df.shape[1] == 0:
-                    if attempt < retries - 1:
-                        time.sleep(delay)
-                        continue
-                    raise ValueError(f"File {csvfile} has no valid columns")
-
-                # Если файл пуст (нет строк), но содержит заголовки — допускаем, если allow_empty=True
-                if df.empty and not allow_empty:
-                    raise ValueError(f"File {csvfile} is empty but must contain data")
+                # Удаляем колонки "Unnamed"
+                df = df.loc[:, ~df.columns.str.contains("^Unnamed")]
 
                 # Удаляем пробелы в заголовках
                 df.columns = df.columns.str.strip()
 
-                # Проверяем на дубликаты 'id', если колонка существует
-                if "id" in df.columns:
-                    duplicates = df[df["id"].duplicated()]["id"].tolist()
-                    if duplicates:
-                        raise ValueError(f"Duplicate IDs found: {duplicates} in {csvfile}")
+                # Проверяем, что колонка 'id' существует
+                if "id" not in df.columns:
+                    raise KeyError(f"Missing 'id' column in {csvfile}. Available columns: {df.columns.tolist()}")
 
-                # Удаляем пробелы по краям во всех строковых значениях
-                df = df.map(lambda x: x.strip() if isinstance(x, str) else x)
+                # Удаляем пробелы в строковых значениях
+                df = df.applymap(lambda x: x.strip() if isinstance(x, str) else x)
+
+                # Преобразуем 'id' в int и заменяем NaN на None
+                df["id"] = pd.to_numeric(df["id"], errors="coerce").fillna(-1).astype(int)
 
                 return df
 
             except (pd.errors.EmptyDataError, PermissionError, OSError):
-                # Ошибки могут возникать, если файл заблокирован или временно пуст
                 if attempt < retries - 1:
                     time.sleep(delay)
                     continue
@@ -59,13 +52,16 @@ def load(csvfile, allow_empty=False, retries=5, delay=0.2):
     except FileNotFoundError:
         raise FileNotFoundError(f"ERROR: CSV file not found: {csvfile}")
 
-def save(df, csvfile):
-    # Проверяем, существует ли уже колонка 'id'
-    if 'id' not in df.columns:
-        df_to_save = df.reset_index().rename(columns={'index': 'id'})
-    else:
-        df_to_save = df
-    df_to_save.to_csv(csvfile, index=False)
+def save(df, csvfile, sep=','):
+    """Сохраняет DataFrame обратно в CSV, гарантируя, что 'id' остаётся колонкой."""
+    if "id" not in df.columns:
+        raise KeyError(f"Cannot save: 'id' column is missing in DataFrame. Available columns: {df.columns.tolist()}")
+
+    # Преобразуем 'id' в int (если нужно)
+    df["id"] = pd.to_numeric(df["id"], errors="coerce").fillna(-1).astype(int)
+
+    # Сохраняем без индекса, чтобы 'id' остался колонкой
+    df.to_csv(csvfile, sep=sep, quotechar='"', index=False)
 
 # filter:select/sort
 def filter(df, where=None, where_not=None, sorts=None, allow_empty=False, allow_many=False):

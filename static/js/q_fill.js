@@ -121,7 +121,7 @@ document.addEventListener('DOMContentLoaded', function () {
       eMsgResult.textContent = data.is_correct ? 'Correct!' : 'Incorrect.';
       hide(eBack, eNext, eSubmit, eMsgEmpty);
       show(eNextQuestion, eMsgResult);
-    }).catch(error => console.error('Error:', error));
+    });
   }
   function actionNextQuestion() {
     const match = window.location.pathname.match(/\/topic\/(\d+)\//);

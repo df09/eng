@@ -104,8 +104,7 @@ document.addEventListener('DOMContentLoaded', function () {
       addCls(eMsgResult, data.is_correct ? 'g' : 'r');
       eMsgResult.textContent = data.is_correct ? 'Correct!' : 'Incorrect.';
       show(eMsgResult);
-    })
-    .catch(error => console.error('Error:', error));
+    });
   });
 
   // Обработчик кнопки "Next"
