@@ -1,15 +1,12 @@
-{% extends 'layouts/base.html' %}
+{% extends 'base.html' %}
 {% block title %}Q-Choose{% endblock %}
 {% block header %}
   <a href='{{ url_for('index.index') }}'>MainMenu</a><span>/{{ tid }}.{{ tname }}/Q-Choose</span>
 {% endblock %}
 {% block content %}
 <section class='q_choose'>
-  <p class='m0'>
-    <strong id='estimation' class='estimation {{ progress.estimation }} mr5'>{{ progress.estimation }}:</strong>
-    <span id='points' class='points w'>{{ progress.points }}/{{ progress.threshold}}</span>
-  </p>
-  <p class='m0'>
+  {% include 'components/q_header.html' %}
+  <p class='question-block m0'>
     <strong class='b bg-b mr5'>Q:</strong>
     <span id='question-text'>{{ question.question }}<span>
   </p>

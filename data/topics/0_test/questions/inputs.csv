@@ -1,4 +1,4 @@
-id,question,translation
-0,current directory: [pwd].,вывести текущий каталог: [pwd].
-1,view last 10 lines of a file: [tail -n 10] <file>.,посмотреть последние 10 строк файла: [tail -n 10 <file>].
-2,find files with "bash" in name: [find . -name "*bash*"].,найти файлы с "bash" в названии: [find . -name "*bash*"].
+id , question                                                 , translation                                               , is_suspicious , hash
+0  , current directory: [pwd].                                , вывести текущий каталог: [pwd].                           ,               ,
+1  , view last 10 lines of a file: [tail -n 10] <file>.       , посмотреть последние 10 строк файла: [tail -n 10 <file>]. ,               ,
+2  , find files with "bash" in name: [find . -name "*bash*"]. , найти файлы с "bash" в названии: [find . -name "*bash*"]. ,               ,

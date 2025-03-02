@@ -9,6 +9,31 @@ document.addEventListener('DOMContentLoaded', function () {
   const eNextQuestion = getEl('#form-btn-next-question');
   const eMsgResult = getEl('#msg-result');
   const eMsgEmpty = getEl('#msg-empty');
+  const eStatElements = {}; // Хранилище для ссылок на элементы статистики
+  const grades = ['N', 'F', 'D', 'C', 'B', 'A', 'S1', 'S2', 'S3'];
+  grades.forEach(grade => {
+    eStatElements[grade] = getEl(`.stat.${grade}`);
+  });
+  const eTotal = getEl('.total');
+  const eSuspicious = getEl('.suspicious');
+  // stats
+  function updateStats(stat) {
+    grades.forEach(grade => {
+      if (eStatElements[grade]) {
+        eStatElements[grade].textContent = `${grade}:${stat[grade] || 0}`;
+      }
+    });
+    eTotal.textContent = `${stat.in_progress}/${stat.total}`;
+    eSuspicious.textContent = `?:${stat.suspicious}`;
+    // Обновление progress-bar
+    const total = stat.total || 1;
+    grades.forEach(grade => {
+      const progressElement = getEl(`.sub-progress.${grade}`);
+      if (progressElement) {
+        progressElement.style.width = `${(stat[grade] / total * 100) || 0}%`;
+      }
+    });
+  }
 
   let submitted = false; // Флаг для блокировки изменений
 
@@ -16,6 +41,7 @@ document.addEventListener('DOMContentLoaded', function () {
   eForm.addEventListener('submit', function (event) {
     event.preventDefault();
     if (submitted) return; // Предотвращаем повторный сабмит
+
     // Проверяем, выбран ли хотя бы один чекбокс
     const isChecked = Array.from(eCheckboxes).some(cb => cb.checked);
     if (!isChecked) { show(eMsgEmpty); return; }
@@ -29,7 +55,8 @@ document.addEventListener('DOMContentLoaded', function () {
     })
     .then(response => response.json())
     .then(data => {
-      console.log(data)
+      // stats
+      updateStats(data.stat);
       // estimation
       remCls(eEstimation, 'F','D','C','B','A');
       addCls(eEstimation, data.progress.estimation);
@@ -41,7 +68,6 @@ document.addEventListener('DOMContentLoaded', function () {
         const eInput = getEl('#' + inputId);
         const value = eInput.value.trim();
         const option = eLabel.querySelector('.option-text');
-
         // Блокировка кликов по чекбоксам
         eInput.addEventListener("click", function(event) {
           event.preventDefault();
@@ -52,30 +78,29 @@ document.addEventListener('DOMContentLoaded', function () {
         option.style.pointerEvents = 'none';
         remCls(option, 'hov');
         // options
-        if (data.question.correct.includes(value) && eInput.checked) {  
+        if (data.question.correct.includes(value) && eInput.checked) {
           // Правильный и выбранный
           remCls(option, 'bg-w', 'brd-w');
           addCls(option, 'g', 'bg-g', 'brd-g');
-        } 
-        else if (data.question.correct.includes(value) && !eInput.checked) {  
+        }
+        else if (data.question.correct.includes(value) && !eInput.checked) {
           // Правильный, но НЕ выбранный
           remCls(option, 'bg-w', 'brd-w');
-          addCls(option, 'y', 'bg-y', 'brd-y'); 
-        } 
-        else if (eInput.checked) { 
+          addCls(option, 'y', 'bg-y', 'brd-y');
+        }
+        else if (eInput.checked) {
           // Неправильный и выбранный
           remCls(option, 'bg-w', 'brd-w');
-          addCls(option, 'r', 'bg-r', 'brd-r'); 
+          addCls(option, 'r', 'bg-r', 'brd-r');
         }
         eInput.checked = false; // Снимаем выбор
       });
-
-      // submit/next
+      // buttons
       hide(eSubmit)
       remCls(eNextQuestion, 'btn-g', 'btn-r');
       addCls(eNextQuestion, data.is_correct ? 'btn-g' : 'btn-r');
       show(eNextQuestion)
-      // result-message
+      // messages
       addCls(eMsgResult, data.is_correct ? 'g' : 'r');
       eMsgResult.textContent = data.is_correct ? 'Correct!' : 'Incorrect.';
       show(eMsgResult);

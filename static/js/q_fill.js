@@ -10,6 +10,32 @@ document.addEventListener('DOMContentLoaded', function () {
   const eNextQuestion = getEl('#form-btn-next-question');
   const eMsgResult = getEl('#msg-result');
   const eMsgEmpty = getEl('#msg-empty');
+  const eStatElements = {}; // Хранилище для ссылок на элементы статистики
+  const grades = ['N', 'F', 'D', 'C', 'B', 'A', 'S1', 'S2', 'S3'];
+  grades.forEach(grade => {
+    eStatElements[grade] = getEl(`.stat.${grade}`);
+  });
+  const eTotal = getEl('.total');
+  const eSuspicious = getEl('.suspicious');
+  // stats
+  function updateStats(stat) {
+    grades.forEach(grade => {
+      if (eStatElements[grade]) {
+        eStatElements[grade].textContent = `${grade}:${stat[grade] || 0}`;
+      }
+    });
+    eTotal.textContent = `${stat.in_progress}/${stat.total}`;
+    eSuspicious.textContent = `?:${stat.suspicious}`;
+    // Обновление progress-bar
+    const total = stat.total || 1;
+    grades.forEach(grade => {
+      const progressElement = getEl(`.sub-progress.${grade}`);
+      if (progressElement) {
+        progressElement.style.width = `${(stat[grade] / total * 100) || 0}%`;
+      }
+    });
+  }
+
   let answers = [];
   let idx = 0;
   let eBlanks = Array.from(getEls('.blank')).sort((a, b) => Number(a.dataset.num) - Number(b.dataset.num));
@@ -72,6 +98,8 @@ document.addEventListener('DOMContentLoaded', function () {
     })
     .then(response => response.json())
     .then(data => {
+      // stats
+      updateStats(data.stat);
       // estimation
       remCls(eEstimation, 'F', 'D', 'C', 'B', 'A');
       addCls(eEstimation, data.progress.estimation);
@@ -82,7 +110,6 @@ document.addEventListener('DOMContentLoaded', function () {
           remCls(eBlank, 'y', 'bg-y');
           let userAnswer = answers[i].trim();
           let correctAnswer = data.question.correct[i][1]
-          console.log(userAnswer, correctAnswer)
           let maxLength = parseInt(eBlank.dataset.maxlength, 10);
           let paddedCorrectAnswer = correctAnswer.padEnd(maxLength, ' ');
           eBlank.innerHTML = highlightMistakes(userAnswer.padEnd(maxLength, ' '), paddedCorrectAnswer, data.is_correct);

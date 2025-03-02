@@ -57,9 +57,3 @@ function highlightMistakes(userInput, correctInput, is_correct) {
   }
   return resultHTML;
 }
-
-
-
-
-
-

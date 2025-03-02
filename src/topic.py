@@ -29,13 +29,19 @@ class Topic:
 
     # === load.choose ===================================
     def load_choose_questions(self):
-        return pdo.load(self.f_q_chooses, allow_empty=True).to_dict(orient='records')
+        questions = pdo.load(self.f_q_chooses, allow_empty=True).to_dict(orient='records')
+        for question in questions:
+            question['is_suspicious'] = question.get('is_suspicious', 0) or 0
+            question['hash'] = '' if pd.isna(question.get('hash', '')) else question['hash']
+        return questions
 
     # === load.input ===================================
     def load_input_questions(self):
         questions = pdo.load(self.f_q_inputs, allow_empty=True).to_dict(orient='records')
         for question in questions:
             question['question'], question['correct'], question['hints'] = self.format_q_input(question['question'])
+            question['is_suspicious'] = question.get('is_suspicious', 0) or 0
+            question['hash'] = '' if pd.isna(question.get('hash', '')) else question['hash']
         return questions
     def format_q_input(self, question):
         '''
@@ -55,7 +61,16 @@ class Topic:
         '''Загружает fill-вопросы из файлов и парсит их с учетом пропусков.'''
         questions = []
         for filename in os.listdir(self.d_q_fills):
-            qid, qname = filename.split('_')
+            name_without_ext = os.path.splitext(filename)[0] # remove extension
+            parts = name_without_ext.split('_')
+            if len(parts) == 2:  # <id>_<name>
+                qid, qname = parts
+                is_suspicious, hash_value = 0, ''
+            elif len(parts) >= 3:  # <id>_<name>_<hash>
+                qid, qname, hash_value = parts[0], parts[1], '_'.join(parts[2:])
+                is_suspicious = 1
+            else:
+                raise ValueError(f"Unexpected filename format: {filename}")
             filepath = os.path.join(self.d_q_fills, filename)
             with open(filepath, 'r', encoding='utf-8') as f:
                 question = f.read().strip()
@@ -64,7 +79,9 @@ class Topic:
                     'id': qid,
                     'name': qname,
                     'question': formatted_question,
-                    'correct': correct
+                    'correct': correct,
+                    'is_suspicious': is_suspicious,
+                    'hash': '' if pd.isna(hash_value) else hash_value
                 })
         return questions
     def format_q_fill(self, question):
@@ -142,10 +159,11 @@ class Topic:
             raise ValueError(f'Invalid question type "{q_kind}" for topic {tid}.')
         # q_fill
         if q_kind == 'fill':
-            # fill-вопросы хранятся в списке
             question = next((q for q in self.qs['fill'] if q['id'] == str(qid)), None)
             if not question:
                 raise ValueError(f'Question ID {qid} not found in topic {tid} (type "{q_kind}").')
+            # Убираем NaN в hash
+            question['hash'] = '' if pd.isna(question.get('hash', '')) else question['hash']
             return pdo.convert_int64(question)
         # Для остальных типов работаем с DataFrame
         df_questions = pd.DataFrame(self.qs[q_kind])
@@ -155,12 +173,14 @@ class Topic:
         if question.empty:
             raise ValueError(f'Question ID {qid} not found in topic {tid} (type "{q_kind}").')
         data = question.iloc[0].to_dict()
+        # Убираем NaN в hash
+        data['hash'] = '' if pd.isna(data.get('hash', '')) else data['hash']
         if q_kind == 'choose':
-            # shufle options for 'choose'
+            # Перемешиваем опции для 'choose'
             options = [opt.strip() for opt in data['options'].split(';')]
             shuffle(options)
             data['options'] = options
-            # prepare correct
+            # Подготавливаем правильные ответы
             correct = [opt.strip() for opt in data['correct'].split(';')]
             data['correct'] = sorted(correct)
         return pdo.convert_int64(data)

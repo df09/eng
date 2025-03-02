@@ -1,0 +1,23 @@
+<div class='stats-block m0'>
+  <div class='stats dflex row ai-center jc-between'>
+    <div class="stats-left dflex row">
+      {% for grade in ['N', 'F', 'D', 'C', 'B', 'A', 'S1', 'S2', 'S3'] %}
+        <span class="stat {{ grade }} p5">{{ grade }}:{{ stat.get(grade, 0) }}</span>
+      {% endfor %}
+    </div>
+    <div class="stats-right dflex row">
+      <span class="total p5">{{ stat.get('in_progress', 0) }}/{{ stat.get('total', 1) }}</span>
+      <span class="suspicious p5">?:{{ stat.get('suspicious', 0) }}</span>
+    </div>
+  </div>
+  <div class="progress-bar">
+    {% set total = stat.get('total', 1) %}
+    {% for grade in ['N', 'F', 'D', 'C', 'B', 'A', 'S1', 'S2', 'S3'] %}
+      <div class="sub-progress {{ grade }}" style="width: {{ (stat.get(grade, 0) / total * 100) if total else 0 }}%;"></div>
+    {% endfor %}
+  </div>
+</div>
+<p class='estimation-block m0 mt5'>
+  <strong id='estimation' class='estimation {{ progress.estimation }} mr5'>{{ progress.estimation }}:</strong>
+  <span id='points' class='points w'>{{ progress.points }}/{{ progress.threshold }}</span>
+</p>

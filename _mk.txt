@@ -1,26 +1,21 @@
 mk:
-  main menu:
-    fix progress-bar
-    add topic "total": суммарный результат по всем топикам + сумарныйе тесты по всем темам
-  q-choose/q-input/q-fill:
-    add stats for topic
-      with progress-bar
+  route /topic/N: подгружаются пробудлированные вопросы, исправить загрузку и сохранение progress/stats
+  add topic total: суммарный результат по всем топикам + сумарныйе тесты по всем темам
   q-input:
     show translation
     show hints
+  add topic extra: сслыки на внешние источники
+  Esc -> Переход на Main Menu
+  next:
+    suspicious - добавить кнопку отметить с ремаркой + is_suspicious,hash:
+      на все виды вопросов: choose/input/fill
+      при запуске проверять suspicious, если hash поменялся:
+        сносить прогресс у всех пользователей
+        обновлять hash
+        убирать is_suspicious
+    q-speech: добавить зубрежку - тупо текст, на фронте не скрывать длину пропущеных слов
 
-# todo:
-#   q-fill/q-input: показывать стату по теме тоже сразу сверху
-#   main menu: add topic "extra": сслыки на внешние источники
-#   Esc -> Переход на Main Menu
-#   suspicious - добавить кнопку отметить с ремаркой + is_suspicious,hash:
-#     на все виды вопросов: choose/input/fill
-#     при запуске проверять suspicious, если hash поменялся:
-#       сносить прогресс у всех пользователей
-#       обновлять hash
-#       убирать is_suspicious
-#   q-speech: добавить зубрежку - тупо текст, на фронте не скрывать длину пропущеных слов
-# skiped-ideas:
+# backlog:
 #   input: A->S целиком пропечатывать предложение, показывая фоном что печатать правильно на англ, кроме clouse.
 #   q-догонялки:
 #     input. level 3: тоже самое +догонялки: убежать от тени, при ошибке отбрасывать на слово назад

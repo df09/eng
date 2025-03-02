@@ -42,6 +42,7 @@ def topic(tid):
     if tid not in topics.data:
         return f'Invalid topic - id:{tid}', 400
     user = get_current_user()
+    user.df_progress = user.load_progress()  # обновляем df_progress
     topic = Topic(tid, topics.data[tid])
     question = topic.choose_question(user.df_progress)
     q_kind = question['question_kind']
@@ -63,19 +64,23 @@ def init_q_rout(tid, q_kind, qid):
 def q_choose(tid, qid):
     q_kind = 'choose'
     user, topic, question, progress = init_q_rout(tid, q_kind, qid)
+    stat = next((s for s in user.df_stats.to_dict(orient='records') if s['topic_id'] == tid), {})
     if request.method == 'POST':
         answer = sorted(x.strip() for x in request.form.getlist('answer'))
         is_correct = answer == question['correct']
-        user.save_progress(tid, q_kind, qid, is_correct)
+        user.upd_progress(tid, q_kind, qid, is_correct)
+        user.upd_stats()
         progress = user.get_progress(tid, q_kind, qid)
+        stat = next((s for s in user.df_stats.to_dict(orient='records') if s['topic_id'] == tid), {})
         return jsonify({
+            'stat': stat,
             'progress': progress,
             'question': question,
             'answer': answer,
             'is_correct': is_correct,
         })
     return render_template('q_choose.html', page='q_choose', tid=tid, tname=topic.name,
-                           question=question, progress=progress)
+                           question=question, progress=progress, stat=stat)
 
 # === q_input ===================================
 @index_bp.route('/topic/<int:tid>/q_input/<int:qid>', methods=['GET', 'POST'])
@@ -83,19 +88,23 @@ def q_choose(tid, qid):
 def q_input(tid, qid):
     q_kind = 'input'
     user, topic, question, progress = init_q_rout(tid, q_kind, qid)
+    stat = next((s for s in user.df_stats.to_dict(orient='records') if s['topic_id'] == tid), {})
     if request.method == 'POST':
         answer = request.form.get('answer')
         is_correct = answer.strip().lower() == question['correct'].strip().lower()
-        user.save_progress(tid, q_kind, qid, is_correct)
+        user.upd_progress(tid, q_kind, qid, is_correct)
+        user.upd_stats()
         progress = user.get_progress(tid, q_kind, qid)
+        stat = next((s for s in user.df_stats.to_dict(orient='records') if s['topic_id'] == tid), {})
         return jsonify({
+            'stat': stat,
             'progress': progress,
             'question': question,
             'answer': answer,
             'is_correct': is_correct,
         })
     return render_template('q_input.html', page='q_input', tid=tid, tname=topic.name,
-                           question=question, progress=progress)
+                           question=question, progress=progress, stat=stat)
 
 # === q_fill ===================================
 @index_bp.route('/topic/<int:tid>/q_fill/<int:qid>', methods=['GET', 'POST'])
@@ -103,18 +112,22 @@ def q_input(tid, qid):
 def q_fill(tid, qid):
     q_kind = 'fill'
     user, topic, question, progress = init_q_rout(tid, q_kind, qid)
+    stat = next((s for s in user.df_stats.to_dict(orient='records') if s['topic_id'] == tid), {})
     if request.method == 'POST':
         answer = request.form.get('answer')
         user_answers = [ans.strip().lower() for ans in json.loads(answer)]
         correct_answers = [item[1].strip().lower() for item in question["correct"]]
         is_correct = user_answers == correct_answers
-        user.save_progress(tid, q_kind, qid, is_correct)
+        user.upd_progress(tid, q_kind, qid, is_correct)
+        user.upd_stats()
         progress = user.get_progress(tid, q_kind, qid)
+        stat = next((s for s in user.df_stats.to_dict(orient='records') if s['topic_id'] == tid), {})
         return jsonify({
+            'stat': stat,
             'progress': progress,
             'question': question,
             'answer': answer,
             'is_correct': is_correct,
         })
     return render_template('q_fill.html', page='q_fill', tid=tid, tname=topic.name,
-                           question=question, progress=progress)
+                           question=question, progress=progress, stat=stat)

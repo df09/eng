@@ -8,6 +8,31 @@ document.addEventListener('DOMContentLoaded', function () {
   const eNextQuestion = getEl('#form-btn-next-question');
   const eMsgResult = getEl('#msg-result');
   const eMsgEmpty = getEl('#msg-empty');
+  const eStatElements = {}; // Хранилище для ссылок на элементы статистики
+  const grades = ['N', 'F', 'D', 'C', 'B', 'A', 'S1', 'S2', 'S3'];
+  grades.forEach(grade => {
+    eStatElements[grade] = getEl(`.stat.${grade}`);
+  });
+  const eTotal = getEl('.total');
+  const eSuspicious = getEl('.suspicious');
+  // stats
+  function updateStats(stat) {
+    grades.forEach(grade => {
+      if (eStatElements[grade]) {
+        eStatElements[grade].textContent = `${grade}:${stat[grade] || 0}`;
+      }
+    });
+    eTotal.textContent = `${stat.in_progress}/${stat.total}`;
+    eSuspicious.textContent = `?:${stat.suspicious}`;
+    // Обновление progress-bar
+    const total = stat.total || 1;
+    grades.forEach(grade => {
+      const progressElement = getEl(`.sub-progress.${grade}`);
+      if (progressElement) {
+        progressElement.style.width = `${(stat[grade] / total * 100) || 0}%`;
+      }
+    });
+  }
 
   let submitted = false;
   // Автофокус на поле ввода
@@ -18,16 +43,18 @@ document.addEventListener('DOMContentLoaded', function () {
     if (submitted) return;
     // Проверяем, введено ли хоть что-то
     if (!eInput.value.trim()) {
-      remCls(eMsgEmpty, 'dnone');
+      show(eMsgEmpty);
       return;
     }
-    addCls(eMsgResult, 'dnone');
+    hide(eMsgResult);
     submitted = true;
+
     const formData = new FormData(eForm);
     fetch(eForm.action, { method: 'POST', body: formData })
       .then(response => response.json())
       .then(data => {
-        const userAnswer = data.answer
+        // stats
+        updateStats(data.stat);
         // estimation
         remCls(eEstimation, 'F', 'D', 'C', 'B', 'A');
         addCls(eEstimation, data.progress.estimation);
@@ -49,12 +76,10 @@ document.addEventListener('DOMContentLoaded', function () {
       }).catch(error => console.error('Error:', error));
   });
 
-  // Обработчик кнопки "eNextQuestion"
+  // Обработчик кнопки "Next"
   eNextQuestion.addEventListener('click', () => {
     const match = window.location.pathname.match(/\/topic\/(\d+)\//);
-    if (match) {
-      window.location.href = '/topic/' + match[1];
-    }
+    window.location.href = '/topic/' + match[1];
   });
 
   // Горячие клавиши

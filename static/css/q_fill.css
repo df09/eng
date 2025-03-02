@@ -4,9 +4,8 @@
 .estimation.B { background-color: #cce5ff; color: #0056b3; }
 .estimation.A { background-color: #adb5bd; color: #000000; }
 
-.question-block {
+.question-text {
   background: #f4f4f4;
-  padding: 10px;
   border-radius: 5px;
   white-space: pre-wrap;
   overflow-x: auto;

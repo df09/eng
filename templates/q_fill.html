@@ -1,20 +1,17 @@
-{% extends 'layouts/base.html' %}
+{% extends 'base.html' %}
 {% block title %}Q-Fill{% endblock %}
 {% block header %}
   <a href='{{ url_for('index.index') }}'>MainMenu</a><span>/{{ tid }}.{{ tname }}/Q-Fill</span>
 {% endblock %}
 {% block content %}
 <section class='q_fill'>
-  <p class='m0'>
-    <strong id='estimation' class='estimation {{ progress.estimation }} mr5'>{{ progress.estimation }}:</strong>
-    <span id='points' class='points w'>{{ progress.points }}/{{ progress.threshold}}</span>
-  </p>
-  <p class='m0'>
+  {% include 'components/q_header.html' %}
+  <p class='question-block m0'>
     <strong class='b bg-b mr5'>Q:</strong>
     <span>Please fill in the gaps.<span>
   </p>
-  <pre id='question-text' class='question-block'>{{ question.question | safe }}</pre>
-  <form id='question-form' class='question-form dflex col jc-between pt10 pb5'
+  <pre id='question-text' class='question-text p10 m0'>{{ question.question | safe }}</pre>
+  <form id='question-form' class='question-form dflex col jc-between pv5'
         autocomplete='off' autocorrect='off' autocapitalize='off' spellcheck='false'
         action='{{ url_for("index.q_fill", tid=tid, qid=question.id) }}' method='post'>
     <input id='form-input' class='form-input m0 p0'
@@ -22,8 +19,8 @@
       type='text' required autofocus>
     <input id="hidden-answer" name="answer" type="hidden">
     <div class='form-btns-section dflex row jc-start ai-center mt5'>
-      <button id='form-btn-back' type='button' class='form-btn-back dnone btn btn-b'>Back</button>
-      <button id='form-btn-next' type='button' class='form-btn-next dnone btn btn-b'>Next</button>
+      <button id='form-btn-back' type='button' class='form-btn-back dnone btn btn-y mr5'>Back</button>
+      <button id='form-btn-next' type='button' class='form-btn-next dnone btn btn-b mr5'>Next</button>
       <button id='form-btn-submit' type='submit' class='form-btn-submit dnone btn btn-g'>Submit</button>
       <button id='form-btn-next-question' class='form-btn-next-question dnone btn'>Next Question</button>
       <p id='msg-result' class='msg-result dnone m0 p0 pl10'></p>

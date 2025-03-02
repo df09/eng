@@ -1,4 +1,4 @@
-{% extends 'layouts/base.html' %}
+{% extends 'base.html' %}
 {% block title %}Main Menu{% endblock %}
 {% block header %}
   <span>MainMenu<span>
@@ -18,25 +18,23 @@
         <td class='topic_name p5'><a href="{{ url_for('index.topic', tid=tid|int) }}">{{ tid }}.{{ tname }}</a></td>
         <td class='topic_stats p5'>
           {% set stat = stats | selectattr("topic_id", "equalto", tid) | first %}
-          {% if stat %}
-            <div class='dflex row ai-center jc-between'>
-              <div class="stats dflex row">
-                <span class="grade p5 F">F:{{ stat.F }}</span>
-                <span class="grade p5 D">D:{{ stat.D }}</span>
-                <span class="grade p5 C">C:{{ stat.C }}</span>
-                <span class="grade p5 B">B:{{ stat.B }}</span>
-                <span class="grade p5 A">A:{{ stat.A }}</span>
-              </div>
-              <div class="progress">
-                <span class="progress">{{ stat.in_progress }}/{{ stat.total }}</span>
-              </div>
+          <div class='stats dflex row ai-center jc-between'>
+            <div class="stats-left dflex row">
+              {% for grade in ['N', 'F', 'D', 'C', 'B', 'A', 'S1', 'S2', 'S3'] %}
+                <span class="stat p5 {{ grade }}">{{ grade }}:{{ stat[grade] }}</span>
+              {% endfor %}
             </div>
-            <div class="progress-bar">
-              <div class="progress" style="width: {{ (stat.in_progress / stat.total * 100) if stat.total else 0 }}%;"></div>
+            <div class="stats-right dflex row">
+              <span class="total p5">{{ stat.in_progress }}/{{ stat.total }}</span>
+              <span class="suspicious p5">?:{{ stats.suspicious }}</span>
             </div>
-          {% else %}
-            <span>No stats available</span>
-          {% endif %}
+          </div>
+          <div class="progress-bar">
+            {% set total = stat.total if stat.total else 1 %}
+            {% for grade in ['N', 'F', 'D', 'C', 'B', 'A', 'S1', 'S2', 'S3'] %}
+              <div class="sub-progress {{ grade }}" style="width: {{ (stat[grade] / total * 100) if total else 0 }}%;"></div>
+            {% endfor %}
+          </div>
         </td>
       {% endfor %}
     </tbody>
