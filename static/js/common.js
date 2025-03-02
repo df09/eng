@@ -50,8 +50,8 @@ function highlightMistakes(userInput, correctInput, is_correct) {
   let resultHTML = '';
   let len = Math.max(userInput.length, correctInput.length);
   for (let i = 0; i < len; i++) {
-    let userChar = userInput[i] || ' ';
-    let correctChar = correctInput[i] || ' ';
+    let userChar = userInput[i] || '';
+    let correctChar = correctInput[i] || '';
     let styles = userChar === correctChar ? 'g bg-g' : 'r bg-r';
     resultHTML += '<span class="' + styles + '">' + correctChar + '</span>';
   }

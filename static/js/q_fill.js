@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function () {
   const eMsgResult = getEl('#msg-result');
   const eMsgEmpty = getEl('#msg-empty');
   const eStatElements = {}; // Хранилище для ссылок на элементы статистики
-  const grades = ['N', 'F', 'D', 'C', 'B', 'A', 'S1', 'S2', 'S3'];
+  const grades = ['N', 'F', 'D', 'C', 'B', 'A'];
   grades.forEach(grade => {
     eStatElements[grade] = getEl(`.stat.${grade}`);
   });

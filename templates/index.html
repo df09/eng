@@ -20,7 +20,7 @@
           {% set stat = stats | selectattr("topic_id", "equalto", tid) | first %}
           <div class='stats dflex row ai-center jc-between'>
             <div class="stats-left dflex row">
-              {% for grade in ['F', 'D', 'C', 'B', 'A', 'S1', 'S2', 'S3', 'N'] %}
+              {% for grade in ['F', 'D', 'C', 'B', 'A', 'N'] %}
                 <span class="stat p5 {{ grade }}">{{ grade }}:{{ stat[grade] }}</span>
               {% endfor %}
             </div>
@@ -31,7 +31,7 @@
           </div>
           <div class="progress-bar">
             {% set total = stat.total if stat.total else 1 %}
-            {% for grade in ['F', 'D', 'C', 'B', 'A', 'S1', 'S2', 'S3', 'N'] %}
+            {% for grade in ['F', 'D', 'C', 'B', 'A', 'N'] %}
               <div class="sub-progress {{ grade }}" style="width: {{ (stat[grade] / total * 100) if total else 0 }}%;"></div>
             {% endfor %}
           </div>

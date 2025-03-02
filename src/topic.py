@@ -12,7 +12,7 @@ class Topic:
     def __init__(self, tid, name):
         self.id = tid
         self.name = name
-        self.estimation_order = {'N':0,'F':1,'D':2,'C':3,'B':4,'A':5,'S1':6,'S2':7,'S3':8}
+        self.estimation_order = {'N':0,'F':1,'D':2,'C':3,'B':4,'A':5}
         self.path = f'data/topics/{self.id}_{self.name}'
         self.f_q_chooses = f'{self.path}/questions/chooses.csv'
         self.f_q_inputs = f'{self.path}/questions/inputs.csv'
@@ -121,15 +121,14 @@ class Topic:
         if not questions:
             raise ValueError(f'Topic {self.id} doesn\'t contain questions.')
         df_questions = pd.DataFrame(questions)
-
         # Фильтруем df_progress по topic_id
         df_progress4topic = df_progress[df_progress['topic_id'] == self.id]
-        # Создаем ключ для идентификации (question_kind + question_id)
+        # Создаём ключ для идентификации (question_kind + question_id)
         df_progress4topic['key'] = df_progress4topic['question_kind'] + '_' + df_progress4topic['question_id'].astype(str)
         df_questions['key'] = df_questions['kind'] + '_' + df_questions['id'].astype(str)
-        # Определяем, какие вопросы отсутствуют в прогрессе
-        missing_questions = df_questions[~df_questions['key'].isin(df_progress4topic['key'])]
+
         # Добавляем недостающие вопросы
+        missing_questions = df_questions[~df_questions['key'].isin(df_progress4topic['key'])]
         new_id = df_progress['id'].max(skipna=True) + 1 if not df_progress.empty else 0
         if not missing_questions.empty:
             new_progress = pd.DataFrame({
@@ -139,18 +138,25 @@ class Topic:
                 'question_id': missing_questions['id'].values,
                 'points': 0,
                 'estimation': 'N',
-                'updated_at': pd.Timestamp.utcnow()
+                'asked_at': pd.NaT
             })
             df_progress_combined = pd.concat([df_progress4topic, new_progress], ignore_index=True)
         else:
             df_progress_combined = df_progress4topic.copy()
         # Преобразуем 'estimation' в числовое значение
         df_progress_combined['estimation_numeric'] = df_progress_combined['estimation'].map(self.estimation_order).fillna(0).astype(int)
-        # Находим вопрос с минимальным 'estimation'
-        min_estimation = df_progress_combined['estimation_numeric'].min()
-        candidates = df_progress_combined[df_progress_combined['estimation_numeric'] == min_estimation]
-        # Выбираем случайный вопрос из кандидатов
-        return candidates.sample(frac=1).sample(n=1).iloc[0]
+        # **ШАГ 1: Выбираем вопросы с N, F, D, C, B**
+        priority_questions = df_progress_combined[df_progress_combined['estimation'].isin(['N', 'F', 'D', 'C', 'B'])]
+        if priority_questions.empty:
+            # **ШАГ 2: Если нет, пробуем A**
+            priority_questions = df_progress_combined[df_progress_combined['estimation'] == 'A']
+        if priority_questions.empty:
+            raise ValueError(f"No suitable questions found in topic {self.id}.")
+        # перемешиваем, сортируем по asked_at, nat идут первыми, но в случайном порядке
+        priority_questions = priority_questions.sample(frac=1, random_state=None)
+        priority_questions = priority_questions.sort_values(by='asked_at', ascending=True, na_position='first')
+        # Берём первый (самый старый, но перемешанный среди NaT)
+        return priority_questions.iloc[0]
 
     def get_question(self, tid, q_kind, qid):
         '''

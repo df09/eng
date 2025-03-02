@@ -1,9 +1,3 @@
-.estimation.F { background-color: #ffeff1; color: #dc3545; }
-.estimation.D { background-color: #fff8e6; color: #e6b114; }
-.estimation.C { background-color: #e6f4ea; color: #3fa356; }
-.estimation.B { background-color: #cce5ff; color: #0056b3; }
-.estimation.A { background-color: #adb5bd; color: #000000; }
-
 .form-input:focus-visible {
   outline: none;
   border: 1px solid inherit;

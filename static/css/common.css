@@ -101,10 +101,7 @@
 .stat.D { background-color: #ff9800; color: #000; }  /* Оранжевый фон, белый текст */
 .stat.C { background-color: #ffd700; color: #000; }  /* Желтый фон, черный текст */
 .stat.B { background-color: #7bc866; color: #000; }  /* Зеленый фон, белый текст */
-.stat.A { background-color: #86a3d9; color: #000; }  /* Синий фон, белый текст */
-.stat.S1 { background-color: #57e0ee; color: #000; } /* Бирюзовый фон, белый текст */
-.stat.S2 { background-color: #57e0ee; color: #000; } /* Светло-бирюзовый фон, белый текст */
-.stat.S3 { background-color: #57e0ee; color: #000; } /* Еще светлее, черный текст */
+.stat.A { background-color: #57e0ee; color: #000; }  /* Синий фон, белый текст */
 .progress-bar {
     width: 100%;
     height: 8px;
@@ -118,7 +115,10 @@
 .sub-progress.D { background-color: #ff9800; }
 .sub-progress.C { background-color: #ffd700; }
 .sub-progress.B { background-color: #7bc866; }
-.sub-progress.A { background-color: #86a3d9; }
-.sub-progress.S1 { background-color: #57e0ee; }
-.sub-progress.S2 { background-color: #57e0ee; }
-.sub-progress.S3 { background-color: #57e0ee; }
+.sub-progress.A { background-color: #57e0ee; }
+.estimation.N { background-color: #e0e0e0; color: #6c757d; }  /* Светло-серый фон, серый текст */
+.estimation.F { background-color: #ffdadb; color: #b71c1c; }  /* Светло-красный фон, тёмно-красный текст */
+.estimation.D { background-color: #ffe4b3; color: #ff6f00; }  /* Светло-оранжевый фон, тёмно-оранжевый текст */
+.estimation.C { background-color: #fff5cc; color: #cc9a00; }  /* Светло-жёлтый фон, тёмно-жёлтый текст */
+.estimation.B { background-color: #d4efdf; color: #1d8348; }  /* Светло-зелёный фон, тёмно-зелёный текст */
+.estimation.A { background-color: #d6eaff; color: #0a3d62; }  /* Светло-голубой фон, тёмно-синий текст */
