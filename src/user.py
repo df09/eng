@@ -101,7 +101,7 @@ class User:
                 lambda p: next((k for k, (low, high) in self.estimate_ranges.items() if low <= p <= high), 'F')
             )
             # upd time
-            random_offset = random.randint(-999, 0)  # случайное смещение, только уменьшение времени
+            random_offset = random.randint(0, 86400)  # случайное смещение, только уменьшение времени
             self.df_progress.at[index, 'asked_at'] = pd.Timestamp.utcnow() + pd.Timedelta(milliseconds=random_offset)
         pdo.save(self.df_progress, self.f_progress)
 

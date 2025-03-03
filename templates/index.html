@@ -30,10 +30,13 @@
             </div>
           </div>
           <div class="progress-bar">
-            {% set total = stat.total if stat.total else 1 %}
-            {% for grade in ['F', 'D', 'C', 'B', 'A', 'N'] %}
-              <div class="sub-progress {{ grade }}" style="width: {{ (stat[grade] / total * 100) if total else 0 }}%;"></div>
-            {% endfor %}
+              {% set total = stat.get('total', 1) %}
+              {% for grade in ['F', 'D', 'C', 'B', 'A', 'N'] %}
+                {% set width = (stat.get(grade, 0) / total * 100) if total else 0 %}
+                <div class="sub-progress {{ grade }} {% if width == 0 %}dnone{% endif %}" 
+                     style="width: {{ width }}%;">
+                </div>
+              {% endfor %}
           </div>
         </td>
       {% endfor %}

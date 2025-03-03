@@ -2,7 +2,9 @@
   <div class='stats dflex row ai-center jc-between'>
     <div class="stats-left dflex row">
       {% for grade in ['F', 'D', 'C', 'B', 'A', 'N'] %}
-        <span class="stat {{ grade }} p5">{{ grade }}:{{ stat.get(grade, 0) }}</span>
+        <span id='stat-{{ grade }}' class="stat {% if stat.get(grade, 0) == 0 %}zero{% else %}{{ grade }}{% endif %} p5">
+          {{ grade }}:{{ stat.get(grade, 0) }}
+        </span>
       {% endfor %}
     </div>
     <div class="stats-right dflex row">
@@ -11,10 +13,13 @@
     </div>
   </div>
   <div class="progress-bar">
-    {% set total = stat.get('total', 1) %}
-    {% for grade in ['F', 'D', 'C', 'B', 'A', 'N'] %}
-      <div class="sub-progress {{ grade }}" style="width: {{ (stat.get(grade, 0) / total * 100) if total else 0 }}%;"></div>
-    {% endfor %}
+      {% set total = stat.get('total', 1) %}
+      {% for grade in ['F', 'D', 'C', 'B', 'A', 'N'] %}
+        {% set width = (stat.get(grade, 0) / total * 100) if total else 0 %}
+        <div class="sub-progress {{ grade }} {% if width == 0 %}dnone{% endif %}" 
+             style="width: {{ width }}%;">
+        </div>
+      {% endfor %}
   </div>
 </div>
 <p class='estimation-block dflex m0 mt5'>

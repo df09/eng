@@ -94,14 +94,15 @@
   filter: brightness(1.4);
 }
 
-.suspicious { background-color: #ff4d4d; color: #000; }
 /* ===== stats ===== */
-.stat.N { background-color: #b0b0b0; color: #000; }  /* Серый фон, черный текст */
-.stat.F { background-color: #ff4d4d; color: #000; }  /* Ярко-красный фон, белый текст */
-.stat.D { background-color: #ff9800; color: #000; }  /* Оранжевый фон, белый текст */
-.stat.C { background-color: #ffd700; color: #000; }  /* Желтый фон, черный текст */
-.stat.B { background-color: #7bc866; color: #000; }  /* Зеленый фон, белый текст */
-.stat.A { background-color: #57e0ee; color: #000; }  /* Синий фон, белый текст */
+.suspicious { background-color: #ff4d4d; color: #000; margin: 1px; }
+.stat.zero { border: 1px solid #b0b0b0; margin: 1px; }
+.stat.N { background-color: #b0b0b0; color: #000; margin: 1px; }  /* Серый фон, черный текст */
+.stat.F { background-color: #ff4d4d; color: #000; border: 1px solid #fff; }  /* Ярко-красный фон, белый текст */
+.stat.D { background-color: #ff9800; color: #000; border: 1px solid #fff; }  /* Оранжевый фон, белый текст */
+.stat.C { background-color: #ffd700; color: #000; border: 1px solid #fff; }  /* Желтый фон, черный текст */
+.stat.B { background-color: #83dc6b; color: #000; border: 1px solid #fff; }  /* Зеленый фон, белый текст */
+.stat.A { background-color: #57e0ee; color: #000; border: 1px solid #fff; }  /* Синий фон, белый текст */
 .progress-bar {
     width: 100%;
     height: 8px;
@@ -110,12 +111,12 @@
     display: flex; /* Распределение по сегментам */
 }
 .sub-progress { height: 100%; transition: width 0.3s ease-in-out; }
-.sub-progress.N { background-color: #b0b0b0; }  
-.sub-progress.F { background-color: #ff4d4d; }
-.sub-progress.D { background-color: #ff9800; }
-.sub-progress.C { background-color: #ffd700; }
-.sub-progress.B { background-color: #7bc866; }
-.sub-progress.A { background-color: #57e0ee; }
+.sub-progress.N { background-color: #b0b0b0; border: 1px solid #fff;}  
+.sub-progress.F { background-color: #ff4d4d; border: 1px solid #fff;}
+.sub-progress.D { background-color: #ff9800; border: 1px solid #fff;}
+.sub-progress.C { background-color: #ffd700; border: 1px solid #fff;}
+.sub-progress.B { background-color: #83dc6b; border: 1px solid #fff;}
+.sub-progress.A { background-color: #57e0ee; border: 1px solid #fff;}
 .estimation.N { background-color: #e0e0e0; color: #6c757d; }  /* Светло-серый фон, серый текст */
 .estimation.F { background-color: #ffdadb; color: #b71c1c; }  /* Светло-красный фон, тёмно-красный текст */
 .estimation.D { background-color: #ffe4b3; color: #ff6f00; }  /* Светло-оранжевый фон, тёмно-оранжевый текст */

@@ -12,27 +12,37 @@ document.addEventListener('DOMContentLoaded', function () {
   const eStatElements = {}; // Хранилище для ссылок на элементы статистики
   const grades = ['N', 'F', 'D', 'C', 'B', 'A'];
   grades.forEach(grade => {
-    eStatElements[grade] = getEl(`.stat.${grade}`);
+    eStatElements[grade] = getEl('#stat-'+grade);
   });
   const eTotal = getEl('.total');
   const eSuspicious = getEl('.suspicious');
+  // progress-bar
+  function updProgresBar(stat) {
+    const total = stat.total || 1;
+    grades.forEach(grade => {
+      const progressElement = getEl(`.sub-progress.${grade}`);
+      if (progressElement) {
+        const width = (stat[grade] / total * 100) || 0;
+        progressElement.style.width = width+'%';
+        width === 0 ? hide(progressElement) : show(progressElement)
+      }
+    });
+  }
   // stats
   function updateStats(stat) {
     grades.forEach(grade => {
       if (eStatElements[grade]) {
-        eStatElements[grade].textContent = `${grade}:${stat[grade] || 0}`;
+        // stats values
+        eStatElements[grade].textContent = grade+':'+stat[grade] || 0;
+        // stats classes
+        remCls(eStatElements[grade], 'zero', 'N', 'F', 'D', 'C', 'B', 'A');
+        addCls(eStatElements[grade], stat[grade] === 0 ? 'zero' : grade);
       }
     });
     eTotal.textContent = `${stat.in_progress}/${stat.total}`;
     eSuspicious.textContent = `?:${stat.suspicious}`;
     // Обновление progress-bar
-    const total = stat.total || 1;
-    grades.forEach(grade => {
-      const progressElement = getEl(`.sub-progress.${grade}`);
-      if (progressElement) {
-        progressElement.style.width = `${(stat[grade] / total * 100) || 0}%`;
-      }
-    });
+    updProgresBar(stat);
   }
 
   let submitted = false; // Флаг для блокировки изменений
