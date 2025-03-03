@@ -1,5 +1,4 @@
 mk:
-  q_choose/q_input/q_fill: Esc -> Переход на Main Menu
   q-input:
     show translation
     show hints

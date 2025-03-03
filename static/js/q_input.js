@@ -1,4 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
+  const eMainMenuLink = getEl('#main-menu-link');
   const eEstimation = getEl('#estimation');
   const ePoints = getEl('#points');
   const eQuestion = getEl('#question-text');
@@ -94,6 +95,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
   // Горячие клавиши
   document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape') { eMainMenuLink.click(); }
     if (submitted) {
       if (event.key === 'Enter' && !eNextQuestion.classList.contains('dnone')) {
         event.preventDefault();

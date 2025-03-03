@@ -1,4 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
+  const eMainMenuLink = getEl('#main-menu-link');
   const eEstimation = getEl('#estimation');
   const ePoints = getEl('#points');
   const eQuestion = getEl('#question-text');
@@ -147,6 +148,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
   // hotkeys
   document.addEventListener('keydown', function (event) {
+    if (event.key === 'Escape') { eMainMenuLink.click(); }
     if ((event.key === 'ArrowLeft' || event.key === 'ArrowUp' || (event.key === 'Tab' && event.shiftKey)) && idx > 0) {
       event.preventDefault(); actionBack();
     } else if ((event.key === 'ArrowRight' || event.key === 'ArrowDown' || event.key === 'Enter' || event.key === 'Tab') && idx < eBlanks.length - 1) {

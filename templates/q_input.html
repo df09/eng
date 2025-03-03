@@ -1,7 +1,7 @@
 {% extends 'base.html' %}
 {% block title %}Q-Input{% endblock %}
 {% block header %}
-  <a href='{{ url_for('index.index') }}'>MainMenu</a><span>/{{ tid }}.{{ tname }}/Q-Input</span>
+  <a id='main-menu-link' href='{{ url_for('index.index') }}'>MainMenu</a><span>/{{ tid }}.{{ tname }}/Q-Input</span>
 {% endblock %}
 {% block content %}
 <section class='q_input'>
