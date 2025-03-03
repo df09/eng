@@ -23,6 +23,7 @@ class User:
         #   найти среди них вопрос на который дольше всего не давался правильный ответ
         #   показать
         self.estimate_ranges = {'N': (0, 0), 'F': (1, 3), 'D': (4, 6), 'C': (7, 9), 'B': (10, 14), 'A': (15, 999)}
+        self.upd_df_stats()
 
     # === stats ===================================
     def get_df_stats(self, topics_data):
@@ -34,7 +35,10 @@ class User:
         existing_topics = set(df_stats['topic_id']) if not df_stats.empty else set()
         new_rows = []
         for tid, topic_name in topics_data.items():
-            topic_path = f'data/topics/{tid}_{topic_name}/questions/_total.txt'
+            if tid == 0:
+                topic_path = f'data/topics/{tid}_{topic_name}/_total.txt'
+            else:
+                topic_path = f'data/topics/{tid}_{topic_name}/questions/_total.txt'
             total = int(fo.txt2str(topic_path))
             if tid not in existing_topics:
                 new_rows.append({
@@ -52,6 +56,7 @@ class User:
             df_stats = pd.concat([df_stats, pd.DataFrame(new_rows)], ignore_index=True)
             pdo.save(df_stats, self.f_stats)  # Сохраняем только при изменениях
         return df_stats
+
     def upd_df_stats(self):
         # reset all
         self.df_stats[['N', 'F', 'D', 'C', 'B', 'A']] = 0
@@ -60,9 +65,15 @@ class User:
         for grade in self.estimate_ranges.keys():
             if grade in progress_counts:
                 self.df_stats[grade] = self.df_stats['topic_id'].map(progress_counts[grade]).fillna(0).astype(int)
-        # in_progress, N
+        # in_progress
         self.df_stats['in_progress'] = self.df_stats[['F', 'D', 'C', 'B', 'A']].sum(axis=1)
+        # N (not asked yet)
         self.df_stats['N'] = (self.df_stats['total'] - self.df_stats['in_progress']).clip(lower=0)
+        # -NaN/-float
+        self.df_stats = self.df_stats.fillna(0).astype(int)
+        # topic_id: 0 recalc
+        sum_values = self.df_stats[self.df_stats['topic_id'] != 0].drop(columns=['id', 'topic_id']).sum() # Вычисляем сумму для строк, где topic_id != 0
+        self.df_stats.loc[self.df_stats['topic_id'] == 0, sum_values.index] = sum_values.values # Записываем сумму в строку, где topic_id == 0
         # save
         pdo.save(self.df_stats, self.f_stats)
 

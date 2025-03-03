@@ -1,4 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
+  const ist0 = getEl('#ist0').dataset.ist0 === '1';
   const eMainMenuLink = getEl('#main-menu-link');
   const eEstimation = getEl('#estimation');
   const ePoints = getEl('#points');
@@ -122,24 +123,25 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   });
 
-  // Обработчик кнопки "Next"
+  // listeners.next
   eNextQuestion.addEventListener('click', () => {
-    const match = window.location.pathname.match(/\/topic\/(\d+)\//);
-    window.location.href = '/topic/' + match[1];
+    if (ist0) {
+      window.location.href = '/topic/0';
+    } else {
+      const match = window.location.pathname.match(/\/topic\/(\d+)\//);
+      window.location.href = '/topic/' + match[1];
+    }
   });
-
-  // Горячие клавиши
+  // listeners.hotkeys
   const numKeys = ['1', '2', '3', '4', '5', '6', '7', '8', '9'];
   const vimKeys = ['s', 'd', 'f', 'g', 'x', 'c', 'v', 'b', 'j', 'k']; // vim-like keys
   const keyMap = {};
-
   eCheckboxes.forEach((cb, i) => {
     const numKey = i < numKeys.length ? numKeys[i] : null;
     const vimKey = i < vimKeys.length ? vimKeys[i] : null;
     if (numKey) keyMap[numKey] = cb;
     if (vimKey) keyMap[vimKey] = cb;
   });
-
   document.addEventListener('keydown', (event) => {
     if (event.key === 'Escape') { eMainMenuLink.click(); }
     if (submitted) {

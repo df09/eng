@@ -1,4 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
+  const ist0 = getEl('#ist0').dataset.ist0 === '1';
   const eMainMenuLink = getEl('#main-menu-link');
   const eEstimation = getEl('#estimation');
   const ePoints = getEl('#points');
@@ -139,8 +140,12 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }
   function actionNextQuestion() {
-    const match = window.location.pathname.match(/\/topic\/(\d+)\//);
-    window.location.href = '/topic/' + match[1];
+    if (ist0) {
+      window.location.href = '/topic/0';
+    } else {
+      const match = window.location.pathname.match(/\/topic\/(\d+)\//);
+      window.location.href = '/topic/' + match[1];
+    }
   };
 
   // listeners

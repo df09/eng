@@ -4,6 +4,7 @@
   <a id='main-menu-link' href='{{ url_for('index.index') }}'>MainMenu</a><span>/{{ tid }}.{{ tname }}/Q-Fill</span>
 {% endblock %}
 {% block content %}
+<div id='ist0' class='dnone' data-ist0="{{ ist0 }}"></div>
 <section class='q_fill'>
   {% include 'components/q_header.html' %}
   <p class='question-block dflex m0'>

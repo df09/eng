@@ -1,0 +1,4 @@
+ id , question                       , correct        , options                                         , extra , is_suspicious , hash
+ 0  , change file permissions        , chmod 755 file , chmod 777 file; chmod 755 file; chown user file ,       ,               ,
+ 1  , properly kill a process by PID , kill -9 PID    , kill PID; kill -9 PID; rm -rf PID               ,       ,               ,
+ 2  , switch users                   , su; sudo       , su; sudo; ls -l; man                            ,       ,               ,

@@ -1,31 +1,51 @@
+from random import shuffle
 import os
-import re
-from logger import logger
-import src.helpers.fo as fo
 import pandas as pd
 import src.helpers.pdo as pdo
-from pprint import pprint
-from random import shuffle
+import src.helpers.fo as fo
+from logger import logger
+import re
 
 
 class Topic:
-    def __init__(self, tid, name):
+    def __init__(self, tid, name, topics_data=None):
         self.id = tid
         self.name = name
         self.estimation_order = {'N':0,'F':1,'D':2,'C':3,'B':4,'A':5}
-        self.path = f'data/topics/{self.id}_{self.name}'
+        self.path = f'./data/topics/{tid}_{name}'
         self.f_q_chooses = f'{self.path}/questions/chooses.csv'
         self.f_q_inputs = f'{self.path}/questions/inputs.csv'
         self.d_q_fills = f'{self.path}/questions/fills'
         self.f_total = f'{self.path}/questions/_total.txt'
-        self.qs = {
-            'choose': self.load_choose_questions(),
-            'input': self.load_input_questions(),
-            'fill': self.load_fill_questions()
-        }
+        # 0.all topic
+        if self.id == 0:
+            self.qs = self.load_all_questions(topics_data)
+            self.f_total = f'data/topics/0_all/_total.txt'
+            self.theory = ''
+        else:
+            self.f_q_chooses = f'{self.path}/questions/chooses.csv'
+            self.f_q_inputs = f'{self.path}/questions/inputs.csv'
+            self.d_q_fills = f'{self.path}/questions/fills'
+            self.f_total = f'{self.path}/questions/_total.txt'
+            self.qs = {
+                'choose': self.load_choose_questions(),
+                'input': self.load_input_questions(),
+                'fill': self.load_fill_questions()
+            }
+            self.theory = fo.txt2str(f'{self.path}/theory.txt')
         self.upd_total()
-        # TODO: просто дать ссылку на readme?
-        self.theory = fo.txt2str(f'{self.path}/theory.txt')
+
+    # === load.all ===================================
+    def load_all_questions(self, topics_data):
+        """Загружает вопросы из всех тем."""
+        questions = {'choose': [], 'input': [], 'fill': []}
+        for topic_id, topic_name in topics_data.items():
+            if topic_id == 0:
+                continue
+            topic = Topic(topic_id, topic_name)
+            for kind in questions.keys():
+                questions[kind].extend(topic.qs.get(kind, []))
+        return questions
 
     # === load.choose ===================================
     def load_choose_questions(self):
@@ -39,7 +59,7 @@ class Topic:
 
     # === load.input ===================================
     def load_input_questions(self):
-        df = pdo.load(self.f_q_inputs, allow_empty=True, sep=';')
+        df = pdo.load(self.f_q_inputs, allow_empty=True)
         df = df.fillna('')  # Убираем NaN из строк
         df = df.applymap(lambda x: 0 if isinstance(x, float) and pd.isna(x) else x)  # Убираем NaN
         questions = df.to_dict(orient='records')

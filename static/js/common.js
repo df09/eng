@@ -52,7 +52,7 @@ function highlightMistakes(userInput, correctInput, is_correct) {
   for (let i = 0; i < len; i++) {
     let userChar = userInput[i] || '';
     let correctChar = correctInput[i] || '';
-    let styles = userChar === correctChar ? 'g bg-g' : 'r bg-r';
+    let styles = userChar.toLowerCase() === correctChar.toLowerCase() ? 'g bg-g' : 'r bg-r';
     resultHTML += '<span class="' + styles + '">' + correctChar + '</span>';
   }
   return resultHTML;

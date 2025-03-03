@@ -1,7 +1,4 @@
 mk:
-  add topic total:
-    суммарный stats по всем топикам
-    суммарные тесты по всем темам
   q_choose/q_input/q_fill:
     suspicious - добавить кнопку + is_suspicious,hash:
       при запуске проверять hash в suspicious questions.
@@ -11,6 +8,7 @@ mk:
         is_suspicious = 0
 
 # backlog:
+#   сслыка на теорию
 #   add topic extra: сслыки на внешние источники
 #   speling skills:
 #     q_input:  B+ целиком пропечатывать предложение, отбрасывая на слово назад при опечатке

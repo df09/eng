@@ -31,6 +31,7 @@ def favicon():
 @index_bp.route('/')
 @login_required
 def index():
+    topics.upd_totals()
     user = get_current_user()
     stats = user.df_stats.to_dict(orient='records')
     return render_template('index.html', page='index', topics=topics.data, stats=stats)
@@ -42,12 +43,19 @@ def topic(tid):
     if tid not in topics.data:
         return f'Invalid topic - id:{tid}', 400
     user = get_current_user()
-    topic = Topic(tid, topics.data[tid])
+    # Если tid == 0, выбираем реальный топик
+    ist0 = 1 if tid == 0 else 0
+    chosed_tid = topics.choose_topic_id(user.df_stats) if tid == 0 else tid
+    if chosed_tid not in topics.data:
+        return f'Invalid topic - id:{chosed_tid}', 400
+    topic = Topic(chosed_tid, topics.data[chosed_tid])
     question = topic.choose_question(user.df_progress)
-    q_kind = question['question_kind']
-    qid = question['question_id']
+    # Проверяем, существует ли вопрос
+    if not topic.get_question(chosed_tid, question['question_kind'], question['question_id']):
+        return f'Invalid question - id:{question['question_id']} in topic {chosed_tid}', 400
     routes = {'choose': 'index.q_choose', 'input': 'index.q_input', 'fill': 'index.q_fill'}
-    return redirect(url_for(routes.get(q_kind, 'index.unknown_question'), tid=tid, qid=qid))
+    return redirect(url_for(routes.get(question['question_kind'], 'index.unknown_question'),
+                            tid=chosed_tid, qid=question['question_id'], ist0=ist0))
 
 # === q_helpers ===================================
 def init_q_rout(tid, q_kind, qid):
@@ -62,6 +70,7 @@ def init_q_rout(tid, q_kind, qid):
 @index_bp.route('/topic/<int:tid>/q_choose/<int:qid>', methods=['GET', 'POST'])
 @login_required
 def q_choose(tid, qid):
+    ist0 = request.args.get('ist0')
     q_kind = 'choose'
     user, topic, stat, progress, question = init_q_rout(tid, q_kind, qid)
     if request.method == 'POST':
@@ -78,12 +87,13 @@ def q_choose(tid, qid):
             'is_correct': is_correct,
         })
     return render_template('q_choose.html', page='q_choose', tid=tid, tname=topic.name,
-                           question=question, progress=progress, stat=stat)
+                           question=question, progress=progress, stat=stat, ist0=ist0)
 
 # === q_input ===================================
 @index_bp.route('/topic/<int:tid>/q_input/<int:qid>', methods=['GET', 'POST'])
 @login_required
 def q_input(tid, qid):
+    ist0 = request.args.get('ist0')
     q_kind = 'input'
     user, topic, stat, progress, question = init_q_rout(tid, q_kind, qid)
     if request.method == 'POST':
@@ -99,13 +109,14 @@ def q_input(tid, qid):
             'answer': answer,
             'is_correct': is_correct,
         })
-    return render_template('q_input.html', page='q_input', tid=tid, tname=topic.name,
-                           question=question, progress=progress, stat=stat)
+    return render_template('q_input.html', page='q_input', tid=topic.id, tname=topic.name,
+                           question=question, progress=progress, stat=stat, ist0=ist0)
 
 # === q_fill ===================================
 @index_bp.route('/topic/<int:tid>/q_fill/<int:qid>', methods=['GET', 'POST'])
 @login_required
 def q_fill(tid, qid):
+    ist0 = request.args.get('ist0')
     q_kind = 'fill'
     user, topic, stat, progress, question = init_q_rout(tid, q_kind, qid)
     if request.method == 'POST':
@@ -124,4 +135,4 @@ def q_fill(tid, qid):
             'is_correct': is_correct,
         })
     return render_template('q_fill.html', page='q_fill', tid=tid, tname=topic.name,
-                           question=question, progress=progress, stat=stat)
+                           question=question, progress=progress, stat=stat, ist0=ist0)

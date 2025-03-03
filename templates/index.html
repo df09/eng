@@ -1,11 +1,11 @@
 {% extends 'base.html' %}
 {% block title %}Main Menu{% endblock %}
 {% block header %}
-  <span>MainMenu<span>
+  <span>MainMenu</span>
 {% endblock %}
 {% block content %}
 <section class="topics">
-  <table>
+  <table id="topics-table">
     <thead>
       <tr>
         <th class="p5">Topic</th>
@@ -13,9 +13,17 @@
       </tr>
     </thead>
     <tbody>
+      {% set vim_keys = ['s', 'd', 'f', 'g', 'x', 'c', 'v', 'b', 'j', 'k'] %}
       {% for tid, tname in topics.items() %}
-      <tr>
-        <td class='topic_name p5'><a href="{{ url_for('index.topic', tid=tid|int) }}">{{ tid }}.{{ tname }}</a></td>
+      {% set shortcut = tid if tid < 10 else '' %}
+      {% set vim_shortcut = vim_keys[loop.index - 1] if loop.index - 1 < vim_keys|length else '' %}
+      <tr data-topic-id="{{ tid }}" class="topic-row">
+        <td class='topic_name p5'>
+          <a href="{{ url_for('index.topic', tid=tid|int) }}" class="topic-link dflex ai-center">
+            <span class="shortcut-key m5 r">{{ shortcut }}{{ '.' + vim_shortcut if vim_shortcut else '' }}:</span>
+            {{ tname }}
+          </a>
+        </td>
         <td class='topic_stats p5'>
           {% set stat = stats | selectattr("topic_id", "equalto", tid) | first %}
           <div class='stats dflex row ai-center jc-between'>
@@ -41,6 +49,7 @@
               {% endfor %}
           </div>
         </td>
+      </tr>
       {% endfor %}
     </tbody>
   </table>
