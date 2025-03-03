@@ -1,5 +1,11 @@
+
 .topics table { width: 100%; border-collapse: collapse; }
-.topics th, .topics td { border: 1px solid var(--brd-w, #adb5bd); text-align: left; }
-.topics th { background-color: var(--bg-b, #cce5ff); color: #000; }
+.topics th, .topics td { text-align: left; }
+.topics th {
+  background-color: #f8f9fa;
+  color: #555;
+  font-weight: normal;
+}
+
 .topics td a { color: var(--b, #0056b3); text-decoration: none; font-size: 20px; }
 .topics td a:hover { text-decoration: underline; }

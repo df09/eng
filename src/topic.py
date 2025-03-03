@@ -76,7 +76,7 @@ class Topic:
         if not match:
             raise ValueError('The question does not contain the correct answer in the [answer] or [answer:hints] format.')
         correct = match.group(1)
-        hints = match.group(2).split(',') if match.group(2) else []
+        hints = match.group(2).split(';') if match.group(2) else []
         formatted_question = question.replace(match.group(0), '___')
         return formatted_question, correct, hints
 

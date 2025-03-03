@@ -8,8 +8,8 @@
   <table id="topics-table">
     <thead>
       <tr>
-        <th class="p5">Topic</th>
-        <th class="p5">Stats and Progress</th>
+        <th class="ph5">Topic</th>
+        <th class="ph5">Stats and Progress</th>
       </tr>
     </thead>
     <tbody>
@@ -29,11 +29,13 @@
           <div class='stats dflex row ai-center jc-between'>
             <div class="stats-left dflex row">
               {% for grade in ['F', 'D', 'C', 'B', 'A', 'N'] %}
-                <span class="stat p5 {{ grade }}">{{ grade }}:{{ stat[grade] }}</span>
+                <span id='stat-{{ grade }}' class="stat {% if stat.get(grade, 0) == 0 %}zero{% else %}{{ grade }}{% endif %} p5">
+                  {{ grade }}:{{ stat.get(grade, 0) }}
+                </span>
               {% endfor %}
             </div>
             <div class="stats-right dflex row">
-              <span class="total p5">{{ stat.in_progress }}/{{ stat.total }}</span>
+              <span id='total' class="total p5">{{ stat.get('in_progress', 0) }}/{{ stat.get('total', 1) }}</span>
               <span id='suspicious' class="suspicious p5 {% if stat.get('suspicious', 0) == 0 %}zero{% else %}found{% endif %}">
                 ?:{{ stat.get('suspicious', 0) }}
               </span>
