@@ -26,7 +26,9 @@
             </div>
             <div class="stats-right dflex row">
               <span class="total p5">{{ stat.in_progress }}/{{ stat.total }}</span>
-              <span class="suspicious p5">?:{{ stats.suspicious }}</span>
+              <span id='suspicious' class="suspicious p5 {% if stat.get('suspicious', 0) == 0 %}zero{% else %}found{% endif %}">
+                ?:{{ stat.get('suspicious', 0) }}
+              </span>
             </div>
           </div>
           <div class="progress-bar">

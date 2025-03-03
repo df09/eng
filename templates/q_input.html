@@ -6,14 +6,21 @@
 {% block content %}
 <section class='q_input'>
   {% include 'components/q_header.html' %}
-  <p class='question-block dflex m0'>
+  <div id='hints' class='hints dflex m0'>
+    {% if question.hints %}
+      {% for hint in question.hints %}
+        <span class='hints-text'>{{ hint }}</span>
+      {% endfor %}
+    {% endif %}
+  </div>
+  <div class='question-block dflex m0'>
     <strong class='b bg-b mr5'>Q:</strong>
     <span id='question-text'>{{ question.question }}<span>
-  </p>
+  </div>
   <form id='question-form' class='question-form dflex col jc-between pt10 pb5'
     autocomplete='off' autocorrect='off' autocapitalize='off' spellcheck='false'
     action='{{ url_for("index.q_input", tid=tid, qid=question.id) }}' method='post'>
-    <input id='form-input' class='form-input' type='text' name='answer' placeholder='Your answer...' required autofocus>
+    <input id='form-input' class='form-input' type='text' name='answer' placeholder='Your answer...' autofocus>
     <div class='submit-section dflex row jc-start ai-center mt5'>
       <button id='form-btn-submit' type='submit' class='submit btn btn-g'>Submit</button>
       <button id='form-btn-next-question' class='next-question dnone btn'>Next Question</button>
@@ -21,5 +28,6 @@
       <p id='msg-empty' class='msg-empty dnone r m0 p0 pl10'>Please input an answer.</p>
     </div>
   </form>
+  <div id='extra' class='extra dnone dflex m0'>{{ question.extra }}</div>
 </section>
 {% endblock %}

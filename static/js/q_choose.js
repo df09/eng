@@ -15,8 +15,8 @@ document.addEventListener('DOMContentLoaded', function () {
   grades.forEach(grade => {
     eStatElements[grade] = getEl('#stat-'+grade);
   });
-  const eTotal = getEl('.total');
-  const eSuspicious = getEl('.suspicious');
+  const eTotal = getEl('#total');
+  const eSuspicious = getEl('#suspicious');
   // progress-bar
   function updProgresBar(stat) {
     const total = stat.total || 1;
@@ -34,14 +34,18 @@ document.addEventListener('DOMContentLoaded', function () {
     grades.forEach(grade => {
       if (eStatElements[grade]) {
         // stats values
-        eStatElements[grade].textContent = grade+':'+stat[grade] || 0;
+        eStatElements[grade].textContent = grade + ':' + (stat[grade] || 0);
         // stats classes
         remCls(eStatElements[grade], 'zero', 'N', 'F', 'D', 'C', 'B', 'A');
         addCls(eStatElements[grade], stat[grade] === 0 ? 'zero' : grade);
       }
     });
-    eTotal.textContent = `${stat.in_progress}/${stat.total}`;
-    eSuspicious.textContent = `?:${stat.suspicious}`;
+    // Обновление total
+    eTotal.textContent = stat.in_progress+'/'+stat.total;
+    // Обновление suspicious
+    eSuspicious.textContent = '?:'+stat.suspicious;
+    remCls(eSuspicious, 'zero', 'found');
+    addCls(eSuspicious, stat.suspicious === 0 ? 'zero' : 'found');
     // Обновление progress-bar
     updProgresBar(stat);
   }

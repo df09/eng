@@ -2,20 +2,23 @@ document.addEventListener('DOMContentLoaded', function () {
   const eMainMenuLink = getEl('#main-menu-link');
   const eEstimation = getEl('#estimation');
   const ePoints = getEl('#points');
+  const eHints = getEl('#hints');
   const eQuestion = getEl('#question-text');
+  const eExtra = getEl('#extra');
   const eForm = getEl('#question-form');
   const eInput = getEl('#form-input');
   const eSubmit = getEl('#form-btn-submit');
   const eNextQuestion = getEl('#form-btn-next-question');
   const eMsgResult = getEl('#msg-result');
   const eMsgEmpty = getEl('#msg-empty');
+
   const eStatElements = {}; // Хранилище для ссылок на элементы статистики
   const grades = ['N', 'F', 'D', 'C', 'B', 'A'];
   grades.forEach(grade => {
     eStatElements[grade] = getEl('#stat-'+grade);
   });
-  const eTotal = getEl('.total');
-  const eSuspicious = getEl('.suspicious');
+  const eTotal = getEl('#total');
+  const eSuspicious = getEl('#suspicious');
   // progress-bar
   function updProgresBar(stat) {
     const total = stat.total || 1;
@@ -33,14 +36,18 @@ document.addEventListener('DOMContentLoaded', function () {
     grades.forEach(grade => {
       if (eStatElements[grade]) {
         // stats values
-        eStatElements[grade].textContent = grade+':'+stat[grade] || 0;
+        eStatElements[grade].textContent = grade + ':' + (stat[grade] || 0);
         // stats classes
         remCls(eStatElements[grade], 'zero', 'N', 'F', 'D', 'C', 'B', 'A');
         addCls(eStatElements[grade], stat[grade] === 0 ? 'zero' : grade);
       }
     });
-    eTotal.textContent = `${stat.in_progress}/${stat.total}`;
-    eSuspicious.textContent = `?:${stat.suspicious}`;
+    // Обновление total
+    eTotal.textContent = stat.in_progress+'/'+stat.total;
+    // Обновление suspicious
+    eSuspicious.textContent = '?:'+stat.suspicious;
+    remCls(eSuspicious, 'zero', 'found');
+    addCls(eSuspicious, stat.suspicious === 0 ? 'zero' : 'found');
     // Обновление progress-bar
     updProgresBar(stat);
   }
@@ -53,10 +60,7 @@ document.addEventListener('DOMContentLoaded', function () {
     event.preventDefault();
     if (submitted) return;
     // Проверяем, введено ли хоть что-то
-    if (!eInput.value.trim()) {
-      show(eMsgEmpty);
-      return;
-    }
+    if (!eInput.value.trim()) { show(eMsgEmpty); eInput.focus(); return; }
     hide(eMsgResult);
     submitted = true;
 
@@ -75,6 +79,8 @@ document.addEventListener('DOMContentLoaded', function () {
         const eBlank = document.createElement('span');
         eBlank.innerHTML = highlightMistakes(data.answer, data.question.correct, data.is_correct);
         eQuestion.innerHTML = eQuestion.innerHTML.replace('___', eBlank.outerHTML);
+        // extra
+        show(eExtra);
         // input
         eInput.disabled = true;
         // buttons and messages
@@ -87,13 +93,14 @@ document.addEventListener('DOMContentLoaded', function () {
       });
   });
 
-  // Обработчик кнопки "Next"
+  // listeners
+  eInput.addEventListener('input', () => hide(eMsgEmpty));
+  // listeners.next
   eNextQuestion.addEventListener('click', () => {
     const match = window.location.pathname.match(/\/topic\/(\d+)\//);
     window.location.href = '/topic/' + match[1];
   });
-
-  // Горячие клавиши
+  // listeners.hotkeys
   document.addEventListener('keydown', (event) => {
     if (event.key === 'Escape') { eMainMenuLink.click(); }
     if (submitted) {

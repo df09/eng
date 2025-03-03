@@ -39,7 +39,7 @@ class Topic:
 
     # === load.input ===================================
     def load_input_questions(self):
-        df = pdo.load(self.f_q_inputs, allow_empty=True)
+        df = pdo.load(self.f_q_inputs, allow_empty=True, sep=';')
         df = df.fillna('')  # Убираем NaN из строк
         df = df.applymap(lambda x: 0 if isinstance(x, float) and pd.isna(x) else x)  # Убираем NaN
         questions = df.to_dict(orient='records')
@@ -50,13 +50,13 @@ class Topic:
     def format_q_input(self, question):
         '''
         Ищет [<answer>:<hints>] или [<answer>] в вопросе, заменяет его на '___',
-        и возвращает (отформатированный вопрос, правильный ответ, подсказки).
+        и возвращает (отформатированный вопрос, правильный ответ, список подсказок).
         '''
         match = re.search(r'\[([^:\]]+)(?::([^]]+))?\]', question)
         if not match:
             raise ValueError('The question does not contain the correct answer in the [answer] or [answer:hints] format.')
         correct = match.group(1)
-        hints = match.group(2) if match.group(2) else None
+        hints = match.group(2).split(',') if match.group(2) else []
         formatted_question = question.replace(match.group(0), '___')
         return formatted_question, correct, hints
 

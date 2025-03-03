@@ -95,7 +95,9 @@
 }
 
 /* ===== stats ===== */
-.suspicious { background-color: #ff4d4d; color: #000; margin: 1px; }
+.total { border: 1px solid #b0b0b0; margin: 1px; }
+.suspicious.zero { border: 1px solid #b0b0b0; margin: 1px; }
+.suspicious.found { background-color: #ff4d4d; color: #000; margin: 1px; }
 .stat.zero { border: 1px solid #b0b0b0; margin: 1px; }
 .stat.N { background-color: #b0b0b0; color: #000; margin: 1px; }  /* Серый фон, черный текст */
 .stat.F { background-color: #ff4d4d; color: #000; border: 1px solid #fff; }  /* Ярко-красный фон, белый текст */

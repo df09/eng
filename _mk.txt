@@ -1,7 +1,4 @@
 mk:
-  q-input:
-    show translation
-    show hints
   add topic total:
     суммарный stats по всем топикам
     суммарные тесты по всем темам
