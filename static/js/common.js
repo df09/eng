@@ -52,8 +52,16 @@ function highlightMistakes(userInput, correctInput, is_correct) {
   for (let i = 0; i < len; i++) {
     let userChar = userInput[i] || '';
     let correctChar = correctInput[i] || '';
-    let styles = userChar.toLowerCase() === correctChar.toLowerCase() ? 'g bg-g' : 'r bg-r';
-    resultHTML += '<span class="' + styles + '">' + correctChar + '</span>';
+    let styles;
+    if (i >= correctInput.length) {
+      // Если пользователь ввел больше символов, чем надо
+      styles = 'r bg-r extra';
+      resultHTML += '<span class="' + styles + '">' + userChar + '</span>';
+    } else {
+      // Проверка правильности символов
+      styles = userChar.toLowerCase() === correctChar.toLowerCase() ? 'g bg-g' : 'r bg-r';
+      resultHTML += '<span class="' + styles + '">' + correctChar + '</span>';
+    }
   }
   return resultHTML;
 }

@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function () {
   const ePoints = getEl('#points');
   const eHints = getEl('#hints');
   const eQuestion = getEl('#question-text');
-  const eExtra = getEl('#extra');
+  const eExtra = getEl('#extra-block');
   const eForm = getEl('#question-form');
   const eInput = getEl('#form-input');
   const eSubmit = getEl('#form-btn-submit');

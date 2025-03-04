@@ -7,21 +7,21 @@
 <div id='ist0' class='dnone' data-ist0="{{ ist0 }}"></div>
 <section id='q_choose' class='q_choose'>
   {% include 'components/q_header.html' %}
-  <p class='question-block dflex m0'>
-    <strong class='b bg-b mr5'>Q:</strong>
-    <span id='question-text'>{{ question.question }}<span>
-  </p>
+  {% include 'components/q_hints.html' %}
+  {% include 'components/q_question.html' %}
+  {% include 'components/q_extra.html' %}
   <form id='question-form' class='question-form dflex col pt10 pb5'
     autocomplete='off' autocorrect='off' autocapitalize='off' spellcheck='false'
     action='{{ url_for("index.q_choose", tid=tid, qid=question.id) }}' method='post'>
     <div class='options'>
-      {% set vim_keys = ['s', 'd', 'f', 'g', 'x', 'c', 'v', 'b', 'j', 'k'] %}
+      {% set vim_keys = ['s', 'd', 'f', 'w', 'e', 'r', '2', '3', '4', 'c'] %}
       {% for option in question.options %}
         {% set vim_shortcut = vim_keys[loop.index - 1] if loop.index - 1 < vim_keys|length else '' %}
-        {% set shortcut = loop.index if loop.index < 10 else ('asdfghjkl'[loop.index - 10] if loop.index - 10 < 9 else '') %}
         <input class='option-input' type='checkbox' id='option{{ loop.index }}' name='answer' value='{{ option }}'>
         <label for='option{{ loop.index }}' class='option-label m0 m5 dflex row ai-center jc-start'>
-          <span class='shortcut-key m5 r'>{{ shortcut }}.{{ vim_shortcut }}:</span>
+          {% if vim_shortcut %}
+            <span class='shortcut-key m5 r'>{{ vim_shortcut }}:</span>
+          {% endif %}
           <span class='option-text fx1 m5 p5 bg-w brd-w hov'>{{ option }}</span>
         </label>
       {% endfor %}

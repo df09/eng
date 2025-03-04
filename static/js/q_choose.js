@@ -133,13 +133,10 @@ document.addEventListener('DOMContentLoaded', function () {
     }
   });
   // listeners.hotkeys
-  const numKeys = ['1', '2', '3', '4', '5', '6', '7', '8', '9'];
-  const vimKeys = ['s', 'd', 'f', 'g', 'x', 'c', 'v', 'b', 'j', 'k']; // vim-like keys
+  const vimKeys = ['s', 'd', 'f', 'w', 'e', 'r', '2', '3', '4', 'c'];
   const keyMap = {};
   eCheckboxes.forEach((cb, i) => {
-    const numKey = i < numKeys.length ? numKeys[i] : null;
     const vimKey = i < vimKeys.length ? vimKeys[i] : null;
-    if (numKey) keyMap[numKey] = cb;
     if (vimKey) keyMap[vimKey] = cb;
   });
   document.addEventListener('keydown', (event) => {

@@ -7,17 +7,9 @@
 <div id='ist0' class='dnone' data-ist0="{{ ist0 }}"></div>
 <section class='q_input'>
   {% include 'components/q_header.html' %}
-  <div id='hints' class='hints dflex m0'>
-    {% if question.hints %}
-      {% for hint in question.hints %}
-        <span class='hints-text'>{{ hint }}</span>
-      {% endfor %}
-    {% endif %}
-  </div>
-  <div class='question-block dflex m0'>
-    <strong class='b bg-b mr5'>Q:</strong>
-    <span id='question-text'>{{ question.question }}<span>
-  </div>
+  {% include 'components/q_hints.html' %}
+  {% include 'components/q_question.html' %}
+  {% include 'components/q_extra.html' %}
   <form id='question-form' class='question-form dflex col jc-between pt10 pb5'
     autocomplete='off' autocorrect='off' autocapitalize='off' spellcheck='false'
     action='{{ url_for("index.q_input", tid=tid, qid=question.id) }}' method='post'>
@@ -29,6 +21,5 @@
       <p id='msg-empty' class='msg-empty dnone r m0 p0 pl10'>Please input an answer.</p>
     </div>
   </form>
-  <div id='extra' class='extra dnone dflex m0'>{{ question.extra }}</div>
 </section>
 {% endblock %}
