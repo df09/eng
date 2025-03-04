@@ -16,7 +16,7 @@
       {% set vim_keys = ['s', 'd', 'f', 'w', 'e', 'r', '2', '3', '4', 'c'] %}
       {% for tid, tname in topics.items() %}
         {% set vim_shortcut = vim_keys[loop.index - 1] if loop.index0 < vim_keys|length else '' %}
-        {% set stat = stats | selectattr("topic_id", "equalto", tid) | first | default({}) %}
+        {% set stat = stats | selectattr("tid", "equalto", tid) | first | default({}) %}
         <tr data-topic-id="{{ tid }}" class="topic-row">
           <td class="topic_name">
             <div class='dflex'>

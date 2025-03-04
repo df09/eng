@@ -1,4 +1,4 @@
- id , question                                                                 , extra                                                   , is_suspicious , hash
- 0  , current directory: [pwd:test-hint-1].                                    , вывести текущий каталог: pwd.                           ,               ,
- 1  , view last 10 lines of a file: [tail -n 10:test-hint-2;some-hint] <file>. , посмотреть последние 10 строк файла: tail -n 10 <file>. ,               ,
- 2  , find files with "bash" in name: [find . -name "*bash*"].                 , найти файлы с "bash" в названии: find . -name "*bash*". ,               ,
+id,question,extra,suspicious_status,suspicious_note
+0,current directory: [pwd:test-hint-1].,вывести текущий каталог: pwd.,,
+1,view last 10 lines of a file: [tail -n 10:test-hint-2;some-hint] <file>.,посмотреть последние 10 строк файла: tail -n 10 <file>.,,
+2,"find files with ""bash"" in name: [find . -name ""*bash*""].","найти файлы с ""bash"" в названии: find . -name ""*bash*"".",1.0,test susp 1

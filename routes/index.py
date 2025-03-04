@@ -7,6 +7,7 @@ from src.helpers import pdo
 from logger import logger
 import json
 
+
 index_bp = Blueprint('index', __name__)
 topics = Topics()
 
@@ -31,7 +32,9 @@ def favicon():
 @index_bp.route('/')
 @login_required
 def index():
-    topics.upd_totals()
+    topics.validate_questions() # validata db_questions
+    topics.validate_progress() # validate db_progress
+    topics.upd_totals() # validate db_stats
     user = get_current_user()
     stats = user.df_stats.to_dict(orient='records')
     return render_template('index.html', page='index', topics=topics.data, stats=stats)
@@ -45,25 +48,25 @@ def topic(tid):
     user = get_current_user()
     # Если tid == 0, выбираем реальный топик
     ist0 = 1 if tid == 0 else 0
-    chosed_tid = topics.choose_topic_id(user.df_stats) if tid == 0 else tid
+    chosed_tid = topics.choose_tid(user.df_stats) if tid == 0 else tid
     if chosed_tid not in topics.data:
         return f'Invalid topic - id:{chosed_tid}', 400
     topic = Topic(chosed_tid, topics.data[chosed_tid])
     question = topic.choose_question(user.df_progress)
     # Проверяем, существует ли вопрос
-    if not topic.get_question(chosed_tid, question['question_kind'], question['question_id']):
-        return f'Invalid question - id:{question['question_id']} in topic {chosed_tid}', 400
+    if not topic.get_question(chosed_tid, question['qkind'], question['qid']):
+        return f'Invalid question - id:{question["qid"]} in topic {chosed_tid}', 400
     routes = {'choose': 'index.q_choose', 'input': 'index.q_input', 'fill': 'index.q_fill'}
-    return redirect(url_for(routes.get(question['question_kind'], 'index.unknown_question'),
-                            tid=chosed_tid, qid=question['question_id'], ist0=ist0))
+    return redirect(url_for(routes.get(question['qkind'], 'index.unknown_question'),
+                            tid=chosed_tid, qid=question['qid'], ist0=ist0))
 
 # === q_helpers ===================================
-def init_q_rout(tid, q_kind, qid):
+def init_q_rout(tid, qkind, qid):
     user = get_current_user()
     topic = Topic(tid, topics.data[tid])
     stat = user.get_stat4topic(tid)
-    progress = user.get_progress4question(tid, q_kind, qid)
-    question = topic.get_question(tid, q_kind, qid)
+    progress = user.get_progress4question(tid, qkind, qid)
+    question = topic.get_question(tid, qkind, qid)
     return user, topic, stat, progress, question
 
 # === q_choose ===================================
@@ -71,14 +74,14 @@ def init_q_rout(tid, q_kind, qid):
 @login_required
 def q_choose(tid, qid):
     ist0 = request.args.get('ist0')
-    q_kind = 'choose'
-    user, topic, stat, progress, question = init_q_rout(tid, q_kind, qid)
+    qkind = 'choose'
+    user, topic, stat, progress, question = init_q_rout(tid, qkind, qid)
     if request.method == 'POST':
         answer = sorted(x.strip() for x in request.form.getlist('answer'))
         is_correct = answer == question['correct']
-        user.upd_df_progress(tid, q_kind, qid, is_correct)
+        user.upd_df_progress(tid, qkind, qid, is_correct)
         user.upd_df_stats()
-        _, _, stat, progress, question = init_q_rout(tid, q_kind, qid)
+        _, _, stat, progress, question = init_q_rout(tid, qkind, qid)
         return jsonify({
             'stat': stat,
             'progress': progress,
@@ -94,14 +97,14 @@ def q_choose(tid, qid):
 @login_required
 def q_input(tid, qid):
     ist0 = request.args.get('ist0')
-    q_kind = 'input'
-    user, topic, stat, progress, question = init_q_rout(tid, q_kind, qid)
+    qkind = 'input'
+    user, topic, stat, progress, question = init_q_rout(tid, qkind, qid)
     if request.method == 'POST':
         answer = request.form.get('answer')
         is_correct = answer.strip().lower() == question['correct'].strip().lower()
-        user.upd_df_progress(tid, q_kind, qid, is_correct)
+        user.upd_df_progress(tid, qkind, qid, is_correct)
         user.upd_df_stats()
-        _, _, stat, progress, question = init_q_rout(tid, q_kind, qid)
+        _, _, stat, progress, question = init_q_rout(tid, qkind, qid)
         return jsonify({
             'stat': stat,
             'progress': progress,
@@ -117,16 +120,16 @@ def q_input(tid, qid):
 @login_required
 def q_fill(tid, qid):
     ist0 = request.args.get('ist0')
-    q_kind = 'fill'
-    user, topic, stat, progress, question = init_q_rout(tid, q_kind, qid)
+    qkind = 'fill'
+    user, topic, stat, progress, question = init_q_rout(tid, qkind, qid)
     if request.method == 'POST':
         answer = request.form.get('answer')
         user_answers = [ans.strip().lower() for ans in json.loads(answer)]
         correct_answers = [item[1].strip().lower() for item in question["correct"]]
         is_correct = user_answers == correct_answers
-        user.upd_df_progress(tid, q_kind, qid, is_correct)
+        user.upd_df_progress(tid, qkind, qid, is_correct)
         user.upd_df_stats()
-        _, _, stat, progress, question = init_q_rout(tid, q_kind, qid)
+        _, _, stat, progress, question = init_q_rout(tid, qkind, qid)
         return jsonify({
             'stat': stat,
             'progress': progress,
@@ -136,3 +139,10 @@ def q_fill(tid, qid):
         })
     return render_template('q_fill.html', page='q_fill', tid=tid, tname=topic.name,
                            question=question, progress=progress, stat=stat, ist0=ist0)
+
+# === suspicious ===================================
+@index_bp.route('/suspicious', methods=['POST'])
+@login_required
+def mark_suspicious():
+    data = request.json
+    return jsonify({'success': topics.mark_suspicious(data)})

@@ -15,13 +15,6 @@ class User:
         self.data = fo.yml2dict(self.f_data)
         self.df_stats = self.get_df_stats(topics_data)
         self.df_progress = self.get_df_progress()
-        # N, F, D, C, B: взять все эти вопросы для топика
-        #   найти среди них вопрос на который дольше всего не давался правильный ответ
-        #   показать
-        # если таких вопросов нет:
-        #   A: взять все эти вопросы для топика
-        #   найти среди них вопрос на который дольше всего не давался правильный ответ
-        #   показать
         self.estimate_ranges = {'N': (0, 0), 'F': (1, 3), 'D': (4, 6), 'C': (7, 9), 'B': (10, 14), 'A': (15, 999)}
         self.upd_df_stats()
 
@@ -30,9 +23,9 @@ class User:
         # get df
         df_stats = pdo.load(self.f_stats, allow_empty=True)
         if df_stats.empty:
-            df_stats = pd.DataFrame(columns=['id','topic_id','N','F','D','C','B','A','in_progress','total','suspicious'])
+            df_stats = pd.DataFrame(columns=['id','tid','N','F','D','C','B','A','in_progress','total','suspicious'])
         # upd total add create not-existing stats
-        existing_topics = set(df_stats['topic_id']) if not df_stats.empty else set()
+        existing_topics = set(df_stats['tid']) if not df_stats.empty else set()
         new_rows = []
         for tid, topic_name in topics_data.items():
             if tid == 0:
@@ -43,14 +36,14 @@ class User:
             if tid not in existing_topics:
                 new_rows.append({
                     'id': len(df_stats) + len(new_rows),
-                    'topic_id': tid,
+                    'tid': tid,
                     'N': total, 'F':0,'D':0,'C':0,'B':0,'A':0,
                     'in_progress': 0,
                     'total': total,
                     'suspicious': 0
                 })
             else:
-                df_stats.loc[df_stats['topic_id'] == tid, 'total'] = total  # Обновляем total
+                df_stats.loc[df_stats['tid'] == tid, 'total'] = total  # Обновляем total
         # merge dfs and save new rows
         if new_rows:
             df_stats = pd.concat([df_stats, pd.DataFrame(new_rows)], ignore_index=True)
@@ -61,44 +54,44 @@ class User:
         # reset all
         self.df_stats[['N', 'F', 'D', 'C', 'B', 'A']] = 0
         # grades
-        progress_counts = self.df_progress.groupby(['topic_id', 'estimation']).size().unstack(fill_value=0)
+        progress_counts = self.df_progress.groupby(['tid', 'estimation']).size().unstack(fill_value=0)
         for grade in self.estimate_ranges.keys():
             if grade in progress_counts:
-                self.df_stats[grade] = self.df_stats['topic_id'].map(progress_counts[grade]).fillna(0).astype(int)
+                self.df_stats[grade] = self.df_stats['tid'].map(progress_counts[grade]).fillna(0).astype(int)
         # in_progress
         self.df_stats['in_progress'] = self.df_stats[['F', 'D', 'C', 'B', 'A']].sum(axis=1)
         # N (not asked yet)
         self.df_stats['N'] = (self.df_stats['total'] - self.df_stats['in_progress']).clip(lower=0)
         # -NaN/-float
         self.df_stats = self.df_stats.fillna(0).astype(int)
-        # topic_id: 0 recalc
-        sum_values = self.df_stats[self.df_stats['topic_id'] != 0].drop(columns=['id', 'topic_id']).sum() # Вычисляем сумму для строк, где topic_id != 0
-        self.df_stats.loc[self.df_stats['topic_id'] == 0, sum_values.index] = sum_values.values # Записываем сумму в строку, где topic_id == 0
+        # tid: 0 recalc
+        sum_values = self.df_stats[self.df_stats['tid'] != 0].drop(columns=['id', 'tid']).sum() # Вычисляем сумму для строк, где tid != 0
+        self.df_stats.loc[self.df_stats['tid'] == 0, sum_values.index] = sum_values.values # Записываем сумму в строку, где tid == 0
         # save
         pdo.save(self.df_stats, self.f_stats)
 
     def get_stat4topic(self, tid):
-        stat_record = self.df_stats[self.df_stats['topic_id'] == tid]
+        stat_record = self.df_stats[self.df_stats['tid'] == tid]
         if stat_record.empty:
-            return {'topic_id':tid,'N':0,'F':0,'D':0,'C':0,'B':0,'A':0,'in_progress':0,'total':0,'suspicious':0}
+            return {'tid':tid,'N':0,'F':0,'D':0,'C':0,'B':0,'A':0,'in_progress':0,'total':0,'suspicious':0}
         return pdo.convert_int64(stat_record.iloc[0].to_dict())
 
     # === progress ===================================
     def get_df_progress(self):
         df_progress = pdo.load(self.f_progress, allow_empty=True)
         if df_progress.empty:
-            df_progress = pd.DataFrame(columns=['id', 'topic_id', 'question_kind', 'question_id', 'points', 'estimation', 'asked_at'])
+            df_progress = pd.DataFrame(columns=['id', 'tid', 'qkind', 'qid', 'points', 'estimation', 'asked_at'])
         return df_progress
-    def upd_df_progress(self, tid, q_kind, qid, result):
-        where = {'topic_id': tid, 'question_kind': q_kind, 'question_id': qid}
+    def upd_df_progress(self, tid, qkind, qid, result):
+        where = {'tid': tid, 'qkind': qkind, 'qid': qid}
         df_progress4question = pdo.filter(self.df_progress, where=where, allow_empty=True)
         if df_progress4question.empty:
             # add new record
             self.df_progress = pd.concat([self.df_progress, pd.DataFrame([{
                 'id': self.df_progress['id'].max() + 1 if not self.df_progress.empty else 0,
-                'topic_id': tid,
-                'question_kind': q_kind,
-                'question_id': qid,
+                'tid': tid,
+                'qkind': qkind,
+                'qid': qid,
                 'points': 1 if result else 0,
                 'estimation': 'F' if result else 'N',
                 'asked_at': pd.Timestamp.utcnow()
@@ -116,8 +109,8 @@ class User:
             self.df_progress.at[index, 'asked_at'] = pd.Timestamp.utcnow() + pd.Timedelta(milliseconds=random_offset)
         pdo.save(self.df_progress, self.f_progress)
 
-    def get_progress4question(self, tid, q_kind, qid):
-        where = {'topic_id': tid, 'question_kind': q_kind, 'question_id': qid}
+    def get_progress4question(self, tid, qkind, qid):
+        where = {'tid': tid, 'qkind': qkind, 'qid': qid}
         df_progress4question = pdo.filter(self.df_progress, where=where, allow_empty=True)
         if df_progress4question.empty:
             estimation, points = 'N', 0
@@ -126,7 +119,7 @@ class User:
             estimation, points = record['estimation'], record['points']
         return pdo.convert_int64({
             'tid': tid,
-            'q_kind': q_kind,
+            'qkind': qkind,
             'qid': qid,
             'estimation': estimation,
             'points': points,

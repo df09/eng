@@ -1,3 +1,9 @@
-[meta:0,]
+[meta/suspicious_status:1,suspicious_note:'']
+
 In the [1.city], there is an old castle surrounded by dense [2.vegetation].
 According to legend, a hidden [2.object] is buried within its walls, but no one has ever found it.
+
+[e1.haha!]
+[e2.hahaha!]
+[e2.ha ha ha!]
+

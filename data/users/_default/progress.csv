@@ -1,1 +1,1 @@
-id,topic_id,question_kind,question_id,points,estimation,asked_at
+id,tid,qkind,qid,points,estimation,asked_at

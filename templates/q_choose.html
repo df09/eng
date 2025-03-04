@@ -7,6 +7,7 @@
 <div id='ist0' class='dnone' data-ist0="{{ ist0 }}"></div>
 <section id='q_choose' class='q_choose'>
   {% include 'components/q_header.html' %}
+  {% include 'components/q_suspicious_msgs.html' %}
   {% include 'components/q_hints.html' %}
   {% include 'components/q_question.html' %}
   {% include 'components/q_extra.html' %}
@@ -33,5 +34,7 @@
       <p id="msg-empty" class="msg-empty dnone r m0 p0 pl10">Please select at least one option.</p>
     </div>
   </form>
+  {% include 'components/q_suspicious_form.html' %}
 </section>
+<script src="{{ url_for('static', filename='js/suspicious.js') }}"></script>
 {% endblock %}
