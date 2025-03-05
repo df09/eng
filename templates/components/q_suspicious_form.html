@@ -1,8 +1,8 @@
-<div class='{% if question.suspicious_status != 0 %}dnone{% endif %} dflex row jc-start ai-center mt5'>
-  <button id="btn-suspicious" class="btn m5 btn-y">Mark Suspicious</button>
-  <div id="suspicious-form" class="dnone">
-    <div id="question-metadata" class='dnone' data-tid="{{ tid }}" data-qkind="{{ question.kind }}" data-qid="{{ question.id }}"></div>
-    <input id="suspicious-note" class='suspicious-note' placeholder="Describe the issue..." autocomplete='off' autocorrect='off' autocapitalize='off' spellcheck='false'>
-    <button id="btn-send-suspicious" class="btn">Send</button>
+<div id='suspicious-form-wrap' class='suspicious-form-wrap dnone dflex row jc-end ai-center fx1 m0 p0'>
+  <button id="btn-suspicious" class="btn btn-w pv5 ph10">Mark Suspicious</button>
+  <div id="suspicious-form" class="dnone dflex fx1">
+    <div id="question-metadata" class='dnone' data-tid="{{ tdata.tid }}" data-qkind="{{ question.kind }}" data-qid="{{ question.id }}"></div>
+    <input id="suspicious-note" class='suspicious-note dflex fx1 form-input mr5' placeholder="Describe the issue..." autocomplete='off' autocorrect='off' autocapitalize='off' spellcheck='false'>
+    <button id="btn-send-suspicious" class="btn btn-r pv5 ph10">Send</button>
   </div>
 </div>

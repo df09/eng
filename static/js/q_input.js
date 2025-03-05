@@ -12,14 +12,15 @@ document.addEventListener('DOMContentLoaded', function () {
   const eNextQuestion = getEl('#form-btn-next-question');
   const eMsgResult = getEl('#msg-result');
   const eMsgEmpty = getEl('#msg-empty');
+  const eTotal = getEl('#total');
+  const eSuspicious = getEl('#suspicious');
+  const eSusFormWrap = getEl('#suspicious-form-wrap');
 
   const eStatElements = {}; // Хранилище для ссылок на элементы статистики
   const grades = ['N', 'F', 'D', 'C', 'B', 'A'];
   grades.forEach(grade => {
     eStatElements[grade] = getEl('#stat-'+grade);
   });
-  const eTotal = getEl('#total');
-  const eSuspicious = getEl('#suspicious');
   // progress-bar
   function updProgresBar(stat) {
     const total = stat.total || 1;
@@ -33,7 +34,7 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }
   // stats
-  function updateStats(stat) {
+  function updateStats(stat, tdata) {
     grades.forEach(grade => {
       if (eStatElements[grade]) {
         // stats values
@@ -44,11 +45,11 @@ document.addEventListener('DOMContentLoaded', function () {
       }
     });
     // Обновление total
-    eTotal.textContent = stat.in_progress+'/'+stat.total;
+    eTotal.textContent = stat.in_progress+'/'+tdata.total;
     // Обновление suspicious
-    eSuspicious.textContent = '?:'+stat.suspicious;
+    eSuspicious.textContent = '?:'+tdata.suspicious;
     remCls(eSuspicious, 'zero', 'found');
-    addCls(eSuspicious, stat.suspicious === 0 ? 'zero' : 'found');
+    addCls(eSuspicious, tdata.suspicious === 0 ? 'zero' : 'found');
     // Обновление progress-bar
     updProgresBar(stat);
   }
@@ -70,7 +71,7 @@ document.addEventListener('DOMContentLoaded', function () {
       .then(response => response.json())
       .then(data => {
         // stats
-        updateStats(data.stat);
+        updateStats(data.stat, data.tdata);
         // estimation
         remCls(eEstimation, 'F', 'D', 'C', 'B', 'A');
         addCls(eEstimation, data.progress.estimation);
@@ -91,6 +92,10 @@ document.addEventListener('DOMContentLoaded', function () {
         eMsgResult.textContent = data.is_correct ? 'Correct!' : 'Incorrect.';
         hide(eSubmit);
         show(eNextQuestion, eMsgResult);
+        // suspicious
+        if (parseInt(data.tdata.suspicious, 10) !== 0) {
+            show(eSusFormWrap);
+        }
       });
   });
 

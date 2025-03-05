@@ -11,18 +11,18 @@
   {% include 'components/q_hints.html' %}
   {% include 'components/q_question.html' %}
   {% include 'components/q_extra.html' %}
-  <form id='question-form' class='question-form dflex col jc-between pt10 pb5'
-    autocomplete='off' autocorrect='off' autocapitalize='off' spellcheck='false'
-    action='{{ url_for("index.q_input", tid=tid, qid=question.id) }}' method='post'>
+  <form id='question-form' class='question-form dflex col jc-between pt10 pb5' autocomplete='off' autocorrect='off' autocapitalize='off' spellcheck='false' action='{{ url_for("index.q_input", tid=tid, qid=question.id) }}' method='post'>
     <input id='form-input' class='form-input' type='text' name='answer' placeholder='Your answer...' autofocus>
-    <div class='submit-section dflex row jc-start ai-center mt5'>
-      <button id='form-btn-submit' type='submit' class='submit btn btn-g'>Submit</button>
-      <button id='form-btn-next-question' class='next-question dnone btn'>Next Question</button>
-      <p id='msg-result' class='msg-result dnone m0 p0 pl10'></p>
-      <p id='msg-empty' class='msg-empty dnone r m0 p0 pl10'>Please input an answer.</p>
+    <div class='form-footer dflex row jc-between ai-center mt5'>
+      <div class='submit-section dflex row jc-start ai-center'>
+        <button id='form-btn-submit' type='submit' class='submit btn btn-g pv5 ph10'>Submit</button>
+        <button id='form-btn-next-question' class='next-question dnone btn pv5 ph10'>Next Question</button>
+        <p id='msg-result' class='msg-result dnone m0 p0 pl10'></p>
+        <p id='msg-empty' class='msg-empty dnone r m0 p0 pl10'>Please input an answer.</p>
+      </div>
+      {% include 'components/q_suspicious_form.html' %}
     </div>
   </form>
-  {% include 'components/q_suspicious_form.html' %}
 </section>
 <script src="{{ url_for('static', filename='js/suspicious.js') }}"></script>
 {% endblock %}

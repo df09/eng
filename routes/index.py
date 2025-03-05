@@ -22,7 +22,7 @@ def login_required(f):
 
 def get_current_user():
     if 'user_obj' not in g:
-        g.user_obj = User(session['user'], topics.data)
+        g.user_obj = User(session['user'], topics.topiclist) # передавать сюда
     return g.user_obj
 
 # === main menu ===================================
@@ -34,24 +34,25 @@ def favicon():
 def index():
     topics.validate_questions() # validata db_questions
     topics.validate_progress() # validate db_progress
-    topics.upd_totals() # validate db_stats
+    topics.upd_topicdata() # validate db_stats
     user = get_current_user()
     stats = user.df_stats.to_dict(orient='records')
-    return render_template('index.html', page='index', topics=topics.data, stats=stats)
+    return render_template('index.html', page='index', topiclist=topics.topiclist,
+                           topicdata=topics.topicdata, stats=stats)
 
 # === topic ===================================
 @index_bp.route('/topic/<int:tid>', methods=['GET'])
 @login_required
 def topic(tid):
-    if tid not in topics.data:
+    if tid not in topics.topiclist:
         return f'Invalid topic - id:{tid}', 400
     user = get_current_user()
     # Если tid == 0, выбираем реальный топик
     ist0 = 1 if tid == 0 else 0
     chosed_tid = topics.choose_tid(user.df_stats) if tid == 0 else tid
-    if chosed_tid not in topics.data:
+    if chosed_tid not in topics.topiclist:
         return f'Invalid topic - id:{chosed_tid}', 400
-    topic = Topic(chosed_tid, topics.data[chosed_tid])
+    topic = Topic(chosed_tid, topics.topiclist[chosed_tid])
     question = topic.choose_question(user.df_progress)
     # Проверяем, существует ли вопрос
     if not topic.get_question(chosed_tid, question['qkind'], question['qid']):
@@ -63,11 +64,12 @@ def topic(tid):
 # === q_helpers ===================================
 def init_q_rout(tid, qkind, qid):
     user = get_current_user()
-    topic = Topic(tid, topics.data[tid])
+    topic = Topic(tid, topics.topiclist[tid])
+    tdata = topics.get_topicdata4topic(tid)
     stat = user.get_stat4topic(tid)
     progress = user.get_progress4question(tid, qkind, qid)
     question = topic.get_question(tid, qkind, qid)
-    return user, topic, stat, progress, question
+    return user, topic, tdata, stat, progress, question
 
 # === q_choose ===================================
 @index_bp.route('/topic/<int:tid>/q_choose/<int:qid>', methods=['GET', 'POST'])
@@ -75,21 +77,22 @@ def init_q_rout(tid, qkind, qid):
 def q_choose(tid, qid):
     ist0 = request.args.get('ist0')
     qkind = 'choose'
-    user, topic, stat, progress, question = init_q_rout(tid, qkind, qid)
+    user, topic, tdata, stat, progress, question = init_q_rout(tid, qkind, qid)
     if request.method == 'POST':
         answer = sorted(x.strip() for x in request.form.getlist('answer'))
         is_correct = answer == question['correct']
         user.upd_df_progress(tid, qkind, qid, is_correct)
         user.upd_df_stats()
-        _, _, stat, progress, question = init_q_rout(tid, qkind, qid)
+        _, _, tdata, stat, progress, question = init_q_rout(tid, qkind, qid)
         return jsonify({
+            'tdata': tdata,
             'stat': stat,
             'progress': progress,
             'question': question,
             'answer': answer,
             'is_correct': is_correct,
         })
-    return render_template('q_choose.html', page='q_choose', tid=tid, tname=topic.name,
+    return render_template('q_choose.html', page='q_choose', tdata=tdata,
                            question=question, progress=progress, stat=stat, ist0=ist0)
 
 # === q_input ===================================
@@ -98,21 +101,22 @@ def q_choose(tid, qid):
 def q_input(tid, qid):
     ist0 = request.args.get('ist0')
     qkind = 'input'
-    user, topic, stat, progress, question = init_q_rout(tid, qkind, qid)
+    user, topic, tdata, stat, progress, question = init_q_rout(tid, qkind, qid)
     if request.method == 'POST':
         answer = request.form.get('answer')
         is_correct = answer.strip().lower() == question['correct'].strip().lower()
         user.upd_df_progress(tid, qkind, qid, is_correct)
         user.upd_df_stats()
-        _, _, stat, progress, question = init_q_rout(tid, qkind, qid)
+        _, _, tdata, stat, progress, question = init_q_rout(tid, qkind, qid)
         return jsonify({
+            'tdata': tdata,
             'stat': stat,
             'progress': progress,
             'question': question,
             'answer': answer,
             'is_correct': is_correct,
         })
-    return render_template('q_input.html', page='q_input', tid=topic.id, tname=topic.name,
+    return render_template('q_input.html', page='q_input', tdata=tdata,
                            question=question, progress=progress, stat=stat, ist0=ist0)
 
 # === q_fill ===================================
@@ -121,7 +125,7 @@ def q_input(tid, qid):
 def q_fill(tid, qid):
     ist0 = request.args.get('ist0')
     qkind = 'fill'
-    user, topic, stat, progress, question = init_q_rout(tid, qkind, qid)
+    user, topic, tdata, stat, progress, question = init_q_rout(tid, qkind, qid)
     if request.method == 'POST':
         answer = request.form.get('answer')
         user_answers = [ans.strip().lower() for ans in json.loads(answer)]
@@ -129,15 +133,16 @@ def q_fill(tid, qid):
         is_correct = user_answers == correct_answers
         user.upd_df_progress(tid, qkind, qid, is_correct)
         user.upd_df_stats()
-        _, _, stat, progress, question = init_q_rout(tid, qkind, qid)
+        _, _, tdata, stat, progress, question = init_q_rout(tid, qkind, qid)
         return jsonify({
+            'tdata': tdata,
             'stat': stat,
             'progress': progress,
             'question': question,
             'answer': answer,
             'is_correct': is_correct,
         })
-    return render_template('q_fill.html', page='q_fill', tid=tid, tname=topic.name,
+    return render_template('q_fill.html', page='q_fill', tdata=tdata,
                            question=question, progress=progress, stat=stat, ist0=ist0)
 
 # === suspicious ===================================

@@ -11,9 +11,7 @@
   {% include 'components/q_hints.html' %}
   {% include 'components/q_question.html' %}
   {% include 'components/q_extra.html' %}
-  <form id='question-form' class='question-form dflex col pt10 pb5'
-    autocomplete='off' autocorrect='off' autocapitalize='off' spellcheck='false'
-    action='{{ url_for("index.q_choose", tid=tid, qid=question.id) }}' method='post'>
+  <form id='question-form' class='question-form dflex col pt10 pb5' autocomplete='off' autocorrect='off' autocapitalize='off' spellcheck='false' action='{{ url_for("index.q_choose", tid=tid, qid=question.id) }}' method='post'>
     <div class='options'>
       {% set vim_keys = ['s', 'd', 'f', 'w', 'e', 'r', '2', '3', '4', 'c'] %}
       {% for option in question.options %}
@@ -27,14 +25,16 @@
         </label>
       {% endfor %}
     </div>
-    <div class='submit-section dflex row jc-start ai-center mt10'>
-      <button id='form-btn-submit' class='form-btn-submit btn btn-g m5' type='submit'>Submit</button>
-      <button id='form-btn-next-question' class='form-btn-next-question dnone btn m5'>Next Question</button>
-      <p id='msg-result' class='msg-result dnone m0 p0 pl10'></p>
-      <p id="msg-empty" class="msg-empty dnone r m0 p0 pl10">Please select at least one option.</p>
+    <div class='form-footer dflex row jc-between ai-center mt5'>
+      <div class='submit-section dflex row jc-start ai-center mt10'>
+        <button id='form-btn-submit' class='form-btn-submit btn btn-g m5 pv5 ph10' type='submit'>Submit</button>
+        <button id='form-btn-next-question' class='form-btn-next-question dnone btn m5 pv5 ph10'>Next Question</button>
+        <p id='msg-result' class='msg-result dnone m0 p0 pl10'></p>
+        <p id="msg-empty" class="msg-empty dnone r m0 p0 pl10">Please select at least one option.</p>
+      </div>
+      {% include 'components/q_suspicious_form.html' %}
     </div>
   </form>
-  {% include 'components/q_suspicious_form.html' %}
 </section>
 <script src="{{ url_for('static', filename='js/suspicious.js') }}"></script>
 {% endblock %}

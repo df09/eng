@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }
   // stats
-  function updateStats(stat) {
+  function updateStats(stat, tdata) {
     grades.forEach(grade => {
       if (eStatElements[grade]) {
         // stats values
@@ -42,11 +42,11 @@ document.addEventListener('DOMContentLoaded', function () {
       }
     });
     // Обновление total
-    eTotal.textContent = stat.in_progress+'/'+stat.total;
+    eTotal.textContent = stat.in_progress+'/'+tdata.total;
     // Обновление suspicious
-    eSuspicious.textContent = '?:'+stat.suspicious;
+    eSuspicious.textContent = '?:'+tdata.suspicious;
     remCls(eSuspicious, 'zero', 'found');
-    addCls(eSuspicious, stat.suspicious === 0 ? 'zero' : 'found');
+    addCls(eSuspicious, tdata.suspicious === 0 ? 'zero' : 'found');
     // Обновление progress-bar
     updProgresBar(stat);
   }
@@ -72,7 +72,7 @@ document.addEventListener('DOMContentLoaded', function () {
     .then(response => response.json())
     .then(data => {
       // stats
-      updateStats(data.stat);
+      updateStats(data.stat, data.tdata);
       // estimation
       remCls(eEstimation, 'F','D','C','B','A');
       addCls(eEstimation, data.progress.estimation);

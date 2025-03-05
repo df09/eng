@@ -1,6 +1,6 @@
 id,question,extra,suspicious_status,suspicious_note
-0,[I] am here.,Я здесь.
-1,[I] like coffee.,Мне нравится кофе.
-2,[I] will call you tomorrow.,Я позвоню тебе завтра.
-3,[I] don't understand this.,Я этого не понимаю.
-4,[I] need help.,Мне нужна помощь.
+0,[I] am here.,Я здесь.,1,hi
+1,[I] like coffee.,Мне нравится кофе.,,
+2,[I] will call you tomorrow.,Я позвоню тебе завтра.,1,hi-there
+3,[I] don't understand this.,Я этого не понимаю.,,
+4,[I] need help.,Мне нужна помощь.,1,check-type-2

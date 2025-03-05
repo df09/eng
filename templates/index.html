@@ -14,9 +14,10 @@
     </thead>
     <tbody>
       {% set vim_keys = ['s', 'd', 'f', 'w', 'e', 'r', '2', '3', '4', 'c'] %}
-      {% for tid, tname in topics.items() %}
+      {% for tid, tname in topiclist.items() %}
         {% set vim_shortcut = vim_keys[loop.index - 1] if loop.index0 < vim_keys|length else '' %}
         {% set stat = stats | selectattr("tid", "equalto", tid) | first | default({}) %}
+        {% set tdata = topicdata | selectattr("tid", "equalto", tid) | first | default({}) %}
         <tr data-topic-id="{{ tid }}" class="topic-row">
           <td class="topic_name">
             <div class='dflex'>
@@ -36,9 +37,9 @@
                 {% endfor %}
               </div>
               <div class="stats-right dflex row">
-                <span id="total" class="total p5">{{ stat.get('in_progress', 0) }}/{{ stat.get('total', 1) }}</span>
-                <span id="suspicious" class="suspicious p5 {{ 'zero' if stat.get('suspicious', 0) == 0 else 'found' }}">
-                  ?:{{ stat.get('suspicious', 0) }}
+                <span id="total" class="total p5">{{ tdata.get('in_progress', 0) }}/{{ tdata.get('total', 1) }}</span>
+                <span id="suspicious" class="suspicious p5 {{ 'zero' if tdata.get('suspicious', 0) == 0 else 'found' }}">
+                  ?:{{ tdata.get('suspicious', 0) }}
                 </span>
               </div>
             </div>

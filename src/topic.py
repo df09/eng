@@ -18,7 +18,6 @@ class Topic:
         self.f_q_chooses = f'{self.path}/questions/chooses.csv'
         self.f_q_inputs = f'{self.path}/questions/inputs.csv'
         self.d_q_fills = f'{self.path}/questions/fills'
-        self.f_total = f'{self.path}/_total.txt' if tid == 0 else f'{self.path}/questions/_total.txt'
         # 0.all topic
         self.qs = self.load_all_questions(topics_data) if self.id == 0 else {
             'choose': self.load_choose_questions(),
@@ -144,13 +143,6 @@ class Topic:
         return formatted_question, correct, extra
 
     # === common ===================================
-    def upd_total(self):
-        num_choose = len(self.qs.get('choose', []))
-        num_input = len(self.qs.get('input', []))
-        num_fill = len(self.qs.get('fill', []))
-        total = num_choose + num_input + num_fill
-        fo.str2txt(str(total), self.f_total)
-
     def choose_question(self, df_progress):
         # Объединяем все вопросы в один список, добавляя kind
         questions = []
@@ -234,46 +226,41 @@ class Topic:
             for q in q_list:
                 if q.get('suspicious_status') == 2:
                     self.update_question_suspicious(qkind, q['id'], 0, "")
+
     def update_question_suspicious(self, qkind, qid, status, note):
         """Обновляет suspicious_status и suspicious_note в файле с вопросами."""
+        status = int(status)  # Приводим статус к int
         file_map = {'choose': self.f_q_chooses, 'input': self.f_q_inputs, 'fill': self.d_q_fills}
-
         if qkind not in file_map:
             raise ValueError(f"Некорректный тип вопроса: {qkind}")
-
         if qkind == 'fill':
             # Получаем qname из загруженных вопросов
             question = next((q for q in self.qs['fill'] if q['id'] == str(qid)), None)
             if not question:
                 raise KeyError(f"Вопрос с id={qid} не найден в разделе 'fill'")
-            
             qname = question['name']
             question_file = f"{self.d_q_fills}/{qid}_{qname}.txt"
-            
             if not os.path.exists(question_file):
                 raise FileNotFoundError(f"Файл вопроса не найден: {question_file}")
-            
             with open(question_file, 'r', encoding='utf-8') as f:
                 lines = f.readlines()
-            
             if not lines or not lines[0].startswith("[meta/"):
                 raise ValueError(f"Некорректный формат файла вопроса: {question_file}")
-            
             lines[0] = f"[meta/suspicious_status:{status},suspicious_note:'{note}']\n"
-            
             with open(question_file, 'w', encoding='utf-8') as f:
                 f.writelines(lines)
-
         else:
             df = pdo.load(file_map[qkind], allow_empty=True)
             if df.empty or 'id' not in df.columns:
                 raise ValueError(f"Файл данных {file_map[qkind]} пуст или не содержит колонку 'id'")
-            
             exists = df['id'] == qid
             if not exists.any():
                 raise KeyError(f"Вопрос с id={qid} не найден в файле {file_map[qkind]}")
-            
-            df.loc[exists, ['suspicious_status', 'suspicious_note']] = [status, note]
+            # Обновляем данные и приводим статус к int
+            df.loc[exists, 'suspicious_status'] = status
+            df.loc[exists, 'suspicious_note'] = note
+            # Принудительно приводим suspicious_status к int
+            if df['suspicious_status'].dtype != 'int64':
+                df['suspicious_status'] = df['suspicious_status'].astype('Int64')  # Поддерживает NaN без превращения в float
             pdo.save(df, file_map[qkind])
-
         return True

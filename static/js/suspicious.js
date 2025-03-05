@@ -1,4 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
+  const eNextQuestion = getEl('#form-btn-next-question');
   const eSusCount = getEl('#suspicious');
   const eBtnSus = getEl('#btn-suspicious');
   const eFormSus = getEl('#suspicious-form');
@@ -7,6 +8,8 @@ document.addEventListener('DOMContentLoaded', function () {
   const eMetadata = getEl('#question-metadata');
   const eMsgSus1= getEl('#msg-suspicious-1');
   const eMsgSus2= getEl('#msg-suspicious-2');
+  const eMsgResult = getEl('#msg-result');
+  const eMsgEmpty = getEl('#msg-empty');
 
   const tid = eMetadata.dataset.tid;
   const qkind = eMetadata.dataset.qkind;
@@ -24,8 +27,9 @@ document.addEventListener('DOMContentLoaded', function () {
 
   // listeners
   eBtnSus.addEventListener('click', () => {
-    hide(eBtnSus);
+    hide(eBtnSus, eNextQuestion, eMsgEmpty, eMsgResult);
     show(eFormSus);
+    eInputNote.focus();
   });
   eBtnSendSus.addEventListener('click', () => {
     event.preventDefault(); // Блокируем стандартное поведение кнопки
@@ -41,7 +45,7 @@ document.addEventListener('DOMContentLoaded', function () {
       })
     }).then(response => response.json()).then(data => {
       hide(eFormSus);
-      show(eMsgSus1);
+      show(eMsgSus1, eNextQuestion);
       // Обновляем статистику подозрительных вопросов
       updateSusCount();
     });
