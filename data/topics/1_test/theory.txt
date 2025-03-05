@@ -1,5 +1,6 @@
-Bash basics.
-
-Bash is a command-line shell used for executing commands, writing scripts, and automating tasks.
-Key commands: `ls` – list files, `cd` – change directory, `cat` – view file contents.
-Scripts start with `#!/bin/bash` and can be run via `bash script.sh` or `chmod +x script.sh && ./script.sh`.
+7
+asdflkasjflkasjfa
+sfa
+sf
+as
+fas

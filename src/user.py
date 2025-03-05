@@ -9,11 +9,11 @@ class User:
     def __init__(self, username, topiclist):
         self.name = username
         self.path = f'data/users/{self.name}'
-        self.f_data = f'{self.path}/_data.yml'
+        self.f_creds = f'{self.path}/_creds.yml'
         self.f_stats = f'{self.path}/stats.csv'
         self.f_progress = f'{self.path}/progress.csv'
         self.f_topics = 'data/topics/0_all/topicdata.csv'
-        self.data = fo.yml2dict(self.f_data)
+        self.creds = fo.yml2dict(self.f_creds)
         self.df_topics = pdo.load(self.f_topics, allow_empty=True)
         self.df_progress = self.get_df_progress()
         self.df_stats = self.get_df_stats(topiclist)

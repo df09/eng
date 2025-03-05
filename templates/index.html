@@ -39,7 +39,7 @@
               <div class="stats-right dflex row">
                 <span id="total" class="total p5">{{ tdata.get('in_progress', 0) }}/{{ tdata.get('total', 1) }}</span>
                 <span id="suspicious" class="suspicious p5 {{ 'zero' if tdata.get('suspicious', 0) == 0 else 'found' }}">
-                  ?:{{ tdata.get('suspicious', 0) }}
+                  :{{ tdata.get('suspicious', 0) }}
                 </span>
               </div>
             </div>

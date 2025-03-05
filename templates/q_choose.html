@@ -11,6 +11,7 @@
   {% include 'components/q_hints.html' %}
   {% include 'components/q_question.html' %}
   {% include 'components/q_extra.html' %}
+  {{ tdata }}
   <form id='question-form' class='question-form dflex col pt10 pb5'
     autocomplete='off' autocorrect='off' autocapitalize='off' spellcheck='false'
     action='{{ url_for("index.q_choose", tid=tdata.tid, qid=question.id) }}' method='post'>

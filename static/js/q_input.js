@@ -101,7 +101,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
   // listeners
   eInput.addEventListener('input', () => hide(eMsgEmpty));
-  // listeners.next
   eNextQuestion.addEventListener('click', () => {
     if (ist0) {
       window.location.href = '/topic/0';
@@ -110,7 +109,8 @@ document.addEventListener('DOMContentLoaded', function () {
       window.location.href = '/topic/' + match[1];
     }
   });
-  // listeners.hotkeys
+
+  // hotkeys
   document.addEventListener('keydown', (event) => {
     if (event.key === 'Escape') { eMainMenuLink.click(); }
     if (submitted) {

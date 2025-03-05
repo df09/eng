@@ -1,4 +1,4 @@
-[meta/suspicious_status:1,suspicious_note:'']
+[meta/suspicious_status:0,suspicious_note:'']
 Заполните недостающие данные:
   Город  | Страна             | Население
   Париж  | [1.Франция]        | [e1.2_214_000]    

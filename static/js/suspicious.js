@@ -24,14 +24,7 @@ document.addEventListener('DOMContentLoaded', function () {
     remCls(eSusCount, 'zero', 'found');
     addCls(eSusCount, count === 0 ? 'zero' : 'found');
   }
-
-  // listeners
-  eBtnSus.addEventListener('click', () => {
-    hide(eBtnSus, eNextQuestion, eMsgEmpty, eMsgResult);
-    show(eFormSus);
-    eInputNote.focus();
-  });
-  eBtnSendSus.addEventListener('click', () => {
+  function sendSuspiciousReport() {
     event.preventDefault(); // Блокируем стандартное поведение кнопки
     const note = eInputNote.value.trim();
     fetch('/suspicious', {
@@ -49,5 +42,21 @@ document.addEventListener('DOMContentLoaded', function () {
       // Обновляем статистику подозрительных вопросов
       updateSusCount();
     });
+  };
+
+  // listeners
+  eBtnSus.addEventListener('click', () => {
+    hide(eBtnSus, eNextQuestion, eMsgEmpty, eMsgResult);
+    show(eFormSus);
+    eInputNote.focus();
+  });
+  eBtnSendSus.addEventListener('click', sendSuspiciousReport);
+
+  // hotkeys
+  eInputNote.addEventListener('keydown', (event) => {
+    if (event.key === 'Enter') {
+      event.preventDefault();
+      sendSuspiciousReport();
+    }
   });
 });

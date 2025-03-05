@@ -43,6 +43,8 @@ class Topic:
     def load_choose_questions(self):
         df = pdo.load(self.f_q_chooses, allow_empty=True)
         df = df.fillna('')  # Заменяем NaN на пустые строки
+        df['suspicious_status'] = df['suspicious_status'].replace('', 0).fillna(0).astype(int)
+        df['suspicious_note'] = df['suspicious_note'].fillna('')
         df = df.applymap(lambda x: 0 if isinstance(x, float) and pd.isna(x) else x)  # Убираем NaN
         questions = df.to_dict(orient='records')
         for question in questions:
@@ -55,6 +57,8 @@ class Topic:
     def load_input_questions(self):
         df = pdo.load(self.f_q_inputs, allow_empty=True)
         df = df.fillna('')  # Убираем NaN из строк
+        df['suspicious_status'] = df['suspicious_status'].replace('', 0).fillna(0).astype(int)
+        df['suspicious_note'] = df['suspicious_note'].fillna('')
         df = df.applymap(lambda x: 0 if isinstance(x, float) and pd.isna(x) else x)  # Убираем NaN
         questions = df.to_dict(orient='records')
         for question in questions:
