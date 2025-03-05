@@ -14,7 +14,7 @@
       </span>
     </div>
   </div>
-  <div class="progress-bar">
+  <div class="progress-bar dflex w100">
       {% set total = tdata.get('total', 1) %}
       {% for grade in ['F', 'D', 'C', 'B', 'A', 'N'] %}
         {% set width = (stat.get(grade, 0) / total * 100) if total else 0 %}

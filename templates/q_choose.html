@@ -1,7 +1,7 @@
 {% extends 'base.html' %}
 {% block title %}Q-Choose{% endblock %}
 {% block header %}
-  <a id='main-menu-link' href='{{ url_for('index.index') }}'>MainMenu</a><span>/{{ tid }}.{{ tname }}/Q-Choose</span>
+  <a id='main-menu-link' href='{{ url_for('index.index') }}'>MainMenu</a><span>/{{ tdata.tid }}.{{ tdata.tname }}/Q-Choose</span>
 {% endblock %}
 {% block content %}
 <div id='ist0' class='dnone' data-ist0="{{ ist0 }}"></div>
@@ -11,7 +11,9 @@
   {% include 'components/q_hints.html' %}
   {% include 'components/q_question.html' %}
   {% include 'components/q_extra.html' %}
-  <form id='question-form' class='question-form dflex col pt10 pb5' autocomplete='off' autocorrect='off' autocapitalize='off' spellcheck='false' action='{{ url_for("index.q_choose", tid=tid, qid=question.id) }}' method='post'>
+  <form id='question-form' class='question-form dflex col pt10 pb5'
+    autocomplete='off' autocorrect='off' autocapitalize='off' spellcheck='false'
+    action='{{ url_for("index.q_choose", tid=tdata.tid, qid=question.id) }}' method='post'>
     <div class='options'>
       {% set vim_keys = ['s', 'd', 'f', 'w', 'e', 'r', '2', '3', '4', 'c'] %}
       {% for option in question.options %}

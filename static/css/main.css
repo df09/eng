@@ -1,0 +1,92 @@
+/* === header ==================== */
+body { justify-content: center; align-items: flex-start; min-height: 100vh; }
+.wrap { width: 80%; max-width: 800px; }
+header .title a { font-size: 30px; }
+header .title span { font-size: 30px; color: #555; }
+header .logout a { font-size: 20px; }
+.container { width: 100%; background: #f8f9fa; }
+
+/* ===== stats/progress ===== */
+.total { border: 1px solid #b0b0b0; margin: 1px; }
+.suspicious.zero { border: 1px solid #b0b0b0; margin: 1px; }
+.suspicious.found { background-color: #ff4d4d; color: #000; margin: 1px; }
+.stat.zero { border: 1px solid #b0b0b0; margin: 1px; }
+.stat.N { background-color: #b0b0b0; color: #000; margin: 1px; }  /* Серый фон, черный текст */
+.stat.F { background-color: #ff4d4d; color: #000; border: 1px solid #fff; }  /* Ярко-красный фон, белый текст */
+.stat.D { background-color: #ff9800; color: #000; border: 1px solid #fff; }  /* Оранжевый фон, белый текст */
+.stat.C { background-color: #ffd700; color: #000; border: 1px solid #fff; }  /* Желтый фон, черный текст */
+.stat.B { background-color: #83dc6b; color: #000; border: 1px solid #fff; }  /* Зеленый фон, белый текст */
+.stat.A { background-color: #57e0ee; color: #000; border: 1px solid #fff; }  /* Синий фон, белый текст */
+.progress-bar {
+    height: 8px;
+    overflow: hidden;
+    background-color: #ddd; /* Фон */
+}
+.sub-progress { height: 100%; transition: width 0.3s ease-in-out; }
+.sub-progress.N { background-color: #b0b0b0; border: 1px solid #fff;}
+.sub-progress.F { background-color: #ff4d4d; border: 1px solid #fff;}
+.sub-progress.D { background-color: #ff9800; border: 1px solid #fff;}
+.sub-progress.C { background-color: #ffd700; border: 1px solid #fff;}
+.sub-progress.B { background-color: #83dc6b; border: 1px solid #fff;}
+.sub-progress.A { background-color: #57e0ee; border: 1px solid #fff;}
+.estimation.N { background-color: #e0e0e0; color: #6c757d; }  /* Светло-серый фон, серый текст */
+.estimation.F { background-color: #ffdadb; color: #b71c1c; }  /* Светло-красный фон, тёмно-красный текст */
+.estimation.D { background-color: #ffe4b3; color: #ff6f00; }  /* Светло-оранжевый фон, тёмно-оранжевый текст */
+.estimation.C { background-color: #fff5cc; color: #cc9a00; }  /* Светло-жёлтый фон, тёмно-жёлтый текст */
+.estimation.B { background-color: #d4efdf; color: #1d8348; }  /* Светло-зелёный фон, тёмно-зелёный текст */
+.estimation.A { background-color: #d6eaff; color: #0a3d62; }  /* Светло-голубой фон, тёмно-синий текст */
+
+/* === index ==================== */
+.topics table { width: 100%; border-collapse: collapse; }
+.topics th, .topics td { text-align: left; }
+.topics th {
+  font-weight: normal;
+  background-color: #f8f9fa; color: #555;
+}
+.topics td a { color: var(--b, #0056b3); text-decoration: none; font-size: 20px; }
+.topics td a:hover { text-decoration: underline; }
+
+/* === q_choose ==================== */
+.option-label {
+  user-select: none;
+}
+.option-text {
+  cursor: pointer;
+}
+.option-input { display: none; }
+.option-input:checked + label .option-text {
+  background-color: #fff8e6;
+  border: 1px solid #e6b114;
+  color: #e6b114;
+}
+.submit { width: fit-content; }
+.next-question { width: fit-content; }
+.result-message { font-weight: bold; }
+
+/* === q_input ==================== */
+.form-input:focus-visible {
+  outline: none;
+  border: 1px solid inherit;
+}
+.form-btn-submit, .form-btn-next-question { width: fit-content; }
+.msg-result { font-weight: bold; }
+.msg-empty { font-weight: bold; }
+.hints-text {
+  background: #f5abff;
+  border-radius: 5px;
+  padding: 2px 4px;
+}
+
+/* === q_fill ==================== */
+.question-text {
+  background: #f4f4f4;
+  border-radius: 5px;
+  white-space: pre-wrap;
+  overflow-x: auto;
+}
+.blank {}
+.filled {}
+.form-input:focus-visible { outline: none; }
+.form-btn-back, .form-btn-next, .form-btn-submit, .form-btn-next-question { width: fit-content; }
+.msg-result { font-weight: bold; }
+.msg-empty { font-weight: bold; }
