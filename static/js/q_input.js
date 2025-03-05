@@ -93,7 +93,7 @@ document.addEventListener('DOMContentLoaded', function () {
         hide(eSubmit);
         show(eNextQuestion, eMsgResult);
         // suspicious
-        if (parseInt(data.tdata.suspicious, 10) !== 0) {
+        if (parseInt(data.question.suspicious_status, 10) === 0) {
             show(eSusFormWrap);
         }
       });

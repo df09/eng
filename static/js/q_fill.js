@@ -13,6 +13,8 @@ document.addEventListener('DOMContentLoaded', function () {
   const eMsgResult = getEl('#msg-result');
   const eMsgEmpty = getEl('#msg-empty');
   const eStatElements = {}; // Хранилище для ссылок на элементы статистики
+  const eSusFormWrap = getEl('#suspicious-form-wrap');
+
   const grades = ['N', 'F', 'D', 'C', 'B', 'A'];
   grades.forEach(grade => {
     eStatElements[grade] = getEl('#stat-'+grade);
@@ -138,7 +140,7 @@ document.addEventListener('DOMContentLoaded', function () {
       hide(eBack, eNext, eSubmit, eMsgEmpty);
       show(eNextQuestion, eMsgResult);
       // suspicious
-      if (parseInt(data.tdata.suspicious, 10) !== 0) {
+      if (parseInt(data.question.suspicious_status, 10) === 0) {
           show(eSusFormWrap);
       }
     });

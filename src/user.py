@@ -9,7 +9,7 @@ class User:
     def __init__(self, username, topiclist):
         self.name = username
         self.path = f'data/users/{self.name}'
-        self.f_creds = f'{self.path}/_creds.yml'
+        self.f_creds = f'{self.path}/creds.yml'
         self.f_stats = f'{self.path}/stats.csv'
         self.f_progress = f'{self.path}/progress.csv'
         self.f_topics = 'data/topics/0_all/topicdata.csv'

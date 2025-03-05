@@ -12,6 +12,8 @@ document.addEventListener('DOMContentLoaded', function () {
   const eMsgResult = getEl('#msg-result');
   const eMsgEmpty = getEl('#msg-empty');
   const eStatElements = {}; // Хранилище для ссылок на элементы статистики
+  const eSusFormWrap = getEl('#suspicious-form-wrap');
+
   const grades = ['N', 'F', 'D', 'C', 'B', 'A'];
   grades.forEach(grade => {
     eStatElements[grade] = getEl('#stat-'+grade);
@@ -120,6 +122,10 @@ document.addEventListener('DOMContentLoaded', function () {
       addCls(eMsgResult, data.is_correct ? 'g' : 'r');
       eMsgResult.textContent = data.is_correct ? 'Correct!' : 'Incorrect.';
       show(eMsgResult);
+      // suspicious
+      if (parseInt(data.question.suspicious_status, 10) === 0) {
+          show(eSusFormWrap);
+      }
     });
   });
 
@@ -157,4 +163,4 @@ document.addEventListener('DOMContentLoaded', function () {
       keyMap[event.key].checked = !keyMap[event.key].checked;
     }
   });
-});
+);
