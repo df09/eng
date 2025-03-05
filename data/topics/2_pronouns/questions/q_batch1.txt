@@ -417,230 +417,116 @@
 >   399;I have never seen [this:g.demonstr,n.s,near] kind of technology before.;Я никогда раньше не видел такую технологию.
 >   400;[That:g.demonstr,n.s,far] decision changed everything.;То решение изменило всё.
 
-
-
-  [whom:a.y,s.obj,f.frml]
-    добавить примеров с формальные конструкции:
-      в современном английском почти всегда вместо *whom* используют *who*, особенно в разговорной речи:
-        ✅ *Who did you call?* (Вместо *Whom did you call?*).
-      Исключение – формальные конструкции и случаи, когда *whom* идёт после предлога:
-        ✅ *To whom should I address the letter?* (Более формально).
-        ✅ *Who should I address the letter to?* (Разговорный вариант).
-
-ДОБАВИТЬ ПО ЕЩЕ ОДНОМУ ПРИМЕРУ ЧТОБЫ МЕСТОИМНИЕ БЫЛО ГДЕТО ПО СЕРЕДИНЕ ПРЕДОЖЕНИЯ.
-ДОБАВИТЬ ПО ЕЩЕ ОДНОМУ ПРИМЕРУ ЧТОБЫ МЕСТОИМНИЕ БЫЛО ГДЕТО ПО СЕРЕДИНЕ ПРЕДОЖЕНИЯ.
-ДОБАВИТЬ ПО ЕЩЕ ОДНОМУ ПРИМЕРУ ЧТОБЫ МЕСТОИМНИЕ БЫЛО ГДЕТО ПО СЕРЕДИНЕ ПРЕДОЖЕНИЯ.
-Formality(Формальность):
-  Slang(Сленг)/Colloquial(Разговорный)/Informal(Неформально)/Neutral(Нейтрально)/Formal(Формально)
-  [f.slng/coll/infr/ntrl/frml]
-Interrogative Pronouns (Вопросительные местоимения):
-  [what:a.n,s.nom]
-    [r.1]
-      - What car do you drive? (Какую машину ты водишь?)
-      - What language do you speak at home? (На каком языке ты говоришь дома?)
-      - 2
-      - 2
-    [r.1of3]
-      - What country would you like to visit? (Какую страну ты хотел бы посетить?)
-      - What book do you recommend? (Какую книгу ты порекомендуешь?)
-      - 2
-      - 2
-    [r.2of3]
-      - What two languages are the most popular? (Какие два языка самые популярные?)
-      - What two movies should I watch? (Какие два фильма мне посмотреть?)
-      - 2
-      - 2
-    [r.3]
-      - What languages do you speak? (На каких языках ты говоришь?)
-      - What dishes did you try in Japan? (Какие блюда ты пробовал в Японии?)
-      - 2
-      - 2
-    [r.3of3]
-      - What groups of people were present? (Какие группы людей присутствовали?)
-      - What categories of books do you read? (Какие категории книг ты читаешь?)
-      - 2
-      - 2
-    [r.uni]
-      - What do you like to do in yor free time? (Что тебе нравится делать в свободное время?)
-      - What is important in life? (Что важно в жизни?)
-      - 2
-      - 2
-  [who:a.y,s.nom]
-    [r.one]
-      - Who is responsible for this project? (Кто отвечает за этот проект?)
-      - Who won the competition? (Кто выиграл соревнование?)
-      - 2
-      - 2
-    [r.1of2]
-      - Who is taller, John or Mike? (Кто выше, Джон или Майк?)
-      - Who is smarter, Alice or Bob? (Кто умнее, Алиса или Боб?)
-      - 2
-      - 2
-    [r.1of3]
-      - Who among us is the best speaker? (Кто из нас лучший оратор?)
-      - Who in your team is the fastest? (Кто в твоей команде самый быстрый?)
-      - 2
-      - 2
-    [r.2]
-      - Who are the two best players in the team? (Кто два лучших игрока в команде?)
-      - Who are your two closest friends? (Кто твои два самых близких друга?)
-      - 2
-      - 2
-    [r.2of3]
-      - Who are the two most famous scientists? (Кто два самых известных ученых?)
-      - Who are your two best colleagues? (Кто твои два лучших коллеги?)
-      - 2
-      - 2
-    [r.3]
-      - Who were at the meeting? (Кто был на собрании?)
-      - Who are your favorite musicians? (Кто твои любимые музыканты?)
-      - 2
-      - 2
-    [r.3of3]
-      - Who are the different groups involved? (Какие группы участвуют?)
-      - Who are the teams competing in the tournament? (Какие команды участвуют в турнире?)
-      - 2
-      - 2
-    [r.uni]
-      - Who helps you the most in life? (Кто тебе больше всего помогает в жизни?)
-      - Who usually makes the best decisions? (Кто обычно принимает лучшие решения?)
-      - 2
-      - 2
-  [whom:a.y,s.obj,f.frml]
-
-
-
-    [r.1] One(Один)
-      - 1
-      - 1
-      - 2
-      - 2
-    [r.1of2] OneOfDouble(ОдинИзДвух)
-      - 1
-      - 1
-      - 2
-      - 2
-    [r.1of3] OneOfSet(ОдинИзМножества)
-      - 1
-      - 1
-      - 2
-      - 2
-    [r.2] Double(Пара)
-      - 1
-      - 1
-      - 2
-      - 2
-    [r.2of2] DoubleOfDouble(ПараИзПары)
-      - 1
-      - 1
-      - 2
-      - 2
-    [r.2of3] DoubleOfSet(ПараИзМножества)
-      - 1
-      - 1
-      - 2
-      - 2
-    [r.3] Set(Множество)
-      - 1
-      - 1
-      - 2
-      - 2
-    [r.3of3] SetOfSet(МножествоИзМножества)
-      - 1
-      - 1
-      - 2
-      - 2
-    [r.uni] Universal(Heограничено,Неизвестно)
-      - 1
-      - 1
-      - 2
-      - 2
-  [who:a.y,s.obj,f.ntrl]
-    [r.1] One(Один)
-      - 1
-      - 1
-      - 2
-      - 2
-    [r.1of2] OneOfDouble(ОдинИзДвух)
-      - 1
-      - 1
-      - 2
-      - 2
-    [r.1of3] OneOfSet(ОдинИзМножества)
-      - 1
-      - 1
-      - 2
-      - 2
-    [r.2] Double(Пара)
-      - 1
-      - 1
-      - 2
-      - 2
-    [r.2of2] DoubleOfDouble(ПараИзПары)
-      - 1
-      - 1
-      - 2
-      - 2
-    [r.2of3] DoubleOfSet(ПараИзМножества)
-      - 1
-      - 1
-      - 2
-      - 2
-    [r.3] Set(Множество)
-      - 1
-      - 1
-      - 2
-      - 2
-    [r.3of3] SetOfSet(МножествоИзМножества)
-      - 1
-      - 1
-      - 2
-      - 2
-    [r.uni] Universal(Heограничено,Неизвестно)
-      - 1
-      - 1
-      - 2
-      - 2
-
-  whose: a.y/n s.pos
-    4. Whose
-      Используется для **принадлежности (чей?)**.
-        [r.1] (Один)
-          - Whose car is this? (Чья это машина?)
-          - Whose idea was it? (Чья это была идея?)
-        [r.2] (Пара)
-          - Whose two books are on the table? (Чьи две книги лежат на столе?)
-          - Whose two cats were playing outside? (Чьи две кошки играли на улице?)
-        [r.3] (Множество)
-          - Whose keys, phone, and wallet are these? (Чьи это ключи, телефон и кошелек?)
-          - Whose documents are missing? (Чьи документы пропали?)
-
-  which a.y/n r.1
-    5. Which
-      Используется, когда **есть четкий, ограниченный выбор**.
-      [r.1] (Один)
-        - Which car is yours? (Какая машина твоя?)
-        - Which movie do you want to watch? (Какой фильм ты хочешь посмотреть?)
-      [r.1of2] (Один из двух)
-        - Which is better, tea or coffee? (Что лучше, чай или кофе?)
-        - Which one should I take, this or that? (Какой из этих двух мне взять?)
-      [r.2] (Пара)
-        - Which two colors do you prefer? (Какие два цвета ты предпочитаешь?)
-        - Which two books should I buy? (Какие две книги мне купить?)
-      [r.2of2] (Пара из пары)
-        - Which pair should we choose, A & B or X & Y? (Какую пару выбрать, A & B или X & Y?)
-      [r.3] (Множество)
-        - Which of these books do you recommend? (Какие из этих книг ты порекомендуешь?)
-        - Which countries have you visited from this list? (Какие страны из этого списка ты посетил?)
-      [r.3of3] (Множество из множества)
-        - Which groups of people were present? (Какие группы людей присутствовали?)
-
-
-
-
-
-
-
+> Interrogative Pronouns (Вопросительные местоимения):
+>   id;question;explanation
+>   000;[What:t.interrog,a.n,s.nom] book are you reading?; Какую книгу ты читаешь?
+>   000;[What:t.interrog,a.n,s.nom] movie do you like the most?; Какой фильм тебе нравится больше всего?
+>   000;[What:t.interrog,a.n,s.nom] song are you listening to?; Какую песню ты слушаешь?
+>   000;[What:t.interrog,a.n,s.nom] kind of food do you like?; Какую еду ты любишь?
+>   000;[What:t.interrog,a.n,s.nom] city do you want to visit next?; Какой город ты хочешь посетить следующим?
+>   000;[What:t.interrog,a.n,s.nom] phone do you recommend?; Какой телефон ты рекомендуешь?
+>   000;[What:t.interrog,a.n,s.nom] app do you use for notes?; Какое приложение ты используешь для заметок?
+>   000;I can't decide [what:t.interrog,a.n,s.nom] book I should read next.; Я не могу решить, какую книгу мне читать дальше.
+>   000;She asked me [what:t.interrog,a.n,s.nom] car I had rented for the trip.; Она спросила меня, какую машину я арендовал для поездки.
+>   000;I couldn’t remember [what:t.interrog,a.n,s.nom] gift she had given me last year.; Я не мог вспомнить, какой подарок она мне подарила в прошлом году.
+>   000;He explained [what:t.interrog,a.n,s.nom] strategy had led to their success.; Он объяснил, какая стратегия привела к их успеху.
+>   000;She asked me [what:t.interrog,a.n,s.nom] laptop I had bought for work.; Она спросила меня, какой ноутбук я купил для работы.
+>   000;I need to figure out [what:t.interrog,a.n,s.nom] course would be most useful for my career.; Мне нужно понять, какой курс будет наиболее полезен для моей карьеры.
+>   000;He was curious [what:t.interrog,a.n,s.nom] mistake had caused the system failure.; Ему было любопытно, какая ошибка привела к сбою системы.
+>   000;[Who:t.interrog,a.y,s.nom] called you yesterday?; Кто звонил тебе вчера?
+>   000;[Who:t.interrog,a.y,s.nom] is your best friend?; Кто твой лучший друг?
+>   000;[Who:t.interrog,a.y,s.nom] won the game?; Кто выиграл игру?
+>   000;[Who:t.interrog,a.y,s.nom] made this cake?; Кто сделал этот торт?
+>   000;[Who:t.interrog,a.y,s.nom] is your favorite author?; Кто твой любимый автор?
+>   000;[Who:t.interrog,a.y,s.nom] is responsible for this task?; Кто отвечает за это задание?
+>   000;[Who:t.interrog,a.y,s.nom] knows the answer?; Кто знает ответ?
+>   000;I don't know [who:t.interrog,a.y,s.nom] left the door open last night.; Я не знаю, кто оставил дверь открытой прошлой ночью.
+>   000;She couldn't understand [who:t.interrog,a.y,s.nom] had sent her the anonymous letter.; Она не могла понять, кто отправил ей анонимное письмо.
+>   000;I couldn’t tell [who:t.interrog,a.y,s.nom] had left the lights on.; Я не мог сказать, кто оставил свет включённым.
+>   000;She wondered [who:t.interrog,a.y,s.nom] had been spreading the rumors.; Она задумалась, кто распространял слухи.
+>   000;He had no idea [who:t.interrog,a.y,s.nom] had stolen his wallet.; Он не имел понятия, кто украл его кошелек.
+>   000;The manager asked [who:t.interrog,a.y,s.nom] had completed the report.; Менеджер спросил, кто закончил отчет.
+>   000;I found out [who:t.interrog,a.y,s.nom] had recommended me for the position.; Я выяснил, кто рекомендовал меня на эту должность.
+>   000;[Whom:t.interrog,a.y,s.obj,f.frml] did you invite to the wedding?; Кого ты пригласил на свадьбу?
+>   000;[Whom:t.interrog,a.y,s.obj,f.frml] should I contact for further details?; С кем мне связаться для уточнения деталей?
+>   000;[Whom:t.interrog,a.y,s.obj,f.frml] do you respect the most?; Кого ты уважаешь больше всего?
+>   000;[Whom:t.interrog,a.y,s.obj,f.frml] did she choose as her mentor?; Кого она выбрала своим наставником?
+>   000;[Whom:t.interrog,a.y,s.obj,f.frml] should we consult before making a decision?; С кем нам следует проконсультироваться перед принятием решения?
+>   000;[Whom:t.interrog,a.y,s.obj,f.frml] did the president appoint as his advisor?; Кого президент назначил своим советником?
+>   000;[Whom:t.interrog,a.y,s.obj,f.frml] do you trust with sensitive information?; Кому ты доверяешь конфиденциальную информацию?
+>   000;I wasn't sure [whom:t.interrog,a.y,s.obj,f.frml] he had chosen for the position.; Я не был уверен, кого он выбрал на эту должность.
+>   000;The professor explained [whom:t.interrog,a.y,s.obj,f.frml] the committee had selected for the scholarship.; Профессор объяснил, кого комитет выбрал для получения стипендии.
+>   000;I had no idea [whom:t.interrog,a.y,s.obj,f.frml] the director had assigned to the case.; Я не знал, кого директор назначил на это дело.
+>   000;She asked [whom:t.interrog,a.y,s.obj,f.frml] the lawyer had represented in court.; Она спросила, кого адвокат представлял в суде.
+>   000;The committee debated [whom:t.interrog,a.y,s.obj,f.frml] they should nominate for the award.; Комитет обсуждал, кого им следует номинировать на награду.
+>   000;He explained [whom:t.interrog,a.y,s.obj,f.frml] the funds had been allocated to.; Он объяснил, кому были выделены средства.
+>   000;The senator questioned [whom:t.interrog,a.y,s.obj,f.frml] the policy changes would affect.; Сенатор задал вопрос, кого коснутся изменения в политике.
+>   000;To [whom:t.interrog,a.y,s.obj,f.frml,e.frml-constr] should I send this document?; Кому мне следует отправить этот документ?
+>   000;With [whom:t.interrog,a.y,s.obj,f.frml,e.frml-constr] did you discuss the contract terms?; С кем вы обсуждали условия контракта?
+>   000;For [whom:t.interrog,a.y,s.obj,f.frml,e.frml-constr] is this scholarship intended?; Для кого предназначена эта стипендия?
+>   000;On [whom:t.interrog,a.y,s.obj,f.frml,e.frml-constr] does the final decision depend?; От кого зависит окончательное решение?
+>   000;Against [whom:t.interrog,a.y,s.obj,f.frml,e.frml-constr] were the charges filed?; Против кого были выдвинуты обвинения?
+>   000;The report must indicate to [whom:t.interrog,a.y,s.obj,f.frml,e.frml-constr] the funds were allocated.; Отчет должен указывать, кому были выделены средства.
+>   000;They haven’t yet decided for [whom:t.interrog,a.y,s.obj,f.frml,e.frml-constr] the award will be designated.; Они еще не решили, кому будет присуждена награда.
+>   000;It remains unclear with [whom:t.interrog,a.y,s.obj,f.frml,e.frml-constr] the responsibility lies.; Остается неясным, на ком лежит ответственность.
+>   000;The committee is discussing to [whom:t.interrog,a.y,s.obj,f.frml,e.frml-constr] they should grant the research funds.; Комитет обсуждает, кому следует предоставить исследовательские гранты.
+>   000;The legal team needs to determine against [whom:t.interrog,a.y,s.obj,f.frml,e.frml-constr] the lawsuit should be filed.; Юридическая команда должна определить, против кого следует подать иск.
+>   000;[Who:t.interrog,a.y,s.obj,f.coll] did you invite to the wedding?; Кого ты пригласил на свадьбу?
+>   000;[Who:t.interrog,a.y,s.obj,f.coll] should I contact for further details?; С кем мне связаться для уточнения деталей?
+>   000;[Who:t.interrog,a.y,s.obj,f.coll] did you see at the meeting?; Кого ты видел на собрании?
+>   000;[Who:t.interrog,a.y,s.obj,f.coll] are you waiting for?; Кого ты ждёшь?
+>   000;[Who:t.interrog,a.y,s.obj,f.coll] do you admire the most?; Кем ты больше всего восхищаешься?
+>   000;[Who:t.interrog,a.y,s.obj,f.coll] did you ask for help?; Кого ты попросил о помощи?
+>   000;[Who:t.interrog,a.y,s.obj,f.coll] did they hire for the job?; Кого они наняли на работу?
+>   000;I wasn't sure [who:t.interrog,a.y,s.obj,f.coll] he had chosen for the position.; Я не был уверен, кого он выбрал на эту должность.
+>   000;The professor explained [who:t.interrog,a.y,s.obj,f.coll] the committee had selected for the scholarship.; Профессор объяснил, кого комитет выбрал для получения стипендии.
+>   000;I didn’t know [who:t.interrog,a.y,s.obj,f.coll] they had chosen for the award.; Я не знал, кого они выбрали на награду.
+>   000;She asked [who:t.interrog,a.y,s.obj,f.coll] I had talked to about the issue.; Она спросила, с кем я говорил по этому вопросу.
+>   000;He was wondering [who:t.interrog,a.y,s.obj,f.coll] she had invited to dinner.; Он гадал, кого она пригласила на ужин.
+>   000;They were discussing [who:t.interrog,a.y,s.obj,f.coll] should be the next team leader.; Они обсуждали, кто должен быть следующим лидером команды.
+>   000;I wasn’t sure [who:t.interrog,a.y,s.obj,f.coll] the manager had promoted.; Я не был уверен, кого менеджер повысил.
+>   000;[Whose:t.interrog,a.y/n,s.pos] jacket is this?; Чья это куртка?
+>   000;[Whose:t.interrog,a.y/n,s.pos] idea was that?; Чья это была идея?
+>   000;[Whose:t.interrog,a.y/n,s.pos] car is parked outside?; Чья машина припаркована снаружи?
+>   000;[Whose:t.interrog,a.y/n,s.pos] pen did you borrow?; Чью ручку ты одолжил?
+>   000;[Whose:t.interrog,a.y/n,s.pos] responsibility is it to handle this?; Чья это ответственность?
+>   000;[Whose:t.interrog,a.y/n,s.pos] shoes are these?; Чья это обувь?
+>   000;[Whose:t.interrog,a.y/n,s.pos] decision was final?; Чьё решение было окончательным?
+>   000;I don't know [whose:t.interrog,a.y/n,s.pos] phone was left on the table.; Я не знаю, чей телефон оставили на столе.
+>   000;She was curious [whose:t.interrog,a.y/n,s.pos] decision had influenced the outcome.; Ей было интересно, чьё решение повлияло на исход.
+>   000;I couldn't figure out [whose:t.interrog,a.y/n,s.pos] idea had been rejected.; Я не мог понять, чью идею отклонили.
+>   000;She asked [whose:t.interrog,a.y/n,s.pos] documents had been left on her desk.; Она спросила, чьи документы оставили на её столе.
+>   000;The teacher inquired [whose:t.interrog,a.y/n,s.pos] phone had been ringing.; Учитель спросил, чей телефон звонил.
+>   000;He was trying to determine [whose:t.interrog,a.y/n,s.pos] fault it was.; Он пытался определить, чья это была вина.
+>   000;They were debating [whose:t.interrog,a.y/n,s.pos] proposal should be approved.; Они обсуждали, чьё предложение следует утвердить.
+>   000;[Which:t.interrog,a.y] student won the award?; Какой студент выиграл награду?
+>   000;[Which:t.interrog,a.y] doctor specializes in cardiology?; Какой врач специализируется на кардиологии?
+>   000;[Which:t.interrog,a.y] teacher gave you this assignment?; Какой учитель дал тебе это задание?
+>   000;[Which:t.interrog,a.y] scientist made this discovery?; Какой ученый сделал это открытие?
+>   000;[Which:t.interrog,a.y] athlete broke the record?; Какой спортсмен побил рекорд?
+>   000;[Which:t.interrog,a.y] author wrote this novel?; Какой автор написал этот роман?
+>   000;[Which:t.interrog,a.y] musician performed at the concert?; Какой музыкант выступал на концерте?
+>   000;I wasn’t sure [which:t.interrog,a.y] student had submitted the best project.; Я не был уверен, какой студент представил лучший проект.
+>   000;She asked me [which:t.interrog,a.y] professor had the highest ratings.; Она спросила меня, у какого профессора самые высокие оценки.
+>   000;The jury was discussing [which:t.interrog,a.y] candidate deserved the prize.; Жюри обсуждало, какой кандидат заслуживает награду.
+>   000;We need to determine [which:t.interrog,a.y] researcher contributed the most to the study.; Нам нужно определить, какой исследователь внес наибольший вклад в исследование.
+>   000;He debated with his colleagues [which:t.interrog,a.y] director should lead the project.; Он обсуждал с коллегами, какой директор должен возглавить проект.
+>   000;The organizers couldn’t decide [which:t.interrog,a.y] speaker should open the conference.; Организаторы не могли решить, какой спикер должен открыть конференцию.
+>   000;The hiring committee is evaluating [which:t.interrog,a.y] applicant has the best qualifications.; Комитет по найму оценивает, какой кандидат обладает лучшими квалификациями.
+>   000;[Which:t.interrog,a.n] book do you recommend?; Какую книгу ты рекомендуешь?
+>   000;[Which:t.interrog,a.n] car is more fuel-efficient?; Какая машина более экономична по топливу?
+>   000;[Which:t.interrog,a.n] city has the best public transport?; Какой город имеет лучший общественный транспорт?
+>   000;[Which:t.interrog,a.n] language is the most difficult to learn?; Какой язык самый сложный для изучения?
+>   000;[Which:t.interrog,a.n] movie won the Oscar this year?; Какой фильм выиграл Оскар в этом году?
+>   000;[Which:t.interrog,a.n] software is best for video editing?; Какое программное обеспечение лучше для видеомонтажа?
+>   000;[Which:t.interrog,a.n] phone has the best battery life?; Какой телефон имеет лучшую автономность?
+>   000;I wasn’t sure [which:t.interrog,a.n] car model would suit my needs.; Я не был уверен, какая модель автомобиля подойдет мне лучше.
+>   000;She asked [which:t.interrog,a.n] programming language is most useful for web development.; Она спросила, какой язык программирования наиболее полезен для веб-разработки.
+>   000;They discussed [which:t.interrog,a.n] university provides the best engineering program.; Они обсуждали, какой университет предлагает лучшую инженерную программу.
+>   000;He needed to decide [which:t.interrog,a.n] investment would be the safest.; Ему нужно было решить, какое вложение будет самым безопасным.
+>   000;The scientists analyzed [which:t.interrog,a.n] climate model was the most accurate.; Ученые проанализировали, какая климатическая модель была самой точной.
+>   000;We had to find out [which:t.interrog,a.n] airline offered the best service.; Нам нужно было выяснить, какая авиакомпания предлагает лучший сервис.
+>   000;The manager evaluated [which:t.interrog,a.n] strategy would yield the highest profit.; Менеджер оценивал, какая стратегия принесет наибольшую прибыль.
 
 > Relative Pronouns (Относительные местоимения)
 >   id;question;explanation
