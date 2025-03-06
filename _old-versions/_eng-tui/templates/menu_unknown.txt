@@ -1,2 +1,0 @@
-{r}Unknown menu-option: {c}<>
-{r}Press {y}<any key>{r} to continue.

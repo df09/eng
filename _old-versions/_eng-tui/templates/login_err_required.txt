@@ -1,2 +1,0 @@
-{r}User name is required.
-{r}Press {y}<any key>{r} to continue.

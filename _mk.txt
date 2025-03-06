@@ -1,8 +1,9 @@
 mk:
+  q_input: заменить сеператор на ";"
   q_fill:
     fix send-suspicious
     show extra
-  q_input/q_fill: заменить сеператор на ";"
+    randomize inputs for B+
   теория - ссылка github.raw
   add topic extra: сслыки на внешние источники
   deploy на production

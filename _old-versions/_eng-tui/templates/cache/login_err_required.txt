@@ -1,2 +1,0 @@
-User name is required.
-Press <any key> to continue.

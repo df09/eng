@@ -1,2 +1,0 @@
-{r}User name {y}Default{r} is reserved.
-{r}Press {y}<any key>{r} to continue.

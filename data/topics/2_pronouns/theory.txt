@@ -99,35 +99,12 @@ Interrogative Pronouns (Вопросительные местоимения):
 
 **Вывод:** *Whose* можно использовать для неодушевленных предметов, но если есть альтернатива *of which*, выбираем в зависимости от стиля.
 
-
-
-
-
-
   [which:a.y/n]
     usage: множество ограниченно.
     notes:
       если множество не уточняется: what или which смотря какой контекст хочется передать.
     number_person: [np.s3/p3]
     referring: [r.1of3/2of3/3of3]
-
-
-
-
-
-Interrogative Pronouns (Вопросительные местоимения):
-  what
-  who
-  whom
-  whose
-  which
-
-
-
-  Countability(Исчисляемость)
-  Animacy(Одушевлённость)
-  Formality(Формальность)
-  Emphasize(Подчеркивание-контекста)
 
 
 

@@ -1,5 +1,0 @@
-
-You successfully updated batch size ().
-
-  Press <any key> to continue.
-
