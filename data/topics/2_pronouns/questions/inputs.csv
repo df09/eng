@@ -1,6 +1,6 @@
 id,question,extra,suspicious_status,suspicious_note
 0,[I] am here.,Я здесь.,0,
-1,[I] like coffee.,Мне нравится кофе.,1,asdf
+1,[I] like coffee.,Мне нравится кофе.,0,asdf
 2,[I] will call you tomorrow.,Я позвоню тебе завтра.,0,
 3,[I] don't understand this.,Я этого не понимаю.,0,
-4,[I] need help.,Мне нужна помощь.,1,adfsadf
+4,[I] need help.,Мне нужна помощь.,0,adfsadf

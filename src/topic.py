@@ -118,7 +118,7 @@ class Topic:
                 'question': formatted_question,
                 'correct': correct,
                 'extra': extra,
-                'suspicious_status': suspicious_status,
+                'suspicious_status': int(suspicious_status),
                 'suspicious_note': suspicious_note,
             })
         return questions

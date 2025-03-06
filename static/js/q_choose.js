@@ -1,166 +1,74 @@
+import * as h from './helpers.js';
+import * as q from './q.js';
+
 document.addEventListener('DOMContentLoaded', function () {
-  const ist0 = getEl('#ist0').dataset.ist0 === '1';
-  const eMainMenuLink = getEl('#main-menu-link');
-  const eEstimation = getEl('#estimation');
-  const ePoints = getEl('#points');
-  const eQuestion = getEl('#question-text');
-  const eForm = getEl('#question-form');
-  const eCheckboxes = getEls('.option-input');
-  const eLabels = getEls('.option-label');
-  const eSubmit = getEl('#form-btn-submit');
-  const eNextQuestion = getEl('#form-btn-next-question');
-  const eMsgResult = getEl('#msg-result');
-  const eMsgEmpty = getEl('#msg-empty');
-  const eStatElements = {}; // Хранилище для ссылок на элементы статистики
-  const eSusFormWrap = getEl('#suspicious-form-wrap');
+  if (!q.elements.form) return;
+  let submitted = false;
 
-  const grades = ['N', 'F', 'D', 'C', 'B', 'A'];
-  grades.forEach(grade => {
-    eStatElements[grade] = getEl('#stat-'+grade);
+  h.grades.forEach(grade => {
+    q.eStatElements[grade] = h.getEl(`#stat-${grade}`);
   });
-  const eTotal = getEl('#total');
-  const eSuspicious = getEl('#suspicious');
-  // progress-bar
-  function updProgresBar(stat) {
-    const total = stat.total || 1;
-    grades.forEach(grade => {
-      const progressElement = getEl(`.sub-progress.${grade}`);
-      if (progressElement) {
-        const width = (stat[grade] / total * 100) || 0;
-        progressElement.style.width = width+'%';
-        width === 0 ? hide(progressElement) : show(progressElement)
-      }
-    });
-  }
-  // stats
-  function updateStats(stat, tdata) {
-    grades.forEach(grade => {
-      if (eStatElements[grade]) {
-        // stats values
-        eStatElements[grade].textContent = grade + ':' + (stat[grade] || 0);
-        // stats classes
-        remCls(eStatElements[grade], 'zero', 'N', 'F', 'D', 'C', 'B', 'A');
-        addCls(eStatElements[grade], stat[grade] === 0 ? 'zero' : grade);
-      }
-    });
-    // Обновление total
-    eTotal.textContent = stat.in_progress+'/'+tdata.total;
-    // Обновление suspicious
-    eSuspicious.textContent = '?:'+tdata.suspicious;
-    remCls(eSuspicious, 'zero', 'found');
-    addCls(eSuspicious, tdata.suspicious === 0 ? 'zero' : 'found');
-    // Обновление progress-bar
-    updProgresBar(stat);
-  }
 
-  let submitted = false; // Флаг для блокировки изменений
-
-  // Обработчик отправки формы
-  eForm.addEventListener('submit', function (event) {
+  q.elements.form.addEventListener('submit', function (event) {
     event.preventDefault();
-    if (submitted) return; // Предотвращаем повторный сабмит
+    if (submitted) return;
 
-    // Проверяем, выбран ли хотя бы один чекбокс
-    const isChecked = Array.from(eCheckboxes).some(cb => cb.checked);
-    if (!isChecked) { show(eMsgEmpty); return; }
-    hide(eMsgEmpty);
+    if (!Array.from(q.elements.checkboxes).some(cb => cb.checked)) {
+      h.show(q.elements.msgEmpty);
+      return;
+    }
+    h.hide(q.elements.msgEmpty);
 
-    submitted = true; // Флаг, что ответ уже отправлен
-    const formData = new FormData(eForm);
-    fetch(eForm.action, {
+    submitted = true;
+    fetch(q.elements.form.action, {
       method: 'POST',
-      body: formData
+      body: new FormData(q.elements.form)
     })
     .then(response => response.json())
     .then(data => {
-      // stats
-      updateStats(data.stat, data.tdata);
-      // estimation
-      remCls(eEstimation, 'F','D','C','B','A');
-      addCls(eEstimation, data.progress.estimation);
-      eEstimation.textContent = data.progress.estimation + ':';
-      ePoints.textContent = data.progress.points+'/'+data.progress.threshold;
-      // checkboxes
-      eLabels.forEach(eLabel => {
-        const inputId = eLabel.getAttribute('for');
-        const eInput = getEl('#' + inputId);
-        const value = eInput.value.trim();
-        const option = eLabel.querySelector('.option-text');
-        // Блокировка кликов по чекбоксам
-        eInput.addEventListener("click", function(event) {
-          event.preventDefault();
-        });
-        // Блокировка изменения чекбоксов через клавиатуру
-        eInput.disabled = true;
-        // Убираем hover-эффект
+      q.updateStats(data.stat, data.tdata);
+
+      h.remCls(q.elements.estimation, ...h.grades);
+      h.addCls(q.elements.estimation, data.progress.estimation);
+      q.elements.estimation.textContent = `${data.progress.estimation}:`;
+      q.elements.points.textContent = `${data.progress.points}/${data.progress.threshold}`;
+
+      q.elements.labels.forEach(label => {
+        const input = h.getEl(`#${label.getAttribute('for')}`);
+        if (!input) return;
+        const option = label.querySelector('.option-text');
+
+        input.disabled = true;
         option.style.pointerEvents = 'none';
-        remCls(option, 'hov');
-        // options
-        if (data.question.correct.includes(value) && eInput.checked) {
-          // Правильный и выбранный
-          remCls(option, 'bg-w', 'brd-w');
-          addCls(option, 'g', 'bg-g', 'brd-g');
+        h.remCls(option, 'hov');
+
+        if (data.question.correct.includes(input.value.trim())) {
+          h.addCls(option, input.checked ? 'g bg-g brd-g' : 'y bg-y brd-y');
+        } else if (input.checked) {
+          h.addCls(option, 'r bg-r brd-r');
         }
-        else if (data.question.correct.includes(value) && !eInput.checked) {
-          // Правильный, но НЕ выбранный
-          remCls(option, 'bg-w', 'brd-w');
-          addCls(option, 'y', 'bg-y', 'brd-y');
-        }
-        else if (eInput.checked) {
-          // Неправильный и выбранный
-          remCls(option, 'bg-w', 'brd-w');
-          addCls(option, 'r', 'bg-r', 'brd-r');
-        }
-        eInput.checked = false; // Снимаем выбор
       });
-      // buttons
-      hide(eSubmit)
-      remCls(eNextQuestion, 'btn-g', 'btn-r');
-      addCls(eNextQuestion, data.is_correct ? 'btn-g' : 'btn-r');
-      show(eNextQuestion)
-      // messages
-      addCls(eMsgResult, data.is_correct ? 'g' : 'r');
-      eMsgResult.textContent = data.is_correct ? 'Correct!' : 'Incorrect.';
-      show(eMsgResult);
-      // suspicious
+
+      h.hide(q.elements.submit);
+      h.remCls(q.elements.nextQuestion, 'btn-g', 'btn-r');
+      h.addCls(q.elements.nextQuestion, data.is_correct ? 'btn-g' : 'btn-r');
+      h.show(q.elements.nextQuestion);
+
+      h.addCls(q.elements.msgResult, data.is_correct ? 'g' : 'r');
+      q.elements.msgResult.textContent = data.is_correct ? 'Correct!' : 'Incorrect.';
+      h.show(q.elements.msgResult);
+
       if (parseInt(data.question.suspicious_status, 10) === 0) {
-          show(eSusFormWrap);
+        h.show(q.elements.susFormWrap);
       }
     });
   });
 
-  // listeners.next
-  eNextQuestion.addEventListener('click', () => {
-    if (ist0) {
-      window.location.href = '/topic/0';
-    } else {
-      const match = window.location.pathname.match(/\/topic\/(\d+)\//);
-      window.location.href = '/topic/' + match[1];
-    }
-  });
-  // listeners.hotkeys
-  const vimKeys = ['s', 'd', 'f', 'w', 'e', 'r', '2', '3', '4', 'c'];
-  const keyMap = {};
-  eCheckboxes.forEach((cb, i) => {
-    const vimKey = i < vimKeys.length ? vimKeys[i] : null;
-    if (vimKey) keyMap[vimKey] = cb;
-  });
+  q.elements.nextQuestion?.addEventListener('click', q.actionNextQuestion);
+
   document.addEventListener('keydown', (event) => {
-    if (event.key === 'Escape') { eMainMenuLink.click(); }
-    if (submitted) {
-      if (event.key === 'Enter' && !eNextQuestion.classList.contains('dnone')) {
-        event.preventDefault();
-        setTimeout(() => eNextQuestion.click(), 50);
-      }
-      return;
-    }
-    // ENTER -> Submit
-    if (event.key === 'Enter') {
-      event.preventDefault();
-      eSubmit.click();
-    // Горячие клавиши для выбора
-    } else if (keyMap[event.key]) {
-      keyMap[event.key].checked = !keyMap[event.key].checked;
-    }
+    h.hk(event, 'Escape', q.elements.mainMenuLink, () => q.elements.mainMenuLink?.click());
+    h.hk(event, 'Enter', q.elements.submit, () => q.elements.submit?.click());
+    h.hk(event, 'Enter', q.elements.nextQuestion, q.actionNextQuestion);
   });
-);
+});

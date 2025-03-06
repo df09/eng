@@ -1,4 +1,4 @@
-[meta/suspicious_status:1,suspicious_note:'asdf']
+[meta/suspicious_status:0,suspicious_note:'asdf']
 
 1 + 3     = [5.4]
 1 + [3.5] = 6

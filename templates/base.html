@@ -23,7 +23,9 @@
       {% block content %}{% endblock %}
     </main>
   </div>
-  <script src="{{ url_for('static', filename='js/common.js') }}"></script>
-  <script src="{{ url_for('static', filename='js/'+page+'.js') }}"></script>
+  <script type='module' src="{{ url_for('static', filename='js/'+page+'.js') }}"></script>
+  {% if page in ['q_choose', 'q_input', 'q_fill'] %}
+    <script type="module" src="{{ url_for('static', filename='js/suspicious.js') }}"></script>
+  {% endif %}
 </body>
 </html>

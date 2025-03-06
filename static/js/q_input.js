@@ -1,127 +1,84 @@
+import * as h from './helpers.js';
+import * as q from './q.js';
+
 document.addEventListener('DOMContentLoaded', function () {
-  const ist0 = getEl('#ist0').dataset.ist0 === '1';
-  const eMainMenuLink = getEl('#main-menu-link');
-  const eEstimation = getEl('#estimation');
-  const ePoints = getEl('#points');
-  const eHints = getEl('#hints');
-  const eQuestion = getEl('#question-text');
-  const eExtra = getEl('#extra-block');
-  const eForm = getEl('#question-form');
-  const eInput = getEl('#form-input');
-  const eSubmit = getEl('#form-btn-submit');
-  const eNextQuestion = getEl('#form-btn-next-question');
-  const eMsgResult = getEl('#msg-result');
-  const eMsgEmpty = getEl('#msg-empty');
-  const eTotal = getEl('#total');
-  const eSuspicious = getEl('#suspicious');
-  const eSusFormWrap = getEl('#suspicious-form-wrap');
-
-  const eStatElements = {}; // Хранилище для ссылок на элементы статистики
-  const grades = ['N', 'F', 'D', 'C', 'B', 'A'];
-  grades.forEach(grade => {
-    eStatElements[grade] = getEl('#stat-'+grade);
-  });
-  // progress-bar
-  function updProgresBar(stat) {
-    const total = stat.total || 1;
-    grades.forEach(grade => {
-      const progressElement = getEl(`.sub-progress.${grade}`);
-      if (progressElement) {
-        const width = (stat[grade] / total * 100) || 0;
-        progressElement.style.width = width+'%';
-        width === 0 ? hide(progressElement) : show(progressElement)
-      }
-    });
-  }
-  // stats
-  function updateStats(stat, tdata) {
-    grades.forEach(grade => {
-      if (eStatElements[grade]) {
-        // stats values
-        eStatElements[grade].textContent = grade + ':' + (stat[grade] || 0);
-        // stats classes
-        remCls(eStatElements[grade], 'zero', 'N', 'F', 'D', 'C', 'B', 'A');
-        addCls(eStatElements[grade], stat[grade] === 0 ? 'zero' : grade);
-      }
-    });
-    // Обновление total
-    eTotal.textContent = stat.in_progress+'/'+tdata.total;
-    // Обновление suspicious
-    eSuspicious.textContent = '?:'+tdata.suspicious;
-    remCls(eSuspicious, 'zero', 'found');
-    addCls(eSuspicious, tdata.suspicious === 0 ? 'zero' : 'found');
-    // Обновление progress-bar
-    updProgresBar(stat);
-  }
-
+  if (!q.elements.form || !q.elements.input) return;
   let submitted = false;
+
+  q.grades.forEach(grade => {
+    q.eStatElements[grade] = h.getEl(`#stat-${grade}`);
+  });
+
   // Автофокус на поле ввода
-  eInput.focus();
-  // Обработчик отправки формы
-  eForm.addEventListener('submit', function (event) {
+  q.elements.input?.focus();
+
+  // Слушатель ввода: скрывать сообщение об ошибке
+  q.elements.input?.addEventListener('input', () => h.hide(q.elements.msgEmpty));
+
+  // Обработка формы
+  q.elements.form?.addEventListener('submit', function (event) {
     event.preventDefault();
     if (submitted) return;
-    // Проверяем, введено ли хоть что-то
-    if (!eInput.value.trim()) { show(eMsgEmpty); eInput.focus(); return; }
-    hide(eMsgResult);
-    submitted = true;
 
-    const formData = new FormData(eForm);
-    fetch(eForm.action, { method: 'POST', body: formData })
-      .then(response => response.json())
-      .then(data => {
-        // stats
-        updateStats(data.stat, data.tdata);
-        // estimation
-        remCls(eEstimation, 'F', 'D', 'C', 'B', 'A');
-        addCls(eEstimation, data.progress.estimation);
-        eEstimation.textContent = data.progress.estimation + ':';
-        ePoints.textContent = data.progress.points + '/' + data.progress.threshold;
-        // question and spellcheck
-        const eBlank = document.createElement('span');
-        eBlank.innerHTML = highlightMistakes(data.answer, data.question.correct, data.is_correct);
-        eQuestion.innerHTML = eQuestion.innerHTML.replace('___', eBlank.outerHTML);
-        // extra
-        show(eExtra);
-        // input
-        eInput.disabled = true;
-        // buttons and messages
-        addCls(eSubmit, data.is_correct ? 'btn-g' : 'btn-r');
-        addCls(eNextQuestion, data.is_correct ? 'btn-g' : 'btn-r');
-        addCls(eMsgResult, data.is_correct ? 'g' : 'r');
-        eMsgResult.textContent = data.is_correct ? 'Correct!' : 'Incorrect.';
-        hide(eSubmit);
-        show(eNextQuestion, eMsgResult);
-        // suspicious
-        if (parseInt(data.question.suspicious_status, 10) === 0) {
-            show(eSusFormWrap);
-        }
-      });
-  });
-
-  // listeners
-  eInput.addEventListener('input', () => hide(eMsgEmpty));
-  eNextQuestion.addEventListener('click', () => {
-    if (ist0) {
-      window.location.href = '/topic/0';
-    } else {
-      const match = window.location.pathname.match(/\/topic\/(\d+)\//);
-      window.location.href = '/topic/' + match[1];
-    }
-  });
-
-  // hotkeys
-  document.addEventListener('keydown', (event) => {
-    if (event.key === 'Escape') { eMainMenuLink.click(); }
-    if (submitted) {
-      if (event.key === 'Enter' && !eNextQuestion.classList.contains('dnone')) {
-        event.preventDefault();
-        setTimeout(() => eNextQuestion.click(), 50);
-      }
+    // Проверка ввода
+    if (!q.elements.input.value.trim()) {
+      h.show(q.elements.msgEmpty);
+      q.elements.input.focus();
       return;
     }
-    if (event.key === 'Enter') {
-      eSubmit.click();
-    }
+    h.hide(q.elements.msgResult);
+    submitted = true;
+
+    // Отправка данных
+    fetch(q.elements.form.action, {
+      method: 'POST',
+      body: new FormData(q.elements.form)
+    })
+    .then(response => response.json())
+    .then(data => {
+      // Обновление статистики
+      q.updateStats(data.stat, data.tdata);
+
+      // Оценка
+      h.remCls(q.elements.estimation, ...q.grades);
+      h.addCls(q.elements.estimation, data.progress.estimation);
+      q.elements.estimation.textContent = `${data.progress.estimation}:`;
+      q.elements.points.textContent = `${data.progress.points}/${data.progress.threshold}`;
+
+      // Обработка текста и исправлений
+      const eBlank = document.createElement('span');
+      eBlank.innerHTML = q.highlightMistakes(data.answer, data.question.correct, data.is_correct);
+      q.elements.question.innerHTML = q.elements.question.innerHTML.replace('___', eBlank.outerHTML);
+
+      // Показ дополнительных блоков
+      h.show(q.elements.extra);
+
+      // Блокировка поля ввода
+      q.elements.input.disabled = true;
+
+      // Обновление кнопок и сообщений
+      h.addCls(q.elements.submit, data.is_correct ? 'btn-g' : 'btn-r');
+      h.addCls(q.elements.nextQuestion, data.is_correct ? 'btn-g' : 'btn-r');
+      h.addCls(q.elements.msgResult, data.is_correct ? 'g' : 'r');
+      q.elements.msgResult.textContent = data.is_correct ? 'Correct!' : 'Incorrect.';
+
+      h.hide(q.elements.submit);
+      h.show(q.elements.nextQuestion, q.elements.msgResult);
+
+      // Показ формы для подозрительных вопросов
+      if (parseInt(data.question.suspicious_status, 10) === 0) {
+        h.show(q.elements.susFormWrap);
+      }
+    });
+  });
+
+  // Обработчик кнопки "Следующий вопрос"
+  q.elements.nextQuestion?.addEventListener('click', q.actionNextQuestion);
+
+  // Горячие клавиши
+  document.addEventListener('keydown', (event) => {
+    h.hk(event, 'Escape', q.elements.mainMenuLink, () => q.elements.mainMenuLink?.click());
+    h.hk(event, 'Enter', q.elements.submit, () => q.elements.submit?.click());
+    h.hk(event, 'Enter', q.elements.nextQuestion, q.actionNextQuestion);
   });
 });

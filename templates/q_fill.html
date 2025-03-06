@@ -17,7 +17,8 @@
   <form id='question-form' class='question-form dflex col jc-between pt5'
     autocomplete='off' autocorrect='off' autocapitalize='off' spellcheck='false'
     action='{{ url_for("index.q_fill", tid=tdata.tid, qid=question.id) }}' method='post'>
-    <input id='form-input' class='form-input m0 p0' autocomplete='off' autocorrect='off' autocapitalize='off' spellcheck='false' type='text' autofocus>
+    <input id='form-input' class='form-input m0 p0'
+        autocomplete='off' autocorrect='off' autocapitalize='off' spellcheck='false' type='text' autofocus>
     <input id="hidden-answer" name="answer" type="hidden">
     <div class='form-footer dflex row jc-between ai-center'>
       <div class='form-btns-section dflex row jc-start ai-center'>
@@ -32,5 +33,4 @@
     </div>
   </form>
 </section>
-<script src="{{ url_for('static', filename='js/suspicious.js') }}"></script>
 {% endblock %}
