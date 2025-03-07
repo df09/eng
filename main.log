@@ -1552,3 +1552,8 @@ Name: 3, dtype: object
 2025-03-04 00:32:47,583:main:INFO: -----
 2025-03-04 00:32:47,583:main:INFO: {'tid': 1, 'qkind': 'fill', 'qid': 0, 'note': 'asdf'}
 2025-03-04 00:32:47,583:main:INFO: -----
+2025-03-06 21:19:03,319:main:WARNING: Warning: Duplicate ID 1 found for topic 'pronouns'
+2025-03-06 21:19:03,699:main:WARNING: Warning: Duplicate ID 1 found for topic 'pronouns'
+2025-03-06 21:22:44,514:main:WARNING: Warning: Duplicate ID 1 found for topic 'pronouns'
+2025-03-06 21:24:38,678:main:WARNING: Warning: Duplicate ID 1 found for topic 'pronouns'
+2025-03-06 21:24:40,220:main:WARNING: Warning: Duplicate ID 1 found for topic 'pronouns'

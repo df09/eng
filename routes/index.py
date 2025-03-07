@@ -40,6 +40,16 @@ def index():
     return render_template('index.html', page='index', topiclist=topics.topiclist,
                            topicdata=topics.topicdata, stats=stats)
 
+# === topic theory (RAW) ===================================
+@index_bp.route('/topic/<int:tid>/theory', methods=['GET'])
+@login_required
+def topic_theory(tid):
+    if tid not in topics.topiclist:
+        return "Invalid topic ID", 400
+    topic = Topic(tid, topics.topiclist[tid])
+    theory_content = topic.theory.strip() if topic.theory else "No theory available."
+    return theory_content, 200, {'Content-Type': 'text/plain; charset=utf-8'}
+
 # === topic ===================================
 @index_bp.route('/topic/<int:tid>', methods=['GET'])
 @login_required
@@ -56,7 +66,7 @@ def topic(tid):
     question = topic.choose_question(user.df_progress)
     # Проверяем, существует ли вопрос
     if not topic.get_question(chosed_tid, question['qkind'], question['qid']):
-        return f'Invalid question - id:{question["qid"]} in topic {chosed_tid}', 400
+        return f'Invalid question {chosed_tid}/{question["qkind"]}: {question["qid"]}', 400
     routes = {'choose': 'index.q_choose', 'input': 'index.q_input', 'fill': 'index.q_fill'}
     return redirect(url_for(routes.get(question['qkind'], 'index.unknown_question'),
                             tid=chosed_tid, qid=question['qid'], ist0=ist0))
@@ -151,3 +161,4 @@ def q_fill(tid, qid):
 def mark_suspicious():
     data = request.json
     return jsonify({'success': topics.mark_suspicious(data)})
+

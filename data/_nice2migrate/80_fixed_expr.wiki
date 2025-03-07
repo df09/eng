@@ -1,0 +1,182 @@
+with_pronouns:
+  possesive:
+    Your guess is as good as mine
+      %% Буквальный перевод: Твоя догадка так же хороша, как моя.
+      %% Значение: Я не знаю полной картины, поэтому любая догадка будет равнозначна.
+    Pull his (her) own weight
+      %% Буквальный перевод: Тянуть свой собственный вес.
+      %% Значение: Вносить справедливую долю усилий в общее дело.
+    There’s a method to his (her) madness
+      %% Буквальный перевод: В его безумии есть метод.
+      %% Значение: Чьи-то действия могут показаться странными, но они имеют логику.
+    You can’t judge a book by its cover
+      %% Буквальный перевод: Нельзя судить книгу по её обложке.
+      %% Значение: Не стоит оценивать по внешнему виду.
+    Be my guest
+      %% Буквальный перевод: Будь моим гостем.
+      %% Значение: Вперёд, попробуй.
+    Excuse my French
+      %% Буквальный перевод: Простите мой французский.
+      %% Значение: Извинение за нецензурную лексику.
+    Getting on my nerves
+      %% Буквальный перевод: Действовать на мои нервы.
+      %% Значение: Что-то очень раздражает.
+    Give someone a piece of my mind
+      %% Буквальный перевод: Дать кому-то кусочек моего разума.
+      %% Значение: Высказать своё недовольство.
+    Put my foot down
+      %% Буквальный перевод: Поставить мою ногу вниз.
+      %% Значение: Настоять на своём, установить чёткие границы.
+    Stand your ground
+      %% Буквальный перевод: Стоять на своей земле.
+      %% Значение: Отстаивать своё мнение или принципы.
+    Cross your fingers
+      %% Буквальный перевод: Скрести свои пальцы.
+      %% Значение: Надеяться на исполнение желания.
+    Pushing your luck
+      %% Буквальный перевод: Толкать свою удачу.
+      %% Значение: Рисковать, испытывать судьбу.
+    Call their bluff
+      %% Буквальный перевод: Раскрыть их блеф.
+      %% Значение: Заставить признаться во лжи или угрозах.
+    Keep your cool
+      %% Буквальный перевод: Сохранять своё спокойствие.
+      %% Значение: Не терять самообладание.
+    Lose your temper
+      %% Буквальный перевод: Потерять свой темперамент.
+      %% Значение: Разозлиться, потерять самообладание.
+    Hold your horses
+      %% Буквальный перевод: Держи своих лошадей.
+      %% Значение: Подожди, не спеши.
+    Make up your mind
+      %% Буквальный перевод: Составить своё мнение.
+      %% Значение: Принять решение.
+    Stick to your guns
+      %% Буквальный перевод: Придерживаться своих пушек.
+      %% Значение: Не отступать от своих принципов.
+    Bite your tongue
+      %% Буквальный перевод: Укусить свой язык.
+      %% Значение: Промолчать, сдержаться.
+    Watch your back
+      %% Буквальный перевод: Смотри на свою спину.
+      %% Значение: Будь осторожен, береги себя.
+    Mind your own business
+      %% Буквальный перевод: Занимайся своим делом.
+      %% Значение: Не вмешивайся в чужие дела.
+    Play your cards right
+      %% Буквальный перевод: Разыграй свои карты правильно.
+      %% Значение: Умело воспользоваться ситуацией.
+  reflexive:
+    regular:
+      %% Help yourself            Help yourself to some cake. (Угощайся тортом.)
+      %% Suit yourself            Suit yourself. (Делай, как хочешь.)
+      %% Pull yourself together   Pull yourself together! (Соберись!)
+      %% Enjoy yourself           We enjoyed ourselves at the party. (Мы хорошо провели время на вечеринке.)
+      %% Behave yourself          Please behave yourself. (Пожалуйста, веди себя прилично.)
+      %% Amuse oneself            He amused himself with a puzzle. (Он развлекался, собирая пазл.)
+      %% Find oneself             She found herself in a difficult situation. (Она оказалась в трудной ситуации.)
+      %% Do it yourself           I prefer to do it myself. (Я предпочитаю делать это сам.)
+      %% Pinch oneself            He had to pinch himself to believe it. (Он ущипнул себя, чтобы поверить.)
+      %% Take care of oneself     You should take care of yourself. (Тебе стоит заботиться о себе.)
+    emphatic:
+      Beside oneself
+        %% Значение: Быть вне себя от эмоций (злости, радости, страха).
+        %% Примеры:
+        %%   She was beside herself with joy. (Она была вне себя от радости.)
+        %%   He was beside himself with fear. (Он был вне себя от страха.)
+        %%   I was beside myself with excitement. (Я был вне себя от волнения.)
+      Generosity itself
+        %% Значение: Сама щедрость (используется для подчёркивания качества человека).
+        %% Примеры:
+        %%   He was generosity itself. (Он был сама щедрость.)
+        %%   She is kindness itself. (Она сама доброта.)
+        %%   They were patience itself during the process. (Они были сами терпение во время процесса.)
+      The essence of something itself
+        %% Значение: Суть чего-либо, сущность чего-либо.
+        %% Примеры:
+        %%   This is the idea itself. (Это сама идея.)
+        %%   The question itself is very complicated. (Сам вопрос очень сложный.)
+        %%   The problem itself lies in poor communication. (Сама проблема кроется в плохой коммуникации.)
+      The truth itself
+        %% Значение: Сама правда, истина.
+        %% Примеры:
+        %%   The truth itself will set you free. (Сама правда освободит тебя.)
+        %%   This evidence is the truth itself. (Эти доказательства — сама истина.)
+      The very person (or thing) itself
+        %% Значение: Именно этот человек или предмет, подчёркивает исключительность.
+        %% Примеры:
+        %%   She was the very image of beauty itself. (Она была самым воплощением красоты.)
+        %%   You are looking at the genius himself. (Вы смотрите на самого гения.)
+        %%   The decision was made by the director himself. (Решение было принято самим директором.)
+      Life itself
+        %% Значение: Сама жизнь, её суть или важность.
+        %% Примеры:
+        %%   Life itself is full of surprises. (Сама жизнь полна сюрпризов.)
+        %%   He risked life itself to save the child. (Он рисковал самой жизнью, чтобы спасти ребёнка.)
+      Nature itself
+        %% Значение: Сама природа.
+        %% Примеры:
+        %%   The landscape was nature itself. (Этот пейзаж был сама природа.)
+        %%   In the silence, you could hear nature itself speaking. (В тишине можно было услышать, как сама природа говорит.)
+      Time itself
+        %% Значение: Само время.
+        %% Примеры:
+        %%   Time itself will show us the truth. (Само время покажет нам правду.)
+        %%   He seemed to be fighting time itself. (Казалось, он сражался с самим временем.)
+      History itself
+        %% Значение: Сама история.
+        %% Примеры:
+        %%   This event is history itself. (Это событие — сама история.)
+        %%   History itself teaches us valuable lessons. (Сама история преподаёт нам ценные уроки.)
+      Death itself
+        %% Значение: Сама смерть, её неизбежность или значение.
+        %% Примеры:
+        %%   He faced death itself without fear. (Он встретил саму смерть без страха.)
+        %%   The character represented death itself in the play. (Персонаж представлял саму смерть в пьесе.)
+Phrasal Verbs (Фразовые глаголы):
+  %% Take off (взлететь, снять.)
+  %% Run out of (закончиться.)
+  %% Give up (сдаваться.)
+Polite Phrases (Формулы вежливости):
+  %% How do you do? (Как ваши дела?)
+  %% Would you mind...? (Вы не возражаете...?)
+  %% Thank you in advance. (Спасибо заранее.)
+Slang Expressions (Сленговые выражения):
+  %% What’s up? (Как дела?)
+  %% Gonna (собираюсь.)
+  %% Chill out (расслабься.)
+Clichés (Клише):
+  %% At the end of the day. (В конце концов.)
+  %% Time will tell. (Время покажет.)
+Fixed Phrases (Устойчивые фразы):
+  %% As a matter of fact (фактически.)
+  %% By the way (кстати.)
+  %% For the time being (на данный момент.)
+Prepositional Phrases (Предложные фразы):
+  %% In time (вовремя.)
+  %% At a glance (с первого взгляда.)
+  %% Out of the blue (неожиданно.)
+Collocations (Устойчивые сочетания слов):
+  %% Make a decision (принять решение.)
+  %% Strong coffee (крепкий кофе.)
+  %% Fast food (фастфуд.)
+Sayings (Выражения и крылатые фразы):
+  %% Better late than never. (Лучше поздно, чем никогда.)
+  %% What goes around comes around. (Что посеешь, то и пожнёшь.)
+Proverbs (Пословицы и поговорки):
+  %% Actions speak louder than words. (Дела говорят громче слов.)
+  %% The early bird catches the worm. (Кто рано встаёт, тому Бог подаёт.)
+Aphorisms (Афоризмы):
+  %% Knowledge is power. (Знание (сила.))
+  %% Practice makes perfect. (Практика приводит к совершенству.)
+Binomials (Биномы):
+  %% Black and white (чёрно-белый.)
+  %% Bread and butter (основа.)
+  %% Safe and sound (цел и невредим.)
+Idioms (Идиомы):
+  %% Kick the bucket (умереть.)
+  %% Spill the beans (выдать секрет.)
+  %% Under the weather (плохо себя чувствовать.)
+Idiomatic Comparisons (Идиоматические сравнения):
+  %% As busy as a bee (занят, как пчела.)
+  %% As cool as a cucumber (спокоен, как удав.)

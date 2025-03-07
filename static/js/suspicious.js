@@ -64,6 +64,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
   // listeners
   elements.btnSus?.addEventListener('click', () => {
+    event.preventDefault(); // ОТМЕНЯЕМ стандартное поведение кнопки
     h.hide(elements.btnSus, elements.nextQuestion, elements.msgEmpty, elements.msgResult);
     h.show(elements.formSus);
     elements.inputNote?.focus();

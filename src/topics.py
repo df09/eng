@@ -126,6 +126,8 @@ class Topics():
             df_progress = df_progress[df_progress.apply(lambda row: (row['tid'], row['qkind'], row['qid']) in valid_questions, axis=1)]
             # Удаляем прогресс для исправленных подозрительных вопросов
             df_progress = df_progress[~df_progress.apply(lambda row: (row['tid'], row['qkind'], row['qid']) in reviewed_questions, axis=1)]
+            if df_progress.empty:
+                continue
             pdo.save(df_progress, progress_file)
         # Сбрасываем suspicious_status = 0 у исправленных вопросов
         for tid, tname in self.topiclist.items():

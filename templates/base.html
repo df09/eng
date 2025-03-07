@@ -12,7 +12,7 @@
   <div class='wrap dflex col p10'>
     {% include 'components/messages.html' %}
     <header class="dflex row jc-between ai-center">
-      <div class="title p5">{% block header %}Header{% endblock %}</div>
+      <div class="title dflex p5">{% block header %}Header{% endblock %}</div>
       {% if page not in ['login', 'register'] %}
         <div class="logout">
           <a href="{{ url_for('auth.logout') }}" class="logout-btn ai-end pb5">Logout</a>

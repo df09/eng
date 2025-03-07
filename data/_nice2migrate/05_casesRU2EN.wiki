@@ -1,0 +1,85 @@
+выписать все случаи употребления русских падежей в русском языке⠋
+  на каждый случай найти все варианты выразить это в английском⠋
+    PROFIT⠋
+просмотреть упущенные предлоги английского которые я никуда не вставил⠉
+просмотреть упущенные ru_prepositions⠉
+meaning vs context⠉
+
+Именительный(Nominative):
+  ru_usage: subject⠉
+  ru_q: (это) кто? что?
+  ru_prepositions: None
+  en_q:⠁
+  en_partOfSentence: sub
+  en_scenarios:
+     - partOfSentence subject
+
+Родительный(Genitive):
+  ru_usage:⠉
+  ru_q: (нет) кого? чего?
+  ru_prepositions: None; без; вне; возле; впереди; вроде; вокруг; в продолжение; вследствие; в течение; до; для; из; из-за; из-под; кроме; между; от; около; после; ради; с; у⠁
+  en_q: whose?⠁
+  en_partOfSentence: obj⠉
+  en_scenarios:
+    - притяжательное "'s"
+    - слова "no", "not"
+    - preposition "of": The beginning of summer was cold. — Начало лета было холодным.
+    - preposition "without" (без): People can't live without water. (Люди не могут жить без воды.)
+    - preposition "instead of" (вместо): I was given 2 dollars instead of 3 dollars. (Мне дали 2 доллара вместо трех долларов.)
+    - preposition "out of" (из): Нельзя получить что-то из ничего. (You can't get something out of nothing.)
+    - preposition "past" (мимо): We were driving past a village. (Мы проезжали мимо деревни.)
+    - preposition "near" (около, возле): I live near an airport. (Я живу возле аэропорта.)
+    - preposition "by" (возле): There is a park by the house. (У дома есть парк.)
+
+Дательный(Dative):
+  ru_usage: объекту что-то передают или указывает на направление.⠉
+  ru_q: (даю) кому? чему?
+  ru_prepositions: None; к; по; благодаря; согласно; вопреки; навстречу; наперекор⠁
+  en_q:⠁
+  en_partOfSentence: obj⠉
+  en_scenarios:
+    - preposition "to" (=кому): They sold the house to a family from Canada. (Они продали свой дом семье из Канады.)
+    - preposition "toward" (к, ко): I walked toward the door. Я подошла к двери.
+    - preposition "along" (двигаться по): Go along this street. (Иди по этой улице.)
+
+Винительный(Accusative):
+  ru_usage:⠉
+  ru_q: (вижу) кого? что?
+  ru_prepositions: None; в; во; за; на; про; сквозь; через; спустя; включая; несмотря на⠁
+  en_q:⠁
+  en_partOfSentence: obj_dir⠁
+  en_scenarios:
+    - partOfSentence obj_dir: I can see a man. (Я вижу какого-то человека.)
+    - глаголы векторного движения + preposition "to": I walk to school. — Я хожу в школу пешком.
+    - preposition "about" (про, о чём): Let's talk about him. (Давай поговорим про него.)
+    - preposition "through" (через): He stepped through the doorway. (Он переступил через порог.)
+
+Творительный(Instrumental)
+  ru_usage: часто указывает на инструмент, с помощью которого выполняют действие.⠉
+  ru_q: (доволен) кем? чем?
+  ru_prepositions: None; за; между; меж; над; под; перед; в связи с; с⠁
+  en_q:
+  en_partOfSentence: obj⠉
+  en_scenarios:
+    - указывает на исполнителя:
+        одуш: preposition "by" (кем): This machine can be operated only by a professional. (Это устройство может управляться только профессионалом.)
+        неодуш: preposition "with" (с): I write a letter with a pen. (Я пишу письмо ручкой.)
+    - указывает на расположение:
+        preposition "between" (между 2): Stand between us. (Стань между нами.)
+        preposition "among" (между 3 и более): Stand among us. (Стань между нами.)
+        preposition "over" (над): What's that over your head? (Что у тебя над головой?)
+        preposition "above" (над): The picture is above the sofa. (Картина висит над диваном.)
+        preposition "under" (под): There is a ball under the table. (Мяч под столом.)
+        preposition "below" (под): There is a ball below the table. (Мяч под столом.)
+        preposition "in front of" (перед): There is a car in front of the house. (Машина стоит перед домом.)
+
+Предложный(Prepositional):
+  ru_usage: всегда используется после предлогов, поэтому он предложный.⠉
+  ru_q: (говорю) о ком? о чём?
+  ru_prepositions: о; об; в; на; при
+  en_q:⠁
+  en_partOfSentence: obj
+  en_scenarios:
+    - preposition "in" (в): The money is in the bag. (Деньги в сумке.)
+    - preposition "on" (на): Flowers are on the table. (Цветы на столе.)
+    - preposition "about" (о, об): Tell me about this book. (Расскажи мне об этой книге.)

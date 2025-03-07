@@ -11,6 +11,7 @@ document.addEventListener('DOMContentLoaded', function () {
   let answers = [];
   let idx = 0;
   let eBlanks = [...h.getEls('.blank')].sort((a, b) => Number(a.dataset.num) - Number(b.dataset.num));
+  let eExtras = [...h.getEls('.extra')].sort((a, b) => Number(a.dataset.num) - Number(b.dataset.num));
 
   // Обновление кнопок и сообщений
   function updateButtonsAndMessages() {
@@ -25,6 +26,16 @@ document.addEventListener('DOMContentLoaded', function () {
     const eBlank = eBlanks[idx];
     let maxLength = eBlank.dataset.maxlength || eBlank.textContent.trim().length;
     eBlank.dataset.maxlength = maxLength;
+    
+    Object.assign(q.elements.input, { maxlength: maxLength, size: maxLength, value: '' });
+    
+    eBlank.innerHTML = '';
+    eBlank.appendChild(q.elements.input);
+    q.elements.input.focus();
+  }
+  function underline2extra() {
+    let maxLength = eExtra.dataset.maxlength || eExtra.textContent.trim().length;
+    eExtra.dataset.maxlength = maxLength;
     
     Object.assign(q.elements.input, { maxlength: maxLength, size: maxLength, value: '' });
     
@@ -92,6 +103,10 @@ document.addEventListener('DOMContentLoaded', function () {
           let correctAnswer = data.question.correct[i]?.[1] || '';
           let maxLength = parseInt(eBlank.dataset.maxlength, 10);
           eBlank.innerHTML = q.highlightMistakes(userAnswer.padEnd(maxLength, ' '), correctAnswer.padEnd(maxLength, ' '));
+        });
+        // === Подставляем EXTRA (e.XXXX) ===
+        eBlanks.forEach((eBlank, i) => {
+          eExtras[i].innerHTML = data.question.extra[i]?.[1];
         });
 
         idx++;

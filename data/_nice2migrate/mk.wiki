@@ -1,0 +1,127 @@
+%% >>> mk >>>>>>>>>>>>>>>>>>>>>>>>>
+idc - i dont care + others
+pls - please
+esl: https://esl.wiki/ru/grammar
+разобраться с частями речи и частями предложения⠋
+  разобраться с частями речи и частями предложения⠋
+    разобраться с частями речи и частями предложения⠋
+pronouns⠉
+  какие местоимения я проебал в таблице?⠁
+  перепроверить переводы non-personalized⠉
+  Роль местоимений в предложении (The Role of Pronouns in a Sentence)⠋
+    personal_sub
+    personal_obj
+    possessive_abs
+    possessive_dep
+    reflexive/emphatic
+    reciprocal
+    negative
+    interrogative
+    relative
+    demonstrative
+    indefinite_qnt
+    indefinite_dst
+    indefinite_prp
+
+    1. Подлежащее (Subject) - p
+      %% дать пример
+    2. Дополнение (Object) - ???
+      прямого, косвенного или какого дополнения.⠁
+      %% дать пример каждого случая
+    3. Определение (modifier или determiner) - possessive_abs или , ???
+      %% дать пример каждого случая
+    4. Обстоятельство (Adverbial Modifier)
+    Некоторые местоимения с предлогами выполняют функцию обстоятельств.
+      %% I’ll go with them.
+      %% She is proud of herself.
+    5. Атрибут (Determiner)
+    Некоторые местоимения уточняют или определяют существительные.
+      %% Each student must submit their work.
+      %% Some people left early.
+    6. Соединительная роль (Relative Pronouns)
+    Относительные местоимения связывают главную и придаточную части.
+      %% The man who called is waiting.
+      %% This is the book that I bought.
+    7. Взаимодействие (Reciprocal Pronouns)
+    Взаимные местоимения обозначают действие между несколькими субъектами.
+      %% They respect each other.
+      %% We should help one another.
+    8. Усиление или акцент (Emphasis)
+    Возвратные местоимения усиливают значение.
+      %% I’ll do it myself.
+      %% She baked the cake herself.
+
+%% >>> notes >>>>>>>>>>>>>>>>>>>>>>>>>
+questions:
+  propositions:
+    заполнить ячейку из matrix
+    5x examples на каждый matrix_value
+    5x examples на каждый specification
+    чтобы добиться уровня A нужно впечатать весь пример целиком
+  syntax:
+    вписать слово которое является subject/object/...
+  irregular_verbs: вписать v2 v3
+  vocabulary: по одному значению(explanation) с уточнением части речи вписать слово на англ
+
+%% >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+%% >>> study_path >>>>>>>>>>>>>>>>>>>>>>>>>
+%% >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+местоимения⠉
+числительные и системы измерения
+предлоги⠉
+после предлогов:⠋
+  идя по синтаксическому дереву разбирая от верха к низу⠋
+conjunctions⠉
+падежи⠉
+времена/verbs:⠋
+  +mastering самые важные глаголы:⠉
+    to be⠋
+    to have⠋
+    to do⠋
+      я опять запутался когда использовать глагол do:⠁
+        в вопросах
+        в обчыных предложениях встатить extra-todo
+    to go⠋
+    modals⠋
+  +сложные комбинации⠁
+  irregular verbs redo⠁
+прилагательные:⠁
+  вцелом
+  сравнительные степени
+  списки синонимов от слабого к сильному и тп
+adverbs⠁
+определение рода⠁
+определение/образования множественного числа +исключения⠁
+
+syntax:⠉
+  древовидная структура предложения:⠋
+  сложные предожения⠉
+check ELS на белые пятна⠋
+possesive как отдельный топик (не только местоимения)⠁
+возвратность как тема само по себе:⠁
+  мы передаем возвратность в английском языке с помощью:
+    конструкции «глагол + возвратное местоимение» (help yourself – угощайся);
+    глагола в активном залоге (to come upstairs – подниматься наверх, to part – расставаться, to dress – одеваться, etc.);
+    глагола в пассивном залоге (This house is being built at the moment. – Дом сейчас строится);
+    фразового глагола или устойчивого сочетания (to come back – возвращаться, to give up – сдаваться, can’t help doing something – не могу сдержаться, чтобы не сделать что-либо).
+morphology⠁
+extra:⠁
+  fixed expressions⠉
+  5000 слов⠁
+  chat shortcuts⠁
+    + becouse -> becoz -> coz -> bc⠁
+    + gonna/wonna⠁
+  beeing unpolite⠁
+  ругательства⠁
+  ругательства сокращалки⠁
+    motherf****r - > mf⠁
+  regular slang⠁
+  the hood slang⠁
+междометия⠁
+speeches:⠁
+  о себе:
+    личные истории
+    психологический портрет
+    для работы:
+      различные кейсы с hr и техсобесами
+  популярные: литературные и исторические

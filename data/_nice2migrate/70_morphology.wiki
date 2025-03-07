@@ -1,0 +1,111 @@
+суффиксы:
+  существительных:
+    -ness: состояние или качество (kindness, darkness).
+    -lessness: состояние отсутствия чего-либо (fearlessness, thoughtlessness).
+    -tion / -ation / -sion / -ition: процесс или результат (information, decision, competition).
+    -ity / -ty: состояние или качество (reality, ability, curiosity).
+    -ment: действие, состояние или результат (development, achievement).
+    -ance / -ence: состояние или качество (resistance, dependence).
+    -ship: статус, состояние, положение (friendship, leadership).
+    -dom: состояние, территория, область (freedom, kingdom).
+    -hood: состояние или группа (childhood, brotherhood).
+    -ism: идеология, движение или система (capitalism, optimism).
+    -er / -or: лицо, выполняющее действие (teacher, actor).
+    -ist: лицо, придерживающееся взглядов или профессии (scientist, artist).
+    -ian: специалист или принадлежность (musician, historian).
+    -age: действие или состояние (marriage, usage).
+    -al: действие или процесс (refusal, approval).
+    -ure: процесс, результат (failure, exposure).
+    -cy: состояние или положение (privacy, efficiency).
+  прилагательных:
+    -less: отсутствие чего-либо (homeless, fearless).
+    -ful: наличие чего-либо (hopeful, beautiful).
+    -able / -ible: способность, пригодность (readable, visible).
+    -ous: качество или характеристика (famous, dangerous).
+    -ic / -ical: связь или характеристика (historic, magical).
+    -ive: склонность или свойство (creative, active).
+    -y: наличие свойства (rainy, happy).
+    -al: связь с чем-либо (natural, practical).
+    -ar / -ary: связь или принадлежность (regular, necessary).
+    -ish: качество или приближённость (childish, foolish).
+    -ly: характеристика (friendly, lovely).
+    -en: сделанный из чего-либо (golden, wooden).
+    -some: склонность или характер (handsome, troublesome).
+  глаголов:
+    -ize / -ise: делать, превращать (realize, organize).
+    -ify: делать, превращать (simplify, clarify).
+    -ate: действие, процесс (activate, celebrate).
+    -en: становиться или делать (shorten, deepen).
+  наречий:
+    -ly: способ действия (quickly, happily).
+    -ward / -wards: направление (backward, upwards).
+    -wise: в отношении чего-либо (clockwise, otherwise).
+Приставки:
+  с отрицательным или противоположным значением:
+    un-: не, противоположность (unhappy, unclear).
+    in- / im- / il- / ir-: не, противоположность (используются в зависимости от начальной буквы корня).
+    Пример: invisible, impossible, illegal, irregular.
+    dis-: не, противоположность или отмена действия (disagree, disappear).
+    non-: отсутствие, не (nonstop, nonsense).
+    mis-: ошибка или неправильность (misunderstand, misuse).
+    de-: отмена, удаление (deactivate, decode).
+  с положительным значением или усилением:
+    re-: снова, повторно (redo, rebuild).
+    over-: избыточность или чрезмерность (overdo, overeat).
+    under-: недостаточность или под чем-то (underestimate, underpay).
+    super-: сверх, выше (superhuman, superpower).
+    ultra-: крайне, за пределами (ultramodern, ultraviolet).
+    mega-: огромный, великий (megastore, megabyte).
+    hyper-: сверх, чрезмерность (hyperactive, hypertension).
+  Пространственные и временные приставки:
+    pre-: до, заранее (preview, prehistoric).
+    post-: после (postgraduate, postwar).
+    fore-: перед, заранее (forecast, foresee).
+    inter-: между, внутри (international, interact).
+    intra-: внутри (intravenous, intranet).
+    trans-: через, сквозь (transport, transform).
+    sub-: под, ниже (subway, submarine).
+    super-: над, выше (superimpose, supervise).
+  для количества:
+    mono-: один, одиночный (monotone, monolingual).
+    bi- / di-: два (bicycle, bilingual).
+    tri-: три (triangle, trilingual).
+    multi- / poly-: много (multitask, polyglot).
+    semi-: наполовину (semicircle, semiannual).
+  направление:
+    pro-: вперёд или за (promote, proceed).
+    anti-: против (antibiotic, antidote).
+    contra-: противоположность (contradict, contraceptive).
+  числовые значения:
+    uni-: один (universe, uniform).
+    bi-: два (bilingual, biceps).
+    tri-: три (triangle, trilogy).
+    quadri- / tetra-: четыре (quadrilateral, tetragon).
+    penta-: пять (pentagon).
+    hexa-: шесть (hexagon).
+    octa-: восемь (octagon).
+    deca-: десять (decade).
+    cent- / centi-: сто (centimeter, century).
+    milli-: тысяча (millimeter, millennium).
+  научные и технические:
+    a- / an-: без (asymmetric, anaerobic).
+    auto-: сам (autopilot, autobiography).
+    bio-: жизнь (biology, biography).
+    geo-: земля (geography, geology).
+    micro-: маленький (microscope, microchip).
+    macro-: большой (macroeconomics, macrocosm).
+    tele-: на расстоянии (telephone, television).
+Compounding:
+  Объединение двух слов для создания нового:
+    tooth + brush → toothbrush.
+    rain + coat → raincoat.
+  Иногда слова соединяются через дефис:
+    mother-in-law, user-friendly.
+Сокращение (Clipping):
+  Укорочение более длинных слов:
+    advertisement → ad.
+    influenza → flu.
+Слияние слов (Blending):
+  Части двух слов объединяются в одно:
+    breakfast + lunch → brunch.
+    smoke + fog → smog.

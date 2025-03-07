@@ -1,0 +1,110 @@
+hints:
+  Type(Тип):
+    <Type>
+    [t.<type>]
+  NumberPerson(ЧислоЛицо):
+    Singular1st(Ед1)/Singular2nd(Ед2)/Singular3rd(Ед3)/Plural1st(Мн1)/Plural2nd(Мн2)/Plural3rd(Мн3)
+    [np.s1/s2/s3/p1/p2/p3]
+  Gender(Род):
+    Male(Муж)/Female(Жен)/Neuter(Ср)
+    [g.m/f/n]
+  Case(Падеж):
+    Nominative(Именительный)/Objective(Объектный)/Possessive(Притяжательный)
+    [s.nom/obj/pos]
+  Countability(Исчисляемость):
+    Countable/Uncountable
+    [c.y/n]
+  Animacy(Одушевлённость):
+    Animate/Inanimate
+    [a.y/n]
+  Time(Время): ...
+  Залог: ...
+  Referring(обращение):
+    One(Один)/OneOfDouble(ОдинИзДвух)/OneOfSet(ОдинИзМножества)/
+    Double(Пара)/DoubleOfDouble(ПараИзПары)/DoubleOfSet(ПараИзМножества)/
+    Set(Множество)/SetOfSet(МножествоИзМножества)/
+    Universal(Heограничено,Неизвестно)
+    [r.1/1of2/1of3/2/2of2/2of3/3/3of3/uni]
+  Formality(Формальность):
+    Slang(Сленг)/Colloquial(Разговорный)/Informal(Неформально)/Neutral(Нейтрально)/Formal(Формально)
+    [f.slng/coll/infr/ntrl/frml]
+  Emphasize(Подчеркивание-контекста):
+    <Emphasize>(<Произвольно>)
+    [e.<emphasize>]
+
+Interrogative Pronouns (Вопросительные местоимения):
+  [what:a.n,s.nom]
+    множество не ограничено или неизвестно.
+    если множетсво ограниченно: which instead.
+    если множетсво не уточняется: what или which смотря какой конктест хочется передать.
+  [who:a.y,s.nom]
+    множество не ограничено или неизвестно.
+    если множетсво ограниченно: which instead.
+    если множетсво не уточняется: who или which смотря какой конктест хочется передать.
+  [whom:a.y,s.obj,f.frml]
+    в современном языке часто заменяется "who".
+  [who:a.y,s.obj,f.ntrl]
+    Не путать с who-subject:
+      - Who called you? (Кто тебе звонил?) – subject.
+      - Whom did you call? (Кому ты звонил?) – object.
+    В современном английском почти всегда вместо *whom* используют *who*, особенно в разговорной речи:
+      Who did you call? / Whom did you call?
+    Исключение – формальные конструкции и случаи, когда *whom* идёт после предлога:
+      - To whom should I address the letter?* (Более формально).
+      - Who should I address the letter to?* (Разговорный вариант).
+    Who-subject vs Who-object(заменяющий whom):
+      1. можно подставить местоимения he/him:
+        - Если на месте "who" подходит "he", это who-subject.
+        - Если на месте "who" подходит "him", это who-object.
+        Примеры:
+          Who called you? ("He" called you?) - subject.
+          Who did you call? ("Him" did you call? - object.
+      2. После предлога всё ещё можно использовать "whom" (но чаще переформулируют):
+        - To whom did you speak? (формально)
+        - Who did you speak to? (разговорный вариант)
+      3. В сложных предложениях смотреть, есть ли уже подлежащее:
+        Если в части с "who" уже есть явное подлежащее, то "who" – object.
+          - The person who called me is my friend. (who = subject, "called" – глагол).
+          - The person who I called is my friend. (who = object, "I" – subject).
+        Можно проверить заменой:
+          - He called me → значит, who = subject
+          - I called him → значит, who = object (бывший whom)
+
+  [whose:a.y/n,s.pos]
+
+  [which:a.y/n]
+
+
+  [whose:a.y,s.pos]
+  [whose:a.n,s.pos,f.ntrl]
+    notes:
+      В современном английском допустимо использовать "whose" для неодушевленных предметов, хотя раньше это считалось ошибкой.
+      Особенно часто используется в разговорной и естественной речи.
+
+   - Примеры:
+     - *The company whose products we use is based in Germany.*
+     - *The book whose cover is torn belongs to me.*
+
+2. **Of which как альтернатива**
+   - Используется в более формальном и академическом стиле.
+   - Структура: *noun + of which + verb/clause*
+   - Примеры:
+     - *The company, the products of which we use, is based in Germany.*
+     - *The book, the cover of which is torn, belongs to me.*
+
+3. **Выбор между whose и of which**
+   - Если стиль формальный, лучше использовать *of which*.
+   - Если речь разговорная или нейтральная – *whose* звучит естественнее.
+   - В письменной речи *of which* встречается чаще, но не всегда удобен из-за громоздкости.
+
+**Вывод:** *Whose* можно использовать для неодушевленных предметов, но если есть альтернатива *of which*, выбираем в зависимости от стиля.
+
+  [which:a.y/n]
+    usage: множество ограниченно.
+    notes:
+      если множество не уточняется: what или which смотря какой контекст хочется передать.
+    number_person: [np.s3/p3]
+    referring: [r.1of3/2of3/3of3]
+
+
+

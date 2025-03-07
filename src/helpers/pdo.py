@@ -36,7 +36,8 @@ def load(csvfile, sep=',', allow_empty=False, retries=5, delay=0.2):
                     raise KeyError(f"Missing 'id' column in {csvfile}. Available columns: {df.columns.tolist()}")
 
                 # Удаляем пробелы в строковых значениях
-                df = df.applymap(lambda x: x.strip() if isinstance(x, str) else x)
+                # DEPRECATED: df = df.applymap(lambda x: x.strip() if isinstance(x, str) else x)
+                df = df.apply(lambda col: col.map(lambda x: x.strip() if isinstance(x, str) else x))
 
                 # Преобразуем 'id' в int и заменяем NaN на None
                 df["id"] = pd.to_numeric(df["id"], errors="coerce").fillna(-1).astype(int)

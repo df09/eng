@@ -1,7 +1,10 @@
 {% extends 'base.html' %}
 {% block title %}Q-Input{% endblock %}
 {% block header %}
-  <a id='main-menu-link' href='{{ url_for('index.index') }}'>MainMenu</a><span>/{{ tdata.tid }}.{{ tdata.tname }}/Q-Input</span>
+  <a id='main-menu-link' href='{{ url_for('index.index') }}'>MainMenu</a>
+  <span>/</span>
+  <a id='theory-link' href='{{ url_for('index.topic_theory', tid=tdata.tid) }}'>{{ tdata.tid }}.{{ tdata.tname }}</a>
+  <span>/Q-Input</span>
 {% endblock %}
 {% block content %}
 <div id='ist0' class='dnone' data-ist0="{{ ist0 }}"></div>

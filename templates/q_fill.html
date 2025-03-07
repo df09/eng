@@ -1,7 +1,10 @@
 {% extends 'base.html' %}
 {% block title %}Q-Fill{% endblock %}
 {% block header %}
-  <a id='main-menu-link' href='{{ url_for('index.index') }}'>MainMenu</a><span>/{{ tdata.tid }}.{{ tdata.tname }}/Q-Fill</span>
+  <a id='main-menu-link' href='{{ url_for('index.index') }}'>MainMenu</a>
+  <span>/</span>
+  <a id='theory-link' href='{{ url_for('index.topic_theory', tid=tdata.tid) }}'>{{ tdata.tid }}.{{ tdata.tname }}</a>
+  <span>/Q-Fill</span>
 {% endblock %}
 {% block content %}
 <div id='ist0' class='dnone' data-ist0="{{ ist0 }}"></div>
@@ -30,6 +33,7 @@
         <p id='msg-empty' class='dnone msg-empty r m0 p0 pl10'>The input field should not be empty.</p>
       </div>
       {% include 'components/q_suspicious_form.html' %}
+      {{ question.extra }}
     </div>
   </form>
 </section>

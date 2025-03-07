@@ -25,7 +25,16 @@ class Topic:
             'fill': self.load_fill_questions()
         }
         # theory
-        self.theory = '' if self.id == 0 else fo.txt2str(f'{self.path}/theory.txt')
+        self.theory = self.load_theory()
+
+    # === Загрузка теории ===
+    def load_theory(self):
+        """Загружает содержимое theory.txt или возвращает 'No theory available.'"""
+        theory_path = f'{self.path}/theory.txt'
+        if os.path.exists(theory_path):
+            with open(theory_path, 'r', encoding='utf-8') as f:
+                return f.read().strip()
+        return "No theory available."
 
     # === load.all ===================================
     def load_all_questions(self, topics_data):
@@ -45,7 +54,9 @@ class Topic:
         df = df.fillna('')  # Заменяем NaN на пустые строки
         df['suspicious_status'] = df['suspicious_status'].replace('', 0).fillna(0).astype(int)
         df['suspicious_note'] = df['suspicious_note'].fillna('')
-        df = df.applymap(lambda x: 0 if isinstance(x, float) and pd.isna(x) else x)  # Убираем NaN
+        # DEPRECATED: df = df.applymap(lambda x: 0 if isinstance(x, float) and pd.isna(x) else x)  # Убираем NaN
+        df = df.apply(lambda col: col.map(lambda x: 0 if isinstance(x, float) and pd.isna(x) else x))
+
         questions = df.to_dict(orient='records')
         for question in questions:
             question['suspicious_status'] = question.get('suspicious_status', 0) or 0
@@ -55,11 +66,12 @@ class Topic:
 
     # === load.input ===================================
     def load_input_questions(self):
-        df = pdo.load(self.f_q_inputs, allow_empty=True)
+        df = pdo.load(self.f_q_inputs, sep=';', allow_empty=True)
         df = df.fillna('')  # Убираем NaN из строк
         df['suspicious_status'] = df['suspicious_status'].replace('', 0).fillna(0).astype(int)
         df['suspicious_note'] = df['suspicious_note'].fillna('')
-        df = df.applymap(lambda x: 0 if isinstance(x, float) and pd.isna(x) else x)  # Убираем NaN
+        # DEPRECATED: df = df.applymap(lambda x: 0 if isinstance(x, float) and pd.isna(x) else x)  # Убираем NaN
+        df = df.apply(lambda col: col.map(lambda x: 0 if isinstance(x, float) and pd.isna(x) else x))
         questions = df.to_dict(orient='records')
         for question in questions:
             question['question'], question['correct'], question['hints'] = self.format_q_input(question['question'])
@@ -76,7 +88,7 @@ class Topic:
         if not match:
             raise ValueError('The question does not contain the correct answer in the [answer] or [answer:hints] format.')
         correct = match.group(1)
-        hints = match.group(2).split(';') if match.group(2) else []
+        hints = match.group(2).split(',') if match.group(2) else []
         formatted_question = question.replace(match.group(0), '___')
         return formatted_question, correct, hints
 
@@ -209,7 +221,7 @@ class Topic:
         # Для остальных типов работаем с DataFrame
         df_questions = pd.DataFrame(self.qs[qkind])
         if df_questions.empty:
-            raise ValueError(f'No questions found in topic {tid} for type "{qkind}".')
+            return {}
         question = df_questions[df_questions['id'] == qid]
         if question.empty:
             raise ValueError(f'Question ID {qid} not found in topic {tid} (type "{qkind}").')
@@ -266,5 +278,8 @@ class Topic:
             # Принудительно приводим suspicious_status к int
             if df['suspicious_status'].dtype != 'int64':
                 df['suspicious_status'] = df['suspicious_status'].astype('Int64')  # Поддерживает NaN без превращения в float
-            pdo.save(df, file_map[qkind])
+            if qkind == 'input':
+                pdo.save(df, file_map[qkind], sep=';')
+            else:
+                pdo.save(df, file_map[qkind])
         return True
