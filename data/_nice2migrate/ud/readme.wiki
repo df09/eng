@@ -1,0 +1,25 @@
+%%
+%%                                             focus       root(VERB:VB)
+%%          ┌──────────────────────────┬───┬─────┴──────┐
+%%       elements                      do they   .      ?  obl(NOUN:NNS),aux(AUX:VBP),nsubj(PRON:PRP),punct(PUNCT:.)
+%%   ┌──────┴────────────────────┬───────────────────┐
+%% Which    .                 artworks .   .     .   on    det(DET:WDT),nmod(NOUN:NNS),case(ADP:IN)
+%%   .      .     ┌─────┬────────┘     .   .     .   .
+%%   .      .     of specific    .     .   .     .   .     case(ADP:IN),amod(ADJ:JJ)
+%%   .      .     .     .        .     .   .     .   .
+%% Which elements of specific artworks do they focus on ?
+%%
+docs: https://en.wikipedia.org/wiki/Dependency_grammar
+datasets:
+  %% ID      Номер токена в предложении.
+  %% FORM    Исходное слово.
+  %% LEMMA   Лемма (основная форма слова).
+  %% UPOS    Грамматическая категория (часть речи, например, NOUN, ADJ).
+  %% XPOS    Языко-специфичная категория (например, JJ для прилагательных).
+  %% FEATS   Дополнительные грамматические особенности (например, Number=Sing).
+  %% HEAD    Номер токена, к которому относится данное слово.
+  %% DEPREL  Тип синтаксической связи (например, amod — определение).
+  %% MISC    Дополнительная информация, например, аннотации или разметка сущностей.
+  %% ...     Кастомные аннотации.
+  https://github.com/UniversalDependencies/UD_English-GUM
+  https://github.com/UniversalDependencies/UD_English-EWT
