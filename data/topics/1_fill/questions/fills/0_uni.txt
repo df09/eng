@@ -1,7 +1,0 @@
-[meta/suspicious_status:1,suspicious_note:'asdf']
-
-asdf [asdf] [e.ASDF]
-asdf [1.asdf] asdf [e1.ASDF]
-asdf [2.asdf] asdf [e2.ASDF]
-asdf [2.asdf] asdf [e2.ASDF]
-asdf [3.asdf] asdf [e3.ASDF]

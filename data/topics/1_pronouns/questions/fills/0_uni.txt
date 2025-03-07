@@ -1,0 +1,3 @@
+[meta/suspicious_status:0,suspicious_note:'']
+
+some example of question, answer is "yes": [1.yes] - [e,u got it :)]
