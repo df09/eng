@@ -1,0 +1,8 @@
+[meta/suspicious_status:0,suspicious_note:'']
+Possessive-pronouns(Притяжательные-местоимения):
+         Singular  Plural
+  1st    [1.mine ] [6.ours  ]
+  2nd    [2.yours] [7.yours ]
+  3rd.m  [3.his  ] [8.theirs]
+  3rd.f  [4.hers ]
+  3rd.n  [5.its  ]

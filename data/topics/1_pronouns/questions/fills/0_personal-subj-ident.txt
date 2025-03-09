@@ -1,8 +1,0 @@
-[meta/suspicious_status:0,suspicious_note:'']
-Personal-subject (Личные-nominative):
-       Singular Plural
-1st    [1.I  ]  [6.we  ]
-2nd    [2.you]  [7.you ]
-3rd.m  [3.he ]  [8.they]
-3rd.f  [4.she]
-3rd.n  [5.it ]

@@ -20,3 +20,7 @@ concessive clause:
   %% Strong though [him:t.Personal,s3m,f.Colloquial] was, he failed.
   %% Brave though [she:t.Personal,s3f,f.Literary] appeared, she was scared inside.
   %% Brave though [her:t.Personal,s3f,f.Colloquial] appeared, she was scared inside.
+
+пассивные конструкции с "said", "known", "believed", ...
+  %% It is said that he is rich. (Говорят, он богат.)
+  %% It is believed that the earth is round. (Считается, что Земля круглая.)

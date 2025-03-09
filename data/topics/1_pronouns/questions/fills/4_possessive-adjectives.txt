@@ -1,0 +1,8 @@
+[meta/suspicious_status:0,suspicious_note:'']
+Possessive-adjectives(Притяжательные-прилагательные):
+         Singular Plural
+  1st    [1.my  ] [6.our  ]
+  2nd    [2.your] [7.your ]
+  3rd.m  [3.his ] [8.their]
+  3rd.f  [4.her ]
+  3rd.n  [5.its ]

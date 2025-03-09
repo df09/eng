@@ -17,14 +17,18 @@ Personal-subject(Личные-nominative):
     использутся к животным, кроме контекста с особым отношением к питомцу, тогда одушвевляется.
       %% The dog is barking loudly → [It:t.Personal] is barking loudly; Он/Она лает громко.;0;
       %% The bird is flying in the sky → [It:t.Personal] is flying in the sky; Она летит в небе.;0;
-  singular they:
-    если пол человека неизвестен или неважен использовать либо he or she, либо they
+  "it" к младенцам:
+    может использоваться для младенцев (если пол неизвестен или не важен).
+    Однако, если известно, что это мальчик/девочка, лучше использовать he/him или she/her.
+      %% The baby is crying. It must be hungry. (subject pronoun)
+  Singular they:
+    если пол человека неизвестен или неважен использовать либо "he or she", либо "they"
       %% Someone left their phone on the table. → Кто-то оставил свой телефон на столе.
       %% If a caller doesn’t leave a message, should I call them back? → Если звонящий не оставил сообщение, мне перезвонить им?
       %% If a customer has a complaint, they should contact support. → Если у клиента есть жалоба, ему следует обратиться в поддержку.
   Порядок местоимений:
     когда к одному и тому же глаголу относится несколько местоимений: "2nd,1st; 3rd,1st; 2nd,3rd".
-    Если в предложении "3rd,3rd" - порядок любой, но существительное обычно идет первым.
+    Если в предложении "3rd,3rd" - порядок любой, но у существительных и одущевленных приоритет.
       %% My friends and I went to the club yesterday. – Я и мои друзья пошли вчера в клуб.
       %% Richard and I are old friends. – Мы с Ричардом – старые друзья.
   Борьба разговорного с формальным:
@@ -45,19 +49,6 @@ Personal-subject(Личные-nominative):
       американской системы образования с распространенным просторечным вариантом me and …:
         %% Me and my friend were asked to go. – Меня и моего друга попросили уйти. (неформальное употребление),
         %% My friend and I were asked to go. – Меня и моего друга попросили уйти. (правильный вариант).
-
-%% >>> todo: >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-q-list:
-  для каждого:
-    types q_fill
-    identification+/:
-      5  q_input простых
-      5  q_input сложных
-    nuances:
-      1+ q_choice общий перечень
-      1  q_choice для каждого
-  add q: shortcuts: noun -> sub
-%% >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 Personal-object(Личные-косвенные):
   Identification:
     me   : s1
@@ -67,53 +58,40 @@ Personal-object(Личные-косвенные):
     it   : s3n
     us   : p1
     them : p2
-  nuances:
-    object:
-      Местоимение it также может использоваться по отношению к людям, когда говорящий пытается установить личность другого человека.
-        %% I didn’t see the car, but my friend saw it. → Я не видел машину, но мой друг видел её.
-        %% She was talking about the movie, but I didn’t watch it. → Она говорила о фильме, но я его не смотрел.
-        %% I heard a noise. Was it your dog? No, it wasn’t. → Я слышал шум. Это была твоя собака? Нет, не она.
-        Местоимение it используется в разделительных вопросах, когда подлежащее выражено словами nothing (ничего, ничто), everything (всё), this (этот), that (тот).
-          %% Nothing has changed, has it? – Ничего не поменялось, не так ли?
-          %% Everything is alright, isn’t it? – Все хорошо, правда?
-          %% This isn’t your car, is it? – Это не твоя машина, да?
-          %% That was a good day, wasn’t it? – Это был хороший день, не так ли?
-        Местоимение it может использоваться в безличностных предложениях как формальное подлежащее. В таких предложениях нет лица, выполняющего действие, а подлежащее или дополнение выражается инфинитивом или придаточным предложением. Например, это происходит в высказываниях о времени, погоде, температуре, расстоянии, и т.д. В этом случае it может переводиться как «это» или опускаться.
-          %% It is cloudy today. – Сегодня облачно.
-          %% It was six o’clock when I came back. – Было шесть часов, когда я вернулся.
-          %% It will take some time to go there. – Это займет некоторое время, чтобы пойти туда.
-          %% It was a very productive day. – Это был очень продуктивный день.
-          %% It is really hard to find flowers you like. – Сложно найти цветы, которые ты любишь.
-      singular they:
-        если пол человека неизвестен или неважен использовать либо he or she, либо they
-      что порядок местоимений в тех случаях, когда к одному и тому же глаголу относится несколько местоимений, будет таким:
-        2st,1st; 3st,1st; 2st,3st;
-          %% My friends and I went to the club yesterday. – Я и мои друзья пошли вчера в клуб.
-          %% Richard and I are old friends. – Мы с Ричардом – старые друзья.
-      singular they:
-        %% If anyone calls, tell them I’ll be back in an hour. (Если кто-то позвонит, скажи им, что я вернусь через час.)
-        %% Whoever left this note should come and explain themselves. (Кто бы ни оставил эту записку, должен прийти и объясниться.)
-        %% If your friend is late, call them. (Если твой друг опаздывает, позвони им.)
-        %% Somebody left their jacket in the office. I’ll give it to them. (Кто-то оставил свою куртку в офисе. Я отдам её им.)
-        %% Tell each applicant that they must submit their documents by Friday. (Скажи каждому заявителю, что он должен подать документы до пятницы.)
-        singular they:
-          %% Someone left [their** phone on the table.; Кто-то оставил свой телефон на столе.; 0;
-          %% If a caller doesn’t leave a message, should I call [them** back?; Если звонящий не оставит сообщение, мне стоит перезвонить **ему/ей**?; 0;
-          %% Someone forgot [their** umbrella.; Кто-то забыл свой зонт.; 0;
-          %% Each person is entitled to [their** opinion.; Каждый человек имеет право на своё мнение.; 0;
-          %% Every student should bring [their** own laptop.; Каждый студент должен принести свой ноутбук.; 0;
-  add q: shortcuts: noun -> sub
-I see John → I see [him:t.Personal]; Я вижу его.;0;
-She likes the cat → She likes [it:t.Personal]; Она любит его/её.;0;
-They invited my friends and me → They invited [us:t.Personal]; Они пригласили нас.;0;
-We called Sarah and Tom → We called [them:t.Personal]; Мы позвонили им.;0;
-The students listen to the teacher → The students listen to [him/her:t.Personal]; Ученики слушают его/её.;0;
-I bought this car → I bought [it:t.Personal]; Я купил её.;0;
-The manager spoke to Mike and me → The manager spoke to [us:t.Personal]; Менеджер говорил с нами.;0;
-She met your brother → She met [him:t.Personal]; Она встретила его.;0;
-The gardener watered the flowers → The gardener watered [them:t.Personal]; Садовник полил их.;0;
-He put the book on the table → He put [it:t.Personal] on the table; Он положил её на стол.;0;
+  "it" к животным:
+    использутся к животным, кроме контекста с особым отношением к питомцу, тогда одушвевляется.
+      %% I saw a stray dog and fed [it:t.Personal].; Я увидел бездомную собаку и покормил её.;0;
+      %% The cat was scared, so I tried to calm [it:t.Personal] down.; Кошка испугалась, поэтому я попытался её успокоить.;0;
+  "it" к младенцам:
+    может использоваться для младенцев (если пол неизвестен или не важен).
+    Однако, если известно, что это мальчик/девочка, лучше использовать he/him или she/her.
+      %% The baby was crying, so I picked [it:t.Personal] up.; Младенец плакал, поэтому я его поднял.;0;
+      %% She wrapped the newborn in a blanket and held [it:t.Personal] close.; Она завернула новорождённого в одеяло и прижала его к себе.;0;
+  Порядок местоимений:
+    когда к одному и тому же глаголу относится несколько местоимений: "2nd,1st; 3rd,1st; 2nd,3rd".
+    Если в предложении "3rd,3rd" - порядок любой, но у существительных и одущевленных приоритет.
+      %% They saw [you and me](you, I) at the park.;Они видели тебя и меня в парке.;0;
+      %% The professor praised [Michael and me](Michael, I) for our work.; Профессор похвалил Майкла и меня за нашу работу.;0;
+      %% I invited [you and her](you, she) to the party.; Я пригласил тебя и её на вечеринку.;0;
+      %% I met [Lisa and him](Lisa, he) at the cafe.; Я встретил Лизу и его в кафе.;0;
+  Singular they:
+    если пол человека неизвестен или неважен использовать либо "him or her", либо "them"
+      %% The doctor called a patient and asked [them:t.Personal] to come in.; Врач вызвал пациента и попросил его войти.;0;
+      %% If someone finds my keys, please give [them:t.Personal] to the receptionist.; Если кто-то найдёт мои ключи, пожалуйста, отдайте их администратору.;0;
 
+%% >>> help:
+q-list:
+  для каждого:
+    %% types q_fill
+    %% identification+/:
+    %%   5  q_input простых
+    %%   5  q_input сложных
+    %% nuances:
+    %%   1+ q_choice общий перечень
+    %%   1  q_choice для каждого
+  %% add q: shortcuts: noun -> sub
+%% <<<<<<
+>>>>>>
 Possessive-pronouns(Притяжательные-местоимения):
   Identification:
     mine   : s1
@@ -122,28 +100,32 @@ Possessive-pronouns(Притяжательные-местоимения):
     hers   : s3f
     its    : s3n
     ours   : p1
-    theirs : p2
+    theirs : p3
+  its: подробнее
+  могут выполнять функцию как подлежащего, так и дополнения:
+    Функция подлежащего:
+      %% Her dress is blue. Mine is green. – Ее платье – голубое. Мое – зеленое. (ед.ч.)
+      %% His drawings are great. Mine are not that nice. – Его рисунки великолепны. Мои – не так хороши. (мн.ч.)
+    Функция дополнения:
+      %% Is this Greg’s car? No, it’s mine. – Это машина Грега? Нет, это моя. (ед.ч.)
+      %% I like your tattoos. Do you like mine? – Мне нравятся твои татуировки. А тебе мои? (мн.ч.)
+  После предлога "of" можно использовать только притяжательное местоимение-существительное, и никакое другое:
+    %% She is a friend of mine.
+    %% That car of theirs is cool.
+  ...
+Possessive-adjectives(Притяжательные-прилагательные):
+  Identification:
+    my    : s1
+    your  : s2
+    his   : s3m
+    her   : s3f
+    its   : s3n
+    our   : p1
+    their : p3
 
 
 
 
-  possesive:
-    absolute:
-      s3p: NONE⠉
-      могут выполнять функцию как подлежащего, так и дополнения:
-        Функция подлежащего:
-          %% Her dress is blue. Mine is green. – Ее платье – голубое. Мое – зеленое. (ед.ч.)
-          %% His drawings are great. Mine are not that nice. – Его рисунки великолепны. Мои – не так хороши. (мн.ч.)
-        Функция дополнения:
-          %% Is this Greg’s car? No, it’s mine. – Это машина Грега? Нет, это моя. (ед.ч.)
-          %% I like your tattoos. Do you like mine? – Мне нравятся твои татуировки. А тебе мои? (мн.ч.)
-      После предлога "of" можно использовать только притяжательное местоимение-существительное, и никакое другое:
-        но можно ли использовать не местоимения вприципи?⠁
-        %% She is a friend of mine.
-        %% That car of theirs is cool.
-      В сочетании с of⠁
-        %% – Emily is a friend of ours. – Эмили – наша подруга.
-        %% – I saw a friend of yours at the airport. – Я видел твоего друга в аэропорту.
     dependent:
       s3p - its:⠉
         При использовании its желательно добавлять слово own (собственный), если речь идет о предметах, либо абстрактных понятиях.
@@ -216,15 +198,6 @@ Possessive-pronouns(Притяжательные-местоимения):
 
 
 
-Possessive-adjectives(Притяжательные-прилагательные):
-  Identification:
-    my    : s1
-    your  : s2
-    his   : s3m
-    her   : s3f
-    its   : s3n
-    our   : p1
-    their : p3
 > Reflexive(Возвратные):
 >   Identification:
 >     myself     : s1
@@ -235,7 +208,14 @@ Possessive-adjectives(Притяжательные-прилагательные)
 >     ourselves  : p1
 >     yourselves : p2
 >     themselves : p3
->     oneself    : s0/p0
+>     oneself    : none
+    Intensive Pronouns:
+      Используются, чтобы подчеркнуть, что действие выполняется самостоятельно, без посторонней помощи.
+      Форма выразительных местоимений полностью совпадает с формой возвратных местоимений,
+      но они могут использоваться практически со всеми глаголами.
+      Они могут стоят после существительного, к которому относятся, или в конце предложения.
+      Иногда они могут использоваться с предлогами by, for (для) и другими.
+
 Demonstrative(Указательные):
   Identification:
     this  : s , e.Near
