@@ -1,16 +1,6 @@
-%% >>> mk >>>>>>>>>>>>>>>>>>>>>>>>>
-q-list:
-  для каждого :
-    types:
-      1+ q_fill
-    identification+/:
-      5  q_input простых
-      5  q_input сложных
-    nuances:
-      1+ q_choice общий перечень
-      1  q_choice для каждого
 %% >>> topics >>>>>>>>>>>>>>>>>>>>>>>>>
 местоимения⠉
+spelling
 предлоги⠉
 времена/verbs:⠋
   +mastering самые важные глаголы:⠉

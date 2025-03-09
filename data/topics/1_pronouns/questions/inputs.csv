@@ -242,6 +242,23 @@ Who might have left the door open? – [Her:t.Personal,s3,f.Colloquial].; Кто
 Who had been working on this before the change? – [We:t.Personal,p1,f.Formal] had been.; Кто работал над этим до изменений? – Мы работали.;0;
 Who had been working on this before the change? – [Us:t.Personal,p1,f.Colloquial].; Кто работал над этим до изменений? – Мы.;0;
 
+# personal-subj: singular we.
+[We:t.Personal,e.Royal], the King of France, decree that all taxes shall be lowered.; Мы, король Франции, постановляем снизить все налоги.;0;
+[We:t.Personal,e.Royal] have always ruled with wisdom and fairness.; Мы всегда правили с мудростью и справедливостью.;0;
+As sovereign of this land, [we:t.Personal,e.Royal] shall not tolerate treason.; Как повелитель этой земли, мы не потерпим предательства.;0;
+[We:t.Personal,e.Royal] hereby declare this war to be just and necessary.; Мы настоящим объявляем эту войну справедливой и необходимой.;0;
+[We:t.Personal,e.Royal] are most pleased with the loyalty of our subjects.; Мы чрезвычайно довольны преданностью наших подданных.;0;
+[We:t.Personal,e.Authorial] propose a new approach to solving this equation.; Мы предлагаем новый подход к решению этого уравнения.;0;
+In this paper, [we:t.Personal,e.Authorial] examine the effects of climate change on biodiversity.; В данной статье мы изучаем влияние изменения климата на биоразнообразие.;0;
+[We:t.Personal,e.Authorial] have found that increasing temperature correlates with higher metabolic rates.; Мы обнаружили, что повышение температуры коррелирует с увеличением скорости метаболизма.;0;
+[We:t.Personal,e.Authorial] believe that our findings contribute significantly to the field of neuroscience.; Мы полагаем, что наши выводы вносят значительный вклад в область нейронауки.;0;
+[We:t.Personal,e.Authorial] conclude that further research is needed to confirm these results.; Мы заключаем, что необходимы дополнительные исследования для подтверждения этих результатов.;0;
+[We:t.Personal,e.Patronizing] are not feeling well today, are we?; Мы сегодня плохо себя чувствуем, не так ли? (врач пациенту);0;
+Ah, [we:t.Personal,e.Patronizing] have been a little naughty, haven’t we?; Ах, мы немножко шалили, да? (взрослый ребёнку);0;
+[We:t.Personal,e.Patronizing] must remember to take our medicine every morning.; Мы должны помнить, что принимаем наше лекарство каждое утро. (медсестра пациенту);0;
+Are [we:t.Personal,e.Patronizing] ready for our big speech today?; Мы готовы к нашему важному выступлению сегодня? (учитель ученику);0;
+[We:t.Personal,e.Patronizing] seem to have forgotten our manners.; Мы, кажется, забыли про хорошие манеры. (покровительственный тон);0;
+
 # personal-subj: noun2pronoun.
 [He:t.Personal](John) is reading a book.; Он читает книгу.;0;
 [It:t.Personal](The cat) is sleeping on the couch.; Он/Она спит на диване.;0;
@@ -528,41 +545,46 @@ They introduced [us:t.Personal](their new friends) at the party.; Они пре�
 The coach congratulated [him:t.Personal](the best player) after the game.; Тренер поздравил его после игры.;0;  
 
 >>>>>>
-255;This pen is [mine:t.poss-pron,s1].;Эта ручка моя.;0;
-256;The last word is [mine:t.poss-pron,s1].;Последнее слово за мной.;0;
-257;The apartment is [mine:t.poss-pron,s1].;Квартира моя.;0;
-258;This responsibility is [mine:t.poss-pron,s1].;Эта ответственность моя.;0;
-259;That chair is [mine:t.poss-pron,s1].;Тот стул мой.;0;
-260;This house is [yours:t.poss-pron,s2].;Этот дом твой.;0;
-261;The final choice is [yours:t.poss-pron,s2].;Окончательный выбор за тобой.;0;
-262;Is this laptop [yours:t.poss-pron,s2]?;Этот ноутбук твой?;0;
-263;That opportunity was [yours:t.poss-pron,s2].;Эта возможность была твоей.;0;
-264;This task is [yours:t.poss-pron,s2].;Эта задача твоя.;0;
-265;The mistake was [his:t.poss-pron,s3m].;Ошибка была его.;0;
-266;This project is [his:t.poss-pron,s3m].;Этот проект его.;0;
-267;The responsibility was [his:t.poss-pron,s3m].;Ответственность была его.;0;
-268;The decision is [his:t.poss-pron,s3m].;Решение его.;0;
-269;That achievement was [his:t.poss-pron,s3m].;Это достижение было его.;0;
-270;The suitcase is [hers:t.poss-pron,s3f].;Чемодан её.;0;
-271;The credit is [hers:t.poss-pron,s3f].;Заслуга её.;0;
-272;Is that phone [hers:t.poss-pron,s3f]?;Этот телефон её?;0;
-273;The complaint was [hers:t.poss-pron,s3f].;Жалоба была её.;0;
-274;That painting is [hers:t.poss-pron,s3f].;Та картина её.;0;
-275;The influence is [its:t.poss-pron,s3n].;Влияние его.;0;
-276;This power is [its:t.poss-pron,s3n].;Эта сила его.;0;
-277;The charm is [its:t.poss-pron,s3n].;Очарование его.;0;
-278;The meaning is [its:t.poss-pron,s3n].;Значение его.;0;
-279;The territory is [its:t.poss-pron,s3n].;Территория его.;0;
-280;The dream is [ours:t.poss-pron,p1].;Мечта наша.;0;
-281;This future is [ours:t.poss-pron,p1].;Это будущее наше.;0;
-282;The burden is [ours:t.poss-pron,p1].;Бремя наше.;0;
-283;The idea was [ours:t.poss-pron,p1].;Идея была нашей.;0;
-284;The happiness is [ours:t.poss-pron,p1].;Счастье наше.;0;
-285;The land is [theirs:t.poss-pron,p3].;Земля их.;0;
-286;The duty is [theirs:t.poss-pron,p3].;Обязанность их.;0;
-287;That reward was [theirs:t.poss-pron,p3].;Эта награда была их.;0;
-288;The authority is [theirs:t.poss-pron,p3].;Власть их.;0;
-289;The responsibility is [theirs:t.poss-pron,p3].;Ответственность их.;0;
+# possessive-pronouns: identification.
+255;This pen is [mine:t.Possessive-pronouns,s1].;Эта ручка моя.;0;
+256;The last word is [mine:t.Possessive-pronouns,s1].;Последнее слово за мной.;0;
+257;The apartment is [mine:t.Possessive-pronouns,s1].;Квартира моя.;0;
+258;This responsibility is [mine:t.Possessive-pronouns,s1].;Эта ответственность моя.;0;
+259;That chair is [mine:t.Possessive-pronouns,s1].;Тот стул мой.;0;
+260;This house is [yours:t.Possessive-pronouns,s2].;Этот дом твой.;0;
+261;The final choice is [yours:t.Possessive-pronouns,s2].;Окончательный выбор за тобой.;0;
+262;Is this laptop [yours:t.Possessive-pronouns,s2]?;Этот ноутбук твой?;0;
+263;That opportunity was [yours:t.Possessive-pronouns,s2].;Эта возможность была твоей.;0;
+264;This task is [yours:t.Possessive-pronouns,s2].;Эта задача твоя.;0;
+265;The mistake was [his:t.Possessive-pronouns,s3m].;Ошибка была его.;0;
+266;This project is [his:t.Possessive-pronouns,s3m].;Этот проект его.;0;
+267;The responsibility was [his:t.Possessive-pronouns,s3m].;Ответственность была его.;0;
+268;The decision is [his:t.Possessive-pronouns,s3m].;Решение его.;0;
+269;That achievement was [his:t.Possessive-pronouns,s3m].;Это достижение было его.;0;
+270;The suitcase is [hers:t.Possessive-pronouns,s3f].;Чемодан её.;0;
+271;The credit is [hers:t.Possessive-pronouns,s3f].;Заслуга её.;0;
+272;Is that phone [hers:t.Possessive-pronouns,s3f]?;Этот телефон её?;0;
+273;The complaint was [hers:t.Possessive-pronouns,s3f].;Жалоба была её.;0;
+274;That painting is [hers:t.Possessive-pronouns,s3f].;Та картина её.;0;
+275;The influence is [its:t.Possessive-pronouns,s3n].;Влияние его.;0;
+276;This power is [its:t.Possessive-pronouns,s3n].;Эта сила его.;0;
+277;The charm is [its:t.Possessive-pronouns,s3n].;Очарование его.;0;
+278;The meaning is [its:t.Possessive-pronouns,s3n].;Значение его.;0;
+279;The territory is [its:t.Possessive-pronouns,s3n].;Территория его.;0;
+280;The dream is [ours:t.Possessive-pronouns,p1].;Мечта наша.;0;
+281;This future is [ours:t.Possessive-pronouns,p1].;Это будущее наше.;0;
+282;The burden is [ours:t.Possessive-pronouns,p1].;Бремя наше.;0;
+283;The idea was [ours:t.Possessive-pronouns,p1].;Идея была нашей.;0;
+284;The happiness is [ours:t.Possessive-pronouns,p1].;Счастье наше.;0;
+285;The land is [theirs:t.Possessive-pronouns,p3].;Земля их.;0;
+286;The duty is [theirs:t.Possessive-pronouns,p3].;Обязанность их.;0;
+287;That reward was [theirs:t.Possessive-pronouns,p3].;Эта награда была их.;0;
+288;The authority is [theirs:t.Possessive-pronouns,p3].;Власть их.;0;
+289;The responsibility is [theirs:t.Possessive-pronouns,p3].;Ответственность их.;0;
+
+
+
+
 290;This is [my:t.poss-adj,s1] book.;Это моя книга.;0;
 291;[My:t.poss-adj,s1] car is very old.;Моя машина очень старая.;0;
 292;[My:t.poss-adj,s1] house is near the park.;Мой дом рядом с парком.;0;

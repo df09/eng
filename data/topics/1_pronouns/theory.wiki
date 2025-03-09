@@ -1,4 +1,3 @@
-%% >>> theory: >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 Personal-subject(Личные-nominative):
   identification:
     I    : s1
@@ -21,7 +20,7 @@ Personal-subject(Личные-nominative):
     может использоваться для младенцев (если пол неизвестен или не важен).
     Однако, если известно, что это мальчик/девочка, лучше использовать he/him или she/her.
       %% The baby is crying. It must be hungry. (subject pronoun)
-  Singular they:
+  Singular "they":
     если пол человека неизвестен или неважен использовать либо "he or she", либо "they"
       %% Someone left their phone on the table. → Кто-то оставил свой телефон на столе.
       %% If a caller doesn’t leave a message, should I call them back? → Если звонящий не оставил сообщение, мне перезвонить им?
@@ -49,6 +48,19 @@ Personal-subject(Личные-nominative):
       американской системы образования с распространенным просторечным вариантом me and …:
         %% Me and my friend were asked to go. – Меня и моего друга попросили уйти. (неформальное употребление),
         %% My friend and I were asked to go. – Меня и моего друга попросили уйти. (правильный вариант).
+  Singual "we":
+    местоимение we может употребляться для обозначения одного лица:
+      Царственное "we" (Royal We) - в речи царственных особ:
+        %% [We:t.Personal,e.Royal], the King of France, decree that all taxes shall be lowered.; Мы, король Франции, постановляем снизить все налоги.;0;
+        %% As sovereign of this land, [we:t.Personal,e.Royal] shall not tolerate treason.; Как повелитель этой земли, мы не потерпим предательства.;0;
+      Авторское "we" (Authorial We, в научном стиле) - в научном стиле в значении так называемого авторского мы:
+        %% [We:t.Personal,e.Authorial] propose a new approach to solving this equation.; Мы предлагаем новый подход к решению этого уравнения.;0;
+        %% In this paper, [we:t.Personal,e.Authorial] examine the effects of climate change on biodiversity.; В данной статье мы изучаем влияние изменения климата на биоразнообразие.;0;
+      Покровительственное "we" (Patronizing We):
+        При покровительственном, шутливом или сочувственном обращении к собеседнику.
+        %% [We:t.Personal,e.Patronizing] are not feeling well today, are we?; Мы сегодня плохо себя чувствуем, не так ли? (врач пациенту);0;
+        %% Ah, [we:t.Personal,e.Patronizing] have been a little naughty, haven’t we?; Ах, мы немножко шалили, да? (взрослый ребёнку);0;
+
 Personal-object(Личные-косвенные):
   Identification:
     me   : s1
@@ -74,24 +86,22 @@ Personal-object(Личные-косвенные):
       %% The professor praised [Michael and me](Michael, I) for our work.; Профессор похвалил Майкла и меня за нашу работу.;0;
       %% I invited [you and her](you, she) to the party.; Я пригласил тебя и её на вечеринку.;0;
       %% I met [Lisa and him](Lisa, he) at the cafe.; Я встретил Лизу и его в кафе.;0;
-  Singular they:
+  Singular "them":
     если пол человека неизвестен или неважен использовать либо "him or her", либо "them"
       %% The doctor called a patient and asked [them:t.Personal] to come in.; Врач вызвал пациента и попросил его войти.;0;
       %% If someone finds my keys, please give [them:t.Personal] to the receptionist.; Если кто-то найдёт мои ключи, пожалуйста, отдайте их администратору.;0;
 
-%% >>> help:
+%% >>>>>> help:
 q-list:
-  для каждого:
-    %% types q_fill
-    %% identification+/:
-    %%   5  q_input простых
-    %%   5  q_input сложных
-    %% nuances:
-    %%   1+ q_choice общий перечень
-    %%   1  q_choice для каждого
-  %% add q: shortcuts: noun -> sub
+  %% types q_fill
+  %% identification+/:
+  %%   5  q_input простых
+  %%   5  q_input сложных
+  nuances:
+    1+ q_choice общий перечень
+    1  q_choice для каждого
+  add q: shortcuts: noun -> sub
 %% <<<<<<
->>>>>>
 Possessive-pronouns(Притяжательные-местоимения):
   Identification:
     mine   : s1
@@ -101,7 +111,7 @@ Possessive-pronouns(Притяжательные-местоимения):
     its    : s3n
     ours   : p1
     theirs : p3
-  its: подробнее
+  %% >>>>>>
   могут выполнять функцию как подлежащего, так и дополнения:
     Функция подлежащего:
       %% Her dress is blue. Mine is green. – Ее платье – голубое. Мое – зеленое. (ед.ч.)
@@ -112,7 +122,24 @@ Possessive-pronouns(Притяжательные-местоимения):
   После предлога "of" можно использовать только притяжательное местоимение-существительное, и никакое другое:
     %% She is a friend of mine.
     %% That car of theirs is cool.
+  Singular Their
+    Применимо к absolute и dependent pronouns.
+      Dependent possessive pronouns (зависимые):
+      Используются перед существительными.
+        %% Someone forgot their book. (Чья-то книга.)
+        %% I don’t know who left their jacket. (Кто оставил свою куртку.)
+      Absolute possessive pronouns (абсолютные):
+      Используются самостоятельно, без существительного.
+        %% This book is theirs. (Эта книга их.)
+        %% I think this jacket is theirs, not yours. (Я думаю, это их куртка, не твоя.)
+  its vs it's⠁
+    %% It’s a giraffe. Its neck is long. — Это жираф. Его шея длинная.
+  shortcuts: dep -> abs⠁
+    %% Is this your pencil? – This is not my pencil, this is his pencil.
+    %% ->
+    %% Is this your pencil? – This is not mine, this is his.
   ...
+
 Possessive-adjectives(Притяжательные-прилагательные):
   Identification:
     my    : s1
@@ -122,56 +149,51 @@ Possessive-adjectives(Притяжательные-прилагательные)
     its   : s3n
     our   : p1
     their : p3
+  s3p - its:⠉
+    При использовании its желательно добавлять слово own (собственный), если речь идет о предметах, либо абстрактных понятиях.
+        %% The little cabin has its own charm. (Небольшой домик имеет свой шарм.)
+    Частая ошибка — использовать it’s вместо its: не ставьить апостроф (‘): her’s, it’s, our’s, your’s, their’s.
+  Если существительное использовано вместе с прилагательным(-и), то местоимение ставится перед ними:
+    %% I've lost my new keys. (Я потерял свои новые ключи.)
+  исключает употребление артикля и указательных местоимений:
+    %% Верно: It is my dog. Или It is a dog
+    %% I like your skirt. Do you like mine? – Мне нравится твоя юбка. А как тебе моя?
+    %% Pull over to that house ― Остановитесь у того дома;
+    %% Pull over to his house ― Остановитесь у его дома.
+  Порядок местоимений
+    Применимо к dependent possessive pronouns, но не к absolute.
+    Порядок местоимений (2nd, 1st; 3rd, 1st; 2nd, 3rd) актуален, когда используются зависимые формы, так как они стоят рядом с существительными:
+      %% This is your and my project. (Это ваш и мой проект.)
+      %% We discussed his and your ideas. (Мы обсуждали его и ваши идеи.)
+    Absolute possessive pronouns не используются в таком порядке, так как они стоят отдельно и не комбинируются:
+      %% This project is mine, not yours. (Этот проект мой, не твой.)
+      %% The house is his, not ours. (Этот дом его, не наш.)
+  Own с притяжательными местоимениями⠁
+  Когда используется "the", а не possessive_dep:⠁
+    В английском языке нет формы притяжательного местоимения, соответствующей русскому местоимению свой, в данном случае используется одно из притяжательных местоимений или определенный артикль "the":
+       %% Take off your coat. – Снимите (своё) пальто!
+       %% Не put his keys into his pocket. ↔ Не put the keys into the pocket. – Он положил (свои) ключи в (свой) карман.
+    Речь идёт о частях тела в прямом контексте:
+      %% "He slapped the face of the man next to him." (явно указано, чья часть тела).
+      В конструкциях с глаголами, описывающими действия с частями тела,
+      часто используется артикль "the" вместо притяжательного местоимения.
+      (принадлежность легко угадывается, добавление местоимения избыточно).
+      Примеры:
+        С артиклем "the" (разговорный стиль):
+          %% He hit the back of his head.
+          %% I patted the dog on the head.
+          %% She bit the tip of her tongue.
+        С притяжательным местоимением (более формально):
+          %% He hit his back.
+          %% I patted his head.
+          %% She bit her tongue.
+    Фокус на действии, а не на владельце:
+      %% "I hit the wall with my hand." (важно, что была стена, а не принадлежность руки).
+    исключения:
+      в формальном письме чтобы избежать путаницы), использование притяжательных местоимений предпочтительнее:
+        %% "He injured his leg during the match." (чтобы чётко указать, чья нога была повреждена).
 
-
-
-
-    dependent:
-      s3p - its:⠉
-        При использовании its желательно добавлять слово own (собственный), если речь идет о предметах, либо абстрактных понятиях.
-            %% The little cabin has its own charm. (Небольшой домик имеет свой шарм.)
-        Частая ошибка — использовать it’s вместо its: не ставьить апостроф (‘): her’s, it’s, our’s, your’s, their’s.
-      Если существительное использовано вместе с прилагательным(-и), то местоимение ставится перед ними:
-        %% I've lost my new keys. (Я потерял свои новые ключи.)
-      исключает употребление артикля и указательных местоимений:
-        %% Верно: It is my dog. Или It is a dog
-        %% I like your skirt. Do you like mine? – Мне нравится твоя юбка. А как тебе моя?
-        %% Pull over to that house ― Остановитесь у того дома;
-        %% Pull over to his house ― Остановитесь у его дома.
-      Порядок местоимений
-        Применимо к dependent possessive pronouns, но не к absolute.
-        Порядок местоимений (2nd, 1st; 3rd, 1st; 2nd, 3rd) актуален, когда используются зависимые формы, так как они стоят рядом с существительными:
-          %% This is your and my project. (Это ваш и мой проект.)
-          %% We discussed his and your ideas. (Мы обсуждали его и ваши идеи.)
-        Absolute possessive pronouns не используются в таком порядке, так как они стоят отдельно и не комбинируются:
-          %% This project is mine, not yours. (Этот проект мой, не твой.)
-          %% The house is his, not ours. (Этот дом его, не наш.)
-      Own с притяжательными местоимениями⠁
-      Когда используется "the", а не possessive_dep:⠁
-        В английском языке нет формы притяжательного местоимения, соответствующей русскому местоимению свой, в данном случае используется одно из притяжательных местоимений или определенный артикль "the":
-           %% Take off your coat. – Снимите (своё) пальто!
-           %% Не put his keys into his pocket. ↔ Не put the keys into the pocket. – Он положил (свои) ключи в (свой) карман.
-        Речь идёт о частях тела в прямом контексте:
-          %% "He slapped the face of the man next to him." (явно указано, чья часть тела).
-          В конструкциях с глаголами, описывающими действия с частями тела,
-          часто используется артикль "the" вместо притяжательного местоимения.
-          (принадлежность легко угадывается, добавление местоимения избыточно).
-          Примеры:
-            С артиклем "the" (разговорный стиль):
-              %% He hit the back of his head.
-              %% I patted the dog on the head.
-              %% She bit the tip of her tongue.
-            С притяжательным местоимением (более формально):
-              %% He hit his back.
-              %% I patted his head.
-              %% She bit her tongue.
-        Фокус на действии, а не на владельце:
-          %% "I hit the wall with my hand." (важно, что была стена, а не принадлежность руки).
-        исключения:
-          в формальном письме чтобы избежать путаницы), использование притяжательных местоимений предпочтительнее:
-            %% "He injured his leg during the match." (чтобы чётко указать, чья нога была повреждена).
-    mix:
-      Singular they
+      Singular Their
         Применимо к absolute и dependent pronouns.
           Dependent possessive pronouns (зависимые):
           Используются перед существительными.
@@ -181,13 +203,13 @@ Possessive-adjectives(Притяжательные-прилагательные)
           Используются самостоятельно, без существительного.
             %% This book is theirs. (Эта книга их.)
             %% I think this jacket is theirs, not yours. (Я думаю, это их куртка, не твоя.)
-      shortcuts: dep -> abs⠁
-        %% Is this your pencil? – This is not my pencil, this is his pencil.
-        %% ->
-        %% Is this your pencil? – This is not mine, this is his.
-      its vs it's⠁
-        %% It’s a giraffe. Its neck is long. — Это жираф. Его шея длинная.
-      etc?⠁
+  its vs it's⠁
+    %% It’s a giraffe. Its neck is long. — Это жираф. Его шея длинная.
+  shortcuts: dep -> abs⠁
+    %% Is this your pencil? – This is not my pencil, this is his pencil.
+    %% ->
+    %% Is this your pencil? – This is not mine, this is his.
+  ...
 
 
 
