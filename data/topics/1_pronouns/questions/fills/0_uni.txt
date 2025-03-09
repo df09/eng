@@ -1,8 +1,0 @@
-[meta/suspicious_status:0,suspicious_note:'']
-┌ Personal-subject ──┐
-│ [1.I  ] │ [6.we  ] │
-│ [2.you] │ [7.you ] │
-│ [3.he ] │          │
-│ [4.she] │ [8.they] │
-│ [5.it ] │          │
-└─────────┴──────────┘

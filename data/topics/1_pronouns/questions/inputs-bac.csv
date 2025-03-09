@@ -1,87 +1,71 @@
 id;question;extra;suspicious_status;suspicious_note
-# personal-subj.identification
+# personal-subj: identification
 0;[I:Type.personal-subj,s1] like coffee.;Мне нравится кофе.;0;
 1;[I:Type.personal-subj,s1] will call you tomorrow.;Я позвоню тебе завтра.;0;
 2;[I:Type.personal-subj,s1] am here.;Я здесь.;0;
-3;[I:Type.personal-subj,s1] don't understand this.;Я этого не понимаю.;0;
-4;[I:Type.personal-subj,s1] need help.;Мне нужна помощь.;0;
 5;[You:Type.personal-subj,s2] are my friend.;Ты мой друг.;0;
 6;[You:Type.personal-subj,s2] can do it.;Ты можешь это сделать.;0;
 7;[You:Type.personal-subj,s2] look tired.;Ты выглядишь уставшим.;0;
-8;[You:Type.personal-subj,s2] coming with us?;Ты пойдёшь с нами?;0;
-9;[You:Type.personal-subj,s2] forgot your keys.;Ты забыл свои ключи.;0;
 10;[He:Type.personal-subj,s3m] is a teacher.;Он учитель.;0;
 11;[He:Type.personal-subj,s3m] works every day.;Он работает каждый день.;0;
 12;[He:Type.personal-subj,s3m] likes pizza.;Он любит пиццу.;0;
-13;[He:Type.personal-subj,s3m] will help you.;Он поможет тебе.;0;
-14;[He:Type.personal-subj,s3m] went to the store.;Он пошел в магазин.;0;
 15;[She:Type.personal-subj,s3f] loves coffee.;Она любит кофе.;0;
 16;[She:Type.personal-subj,s3f] is very kind.;Она очень добрая.;0;
 17;[She:Type.personal-subj,s3f] told me the truth.;Она сказала мне правду.;0;
-18;[She:Type.personal-subj,s3f] is reading a book.;Она читает книгу.;0;
-19;[She:Type.personal-subj,s3f] lives nearby.;Она живёт рядом.;0;
 20;[It:Type.personal-subj,s3n] is raining.;Идёт дождь.;0;
 21;[It:Type.personal-subj,s3n] looks delicious.;Оно выглядит вкусно.;0;
 22;[It:Type.personal-subj,s3n] is very expensive.;Оно очень дорого.;0;
-23;[I:Type.personal-subj,s1] found it in the drawer.;Я нашел это в ящике.;0;
-24;[It:Type.personal-subj,s3n] is a good idea.;Это хорошая идея.;0;
 25;[We:Type.personal-subj,p1] are happy.;Мы счастливы.;0;
 26;[We:Type.personal-subj,p1] will meet tomorrow.;Мы встретимся завтра.;0;
 27;[We:Type.personal-subj,p1] like this place.;Нам нравится это место.;0;
-28;[We:Type.personal-subj,p1] are going to the park.;Мы идём в парк.;0;
-29;[We:Type.personal-subj,p1] need more time.;Нам нужно больше времени.;0;
 30;[You:Type.personal-subj,s2] are welcome here.;Вы здесь желанны.;0;
 31;[You:Type.personal-subj,s2] should try this.;Вы должны попробовать это.;0;
 32;[You:Type.personal-subj,s2] are very polite.;Вы очень вежливы.;0;
-33;[You:Type.personal-subj,s2] ready for the meeting?;Вы готовы к встрече?;0;
-34;[You:Type.personal-subj,s2] did a great job.;Вы отлично справились.;0;
 35;[They:Type.personal-subj,p3] are coming.;Они идут.;0;
 36;[They:Type.personal-subj,p3] work together.;Они работают вместе.;0;
 37;[They:Type.personal-subj,p3] have a big house.;У них большой дом.;0;
-38;[They:Type.personal-subj,p3] here yet?;Они уже здесь?;0;
-39;[They:Type.personal-subj,p3] enjoy traveling.;Им нравится путешествовать.;0;
 40;[I:Type.personal-subj,s1] was surprised when I saw the results.;Я был удивлён, когда увидел результаты.;0;
 41;She told me that [I:Type.personal-subj,s1] should try harder.;Она сказала мне, что я должен стараться больше.;0;
 42;We all know that [you:Type.personal-subj,s2] have the skills to succeed.;Мы все знаем, что у тебя есть навыки, чтобы добиться успеха.;0;
 43;They asked if [you:Type.personal-subj,s2] were available for the meeting.;Они спросили, свободны ли вы для встречи.;0;
-44;The teacher explained why [he:Type.personal-subj,s3m] missed the deadline.;Учитель объяснил, почему он пропустил крайний срок.;0;
-45;She couldn't believe that [he:Type.personal-subj,s3m] had lied to her.;Она не могла поверить, что он ей солгал.;0;
-46;Everyone was amazed by how fast [she:Type.personal-subj,s3f] solved the problem.;Все были поражены, как быстро она решила проблему.;0;
-47;We had no idea that [she:Type.personal-subj,s3f] spoke five languages.;Мы не знали, что она говорит на пяти языках.;0;
-48;The scientist proved that [it:Type.personal-subj,s3n] was possible to travel faster.;Учёный доказал, что это возможно путешествовать быстрее.;0;
-49;They debated whether [it:Type.personal-subj,s3n] should be changed.;Они спорили, стоит ли это изменить.;0;
-50;My friends and I realized that [we:Type.personal-subj,p1] needed a new plan.;Мои друзья и я поняли, что нам нужен новый план.;0;
-51;The manager reminded us that [we:Type.personal-subj,p1] had to finish by noon.;Менеджер напомнил нам, что мы должны закончить к полудню.;0;
 52;Can you explain why [you:Type.personal-subj,s2] made that decision?;Можешь объяснить, почему ты принял такое решение?;0;
 53;They were shocked that [you:Type.personal-subj,s2] knew the answer.;Они были шокированы, что ты знал ответ.;0;
-54;She was worried that [he:Type.personal-subj,s3m] wouldn't make it on time.;Она волновалась, что он не успеет вовремя.;0;
-55;The team believed that [he:Type.personal-subj,s3m] could lead them to victory.;Команда верила, что он сможет привести их к победе.;0;
-56;Everyone agreed that [she:Type.personal-subj,s3f] deserved the award.;Все согласились, что она заслужила награду.;0;
-57;We wondered why [she:Type.personal-subj,s3f] hadn't responded yet.;Мы задумались, почему она ещё не ответила.;0;
-58;It was clear that [it:Type.personal-subj,s3n] wouldn't work as planned.;Было ясно, что это не сработает, как планировалось.;0;
-59;The engineer confirmed that [it:Type.personal-subj,s3n] was built correctly.;Инженер подтвердил, что это было построено правильно.;0;
-60;They knew that [we:Type.personal-subj,p1] were trying our best.;Они знали, что мы старались изо всех сил.;0;
-61;The instructor told us that [we:Type.personal-subj,p1] needed more practice.;Инструктор сказал нам, что нам нужно больше практики.;0;
 62;She asked whether [you:Type.personal-subj,s2] wanted to join the project.;Она спросила, хочешь ли ты присоединиться к проекту.;0;
 63;The boss emphasized that [you:Type.personal-subj,s2] must be on time.;Босс подчеркнул, что ты должен быть вовремя.;0;
-64;We suspected that [he:Type.personal-subj,s3m] was hiding something.;Мы подозревали, что он что-то скрывает.;0;
-65;They admitted that [he:Type.personal-subj,s3m] was the best candidate.;Они признали, что он был лучшим кандидатом.;0;
-66;The professor mentioned that [she:Type.personal-subj,s3f] had done excellent research.;Профессор упомянул, что она провела отличное исследование.;0;
-67;Her friend revealed that [she:Type.personal-subj,s3f] had moved abroad.;Её друг рассказал, что она переехала за границу.;0;
-68;The expert concluded that [it:Type.personal-subj,s3n] was a breakthrough discovery.;Эксперт пришёл к выводу, что это было прорывное открытие.;0;
-69;They agreed that [it:Type.personal-subj,s3n] was the right decision.;Они согласились, что это было правильное решение.;0;
-70;We insisted that [we:Type.personal-subj,p1] should try again.;Мы настаивали, что мы должны попробовать снова.;0;
-71;They mentioned that [we:Type.personal-subj,p1] had the necessary experience.;Они упомянули, что у нас был необходимый опыт.;0;
 72;The manager confirmed that [you:Type.personal-subj,s2] had completed the task.;Менеджер подтвердил, что ты завершил задание.;0;
 73;He warned that [you:Type.personal-subj,s2] should be careful.;Он предупредил, что тебе следует быть осторожным.;0;
-74;The scientist explained why [they:Type.personal-subj,p3] changed the experiment.;Учёный объяснил, почему они изменили эксперимент.;0;
+44;The teacher explained why [he:Type.personal-subj,s3m] missed the deadline.;Учитель объяснил, почему он пропустил крайний срок.;0;
+45;She couldn't believe that [he:Type.personal-subj,s3m] had lied to her.;Она не могла поверить, что он ей солгал.;0;
+54;She was worried that [he:Type.personal-subj,s3m] wouldn't make it on time.;Она волновалась, что он не успеет вовремя.;0;
+55;The team believed that [he:Type.personal-subj,s3m] could lead them to victory.;Команда верила, что он сможет привести их к победе.;0;
+64;We suspected that [he:Type.personal-subj,s3m] was hiding something.;Мы подозревали, что он что-то скрывает.;0;
+65;They admitted that [he:Type.personal-subj,s3m] was the best candidate.;Они признали, что он был лучшим кандидатом.;0;
+46;Everyone was amazed by how fast [she:Type.personal-subj,s3f] solved the problem.;Все были поражены, как быстро она решила проблему.;0;
+47;We had no idea that [she:Type.personal-subj,s3f] spoke five languages.;Мы не знали, что она говорит на пяти языках.;0;
+56;Everyone agreed that [she:Type.personal-subj,s3f] deserved the award.;Все согласились, что она заслужила награду.;0;
+57;We wondered why [she:Type.personal-subj,s3f] hadn't responded yet.;Мы задумались, почему она ещё не ответила.;0;
+66;The professor mentioned that [she:Type.personal-subj,s3f] had done excellent research.;Профессор упомянул, что она провела отличное исследование.;0;
+67;Her friend revealed that [she:Type.personal-subj,s3f] had moved abroad.;Её друг рассказал, что она переехала за границу.;0;
+48;The scientist proved that [it:Type.personal-subj,s3n] was possible to travel faster.;Учёный доказал, что это возможно путешествовать быстрее.;0;
+49;They debated whether [it:Type.personal-subj,s3n] should be changed.;Они спорили, стоит ли это изменить.;0;
+58;It was clear that [it:Type.personal-subj,s3n] wouldn't work as planned.;Было ясно, что это не сработает, как планировалось.;0;
+59;The engineer confirmed that [it:Type.personal-subj,s3n] was built correctly.;Инженер подтвердил, что это было построено правильно.;0;
+68;The expert concluded that [it:Type.personal-subj,s3n] was a breakthrough discovery.;Эксперт пришёл к выводу, что это было прорывное открытие.;0;
+69;They agreed that [it:Type.personal-subj,s3n] was the right decision.;Они согласились, что это было правильное решение.;0;
+50;My friends and I realized that [we:Type.personal-subj,p1] needed a new plan.;Мои друзья и я поняли, что нам нужен новый план.;0;
+51;The manager reminded us that [we:Type.personal-subj,p1] had to finish by noon.;Менеджер напомнил нам, что мы должны закончить к полудню.;0;
+60;They knew that [we:Type.personal-subj,p1] were trying our best.;Они знали, что мы старались изо всех сил.;0;
+61;The instructor told us that [we:Type.personal-subj,p1] needed more practice.;Инструктор сказал нам, что нам нужно больше практики.;0;
+70;We insisted that [we:Type.personal-subj,p1] should try again.;Мы настаивали, что мы должны попробовать снова.;0;
+71;They mentioned that [we:Type.personal-subj,p1] had the necessary experience.;Они упомянули, что у нас был необходимый опыт.;0;
 75;We learned that [they:Type.personal-subj,p3] had already left.;Мы узнали, что они уже ушли.;0;
+74;The scientist explained why [they:Type.personal-subj,p3] changed the experiment.;Учёный объяснил, почему они изменили эксперимент.;0;
 76;The journalist reported that [they:Type.personal-subj,p3] had discovered new evidence.;Журналист сообщил, что они обнаружили новые доказательства.;0;
 77;She commented that [they:Type.personal-subj,p3] seemed very confident.;Она прокомментировала, что они казались очень уверенными.;0;
 78;It was obvious that [they:Type.personal-subj,p3] needed help.;Было очевидно, что им нужна помощь.;0;
 79;The report stated that [they:Type.personal-subj,p3] had reached an agreement.;В отчёте говорилось, что они достигли соглашения.;0;
 
-# personal-subj.nuances(1 - It при уточнении личности)
+# personal-subj: "it" при уточнении личности.
 80;It was my brother who helped me move, not my neighbor.;Это мой брат помог мне переехать, а не сосед.;0;  
 81;I heard a voice in the hallway. Was it your father?;Я услышал голос в коридоре. Это был твой отец?;0;  
 82;It was Sarah who told me the truth, not Mark.;Это Сара сказала мне правду, а не Марк.;0;  
@@ -93,7 +77,7 @@ id;question;extra;suspicious_status;suspicious_note
 88;It was my uncle who took me to the airport.;Это мой дядя отвез меня в аэропорт.;0;  
 89;It wasn’t your idea, it was mine.;Это была не твоя идея, а моя.;0;  
 
-# personal-subj.nuances(it к животным)
+# personal-subj: "it" к животным
 The dog is barking loudly → [It:t.Personal] is barking loudly; Он/Она лает громко.;0;
 The bird is flying in the sky → [It:t.Personal] is flying in the sky; Она летит в небе.;0;
 The cat is hiding under the bed → [It:t.Personal] is hiding under the bed; Он/Она прячется под кроватью.;0;
@@ -105,7 +89,18 @@ The spider is crawling on the wall → [It:t.Personal] is crawling on the wall; 
 The bee is buzzing around the flower → [It:t.Personal] is buzzing around the flower; Она жужжит вокруг цветка.;0;
 The squirrel is climbing the tree → [It:t.Personal] is climbing the tree; Она карабкается на дерево.;0;
 
-# personal-subj.nuances(2 - порядок местоимений)
+# personal-subj: singular they
+Nobody knows what [they:t.Personal] are doing all the time.; Никто не знает, что делает всё время.; 0;  
+Someone said [they:t.Personal] would be here by noon.; Кто-то сказал, что они будут здесь к полудню.; 0;  
+If anyone arrives early, [they:t.Personal] can wait in the lobby.; Если кто-то придёт рано, они могут подождать в холле.; 0;  
+Every employee should ensure [they:t.Personal] meet the deadline.; Каждый сотрудник должен убедиться, что они уложились в срок.; 0;  
+Everybody thinks [they:t.Personal] know best. ; Каждый думает, что он знает лучше всех. ; 0;
+No one should feel like [they:t.Personal] are alone. ; Никто не должен чувствовать себя одиноким. ; 0;
+Anyone can join if [they:t.Personal] are interested. ; Любой может присоединиться, если ему интересно. ; 0;
+Someone forgot [they:t.Personal] umbrella. ; Кто-то забыл свой зонтик. ; 0;
+If a student has questions, [they:t.Personal] should ask the teacher. ; Если у студента есть вопросы, он должен спросить учителя. ; 0;
+
+# personal-subj: порядок местоимений
 [You and I] should go to the gym together. (I, you); Мы с тобой должны пойти в спортзал вместе.;0;
 [You and I] should work on this project together. (I, you); Мы с тобой должны работать над этим проектом вместе.;0;
 [She and I] have been friends since childhood. (I, she); Мы с ней друзья с детства.;0;
@@ -131,7 +126,7 @@ The squirrel is climbing the tree → [It:t.Personal] is climbing the tree; Он
 [You and they] were chosen for the project. (you, they); Вас с ними выбрали для проекта.;0;
 [You and Mark] should present the results. (you, Mark); Вам с Марком следует представить результаты.;0;
 
-# personal-subj.nuances(3,4,5 - борьба разговорного с формальным)
+# personal-subj: борьба разговорного с формальным.
 My brother and [I:t.Personal,s1,f.Formal] went to a concert last night.; Мой брат и я ходили на концерт прошлой ночью.
 My brother and [me:t.Personal,s1,f.Colloquial] went to a concert last night.; Мой брат и я ходили на концерт прошлой ночью.
 My colleague and [I:t.Personal,s1,f.Formal] finished the report on time.; Мой коллега и я закончили отчёт вовремя.
@@ -221,13 +216,7 @@ Who might have left the door open? – [Her:t.Personal,s3,f.Colloquial].; Кто
 Who had been working on this before the change? – [We:t.Personal,p1,f.Formal] had been.; Кто работал над этим до изменений? – Мы работали.;0;
 Who had been working on this before the change? – [Us:t.Personal,p1,f.Colloquial].; Кто работал над этим до изменений? – Мы.;0;
 
-# personal-subj.nuances(6 - singular they)
-Nobody knows what [they:t.Personal] are doing all the time.; Никто не знает, что делает всё время.; 0;  
-Someone said [they:t.Personal] would be here by noon.; Кто-то сказал, что они будут здесь к полудню.; 0;  
-If anyone arrives early, [they:t.Personal] can wait in the lobby.; Если кто-то придёт рано, они могут подождать в холле.; 0;  
-Every employee should ensure [they:t.Personal] meet the deadline.; Каждый сотрудник должен убедиться, что они уложились в срок.; 0;  
-
-# personal-subj.noun2pronoun
+# personal-subj: noun2pronoun
 John is reading a book → [He:t.Personal] is reading a book; Он читает книгу.;0;
 The cat is sleeping on the couch → [It:t.Personal] is sleeping on the couch; Он/Она спит на диване.;0;
 My friends and I are going to the park → [We:t.Personal] are going to the park; Мы идём в парк.;0;
@@ -239,6 +228,7 @@ Your brother likes football → [He:t.Personal] likes football; Он любит 
 The flowers are blooming → [They:t.Personal] are blooming; Они цветут.;0;
 The book is on the table → [It:t.Personal] is on the table; Она на столе.;0;
 
+# >>>>>>>>>>>>>>>>>>>>>>>>
 80;He saw [me:Type.personal-obj,s1].;Он видел меня.;0;
 81;They invited [me:Type.personal-obj,s1] to the party.;Они пригласили меня на вечеринку.;0;
 82;She found [me:Type.personal-obj,s1] in the garden.;Она нашла меня в саду.;0;

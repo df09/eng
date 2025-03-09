@@ -1,6 +1,6 @@
 %% >>> theory: >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 Personal-subject(Личные-nominative):
-  Identification:
+  identification:
     I    : s1
     you  : s2
     he   : s3m
@@ -8,27 +8,33 @@ Personal-subject(Личные-nominative):
     it   : s3n
     we   : p1
     they : p2
-  nuances:
-    Местоимение it также может использоваться по отношению к людям, когда говорящий пытается установить личность другого человека.
-    %% It was my sister I went to the restaurant with, not my girlfriend. – Я пошел в ресторан со своей сестрой, а не со своей девушкой.
-    %% I saw you with someone yesterday. Was it your friend?. - No it wasn’t. – Я видел тебя с кем-то вчера. Это был твой друг? - Нет, не он.
-    Местоимение it также использутся к животным, кроме контекста с обобым отношением к питомцу.
-    Порядок местоимений в тех случаях, когда к одному и тому же глаголу относится несколько местоимений: 2st,1st; 3st,1st; 2st,3st;
+  "it" при уточнении личности:
+    Местоимение it также может использоваться по отношению к людям,
+    когда говорящий пытается установить личность другого человека.
+      %% It was my sister I went to the restaurant with, not my girlfriend. – Я пошел в ресторан со своей сестрой, а не со своей девушкой.
+      %% I saw you with someone yesterday. Was it your friend?. - No it wasn’t. – Я видел тебя с кем-то вчера. Это был твой друг? - Нет, не он.
+  "it" к животным:
+    использутся к животным, кроме контекста с особым отношением к питомцу, тогда одушвевляется.
+      %% The dog is barking loudly → [It:t.Personal] is barking loudly; Он/Она лает громко.;0;
+      %% The bird is flying in the sky → [It:t.Personal] is flying in the sky; Она летит в небе.;0;
+  singular they:
+    если пол человека неизвестен или неважен использовать либо he or she, либо they
+      %% Someone left their phone on the table. → Кто-то оставил свой телефон на столе.
+      %% If a caller doesn’t leave a message, should I call them back? → Если звонящий не оставил сообщение, мне перезвонить им?
+      %% If a customer has a complaint, they should contact support. → Если у клиента есть жалоба, ему следует обратиться в поддержку.
+  Порядок местоимений:
+    когда к одному и тому же глаголу относится несколько местоимений: "2nd,1st; 3rd,1st; 2nd,3rd".
+    Если в предложении "3rd,3rd" - порядок любой, но существительное обычно идет первым.
       %% My friends and I went to the club yesterday. – Я и мои друзья пошли вчера в клуб.
       %% Richard and I are old friends. – Мы с Ричардом – старые друзья.
-    Predicate nominative.
-    В официальной и письменной речи лучше использовать именительный падеж (It was I).
-    В разговорном английском чаще используется объектный падеж (It was me), и это уже стало нормой.
-      %% Who told him that? – It was I. – Кто ему сказал это? – Я. (литературная, правильная форма)
-      %% Who told him that? – It was me. – Кто ему сказал это? – Я. (разговорная форма)
-      %% She is as tall as he is. – Она того же роста, что и он.
-      %% She is as tall as him. – Она того же роста, что и он.
-      %% No one can do it but she can. – Никто не может сделать это кроме неё.
-      %% No one can do it but her. – Никто не может сделать это кроме неё.
-      %% I am feeling tired. – I am too. – Я устал. – Я тоже.
-      %% I am feeling tired." – Me too. – Я устал. – Я тоже.
-      %% Who broke the vase? – Not I! – Кто разбил вазу? – Не я!
-      %% Who broke the vase? – Not me! – Кто разбил вазу? – Не я!
+  Борьба разговорного с формальным:
+    Predicate nominative:
+      В официальной и письменной речи лучше использовать именительный падеж (It was I).
+      В разговорном английском чаще используется объектный падеж (It was me), и это уже стало нормой.
+        %% Who told him that? – It was I. – Кто ему сказал это? – Я. (литературная, правильная форма)
+        %% Who told him that? – It was me. – Кто ему сказал это? – Я. (разговорная форма)
+        %% She is as tall as he is. – Она того же роста, что и он.
+        %% She is as tall as him. – Она того же роста, что и он.
     После "but" в формальном стиле сохраняется именительный падеж: "No one can do it but she." (В разговорном варианте возможно "but her.")
     "... and I" vs "... and me":
       В американском варианте английского языка, при употреблении личного местоимения в качестве дополнения
@@ -39,11 +45,6 @@ Personal-subject(Личные-nominative):
       американской системы образования с распространенным просторечным вариантом me and …:
         %% Me and my friend were asked to go. – Меня и моего друга попросили уйти. (неформальное употребление),
         %% My friend and I were asked to go. – Меня и моего друга попросили уйти. (правильный вариант).
-    singular they:
-      если пол человека неизвестен или неважен использовать либо he or she, либо they
-        %% Someone left their phone on the table. → Кто-то оставил свой телефон на столе.
-        %% If a caller doesn’t leave a message, should I call them back? → Если звонящий не оставил сообщение, мне перезвонить им?
-        %% If a customer has a complaint, they should contact support. → Если у клиента есть жалоба, ему следует обратиться в поддержку.
 
 %% >>> todo: >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 q-list:
@@ -95,11 +96,11 @@ Personal-object(Личные-косвенные):
         %% If your friend is late, call them. (Если твой друг опаздывает, позвони им.)
         %% Somebody left their jacket in the office. I’ll give it to them. (Кто-то оставил свою куртку в офисе. Я отдам её им.)
         %% Tell each applicant that they must submit their documents by Friday. (Скажи каждому заявителю, что он должен подать документы до пятницы.)
-        singular they:  
-          %% Someone left [their** phone on the table.; Кто-то оставил свой телефон на столе.; 0;  
-          %% If a caller doesn’t leave a message, should I call [them** back?; Если звонящий не оставит сообщение, мне стоит перезвонить **ему/ей**?; 0;  
-          %% Someone forgot [their** umbrella.; Кто-то забыл свой зонт.; 0;  
-          %% Each person is entitled to [their** opinion.; Каждый человек имеет право на своё мнение.; 0;  
+        singular they:
+          %% Someone left [their** phone on the table.; Кто-то оставил свой телефон на столе.; 0;
+          %% If a caller doesn’t leave a message, should I call [them** back?; Если звонящий не оставит сообщение, мне стоит перезвонить **ему/ей**?; 0;
+          %% Someone forgot [their** umbrella.; Кто-то забыл свой зонт.; 0;
+          %% Each person is entitled to [their** opinion.; Каждый человек имеет право на своё мнение.; 0;
           %% Every student should bring [their** own laptop.; Каждый студент должен принести свой ноутбук.; 0;
   add q: shortcuts: noun -> sub
 I see John → I see [him:t.Personal]; Я вижу его.;0;
