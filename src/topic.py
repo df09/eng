@@ -15,12 +15,12 @@ class Topic:
         self.name = name
         self.estimation_order = {'N':0,'F':1,'D':2,'C':3,'B':4,'A':5}
         self.path = f'./data/topics/{tid}_{name}'
-        self.f_q_chooses = f'{self.path}/questions/chooses.csv'
+        self.f_q_choices = f'{self.path}/questions/choices.csv'
         self.f_q_inputs = f'{self.path}/questions/inputs.csv'
         self.d_q_fills = f'{self.path}/questions/fills'
         # 0.all topic
         self.qs = self.load_all_questions(topics_data) if self.id == 0 else {
-            'choose': self.load_choose_questions(),
+            'choice': self.load_choice_questions(),
             'input': self.load_input_questions(),
             'fill': self.load_fill_questions()
         }
@@ -39,7 +39,7 @@ class Topic:
     # === load.all ===================================
     def load_all_questions(self, topics_data):
         """Загружает вопросы из всех тем."""
-        questions = {'choose': [], 'input': [], 'fill': []}
+        questions = {'choice': [], 'input': [], 'fill': []}
         for tid, tname in topics_data.items():
             if tid == 0:
                 continue
@@ -48,9 +48,9 @@ class Topic:
                 questions[kind].extend(topic.qs.get(kind, []))
         return questions
 
-    # === load.choose ===================================
-    def load_choose_questions(self):
-        df = pdo.load(self.f_q_chooses, allow_empty=True)
+    # === load.choice ===================================
+    def load_choice_questions(self):
+        df = pdo.load(self.f_q_choices, allow_empty=True)
         df = df.fillna('')  # Заменяем NaN на пустые строки
         df['suspicious_status'] = df['suspicious_status'].replace('', 0).fillna(0).astype(int)
         df['suspicious_note'] = df['suspicious_note'].fillna('')
@@ -61,7 +61,7 @@ class Topic:
         for question in questions:
             question['suspicious_status'] = question.get('suspicious_status', 0) or 0
             question['suspicious_note'] = question.get('suspicious_note', '') or ''
-            question['kind'] = 'choose'
+            question['kind'] = 'choice'
         return questions
 
     # === load.input ===================================
@@ -226,8 +226,8 @@ class Topic:
         if question.empty:
             raise ValueError(f'Question ID {qid} not found in topic {tid} (type "{qkind}").')
         data = question.iloc[0].fillna('').to_dict()
-        if qkind == 'choose':
-            # Перемешиваем опции для 'choose'
+        if qkind == 'choice':
+            # Перемешиваем опции для 'choice'
             options = [opt.strip() for opt in data['options'].split(';')]
             random.shuffle(options)
             data['options'] = options
@@ -246,7 +246,7 @@ class Topic:
     def update_question_suspicious(self, qkind, qid, status, note):
         """Обновляет suspicious_status и suspicious_note в файле с вопросами."""
         status = int(status)  # Приводим статус к int
-        file_map = {'choose': self.f_q_chooses, 'input': self.f_q_inputs, 'fill': self.d_q_fills}
+        file_map = {'choice': self.f_q_choices, 'input': self.f_q_inputs, 'fill': self.d_q_fills}
         if qkind not in file_map:
             raise ValueError(f"Некорректный тип вопроса: {qkind}")
         if qkind == 'fill':

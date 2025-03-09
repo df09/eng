@@ -67,7 +67,7 @@ def topic(tid):
     # Проверяем, существует ли вопрос
     if not topic.get_question(chosed_tid, question['qkind'], question['qid']):
         return f'Invalid question {chosed_tid}/{question["qkind"]}: {question["qid"]}', 400
-    routes = {'choose': 'index.q_choose', 'input': 'index.q_input', 'fill': 'index.q_fill'}
+    routes = {'choice': 'index.q_choice', 'input': 'index.q_input', 'fill': 'index.q_fill'}
     return redirect(url_for(routes.get(question['qkind'], 'index.unknown_question'),
                             tid=chosed_tid, qid=question['qid'], ist0=ist0))
 
@@ -81,12 +81,12 @@ def init_q_rout(tid, qkind, qid):
     question = topic.get_question(tid, qkind, qid)
     return user, topic, tdata, stat, progress, question
 
-# === q_choose ===================================
-@index_bp.route('/topic/<int:tid>/q_choose/<int:qid>', methods=['GET', 'POST'])
+# === q_choice ===================================
+@index_bp.route('/topic/<int:tid>/q_choice/<int:qid>', methods=['GET', 'POST'])
 @login_required
-def q_choose(tid, qid):
+def q_choice(tid, qid):
     ist0 = request.args.get('ist0')
-    qkind = 'choose'
+    qkind = 'choice'
     user, topic, tdata, stat, progress, question = init_q_rout(tid, qkind, qid)
     if request.method == 'POST':
         answer = sorted(x.strip() for x in request.form.getlist('answer'))
@@ -102,7 +102,7 @@ def q_choose(tid, qid):
             'answer': answer,
             'is_correct': is_correct,
         })
-    return render_template('q_choose.html', page='q_choose', tdata=tdata,
+    return render_template('q_choice.html', page='q_choice', tdata=tdata,
                            question=question, progress=progress, stat=stat, ist0=ist0)
 
 # === q_input ===================================

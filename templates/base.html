@@ -24,7 +24,7 @@
     </main>
   </div>
   <script type='module' src="{{ url_for('static', filename='js/'+page+'.js') }}"></script>
-  {% if page in ['q_choose', 'q_input', 'q_fill'] %}
+  {% if page in ['q_choice', 'q_input', 'q_fill'] %}
     <script type="module" src="{{ url_for('static', filename='js/suspicious.js') }}"></script>
   {% endif %}
 </body>

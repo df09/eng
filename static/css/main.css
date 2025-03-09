@@ -46,7 +46,7 @@ header .logout a { font-size: 20px; }
 .topics td a { color: var(--b, #0056b3); text-decoration: none; font-size: 20px; }
 .topics td a:hover { text-decoration: underline; }
 
-/* === q_choose ==================== */
+/* === q_choice ==================== */
 .option-label {
   user-select: none;
 }

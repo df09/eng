@@ -1,0 +1,22 @@
+concessive clause:
+  Это инверсионная конструкция "Adjective + though + Subject + Verb",
+  которая используется в формальном или художественном английском
+  для выражения уступки (concessive clause).
+  Разбор конструкции:
+    Adjective (прилагательное) – Strong, Brave, Cold, Tired и т. д.
+    though – союз, выражающий уступку ("хотя", "несмотря на то, что").
+    Subject + Verb – обычный порядок слов, но стоит после though.
+  Альтернативный вариант без инверсии:
+    Though he was strong, he failed.
+    Though she appeared brave, she was scared inside.
+  Инверсия делает фразу более выразительной и характерна для формального,
+  художественного или поэтического стиля.
+  Другие примеры:
+    Cold though it was, they went outside. (Хотя было холодно, они вышли.)
+    Tired though we were, we kept working. (Хотя мы устали, мы продолжали работать.)
+    Difficult though the exam was, she passed it. (Хотя экзамен был сложным, она его сдала.)
+  Это редкая, но мощная конструкция, придающая фразе выразительность.
+  %% Strong though [he:t.Personal,s3m,f.Literary] was, he failed.
+  %% Strong though [him:t.Personal,s3m,f.Colloquial] was, he failed.
+  %% Brave though [she:t.Personal,s3f,f.Literary] appeared, she was scared inside.
+  %% Brave though [her:t.Personal,s3f,f.Colloquial] appeared, she was scared inside.

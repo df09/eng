@@ -1,17 +1,4 @@
->>> todo: >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-пройтись по сайтам, выцепить ньюансы
-yourself - куда делись возвратные местоимения
-  проверить какие еще пропущены местоимения
-переделать вопросы
-
-
-
-
-
-
-
-
->>> theory: >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+%% >>> theory: >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 Personal-subject(Личные-nominative):
   Identification:
     I    : s1
@@ -21,6 +8,55 @@ Personal-subject(Личные-nominative):
     it   : s3n
     we   : p1
     they : p2
+  nuances:
+    Местоимение it также может использоваться по отношению к людям, когда говорящий пытается установить личность другого человека.
+    %% It was my sister I went to the restaurant with, not my girlfriend. – Я пошел в ресторан со своей сестрой, а не со своей девушкой.
+    %% I saw you with someone yesterday. Was it your friend?. - No it wasn’t. – Я видел тебя с кем-то вчера. Это был твой друг? - Нет, не он.
+    Местоимение it также использутся к животным, кроме контекста с обобым отношением к питомцу.
+    Порядок местоимений в тех случаях, когда к одному и тому же глаголу относится несколько местоимений: 2st,1st; 3st,1st; 2st,3st;
+      %% My friends and I went to the club yesterday. – Я и мои друзья пошли вчера в клуб.
+      %% Richard and I are old friends. – Мы с Ричардом – старые друзья.
+    Predicate nominative.
+    В официальной и письменной речи лучше использовать именительный падеж (It was I).
+    В разговорном английском чаще используется объектный падеж (It was me), и это уже стало нормой.
+      %% Who told him that? – It was I. – Кто ему сказал это? – Я. (литературная, правильная форма)
+      %% Who told him that? – It was me. – Кто ему сказал это? – Я. (разговорная форма)
+      %% She is as tall as he is. – Она того же роста, что и он.
+      %% She is as tall as him. – Она того же роста, что и он.
+      %% No one can do it but she can. – Никто не может сделать это кроме неё.
+      %% No one can do it but her. – Никто не может сделать это кроме неё.
+      %% I am feeling tired. – I am too. – Я устал. – Я тоже.
+      %% I am feeling tired." – Me too. – Я устал. – Я тоже.
+      %% Who broke the vase? – Not I! – Кто разбил вазу? – Не я!
+      %% Who broke the vase? – Not me! – Кто разбил вазу? – Не я!
+    После "but" в формальном стиле сохраняется именительный падеж: "No one can do it but she." (В разговорном варианте возможно "but her.")
+    "... and I" vs "... and me":
+      В американском варианте английского языка, при употреблении личного местоимения в качестве дополнения
+      с другими местоимениями или существительными, вместо "me" может использоваться местоимение "I":
+        %% Mama told you and I to tidy up our rooms. – Мама говорила тебе и мне убрать в наших комнатах.
+        %% They came to watch TV with my brother and I. – Они приходили смотреть телевизор с моим братом и со мной.
+      Это отклонение от правила возникло благодаря усиленной борьбе (к месту и не к месту)
+      американской системы образования с распространенным просторечным вариантом me and …:
+        %% Me and my friend were asked to go. – Меня и моего друга попросили уйти. (неформальное употребление),
+        %% My friend and I were asked to go. – Меня и моего друга попросили уйти. (правильный вариант).
+    singular they:
+      если пол человека неизвестен или неважен использовать либо he or she, либо they
+        %% Someone left their phone on the table. → Кто-то оставил свой телефон на столе.
+        %% If a caller doesn’t leave a message, should I call them back? → Если звонящий не оставил сообщение, мне перезвонить им?
+        %% If a customer has a complaint, they should contact support. → Если у клиента есть жалоба, ему следует обратиться в поддержку.
+
+%% >>> todo: >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+q-list:
+  для каждого:
+    types q_fill
+    identification+/:
+      5  q_input простых
+      5  q_input сложных
+    nuances:
+      1+ q_choice общий перечень
+      1  q_choice для каждого
+  add q: shortcuts: noun -> sub
+%% >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 Personal-object(Личные-косвенные):
   Identification:
     me   : s1
@@ -30,6 +66,53 @@ Personal-object(Личные-косвенные):
     it   : s3n
     us   : p1
     them : p2
+  nuances:
+    object:
+      Местоимение it также может использоваться по отношению к людям, когда говорящий пытается установить личность другого человека.
+        %% I didn’t see the car, but my friend saw it. → Я не видел машину, но мой друг видел её.
+        %% She was talking about the movie, but I didn’t watch it. → Она говорила о фильме, но я его не смотрел.
+        %% I heard a noise. Was it your dog? No, it wasn’t. → Я слышал шум. Это была твоя собака? Нет, не она.
+        Местоимение it используется в разделительных вопросах, когда подлежащее выражено словами nothing (ничего, ничто), everything (всё), this (этот), that (тот).
+          %% Nothing has changed, has it? – Ничего не поменялось, не так ли?
+          %% Everything is alright, isn’t it? – Все хорошо, правда?
+          %% This isn’t your car, is it? – Это не твоя машина, да?
+          %% That was a good day, wasn’t it? – Это был хороший день, не так ли?
+        Местоимение it может использоваться в безличностных предложениях как формальное подлежащее. В таких предложениях нет лица, выполняющего действие, а подлежащее или дополнение выражается инфинитивом или придаточным предложением. Например, это происходит в высказываниях о времени, погоде, температуре, расстоянии, и т.д. В этом случае it может переводиться как «это» или опускаться.
+          %% It is cloudy today. – Сегодня облачно.
+          %% It was six o’clock when I came back. – Было шесть часов, когда я вернулся.
+          %% It will take some time to go there. – Это займет некоторое время, чтобы пойти туда.
+          %% It was a very productive day. – Это был очень продуктивный день.
+          %% It is really hard to find flowers you like. – Сложно найти цветы, которые ты любишь.
+      singular they:
+        если пол человека неизвестен или неважен использовать либо he or she, либо they
+      что порядок местоимений в тех случаях, когда к одному и тому же глаголу относится несколько местоимений, будет таким:
+        2st,1st; 3st,1st; 2st,3st;
+          %% My friends and I went to the club yesterday. – Я и мои друзья пошли вчера в клуб.
+          %% Richard and I are old friends. – Мы с Ричардом – старые друзья.
+      singular they:
+        %% If anyone calls, tell them I’ll be back in an hour. (Если кто-то позвонит, скажи им, что я вернусь через час.)
+        %% Whoever left this note should come and explain themselves. (Кто бы ни оставил эту записку, должен прийти и объясниться.)
+        %% If your friend is late, call them. (Если твой друг опаздывает, позвони им.)
+        %% Somebody left their jacket in the office. I’ll give it to them. (Кто-то оставил свою куртку в офисе. Я отдам её им.)
+        %% Tell each applicant that they must submit their documents by Friday. (Скажи каждому заявителю, что он должен подать документы до пятницы.)
+        singular they:  
+          %% Someone left [their** phone on the table.; Кто-то оставил свой телефон на столе.; 0;  
+          %% If a caller doesn’t leave a message, should I call [them** back?; Если звонящий не оставит сообщение, мне стоит перезвонить **ему/ей**?; 0;  
+          %% Someone forgot [their** umbrella.; Кто-то забыл свой зонт.; 0;  
+          %% Each person is entitled to [their** opinion.; Каждый человек имеет право на своё мнение.; 0;  
+          %% Every student should bring [their** own laptop.; Каждый студент должен принести свой ноутбук.; 0;
+  add q: shortcuts: noun -> sub
+I see John → I see [him:t.Personal]; Я вижу его.;0;
+She likes the cat → She likes [it:t.Personal]; Она любит его/её.;0;
+They invited my friends and me → They invited [us:t.Personal]; Они пригласили нас.;0;
+We called Sarah and Tom → We called [them:t.Personal]; Мы позвонили им.;0;
+The students listen to the teacher → The students listen to [him/her:t.Personal]; Ученики слушают его/её.;0;
+I bought this car → I bought [it:t.Personal]; Я купил её.;0;
+The manager spoke to Mike and me → The manager spoke to [us:t.Personal]; Менеджер говорил с нами.;0;
+She met your brother → She met [him:t.Personal]; Она встретила его.;0;
+The gardener watered the flowers → The gardener watered [them:t.Personal]; Садовник полил их.;0;
+He put the book on the table → He put [it:t.Personal] on the table; Он положил её на стол.;0;
+
 Possessive-pronouns(Притяжательные-местоимения):
   Identification:
     mine   : s1
@@ -39,6 +122,99 @@ Possessive-pronouns(Притяжательные-местоимения):
     its    : s3n
     ours   : p1
     theirs : p2
+
+
+
+
+  possesive:
+    absolute:
+      s3p: NONE⠉
+      могут выполнять функцию как подлежащего, так и дополнения:
+        Функция подлежащего:
+          %% Her dress is blue. Mine is green. – Ее платье – голубое. Мое – зеленое. (ед.ч.)
+          %% His drawings are great. Mine are not that nice. – Его рисунки великолепны. Мои – не так хороши. (мн.ч.)
+        Функция дополнения:
+          %% Is this Greg’s car? No, it’s mine. – Это машина Грега? Нет, это моя. (ед.ч.)
+          %% I like your tattoos. Do you like mine? – Мне нравятся твои татуировки. А тебе мои? (мн.ч.)
+      После предлога "of" можно использовать только притяжательное местоимение-существительное, и никакое другое:
+        но можно ли использовать не местоимения вприципи?⠁
+        %% She is a friend of mine.
+        %% That car of theirs is cool.
+      В сочетании с of⠁
+        %% – Emily is a friend of ours. – Эмили – наша подруга.
+        %% – I saw a friend of yours at the airport. – Я видел твоего друга в аэропорту.
+    dependent:
+      s3p - its:⠉
+        При использовании its желательно добавлять слово own (собственный), если речь идет о предметах, либо абстрактных понятиях.
+            %% The little cabin has its own charm. (Небольшой домик имеет свой шарм.)
+        Частая ошибка — использовать it’s вместо its: не ставьить апостроф (‘): her’s, it’s, our’s, your’s, their’s.
+      Если существительное использовано вместе с прилагательным(-и), то местоимение ставится перед ними:
+        %% I've lost my new keys. (Я потерял свои новые ключи.)
+      исключает употребление артикля и указательных местоимений:
+        %% Верно: It is my dog. Или It is a dog
+        %% I like your skirt. Do you like mine? – Мне нравится твоя юбка. А как тебе моя?
+        %% Pull over to that house ― Остановитесь у того дома;
+        %% Pull over to his house ― Остановитесь у его дома.
+      Порядок местоимений
+        Применимо к dependent possessive pronouns, но не к absolute.
+        Порядок местоимений (2nd, 1st; 3rd, 1st; 2nd, 3rd) актуален, когда используются зависимые формы, так как они стоят рядом с существительными:
+          %% This is your and my project. (Это ваш и мой проект.)
+          %% We discussed his and your ideas. (Мы обсуждали его и ваши идеи.)
+        Absolute possessive pronouns не используются в таком порядке, так как они стоят отдельно и не комбинируются:
+          %% This project is mine, not yours. (Этот проект мой, не твой.)
+          %% The house is his, not ours. (Этот дом его, не наш.)
+      Own с притяжательными местоимениями⠁
+      Когда используется "the", а не possessive_dep:⠁
+        В английском языке нет формы притяжательного местоимения, соответствующей русскому местоимению свой, в данном случае используется одно из притяжательных местоимений или определенный артикль "the":
+           %% Take off your coat. – Снимите (своё) пальто!
+           %% Не put his keys into his pocket. ↔ Не put the keys into the pocket. – Он положил (свои) ключи в (свой) карман.
+        Речь идёт о частях тела в прямом контексте:
+          %% "He slapped the face of the man next to him." (явно указано, чья часть тела).
+          В конструкциях с глаголами, описывающими действия с частями тела,
+          часто используется артикль "the" вместо притяжательного местоимения.
+          (принадлежность легко угадывается, добавление местоимения избыточно).
+          Примеры:
+            С артиклем "the" (разговорный стиль):
+              %% He hit the back of his head.
+              %% I patted the dog on the head.
+              %% She bit the tip of her tongue.
+            С притяжательным местоимением (более формально):
+              %% He hit his back.
+              %% I patted his head.
+              %% She bit her tongue.
+        Фокус на действии, а не на владельце:
+          %% "I hit the wall with my hand." (важно, что была стена, а не принадлежность руки).
+        исключения:
+          в формальном письме чтобы избежать путаницы), использование притяжательных местоимений предпочтительнее:
+            %% "He injured his leg during the match." (чтобы чётко указать, чья нога была повреждена).
+    mix:
+      Singular they
+        Применимо к absolute и dependent pronouns.
+          Dependent possessive pronouns (зависимые):
+          Используются перед существительными.
+            %% Someone forgot their book. (Чья-то книга.)
+            %% I don’t know who left their jacket. (Кто оставил свою куртку.)
+          Absolute possessive pronouns (абсолютные):
+          Используются самостоятельно, без существительного.
+            %% This book is theirs. (Эта книга их.)
+            %% I think this jacket is theirs, not yours. (Я думаю, это их куртка, не твоя.)
+      shortcuts: dep -> abs⠁
+        %% Is this your pencil? – This is not my pencil, this is his pencil.
+        %% ->
+        %% Is this your pencil? – This is not mine, this is his.
+      its vs it's⠁
+        %% It’s a giraffe. Its neck is long. — Это жираф. Его шея длинная.
+      etc?⠁
+
+
+
+
+
+
+
+
+
+
 Possessive-adjectives(Притяжательные-прилагательные):
   Identification:
     my    : s1
@@ -142,169 +318,6 @@ Determiners/quantifiers(определительные):
 
 
 
-personalized:
-  personal:
-    subject:
-      it:
-        Местоимение it также может использоваться по отношению к людям, когда говорящий пытается установить личность другого человека.
-          %% It was my sister I went to the restaurant with, not my girlfriend. – Я пошел в ресторан со своей сестрой, а не со своей девушкой.
-          %% I saw you with someone yesterday. Was it your friend?. - No it wasn’t. – Я видел тебя с кем-то вчера. Это был твой друг? - Нет, не он.
-        Местоимение it используется в разделительных вопросах, когда подлежащее выражено словами nothing (ничего, ничто), everything (всё), this (этот), that (тот).
-          %% Nothing has changed, has it? – Ничего не поменялось, не так ли?
-          %% Everything is alright, isn’t it? – Все хорошо, правда?
-          %% This isn’t your car, is it? – Это не твоя машина, да?
-          %% That was a good day, wasn’t it? – Это был хороший день, не так ли?
-        Местоимение it может использоваться в безличностных предложениях как формальное подлежащее. В таких предложениях нет лица, выполняющего действие, а подлежащее или дополнение выражается инфинитивом или придаточным предложением. Например, это происходит в высказываниях о времени, погоде, температуре, расстоянии, и т.д. В этом случае it может переводиться как «это» или опускаться.
-          %% It is cloudy today. – Сегодня облачно.
-          %% It was six o’clock when I came back. – Было шесть часов, когда я вернулся.
-          %% It will take some time to go there. – Это займет некоторое время, чтобы пойти туда.
-          %% It was a very productive day. – Это был очень продуктивный день.
-          %% It is really hard to find flowers you like. – Сложно найти цветы, которые ты любишь.
-      singular they:
-        если пол человека неизвестен или неважен использовать либо he or she, либо they
-      что порядок местоимений в тех случаях, когда к одному и тому же глаголу относится несколько местоимений, будет таким:
-        2st,1st; 3st,1st; 2st,3st;
-          %% My friends and I went to the club yesterday. – Я и мои друзья пошли вчера в клуб.
-          %% Richard and I are old friends. – Мы с Ричардом – старые друзья.
-    object:
-      it:
-        Местоимение it также может использоваться по отношению к людям, когда говорящий пытается установить личность другого человека.
-          %% It was my sister I went to the restaurant with, not my girlfriend. – Я пошел в ресторан со своей сестрой, а не со своей девушкой.
-          %% I saw you with someone yesterday. Was it your friend?. - No it wasn’t. – Я видел тебя с кем-то вчера. Это был твой друг? - Нет, не он.
-        Местоимение it используется в разделительных вопросах, когда подлежащее выражено словами nothing (ничего, ничто), everything (всё), this (этот), that (тот).
-          %% Nothing has changed, has it? – Ничего не поменялось, не так ли?
-          %% Everything is alright, isn’t it? – Все хорошо, правда?
-          %% This isn’t your car, is it? – Это не твоя машина, да?
-          %% That was a good day, wasn’t it? – Это был хороший день, не так ли?
-        Местоимение it может использоваться в безличностных предложениях как формальное подлежащее. В таких предложениях нет лица, выполняющего действие, а подлежащее или дополнение выражается инфинитивом или придаточным предложением. Например, это происходит в высказываниях о времени, погоде, температуре, расстоянии, и т.д. В этом случае it может переводиться как «это» или опускаться.
-          %% It is cloudy today. – Сегодня облачно.
-          %% It was six o’clock when I came back. – Было шесть часов, когда я вернулся.
-          %% It will take some time to go there. – Это займет некоторое время, чтобы пойти туда.
-          %% It was a very productive day. – Это был очень продуктивный день.
-          %% It is really hard to find flowers you like. – Сложно найти цветы, которые ты любишь.
-      singular they:
-        если пол человека неизвестен или неважен использовать либо he or she, либо they
-      что порядок местоимений в тех случаях, когда к одному и тому же глаголу относится несколько местоимений, будет таким:
-        2st,1st; 3st,1st; 2st,3st;
-          %% My friends and I went to the club yesterday. – Я и мои друзья пошли вчера в клуб.
-          %% Richard and I are old friends. – Мы с Ричардом – старые друзья.
-    mix:
-      shortcuts: noun -> sub⠁
-      корректное определение падежа⠁
-      sub vs obj:⠁
-        Как правильно You and I или you and me?
-          %% ...
-        "It is I" и "It is me":
-          Сравнительное употребление местоимений в субъектном и объектном падеже:
-            %% Mary likes grapes more than I. – Мария любит виноград больше чем я.
-            %% Mary likes grapes more than me. – Мария любит виноград больше чем меня.
-          Уточнить форму местоимения помогает разворачивание предложения:
-            %% Mary likes grapes more than I. → Mary likes grapes more than I do(1). – Мария любит виноград больше чем я (люблю).
-            %% Mary likes grapes more than me. → Mary likes grapes more than she likes me. – Мария любит виноград больше чем (любит) меня.
-            %% She is as tall as he. → She is as tall as he is. – Она того же роста, что и он.
-            %% Who told him that? – It was I (who did it). – Кто ему сказал это? – Я.
-          Сравните:
-            %% It was I who finished first. (I finished first.) – Это я, тот кто закончил первый.
-            %% It was me (whom) they elected class president. (They elected me class president.) – Это меня выбрали старшиной группы.
-            %% It was she who stole the tart. (She stole the tart.) – Это - она украла пирог.
-            %% It was her (whom) they saw steal the tart. (They saw her steal the tart.) – Это она, тот кого они видели как воровала пирог.
-          В разговорном варианте, при употреблении личного местоимения в качестве именного члена сказуемого вместо формы субъектного падежа часто используется форма объектного падежа:
-            %% Who told him that? – It was I. – Кто ему сказал это? – Я. (литературная, правильная форма)
-            %% Who told him that? – It was me. – Кто ему сказал это? – Я. (разговорная форма)
-            %% She is as tall as he is. – Она того же роста, что и он.
-            %% She is as tall as him. – Она того же роста, что и он.
-            %% No one can do it but she can. – Никто не может сделать это кроме неё.
-            %% No one can do it but her. – Никто не может сделать это кроме неё.
-            %% I am feeling tired. – I am too. – Я устал. – Я тоже.
-            %% I am feeling tired." – Me too. – Я устал. – Я тоже.
-            %% Who broke the vase? – Not I! – Кто разбил вазу? – Не я!
-            %% Who broke the vase? – Not me! – Кто разбил вазу? – Не я!
-        "... and I" и "... and me"
-          В американском варианте английского языка, при употреблении личного местоимения в качестве дополнения с другими местоимениями или существительными, вместо "me" может использоваться местоимение "I":
-            %% Mama told you and I to tidy up our rooms. – Мама говорила тебе и мне убрать в наших комнатах.
-            %% They came to watch TV with my brother and I. – Они приходили смотреть телевизор с моим братом и со мной.
-          Это отклонение от правила возникло благодаря усиленной борьбе (к месту и не к месту) американской системы образования с распространенным просторечным вариантом me and …:
-            %% Me and my friend were asked to go. – Меня и моего друга попросили уйти. (неформальное употребление),
-            %% My friend and I were asked to go. – Меня и моего друга попросили уйти. (правильный вариант).
-  possesive:
-    absolute:
-      s3p: NONE⠉
-      могут выполнять функцию как подлежащего, так и дополнения:
-        Функция подлежащего:
-          %% Her dress is blue. Mine is green. – Ее платье – голубое. Мое – зеленое. (ед.ч.)
-          %% His drawings are great. Mine are not that nice. – Его рисунки великолепны. Мои – не так хороши. (мн.ч.)
-        Функция дополнения:
-          %% Is this Greg’s car? No, it’s mine. – Это машина Грега? Нет, это моя. (ед.ч.)
-          %% I like your tattoos. Do you like mine? – Мне нравятся твои татуировки. А тебе мои? (мн.ч.)
-      После предлога "of" можно использовать только притяжательное местоимение-существительное, и никакое другое:
-        но можно ли использовать не местоимения вприципи?⠁
-        %% She is a friend of mine.
-        %% That car of theirs is cool.
-      В сочетании с of⠁
-        %% – Emily is a friend of ours. – Эмили – наша подруга.
-        %% – I saw a friend of yours at the airport. – Я видел твоего друга в аэропорту.
-    dependent:
-      s3p - its:⠉
-        При использовании its желательно добавлять слово own (собственный), если речь идет о предметах, либо абстрактных понятиях.
-            %% The little cabin has its own charm. (Небольшой домик имеет свой шарм.)
-        Частая ошибка — использовать it’s вместо its: не ставьить апостроф (‘): her’s, it’s, our’s, your’s, their’s.
-      Если существительное использовано вместе с прилагательным(-и), то местоимение ставится перед ними:
-        %% I've lost my new keys. (Я потерял свои новые ключи.)
-      исключает употребление артикля и указательных местоимений:
-        %% Верно: It is my dog. Или It is a dog
-        %% I like your skirt. Do you like mine? – Мне нравится твоя юбка. А как тебе моя?
-        %% Pull over to that house ― Остановитесь у того дома;
-        %% Pull over to his house ― Остановитесь у его дома.
-      Порядок местоимений
-        Применимо к dependent possessive pronouns, но не к absolute.
-        Порядок местоимений (2nd, 1st; 3rd, 1st; 2nd, 3rd) актуален, когда используются зависимые формы, так как они стоят рядом с существительными:
-          %% This is your and my project. (Это ваш и мой проект.)
-          %% We discussed his and your ideas. (Мы обсуждали его и ваши идеи.)
-        Absolute possessive pronouns не используются в таком порядке, так как они стоят отдельно и не комбинируются:
-          %% This project is mine, not yours. (Этот проект мой, не твой.)
-          %% The house is his, not ours. (Этот дом его, не наш.)
-      Own с притяжательными местоимениями⠁
-      Когда используется "the", а не possessive_dep:⠁
-        В английском языке нет формы притяжательного местоимения, соответствующей русскому местоимению свой, в данном случае используется одно из притяжательных местоимений или определенный артикль "the":
-           %% Take off your coat. – Снимите (своё) пальто!
-           %% Не put his keys into his pocket. ↔ Не put the keys into the pocket. – Он положил (свои) ключи в (свой) карман.
-        Речь идёт о частях тела в прямом контексте:
-          %% "He slapped the face of the man next to him." (явно указано, чья часть тела).
-          В конструкциях с глаголами, описывающими действия с частями тела,
-          часто используется артикль "the" вместо притяжательного местоимения.
-          (принадлежность легко угадывается, добавление местоимения избыточно).
-          Примеры:
-            С артиклем "the" (разговорный стиль):
-              %% He hit the back of his head.
-              %% I patted the dog on the head.
-              %% She bit the tip of her tongue.
-            С притяжательным местоимением (более формально):
-              %% He hit his back.
-              %% I patted his head.
-              %% She bit her tongue.
-        Фокус на действии, а не на владельце:
-          %% "I hit the wall with my hand." (важно, что была стена, а не принадлежность руки).
-        исключения:
-          в формальном письме чтобы избежать путаницы), использование притяжательных местоимений предпочтительнее:
-            %% "He injured his leg during the match." (чтобы чётко указать, чья нога была повреждена).
-    mix:
-      Singular they
-        Применимо к absolute и dependent pronouns.
-          Dependent possessive pronouns (зависимые):
-          Используются перед существительными.
-            %% Someone forgot their book. (Чья-то книга.)
-            %% I don’t know who left their jacket. (Кто оставил свою куртку.)
-          Absolute possessive pronouns (абсолютные):
-          Используются самостоятельно, без существительного.
-            %% This book is theirs. (Эта книга их.)
-            %% I think this jacket is theirs, not yours. (Я думаю, это их куртка, не твоя.)
-      shortcuts: dep -> abs⠁
-        %% Is this your pencil? – This is not my pencil, this is his pencil.
-        %% ->
-        %% Is this your pencil? – This is not mine, this is his.
-      its vs it's⠁
-        %% It’s a giraffe. Its neck is long. — Это жираф. Его шея длинная.
-      etc?⠁
   reflexive:
     proper:
       oneself
@@ -826,3 +839,4 @@ non-personalized:
 mix:
   compound pronouns⠁
   проверить что никакие местоимение небыли пропущены⠉
+

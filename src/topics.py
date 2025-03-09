@@ -65,10 +65,10 @@ class Topics():
             if tid == 0:
                 continue
             topic = Topic(tid, name)
-            num_choose = len(topic.qs.get('choose', []))
+            num_choice = len(topic.qs.get('choice', []))
             num_input = len(topic.qs.get('input', []))
             num_fill = len(topic.qs.get('fill', []))
-            total = num_choose + num_input + num_fill
+            total = num_choice + num_input + num_fill
             num_suspicious = sum(
                 q.get('suspicious_status', 0) > 0 for kind in topic.qs for q in topic.qs[kind]
             )

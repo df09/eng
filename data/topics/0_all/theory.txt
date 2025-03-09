@@ -1,10 +1,3 @@
-q-list:
-  для каждого Identification:
-    для каждого "/":
-      5 простых
-      5 сложных
-    для каждого ньюанса:
-      5 примеров
 hints:
   Type(Тип):
     <Type>
@@ -33,8 +26,8 @@ hints:
     Universal(Heограничено,Неизвестно)
     [r.1/1of2/1of3/2/2of2/2of3/3/3of3/uni]
   Formality(Формальность):
-    Slang(Сленг)/Colloquial(Разговорный)/Neutral(Нейтрально)/Formal(Формально)
-    [f.slng/coll/ntrl/frml]
+    Slang(Сленг)/Colloquial(Разговорный)/Neutral(Нейтрально)/Formal(Формально)/Literary(Литературный)
+    [f.slng/coll/ntrl/frml/litr]
   Emphasize(Подчеркивание-контекста):
     <Emphasize>(<Произвольно>)
     [e.<emphasize>]
