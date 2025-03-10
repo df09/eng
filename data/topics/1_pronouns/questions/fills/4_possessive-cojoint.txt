@@ -1,5 +1,5 @@
 [meta/suspicious_status:0,suspicious_note:'']
-Possessive-adjectives(Притяжательные-прилагательные):
+Possessive-cojoint(Притяжательные-присоединяемые):
          Singular Plural
   1st    [1.my  ] [6.our  ]
   2nd    [2.your] [7.your ]

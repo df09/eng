@@ -36,3 +36,70 @@ concessive clause:
   It is they who are lying to us. — Именно они лгут нам. (Усилительная конструкция, так как it is … who можно опустить: They are lying to us.)
   Нельзя путать с безличной конструкцией.
   It is possible that they are lying to us. — Возможно, что они лгут нам. (Безличная конструкция, так как it is … that нельзя опустить.)
+
+Нарушение порядка слов
+  В предложениях часто нарушается порядок слов, отсутствуют союзы, местоимения и другие части речи. На помощь приходят интонация и эмоциональный окрас, а об основной идее можно легко догадаться из контекста и ситуации.
+  Неформальный разговор на английском 	Полная фраза на английском 	Перевод на русский
+  A: Great to see you. Come on in.
+  B: I was just passing and thought. I’d drop in. 	A: It’s great to see you. Come on in.
+  B: I was just passing by and I thought that I would drop in. 	A: Здорово тебя увидеть. Заходи.
+  B: Я проходил мимо и подумал, что неплохо бы было зайти.
+  A: Excuse me, don’t I know you from somewhere?
+  B: No, I don’t think so. 	A: Excuse me, I think I don’t know where you are from.
+  B: No, you don’t. I don’t think so. 	A: Простите, не уверен, что знаю откуда Вы.
+  B: Да, не думаю, что вы знаете.
+  А: How come you’re not visiting me?
+  B: Sorry, have no time. 	A: How does it happen that you are not visiting me?
+  B: I’m sorry, I have no time. 	А: Как это ты не навестишь меня?
+  B: Извини, нет времени.
+
+Бизнес терминология:
+  в рекламе:
+    Термин на английском 	Перевод на русский
+    ad (abbr. advertisement - advert abbr.) 	реклама (сокращенно)
+    advertisement 	реклама, рекламное объявление
+    advertising agency 	рекламное агенство
+    AIDA (abbr. Attention, Interest, Desire, Action) 	цели рекламной компании (внимание- интерес- желание- действие)
+    benefit 	преимущества продукта
+    billboard (US signboard) 	рекламный щит
+    circulation 	тираж
+    commercial 	рекламное объявление по радио или ТВ
+    eye-catcher (US ) 	объект, прилекающий внимание
+    features 	характеристики продукта
+    poster 	постер, плакат
+    prime time 	праймтайм (время для показа рекламы на ТВ, когда самая максимальная аудитория)
+    promote 	продвигать продукт
+    target 	целевая аудитория
+  для работников банка:
+    Термин на английском 	Перевод на русский
+    balance 	баланс средств
+    bank charges 	комиссия банка
+    branch 	отделение банка
+    credit 	кредит
+    credit card 	кредитная карта
+    current account 	текущий счет
+    debit 	дебет
+    deposit account 	вклад
+    fill in 	заполнять бланк
+    interest 	процент по вкладу
+    loan 	заем
+    payee 	получатель
+    paying-in slip 	квитанция
+    statement 	апись банковских операций
+    withdraw 	снять деньги со счета
+  Аббревиатуры:
+    Аббревиатура на английском 	Расшифровка аббревиатуры 	Перевод на русский
+    c.&f. 	cost and freight 	стоимость продукта с доставкой
+    c.i.f. 	cost, insurance & freight 	стоимость продукта с доставкой и страховкой
+    f.a.s. 	free alongside ship 	(дословно: вместе с кораблем) бесплатная доставка морем без погрузки
+    f.o.b. 	free on board 	бесплатная погрузка
+    A.G.M. 	Annual General Meeting of a company’s shareholders 	Ежегодная встреча акционеров компании
+    CEO 	Chief Executive Officer 	Исполняющий директор
+    HR manager 	Human Resources Manager 	менеджер по подбору персонала
+    Sales Rep 	Sales Representative 	торговый представитель
+  Академическая лексика как средство убеждения в бизнесе:
+    Лексика делового английского языка более книжная, университетская и сложная.
+    Употребление академической лексики должно стать для вас правилом в общении с партнерами по бизнесу, если вы хотите произвести впечатление человека образованного, уверенного и внушающего доверие:
+    Пример бизнес сообщения на английском 	Перевод на русский
+    As you are all aware, we have to schedule a meeting with Jackson’s in order to negotiate a master agreement. 	Как вы все знаете, нам нужно запланировать встречу с компанией Джексон для того, чтобы обсудить предварительное соглашение.
+    To make sure we are prepared properly, we should have a brainstorming session to discuss the details, set up an agenda, and find a date for the actual negotiations. 	Для того, чтобы быть уверенными, что мы все тщательно подготовили, нам следует провести мозговой штурм для обсуждения деталей, разработать план встречи и определиться с датой

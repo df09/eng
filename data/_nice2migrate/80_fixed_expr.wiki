@@ -1,3 +1,32 @@
+Your guess is as good as mine
+Я не знаю полной картины, поэтому любая догадка будет равнозначна
+Pull his (hers) own weight
+Выполнение необходимых действий для самостоятельного обеспечения себя
+There’s a method to his madness
+Чьи‒то действия могут показаться странными, но они имеют под собой логику
+You can’t judge a book by its cover
+Не стоит оценивать книгу по обложке
+Be my guest
+Вперёд, попробуй
+Excuse my French
+Извинение за нецензурную лексику
+Getting on my nerves
+Что‒то очень раздражает
+Give someone a piece of my mind
+Высказать противоположное мнение или несогласие
+Put my foot down
+Показать себя главным, установить чёткие границы
+Stand your ground
+Отстаивать своё мнение или принципы
+Cross your fingers
+Надеяться на исполнение желания
+Get a taste of your own medicine
+Пережить такое же плохое отношение от других людей, какое проявлял сам человек
+Pushing your luck
+Совершать действия, которые могут привести к серьёзным проблемам
+Call their bluff
+Попытаться заставить признаться во лжи
+
 with_pronouns:
   possesive:
     Your guess is as good as mine

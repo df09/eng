@@ -1,3 +1,29 @@
+because 	’coz 	потому что
+them 	’em 	их, им
+want to 	wanna 	хочу ( что-то сделать)
+going to 	gonna 	собираюсь ( что-то сделать)
+give me 	gimmi 	дай(те) мне
+lemme 	let me 	позволь(те) мне
+whassup 	what is up 	Что случилось? В чем дело?
+kinda 	kind of 	типа, вроде...
+D'jever (jever) 	did you ever 	Ты когда-либо...,?
+ain't 	am not, are not, is not, have not, has not 	не( с рядом вспомогательных глаголов в отрицании)
+"AIGHT" – сленговый вариант alright (ладно, хорошо).
+"IMMA" – сокращение от I'm going to (я собираюсь).
+
+Полная форма 	Сокращённая форма 	Полная форма 	Сокращённая форма 	Полная форма 	Сокращённая форма
+I am 	I'm 	We are 	We're 	Did not 	Didn't
+I have 	I've 	We have 	We've 	Does not 	Doesn'
+I will 	I'll 	We will 	We'll 	Do not 	Don't
+I had / I would 	I'd 	We had / we would 	We'd 	Had not 	Hadn't
+You are 	You're 	They are 	They're 	Has not 	Hasn't
+You have 	You've 	They have 	They've 	Have not 	Haven't
+You will 	You'll 	They will 	They'll 	Is not 	Isn't
+You had / you would 	You'd 	They had / they would 	They'd 	Might not 	Mightn't
+He is / he has 	He's 	There is / there has 	There's 	Must not 	Mustn't
+He will 	He'll 	There will 	There'll 	Need not 	Needn't
+He had / he would 	He'd 	There had / there would 	There'd
+
 # subject/object
 u - you
 gf - girlfrend
