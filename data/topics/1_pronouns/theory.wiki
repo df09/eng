@@ -135,14 +135,6 @@ Possessive-absolute(Притяжательные-абсолютные):
     <None> : s3n
     ours   : p1
     theirs : p3
-  %% >>>>>>
-  its - не существует:
-    %% That power was its. -> That was [its power]. (Это была его сила.)
-    %% That solution won’t be its. -> That won’t be [its solution]. (Это решение не будет его.)
-    %% The beauty will be its. -> It will have [its beauty]. (У него будет своя красота.)
-    %% The book will be its. -> This [will be its book]. (Это будет его книга.)
-    %% The success wasn’t its. -> That wasn’t [its success]. (Это не был его успех.)
-    %% This advantage isn’t its. -> This isn’t [its advantage]. (Это не его преимущество.)
   функция как подлежащего, так и дополнения:
     могут выполнять функцию как подлежащего, так и дополнения:
       Функция подлежащего:
@@ -151,7 +143,12 @@ Possessive-absolute(Притяжательные-абсолютные):
       Функция дополнения:
         %% Is this Greg’s car? No, it’s mine. – Это машина Грега? Нет, это моя. (ед.ч.)
         %% I like your tattoos. Do you like mine? – Мне нравятся твои татуировки. А тебе мои? (мн.ч.)
+  its - не существует:
+    %% That power was its. -> That was [its power]. (Это была его сила.)
+    %% That solution won’t be its. -> That won’t be [its solution]. (Это решение не будет его.)
+  %% >>>
   "of" + possessive-absolute
+    >>> есть ли еще подобные конструкции?
     %% She is a friend of mine.
     %% That car of theirs is cool.
     %% This idea of hers is brilliant. (Эта её идея блестящая.)
@@ -164,14 +161,8 @@ Possessive-absolute(Притяжательные-абсолютные):
     %% That suggestion of hers was helpful. (То её предложение было полезным.)
     %% The talent of his is impressive. (Этот его талант впечатляет.)
     %% The car of ours needs repairs. (Эта наша машина нуждается в ремонте.)
-  Singular Their
-    Применимо к absolute и dependent pronouns.
-      Dependent possessive pronouns (зависимые):
-      Используются перед существительными.
-        %% Someone forgot their book. (Чья-то книга.)
-        %% I don’t know who left their jacket. (Кто оставил свою куртку.)
-      Absolute possessive pronouns (абсолютные):
-      Используются самостоятельно, без существительного.
+  Singular Theirs:
+    absolute:
         %% This book is theirs. (Эта книга их.)
         %% I think this jacket is theirs, not yours. (Я думаю, это их куртка, не твоя.)
   В английском нельзя сказать That book is my. → Только That book is mine.
@@ -212,6 +203,10 @@ Possessive-cojoint(Притяжательные-присоединяемые):
     its и it’s (= it is)
     its vs it's⠁
       %% It’s a giraffe. Its neck is long. — Это жираф. Его шея длинная.
+  Singular Their:
+    cojoint:
+        %% Someone forgot their book. (Чья-то книга.)
+        %% I don’t know who left their jacket. (Кто оставил свою куртку.)
   impact rule (правило воздействия):
     После предлогов (on, in, at, by и т.д.) перед частями тела и одеждой, находящейся на человеке,
     используется артикль the, а не притяжательное местоимение (my, his, her и т. д.), если:

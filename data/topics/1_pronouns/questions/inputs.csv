@@ -665,8 +665,13 @@ id;question;extra;suspicious_status;suspicious_note
 288;The authority is [theirs:t.Possessive,p3].;Власть их.;0;
 289;The responsibility is [theirs:t.Possessive,p3].;Ответственность их.;0;
 >>>>>>
-# possessive-absolute: 
-
+# possessive-absolute: its - не существует.
+000;That power was its. -> That was [its power].; Это была его сила.; 0;
+000;That solution won’t be its. -> That won’t be [its solution].; Это решение не будет его.; 0;
+000;The beauty will be its. -> It will have [its beauty].; У него будет своя красота.; 0;
+000;The book will be its. -> This [will be its book].; Это будет его книга.; 0;
+000;The success wasn’t its. -> That wasn’t [its success].; Это не был его успех.; 0;
+000;This advantage isn’t its. -> This isn’t [its advantage].; Это не его преимущество.; 0;
 
 
 
