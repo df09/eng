@@ -36,3 +36,6 @@ slang:
   slang
   contractions
   beeing unpolite/ругательства
+migrate anki
+сохры в инсте check
+migrate ud
