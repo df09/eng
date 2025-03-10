@@ -1,0 +1,1150 @@
+id;suspicious_status;suspicious_note;question;extra
+# personal-subj: identification
+# personal-subj: "it" при уточнении личности.
+# personal-subj: "it" к животным.
+# personal-subj: "it" к младенцам.
+# personal-subj: singular they.
+# personal-subj: singular we.
+# personal-subj: порядок местоимений.
+# personal-subj: борьба разговорного с формальным.
+000;My brother and [I:t.Personal,s1,f.Formal] went to a concert last night.; Мой брат и я ходили на концерт прошлой ночью.
+000;My brother and [me:t.Personal,s1,f.Colloquial] went to a concert last night.; Мой брат и я ходили на концерт прошлой ночью.
+000;My colleague and [I:t.Personal,s1,f.Formal] finished the report on time.; Мой коллега и я закончили отчёт вовремя.
+000;My colleague and [me:t.Personal,s1,f.Colloquial] finished the report on time.; Мой коллега и я закончили отчёт вовремя.
+000;Between you and [I:t.Personal,s1,f.Formal], I think he’s wrong. (часто слышится, но неверно); Между нами, я думаю, он неправ. (часто говорят, но это ошибка)
+000;Between you and [me:t.Personal,s1,f.Colloquial], I think he’s wrong.; Между нами, я думаю, он неправ.
+000;My parents and [I:t.Personal,s1,f.Formal] are going on vacation.; Мои родители и я едем в отпуск.
+000;My parents and [me:t.Personal,s1,f.Colloquial] are going on vacation.; Мои родители и я едем в отпуск.
+000;My best friend and [I:t.Personal,s1,f.Formal] planned the trip.; Мой лучший друг и я спланировали поездку.
+000;My best friend and [me:t.Personal,s1,f.Colloquial] planned the trip.; Мой лучший друг и я спланировали поездку.
+000;It was [I:t.Personal,s1,f.Formal] who told him the truth.; Это был я, кто сказал ему правду.
+000;It was [me:t.Personal,s1,f.Colloquial] who told him the truth.; Это был я, кто сказал ему правду.
+000;It is [I:t.Personal,s1,f.Formal] who deserves the credit.; Именно я заслуживаю признания.
+000;It is [me:t.Personal,s1,f.Colloquial] who deserves the credit.; Именно я заслуживаю признания.
+000;It was [they:t.Personal,p2,f.Formal] who called first.; Это они позвонили первыми.
+000;It was [them:t.Personal,p2,f.Colloquial] who called first.; Это они позвонили первыми.
+000;It was [we:t.Personal,p1,f.Formal] who volunteered.; Это мы вызвались добровольно.
+000;It was [us:t.Personal,p1,f.Colloquial] who volunteered.; Это мы вызвались добровольно.
+000;No one except [he:t.Personal,s3m,f.Formal] knew the answer.; Никто, кроме него, не знал ответа.
+000;No one except [him:t.Personal,s3m,f.Colloquial] knew the answer.; Никто, кроме него, не знал ответа.
+000;Everyone except [she:t.Personal,s3f,f.Formal] arrived on time.; Все, кроме неё, пришли вовремя.
+000;Everyone except [her:t.Personal,s3f,f.Colloquial] arrived on time.; Все, кроме неё, пришли вовремя.
+# personal-subj: noun2pronoun.
+# personal-obj: identification.
+# personal-obj: "it" к животным.
+# personal-obj: "it" к младенцам.
+# personal-obj: порядок местоимений.
+# personal-obj: singular they.
+# personal-obj: noun2pronoun.
+# possessive-absolute: identification.
+>>>>>>
+# possessive-absolute:
+# possessive-cojoint: identification.
+0;0;;[I:t.Personal,s1] like coffee.;Мне нравится кофе.
+1;0;;[I:t.Personal,s1] will call you tomorrow.;Я позвоню тебе завтра.
+2;0;;[I:t.Personal,s1] am here.;Я здесь.
+3;0;;[You:t.Personal,s2] are my friend.;Ты мой друг.
+4;0;;[You:t.Personal,s2] can do it.;Ты можешь это сделать.
+5;0;;[You:t.Personal,s2] look tired.;Ты выглядишь уставшим.
+6;0;;[He:t.Personal,s3m] is a teacher.;Он учитель.
+7;0;;[He:t.Personal,s3m] works every day.;Он работает каждый день.
+8;0;;[He:t.Personal,s3m] likes pizza.;Он любит пиццу.
+9;0;;[She:t.Personal,s3f] loves coffee.;Она любит кофе.
+10;0;;[She:t.Personal,s3f] is very kind.;Она очень добрая.
+11;0;;[She:t.Personal,s3f] told me the truth.;Она сказала мне правду.
+12;0;;[It:t.Personal,s3n] is raining.;Идёт дождь.
+13;0;;[It:t.Personal,s3n] looks delicious.;Оно выглядит вкусно.
+14;0;;[It:t.Personal,s3n] is very expensive.;Оно очень дорого.
+15;0;;[We:t.Personal,p1] are happy.;Мы счастливы.
+16;0;;[We:t.Personal,p1] will meet tomorrow.;Мы встретимся завтра.
+17;0;;[We:t.Personal,p1] like this place.;Нам нравится это место.
+18;0;;[You:t.Personal,s2] are welcome here.;Вы здесь желанны.
+19;0;;[You:t.Personal,s2] should try this.;Вы должны попробовать это.
+20;0;;[You:t.Personal,s2] are very polite.;Вы очень вежливы.
+21;0;;[They:t.Personal,p3] are coming.;Они идут.
+22;0;;[They:t.Personal,p3] work together.;Они работают вместе.
+23;0;;[They:t.Personal,p3] have a big house.;У них большой дом.
+24;0;;[I:t.Personal,s1] was surprised when I saw the results.;Я был удивлён, когда увидел результаты.
+25;0;;She told me that [I:t.Personal,s1] should try harder.;Она сказала мне, что я должен стараться больше.
+26;0;;We all know that [you:t.Personal,s2] have the skills to succeed.;Мы все знаем, что у тебя есть навыки, чтобы добиться успеха.
+27;0;;They asked if [you:t.Personal,s2] were available for the meeting.;Они спросили, свободны ли вы для встречи.
+28;0;;Can you explain why [you:t.Personal,s2] made that decision?;Можешь объяснить, почему ты принял такое решение?
+29;0;;They were shocked that [you:t.Personal,s2] knew the answer.;Они были шокированы, что ты знал ответ.
+30;0;;She asked whether [you:t.Personal,s2] wanted to join the project.;Она спросила, хочешь ли ты присоединиться к проекту.
+31;0;;The boss emphasized that [you:t.Personal,s2] must be on time.;Босс подчеркнул, что ты должен быть вовремя.
+32;0;;The manager confirmed that [you:t.Personal,s2] had completed the task.;Менеджер подтвердил, что ты завершил задание.
+33;0;;He warned that [you:t.Personal,s2] should be careful.;Он предупредил, что тебе следует быть осторожным.
+34;0;;The teacher explained why [he:t.Personal,s3m] missed the deadline.;Учитель объяснил, почему он пропустил крайний срок.
+35;0;;She couldn't believe that [he:t.Personal,s3m] had lied to her.;Она не могла поверить, что он ей солгал.
+36;0;;She was worried that [he:t.Personal,s3m] wouldn't make it on time.;Она волновалась, что он не успеет вовремя.
+37;0;;The team believed that [he:t.Personal,s3m] could lead them to victory.;Команда верила, что он сможет привести их к победе.
+38;0;;We suspected that [he:t.Personal,s3m] was hiding something.;Мы подозревали, что он что-то скрывает.
+39;0;;They admitted that [he:t.Personal,s3m] was the best candidate.;Они признали, что он был лучшим кандидатом.
+40;0;;Everyone was amazed by how fast [she:t.Personal,s3f] solved the problem.;Все были поражены, как быстро она решила проблему.
+41;0;;We had no idea that [she:t.Personal,s3f] spoke five languages.;Мы не знали, что она говорит на пяти языках.
+42;0;;Everyone agreed that [she:t.Personal,s3f] deserved the award.;Все согласились, что она заслужила награду.
+43;0;;We wondered why [she:t.Personal,s3f] hadn't responded yet.;Мы задумались, почему она ещё не ответила.
+44;0;;The professor mentioned that [she:t.Personal,s3f] had done excellent research.;Профессор упомянул, что она провела отличное исследование.
+45;0;;Her friend revealed that [she:t.Personal,s3f] had moved abroad.;Её друг рассказал, что она переехала за границу.
+46;0;;The scientist proved that [it:t.Personal,s3n] was possible to travel faster.;Учёный доказал, что это возможно путешествовать быстрее.
+47;0;;They debated whether [it:t.Personal,s3n] should be changed.;Они спорили, стоит ли это изменить.
+48;0;;It was clear that [it:t.Personal,s3n] wouldn't work as planned.;Было ясно, что это не сработает, как планировалось.
+49;0;;The engineer confirmed that [it:t.Personal,s3n] was built correctly.;Инженер подтвердил, что это было построено правильно.
+50;0;;The expert concluded that [it:t.Personal,s3n] was a breakthrough discovery.;Эксперт пришёл к выводу, что это было прорывное открытие.
+51;0;;They agreed that [it:t.Personal,s3n] was the right decision.;Они согласились, что это было правильное решение.
+52;0;;My friends and I realized that [we:t.Personal,p1] needed a new plan.;Мои друзья и я поняли, что нам нужен новый план.
+53;0;;The manager reminded us that [we:t.Personal,p1] had to finish by noon.;Менеджер напомнил нам, что мы должны закончить к полудню.
+54;0;;They knew that [we:t.Personal,p1] were trying our best.;Они знали, что мы старались изо всех сил.
+55;0;;The instructor told us that [we:t.Personal,p1] needed more practice.;Инструктор сказал нам, что нам нужно больше практики.
+56;0;;We insisted that [we:t.Personal,p1] should try again.;Мы настаивали, что мы должны попробовать снова.
+57;0;;They mentioned that [we:t.Personal,p1] had the necessary experience.;Они упомянули, что у нас был необходимый опыт.
+58;0;;We learned that [they:t.Personal,p3] had already left.;Мы узнали, что они уже ушли.
+59;0;;The scientist explained why [they:t.Personal,p3] changed the experiment.;Учёный объяснил, почему они изменили эксперимент.
+60;0;;The journalist reported that [they:t.Personal,p3] had discovered new evidence.;Журналист сообщил, что они обнаружили новые доказательства.
+61;0;;She commented that [they:t.Personal,p3] seemed very confident.;Она прокомментировала, что они казались очень уверенными.
+62;0;;It was obvious that [they:t.Personal,p3] needed help.;Было очевидно, что им нужна помощь.
+63;0;;The report stated that [they:t.Personal,p3] had reached an agreement.;В отчёте говорилось, что они достигли соглашения.
+64;0;;It was my brother who helped me move, not my neighbor.;Это мой брат помог мне переехать, а не сосед.
+65;0;;I heard a voice in the hallway. Was it your father?;Я услышал голос в коридоре. Это был твой отец?
+66;0;;It was Sarah who told me the truth, not Mark.;Это Сара сказала мне правду, а не Марк.
+67;0;;Was it your sister I saw at the mall yesterday?;Это была твоя сестра, кого я видел вчера в торговом центре?
+68;0;;It wasn’t John who called you, it was Mike.;Это был не Джон, кто тебе звонил, а Майк.
+69;0;;It was my best friend who stood by me through hard times.;Это мой лучший друг поддерживал меня в трудные времена.
+70;0;;It wasn’t the teacher who gave us extra homework, it was the principal.;Это не учитель дал нам дополнительное задание, а директор.
+71;0;;Was it Lisa who won the competition?;Это Лиза выиграла соревнование?
+72;0;;It was my uncle who took me to the airport.;Это мой дядя отвез меня в аэропорт.
+73;0;;It wasn’t your idea, it was mine.;Это была не твоя идея, а моя.
+74;0;;[It:t.Personal](The dog) is barking loudly.; Он/Она лает громко.
+75;0;;[It:t.Personal](The bird) is flying in the sky.; Она летит в небе.
+76;0;;[It:t.Personal](The cat) is hiding under the bed.; Он/Она прячется под кроватью.
+77;0;;[It:t.Personal](The rabbit) is eating a carrot.; Он/Она ест морковь.
+78;0;;[It:t.Personal](The fish) is swimming in the tank.; Она плавает в аквариуме.
+79;0;;[It:t.Personal](The cow) is standing in the field.; Она стоит в поле.
+80;0;;[It:t.Personal](The horse) is running fast.; Он/Она быстро бежит.
+81;0;;[It:t.Personal](The spider) is crawling on the wall.; Он/Она ползёт по стене.
+82;0;;[It:t.Personal](The bee) is buzzing around the flower.; Она жужжит вокруг цветка.
+83;0;;[It:t.Personal](The squirrel) is climbing the tree.; Она карабкается на дерево.
+84;0;;I gave the cat some food, but [it:t.Personal] didn’t eat anything.; Я дал коту еды, но он ничего не съел.
+85;0;;The dog wagged its tail when [it:t.Personal] saw me.; Собака виляла хвостом, когда увидела меня.
+86;0;;The rabbit was hiding in the bush, but I saw [it:t.Personal].; Кролик прятался в кустах, но я его увидел.
+87;0;;My parrot can talk, but sometimes [it:t.Personal] just whistles.; Мой попугай умеет говорить, но иногда просто насвистывает.
+88;0;;I saw a fox last night, but [it:t.Personal] ran away quickly.; Я видел лису прошлой ночью, но она быстро убежала.
+89;0;;The stray dog was shivering because [it:t.Personal] was cold outside.; Бродячая собака дрожала, потому что на улице было холодно.
+90;0;;I saw a squirrel, but [it:t.Personal] climbed the tree before I could take a picture.; Я увидел белку, но она забралась на дерево, прежде чем я успел сделать фото.
+91;0;;The fish looks sick. [It:t.Personal] hasn’t been eating.; Рыба выглядит больной. Она ничего не ела.
+92;0;;My hamster loves running on its wheel, and [it:t.Personal] never gets tired.; Мой хомяк любит бегать в своем колесе и никогда не устаёт.
+93;0;;The snake was motionless, but I wasn’t sure if [it:t.Personal] was alive.; Змея была неподвижна, но я не был уверен, жива ли она.
+94;0;;A bee flew into the room, but [it:t.Personal] left through the open window.; Пчела залетела в комнату, но вылетела через открытое окно.
+95;0;;The owl opened its eyes when [it:t.Personal] heard a noise.; Сова открыла глаза, когда услышала шум.
+96;0;;I tried to pet the rabbit, but [it:t.Personal] hopped away.; Я попытался погладить кролика, но он отпрыгнул.
+97;0;;The kitten looks sleepy. [It:t.Personal] has been playing all day.; Котёнок выглядит сонным. Он играл весь день.
+98;0;;The baby is crying because [it:t.Personal] is hungry.; Младенец плачет, потому что он голоден.
+99;0;;I picked up the newborn, and [it:t.Personal] stopped crying.; Я поднял новорождённого, и он перестал плакать.
+100;0;;The infant was sleeping peacefully, but then [it:t.Personal] woke up.; Младенец спокойно спал, но потом проснулся.
+101;0;;"We don’t know the baby’s gender yet, so we just call [it:t.Personal] ""the little one"".";" Мы ещё не знаем пол ребёнка, поэтому просто называем его ""малышом""."
+102;0;;The baby kicked its legs when [it:t.Personal] heard music.; Младенец замахал ногами, когда услышал музыку.
+103;0;;Look at this cute baby! [It:t.Personal] is smiling at you.; Посмотри на этого милого младенца! Он тебе улыбается.
+104;0;;The newborn grabbed my finger and held onto [it:t.Personal] tightly.; Новорождённый схватил мой палец и крепко за него держался.
+105;0;;I heard the baby laughing, but I didn’t see where [it:t.Personal] was.; Я услышал, как младенец смеётся, но не увидел, где он.
+106;0;;The baby sneezed, and [it:t.Personal] looked so adorable.; Младенец чихнул, и это выглядело так мило.
+107;0;;She wrapped the newborn in a blanket so [it:t.Personal] wouldn’t get cold.; Она завернула новорождённого в одеяло, чтобы ему не было холодно.
+108; 0;;Nobody knows what [they:t.Personal] are doing all the time.; Никто не знает, что делает всё время.
+109; 0;;Someone said [they:t.Personal] would be here by noon.; Кто-то сказал, что они будут здесь к полудню.
+110; 0;;If anyone arrives early, [they:t.Personal] can wait in the lobby.; Если кто-то придёт рано, они могут подождать в холле.
+111; 0;;Every employee should ensure [they:t.Personal] meet the deadline.; Каждый сотрудник должен убедиться, что они уложились в срок.
+112; 0;;Everybody thinks [they:t.Personal] know best. ; Каждый думает, что он знает лучше всех. 
+113; 0;;No one should feel like [they:t.Personal] are alone. ; Никто не должен чувствовать себя одиноким. 
+114; 0;;Anyone can join if [they:t.Personal] are interested. ; Любой может присоединиться, если ему интересно. 
+115; 0;;Someone forgot [they:t.Personal] umbrella. ; Кто-то забыл свой зонтик. 
+116; 0;;If a student has questions, [they:t.Personal] should ask the teacher. ; Если у студента есть вопросы, он должен спросить учителя. 
+117;0;;[We:t.Personal,e.Royal], the King of France, decree that all taxes shall be lowered.; Мы, король Франции, постановляем снизить все налоги.
+118;0;;[We:t.Personal,e.Royal] have always ruled with wisdom and fairness.; Мы всегда правили с мудростью и справедливостью.
+119;0;;As sovereign of this land, [we:t.Personal,e.Royal] shall not tolerate treason.; Как повелитель этой земли, мы не потерпим предательства.
+120;0;;[We:t.Personal,e.Royal] hereby declare this war to be just and necessary.; Мы настоящим объявляем эту войну справедливой и необходимой.
+121;0;;[We:t.Personal,e.Royal] are most pleased with the loyalty of our subjects.; Мы чрезвычайно довольны преданностью наших подданных.
+122;0;;[We:t.Personal,e.Authorial] propose a new approach to solving this equation.; Мы предлагаем новый подход к решению этого уравнения.
+123;0;;In this paper, [we:t.Personal,e.Authorial] examine the effects of climate change on biodiversity.; В данной статье мы изучаем влияние изменения климата на биоразнообразие.
+124;0;;[We:t.Personal,e.Authorial] have found that increasing temperature correlates with higher metabolic rates.; Мы обнаружили, что повышение температуры коррелирует с увеличением скорости метаболизма.
+125;0;;[We:t.Personal,e.Authorial] believe that our findings contribute significantly to the field of neuroscience.; Мы полагаем, что наши выводы вносят значительный вклад в область нейронауки.
+126;0;;[We:t.Personal,e.Authorial] conclude that further research is needed to confirm these results.; Мы заключаем, что необходимы дополнительные исследования для подтверждения этих результатов.
+127;0;;[We:t.Personal,e.Patronizing] are not feeling well today, are we?; Мы сегодня плохо себя чувствуем, не так ли? (врач пациенту)
+128;0;;Ah, [we:t.Personal,e.Patronizing] have been a little naughty, haven’t we?; Ах, мы немножко шалили, да? (взрослый ребёнку)
+129;0;;[We:t.Personal,e.Patronizing] must remember to take our medicine every morning.; Мы должны помнить, что принимаем наше лекарство каждое утро. (медсестра пациенту)
+130;0;;Are [we:t.Personal,e.Patronizing] ready for our big speech today?; Мы готовы к нашему важному выступлению сегодня? (учитель ученику)
+131;0;;[We:t.Personal,e.Patronizing] seem to have forgotten our manners.; Мы, кажется, забыли про хорошие манеры. (покровительственный тон)
+132;0;;[You and I] should go to the gym together. (I, you); Мы с тобой должны пойти в спортзал вместе.
+133;0;;[You and I] should work on this project together. (I, you); Мы с тобой должны работать над этим проектом вместе.
+134;0;;[She and I] have been friends since childhood. (I, she); Мы с ней друзья с детства.
+135;0;;[She and I] went to the same high school. (I, she); Мы с ней ходили в одну среднюю школу.
+136;0;;[David and I] studied at the same university. (I, David); Мы с Дэвидом учились в одном университете.
+137;0;;[Jessica and I] are preparing for the test. (I, Jessica); Мы с Джессикой готовимся к тесту.
+138;0;;[Michael and I] were at the conference last year. (I, Michael); Мы с Майклом были на конференции в прошлом году.
+139;0;;[My boss and I] will attend the meeting. (I, my boss); Мы с моим начальником посетим встречу.
+140;0;;[My brother and I] enjoy playing video games. (I, my brother); Мы с моим братом любим играть в видеоигры.
+141;0;;[My teacher and I] wrote an article on this topic. (I, my teacher); Мы с моим учителем написали статью на эту тему.
+142;0;;[They and I] are planning a trip next month. (I, they); Мы с ними планируем поездку в следующем месяце.
+143;0;;[They and I] often travel together. (I, they); Мы с ними часто путешествуем вместе.
+144;0;;[You and he] have similar interests. (you, he); У вас с ним похожие интересы.
+145;0;;[You and he] need to finish the report. (you, he); Вам с ним нужно закончить отчет.
+146;0;;[You and she] should present the report. (you, she); Вам с ней следует представить отчет.
+147;0;;[You and she] should take care of this issue. (you, she); Вам с ней следует заняться этим вопросом.
+148;0;;[You and your sister] should decide together. (you, your sister); Вам с твоей сестрой следует решить это вместе.
+149;0;;[You and we] will organize the party. (you, we); Мы с тобой организуем вечеринку.
+150;0;;[You and they] need to prepare for the meeting. (you, they); Вам с ними нужно подготовиться к встрече.
+151;0;;[You and my sister] need to talk about the event. (you, my sister); Вам с моей сестрой нужно поговорить о мероприятии.
+152;0;;[You and they] have already finished the assignment. (you, they); Вы с ними уже закончили задание.
+153;0;;[You and my cousin] are responsible for organizing the event. (you, my cousin); Вы с моим кузеном отвечаете за организацию мероприятия.
+154;0;;[You and they] were chosen for the project. (you, they); Вас с ними выбрали для проекта.
+155;0;;[You and Mark] should present the results. (you, Mark); Вам с Марком следует представить результаты.
+156;0;;She is taller than [I:t.Personal,s3f,f.Formal].; Она выше, чем я.
+157;0;;She is taller than [me:t.Personal,s3f,f.Colloquial].; Она выше меня.
+158;0;;No one can do it but [she:t.Personal,s3f,f.Formal].; Никто не может сделать это, кроме неё.
+159;0;;No one can do it but [her:t.Personal,s3f,f.Colloquial].; Никто не может сделать это, кроме неё.
+160;0;;No one understands it but [he:t.Personal,s3f,f.Formal].; Никто этого не понимает, кроме него.
+161;0;;No one understands it but [him:t.Personal,s3f,f.Colloquial].; Никто этого не понимает, кроме него.
+162;0;;They invited no one but [we:t.Personal,p1,f.Formal].; Они никого не пригласили, кроме нас.
+163;0;;They invited no one but [us:t.Personal,p1,f.Colloquial].; Они никого не пригласили, кроме нас.
+164;0;;Nothing matters but [she:t.Personal,s3f,f.Formal].; Ничто не имеет значения, кроме неё.
+165;0;;Nothing matters but [her:t.Personal,s3f,f.Colloquial].; Ничто не имеет значения, кроме неё.
+166;0;;No one saw it except [I:t.Personal,s1,f.Formal].; Никто этого не видел, кроме меня.
+167;0;;No one saw it except [me:t.Personal,s1,f.Colloquial].; Никто этого не видел, кроме меня.
+168;0;;We spoke to no one except [they:t.Personal,p3,f.Formal].; Мы ни с кем не разговаривали, кроме них.
+169;0;;We spoke to no one except [them:t.Personal,p3,f.Colloquial].; Мы ни с кем не разговаривали, кроме них.
+170;0;;She is taller than [he:t.Personal,s3f,f.Formal].; Она выше, чем он.
+171;0;;She is taller than [him:t.Personal,s3f,f.Colloquial].; Она выше его.
+172;0;;They are stronger than [we:t.Personal,p1,f.Formal].; Они сильнее, чем мы.
+173;0;;They are stronger than [us:t.Personal,p1,f.Colloquial].; Они сильнее нас.
+174;0;;I know more about this than [she:t.Personal,s3f,f.Formal].; Я знаю об этом больше, чем она.
+175;0;;I know more about this than [her:t.Personal,s3f,f.Colloquial].; Я знаю об этом больше, чем она.
+176;0;;He is as fast as [she:t.Personal,s3f,f.Formal].; Он так же быстр, как она.
+177;0;;He is as fast as [her:t.Personal,s3f,f.Colloquial].; Он так же быстр, как она.
+178;0;;We are as experienced as [they:t.Personal,p3,f.Formal].; У нас столько же опыта, сколько у них.
+179;0;;We are as experienced as [them:t.Personal,p3,f.Colloquial].; У нас столько же опыта, сколько у них.
+180;0;;You know as well as [I:t.Personal,s1,f.Formal] do that it's true.; Ты знаешь так же хорошо, как и я, что это правда.
+181;0;;You know as well as [me:t.Personal,s1,f.Colloquial] do that it's true.; Ты знаешь так же хорошо, как и я, что это правда.
+182;0;;Who is responsible for this mistake? – Not [I:t.Personal,s1,f.Formal]!; Кто несёт ответственность за эту ошибку? – Не я!
+183;0;;Who is responsible for this mistake? – Not [Me:t.Personal,s1,f.Colloquial]!; Кто несёт ответственность за эту ошибку? – Не я!
+184;0;;Who wants coffee? – [I:t.Personal,s1,f.Formal] do!; Кто хочет кофе? – Я хочу!
+185;0;;Who wants coffee? – [Me:t.Personal,s1,f.Colloquial]!; Кто хочет кофе? – Я!
+186;0;;Who told you that? – [He:t.Personal,s3,f.Formal] did.; Кто тебе это сказал? – Он сказал.
+187;0;;Who told you that? – [Him:t.Personal,s3,f.Colloquial].; Кто тебе это сказал? – Он.
+188;0;;Who took my pen? – Not [I:t.Personal,s1,f.Formal]!; Кто взял мою ручку? – Не я!
+189;0;;Who took my pen? – Not [Me:t.Personal,s1,f.Colloquial]!; Кто взял мою ручку? – Не я!
+190;0;;Who’s going first? – [I:t.Personal,s1,f.Formal] am.; Кто идёт первым? – Я иду.
+191;0;;Who’s going first? – [Me:t.Personal,s1,f.Colloquial].; Кто идёт первым? – Я.
+192;0;;Who helped you? – [She:t.Personal,s3,f.Formal] did.; Кто тебе помог? – Она помогла.
+193;0;;Who helped you? – [Her:t.Personal,s3,f.Colloquial].; Кто тебе помог? – Она.
+194;0;;Who’s in charge here? – [I:t.Personal,s1,f.Formal] am.; Кто здесь главный? – Я.
+195;0;;Who’s in charge here? – [Me:t.Personal,s1,f.Colloquial].; Кто здесь главный? – Я.
+196;0;;Who ate the last slice? – Not [I:t.Personal,s1,f.Formal]!; Кто съел последний кусок? – Не я!
+197;0;;Who ate the last slice? – Not [Me:t.Personal,s1,f.Colloquial]!; Кто съел последний кусок? – Не я!
+198;0;;Who called earlier? – [They:t.Personal,s3,f.Formal] did.; Кто звонил раньше? – Они звонили.
+199;0;;Who called earlier? – [Them:t.Personal,s3,f.Colloquial].; Кто звонил раньше? – Они.
+200;0;;Who’s ready to leave? – [We:t.Personal,p1,f.Formal] are.; Кто готов уходить? – Мы готовы.
+201;0;;Who’s ready to leave? – [Us:t.Personal,p1,f.Colloquial].; Кто готов уходить? – Мы.
+202;0;;Who has been using my laptop? – Not [I:t.Personal,s1,f.Formal]!; Кто пользовался моим ноутбуком? – Не я!
+203;0;;Who has been using my laptop? – Not [Me:t.Personal,s1,f.Colloquial]!; Кто пользовался моим ноутбуком? – Не я!
+204;0;;Who will have finished the project by tomorrow? – [I:t.Personal,s1,f.Formal] will have.; Кто закончит проект к завтрашнему дню? – Я закончу.
+205;0;;Who will have finished the project by tomorrow? – [Me:t.Personal,s1,f.Colloquial].; Кто закончит проект к завтрашнему дню? – Я.
+206;0;;Who had already left when you arrived? – [She:t.Personal,s3,f.Formal] had.; Кто уже ушёл, когда ты приехал? – Она ушла.
+207;0;;Who had already left when you arrived? – [Her:t.Personal,s3,f.Colloquial].; Кто уже ушёл, когда ты приехал? – Она.
+208;0;;Who would have helped if they had known? – [We:t.Personal,p1,f.Formal] would have.; Кто бы помог, если бы знал? – Мы бы помогли.
+209;0;;Who would have helped if they had known? – [Us:t.Personal,p1,f.Colloquial].; Кто бы помог, если бы знал? – Мы.
+210;0;;Who is supposed to be leading this meeting? – [He:t.Personal,s3,f.Formal] is.; Кто должен вести эту встречу? – Он.
+211;0;;Who is supposed to be leading this meeting? – [Him:t.Personal,s3,f.Colloquial].; Кто должен вести эту встречу? – Он.
+212;0;;Who has been waiting the longest? – [They:t.Personal,p3,f.Formal] have.; Кто ждал дольше всех? – Они ждали.
+213;0;;Who has been waiting the longest? – [Them:t.Personal,p3,f.Colloquial].; Кто ждал дольше всех? – Они.
+214;0;;Who will be speaking at the event? – [I:t.Personal,s1,f.Formal] will be.; Кто будет выступать на мероприятии? – Я буду.
+215;0;;Who will be speaking at the event? – [Me:t.Personal,s1,f.Colloquial].; Кто будет выступать на мероприятии? – Я.
+216;0;;Who should have called earlier? – [He:t.Personal,s3,f.Formal] should have.; Кто должен был позвонить раньше? – Он должен был.
+217;0;;Who should have called earlier? – [Him:t.Personal,s3,f.Colloquial].; Кто должен был позвонить раньше? – Он.
+218;0;;Who might have left the door open? – [She:t.Personal,s3,f.Formal] might have.; Кто мог оставить дверь открытой? – Она могла.
+219;0;;Who might have left the door open? – [Her:t.Personal,s3,f.Colloquial].; Кто мог оставить дверь открытой? – Она.
+220;0;;Who had been working on this before the change? – [We:t.Personal,p1,f.Formal] had been.; Кто работал над этим до изменений? – Мы работали.
+221;0;;Who had been working on this before the change? – [Us:t.Personal,p1,f.Colloquial].; Кто работал над этим до изменений? – Мы.
+222;0;;No one but [I:t.Personal,s1,f.Formal] understood the instructions.;Никто, кроме меня, не понял инструкций.
+223;0;;No one but [me:t.Personal,s1,f.Colloquial] understood the instructions.;Никто, кроме меня, не понял инструкций.
+224;0;;All but [I:t.Personal,s1,f.Formal] arrived late to the meeting.;Все, кроме меня, опоздали на встречу.
+225;0;;All but [me:t.Personal,s1,f.Colloquial] arrived late to the meeting.;Все, кроме меня, опоздали на встречу.
+226;0;;Nothing but [I:t.Personal,s1,f.Formal] could change the outcome.;Ничто, кроме меня, не могло изменить исход.
+227;0;;Nothing but [me:t.Personal,s1,f.Colloquial] could change the outcome.;Ничто, кроме меня, не могло изменить исход.
+228;0;;No one except [I:t.Personal,s1,f.Formal] was willing to take the risk.;Никто, кроме меня, не был готов пойти на риск.
+229;0;;No one except [me:t.Personal,s1,f.Colloquial] was willing to take the risk.;Никто, кроме меня, не был готов пойти на риск.
+230;0;;He is taller than [I:t.Personal,s1,f.Formal].;Он выше, чем я.
+231;0;;He is taller than [me:t.Personal,s1,f.Colloquial].;Он выше, чем я.
+232;0;;She is as dedicated as [I:t.Personal,s1,f.Formal] am.;Она так же предана, как и я.
+233;0;;She is as dedicated as [me:t.Personal,s1,f.Colloquial] am.;Она так же предана, как и я.
+234;0;;No one but [you:t.Personal,s2,f.Formal] should take responsibility.;Никто, кроме тебя, не должен брать на себя ответственность.
+235;0;;No one but [you:t.Personal,s2,f.Colloquial] should take responsibility.;Никто, кроме тебя, не должен брать на себя ответственность.
+236;0;;Everyone but [you:t.Personal,s2,f.Formal] received an invitation.;Все, кроме тебя, получили приглашение.
+237;0;;Everyone but [you:t.Personal,s2,f.Colloquial] received an invitation.;Все, кроме тебя, получили приглашение.
+238;0;;Nothing but [you:t.Personal,s2,f.Formal] matters to me.;Ничто, кроме тебя, для меня не важно.
+239;0;;Nothing but [you:t.Personal,s2,f.Colloquial] matters to me.;Ничто, кроме тебя, для меня не важно.
+240;0;;She trusts no one except [you:t.Personal,s2,f.Formal].;Она никому не доверяет, кроме тебя.
+241;0;;She trusts no one except [you:t.Personal,s2,f.Colloquial].;Она никому не доверяет, кроме тебя.
+242;0;;No one is more qualified than [you:t.Personal,s2,f.Formal].;Никто не более квалифицирован, чем ты.
+243;0;;No one is more qualified than [you:t.Personal,s2,f.Colloquial].;Никто не более квалифицирован, чем ты.
+244;0;;You are as capable as [you:t.Personal,s2,f.Formal] believe yourself to be.;Ты так же способен, как сам в это веришь.
+245;0;;You are as capable as [you:t.Personal,s2,f.Colloquial] believe yourself to be.;Ты так же способен, как сам в это веришь.
+246;0;;No one but [he:t.Personal,s3m,f.Formal] knows the truth.;Никто, кроме него, не знает правды.
+247;0;;No one but [him:t.Personal,s3m,f.Colloquial] knows the truth.;Никто, кроме него, не знает правды.
+248;0;;Everyone but [he:t.Personal,s3m,f.Formal] was chosen for the project.;Все, кроме него, были выбраны для проекта.
+249;0;;Everyone but [him:t.Personal,s3m,f.Colloquial] was chosen for the project.;Все, кроме него, были выбраны для проекта.
+250;0;;Nothing but [he:t.Personal,s3m,f.Formal] could explain the situation.;Ничто, кроме него, не могло объяснить ситуацию.
+251;0;;Nothing but [him:t.Personal,s3m,f.Colloquial] could explain the situation.;Ничто, кроме него, не могло объяснить ситуацию.
+252;0;;Nobody except [he:t.Personal,s3m,f.Formal] knew the correct answer.;Никто, кроме него, не знал правильного ответа.
+253;0;;Nobody except [him:t.Personal,s3m,f.Colloquial] knew the correct answer.;Никто, кроме него, не знал правильного ответа.
+254;0;;You are stronger than [he:t.Personal,s3m,f.Formal].;Ты сильнее, чем он.
+255;0;;You are stronger than [him:t.Personal,s3m,f.Colloquial].;Ты сильнее, чем он.
+256;0;;You are as skilled as [he:t.Personal,s3m,f.Formal] is.;Ты так же умел, как и он.
+257;0;;You are as skilled as [him:t.Personal,s3m,f.Colloquial] is.;Ты так же умел, как и он.
+258;0;;No one but [she:t.Personal,s3f,f.Formal] dared to go inside.;Никто, кроме неё, не осмелился войти внутрь.
+259;0;;No one but [her:t.Personal,s3f,f.Colloquial] dared to go inside.;Никто, кроме неё, не осмелился войти внутрь.
+260;0;;Everyone but [she:t.Personal,s3f,f.Formal] was afraid of speaking.;Все, кроме неё, боялись говорить.
+261;0;;Everyone but [her:t.Personal,s3f,f.Colloquial] was afraid of speaking.;Все, кроме неё, боялись говорить.
+262;0;;Nothing but [she:t.Personal,s3f,f.Formal] kept the team motivated.;Ничто, кроме неё, не поддерживало команду в тонусе.
+263;0;;Nothing but [her:t.Personal,s3f,f.Colloquial] kept the team motivated.;Ничто, кроме неё, не поддерживало команду в тонусе.
+264;0;;Everyone except [she:t.Personal,s3f,f.Formal] left the building.;Все, кроме неё, покинули здание.
+265;0;;Everyone except [her:t.Personal,s3f,f.Colloquial] left the building.;Все, кроме неё, покинули здание.
+266;0;;This problem is harder than [she:t.Personal,s3f,f.Formal] expected.;Эта проблема сложнее, чем она ожидала.
+267;0;;This problem is harder than [her:t.Personal,s3f,f.Colloquial] expected.;Эта проблема сложнее, чем она ожидала.
+268;0;;They are as responsible as [she:t.Personal,s3f,f.Formal] is.;Они такие же ответственные, как и она.
+269;0;;They are as responsible as [her:t.Personal,s3f,f.Colloquial] is.;Они такие же ответственные, как и она.
+270;0;;Nothing except [it:t.Personal,s3n,f.Formal] could explain the strange phenomenon.;Ничто, кроме этого, не могло объяснить странное явление.
+271;0;;Nothing except [it:t.Personal,s3n,f.Colloquial] could explain the strange phenomenon.;Ничто, кроме этого, не могло объяснить странное явление.
+272;0;;This device is more efficient than [it:t.Personal,s3n,f.Formal] appears.;Этот прибор работает эффективнее, чем кажется.
+273;0;;This device is more efficient than [it:t.Personal,s3n,f.Colloquial] appears.;Этот прибор работает эффективнее, чем кажется.
+274;0;;The result was as unexpected as [it:t.Personal,s3n,f.Formal] was exciting.;Результат был таким же неожиданным, как и захватывающим.
+275;0;;The result was as unexpected as [it:t.Personal,s3n,f.Colloquial] was exciting.;Результат был таким же неожиданным, как и захватывающим.
+276;0;;Nothing except [it:t.Personal,s3n,f.Formal] could explain the strange phenomenon.;Ничто, кроме этого, не могло объяснить странное явление.
+277;0;;Nothing except [it:t.Personal,s3n,f.Colloquial] could explain the strange phenomenon.;Ничто, кроме этого, не могло объяснить странное явление.
+278;0;;This device is more efficient than [it:t.Personal,s3n,f.Formal] appears.;Этот прибор работает эффективнее, чем кажется.
+279;0;;This device is more efficient than [it:t.Personal,s3n,f.Colloquial] appears.;Этот прибор работает эффективнее, чем кажется.
+280;0;;The result was as unexpected as [it:t.Personal,s3n,f.Formal] was exciting.;Результат был таким же неожиданным, как и захватывающим.
+281;0;;The result was as unexpected as [it:t.Personal,s3n,f.Colloquial] was exciting.;Результат был таким же неожиданным, как и захватывающим.
+282;0;;No one but [we:t.Personal,p1,f.Formal] believed in the idea.;Никто, кроме нас, не верил в эту идею.
+283;0;;No one but [us:t.Personal,p1,f.Colloquial] believed in the idea.;Никто, кроме нас, не верил в эту идею.
+284;0;;All but [we:t.Personal,p1,f.Formal] thought it was impossible.;Все, кроме нас, думали, что это невозможно.
+285;0;;All but [us:t.Personal,p1,f.Colloquial] thought it was impossible.;Все, кроме нас, думали, что это невозможно.
+286;0;;Nothing but [we:t.Personal,p1,f.Formal] could make this work.;Ничто, кроме нас, не могло это осуществить.
+287;0;;Nothing but [us:t.Personal,p1,f.Colloquial] could make this work.;Ничто, кроме нас, не могло это осуществить.
+288;0;;All except [we:t.Personal,p1,f.Formal] were confused by the instructions.;Все, кроме нас, были сбиты с толку инструкциями.
+289;0;;All except [us:t.Personal,p1,f.Colloquial] were confused by the instructions.;Все, кроме нас, были сбиты с толку инструкциями.
+290;0;;They work harder than [we:t.Personal,p1,f.Formal].;Они работают усерднее, чем мы.
+291;0;;They work harder than [us:t.Personal,p1,f.Colloquial].;Они работают усерднее, чем мы.
+292;0;;Our team is as efficient as [we:t.Personal,p1,f.Formal] expected.;Наша команда работает так же эффективно, как мы и ожидали.
+293;0;;Our team is as efficient as [us:t.Personal,p1,f.Colloquial] expected.;Наша команда работает так же эффективно, как мы и ожидали.
+294;0;;No one but [they:t.Personal,p3,f.Formal] completed the challenge.;Никто, кроме них, не справился с испытанием.
+295;0;;No one but [them:t.Personal,p3,f.Colloquial] completed the challenge.;Никто, кроме них, не справился с испытанием.
+296;0;;Everyone but [they:t.Personal,p3,f.Formal] was exhausted after the hike.;Все, кроме них, были измотаны после похода.
+297;0;;Everyone but [them:t.Personal,p3,f.Colloquial] was exhausted after the hike.;Все, кроме них, были измотаны после похода.
+298;0;;Nothing but [they:t.Personal,p3,f.Formal] prevented the disaster.;Ничто, кроме них, не предотвратило катастрофу.
+299;0;;Nothing but [them:t.Personal,p3,f.Colloquial] prevented the disaster.;Ничто, кроме них, не предотвратило катастрофу.
+300;0;;Nobody except [they:t.Personal,p3,f.Formal] volunteered to help.;Никто, кроме них, не вызвался помочь.
+301;0;;Nobody except [them:t.Personal,p3,f.Colloquial] volunteered to help.;Никто, кроме них, не вызвался помочь.
+302;0;;We arrived earlier than [they:t.Personal,p3,f.Formal].;Мы прибыли раньше, чем они.
+303;0;;We arrived earlier than [them:t.Personal,p3,f.Colloquial].;Мы прибыли раньше, чем они.
+304;0;;Their results were as impressive as [they:t.Personal,p3,f.Formal] claimed.;Их результаты были столь же впечатляющими, как они утверждали.
+305;0;;Their results were as impressive as [them:t.Personal,p3,f.Colloquial] claimed.;Их результаты были столь же впечатляющими, как они утверждали.
+306;0;;[He:t.Personal](John) is reading a book.; Он читает книгу.
+307;0;;[It:t.Personal](The cat) is sleeping on the couch.; Он/Она спит на диване.
+308;0;;[We:t.Personal](My friends and I) are going to the park.; Мы идём в парк.
+309;0;;[They:t.Personal](Sarah and Tom) love pizza.; Они любят пиццу.
+310;0;;[It:t.Personal](This car) is very fast.; Она очень быстрая.
+311;0;;[We:t.Personal](Mike and I) work together.; Мы работаем вместе.
+312;0;;[He:t.Personal](Your brother) likes football.; Он любит футбол.
+313;0;;[They:t.Personal](The flowers) are blooming.; Они цветут.
+314;0;;[It:t.Personal](The book) is on the table.; Она на столе.
+315;0;;[They:t.Personal](The doctor) is reading a book.; Он/Она читает книгу.
+316;0;;[They:t.Personal](The student) loves pizza.; Он/Она любит пиццу.
+317;0;;[They:t.Personal](The manager) works remotely.; Он/Она работает удалённо.
+318;0;;Someone called the student, but [they:t.Personal] didn’t answer.; Кто-то позвонил студенту, но он/она не ответил/а.
+319;0;;The manager said [they:t.Personal] would be available later.; Менеджер сказал/а, что будет доступен/доступна позже.
+320;0;;If you see the neighbor, let [they:t.Personal] know about the meeting.; Если увидишь соседа, сообщи ему/ей о встрече.
+321;0;;The artist forgot their sketchbook, so [they:t.Personal] went back to get it.; Художник забыл/а свой альбом, поэтому он/она вернулся/вернулась, чтобы забрать его.
+322;0;;The doctor assured the patient that [they:t.Personal] would recover soon.; Врач заверил/а пациента, что он/она скоро поправится.
+323;0;;Someone left their bag here. I hope [they:t.Personal] come back for it.; Кто-то оставил здесь свою сумку. Надеюсь, он/она вернется за ней.
+324;0;;The teacher asked the student if [they:t.Personal] had finished the assignment.; Учитель спросил/а студента, закончил/а ли он/она задание.
+325;0;;If your friend arrives, tell [they:t.Personal] to wait for me.; Если твой друг придет, скажи ему/ей, чтобы подождал/а меня.
+326;0;;The director called, but [they:t.Personal] didn’t leave a message.; Директор звонил/а, но не оставил/а сообщение.
+327;0;;A customer came in asking for you, but I told [they:t.Personal] you were out.; Клиент заходил и спрашивал тебя, но я сказал/а ему/ей, что тебя нет.
+328;0;;He saw [me:t.Personal,s1].;Он видел меня.
+329;0;;They invited [me:t.Personal,s1] to the party.;Они пригласили меня на вечеринку.
+330;0;;She found [me:t.Personal,s1] in the garden.;Она нашла меня в саду.
+331;0;;The teacher praised [me:t.Personal,s1].;Учитель похвалил меня.
+332;0;;They accused [me:t.Personal,s1] of cheating.;Они обвинили меня в обмане.
+333;0;;She gave [me:t.Personal,s1] a gift.;Она дала мне подарок.
+334;0;;They sent [me:t.Personal,s1] a letter.;Они отправили мне письмо.
+335;0;;Can you pass [me:t.Personal,s1] the salt?;Можешь передать мне соль?
+336;0;;The book belongs to [me:t.Personal,s1].;Эта книга принадлежит мне.
+337;0;;Tell [me:t.Personal,s1] the truth.;Скажи мне правду.
+338;0;;Please help [me:t.Personal,s1].;Пожалуйста, помоги мне.
+339;0;;They saw [me:t.Personal,s1] yesterday.;Они видели меня вчера.
+340;0;;He invited [me:t.Personal,s1] to dinner.;Он пригласил меня на ужин.
+341;0;;She called [me:t.Personal,s1] last night.;Она звонила мне вчера вечером.
+342;0;;The dog followed [me:t.Personal,s1] home.;Собака пошла за мной домой.
+343;0;;She is happy with [me:t.Personal,s1].;Она счастлива со мной.
+344;0;;They worked with [me:t.Personal,s1] on the project.;Они работали со мной над проектом.
+345;0;;The teacher was impressed by [me:t.Personal,s1].;Учитель был впечатлён мной.
+346;0;;He argued with [me:t.Personal,s1] about politics.;Он спорил со мной о политике.
+347;0;;They danced with [me:t.Personal,s1] at the party.;Они танцевали со мной на вечеринке.
+348;0;;She always talks about [me:t.Personal,s1].;Она всегда говорит обо мне.
+349;0;;What do you think about [me:t.Personal,s1]?;Что ты думаешь обо мне?
+350;0;;They wrote a story about [me:t.Personal,s1].;Они написали историю обо мне.
+351;0;;The article is about [me:t.Personal,s1].;Эта статья обо мне.
+352;0;;Don’t worry about [me:t.Personal,s1].;Не переживай обо мне.
+353;0;;I saw [you:t.Personal,s2].;Я видел тебя вчера.
+354;0;;They invited [you:t.Personal,p2] to the meeting.;Они пригласили вас на встречу.
+355;0;;She remembered [you:t.Personal,s2] from school.;Она вспомнила тебя из школы.
+356;0;;They accused [you:t.Personal,s2] of lying.;Они обвинили тебя во лжи.
+357;0;;I need to talk to [you:t.Personal,s2].;Мне нужно поговорить с тобой.
+358;0;;She gave [you:t.Personal,s2] a gift.;Она дала тебе подарок.
+359;0;;They sent [you:t.Personal,p2] a letter.;Они отправили вам письмо.
+360;0;;Can I show [you:t.Personal,s2] something?;Могу показать тебе что-то?
+361;0;;The book belongs to [you:t.Personal,p2].;Эта книга принадлежит вам.
+362;0;;Tell [you:t.Personal,s2] the truth.;Скажи тебе правду.
+363;0;;Please help [you:t.Personal,s2] with the project.;Пожалуйста, помоги тебе с проектом.
+364;0;;They saw [you:t.Personal,p2] at the party.;Они видели вас на вечеринке.
+365;0;;She called [you:t.Personal,s2] last night.;Она звонила тебе вчера вечером.
+366;0;;He invited [you:t.Personal,s2] to dinner.;Он пригласил тебя на ужин.
+367;0;;I trust [you:t.Personal,s2].;Я доверяю тебе.
+368;0;;They worked with [you:t.Personal,s2] on the project.;Они работали с тобой над проектом.
+369;0;;She danced with [you:t.Personal,p2] at the party.;Она танцевала с вами на вечеринке.
+370;0;;The teacher was impressed by [you:t.Personal,s2].;Учитель был впечатлён тобой.
+371;0;;He argued with [you:t.Personal,s2] about politics.;Он спорил с тобой о политике.
+372;0;;They traveled with [you:t.Personal,s2] last summer.;Они путешествовали с тобой прошлым летом.
+373;0;;They talked about [you:t.Personal,s2] yesterday.;Они говорили о тебе вчера.
+374;0;;The story is about [you:t.Personal,s2].;История о тебе.
+375;0;;She always thinks about [you:t.Personal,s2].;Она всегда думает о тебе.
+376;0;;Don’t worry about [you:t.Personal,s2].;Не переживай о тебе.
+377;0;;I saw [him:t.Personal,s3m].;Я видел его в парке.
+378;0;;They accused [him:t.Personal,s3m] of lying.;Они обвинили его во лжи.
+379;0;;She found [him:t.Personal,s3m] sleeping.;Она нашла его спящим.
+380;0;;The teacher praised [him:t.Personal,s3m] for his work.;Учитель похвалил его за работу.
+381;0;;I met [him:t.Personal,s3m] yesterday.;Я встретил его вчера.
+382;0;;She gave [him:t.Personal,s3m] a gift.;Она дала ему подарок.
+383;0;;They sent [him:t.Personal,s3m] a letter.;Они отправили ему письмо.
+384;0;;Can you show [him:t.Personal,s3m] the way?;Можешь показать ему дорогу?
+385;0;;The dog belongs to [him:t.Personal,s3m].;Собака принадлежит ему.
+386;0;;Tell [him:t.Personal,s3m] the truth.;Скажи ему правду.
+387;0;;They invited [him:t.Personal,s3m] to the meeting.;Они пригласили его на встречу.
+388;0;;She called [him:t.Personal,s3m] yesterday.;Она звонила ему вчера.
+389;0;;The dog followed [him:t.Personal,s3m] home.;Собака пошла за ним домой.
+390;0;;Please help [him:t.Personal,s3m] with his project.;Пожалуйста, помогите ему с его проектом.
+391;0;;I don't trust [him:t.Personal,s3m].;Я не доверяю ему.
+392;0;;They worked with [him:t.Personal,s3m] on the project.;Они работали с ним над проектом.
+393;0;;She danced with [him:t.Personal,s3m] at the party.;Она танцевала с ним на вечеринке.
+394;0;;The teacher was impressed by [him:t.Personal,s3m].;Учитель был впечатлён им.
+395;0;;He argued with [him:t.Personal,s3m] about politics.;Он спорил с ним о политике.
+396;0;;They traveled with [him:t.Personal,s3m] last summer.;Они путешествовали с ним прошлым летом.
+397;0;;They talked about [him:t.Personal,s3m] yesterday.;Они говорили о нём вчера.
+398;0;;The story is about [him:t.Personal,s3m].;История о нём.
+399;0;;She always thinks about [him:t.Personal,s3m].;Она всегда думает о нём.
+400;0;;Don’t worry about [him:t.Personal,s3m].;Не переживай о нём.
+401;0;;What do you know about [him:t.Personal,s3m]?;Что ты знаешь о нём?
+402;0;;I saw [her:t.Personal,s3f] at the store.;Я видел её в магазине.
+403;0;;They accused [her:t.Personal,s3f] of cheating.;Они обвинили её в обмане.
+404;0;;She praised the girl for [her:t.Personal,s3f] efforts.;Она похвалила её за её усилия.
+405;0;;I met [her:t.Personal,s3f] last night.;Я встретил её вчера вечером.
+406;0;;He followed [her:t.Personal,s3f] to the park.;Он следовал за ней в парк.
+407;0;;They gave [her:t.Personal,s3f] a gift.;Они дали ей подарок.
+408;0;;Can you pass [her:t.Personal,s3f] the salt?;Можешь передать ей соль?
+409;0;;The book belongs to [her:t.Personal,s3f].;Эта книга принадлежит ей.
+410;0;;He showed [her:t.Personal,s3f] the way.;Он показал ей дорогу.
+411;0;;Tell [her:t.Personal,s3f] the truth.;Скажи ей правду.
+412;0;;I love [her:t.Personal,s3f].;Я люблю её.
+413;0;;He called [her:t.Personal,s3f] last night.;Он звонил ей вчера вечером.
+414;0;;Please help [her:t.Personal,s3f] with her homework.;Пожалуйста, помоги ей с домашним заданием.
+415;0;;I don’t trust [her:t.Personal,s3f].;Я не доверяю ей.
+416;0;;They saw [her:t.Personal,s3f] at the mall.;Они видели её в торговом центре.
+417;0;;They worked with [her:t.Personal,s3f] on the project.;Они работали с ней над проектом.
+418;0;;She danced with [her:t.Personal,s3f] at the party.;Она танцевала с ней на вечеринке.
+419;0;;The teacher was impressed by [her:t.Personal,s3f].;Учитель был впечатлён ею.
+420;0;;He argued with [her:t.Personal,s3f] about the topic.;Он спорил с ней о теме.
+421;0;;They traveled with [her:t.Personal,s3f] last summer.;Они путешествовали с ней прошлым летом.
+422;0;;They talked about [her:t.Personal,s3f] yesterday.;Они говорили о ней вчера.
+423;0;;The story is about [her:t.Personal,s3f].;История о ней.
+424;0;;She always thinks about [her:t.Personal,s3f].;Она всегда думает о ней.
+425;0;;Don’t worry about [her:t.Personal,s3f].;Не переживай о ней.
+426;0;;What do you know about [her:t.Personal,s3f]?;Что ты знаешь о ней?
+427;0;;She saw [it:t.Personal,s3n] on the table.;Она увидела его на столе.
+428;0;;I took [it:t.Personal,s3n] from the box.;Я взял его из коробки.
+429;0;;They repaired [it:t.Personal,s3n] yesterday.;Они починили его вчера.
+430;0;;The teacher noticed [it:t.Personal,s3n] immediately.;Учитель заметил его сразу.
+431;0;;I remember [it:t.Personal,s3n] very well.;Я очень хорошо помню его.
+432;0;;She gave [it:t.Personal,s3n] a name.;Она дала ему имя.
+433;0;;They sent [it:t.Personal,s3n] to the laboratory.;Они отправили его в лабораторию.
+434;0;;He showed [it:t.Personal,s3n] to his friend.;Он показал его своему другу.
+435;0;;I offered [it:t.Personal,s3n] to the team.;Я предложил его команде.
+436;0;;They assigned [it:t.Personal,s3n] a task.;Они назначили ему задачу.
+437;0;;I found [it:t.Personal,s3n] under the bed.;Я нашёл его под кроватью.
+438;0;;She moved [it:t.Personal,s3n] to another room.;Она передвинула его в другую комнату.
+439;0;;They lost [it:t.Personal,s3n] during the trip.;Они потеряли его во время поездки.
+440;0;;Please fix [it:t.Personal,s3n] as soon as possible.;Пожалуйста, почини его как можно скорее.
+441;0;;He bought [it:t.Personal,s3n] yesterday.;Он купил его вчера.
+442;0;;They worked with [it:t.Personal,s3n] all night.;Они работали с ним всю ночь.
+443;0;;She cleaned the floor with [it:t.Personal,s3n].;Она убрала пол с его помощью.
+444;0;;He impressed everyone with [it:t.Personal,s3n].;Он впечатлил всех с его помощью.
+445;0;;They solved the problem with [it:t.Personal,s3n].;Они решили проблему с его помощью.
+446;0;;I decorated the room with [it:t.Personal,s3n].;Я украсил комнату с его помощью.
+447;0;;They talked about [it:t.Personal,s3n] yesterday.;Они говорили о нём вчера.
+448;0;;What do you know about [it:t.Personal,s3n]?;Что ты знаешь о нём?
+449;0;;Don’t worry about [it:t.Personal,s3n].;Не переживай о нём.
+450;0;;The story is about [it:t.Personal,s3n].;История о нём.
+451;0;;She always thinks about [it:t.Personal,s3n].;Она всегда думает о нём.
+452;0;;They saw [us:t.Personal,p1] at the party.;Они видели нас на вечеринке.
+453;0;;She invited [us:t.Personal,p1] to her house.;Она пригласила нас к себе домой.
+454;0;;The teacher praised [us:t.Personal,p1] for our work.;Учитель похвалил нас за нашу работу.
+455;0;;He remembered [us:t.Personal,p1] from school.;Он вспомнил нас из школы.
+456;0;;They accused [us:t.Personal,p1] of cheating.;Они обвинили нас в обмане.
+457;0;;She gave [us:t.Personal,p1] a gift.;Она дала нам подарок.
+458;0;;They sent [us:t.Personal,p1] a letter.;Они отправили нам письмо.
+459;0;;Can you show [us:t.Personal,p1] the way?;Можешь показать нам дорогу?
+460;0;;The book belongs to [us:t.Personal,p1].;Эта книга принадлежит нам.
+461;0;;Tell [us:t.Personal,p1] the truth.;Скажи нам правду.
+462;0;;They invited [us:t.Personal,p1] to the party.;Они пригласили нас на вечеринку.
+463;0;;Please help [us:t.Personal,p1] with the project.;Пожалуйста, помогите нам с проектом.
+464;0;;I saw [us:t.Personal,p1] in the mirror.;Я видел нас в зеркале.
+465;0;;She called [us:t.Personal,p1] yesterday.;Она звонила нам вчера.
+466;0;;The dog followed [us:t.Personal,p1] home.;Собака пошла за нами домой.
+467;0;;They worked with [us:t.Personal,p1] on the project.;Они работали с нами над проектом.
+468;0;;She danced with [us:t.Personal,p1] at the party.;Она танцевала с нами на вечеринке.
+469;0;;The teacher was impressed by [us:t.Personal,p1].;Учитель был впечатлён нами.
+470;0;;He argued with [us:t.Personal,p1] about politics.;Он спорил с нами о политике.
+471;0;;They traveled with [us:t.Personal,p1] last summer.;Они путешествовали с нами прошлым летом.
+472;0;;They talked about [us:t.Personal,p1] yesterday.;Они говорили о нас вчера.
+473;0;;The story is about [us:t.Personal,p1].;История о нас.
+474;0;;She always thinks about [us:t.Personal,p1].;Она всегда думает о нас.
+475;0;;Don’t worry about [us:t.Personal,p1].;Не переживай о нас.
+476;0;;What do you know about [us:t.Personal,p1]?;Что ты знаешь о нас?
+477;0;;I saw [them:t.Personal,p3] at the park.;Я видел их в парке.
+478;0;;They invited [them:t.Personal,p3] to the meeting.;Они пригласили их на встречу.
+479;0;;She remembered [them:t.Personal,p3] from school.;Она вспомнила их из школы.
+480;0;;We need to talk to [them:t.Personal,p3].;Нам нужно поговорить с ними.
+481;0;;They accused [them:t.Personal,p3] of lying.;Они обвинили их во лжи.
+482;0;;She gave [them:t.Personal,p3] a gift.;Она дала им подарок.
+483;0;;They sent [them:t.Personal,p3] a letter.;Они отправили им письмо.
+484;0;;Can I show [them:t.Personal,p3] something?;Могу показать им что-то?
+485;0;;The book belongs to [them:t.Personal,p3].;Эта книга принадлежит им.
+486;0;;Tell [them:t.Personal,p3] the truth.;Скажи им правду.
+487;0;;I trust [them:t.Personal,p3].;Я доверяю им.
+488;0;;Please help [them:t.Personal,p3] with the project.;Пожалуйста, помогите им с проектом.
+489;0;;They saw [them:t.Personal,p3] at the party.;Они видели их на вечеринке.
+490;0;;She called [them:t.Personal,p3] yesterday.;Она звонила им вчера.
+491;0;;He invited [them:t.Personal,p3] to dinner.;Он пригласил их на ужин.
+492;0;;They worked with [them:t.Personal,p3] on the project.;Они работали с ними над проектом.
+493;0;;She danced with [them:t.Personal,p3] at the party.;Она танцевала с ними на вечеринке.
+494;0;;The teacher was impressed by [them:t.Personal,p3].;Учитель был впечатлён ими.
+495;0;;He argued with [them:t.Personal,p3] about politics.;Он спорил с ними о политике.
+496;0;;They traveled with [them:t.Personal,p3] last summer.;Они путешествовали с ними прошлым летом.
+497;0;;They talked about [them:t.Personal,p3] yesterday.;Они говорили о них вчера.
+498;0;;The story is about [them:t.Personal,p3].;История о них.
+499;0;;She always thinks about [them:t.Personal,p3].;Она всегда думает о них.
+500;0;;Don’t worry about [them:t.Personal,p3].;Не переживай о них.
+501;0;;What do you know about [them:t.Personal,p3]?;Что ты знаешь о них?
+502;0;;I saw a stray dog and fed [it:t.Personal].; Я увидел бездомную собаку и покормил её.
+503;0;;The cat was scared, so I tried to calm [it:t.Personal] down.; Кошка испугалась, поэтому я попытался её успокоить.
+504;0;;I found an injured bird and took [it:t.Personal] to a vet.; Я нашёл раненую птицу и отнёс её к ветеринару.
+505;0;;The rabbit was hiding, but I managed to catch [it:t.Personal].; Кролик прятался, но мне удалось его поймать.
+506;0;;I stroked the kitten and petted [it:t.Personal] gently.; Я погладил котёнка и нежно потёр его.
+507;0;;A fox appeared in my backyard, but I didn’t want to disturb [it:t.Personal].; В моём дворе появилась лиса, но я не хотел её тревожить.
+508;0;;The hamster loves when I give [it:t.Personal] treats.; Хомяк обожает, когда я даю ему вкусняшки.
+509;0;;A bee landed on my hand, but I gently let [it:t.Personal] go.; Пчела села мне на руку, но я осторожно дал ей улететь.
+510;0;;The snake was in the way, so we carefully moved [it:t.Personal] aside.; Змея была на пути, поэтому мы осторожно сдвинули её в сторону.
+511;0;;I saw a squirrel and took a picture of [it:t.Personal].; Я увидел белку и сфотографировал её.
+512;0;;The baby was crying, so I picked [it:t.Personal] up.; Младенец плакал, поэтому я его поднял.
+513;0;;She wrapped the newborn in a blanket and held [it:t.Personal] close.; Она завернула новорождённого в одеяло и прижала его к себе.
+514;0;;I gently rocked the infant to soothe [it:t.Personal].; Я осторожно покачивал младенца, чтобы его успокоить.
+515;0;;The doctor examined the baby and placed [it:t.Personal] back in the crib.; Врач осмотрел младенца и положил его обратно в кроватку.
+516;0;;We took a picture of the newborn before putting [it:t.Personal] to sleep.; Мы сделали фото новорождённого перед тем, как уложить его спать.
+517;0;;The nurse lifted the baby and carefully bathed [it:t.Personal].; Медсестра подняла младенца и аккуратно его искупала.
+518;0;;I saw the baby reaching for the toy, so I gave [it:t.Personal] one.; Я увидел, что младенец тянется к игрушке, поэтому я дал ему одну.
+519;0;;They named the baby but haven’t introduced [it:t.Personal] to anyone yet.; Они дали младенцу имя, но ещё никому его не представили.
+520;0;;The infant was cold, so we covered [it:t.Personal] with a soft blanket.; Младенец замёрз, поэтому мы накрыли его мягким одеялом.
+521;0;;The mother kissed the newborn before handing [it:t.Personal] to the father.; Мать поцеловала новорождённого, прежде чем передать его отцу.
+522;0;;They saw [you and me](you, I) at the park.;Они видели тебя и меня в парке.
+523;0;;She invited [you and me](you, I) to dinner.; Она пригласила тебя и меня на ужин.
+524;0;;The teacher gave homework to [you and me](you, I).; Учитель дал домашнее задание тебе и мне.
+525;0;;He asked [you and me](you, I) for help.; Он попросил помощи у тебя и меня.
+526;0;;They will meet [you and me](you, I) at the station.; Они встретят тебя и меня на вокзале.
+527;0;;He noticed [Lisa and me](Lisa, I) talking in the hallway.; Он заметил, как Лиза и я разговаривали в коридоре.
+528;0;;The professor praised [Michael and me](Michael, I) for our work.; Профессор похвалил Майкла и меня за нашу работу.
+529;0;;He noticed [her and me](she, I) talking in the hallway.; Он заметил, как она и я разговаривали в коридоре.
+530;0;;She introduced [him and me](he, I) to her parents.; Она представила его и меня своим родителям.
+531;0;;The boss thanked [Mark and her](she, Mark) for the report.; Начальник поблагодарил её и Марка за отчёт.
+532;0;;He noticed [Lisa and me](Lisa, I) talking in the hallway.; Он заметил, как Лиза и я разговаривали в коридоре.
+533;0;;The professor praised [Michael and me](Michael, I) for our work.; Профессор похвалил Майкла и меня за нашу работу.
+534;0;;The professor praised [him and me](he, I) for our work.; Профессор похвалил его и меня за нашу работу.
+535;0;;He asked [you and Anna](you, Anna) to wait outside.; Он попросил тебя и Анну подождать снаружи.
+536;0;;I invited [you and her](you, she) to the party.; Я пригласил тебя и её на вечеринку.
+537;0;;I saw [you and it](you, it) in the garden.; Я увидел тебя и это в саду.
+538;0;;The manager called [you and him](you, he) for a meeting.; Менеджер вызвал тебя и его на встречу.
+539;0;;The teacher assigned a project to [you and him](you, he).; Учитель назначил проект тебе и ему.
+540;0;;I carried [you and it](you, it) across the river.; Я перенёс тебя и это через реку.
+541;0;;They moved [you and it](you, it) to another location.; Они переместили тебя и это в другое место.
+542;0;;I met [Lisa and him](Lisa, he) at the cafe.; Я встретил Лизу и его в кафе.
+543;0;;She introduced [the cat and it](the cat, it) to her friends.; Она представила кота и его своим друзьям.
+544;0;;The company promoted [Michael and him](Michael, he) last year.; Компания повысила Майкла и его в прошлом году.
+545;0;;The teacher corrected [John and her](John, she) on their mistakes.; Учитель исправил ошибки Джона и её.
+546;0;;They assigned the task to [Tom and her](Tom, she).; Они поручили задание Тому и ей.
+547;0;;The doctor called a patient and asked [them:t.Personal] to come in.; Врач вызвал пациента и попросил его войти.
+548;0;;If someone finds my keys, please give [them:t.Personal] to the receptionist.; Если кто-то найдёт мои ключи, пожалуйста, отдайте их администратору.
+549;0;;Each student must submit their assignment before Friday, or I will have to remind [them:t.Personal].; Каждый студент должен сдать задание до пятницы, иначе мне придётся напомнить ему.
+550;0;;A person at the counter left without taking [them:t.Personal] their receipt.; Человек у стойки ушёл, не взяв свой чек.
+551;0;;If a caller refuses to give their name, don’t push [them:t.Personal].; Если звонящий отказывается назвать своё имя, не дави на него.
+552;0;;I saw a stranger looking confused, so I asked [them:t.Personal] if they needed help.; Я увидел незнакомца, который выглядел растерянным, и спросил его, нужна ли помощь.
+553;0;;The delivery person dropped off a package, but I couldn’t thank [them:t.Personal] before they left.; Курьер оставил посылку, но я не успел поблагодарить его, прежде чем он ушёл.
+554;0;;If anybody wants a ride home, I can take [them:t.Personal].; Если кто-то хочет, чтобы его подвезли домой, я могу отвезти.
+555;0;;The applicant didn’t include their email, so I couldn’t contact [them:t.Personal].; Соискатель не указал свой email, поэтому я не смог с ним связаться.
+556;0;;Somebody in the waiting room looks nervous. Maybe you should check on [them:t.Personal].; Кто-то в зале ожидания выглядит нервным. Может, тебе стоит проверить, как он там.
+557;0;;I see [him:t.Personal](John).; Я вижу его.
+558;0;;She likes [it:t.Personal](the cat).; Она любит его/её.
+559;0;;They invited [us:t.Personal](my friends and me).; Они пригласили нас.
+560;0;;We called [them:t.Personal](Sarah and Tom).; Мы позвонили им.
+561;0;;The students listen to [them:t.Personal](the teacher).; Ученики слушают его/её.
+562;0;;I bought [it:t.Personal](this car).; Я купил её.
+563;0;;The manager spoke to [us:t.Personal](Mike and me).; Менеджер говорил с нами.
+564;0;;She met [him:t.Personal](your brother).; Она встретила его.
+565;0;;The gardener watered [them:t.Personal](the flowers).; Садовник полил их.
+566;0;;He put [it:t.Personal](the book) on the table.; Он положил её на стол.
+567;0;;I heard [her:t.Personal](Emma) singing in the room.; Я услышал, как она поёт в комнате.
+568;0;;They helped [him:t.Personal](the old man) cross the street.; Они помогли ему перейти улицу.
+569;0;;She found [it:t.Personal](the lost phone) under the bed.; Она нашла его под кроватью.
+570;0;;We visited [them:t.Personal](our grandparents) last weekend.; Мы навестили их на прошлых выходных.
+571;0;;He hugged [her:t.Personal](his sister) before leaving.; Он обнял её перед уходом.
+572;0;;The teacher corrected [him:t.Personal](the student) on his mistake.; Учитель исправил его ошибку.
+573;0;;I returned [it:t.Personal](the borrowed book) to the library.; Я вернул её в библиотеку.
+574;0;;She sent [them:t.Personal](her colleagues) an email this morning.; Она отправила им письмо этим утром.
+575;0;;They introduced [us:t.Personal](their new friends) at the party.; Они представили нас на вечеринке.
+576;0;;The coach congratulated [him:t.Personal](the best player) after the game.; Тренер поздравил его после игры.
+577;0;;This pen is [mine:t.Possessive,s1].;Эта ручка моя.
+578;0;;The last word is [mine:t.Possessive,s1].;Последнее слово за мной.
+579;0;;The apartment is [mine:t.Possessive,s1].;Квартира моя.
+580;0;;This responsibility is [mine:t.Possessive,s1].;Эта ответственность моя.
+581;0;;That chair is [mine:t.Possessive,s1].;Тот стул мой.
+582;0;;This house is [yours:t.Possessive,s2].;Этот дом твой.
+583;0;;The final choice is [yours:t.Possessive,s2].;Окончательный выбор за тобой.
+584;0;;Is this laptop [yours:t.Possessive,s2]?;Этот ноутбук твой?
+585;0;;That opportunity was [yours:t.Possessive,s2].;Эта возможность была твоей.
+586;0;;This task is [yours:t.Possessive,s2].;Эта задача твоя.
+587;0;;The mistake was [his:t.Possessive,s3m].;Ошибка была его.
+588;0;;This project is [his:t.Possessive,s3m].;Этот проект его.
+589;0;;The responsibility was [his:t.Possessive,s3m].;Ответственность была его.
+590;0;;The decision is [his:t.Possessive,s3m].;Решение его.
+591;0;;That achievement was [his:t.Possessive,s3m].;Это достижение было его.
+592;0;;The suitcase is [hers:t.Possessive,s3f].;Чемодан её.
+593;0;;The credit is [hers:t.Possessive,s3f].;Заслуга её.
+594;0;;Is that phone [hers:t.Possessive,s3f]?;Этот телефон её?
+595;0;;The complaint was [hers:t.Possessive,s3f].;Жалоба была её.
+596;0;;That painting is [hers:t.Possessive,s3f].;Та картина её.
+597;0;;The influence is [its:t.Possessive,s3n].;Влияние его.
+598;0;;This power is [its:t.Possessive,s3n].;Эта сила его.
+599;0;;The charm is [its:t.Possessive,s3n].;Очарование его.
+600;0;;The meaning is [its:t.Possessive,s3n].;Значение его.
+601;0;;The territory is [its:t.Possessive,s3n].;Территория его.
+602;0;;The dream is [ours:t.Possessive,p1].;Мечта наша.
+603;0;;This future is [ours:t.Possessive,p1].;Это будущее наше.
+604;0;;The burden is [ours:t.Possessive,p1].;Бремя наше.
+605;0;;The idea was [ours:t.Possessive,p1].;Идея была нашей.
+606;0;;The happiness is [ours:t.Possessive,p1].;Счастье наше.
+607;0;;The land is [theirs:t.Possessive,p3].;Земля их.
+608;0;;The duty is [theirs:t.Possessive,p3].;Обязанность их.
+609;0;;That reward was [theirs:t.Possessive,p3].;Эта награда была их.
+610;0;;The authority is [theirs:t.Possessive,p3].;Власть их.
+611;0;;The responsibility is [theirs:t.Possessive,p3].;Ответственность их.
+612;0;;This is [my:t.Possessive,s1] book.;Это моя книга.
+613;0;;[My:t.Possessive,s1] car is very old.;Моя машина очень старая.
+614;0;;[My:t.Possessive,s1] house is near the park.;Мой дом рядом с парком.
+615;0;;[My:t.Possessive,s1] friend is waiting for me.;Мой друг ждёт меня.
+616;0;;[My:t.Possessive,s1] phone is charging.;Мой телефон заряжается.
+617;0;;[Your:t.Possessive,s2] efforts matter.;Ваши усилия важны.
+618;0;;[Your:t.Possessive,s2] house is beautiful.;Ваш дом красивый.
+619;0;;Where is [your:t.Possessive,s2] car?;Где ваша машина?
+620;0;;[Your:t.Possessive,s2] kids are very polite.;Ваши дети очень вежливы.
+621;0;;I like [your:t.Possessive,s2] idea.;Мне нравится ваша идея.
+622;0;;[His:t.Possessive,s3m] dog is friendly.;Его собака дружелюбная.
+623;0;;[His:t.Possessive,s3m] house is very big.;Его дом очень большой.
+624;0;;I like [his:t.Possessive,s3m] car.;Мне нравится его машина.
+625;0;;[His:t.Possessive,s3m] work is inspiring.;Его работа вдохновляющая.
+626;0;;Where is [his:t.Possessive,s3m] book?;Где его книга?
+627;0;;[Her:t.Possessive,s3f] ideas are brilliant.;Её идеи блестящие.
+628;0;;[Her:t.Possessive,s3f] voice is beautiful.;Её голос прекрасен.
+629;0;;[Her:t.Possessive,s3f] house is near the school.;Её дом рядом со школой.
+630;0;;I like [her:t.Possessive,s3f] style.;Мне нравится её стиль.
+631;0;;This is [her:t.Possessive,s3f] favorite color.;Это её любимый цвет.
+632;0;;[Its:t.Possessive,s3n] color is vibrant.;Его цвет яркий.
+633;0;;[Its:t.Possessive,s3n] size is perfect.;Его размер идеален.
+634;0;;I like [its:t.Possessive,s3n] design.;Мне нравится его дизайн.
+635;0;;[Its:t.Possessive,s3n] role is important.;Его роль важна.
+636;0;;[Its:t.Possessive,s3n] sound is unique.;Его звук уникален.
+637;0;;[Our:t.Possessive,p1] team is strong.;Наша команда сильная.
+638;0;;[Our:t.Possessive,p1] house is on the corner.;Наш дом на углу.
+639;0;;[Our:t.Possessive,p1] car is parked outside.;Наша машина припаркована снаружи.
+640;0;;[Our:t.Possessive,p1] work is almost done.;Наша работа почти завершена.
+641;0;;[Our:t.Possessive,p1] friends are coming over.;Наши друзья идут к нам.
+642;0;;[Their:t.Possessive,p3] house is beautiful.;Их дом красивый.
+643;0;;[Their:t.Possessive,p3] dog is very playful.;Их собака очень игривая.
+644;0;;[Their:t.Possessive,p3] car is new.;Их машина новая.
+645;0;;[Their:t.Possessive,p3] kids are at school.;Их дети в школе.
+646;0;;I like [their:t.Possessive,p3] work.;Мне нравится их работа.
+647;0;;I couldn’t believe how quickly [my:t.Possessive,s1] plans changed after the unexpected news.;Я не мог поверить, как быстро мои планы изменились после неожиданной новости.
+648;0;;After several revisions, [my:t.Possessive,s1] final decision turned out to be the best one.;После нескольких исправлений моё окончательное решение оказалось лучшим.
+649;0;;The professor praised [my:t.Possessive,s1] work, saying it showed deep understanding of the topic.;Профессор похвалил мою работу, сказав, что она демонстрирует глубокое понимание темы.
+650;0;;Without a doubt, [my:t.Possessive,s1] favorite way to relax is reading a good book in the evening.;Без сомнения, мой любимый способ расслабиться – это чтение хорошей книги вечером.
+651;0;;If [my:t.Possessive,s1] calculations are correct, we should reach the destination in two hours.;Если мои расчёты верны, мы должны добраться до места назначения через два часа.
+652;0;;After years of dedication, [my:t.Possessive,s1] hard work finally paid off.;После многих лет упорного труда моя работа наконец окупилась.
+653;0;;Right after [my:t.Possessive,s1] presentation, the audience started asking questions.;Сразу после моей презентации аудитория начала задавать вопросы.
+654;0;;By the time I arrived, [your:t.Possessive,s2] friends had already left for the airport.;К тому времени как я приехал, твои друзья уже уехали в аэропорт.
+655;0;;Could you remind me where [your:t.Possessive,s2] office is located in this building?;Не мог бы ты напомнить мне, где находится твой офис в этом здании?
+656;0;;No matter how hard you try, [your:t.Possessive,s2] efforts won’t go unnoticed by the management.;Как бы ты ни старался, твои усилия не останутся незамеченными руководством.
+657;0;;Despite the difficulties, [your:t.Possessive,s2] idea proved to be more effective than expected.;Несмотря на трудности, твоя идея оказалась более эффективной, чем ожидалось.
+658;0;;The fact that [your:t.Possessive,s2] argument was well-structured made a huge difference.;Тот факт, что твой аргумент был хорошо структурирован, сыграл большую роль.
+659;0;;Without [your:t.Possessive,s2] advice, I would have made a terrible mistake.;Без твоего совета я бы совершил ужасную ошибку.
+660;0;;When [your:t.Possessive,s2] schedule is so packed, how do you find time to relax?;Когда твой график такой плотный, как ты находишь время на отдых?
+661;0;;With every passing day, [his:t.Possessive,s3m] confidence in the project continued to grow.;С каждым днём его уверенность в проекте продолжала расти.
+662;0;;We were surprised to see that [his:t.Possessive,s3m] proposal had already been accepted.;Мы были удивлены, увидев, что его предложение уже было принято.
+663;0;;Without hesitation, [his:t.Possessive,s3m] decision influenced the outcome of the negotiation.;Без колебаний его решение повлияло на исход переговоров.
+664;0;;After years of hard work, [his:t.Possessive,s3m] dream of becoming a doctor finally came true.;После многих лет упорной работы его мечта стать врачом наконец сбылась.
+665;0;;Since [his:t.Possessive,s3m] arrival, things in the office have become more organized.;С момента его прибытия в офисе всё стало более организованным.
+666;0;;Although [his:t.Possessive,s3m] story was interesting, it lacked crucial details.;Хотя его рассказ был интересным, в нём не хватало важных деталей.
+667;0;;It’s fascinating how much [his:t.Possessive,s3m] perspective has changed over the years.;Удивительно, насколько изменилась его точка зрения за эти годы.
+668;0;;Although [her:t.Possessive,s3f] suggestions were controversial, they sparked an interesting discussion.;Хотя её предложения были спорными, они вызвали интересную дискуссию.
+669;0;;By the end of the meeting, [her:t.Possessive,s3f] influence on the team was undeniable.;К концу собрания её влияние на команду стало неоспоримым.
+670;0;;Everyone in the office noticed that [her:t.Possessive,s3f] enthusiasm was contagious.;Все в офисе заметили, что её энтузиазм был заразительным.
+671;0;;If you look closely, [her:t.Possessive,s3f] painting reveals an impressive level of detail.;Если присмотреться, её картина раскрывает впечатляющий уровень детализации.
+672;0;;Before making a decision, [her:t.Possessive,s3f] team conducted thorough research.;Перед принятием решения её команда провела тщательное исследование.
+673;0;;The moment [her:t.Possessive,s3f] name was mentioned, everyone turned to listen.;В тот момент, когда её имя было упомянуто, все обернулись, чтобы послушать.
+674;0;;Despite [her:t.Possessive,s3f] warnings, they continued with their risky plan.;Несмотря на её предупреждения, они продолжили свой рискованный план.
+675;0;;After the storm, [its:t.Possessive,s3n] structure remained surprisingly intact despite the strong winds.;После шторма его структура осталась удивительно неповреждённой, несмотря на сильные ветры.
+676;0;;Even though the company faced challenges, [its:t.Possessive,s3n] reputation remained solid.;Несмотря на трудности, её репутация осталась прочной.
+677;0;;Because of [its:t.Possessive,s3n] design, this bridge can withstand extreme weather conditions.;Благодаря своему дизайну, этот мост может выдерживать экстремальные погодные условия.
+678;0;;The new policy is controversial, but [its:t.Possessive,s3n] implementation has already begun.;Новая политика спорна, но её внедрение уже началось.
+679;0;;We were amazed by how much [its:t.Possessive,s3n] features had improved in the new version.;Мы были поражены тем, насколько улучшились его характеристики в новой версии.
+680;0;;Thanks to [its:t.Possessive,s3n] durability, this product lasts much longer than expected.;Благодаря своей прочности, этот продукт служит намного дольше, чем ожидалось.
+681;0;;If [its:t.Possessive,s3n] performance continues to improve, the company will thrive.;Если его производительность продолжит расти, компания будет процветать.
+682;0;;Although [our:t.Possessive,p1] team was smaller, we managed to win the competition.;Хотя наша команда была меньше, мы смогли выиграть соревнование.
+683;0;;After months of preparation, [our:t.Possessive,p1] project was finally approved by the board.;После нескольких месяцев подготовки наш проект наконец был одобрен советом.
+684;0;;It was clear that [our:t.Possessive,p1] approach to solving the issue was the most efficient.;Было очевидно, что наш подход к решению проблемы был самым эффективным.
+685;0;;Before we started the journey, [our:t.Possessive,p1] guide explained the safety rules in detail.;Перед тем как мы отправились в путешествие, наш гид подробно объяснил правила безопасности.
+686;0;;As a result of [our:t.Possessive,p1] collaboration, the project exceeded all expectations.;В результате нашего сотрудничества проект превзошёл все ожидания.
+687;0;;Because of [our:t.Possessive,p1] mistake, the deadline had to be extended.;Из-за нашей ошибки срок пришлось продлить.
+688;0;;Ever since [our:t.Possessive,p1] training began, we have become much more confident.;С тех пор как началась наша подготовка, мы стали гораздо увереннее.
+689;0;;As soon as the guests arrived, [their:t.Possessive,p3] attention was drawn to the stunning view.;Как только гости прибыли, их внимание привлек потрясающий вид.
+690;0;;Even after years of separation, [their:t.Possessive,p3] bond remained as strong as ever.;Даже после многих лет разлуки их связь осталась такой же крепкой.
+691;0;;No one expected [their:t.Possessive,p3] reaction to be so emotional.;Никто не ожидал, что их реакция будет такой эмоциональной.
+692;0;;Because of [their:t.Possessive,p3] efforts, the event turned out to be a great success.;Благодаря их усилиям мероприятие оказалось большим успехом.
+693;0;;Nobody doubted that [their:t.Possessive,p3] decision was the right one in the given situation.;Никто не сомневался, что их решение было верным в данной ситуации.
+694;0;;With [their:t.Possessive,p3] support, the organization was able to expand internationally.;С их поддержкой организация смогла выйти на международный уровень.
+695;0;;It was difficult to ignore [their:t.Possessive,p3] influence on the final result.;Было трудно игнорировать их влияние на окончательный результат.
+696;0;;Do you remember [this:t.demonstr,s,near] moment?;Ты помнишь этот момент?
+697;0;;[This:t.demonstr,s,near] problem needs to be solved immediately.;Эту проблему нужно решить немедленно.
+698;0;;Can you believe [this:t.demonstr,s,near] news?;Ты можешь поверить в эти новости?
+699;0;;I can’t stop thinking about [this:t.demonstr,s,near] possibility.;Я не могу перестать думать об этой возможности.
+700;0;;We need to focus on [this:t.demonstr,s,near] issue before moving forward.;Нам нужно сосредоточиться на этом вопросе, прежде чем двигаться дальше.
+701;0;;[That:t.demonstr,s,far] was one of the best experiences of my life.;То был один из лучших моментов в моей жизни.
+702;0;;She couldn’t believe [that:t.demonstr,s,far] actually happened.;Она не могла поверить, что это действительно произошло.
+703;0;;I don’t agree with [that:t.demonstr,s,far] opinion.;Я не согласен с этим мнением.
+704;0;;[That:t.demonstr,s,far] sound is coming from outside.;Тот звук идёт снаружи.
+705;0;;If you listen carefully, you’ll understand [that:t.demonstr,s,far] idea.;Если ты послушаешь внимательно, ты поймёшь ту идею.
+706;0;;[These:t.demonstr,p,near] pictures were taken during our vacation.;Эти фотографии были сделаны во время нашего отпуска.
+707;0;;I love [these:t.demonstr,p,near] colors in your painting.;Мне нравятся эти цвета в твоей картине.
+708;0;;We should consider [these:t.demonstr,p,near] factors before making a decision.;Нам стоит учитывать эти факторы перед принятием решения.
+709;0;;[These:t.demonstr,p,near] documents need to be signed by the manager.;Эти документы должны быть подписаны менеджером.
+710;0;;Are [these:t.demonstr,p,near] the keys you were looking for?;Это те ключи, которые ты искал?
+711;0;;Who left [those:t.demonstr,p,far] bags on the table?;Кто оставил те сумки на столе?
+712;0;;I remember [those:t.demonstr,p,far] days like they were yesterday.;Я помню те дни, как будто это было вчера.
+713;0;;[Those:t.demonstr,p,far] books belong to the library.;Те книги принадлежат библиотеке.
+714;0;;Could you pass me [those:t.demonstr,p,far] papers, please?;Можешь передать мне те бумаги, пожалуйста?
+715;0;;[Those:t.demonstr,p,far] ideas were ahead of their time.;Те идеи опередили своё время.
+716;0;;The weather was perfect during [this:t.demonstr,s,near] weekend.;Погода была идеальной в эти выходные.
+717;0;;Let’s talk about [this:t.demonstr,s,near] situation calmly.;Давай спокойно обсудим эту ситуацию.
+718;0;;[That:t.demonstr,s,far] was the moment I realized my mistake.;В тот момент я осознал свою ошибку.
+719;0;;I don’t think [that:t.demonstr,s,far] is a good idea.;Я не думаю, что это хорошая идея.
+720;0;;We need to discuss [these:t.demonstr,p,near] matters with the team.;Нам нужно обсудить эти вопросы с командой.
+721;0;;Why are [these:t.demonstr,p,near] prices so high?;Почему эти цены такие высокие?
+722;0;;The teacher asked about [those:t.demonstr,p,far] assignments.;Учитель спросил про те задания.
+723;0;;I found [those:t.demonstr,p,far] shoes in the closet.;Я нашёл те туфли в шкафу.
+724;0;;What do you think about [this:t.demonstr,s,near] design?;Что ты думаешь об этом дизайне?
+725;0;;[That:t.demonstr,s,far] building was constructed over a century ago.;То здание было построено более века назад.
+726;0;;[These:t.demonstr,p,near] questions are harder than I expected.;Эти вопросы сложнее, чем я ожидал.
+727;0;;She refused to answer [those:t.demonstr,p,far] accusations.;Она отказалась отвечать на те обвинения.
+728;0;;I have never seen [this:t.demonstr,s,near] kind of technology before.;Я никогда раньше не видел такую технологию.
+729;0;;[That:t.demonstr,s,far] decision changed everything.;То решение изменило всё.
+730;0;;[What:t.interrog,Inanimate,Case.Nom] book are you reading?; Какую книгу ты читаешь?
+731;0;;[What:t.interrog,Inanimate,Case.Nom] movie do you like the most?; Какой фильм тебе нравится больше всего?
+732;0;;[What:t.interrog,Inanimate,Case.Nom] song are you listening to?; Какую песню ты слушаешь?
+733;0;;[What:t.interrog,Inanimate,Case.Nom] kind of food do you like?; Какую еду ты любишь?
+734;0;;[What:t.interrog,Inanimate,Case.Nom] city do you want to visit next?; Какой город ты хочешь посетить следующим?
+735;0;;[What:t.interrog,Inanimate,Case.Nom] phone do you recommend?; Какой телефон ты рекомендуешь?
+736;0;;[What:t.interrog,Inanimate,Case.Nom] app do you use for notes?; Какое приложение ты используешь для заметок?
+737;0;;I can't decide [what:t.interrog,Inanimate,Case.Nom] book I should read next.; Я не могу решить, какую книгу мне читать дальше.
+738;0;;She asked me [what:t.interrog,Inanimate,Case.Nom] car I had rented for the trip.; Она спросила меня, какую машину я арендовал для поездки.
+739;0;;I couldn’t remember [what:t.interrog,Inanimate,Case.Nom] gift she had given me last year.; Я не мог вспомнить, какой подарок она мне подарила в прошлом году.
+740;0;;He explained [what:t.interrog,Inanimate,Case.Nom] strategy had led to their success.; Он объяснил, какая стратегия привела к их успеху.
+741;0;;She asked me [what:t.interrog,Inanimate,Case.Nom] laptop I had bought for work.; Она спросила меня, какой ноутбук я купил для работы.
+742;0;;I need to figure out [what:t.interrog,Inanimate,Case.Nom] course would be most useful for my career.; Мне нужно понять, какой курс будет наиболее полезен для моей карьеры.
+743;0;;He was curious [what:t.interrog,Inanimate,Case.Nom] mistake had caused the system failure.; Ему было любопытно, какая ошибка привела к сбою системы.
+744;0;;[Who:t.interrog,Animate,Case.Nom] called you yesterday?; Кто звонил тебе вчера?
+745;0;;[Who:t.interrog,Animate,Case.Nom] is your best friend?; Кто твой лучший друг?
+746;0;;[Who:t.interrog,Animate,Case.Nom] won the game?; Кто выиграл игру?
+747;0;;[Who:t.interrog,Animate,Case.Nom] made this cake?; Кто сделал этот торт?
+748;0;;[Who:t.interrog,Animate,Case.Nom] is your favorite author?; Кто твой любимый автор?
+749;0;;[Who:t.interrog,Animate,Case.Nom] is responsible for this task?; Кто отвечает за это задание?
+750;0;;[Who:t.interrog,Animate,Case.Nom] knows the answer?; Кто знает ответ?
+751;0;;I don't know [who:t.interrog,Animate,Case.Nom] left the door open last night.; Я не знаю, кто оставил дверь открытой прошлой ночью.
+752;0;;She couldn't understand [who:t.interrog,Animate,Case.Nom] had sent her the anonymous letter.; Она не могла понять, кто отправил ей анонимное письмо.
+753;0;;I couldn’t tell [who:t.interrog,Animate,Case.Nom] had left the lights on.; Я не мог сказать, кто оставил свет включённым.
+754;0;;She wondered [who:t.interrog,Animate,Case.Nom] had been spreading the rumors.; Она задумалась, кто распространял слухи.
+755;0;;He had no idea [who:t.interrog,Animate,Case.Nom] had stolen his wallet.; Он не имел понятия, кто украл его кошелек.
+756;0;;The manager asked [who:t.interrog,Animate,Case.Nom] had completed the report.; Менеджер спросил, кто закончил отчет.
+757;0;;I found out [who:t.interrog,Animate,Case.Nom] had recommended me for the position.; Я выяснил, кто рекомендовал меня на эту должность.
+758;0;;[Whom:t.interrog,Animate,Case.Obj,f.frml] did you invite to the wedding?; Кого ты пригласил на свадьбу?
+759;0;;[Whom:t.interrog,Animate,Case.Obj,f.frml] should I contact for further details?; С кем мне связаться для уточнения деталей?
+760;0;;[Whom:t.interrog,Animate,Case.Obj,f.frml] do you respect the most?; Кого ты уважаешь больше всего?
+761;0;;[Whom:t.interrog,Animate,Case.Obj,f.frml] did she choose as her mentor?; Кого она выбрала своим наставником?
+762;0;;[Whom:t.interrog,Animate,Case.Obj,f.frml] should we consult before making a decision?; С кем нам следует проконсультироваться перед принятием решения?
+763;0;;[Whom:t.interrog,Animate,Case.Obj,f.frml] did the president appoint as his advisor?; Кого президент назначил своим советником?
+764;0;;[Whom:t.interrog,Animate,Case.Obj,f.frml] do you trust with sensitive information?; Кому ты доверяешь конфиденциальную информацию?
+765;0;;I wasn't sure [whom:t.interrog,Animate,Case.Obj,f.frml] he had chosen for the position.; Я не был уверен, кого он выбрал на эту должность.
+766;0;;The professor explained [whom:t.interrog,Animate,Case.Obj,f.frml] the committee had selected for the scholarship.; Профессор объяснил, кого комитет выбрал для получения стипендии.
+767;0;;I had no idea [whom:t.interrog,Animate,Case.Obj,f.frml] the director had assigned to the case.; Я не знал, кого директор назначил на это дело.
+768;0;;She asked [whom:t.interrog,Animate,Case.Obj,f.frml] the lawyer had represented in court.; Она спросила, кого адвокат представлял в суде.
+769;0;;The committee debated [whom:t.interrog,Animate,Case.Obj,f.frml] they should nominate for the award.; Комитет обсуждал, кого им следует номинировать на награду.
+770;0;;He explained [whom:t.interrog,Animate,Case.Obj,f.frml] the funds had been allocated to.; Он объяснил, кому были выделены средства.
+771;0;;The senator questioned [whom:t.interrog,Animate,Case.Obj,f.frml] the policy changes would affect.; Сенатор задал вопрос, кого коснутся изменения в политике.
+772;0;;To [whom:t.interrog,Animate,Case.Obj,f.frml,e.frml-constr] should I send this document?; Кому мне следует отправить этот документ?
+773;0;;With [whom:t.interrog,Animate,Case.Obj,f.frml,e.frml-constr] did you discuss the contract terms?; С кем вы обсуждали условия контракта?
+774;0;;For [whom:t.interrog,Animate,Case.Obj,f.frml,e.frml-constr] is this scholarship intended?; Для кого предназначена эта стипендия?
+775;0;;On [whom:t.interrog,Animate,Case.Obj,f.frml,e.frml-constr] does the final decision depend?; От кого зависит окончательное решение?
+776;0;;Against [whom:t.interrog,Animate,Case.Obj,f.frml,e.frml-constr] were the charges filed?; Против кого были выдвинуты обвинения?
+777;0;;The report must indicate to [whom:t.interrog,Animate,Case.Obj,f.frml,e.frml-constr] the funds were allocated.; Отчет должен указывать, кому были выделены средства.
+778;0;;They haven’t yet decided for [whom:t.interrog,Animate,Case.Obj,f.frml,e.frml-constr] the award will be designated.; Они еще не решили, кому будет присуждена награда.
+779;0;;It remains unclear with [whom:t.interrog,Animate,Case.Obj,f.frml,e.frml-constr] the responsibility lies.; Остается неясным, на ком лежит ответственность.
+780;0;;The committee is discussing to [whom:t.interrog,Animate,Case.Obj,f.frml,e.frml-constr] they should grant the research funds.; Комитет обсуждает, кому следует предоставить исследовательские гранты.
+781;0;;The legal team needs to determine against [whom:t.interrog,Animate,Case.Obj,f.frml,e.frml-constr] the lawsuit should be filed.; Юридическая команда должна определить, против кого следует подать иск.
+782;0;;[Who:t.interrog,Animate,Case.Obj,f.coll] did you invite to the wedding?; Кого ты пригласил на свадьбу?
+783;0;;[Who:t.interrog,Animate,Case.Obj,f.coll] should I contact for further details?; С кем мне связаться для уточнения деталей?
+784;0;;[Who:t.interrog,Animate,Case.Obj,f.coll] did you see at the meeting?; Кого ты видел на собрании?
+785;0;;[Who:t.interrog,Animate,Case.Obj,f.coll] are you waiting for?; Кого ты ждёшь?
+786;0;;[Who:t.interrog,Animate,Case.Obj,f.coll] do you admire the most?; Кем ты больше всего восхищаешься?
+787;0;;[Who:t.interrog,Animate,Case.Obj,f.coll] did you ask for help?; Кого ты попросил о помощи?
+788;0;;[Who:t.interrog,Animate,Case.Obj,f.coll] did they hire for the job?; Кого они наняли на работу?
+789;0;;I wasn't sure [who:t.interrog,Animate,Case.Obj,f.coll] he had chosen for the position.; Я не был уверен, кого он выбрал на эту должность.
+790;0;;The professor explained [who:t.interrog,Animate,Case.Obj,f.coll] the committee had selected for the scholarship.; Профессор объяснил, кого комитет выбрал для получения стипендии.
+791;0;;I didn’t know [who:t.interrog,Animate,Case.Obj,f.coll] they had chosen for the award.; Я не знал, кого они выбрали на награду.
+792;0;;She asked [who:t.interrog,Animate,Case.Obj,f.coll] I had talked to about the issue.; Она спросила, с кем я говорил по этому вопросу.
+793;0;;He was wondering [who:t.interrog,Animate,Case.Obj,f.coll] she had invited to dinner.; Он гадал, кого она пригласила на ужин.
+794;0;;They were discussing [who:t.interrog,Animate,Case.Obj,f.coll] should be the next team leader.; Они обсуждали, кто должен быть следующим лидером команды.
+795;0;;I wasn’t sure [who:t.interrog,Animate,Case.Obj,f.coll] the manager had promoted.; Я не был уверен, кого менеджер повысил.
+796;0;;[Whose:t.interrog,a.y/n,Case.Pos] jacket is this?; Чья это куртка?
+797;0;;[Whose:t.interrog,a.y/n,Case.Pos] idea was that?; Чья это была идея?
+798;0;;[Whose:t.interrog,a.y/n,Case.Pos] car is parked outside?; Чья машина припаркована снаружи?
+799;0;;[Whose:t.interrog,a.y/n,Case.Pos] pen did you borrow?; Чью ручку ты одолжил?
+800;0;;[Whose:t.interrog,a.y/n,Case.Pos] responsibility is it to handle this?; Чья это ответственность?
+801;0;;[Whose:t.interrog,a.y/n,Case.Pos] shoes are these?; Чья это обувь?
+802;0;;[Whose:t.interrog,a.y/n,Case.Pos] decision was final?; Чьё решение было окончательным?
+803;0;;I don't know [whose:t.interrog,a.y/n,Case.Pos] phone was left on the table.; Я не знаю, чей телефон оставили на столе.
+804;0;;She was curious [whose:t.interrog,a.y/n,Case.Pos] decision had influenced the outcome.; Ей было интересно, чьё решение повлияло на исход.
+805;0;;I couldn't figure out [whose:t.interrog,a.y/n,Case.Pos] idea had been rejected.; Я не мог понять, чью идею отклонили.
+806;0;;She asked [whose:t.interrog,a.y/n,Case.Pos] documents had been left on her desk.; Она спросила, чьи документы оставили на её столе.
+807;0;;The teacher inquired [whose:t.interrog,a.y/n,Case.Pos] phone had been ringing.; Учитель спросил, чей телефон звонил.
+808;0;;He was trying to determine [whose:t.interrog,a.y/n,Case.Pos] fault it was.; Он пытался определить, чья это была вина.
+809;0;;They were debating [whose:t.interrog,a.y/n,Case.Pos] proposal should be approved.; Они обсуждали, чьё предложение следует утвердить.
+810;0;;[Which:t.interrog,a.y] student won the award?; Какой студент выиграл награду?
+811;0;;[Which:t.interrog,a.y] doctor specializes in cardiology?; Какой врач специализируется на кардиологии?
+812;0;;[Which:t.interrog,a.y] teacher gave you this assignment?; Какой учитель дал тебе это задание?
+813;0;;[Which:t.interrog,a.y] scientist made this discovery?; Какой ученый сделал это открытие?
+814;0;;[Which:t.interrog,a.y] athlete broke the record?; Какой спортсмен побил рекорд?
+815;0;;[Which:t.interrog,a.y] author wrote this novel?; Какой автор написал этот роман?
+816;0;;[Which:t.interrog,a.y] musician performed at the concert?; Какой музыкант выступал на концерте?
+817;0;;I wasn’t sure [which:t.interrog,a.y] student had submitted the best project.; Я не был уверен, какой студент представил лучший проект.
+818;0;;She asked me [which:t.interrog,a.y] professor had the highest ratings.; Она спросила меня, у какого профессора самые высокие оценки.
+819;0;;The jury was discussing [which:t.interrog,a.y] candidate deserved the prize.; Жюри обсуждало, какой кандидат заслуживает награду.
+820;0;;We need to determine [which:t.interrog,a.y] researcher contributed the most to the study.; Нам нужно определить, какой исследователь внес наибольший вклад в исследование.
+821;0;;He debated with his colleagues [which:t.interrog,a.y] director should lead the project.; Он обсуждал с коллегами, какой директор должен возглавить проект.
+822;0;;The organizers couldn’t decide [which:t.interrog,a.y] speaker should open the conference.; Организаторы не могли решить, какой спикер должен открыть конференцию.
+823;0;;The hiring committee is evaluating [which:t.interrog,a.y] applicant has the best qualifications.; Комитет по найму оценивает, какой кандидат обладает лучшими квалификациями.
+824;0;;[Which:t.interrog,a.n] book do you recommend?; Какую книгу ты рекомендуешь?
+825;0;;[Which:t.interrog,a.n] car is more fuel-efficient?; Какая машина более экономична по топливу?
+826;0;;[Which:t.interrog,a.n] city has the best public transport?; Какой город имеет лучший общественный транспорт?
+827;0;;[Which:t.interrog,a.n] language is the most difficult to learn?; Какой язык самый сложный для изучения?
+828;0;;[Which:t.interrog,a.n] movie won the Oscar this year?; Какой фильм выиграл Оскар в этом году?
+829;0;;[Which:t.interrog,a.n] software is best for video editing?; Какое программное обеспечение лучше для видеомонтажа?
+830;0;;[Which:t.interrog,a.n] phone has the best battery life?; Какой телефон имеет лучшую автономность?
+831;0;;I wasn’t sure [which:t.interrog,a.n] car model would suit my needs.; Я не был уверен, какая модель автомобиля подойдет мне лучше.
+832;0;;She asked [which:t.interrog,a.n] programming language is most useful for web development.; Она спросила, какой язык программирования наиболее полезен для веб-разработки.
+833;0;;They discussed [which:t.interrog,a.n] university provides the best engineering program.; Они обсуждали, какой университет предлагает лучшую инженерную программу.
+834;0;;He needed to decide [which:t.interrog,a.n] investment would be the safest.; Ему нужно было решить, какое вложение будет самым безопасным.
+835;0;;The scientists analyzed [which:t.interrog,a.n] climate model was the most accurate.; Ученые проанализировали, какая климатическая модель была самой точной.
+836;0;;We had to find out [which:t.interrog,a.n] airline offered the best service.; Нам нужно было выяснить, какая авиакомпания предлагает лучший сервис.
+837;0;;The manager evaluated [which:t.interrog,a.n] strategy would yield the highest profit.; Менеджер оценивал, какая стратегия принесет наибольшую прибыль.
+838;0;;The teacher [who:t.relative,animate,f.ntrl/frml] helped us was very kind.;Учитель, который нам помог, был очень добрым.
+839;0;;She met a scientist [who:t.relative,animate,f.ntrl/frml] discovered a new element.;Она встретила учёного, который открыл новый элемент.
+840;0;;The woman [who:t.relative,animate,f.ntrl/frml] lives next door is a doctor.;Женщина, которая живёт по соседству, – врач.
+841;0;;The author [who:t.relative,animate,f.ntrl/frml] wrote this book is famous.;Автор, который написал эту книгу, известен.
+842;0;;I have a friend [who:t.relative,animate,f.ntrl/frml] loves hiking.;У меня есть друг, который любит пешие прогулки.
+843;0;;The musician [who:t.relative,animate,f.ntrl/frml] you saw yesterday has won many awards.;Музыкант, которого ты видел вчера, выиграл много наград.
+844;0;;The manager [who:t.relative,animate,f.ntrl/frml] oversees this department is very strict.;Менеджер, который курирует этот отдел, очень строг.
+845;0;;There is a professor [who:t.relative,animate,f.ntrl/frml] specializes in ancient history.;Есть профессор, который специализируется на древней истории.
+846;0;;My colleague [who:t.relative,animate,f.ntrl/frml] recently moved here is very friendly.;Мой коллега, который недавно сюда переехал, очень дружелюбный.
+847;0;;The politician [who:t.relative,animate,f.ntrl/frml] proposed the law faced criticism.;Политик, который предложил этот закон, столкнулся с критикой.
+848;0;;The consultant [whom:t.relative,animate,f.frml] we hired is very experienced.;Консультант, которого мы наняли, очень опытный.
+849;0;;She spoke to the expert [whom:t.relative,animate,f.frml] you recommended.;Она поговорила с экспертом, которого ты порекомендовал.
+850;0;;The professor [whom:t.relative,animate,f.frml] I respect the most is retiring.;Профессор, которого я больше всего уважаю, уходит на пенсию.
+851;0;;The lawyer [whom:t.relative,animate,f.frml] they consulted gave great advice.;Адвокат, с которым они консультировались, дал отличный совет.
+852;0;;The artist [whom:t.relative,animate,f.frml] we met at the gallery was fascinating.;Художник, с которым мы встретились в галерее, был очень интересным.
+853;0;;The delegate [whom:t.relative,animate,f.frml] they appointed had a lot of experience.;Делегат, которого они назначили, имел большой опыт.
+854;0;;The scientist [whom:t.relative,animate,f.frml] the committee chose will lead the project.;Учёный, которого выбрал комитет, будет руководить проектом.
+855;0;;The doctor [whom:t.relative,animate,f.frml] you called is unavailable today.;Доктор, которого ты вызвал, сегодня недоступен.
+856;0;;The speaker [whom:t.relative,animate,f.frml] they invited declined the offer.;Спикер, которого они пригласили, отказался от предложения.
+857;0;;The actor [whom:t.relative,animate,f.frml] we saw at the event is a well-known celebrity.;Актёр, которого мы видели на мероприятии, – известная знаменитость.
+858;0;;The guy [that:t.relative,animate,f.infr] fixed my car was really fast.;Парень, который починил мою машину, был очень быстрым.
+859;0;;I know someone [that:t.relative,animate,f.infr] can help us.;Я знаю кого-то, кто может нам помочь.
+860;0;;The teacher [that:t.relative,animate,f.infr] teaches math is really strict.;Учитель, который преподаёт математику, очень строгий.
+861;0;;The kid [that:t.relative,animate,f.infr] won the race is my cousin.;Ребёнок, который выиграл гонку, – мой двоюродный брат.
+862;0;;She has a friend [that:t.relative,animate,f.infr] loves rock music.;У неё есть друг, который любит рок-музыку.
+863;0;;The man [that:t.relative,animate,f.infr] I saw yesterday looked familiar.;Мужчина, которого я видел вчера, выглядел знакомым.
+864;0;;The workers [that:t.relative,animate,f.infr] they hired are very professional.;Рабочие, которых они наняли, очень профессиональные.
+865;0;;The athlete [that:t.relative,animate,f.infr] broke the record trained for years.;Атлет, который побил рекорд, тренировался годами.
+866;0;;The singer [that:t.relative,animate,f.infr] we heard last night was amazing.;Певец, которого мы слышали прошлой ночью, был потрясающим.
+867;0;;The guy [that:t.relative,animate,f.infr] helped me find my phone was kind.;Парень, который помог мне найти телефон, был добрым.
+868;0;;The book [that:t.relative,inanimate,f.ntrl] I read was fascinating.;Книга, которую я прочитал, была увлекательной.
+869;0;;The car [that:t.relative,inanimate,f.ntrl] she bought is very expensive.;Машина, которую она купила, очень дорогая.
+870;0;;The laptop [that:t.relative,inanimate,f.ntrl] you recommended works great.;Ноутбук, который ты порекомендовал, работает отлично.
+871;0;;The movie [that:t.relative,inanimate,f.ntrl] we watched was boring.;Фильм, который мы посмотрели, был скучным.
+872;0;;The song [that:t.relative,inanimate,f.ntrl] they played is my favorite.;Песня, которую они сыграли, моя любимая.
+873;0;;The chair [that:t.relative,inanimate,f.ntrl] I repaired is now sturdy.;Стул, который я починил, теперь прочный.
+874;0;;The road [that:t.relative,inanimate,f.ntrl] leads to the city is closed.;Дорога, которая ведёт в город, закрыта.
+875;0;;The program [that:t.relative,inanimate,f.ntrl] he designed is user-friendly.;Программа, которую он разработал, удобна для пользователей.
+876;0;;The idea [that:t.relative,inanimate,f.ntrl] they proposed is interesting.;Идея, которую они предложили, интересная.
+877;0;;The coffee [that:t.relative,inanimate,f.ntrl] she made is delicious.;Кофе, который она приготовила, вкусный.
+878;0;;The project [which:t.relative,inanimate,f.ntrl/frml] was approved will begin soon.;Проект, который был одобрен, скоро начнётся.
+879;0;;The document [which:t.relative,inanimate,f.ntrl/frml] she sent contains errors.;Документ, который она отправила, содержит ошибки.
+880;0;;The bridge [which:t.relative,inanimate,f.ntrl/frml] collapsed was very old.;Мост, который рухнул, был очень старым.
+881;0;;The plan [which:t.relative,inanimate,f.ntrl/frml] they developed is detailed.;План, который они разработали, детализирован.
+882;0;;The system [which:t.relative,inanimate,f.ntrl/frml] we use is efficient.;Система, которую мы используем, эффективная.
+883;0;;The research [which:t.relative,inanimate,f.ntrl/frml] they conducted took years.;Исследование, которое они проводили, заняло годы.
+884;0;;The method [which:t.relative,inanimate,f.ntrl/frml] they suggested is effective.;Метод, который они предложили, эффективен.
+885;0;;The book [which:t.relative,inanimate,f.ntrl/frml] I borrowed is interesting.;Книга, которую я взял, интересная.
+886;0;;The software [which:t.relative,inanimate,f.ntrl/frml] he created is revolutionary.;Программное обеспечение, которое он создал, революционное.
+887;0;;The policy [which:t.relative,inanimate,f.ntrl/frml] was introduced has many benefits.;Политика, которая была введена, имеет много преимуществ.
+888;0;;I need [some:t.indef,s,uncountable,inanimate,f.ntrl] water.;Мне нужно немного воды.
+889;0;;Some [some:t.indef,p,countable,animate,f.ntrl] people enjoy reading.;Некоторым людям нравится читать.
+890;0;;Could you lend me [some:t.indef,s,uncountable,inanimate,f.ntrl] money?;Можешь одолжить мне немного денег?
+891;0;;She brought [some:t.indef,p,countable,inanimate,f.ntrl] flowers.;Она принесла немного цветов.
+892;0;;We have [some:t.indef,s,uncountable,inanimate,f.ntrl] news to share.;У нас есть новости, которыми мы хотим поделиться.
+893;0;;Do you have [any:t.indef,p,countable,inanimate,f.ntrl] questions?;У вас есть какие-нибудь вопросы?
+894;0;;You can choose [any:t.indef,s,countable,inanimate,f.ntrl] book you like.;Ты можешь выбрать любую книгу, которая тебе нравится.
+895;0;;Is there [any:t.indef,s,uncountable,inanimate,f.ntrl] food left?;Осталась ли какая-нибудь еда?
+896;0;;I didn’t see [any:t.indef,s,uncountable,inanimate,f.ntrl] difference.;Я не заметил никакой разницы.
+897;0;;Do you know [any:t.indef,p,countable,inanimate,f.ntrl] good restaurants nearby?;Ты знаешь какие-нибудь хорошие рестораны поблизости?
+898;0;;[none:t.indef,p,countable,animate,f.ntrl] of them came.;Никто из них не пришёл.
+899;0;;[none:t.indef,p,countable,inanimate,f.ntrl] of the answers were correct.;Ни один из ответов не был правильным.
+900;0;;[none:t.indef,p,countable,animate,f.ntrl] of the students passed the test.;Ни один из студентов не сдал тест.
+901;0;;There’s [none:t.indef,s,uncountable,inanimate,f.ntrl] left in the fridge.;В холодильнике ничего не осталось.
+902;0;;[none:t.indef,p,countable,animate,f.ntrl] of us knew about it.;Никто из нас не знал об этом.
+903;0;;[all:t.indef,s,uncountable,inanimate,f.ntrl] is well.;Всё хорошо.
+904;0;;[all:t.indef,p,countable,animate,f.ntrl] the students passed the exam.;Все студенты сдали экзамен.
+905;0;;She gave [all:t.indef,s,uncountable,inanimate,f.ntrl] her time to the project.;Она отдала всё своё время проекту.
+906;0;;[all:t.indef,p,countable,animate,f.ntrl] of us were excited.;Все мы были взволнованы.
+907;0;;[all:t.indef,p,countable,inanimate,f.ntrl] the cookies are gone.;Все печенья закончились.
+908;0;;[one:t.indef,s,countable,animate,f.ntrl] should always be polite.;Всегда нужно быть вежливым.
+909;0;;[one:t.indef,s,countable,animate,f.ntrl] of the students is absent.;Один из студентов отсутствует.
+910;0;;Do you want [one:t.indef,s,countable,inanimate,f.ntrl] or two cups of coffee?;Ты хочешь одну или две чашки кофе?
+911;0;;[one:t.indef,s,countable,animate,f.ntrl] must respect others.;Нужно уважать других.
+912;0;;She bought [one:t.indef,s,countable,inanimate,f.ntrl] for herself.;Она купила один для себя.
+913;0;;[someone:t.indef,s,countable,animate,f.ntrl] is at the door.;Кто-то у двери.
+914;0;;[someone:t.indef,s,countable,animate,f.ntrl] left their phone here.;Кто-то оставил здесь свой телефон.
+915;0;;She met [someone:t.indef,s,countable,animate,f.ntrl] new yesterday.;Она встретила кого-то нового вчера.
+916;0;;[someone:t.indef,s,countable,animate,f.ntrl] should take responsibility.;Кто-то должен взять на себя ответственность.
+917;0;;Is [someone:t.indef,s,countable,animate,f.ntrl] coming to help us?;Кто-то придёт, чтобы помочь нам?
+918;0;;Is there [anyone:t.indef,s,countable,animate,f.ntrl] who can help?;Есть кто-нибудь, кто может помочь?
+919;0;;[anyone:t.indef,s,countable,animate,f.ntrl] can join the club.;Любой может вступить в клуб.
+920;0;;Did [anyone:t.indef,s,countable,animate,f.ntrl] call while I was out?;Кто-нибудь звонил, пока меня не было?
+921;0;;Does [anyone:t.indef,s,countable,animate,f.ntrl] know the answer?;Кто-нибудь знает ответ?
+922;0;;[anyone:t.indef,s,countable,animate,f.ntrl] can learn to swim.;Каждый может научиться плавать.
+923;0;;[no one:t.indef,s,countable,animate,f.ntrl] knows the answer.;Никто не знает ответа.
+924;0;;[no one:t.indef,s,countable,animate,f.ntrl] came to the meeting.;Никто не пришёл на встречу.
+925;0;;[no one:t.indef,s,countable,animate,f.ntrl] can solve this problem.;Никто не может решить эту проблему.
+926;0;;She told [no one:t.indef,s,countable,animate,f.ntrl] about her plans.;Она никому не рассказала о своих планах.
+927;0;;[no one:t.indef,s,countable,animate,f.ntrl] is allowed to enter.;Никому не разрешено входить.
+928;0;;There is [nothing:t.negative,Inanimate,d.abs] to worry about.;Не о чем волноваться.
+929;0;;She has [nothing:t.negative,Inanimate,d.abs] to say.;Ей нечего сказать.
+930;0;;[nothing:t.negative,Inanimate,d.abs] is more important than health.;Ничего нет важнее здоровья.
+931;0;;I have [nothing:t.negative,Inanimate,d.abs] in my pockets.;У меня ничего нет в карманах.
+932;0;;[nothing:t.negative,Inanimate,d.abs] will stop us.;Ничто нас не остановит.
+933;0;;I told you [nothing:t.negative,Inanimate,d.abs] about it.;Я тебе ничего не говорил об этом.
+934;0;;She found [nothing:t.negative,Inanimate,d.abs] interesting in the book.;Она не нашла в книге ничего интересного.
+935;0;;We saw [nothing:t.negative,Inanimate,d.abs] unusual in his behavior.;Мы не заметили в его поведении ничего необычного.
+936;0;;They gave me [nothing:t.negative,Inanimate,d.abs] useful.;Они не дали мне ничего полезного.
+937;0;;He remembers [nothing:t.negative,Inanimate,d.abs] from that night.;Он ничего не помнит с той ночи.
+938;0;;They searched everywhere, but found [nothing:t.negative,Inanimate,d.abs].;Они искали повсюду, но ничего не нашли.
+939;0;;[no one:t.negative,Animate,s,f.frml] can enter.;Никто не может войти.
+940;0;;[no one:t.negative,Animate,s,f.frml] knew the answer.;Никто не знал ответа.
+941;0;;[no one:t.negative,Animate,s,f.frml] wants to leave early.;Никто не хочет уходить рано.
+942;0;;[no one:t.negative,Animate,s,f.frml] saw what happened.;Никто не видел, что произошло.
+943;0;;[no one:t.negative,Animate,s,f.frml] was ready for the test.;Никто не был готов к тесту.
+944;0;;The teacher said [no one:t.negative,Animate,s,f.frml] passed the test.;Учитель сказал, что никто не сдал тест.
+945;0;;[No one:t.negative,Animate,s,f.frml] in the group understood the question.;Никто в группе не понял вопрос.
+946;0;;She spoke to [no one:t.negative,Animate,s,f.frml] about her problem.;Она ни с кем не говорила о своей проблеме.
+947;0;;We invited many people, but [no one:t.negative,Animate,s,f.frml] showed up.;Мы пригласили многих, но никто не пришёл.
+948;0;;[nobody:t.negative,Animate,s,f.ntrl] saw him.;Никто его не видел.
+949;0;;[nobody:t.negative,Animate,s,f.ntrl] was in the room.;Никого не было в комнате.
+950;0;;[nobody:t.negative,Animate,s,f.ntrl] can help with this task.;Никто не может помочь с этим заданием.
+951;0;;[nobody:t.negative,Animate,s,f.ntrl] believed her story.;Никто не поверил её истории.
+952;0;;[nobody:t.negative,Animate,s,f.ntrl] is answering the phone.;Никто не отвечает на телефон.
+953;0;;[Nobody:t.negative,Animate,s,f.ntrl] in the office noticed the mistake.;Никто в офисе не заметил ошибку.
+954;0;;He asked for help, but [nobody:t.negative,Animate,s,f.ntrl] was available.;Он попросил помощи, но никто не был доступен.
+955;0;;She waited for a response, but [nobody:t.negative,Animate,s,f.ntrl] replied.;Она ждала ответа, но никто не ответил.
+956;0;;He needed support, but [nobody:t.negative,Animate,s,f.ntrl] stood by him.;Ему нужна была поддержка, но никто его не поддержал.
+957;0;;[none:t.negative,a.y/n,d.group] of them agreed.;Никто из них не согласился.
+958;0;;[none:t.negative,a.y/n,d.group] of the plans worked.;Ни один из планов не сработал.
+959;0;;[none:t.negative,a.y/n,d.group] of the students passed the exam.;Никто из студентов не сдал экзамен.
+960;0;;[none:t.negative,a.y/n,d.group] of us knew what to do.;Никто из нас не знал, что делать.
+961;0;;[none:t.negative,a.y/n,d.group] of the cookies are left.;Печенье закончилось.
+962;0;;[None:t.negative,a.y/n,d.group] of my friends like this movie.;Никому из моих друзей не нравится этот фильм.
+963;0;;[None:t.negative,a.y/n,d.group] of them remembered the rule.;Никто из них не вспомнил правило.
+964;0;;He asked for cookies, but [none:t.negative,a.y/n,d.group] were left.;Он попросил печенье, но его не осталось.
+965;0;;She checked the messages, but [none:t.negative,a.y/n,d.group] were unread.;Она проверила сообщения, но непрочитанных не осталось.
+966;0;;We looked for volunteers, but [none:t.negative,a.y/n,d.group] wanted to help.;Мы искали добровольцев, но никто не захотел помочь.
+967;0;;I wanted answers, but [none:t.negative,a.y/n,d.group] of them made sense.;Я хотел получить ответы, но ни один из них не имел смысла.
+968;0;;They respect [each other:t.reciprocal,d.2,f.ntrl/frml].;Они уважают друг друга.
+969;0;;We always support [each other:t.reciprocal,d.2,f.ntrl/frml].;Мы всегда поддерживаем друг друга.
+970;0;;John and Lisa looked at [each other:t.reciprocal,d.2,f.ntrl/frml] in surprise.;Джон и Лиза удивленно посмотрели друг на друга.
+971;0;;They helped [each other:t.reciprocal,d.2,f.ntrl/frml] with their homework.;Они помогали друг другу с домашней работой.
+972;0;;The two brothers argued with [each other:t.reciprocal,d.2,f.ntrl/frml] a lot.;Эти два брата часто спорили друг с другом.
+973;0;;The couple wrote letters to [each other:t.reciprocal,d.2,f.ntrl/frml] for years.;Эта пара писала друг другу письма годами.
+974;0;;Sarah and Tom smiled at [each other:t.reciprocal,d.2,f.ntrl/frml].;Сара и Том улыбнулись друг другу.
+975;0;;The rivals tried to outsmart [each other:t.reciprocal,d.2,f.ntrl/frml].;Соперники пытались перехитрить друг друга.
+976;0;;We called [each other:t.reciprocal,d.2,f.ntrl/frml] every evening.;Мы звонили друг другу каждый вечер.
+977;0;;They shared their secrets with [each other:t.reciprocal,d.2,f.ntrl/frml].;Они делились своими секретами друг с другом.
+978;0;;The students in the class often help [each other:t.reciprocal,d.grp,f.ntrl].;Ученики в классе часто помогают друг другу.
+979;0;;We should listen to [each other:t.reciprocal,d.grp,f.ntrl] more carefully.;Нам стоит внимательнее слушать друг друга.
+980;0;;The kids were throwing the ball to [each other:t.reciprocal,d.grp,f.ntrl].;Дети перекидывали мяч друг другу.
+981;0;;The musicians in the band inspire [each other:t.reciprocal,d.grp,f.ntrl].;Музыканты в группе вдохновляют друг друга.
+982;0;;Friends should always be there for [each other:t.reciprocal,d.grp,f.ntrl].;Друзья всегда должны поддерживать друг друга.
+983;0;;The participants in the game challenged [each other:t.reciprocal,d.grp,f.ntrl].;Участники игры бросали вызовы друг другу.
+984;0;;They laughed and joked with [each other:t.reciprocal,d.grp,f.ntrl] all evening.;Они весь вечер смеялись и шутили друг с другом.
+985;0;;The team members worked closely with [each other:t.reciprocal,d.grp,f.ntrl].;Члены команды тесно работали друг с другом.
+986;0;;We exchanged gifts with [each other:t.reciprocal,d.grp,f.ntrl] during the holidays.;Мы обменялись подарками друг с другом в праздники.
+987;0;;The neighbors in the community support [each other:t.reciprocal,d.grp,f.ntrl].;Соседи в сообществе поддерживают друг друга.
+988;0;;The colleagues addressed [one another:t.reciprocal,d.grp,f.frml] with respect.;Коллеги обращались друг к другу с уважением.
+989;0;;The conference participants introduced [one another:t.reciprocal,d.grp,f.frml].;Участники конференции представили друг друга.
+990;0;;In a civilized society, people must trust [one another:t.reciprocal,d.grp,f.frml].;В цивилизованном обществе люди должны доверять друг другу.
+991;0;;The scholars exchanged research ideas with [one another:t.reciprocal,d.grp,f.frml].;Ученые обменивались идеями исследований друг с другом.
+992;0;;The members of the organization collaborate with [one another:t.reciprocal,d.grp,f.frml].;Члены организации сотрудничают друг с другом.
+993;0;;The diplomats negotiated with [one another:t.reciprocal,d.grp,f.frml] for hours.;Дипломаты вели переговоры друг с другом часами.
+994;0;;The panelists debated [one another:t.reciprocal,d.grp,f.frml] during the discussion.;Участники панели дискутировали друг с другом во время обсуждения.
+995;0;;The delegates greeted [one another:t.reciprocal,d.grp,f.frml] at the reception.;Делегаты приветствовали друг друга на приеме.
+996;0;;The executives shared insights with [one another:t.reciprocal,d.grp,f.frml].;Руководители обменивались идеями друг с другом.
+997;0;;The representatives of different nations learned from [one another:t.reciprocal,d.grp,f.frml].;Представители разных наций учились друг у друга.
+998;0;;You can take [either:t.determ,c.y,d.1of2,e.positive] seat near the window.;Ты можешь занять любое из двух мест у окна.
+999;0;;I don’t think [either:t.determ,c.y,d.1of2,e.positive] solution is perfect.;Я не думаю, что любое из двух решений идеально.
+1000;0;;You may choose [either:t.determ,c.y,d.1of2,e.positive] method for your experiment.;Ты можешь выбрать любой из двух методов для эксперимента.
+1001;0;;He doesn’t like [either:t.determ,c.y,d.1of2,e.positive] of the available options.;Ему не нравится ни один из двух доступных вариантов.
+1002;0;;She bought a dress, but she couldn’t decide on [either:t.determ,c.y,d.1of2,e.positive] color.;Она купила платье, но не могла выбрать ни один из двух цветов.
+1003;0;;[Either:t.determ,c.y,d.1of2,e.positive] answer would be acceptable in this case.;Любой из двух ответов будет приемлем в этом случае.
+1004;0;;He stood at the crossroads, looking at [either:t.determ,c.y,d.1of2,e.positive] direction with uncertainty.;Он стоял на перекрестке, смотря в любую из двух сторон с неуверенностью.
+1005;0;;There was a road on [either:t.determ,c.y,d.1of2,e.positive] side of the river.;По обе стороны реки была дорога.
+1006;0;;I don’t think [either:t.determ,c.y,d.1of2,e.positive] of us wants to lose this opportunity.;Я не думаю, что кто-то из нас двоих хочет упустить эту возможность.
+1007;0;;You should try [either:t.determ,c.y,d.1of2,e.positive] key to unlock the door.;Попробуй любой из двух ключей, чтобы открыть дверь.
+1008;0;;[Each:t.determ,c.y,d.1ofgrp,e.individuality] student must submit their assignment before Friday.;Каждый студент должен сдать свое задание до пятницы.
+1009;0;;She gave [each:t.determ,c.y,d.1ofgrp,e.individuality] of her children a separate gift.;Она подарила каждому из своих детей отдельный подарок.
+1010;0;;[Each:t.determ,c.y,d.1ofgrp,e.individuality] participant received a certificate of completion.;Каждый участник получил сертификат о прохождении.
+1011;0;;The teacher spoke to [each:t.determ,c.y,d.1ofgrp,e.individuality] student separately.;Учитель поговорил с каждым студентом отдельно.
+1012;0;;I greeted [each:t.determ,c.y,d.1ofgrp,e.individuality] guest personally as they arrived.;Я лично приветствовал каждого гостя по прибытии.
+1013;0;;She placed a flower on [each:t.determ,c.y,d.1ofgrp,e.individuality] desk before the meeting.;Она положила цветок на каждый стол перед собранием.
+1014;0;;[Each:t.determ,c.y,d.1ofgrp,e.individuality] chapter in this book has a summary at the end.;Каждая глава в этой книге имеет резюме в конце.
+1015;0;;He checked [each:t.determ,c.y,d.1ofgrp,e.individuality] email carefully before replying.;Он внимательно проверил каждое письмо перед ответом.
+1016;0;;[Each:t.determ,c.y,d.1ofgrp,e.individuality] of the candidates will have a chance to speak.;Каждый из кандидатов получит возможность высказаться.
+1017;0;;I spent time talking to [each:t.determ,c.y,d.1ofgrp,e.individuality] employee about their concerns.;Я поговорил с каждым сотрудником об их проблемах.
+1018;0;;[Every:t.determ,c.y,d.1ofgrp,e.general] morning, she goes for a run in the park.;Каждое утро она бегает в парке.
+1019;0;;[Every:t.determ,c.y,d.1ofgrp,e.general] employee must follow the company's guidelines.;Каждый сотрудник должен соблюдать правила компании.
+1020;0;;He reads a new book [every:t.determ,c.y,d.1ofgrp,e.general] month.;Он читает новую книгу каждый месяц.
+1021;0;;I wake up at the same time [every:t.determ,c.y,d.1ofgrp,e.general] day.;Я просыпаюсь в одно и то же время каждый день.
+1022;0;;She calls her parents [every:t.determ,c.y,d.1ofgrp,e.general] Sunday evening.;Она звонит родителям каждое воскресенье вечером.
+1023;0;;The team meets for a briefing [every:t.determ,c.y,d.1ofgrp,e.general] Monday morning.;Команда собирается на брифинг каждое утро понедельника.
+1024;0;;[Every:t.determ,c.y,d.1ofgrp,e.general] child in the school was given a free book.;Каждому ребенку в школе подарили бесплатную книгу.
+1025;0;;The system is checked for updates [every:t.determ,c.y,d.1ofgrp,e.general] week.;Система проверяется на обновления каждую неделю.
+1026;0;;We clean the house [every:t.determ,c.y,d.1ofgrp,e.general] Saturday.;Мы убираем дом каждую субботу.
+1027;0;;[Every:t.determ,c.y,d.1ofgrp,e.general] seat in the theater was taken.;Каждое место в театре было занято.
+1028;0;;[Both:t.determ,c.y,d.2,e.positive] of my friends are coming to the party.;Оба моих друга придут на вечеринку.
+1029;0;;He is good at [both:t.determ,c.y,d.2,e.positive] math and science.;Он хорош и в математике, и в науке.
+1030;0;;She can speak [both:t.determ,c.y,d.2,e.positive] French and Spanish fluently.;Она свободно говорит и на французском, и на испанском.
+1031;0;;They [both:t.determ,c.y,d.2,e.positive] agreed to the terms of the contract.;Они оба согласились с условиями контракта.
+1032;0;;[Both:t.determ,c.y,d.2,e.positive] solutions are acceptable in this case.;Оба решения приемлемы в этом случае.
+1033;0;;We visited [both:t.determ,c.y,d.2,e.positive] cities during our trip.;Мы посетили оба города во время поездки.
+1034;0;;He likes [both:t.determ,c.y,d.2,e.positive] coffee and tea.;Ему нравятся и кофе, и чай.
+1035;0;;[Both:t.determ,c.y,d.2,e.positive] of the restaurants have excellent reviews.;Оба ресторана имеют отличные отзывы.
+1036;0;;The twins look [both:t.determ,c.y,d.2,e.positive] identical.;Близнецы выглядят совершенно одинаково.
+1037;0;;You should check [both:t.determ,c.y,d.2,e.positive] options before deciding.;Тебе следует проверить оба варианта перед принятием решения.
+1038;0;;[Neither:t.determ,c.y,d.2,e.negative] of the solutions worked as expected.;Ни одно из двух решений не сработало, как ожидалось.
+1039;0;;[Neither:t.determ,c.y,d.2,e.negative] of them wanted to take responsibility.;Ни один из них не хотел брать на себя ответственность.
+1040;0;;I like [neither:t.determ,c.y,d.2,e.negative] option that was offered.;Мне не нравится ни один из предложенных вариантов.
+1041;0;;She can play [neither:t.determ,c.y,d.2,e.negative] piano nor guitar.;Она не умеет играть ни на пианино, ни на гитаре.
+1042;0;;[Neither:t.determ,c.y,d.2,e.negative] of us knew the correct answer.;Ни один из нас двоих не знал правильного ответа.
+1043;0;;The instructions were unclear, so [neither:t.determ,c.y,d.2,e.negative] approach worked.;Инструкции были непонятны, поэтому ни один из подходов не сработал.
+1044;0;;[Neither:t.determ,c.y,d.2,e.negative] parent agreed with the decision.;Ни один из родителей не согласился с решением.
+1045;0;;He tried two methods, but [neither:t.determ,c.y,d.2,e.negative] was effective.;Он попробовал два метода, но ни один не был эффективен.
+1046;0;;[Neither:t.determ,c.y,d.2,e.negative] film was interesting enough to watch till the end.;Ни один из фильмов не был достаточно интересен, чтобы досмотреть до конца.
+1047;0;;We tested both devices, but [neither:t.determ,c.y,d.2,e.negative] functioned properly.;Мы протестировали оба устройства, но ни одно не работало должным образом.
+1048;0;;[Several:t.determ,c.y,d.grpofgrp,e.a-litle-neutral] students raised their hands.;Несколько студентов подняли руки.
+1049;0;;I visited [several:t.determ,c.y,d.grpofgrp,e.a-litle-neutral] museums while in Paris.;Я посетил несколько музеев, когда был в Париже.
+1050;0;;There were [several:t.determ,c.y,d.grpofgrp,e.a-litle-neutral] reasons for the delay.;Было несколько причин задержки.
+1051;0;;[Several:t.determ,c.y,d.grpofgrp,e.a-litle-neutral] attempts were made to fix the issue.;Было предпринято несколько попыток исправить проблему.
+1052;0;;He has read [several:t.determ,c.y,d.grpofgrp,e.a-litle-neutral] books on the topic.;Он прочитал несколько книг по этой теме.
+1053;0;;[Several:t.determ,c.y,d.grpofgrp,e.a-litle-neutral] people complained about the service.;Несколько человек пожаловались на обслуживание.
+1054;0;;She has traveled to [several:t.determ,c.y,d.grpofgrp,e.a-litle-neutral] countries in Europe.;Она путешествовала по нескольким странам Европы.
+1055;0;;There are [several:t.determ,c.y,d.grpofgrp,e.a-litle-neutral] options to choose from.;Есть несколько вариантов на выбор.
+1056;0;;He made [several:t.determ,c.y,d.grpofgrp,e.a-litle-neutral] mistakes in his calculations.;Он допустил несколько ошибок в расчетах.
+1057;0;;The company has [several:t.determ,c.y,d.grpofgrp,e.a-litle-neutral] branches worldwide.;У компании есть несколько филиалов по всему миру.
+1058;0;;[A few:t.determ,c.y,d.grpofgrp,e.a-litle-positive] guests arrived early.;Несколько гостей пришли раньше.
+1059;0;;She has [a few:t.determ,c.y,d.grpofgrp,e.a-litle-positive] close friends she can rely on.;У нее есть несколько близких друзей, на которых можно положиться.
+1060;0;;[A few:t.determ,c.y,d.grpofgrp,e.a-litle-positive] adjustments were needed to perfect the design.;Требовалось несколько корректировок, чтобы улучшить дизайн.
+1061;0;;We spent [a few:t.determ,c.y,d.grpofgrp,e.a-litle-positive] hours exploring the city.;Мы провели несколько часов, исследуя город.
+1062;0;;[A few:t.determ,c.y,d.grpofgrp,e.a-litle-positive] employees stayed late to finish the project.;Несколько сотрудников остались допоздна, чтобы закончить проект.
+1063;0;;He took [a few:t.determ,c.y,d.grpofgrp,e.a-litle-positive] photos during the trip.;Он сделал несколько фотографий во время поездки.
+1064;0;;[A few:t.determ,c.y,d.grpofgrp,e.a-litle-positive] days of rest will do you good.;Несколько дней отдыха пойдут тебе на пользу.
+1065;0;;She made [a few:t.determ,c.y,d.grpofgrp,e.a-litle-positive] minor changes to the text.;Она внесла несколько небольших изменений в текст.
+1066;0;;There were [a few:t.determ,c.y,d.grpofgrp,e.a-litle-positive] empty seats in the theater.;В театре было несколько свободных мест.
+1067;0;;I have [a few:t.determ,c.y,d.grpofgrp,e.a-litle-positive] questions about the report.;У меня есть несколько вопросов по отчету.
+1068;0;;[Few:t.determ,c.y,d.grpofgrp,e.a-litle-negative] people understood his explanation.;Мало кто понял его объяснение.
+1069;0;;The event was poorly advertised, so [few:t.determ,c.y,d.grpofgrp,e.a-litle-negative] attendees showed up.;Мероприятие было плохо разрекламировано, поэтому пришло мало людей.
+1070;0;;He has [few:t.determ,c.y,d.grpofgrp,e.a-litle-negative] opportunities to advance in his career.;У него мало возможностей для карьерного роста.
+1071;0;;[Few:t.determ,c.y,d.grpofgrp,e.a-litle-negative] companies can afford such expensive technology.;Мало компаний могут позволить себе такую дорогую технологию.
+1072;0;;She has [few:t.determ,c.y,d.grpofgrp,e.a-litle-negative] reasons to stay in this job.;У нее мало причин оставаться на этой работе.
+1073;0;;[Few:t.determ,c.y,d.grpofgrp,e.a-litle-negative] students passed the difficult exam.;Мало студентов сдали этот сложный экзамен.
+1074;0;;I have [few:t.determ,c.y,d.grpofgrp,e.a-litle-negative] doubts about his honesty.;У меня мало сомнений в его честности.
+1075;0;;[Few:t.determ,c.y,d.grpofgrp,e.a-litle-negative] restaurants serve authentic local cuisine.;Мало ресторанов подают аутентичную местную кухню.
+1076;0;;He received [few:t.determ,c.y,d.grpofgrp,e.a-litle-negative] responses to his job application.;Он получил мало откликов на свое резюме.
+1077;0;;There are [few:t.determ,c.y,d.grpofgrp,e.a-litle-negative] ways to solve this problem.;Есть мало способов решить эту проблему.
+1078;0;;There are [many:t.determ,c.y,d.grpofgrp,e.a-lot] ways to improve your skills.;Есть много способов улучшить свои навыки.
+1079;0;;[Many:t.determ,c.y,d.grpofgrp,e.a-lot] students participated in the competition.;Многие студенты приняли участие в соревновании.
+1080;0;;She has read [many:t.determ,c.y,d.grpofgrp,e.a-lot] books on this subject.;Она прочитала много книг по этой теме.
+1081;0;;[Many:t.determ,c.y,d.grpofgrp,e.a-lot] tourists visit this city every year.;Много туристов посещают этот город каждый год.
+1082;0;;There are [many:t.determ,c.y,d.grpofgrp,e.a-lot] reasons to consider this proposal.;Есть много причин рассмотреть это предложение.
+1083;0;;[Many:t.determ,c.y,d.grpofgrp,e.a-lot] of the guests arrived early.;Многие из гостей пришли рано.
+1084;0;;She has attended [many:t.determ,c.y,d.grpofgrp,e.a-lot] conferences on the topic.;Она посетила много конференций по этой теме.
+1085;0;;[Many:t.determ,c.y,d.grpofgrp,e.a-lot] people believe in the power of positive thinking.;Многие люди верят в силу позитивного мышления.
+1086;0;;He has [many:t.determ,c.y,d.grpofgrp,e.a-lot] friends in different countries.;У него много друзей в разных странах.
+1087;0;;[Many:t.determ,c.y,d.grpofgrp,e.a-lot] projects require teamwork to be successful.;Многие проекты требуют командной работы для успеха.
+1088;0;;There isn’t [much:t.determ,c.n,d.grpofgrp,e.a-lot] time left before the deadline.;До дедлайна осталось не так много времени.
+1089;0;;She doesn’t have [much:t.determ,c.n,d.grpofgrp,e.a-lot] experience in this field.;У нее не так много опыта в этой области.
+1090;0;;[Much:t.determ,c.n,d.grpofgrp,e.a-lot] effort was needed to complete the task.;Потребовалось много усилий, чтобы завершить задание.
+1091;0;;He didn’t show [much:t.determ,c.n,d.grpofgrp,e.a-lot] interest in the topic.;Он не проявил большого интереса к теме.
+1092;0;;We don’t have [much:t.determ,c.n,d.grpofgrp,e.a-lot] information about the case.;У нас мало информации по этому делу.
+1093;0;;[Much:t.determ,c.n,d.grpofgrp,e.a-lot] work has been done to improve the system.;Было проделано много работы для улучшения системы.
+1094;0;;She doesn’t drink [much:t.determ,c.n,d.grpofgrp,e.a-lot] coffee.;Она не пьет много кофе.
+1095;0;;[Much:t.determ,c.n,d.grpofgrp,e.a-lot] attention was given to the details.;Много внимания было уделено деталям.
+1096;0;;There isn’t [much:t.determ,c.n,d.grpofgrp,e.a-lot] traffic in the morning.;Утром нет сильного движения.
+1097;0;;[Much:t.determ,c.n,d.grpofgrp,e.a-lot] patience is required for this job.;Для этой работы требуется много терпения.
+1098;0;;[All:t.determ,c.y/n,d.abs] students must follow the rules.;Все студенты должны соблюдать правила.
+1099;0;;He lost [all:t.determ,c.y/n,d.abs] hope after multiple failures.;После множества неудач он потерял всякую надежду.
+1100;0;;[All:t.determ,c.y/n,d.abs] the employees attended the meeting.;Все сотрудники присутствовали на собрании.
+1101;0;;She gave [all:t.determ,c.y/n,d.abs] her effort to complete the project.;Она приложила все усилия, чтобы завершить проект.
+1102;0;;[All:t.determ,c.y/n,d.abs] roads lead to the city center.;Все дороги ведут в центр города.
+1103;0;;We spent [all:t.determ,c.y/n,d.abs] day at the beach.;Мы провели весь день на пляже.
+1104;0;;[All:t.determ,c.y/n,d.abs] of them agreed with the decision.;Все они согласились с решением.
+1105;0;;She has read [all:t.determ,c.y/n,d.abs] the books on the subject.;Она прочитала все книги по этой теме.
+1106;0;;[All:t.determ,c.y/n,d.abs] the water was contaminated.;Вся вода была загрязнена.
+1107;0;;He gave [all:t.determ,c.y/n,d.abs] his savings to charity.;Он отдал все свои сбережения на благотворительность.
