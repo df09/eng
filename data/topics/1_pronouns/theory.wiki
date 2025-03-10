@@ -1,3 +1,22 @@
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+mix:
+  countable/uncountable⠁
+  как в англ делать производные (кое-что, что-то, что-либо и тп.)⠁
+  check (one/oneself)+(безличностные предложения)+(разделительные вопросы)
+  ruCases2en⠉
+  упражнения по применению сокращалок:⠉
+    сокращалки:
+      Неопределённые местоимения (Indefinite pronouns):
+        %% Do you want this book or that book? -> Do you want this book or that one?
+      Относительные местоимения (Relative pronouns):
+        %% The man is my neighbor. The man lives next door. -> The man who lives next door is my neighbor.
+      Указательные местоимения (Demonstrative pronouns):
+        %% I like this dress more than that dress. -> I like this dress more than that.
+      more?⠁
+  compound pronouns⠁
+  проверить что никакие местоимение небыли пропущены⠉
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
 Personal-subject(Личные-nominative):
   identification:
     I    : s1
@@ -312,90 +331,6 @@ Possessive-cojoint(Притяжательные-присоединяемые):
       но они могут использоваться практически со всеми глаголами.
       Они могут стоят после существительного, к которому относятся, или в конце предложения.
       Иногда они могут использоваться с предлогами by, for (для) и другими.
-
-Demonstrative(Указательные):
-  Identification:
-    this  : s , e.Near
-    that  : s , e.Away
-    those : p , e.Away
-    these : p , e.Near
-
-> Interrogative(Вопросительные):
->   Identification:
->     who   : s.Nominative , a.Animate
->     what  : s.Nominative , a.Inanimate
->     whom  : s.Objective  , a.Animate           , f.Formal
->     who   : s.Objective  , a.Animate           , f.Colloquial
->     which : s.Objective  , a.Animate/Inanimate
->     whose : s.Possessive , a.Animate/Inanimate
-    q: when where why
-> Relative(Относительные):
->   Identification:
->     who   : a.Animate
->     whom  : a.Animate
->     that  : a.Animate/Inanimate
->     which : a.Inanimate
-    q: what when where whose why as
-> Indefinite(неопределённые):
->   Identification:
->     all     : p   , c.Countable/Uncountable , a.Animate/Inanimate
->     any     : s/p , c.Countable/Uncountable , a.Inanimate
->     anyone  : s   , c.Countable             , a.Animate
->     no one  : s   , c.Countable             , a.Animate
->     none    : p   , c.Countable/Uncountable , a.Animate/Inanimate
->     one     : s   , c.Countable             , a.Animate/Inanimate
->     some    : s/p , c.Countable/Uncountable , a.Animate/Inanimate
->     someone : s   , c.Countable             , a.Animate
-    q:
-      indefinite_qnt: much many a little a few little few several plenty a lot lots
-      indefinite_dst: each both all every either neither
-      indefinite_prp: somebody someone something anybody anyone anything nobody no one nothing one others none
-                no-     some-     any-     every-     -self   -ever
-          one   no one  someone   anyone   everyone   oneself
-          body  nobody  somebody  anybody  everybody
-          thing nothing something anything everything
-          where nowhere somewhere anywhere everywhere
-          who                                                 whoever
-          whom                                                whomever
-          what                                                whatever
-> Negative(отрицательные):
->   Identification:
->     nobody  : a.Animate           ,         , f.Neutral
->     no one  : a.Animate           ,         , f.Formal
->     nothing : a.Inanimate         , r.abs
->     none    : a.Animate/Inanimate , r.group
->   q:
->     nothing/none - в чем разница?
-      missed?:
-        no - это точно местоимение?
-        nowhere
-> Reciprocal(взаимные):
->   Identification:
->     each other  : r.2   , f.Neutral/Formal
->     each other  : r.grp , f.Neutral
->     one another : r.grp , f.Formal
->   q:
->     пересмотреть Referring, Formal, все - не готово
-
-Determiners/quantifiers(определительные):
-  Identification:
-    either  : c.Countable   , r.1of2 , e.positive
-    both    : c.Countable   , r.2of2 , e.positive
-    neither : c.Countable   , r.2of2 , e.negative
-    each    : c.Countable   , r.1of3 , e.individuality
-    every   : c.Countable   , r.1of3 , e.in_general
-    few     : c.Countable   , r.3of3 , e.a_litle(not_enough)
-    a few   : c.Countable   , r.3of3 , e.a_litle(enough)
-    several : c.Countable   , r.3of3 , e.a_litle(enough/not_enough)
-    many    : c.Countable   , r.3of3 , e.a_lot
-    much    : c.Uncountable , r.3of3 , e.a_lot
-    all     : c.Countable/Uncountable , r.3of3 , e.abs
-
-
-
-
-
-
   reflexive:
     proper:
       oneself
@@ -550,107 +485,44 @@ Determiners/quantifiers(определительные):
       more?⠁
     ruCases2en⠁
 
-non-personalized:
-  reciprocal(взаимные):
-    __common-specifications:
-      - могут употребляться в притяжательном падеже:
-          %% We couldn't hear each other's words for the wind. – Мы не могли слышать слова друг друга из-за ветра.
-          %% They enjoy one another's company. – Они наслаждаются компанией друг друга. (о группе более двух человек).
-    each other:
-      matrix:
-        - ru_cases:gdaip
-        - grammatical_role: object_xxx⠁
-        - animacy: animate
-            Пример некорректного употребления:
-              %% The books are placed next to each other. (Неправильно, так как книги не могут сознательно взаимодействовать.)
-            Для неодушевленных объектов используются другие конструкции:
-              %% The books are placed side by side. (Книги расположены рядом друг с другом.)
-              %% The books are arranged in a row. (Книги выстроены в ряд.)
-        - countability: uncountable
-        - formality: neutral
-      specifications:
-        - употребляется к двум лицам
-        - можно разделить в предложении, но тогда либо артикль, либо other это уже это описательное:
-            %% Each told the other the truth.
-            %% Each told other people the truth.
-            %% Each of them told the other the truth.
-    one another:
-      matrix:
-        - ru_cases:gdaip
-        - grammatical_role: object_xxx⠁
-        - animacy: animate
-            Пример некорректного употребления:
-              %% The books are placed next to each other. (Неправильно, так как книги не могут сознательно взаимодействовать.)
-            Для неодушевленных объектов используются другие конструкции:
-              %% The books are placed side by side. (Книги расположены рядом друг с другом.)
-              %% The books are arranged in a row. (Книги выстроены в ряд.)
-        - countability: uncountable
-        - formality: neutral
-      specifications:
-        - употребляется к двум и более лицам
-        - употребляется к череде событий или состояний
-  negative(отрицательные):⠋
+
+Demonstrative(Указательные):
+  Identification:
+    this  : s , e.Near
+    that  : s , e.Away
+    those : p , e.Away
+    these : p , e.Near
+  Указательные (Demonstrative Pronouns).⠋
+    +ESL⠋
     +5 links⠋
     перепроверить matrix⠋
-    что тут творится с производными⠉
-      Простые, сложные и составные местоимения⠋
-      Простые, сложные и составные местоимения⠋
-      Простые, сложные и составные местоимения⠋
-      Простые, сложные и составные местоимения⠋
-      Простые, сложные и составные местоимения⠋
+    1. Близко:
+        This — это, этот, эта (для единственного числа).
+        (This is my book. — Это моя книга.)
+        These — эти (для множественного числа).
+        (These are my friends. — Это мои друзья.)
+    2. Далеко:
+        That — то, тот, та (для единственного числа).
+        (That is your car. — То твоя машина.)
+        Those — те (для множественного числа).
+        (Those are his shoes. — То его ботинки.)
+        Добавляется one или ones:⠁
+            this one, that one⠁
+            these ones, those ones⠁
+    3. Уточнения:
+        Указательные местоимения могут использоваться как:
+            Субъекты: (This is important. — Это важно.)
+            Атрибуты: (That book is mine. — Та книга моя.)
 
-
-    Составные отрицательные конструкции⠉
-      none of them⠁
-      neither of us⠁
-      not one of you⠁
-
-
-
-    __common-specifications:
-    __:
-      matrix:
-      specifications:
-
-        no (никакой): I have no idea. (У меня нет никакой идеи.)
-          местоимение "no" иногда выделяют как отрицательный артикль иногда как неопределенное.⠉
-          no(pronoun) vs not(particle):⠉
-            %% have no idea
-            %% have not idea
-        none (ни один из): None of them agreed. (Никто из них не согласился.)
-        nobody (никто): Nobody knows the answer. (Никто не знает ответа.)
-        no one (никто): No one came to the party. (Никто не пришёл на вечеринку.)
-        nothing (ничего, ничто): I saw nothing. (Я ничего не видел.)
-        neither (ни тот ни другой, ни один): Neither of the options works for me. (Ни один из вариантов мне не подходит.)
-        nowhere (нигде): I have nowhere to go. (Мне некуда идти.)
-        no way (никаким образом, ни за что): There's no way I'm doing this. (Я ни за что этого не сделаю.)
-
-
-
-
-    specifications:⠉
-
-      No (никакой, никто из, ни один) располагается перед существительным:
-        %% I have no idea what to do with his attitude – У меня нет никаких идей насчет того, что делать с его поведением.
-        %% No journalist talked about this case – Ни один журналист не говорил об этом случае.
-      Nothing (ничего, ничто) можно использовать только с существительными, обозначающими неодушевленные предметы и абстрактные идеи:
-        %% I need nothing from her – Мне ничего от нее не нужно.
-        %% His decisions have nothing to do with me – Его решения не имеют со мной ничего общего.
-      Nobody и no one принято переводить на русский посредством слова «никто». Эти местоимения применяются примерно так же, как и nothing, но исключительно с одушевленными объектами:
-        %% There was nobody at home – Никого не было дома.
-        %% No one shared his point of view – Никто не разделял его точку зрения.
-      None (никто из).
-        %% None of them came back – Никто из них не вернулся назад.
-        %% There is none like my sister – Никто не похож на мою сестру.
-        %% Оn this festival I saw none of the celebrities I wanted – На этом фестивале я не увидел никого из знаменитостей, на кого хотел посмотреть.
-      Neither (ни тот ни другой) может быть как местоимением-существительным, так и местоимением-прилагательным. Кроме того, оно используется и с одушевленными, и с неодушевленными объектами:
-        %% Would you like some tea or coffee? Neither. – Вам кофе или чаю? Ни того, ни другого.
-        %% Neither of them was looking for a job – Никто из них не искал работу.
-    mix:
-      прогон через категории GrammaticalRole/Animacy/Countability/Formality⠋
-      одинарное и двойное отрицание в русском и английском⠉
-      no(negative) vs no(indefinite)⠉
-
+> Interrogative(Вопросительные):
+>   Identification:
+>     who   : s.Nominative , a.Animate
+>     what  : s.Nominative , a.Inanimate
+>     whom  : s.Objective  , a.Animate           , f.Formal
+>     who   : s.Objective  , a.Animate           , f.Colloquial
+>     which : s.Objective  , a.Animate/Inanimate
+>     whose : s.Possessive , a.Animate/Inanimate
+    q: when where why
   interrogative(вопросительные):⠋
     +ESL⠋
     +5 links⠋
@@ -717,6 +589,13 @@ non-personalized:
         7. Редкие/формальные:
             Wherefore — Почему? Зачем? (устаревшее)
             (Wherefore art thou Romeo? — Почему ты, Ромео?)
+> Relative(Относительные):
+>   Identification:
+>     who   : a.Animate
+>     whom  : a.Animate
+>     that  : a.Animate/Inanimate
+>     which : a.Inanimate
+    q: what when where whose why as
   Относительные (Relative pronouns):⠋
     +ESL⠋
     +5 links⠋
@@ -756,33 +635,28 @@ non-personalized:
     specifications:?⠉
     vs:
       relative pronouns vs conjunctions⠉
-  Указательные (Demonstrative Pronouns).⠋
-    +ESL⠋
-    +5 links⠋
-    перепроверить matrix⠋
-    1. Близко:
-        This — это, этот, эта (для единственного числа).
-        (This is my book. — Это моя книга.)
-        These — эти (для множественного числа).
-        (These are my friends. — Это мои друзья.)
-    2. Далеко:
-        That — то, тот, та (для единственного числа).
-        (That is your car. — То твоя машина.)
-        Those — те (для множественного числа).
-        (Those are his shoes. — То его ботинки.)
-
-
-        Добавляется one или ones:⠁
-            this one, that one⠁
-            these ones, those ones⠁
-
-
-
-    3. Уточнения:
-        Указательные местоимения могут использоваться как:
-            Субъекты: (This is important. — Это важно.)
-            Атрибуты: (That book is mine. — Та книга моя.)
-
+> Indefinite(неопределённые):
+>   Identification:
+>     all     : p   , c.Countable/Uncountable , a.Animate/Inanimate
+>     any     : s/p , c.Countable/Uncountable , a.Inanimate
+>     anyone  : s   , c.Countable             , a.Animate
+>     no one  : s   , c.Countable             , a.Animate
+>     none    : p   , c.Countable/Uncountable , a.Animate/Inanimate
+>     one     : s   , c.Countable             , a.Animate/Inanimate
+>     some    : s/p , c.Countable/Uncountable , a.Animate/Inanimate
+>     someone : s   , c.Countable             , a.Animate
+    q:
+      indefinite_qnt: much many a little a few little few several plenty a lot lots
+      indefinite_dst: each both all every either neither
+      indefinite_prp: somebody someone something anybody anyone anything nobody no one nothing one others none
+                no-     some-     any-     every-     -self   -ever
+          one   no one  someone   anyone   everyone   oneself
+          body  nobody  somebody  anybody  everybody
+          thing nothing something anything everything
+          where nowhere somewhere anywhere everywhere
+          who                                                 whoever
+          whom                                                whomever
+          what                                                whatever
   indefinite(неопределённые):⠋
     +5 links⠋
       Someone / Somebody 	некто
@@ -900,21 +774,125 @@ non-personalized:
           %% He lives in a nice house and I live in a ugly one. — Он живет в красивом доме, а я живу в уродливом.
           %% Of all the comics she gave me I have cho­sen only these ones. — Из всех комиксов, что она мне дала, я выбрал только эти.
     vs:?⠁
-  mix:
-    countable/uncountable⠁
-    как в англ делать производные (кое-что, что-то, что-либо и тп.)⠁
-    check (one/oneself)+(безличностные предложения)+(разделительные вопросы)
-    ruCases2en⠉
-    упражнения по применению сокращалок:⠉
-      сокращалки:
-        Неопределённые местоимения (Indefinite pronouns):
-          %% Do you want this book or that book? -> Do you want this book or that one?
-        Относительные местоимения (Relative pronouns):
-          %% The man is my neighbor. The man lives next door. -> The man who lives next door is my neighbor.
-        Указательные местоимения (Demonstrative pronouns):
-          %% I like this dress more than that dress. -> I like this dress more than that.
-        more?⠁
-mix:
-  compound pronouns⠁
-  проверить что никакие местоимение небыли пропущены⠉
+> Negative(отрицательные):
+>   Identification:
+>     nobody  : a.Animate           ,         , f.Neutral
+>     no one  : a.Animate           ,         , f.Formal
+>     nothing : a.Inanimate         , r.abs
+>     none    : a.Animate/Inanimate , r.group
+>   q:
+>     nothing/none - в чем разница?
+      missed?:
+        no - это точно местоимение?
+        nowhere
+  negative(отрицательные):⠋
+    +5 links⠋
+    перепроверить matrix⠋
+    что тут творится с производными⠉
+      Простые, сложные и составные местоимения⠋
+      Простые, сложные и составные местоимения⠋
+      Простые, сложные и составные местоимения⠋
+      Простые, сложные и составные местоимения⠋
+      Простые, сложные и составные местоимения⠋
+    Составные отрицательные конструкции⠉
+      none of them⠁
+      neither of us⠁
+      not one of you⠁
+    __common-specifications:
+    __:
+      matrix:
+      specifications:
+        no (никакой): I have no idea. (У меня нет никакой идеи.)
+          местоимение "no" иногда выделяют как отрицательный артикль иногда как неопределенное.⠉
+          no(pronoun) vs not(particle):⠉
+            %% have no idea
+            %% have not idea
+        none (ни один из): None of them agreed. (Никто из них не согласился.)
+        nobody (никто): Nobody knows the answer. (Никто не знает ответа.)
+        no one (никто): No one came to the party. (Никто не пришёл на вечеринку.)
+        nothing (ничего, ничто): I saw nothing. (Я ничего не видел.)
+        neither (ни тот ни другой, ни один): Neither of the options works for me. (Ни один из вариантов мне не подходит.)
+        nowhere (нигде): I have nowhere to go. (Мне некуда идти.)
+        no way (никаким образом, ни за что): There's no way I'm doing this. (Я ни за что этого не сделаю.)
+    specifications:⠉
+      No (никакой, никто из, ни один) располагается перед существительным:
+        %% I have no idea what to do with his attitude – У меня нет никаких идей насчет того, что делать с его поведением.
+        %% No journalist talked about this case – Ни один журналист не говорил об этом случае.
+      Nothing (ничего, ничто) можно использовать только с существительными, обозначающими неодушевленные предметы и абстрактные идеи:
+        %% I need nothing from her – Мне ничего от нее не нужно.
+        %% His decisions have nothing to do with me – Его решения не имеют со мной ничего общего.
+      Nobody и no one принято переводить на русский посредством слова «никто». Эти местоимения применяются примерно так же, как и nothing, но исключительно с одушевленными объектами:
+        %% There was nobody at home – Никого не было дома.
+        %% No one shared his point of view – Никто не разделял его точку зрения.
+      None (никто из).
+        %% None of them came back – Никто из них не вернулся назад.
+        %% There is none like my sister – Никто не похож на мою сестру.
+        %% Оn this festival I saw none of the celebrities I wanted – На этом фестивале я не увидел никого из знаменитостей, на кого хотел посмотреть.
+      Neither (ни тот ни другой) может быть как местоимением-существительным, так и местоимением-прилагательным. Кроме того, оно используется и с одушевленными, и с неодушевленными объектами:
+        %% Would you like some tea or coffee? Neither. – Вам кофе или чаю? Ни того, ни другого.
+        %% Neither of them was looking for a job – Никто из них не искал работу.
+    mix:
+      прогон через категории GrammaticalRole/Animacy/Countability/Formality⠋
+      одинарное и двойное отрицание в русском и английском⠉
+      no(negative) vs no(indefinite)⠉
+
+> Reciprocal(взаимные):
+>   Identification:
+>     each other  : r.2   , f.Neutral/Formal
+>     each other  : r.grp , f.Neutral
+>     one another : r.grp , f.Formal
+>   q:
+>     пересмотреть Referring, Formal, все - не готово
+  reciprocal(взаимные):
+    __common-specifications:
+      - могут употребляться в притяжательном падеже:
+          %% We couldn't hear each other's words for the wind. – Мы не могли слышать слова друг друга из-за ветра.
+          %% They enjoy one another's company. – Они наслаждаются компанией друг друга. (о группе более двух человек).
+    each other:
+      matrix:
+        - ru_cases:gdaip
+        - grammatical_role: object_xxx⠁
+        - animacy: animate
+            Пример некорректного употребления:
+              %% The books are placed next to each other. (Неправильно, так как книги не могут сознательно взаимодействовать.)
+            Для неодушевленных объектов используются другие конструкции:
+              %% The books are placed side by side. (Книги расположены рядом друг с другом.)
+              %% The books are arranged in a row. (Книги выстроены в ряд.)
+        - countability: uncountable
+        - formality: neutral
+      specifications:
+        - употребляется к двум лицам
+        - можно разделить в предложении, но тогда либо артикль, либо other это уже это описательное:
+            %% Each told the other the truth.
+            %% Each told other people the truth.
+            %% Each of them told the other the truth.
+    one another:
+      matrix:
+        - ru_cases:gdaip
+        - grammatical_role: object_xxx⠁
+        - animacy: animate
+            Пример некорректного употребления:
+              %% The books are placed next to each other. (Неправильно, так как книги не могут сознательно взаимодействовать.)
+            Для неодушевленных объектов используются другие конструкции:
+              %% The books are placed side by side. (Книги расположены рядом друг с другом.)
+              %% The books are arranged in a row. (Книги выстроены в ряд.)
+        - countability: uncountable
+        - formality: neutral
+      specifications:
+        - употребляется к двум и более лицам
+        - употребляется к череде событий или состояний
+
+Determiners/quantifiers(определительные):
+  Identification:
+    either  : c.Countable   , r.1of2 , e.positive
+    both    : c.Countable   , r.2of2 , e.positive
+    neither : c.Countable   , r.2of2 , e.negative
+    each    : c.Countable   , r.1of3 , e.individuality
+    every   : c.Countable   , r.1of3 , e.in_general
+    few     : c.Countable   , r.3of3 , e.a_litle(not_enough)
+    a few   : c.Countable   , r.3of3 , e.a_litle(enough)
+    several : c.Countable   , r.3of3 , e.a_litle(enough/not_enough)
+    many    : c.Countable   , r.3of3 , e.a_lot
+    much    : c.Uncountable , r.3of3 , e.a_lot
+    all     : c.Countable/Uncountable , r.3of3 , e.abs
 
