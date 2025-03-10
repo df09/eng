@@ -96,8 +96,11 @@ class User:
                 lambda p: next((k for k, (low, high) in self.estimate_ranges.items() if low <= p <= high), 'F')
             )
             # upd time
-            random_offset = random.randint(0, 86400) # случайное смещение на сутки вперед
-            self.df_progress.at[index, 'asked_at'] = pd.Timestamp.utcnow() + pd.Timedelta(milliseconds=random_offset)
+            # случайное смещение на сутки вперед
+            self.df_progress.at[index, 'asked_at'] = pd.Timestamp.utcnow() + pd.Timedelta(milliseconds=random.randint(0, 86400))
+            # добавить еще сутки если ответ праивильный, чтобы дать приоритет вопросам с неправильными ответами
+            if result:
+                self.df_progress.at[index, 'asked_at'] = pd.Timestamp.utcnow() + pd.Timedelta(milliseconds=86400)
         pdo.save(self.df_progress, self.f_progress)
     def get_progress4question(self, tid, qkind, qid):
         """Получает прогресс по конкретному вопросу"""
