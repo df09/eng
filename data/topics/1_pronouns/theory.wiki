@@ -1,4 +1,4 @@
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+=====================================================================
 mix:
   countable/uncountable⠁
   как в англ делать производные (кое-что, что-то, что-либо и тп.)⠁
@@ -115,7 +115,7 @@ Personal-object(Личные-косвенные):
       %% The doctor called a patient and asked [them:t.Personal] to come in.; Врач вызвал пациента и попросил его войти.;0;
       %% If someone finds my keys, please give [them:t.Personal] to the receptionist.; Если кто-то найдёт мои ключи, пожалуйста, отдайте их администратору.;0;
 
-%% >>>>>> help:
+%% >>> help:
 q-list:
   %% types q_fill
   %% identification+/:
@@ -146,30 +146,36 @@ Possessive-absolute(Притяжательные-абсолютные):
   its - не существует:
     %% That power was its. -> That was [its power]. (Это была его сила.)
     %% That solution won’t be its. -> That won’t be [its solution]. (Это решение не будет его.)
+  типичные конструкции - с предлогом "of" (часто в формальных и литературных текстах):
+    %% She is a friend of [mine:s1].;Она моя подруга.;0;
+  после глагола be (в значении принадлежности):
+    %% This seat is [mine:s1].;Это место моё.;0;
+  в конце предложения (без существительного):
+    %% I lost my pen, so I borrowed [yours:s2].;Я потерял свою ручку, поэтому одолжил твою.;0;
+  в сравнительных конструкциях:
+    %% Her idea is more creative than [mine:s1].;Её идея креативнее моей.;0;
+  в сочетаниях с "own" (для усиления):
+    %% I want a place of [my:s1] own.;Я хочу своё собственное место.;0;
+
   %% >>>
-  "of" + possessive-absolute
-    >>> есть ли еще подобные конструкции?
-    %% She is a friend of mine.
-    %% That car of theirs is cool.
-    %% This idea of hers is brilliant. (Эта её идея блестящая.)
-    %% That house of ours is quite old. (Тот наш дом довольно старый.)
-    %% The decision of yours surprised me. (Твоё решение удивило меня.)
-    %% This opinion of his is interesting. (Это его мнение интересное.)
-    %% That book of theirs is a bestseller. (Та их книга — бестселлер.)
-    %% The project of mine was approved. (Один из моих проектов был одобрен.)
-    %% This strategy of yours won’t work. (Эта твоя стратегия не сработает.)
-    %% That suggestion of hers was helpful. (То её предложение было полезным.)
-    %% The talent of his is impressive. (Этот его талант впечатляет.)
-    %% The car of ours needs repairs. (Эта наша машина нуждается в ремонте.)
   Singular Theirs:
     absolute:
-        %% This book is theirs. (Эта книга их.)
-        %% I think this jacket is theirs, not yours. (Я думаю, это их куртка, не твоя.)
+      %% This book is theirs. (Эта книга их.)
+      %% I think this jacket is theirs, not yours. (Я думаю, это их куртка, не твоя.)
   В английском нельзя сказать That book is my. → Только That book is mine.
     %% ...
   "of" + possessive-cojoint:
     После предлога "of" нельзя использовать possessive-cojoint, заменять на possessive-absolute:
-      %% ...
+      000;This book is a favorite of my. -> This book is a favorite of [mine].;<перевод>;0;
+      001;That idea of her is interesting. -> That idea of [hers] is interesting.;<перевод>;0;
+      002;This house of our is very old. -> This house of [ours] is very old.;<перевод>;0;
+      003;That suggestion of your helped a lot. -> That suggestion of [yours] helped a lot.;<перевод>;0;
+      004;The decision of their was unexpected. -> The decision of [theirs] was unexpected.;<перевод>;0;
+      005;A friend of his recommended this movie. -> A friend of [his] recommended this movie.;<перевод>;0;
+      006;This strategy of my won’t work. -> This strategy of [mine] won’t work.;<перевод>;0;
+      007;That painting of her is a masterpiece. -> That painting of [hers] is a masterpiece.;<перевод>;0;
+      008;A project of our got approved. -> A project of [ours] got approved.;<перевод>;0;
+      009;A colleague of your invited me to the event. -> A colleague of [yours] invited me to the event.;<перевод>;0;
   noun2pronoun:
     %% Is this your pencil? – This is not my pencil, this is his pencil.
     %% ->

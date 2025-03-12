@@ -103,3 +103,5 @@ concessive clause:
     Пример бизнес сообщения на английском 	Перевод на русский
     As you are all aware, we have to schedule a meeting with Jackson’s in order to negotiate a master agreement. 	Как вы все знаете, нам нужно запланировать встречу с компанией Джексон для того, чтобы обсудить предварительное соглашение.
     To make sure we are prepared properly, we should have a brainstorming session to discuss the details, set up an agenda, and find a date for the actual negotiations. 	Для того, чтобы быть уверенными, что мы все тщательно подготовили, нам следует провести мозговой штурм для обсуждения деталей, разработать план встречи и определиться с датой
+конструкции с "one(s)" (когда заменяет существительное):
+    I’ll take the red shoes, you can take the blue ones. (подразумевается blue shoes)

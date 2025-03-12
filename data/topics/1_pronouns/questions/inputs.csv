@@ -664,7 +664,6 @@ id;question;extra;suspicious_status;suspicious_note
 287;That reward was [theirs:t.Possessive,p3].;Эта награда была их.;0;
 288;The authority is [theirs:t.Possessive,p3].;Власть их.;0;
 289;The responsibility is [theirs:t.Possessive,p3].;Ответственность их.;0;
->>>>>>
 # possessive-absolute: its - не существует.
 000;That power was its. -> That was [its power].; Это была его сила.; 0;
 000;That solution won’t be its. -> That won’t be [its solution].; Это решение не будет его.; 0;
@@ -672,7 +671,45 @@ id;question;extra;suspicious_status;suspicious_note
 000;The book will be its. -> This [will be its book].; Это будет его книга.; 0;
 000;The success wasn’t its. -> That wasn’t [its success].; Это не был его успех.; 0;
 000;This advantage isn’t its. -> This isn’t [its advantage].; Это не его преимущество.; 0;
+# possessive-absolute: типичные конструкции - с предлогом "of" (часто в формальных и литературных текстах).
+000;She is a friend of [mine:s1].;Она моя подруга.;0;
+000;That car of [theirs:p3] is cool.;Та их машина классная.;0;
+000;This idea of [hers:s3f] is brilliant.;Эта её идея блестящая.;0;
+000;That house of [ours:p1] is quite old.;Тот наш дом довольно старый.;0;
+000;The decision of [yours:s2] surprised me.;Твоё решение удивило меня.;0;
+000;This opinion of [his:s3m] is interesting.;Это его мнение интересное.;0;
+000;That book of [theirs:p3] is a bestseller.;Та их книга — бестселлер.;0;
+000;The project of [mine:s1] was approved.;Один из моих проектов был одобрен.;0;
+000;This strategy of [yours:s2] won’t work.;Эта твоя стратегия не сработает.;0;
+000;That suggestion of [hers:s3f] was helpful.;То её предложение было полезным.;0;
+000;The talent of [his:s3m] is impressive.;Этот его талант впечатляет.;0;
+000;The car of [ours:p1] needs repairs.;Эта наша машина нуждается в ремонте.;0;
+# possessive-absolute: типичные конструкции - после глагола be (в значении принадлежности).
+000;This seat is [mine:s1].;Это место моё.;0;
+000;The decision is [yours:s2].;Решение за тобой.;0;
+000;That house is [theirs:p3].;Тот дом их.;0;
+000;The responsibility is [ours:p1].;Ответственность на нас.;0;
+000;This victory is [hers:s3f].;Эта победа её.;0;
+# possessive-absolute: типичные конструкции - в конце предложения (без существительного).
+000;I lost my pen, so I borrowed [yours:s2].;Я потерял свою ручку, поэтому одолжил твою.;0;
+000;They have their problems, and we have [ours:p1].;У них свои проблемы, а у нас свои.;0;
+000;His presentation was great, but [mine:s1] was better.;Его презентация была хорошей, но моя лучше.;0;
+000;She forgot her notebook, so I gave her [mine:s1].;Она забыла свой блокнот, поэтому я дал ей свой.;0;
+000;Their car is fast, but [ours:p1] is more comfortable.;Их машина быстрая, но наша удобнее.;0;
+# possessive-absolute: типичные конструкции - в сравнительных конструкциях.
+000;Her idea is more creative than [mine:s1].;Её идея креативнее моей.;0;
+000;His grades are higher than [yours:s2].;Его оценки выше твоих.;0;
+000;Your solution is simpler than [ours:p1].;Твоё решение проще нашего.;0;
+000;Their company is bigger than [his:s3m].;Их компания больше, чем его.;0;
+000;This city is more crowded than [theirs:p3].;Этот город более многолюдный, чем их.;0;
+# possessive-absolute: типичные конструкции - в сочетаниях с "own" (для усиления).
+000;I want a place of [my:s1] own.;Я хочу своё собственное место.;0;
+000;She dreams of having a business of [her:s3f] own.;Она мечтает о собственном бизнесе.;0;
+000;They bought a house of [their:p3] own.;Они купили свой собственный дом.;0;
+000;He needs a car of [his:s3m] own.;Ему нужна своя собственная машина.;0;
+000;We should have an office of [our:p1] own.;Нам нужен собственный офис.;0;
 
+>>>
 
 
 # possessive-cojoint: identification.
