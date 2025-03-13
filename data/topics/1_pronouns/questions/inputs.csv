@@ -684,6 +684,16 @@ id;question;extra;suspicious_status;suspicious_note
 000;That suggestion of [hers:s3f] was helpful.;То её предложение было полезным.;0;
 000;The talent of [his:s3m] is impressive.;Этот его талант впечатляет.;0;
 000;The car of [ours:p1] needs repairs.;Эта наша машина нуждается в ремонте.;0;
+000;This book is a favorite of my. -> This book is a favorite of [mine].;<перевод>;0;
+001;That idea of her is interesting. -> That idea of [hers] is interesting.;<перевод>;0;
+002;This house of our is very old. -> This house of [ours] is very old.;<перевод>;0;
+003;That suggestion of your helped a lot. -> That suggestion of [yours] helped a lot.;<перевод>;0;
+004;The decision of their was unexpected. -> The decision of [theirs] was unexpected.;<перевод>;0;
+005;A friend of his recommended this movie. -> A friend of [his] recommended this movie.;<перевод>;0;
+006;This strategy of my won’t work. -> This strategy of [mine] won’t work.;<перевод>;0;
+007;That painting of her is a masterpiece. -> That painting of [hers] is a masterpiece.;<перевод>;0;
+008;A project of our got approved. -> A project of [ours] got approved.;<перевод>;0;
+009;A colleague of your invited me to the event. -> A colleague of [yours] invited me to the event.;<перевод>;0;
 # possessive-absolute: типичные конструкции - после глагола be (в значении принадлежности).
 000;This seat is [mine:s1].;Это место моё.;0;
 000;The decision is [yours:s2].;Решение за тобой.;0;
@@ -708,10 +718,29 @@ id;question;extra;suspicious_status;suspicious_note
 000;They bought a house of [their:p3] own.;Они купили свой собственный дом.;0;
 000;He needs a car of [his:s3m] own.;Ему нужна своя собственная машина.;0;
 000;We should have an office of [our:p1] own.;Нам нужен собственный офис.;0;
-
->>>
-
-
+# possessive-absolute: Singular Theirs.
+000;If anyone lost a wallet, this one might be [theirs:t.Possessive].;Если кто-то потерял кошелек, возможно, это его/ее.;0;
+000;Who made this artwork? Oh, it’s [theirs:t.Possessive].;Кто создал эту работу? О, это его/ее.;0;
+001;Each driver has a designated parking spot, and this one is [theirs:t.Possessive] to use.;У каждого водителя есть свое парковочное место, и это — его/ее для использования.;0;
+002;A guest left their phone on the table, but I wasn’t sure if it was [theirs:t.Possessive] or someone else’s.;Гость оставил телефон на столе, но я не был уверен, его/ее ли он или чей-то другой.;0;
+003;One of the students forgot a textbook, but the teacher knew it was [theirs:t.Possessive] by the handwriting.;Один из студентов забыл учебник, но учитель понял, что он его/ее, по почерку.;0;
+004;An artist submitted a painting for the exhibition, and the gallery confirmed it was [theirs:t.Possessive] by the signature.;Художник представил картину на выставку, и галерея подтвердила, что она его/ее, по подписи.;0;
+005;Someone left an umbrella in the office, and the receptionist said it was [theirs:t.Possessive] from yesterday.;Кто-то оставил зонт в офисе, и администратор сказал, что он его/ее со вчерашнего дня.;0;
+# possessive-absolute: noun2pronoun.
+000;This pen is [mine:t.Possessive-absolute](my pen).;Это моя ручка;0;
+000;Her jacket is [mine:t.Possessive-absolute](my coat).;Её куртка теплее, чем моя.;0;
+000;Their apartment is [ours:t.Possessive-absolute](our flat).;Их квартира больше, чем наша.;0;
+000;This phone is [yours:t.Possessive-absolute](your device).;Этот телефон новее, чем твой.;0;
+000;His car is [mine:t.Possessive-absolute](my vehicle).;Его машина быстрее, чем моя.;0;
+000;I forgot my umbrella, can I use [yours:t.Possessive-absolute](your one)?;Я забыл свой зонт, можно воспользоваться твоим?;0;
+000;Their garden is [ours:t.Possessive-absolute](our backyard).;Их сад просторнее, чем наш.;0;
+000;This book is [hers:t.Possessive-absolute](her novel).;Эта книга интереснее, чем её.;0;
+000;[Mine:t.Possessive-absolute](My solution) is better than his approach.;Моё решение лучше, чем его подход.;0;
+000;[Hers:t.Possessive-absolute](Her idea) was more practical than Jack's suggestion.;Её идея была практичнее, чем предложение Джека.;0;
+000;[Yours:t.Possessive-absolute](Your explanation) was clearer than the professor's.;Твоё объяснение было понятнее, чем у профессора.;0;
+000;[His:t.Possessive-absolute](His response) was faster than the manager's.;Его ответ был быстрее, чем у менеджера.;0;
+000;[Theirs:t.Possessive-absolute](Their strategy) turned out to be more effective than ours.;Их стратегия оказалась эффективнее, чем наша.;0;
+000;[Mine:t.Possessive-absolute](My design) looked more modern than the previous model.;Мой дизайн выглядел современнее, чем предыдущая модель.;0;
 # possessive-cojoint: identification.
 290;This is [my:t.Possessive,s1] book.;Это моя книга.;0;
 291;[My:t.Possessive,s1] car is very old.;Моя машина очень старая.;0;
@@ -797,10 +826,148 @@ id;question;extra;suspicious_status;suspicious_note
 371;Nobody doubted that [their:t.Possessive,p3] decision was the right one in the given situation.;Никто не сомневался, что их решение было верным в данной ситуации.;0;
 372;With [their:t.Possessive,p3] support, the organization was able to expand internationally.;С их поддержкой организация смогла выйти на международный уровень.;0;
 373;It was difficult to ignore [their:t.Possessive,p3] influence on the final result.;Было трудно игнорировать их влияние на окончательный результат.;0;
+# possessive-cojoint: порядок местоимений.
+001;This is [your and my](i, you) project.;Это ваш и мой проект.;0;
+002;We discussed [your and his](you, he) ideas.;Мы обсуждали ваши и его идеи.;0;
+003;She reviewed [their and my](i, they) reports.;Она проверила их и мои отчёты.;0;
+004;They liked [your and her](you, she) presentation.;Им понравилась ваша и её презентация.;0;
+005;This is [his and our](we, he) responsibility.;Это его и наша ответственность.;0;
+006;We should respect [your and their](you, they) opinion.;Мы должны уважать ваши и их мнения.;0;
+007;She borrowed [his and my](i, he) notes for the test.;Она взяла его и мои записи для теста.;0;
+008;I appreciate [your and her](you, she) help.;Я ценю вашу и её помощь.;0;
+009;They are considering [your and our](you, we) proposal.;Они рассматривают ваше и наше предложение.;0;
+010;We need to combine [your and their](you, they) resources.;Нам нужно объединить ваши и их ресурсы.;0;
+011;I corrected [your and his](you, he) mistakes.;Я исправил ваши и его ошибки.;0;
+013;She accepted [their and my](i, they) offer.;Она приняла их и моё предложение.;0;
+016;They shared [your and my](i, you) concerns.;Они разделяют ваши и мои опасения.;0;
+017;I need to check [your and their](you, they) schedules.;Мне нужно проверить ваши и их расписания.;0;
+018;She supports [his and our](we, he) project.;Она поддерживает его и наш проект.;0;
+019;We finalized [her and their](she, they) contracts.;Мы завершили её и их контракты.;0;
+020;I value [your and their](you, they) feedback.;Я ценю ваши и их отзывы.;0;
+# possessive-cojoint: Singular Their.
+001;Every student should bring [their:t.Possessive] own notebook.;Каждый студент должен принести свой собственный блокнот.;0;
+002;If someone forgets [their:t.Possessive] password, they can reset it online.;Если кто-то забудет свой пароль, он может сбросить его онлайн.;0;
+003;Nobody wants to lose [their:t.Possessive] job.;Никто не хочет потерять свою работу.;0;
+004;A person should follow [their:t.Possessive] dreams.;Человек должен следовать своим мечтам.;0;
+005;Each employee has [their:t.Possessive] own responsibilities.;Каждый сотрудник имеет свои собственные обязанности.;0;
+006;If a doctor loves [their:t.Possessive] job, they will help more patients.;Если врач любит свою работу, он поможет большему количеству пациентов.;0;
+007;When a customer enters, greet [their:t.Possessive] visit with a smile.;Когда клиент заходит, приветствуйте его визит с улыбкой.;0;
+008;No one should be forced to change [their:t.Possessive] beliefs.;Никто не должен быть вынужден менять свои убеждения.;0;
+009;If a writer wants to improve [their:t.Possessive] skills, they must practice daily.;Если писатель хочет улучшить свои навыки, он должен практиковаться ежедневно.;0;
+010;Each person must choose [their:t.Possessive] own path in life.;Каждый человек должен выбрать свой собственный путь в жизни.;0;
+# possessive-cojoint: типичные конструкции - в сочетаниях с "own" (для усиления).
+001;I have [my:t.Possessive] own apartment.;У меня есть своя собственная квартира.;0;
+002;He prefers [my:t.Possessive] own recipe.;Он предпочитает мой собственный рецепт.;0;
+003;I can solve this problem on [my:t.Possessive] own.;Я могу решить эту проблему самостоятельно.;0;
+004;[My:t.Possessive] own experience tells me otherwise.;Мой собственный опыт говорит мне обратное.;0;
+005;I want to start [my:t.Possessive] own business.;Я хочу открыть свой собственный бизнес.;0;
+006;This is [your:t.Possessive] own choice.;Это твой собственный выбор.;0;
+007;You should have [your:t.Possessive] own opinion.;Тебе следует иметь своё собственное мнение.;0;
+008;Do you have [your:t.Possessive] own office?;У тебя есть свой собственный офис?;0;
+009;[Your:t.Possessive] own words contradict you.;Твои собственные слова тебе противоречат.;0;
+010;You must make [your:t.Possessive] own decisions.;Ты должен принимать свои собственные решения.;0;
+011;He has [his:t.Possessive] own car.;У него есть своя собственная машина.;0;
+012;[His:t.Possessive] own brother betrayed him.;Его родной брат предал его.;0;
+013;He built [his:t.Possessive] own house.;Он построил свой собственный дом.;0;
+014;He is responsible for [his:t.Possessive] own actions.;Он несёт ответственность за свои собственные поступки.;0;
+015;[His:t.Possessive] own parents didn’t believe him.;Его собственные родители не верили ему.;0;
+016;She wants [her:t.Possessive] own space.;Она хочет своё собственное пространство.;0;
+017;[Her:t.Possessive] own friends don’t trust her.;Её собственные друзья ей не доверяют.;0;
+018;She designed [her:t.Possessive] own dress.;Она создала своё собственное платье.;0;
+019;She has [her:t.Possessive] own opinion on this matter.;У неё есть своё собственное мнение на этот счёт.;0;
+020;[Her:t.Possessive] own work speaks for itself.;Её собственная работа говорит сама за себя.;0;
+021;The little cabin has [its:t.Possessive] own charm.;Небольшой домик имеет свой собственный шарм.;0;
+022;The company has [its:t.Possessive] own rules.;У компании есть свои собственные правила.;0;
+023;The tree grew in [its:t.Possessive] own unique way.;Дерево выросло по-своему.;0;
+024;The school has [its:t.Possessive] own traditions.;У школы есть свои собственные традиции.;0;
+025;The system has [its:t.Possessive] own limitations.;У системы есть свои собственные ограничения.;0;
+026;We have [our:t.Possessive] own traditions.;У нас есть свои собственные традиции.;0;
+027;[Our:t.Possessive] own team won the championship.;Наша собственная команда выиграла чемпионат.;0;
+028;This is [our:t.Possessive] own responsibility.;Это наша собственная ответственность.;0;
+029;We are building [our:t.Possessive] own future.;Мы строим своё собственное будущее.;0;
+030;[Our:t.Possessive] own mistakes teach us the most.;Наши собственные ошибки учат нас больше всего.;0;
+031;They have [their:t.Possessive] own business.;У них есть свой собственный бизнес.;0;
+032;[Their:t.Possessive] own ideas changed the industry.;Их собственные идеи изменили индустрию.;0;
+033;[Their:t.Possessive] own house is under construction.;Их собственный дом строится.;0;
+034;[Their:t.Possessive] own words proved them wrong.;Их собственные слова доказали их неправоту.;0;
+035;[Their:t.Possessive] own experience helped them succeed.;Их собственный опыт помог им добиться успеха.;0;
+# possessive-cojoint: possessive-cojoint vs "to be".
+000;[They’re](they’re/their) going to the store.;Они идут в магазин.;0;
+000;I like [your](your/you’re) new haircut.;Мне нравится твоя новая стрижка.;0;
+000;The dog wagged [its](its/it’s) tail.;Собака виляла хвостом.;0;
+000;[It’s](its/it’s) raining outside.;На улице идет дождь.;0;
+000;[It’s](its/it’s) the best decision you could make! — Это лучшее решение, которое ты мог принять!;0;
+000;She forgot [her](her/she’s) keys at home.;Она забыла свои ключи дома.;0;
+000;[They’re](they’re/their) very happy to see you.;Они очень рады тебя видеть.;0;
+000;The book lost [its](its/it’s) cover.;Книга потеряла свою обложку.;0;
+000;[It’s](Its/It’s) a beautiful day outside.;На улице прекрасный день.;0;
+000;The cat was licking [its](its/it’s) paws.;Кот облизывал свои лапы.;0;
+000;[You’re](Your/You’re) going to love this movie! — Тебе точно понравится этот фильм!;0;
+000;[They’re](Their/They’re) coming over for dinner at six.;Они придут на ужин в шесть.;0;
+000;[You’re](Your/You’re) the best friend I’ve ever had.;Ты лучший друг, который у меня был.;0;
+000;The dog lost [its](Its/It’s) collar somewhere in the park.;Собака потеряла свой ошейник где-то в парке.;0;
+000;I think [you’re](your/you’re) the best choice for the job.;Думаю, ты лучший кандидат на эту работу.;0;
+000;The phone lost [its](its/it’s) battery charge.;Телефон разрядился.;0;
+000;This is my car, and that one is [theirs](their/theirs).;Это моя машина, а та — их.;0;
+000;She said [she’s](she’s/her) not feeling well today.;Она сказала, что плохо себя чувствует сегодня.;0;
+000;I don’t know [his](his/he’s) name, but she looks familiar.;Я не знаю его имени, но она выглядит знакомой.;0;
+000;The company changed [its](its/it’s) logo last year.;Компания сменила свой логотип в прошлом году.;0;
+000;We’re going to [their](they’re/their) house for the weekend.;Мы едем к ним домой на выходные.;0;
+# possessive-cojoint: impact rule (правило воздействия).
+000;She kissed him on [the] cheek.;Она поцеловала его в щёку.;0;
+000;They hit me on [the] head.;Они ударили меня по голове.;0;
+000;He slapped her on [the] wrist.;Он шлёпнул её по запястью.;0;
+000;The ball hit him on [the] knee.;Мяч ударил его по колену.;0;
+000;She patted the child on [the] back.;Она похлопала ребёнка по спине.;0;
+000;He punched me in [the] stomach.;Он ударил меня в живот.;0;
+000;The insect stung her in [the] arm.;Насекомое ужалило её в руку.;0;
+000;She kicked him in [the] shin.;Она ударила его по голени.;0;
+000;He hit me in [the] ribs.;Он ударил меня по рёбрам.;0;
+000;The doctor injected him in [the] shoulder.;Врач сделал ему укол в плечо.;0;
+000;He grabbed me at [the] wrist.;Он схватил меня за запястье.;0;
+000;She scratched him at [the] neck.;Она поцарапала его в области шеи.;0;
+000;The cat bit him at [the] ankle.;Кошка укусила его за лодыжку.;0;
+000;He tugged her at [the] sleeve.;Он потянул её за рукав.;0;
+000;I felt a pain at [the] temple.;Я почувствовал боль в виске.;0;
+000;He pulled me by [the] arm.;Он потянул меня за руку.;0;
+000;She held him by [the] shoulder.;Она держала его за плечо.;0;
+000;He grabbed her by [the] collar.;Он схватил её за воротник.;0;
+000;The officer took him by [the] wrist.;Офицер взял его за запястье.;0;
+000;The dog caught him by [the] pant leg.;Собака схватила его за штанину.;0;
+000;He hit me with [the] palm of his hand.;Он ударил меня ладонью руки.;0;
+000;She poked him with [the] finger.;Она ткнула его пальцем.;0;
+000;He slapped me with [the] back of his hand.;Он ударил меня тыльной стороной руки.;0;
+000;The child wiped his mouth with [the] sleeve.;Ребёнок вытер рот рукавом.;0;
+000;She covered her face with [the] hands.;Она закрыла лицо руками.;0;
+# possessive-cojoint: noun2pronoun - могут замещать существительные с 's или конструкцию с предлогом of.
+000;This is [his friend:t.Possessive](a friend of Michael), not mine.;Это друг Майкла, а не мой.;0;
+001;[His idea:t.Possessive](Jack’s idea) was interesting, but his was even better.;Идея Джека была интересной, но его была ещё лучше.;0;
+002;[His idea:t.Possessive](The idea of Jack) was interesting, but his was even better.;Идея Джека была интересной, но его была ещё лучше.;0;
+003;[His decision:t.Possessive](Mark’s decision) was unexpected, but hers was even more surprising.;Решение Марка было неожиданным, но её было ещё более удивительным.;0;
+004;[His decision:t.Possessive](The decision of Mark) was unexpected, but hers was even more surprising.;Решение Марка было неожиданным, но её было ещё более удивительным.;0;
+005;[Her book:t.Possessive](Anna’s book) is on the table.;Книга Анны на столе.;0;
+006;[Her book:t.Possessive](The book of Anna) is on the table.;Книга Анны на столе.;0;
+007;He supported [her decision:t.Possessive](Anna’s decision), but questioned her reasoning.;Он поддержал решение Анны, но усомнился в её аргументации.;0;
+008;He supported [her decision:t.Possessive](the decision of Anna), but questioned her reasoning.;Он поддержал решение Анны, но усомнился в её аргументации.;0;
+009;The company changed [its policy:t.Possessive](the department’s policy) to comply with new regulations.;Компания изменила политику отдела, чтобы соответствовать новым правилам.;0;
+010;The company changed [its policy:t.Possessive](the policy of the department) to comply with new regulations.;Компания изменила политику отдела, чтобы соответствовать новым правилам.;0;
+011;The university updated [its catalog:t.Possessive](the library’s catalog) to include digital resources.;Университет обновил каталог библиотеки, чтобы включить цифровые ресурсы.;0;
+012;The university updated [its catalog:t.Possessive](the catalog of the library) to include digital resources.;Университет обновил каталог библиотеки, чтобы включить цифровые ресурсы.;0;
+013;The company improved [its interface:t.Possessive](the website’s interface) for better user experience.;Компания улучшила интерфейс сайта для лучшего пользовательского опыта.;0;
+014;The company improved [its interface:t.Possessive](the interface of the website) for better user experience.;Компания улучшила интерфейс сайта для лучшего пользовательского опыта.;0;
+015;The team followed [its guidelines:t.Possessive](the organization’s guidelines) to ensure compliance.;Команда следовала рекомендациям организации, чтобы обеспечить соответствие.;0;
+016;The team followed [its guidelines:t.Possessive](the guidelines of the organization) to ensure compliance.;Команда следовала рекомендациям организации, чтобы обеспечить соответствие.;0;
+017;The device lost [its calibration:t.Possessive](the sensor’s calibration) after prolonged use.;Устройство потеряло калибровку датчика после длительного использования.;0;
+018;The device lost [its calibration:t.Possessive](the calibration of the sensor) after prolonged use.;Устройство потеряло калибровку датчика после длительного использования.;0;
+019;The school updated [its structure:t.Possessive](the curriculum’s structure) to match new standards.;Школа обновила структуру учебного плана, чтобы соответствовать новым стандартам.;0;
+020;The school updated [its structure:t.Possessive](the structure of the curriculum) to match new standards.;Школа обновила структуру учебного плана, чтобы соответствовать новым стандартам.;0;
+021;The app changed [its settings:t.Possessive](the notification’s settings) after the update.;Приложение изменило настройки уведомления после обновления.;0;
+022;The app changed [its settings:t.Possessive](the settings of the notification) after the update.;Приложение изменило настройки уведомления после обновления.;0;
+023;[Their house:t.Possessive](James and Sarah’s house) is bigger than ours.;Дом Джеймса и Сары больше, чем наш.;0;
+024;[Their house:t.Possessive](the house of James and Sarah) is bigger than ours.;Дом Джеймса и Сары больше, чем наш.;0;
 
-
-
-
+>>>
+> Reflexive(Возвратные)
 
 
 374;Do you remember [this:t.demonstr,s,near] moment?;Ты помнишь этот момент?;0;
