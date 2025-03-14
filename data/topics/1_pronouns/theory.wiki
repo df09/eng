@@ -84,6 +84,7 @@ Personal-subject(Личные-nominative):
       американской системы образования с распространенным просторечным вариантом me and …:
         %% Me and my friend were asked to go. – Меня и моего друга попросили уйти. (неформальное употребление),
         %% My friend and I were asked to go. – Меня и моего друга попросили уйти. (правильный вариант).
+  >>> noun2pronoun:
 
 Personal-object(Личные-косвенные):
   Identification:
@@ -114,6 +115,7 @@ Personal-object(Личные-косвенные):
     если пол человека неизвестен или неважен использовать либо "him or her", либо "them"
       %% The doctor called a patient and asked [them:t.Personal] to come in.; Врач вызвал пациента и попросил его войти.;0;
       %% If someone finds my keys, please give [them:t.Personal] to the receptionist.; Если кто-то найдёт мои ключи, пожалуйста, отдайте их администратору.;0;
+  >>> noun2pronoun:
 
 Possessive-absolute(Притяжательные-абсолютные):
   Identification:
@@ -133,15 +135,15 @@ Possessive-absolute(Притяжательные-абсолютные):
   Singular Theirs:
     %% If anyone lost a wallet, this one might be theirs.  (Если кто-то потерял кошелек, возможно, это его/ее.)
     %% Who made this artwork? Oh, it’s theirs.  (Кто создал эту работу? О, это его/ее.)
-  типичные конструкции - с предлогом "of" (часто в формальных и литературных текстах):
+  patterns.ok - с предлогом "of" (часто в формальных и литературных текстах):
     %% She is a friend of [mine:s1].;Она моя подруга.;0;
-  типичные конструкции - после глагола be (в значении принадлежности):
+  patterns.ok - после глагола be (в значении принадлежности):
     %% This seat is [mine:s1].;Это место моё.;0;
-  типичные конструкции - в конце предложения (без существительного):
+  patterns.ok - в конце предложения (без существительного):
     %% I lost my pen, so I borrowed [yours:s2].;Я потерял свою ручку, поэтому одолжил твою.;0;
-  типичные конструкции - в сравнительных конструкциях:
+  patterns.ok - в сравнительных конструкциях:
     %% Her idea is more creative than [mine:s1].;Её идея креативнее моей.;0;
-  типичные конструкции - в сочетаниях с "own" (для усиления):
+  patterns.ok - в сочетаниях с "own" (для усиления):
     %% I want a place of [my:s1] own.;Я хочу своё собственное место.;0;
   noun2pronoun:
     %% This pen is [mine:t.Possessive-absolute](my pen).;Это моя ручка.
@@ -170,7 +172,7 @@ Possessive-cojoint(Притяжательные-присоединяемые):
   Singular Their:
     %% 001;Every student should bring [their:t.Possessive] own notebook.;Каждый студент должен принести свой собственный блокнот.;0;
     %% 002;If someone forgets [their:t.Possessive] password, they can reset it online.;Если кто-то забудет свой пароль, он может сбросить его онлайн.;0;
-  типичные конструкции - в сочетаниях с "own" (для усиления):
+  patterns.ok - в сочетаниях с "own" (для усиления):
     %% 001;I have [my:t.Possessive] own apartment.;У меня есть своя собственная квартира.;0;
     %% 002;He prefers [my:t.Possessive] own recipe.;Он предпочитает мой собственный рецепт.;0;
   possessive-cojoint vs "to be":
@@ -189,177 +191,481 @@ Possessive-cojoint(Притяжательные-присоединяемые):
     %% 000;This is [his friend:t.Possessive](a friend of Michael), not mine.;Это друг Майкла, а не мой.;0;
     %% 001;[His idea:t.Possessive](Jack’s idea) was interesting, but his was even better.;Идея Джека была интересной, но его была ещё лучше.;0;
 
+Reflexive(Возвратные):
+  >>>
+  Identification:
+    myself     : s1
+    yourself   : s2
+    himself    : s3m
+    herself    : s3f
+    itself     : s3n
+    ourselves  : p1
+    yourselves : p2
+    themselves : p3
+    oneself    : none
+
+  >>>
+  patterns.ok:
+    С предлогом by, когда выражение означает «сам», «один».
+      Здесь два момента: выражение с предлогом by и возвратным местоимением может подразумевать,
+      что кто-то осуществляет какое-либо действие в одиночестве, без компании или сопровождения.
+      В этом случае синонимом такого выражения будет словосочетание on one’s own (сам по себе, своими силами).
+      И второе значение – сочетание предлога by с возвратным местоимением может означать,
+      что кто-то выполняет что-либо самостоятельно, без чьей-либо помощи.
+      %% She likes living by herself (= on her own). – Она любит жить одна. (без кого-либо)
+      %% Are you going on holiday by yourself? (= on your own) – Ты собираешься ехать в отпуск один? (сам, без компании)
+      %% Can he do it by himself? – Он может сделать это сам? (без чьей-либо помощи)
+      %% Jane and Carol can’t lift the piano by themselves. – Джейн и Кэрол не могут сами поднять пианино. (без чьей-либо помощи)
+
+    to dry (высушиться, вытереться). Он всегда употребляется с возвратным местоимением – to dry oneself:
+    Исключение: to dry oneself - вытереться, высушиться
+      %% She quickly dried herself and dressed in the silk nightgown. – Она быстро вытерлась и надела шелковую ночную рубашку.
+    встречаются такие глаголы, которые требуют после себя возвратных местоимений (известные еще как возвратные глаголы),
+    но процесса возвратности не показывают. Сюда можно отнести: to content oneself - довольствоваться,
+    to commit oneself -  совершать, to busy oneself - заняться, to avail oneself - пользоваться и т.д.
+
+    После предлогов, входящих в состав фразовых глаголов и устойчивых выражений.
+      Take care of — заботиться.
+        %% He is old enough to take care of himself. — Он достаточно взрослый, чтобы сам с себе позаботиться.
+      Look after — ухаживать.
+        %% We help people who can't look after themselves. — Мы помогаем людям, которые не могут сами за собой ухаживать.
+      Be proud of — гордиться.
+        %% I passed the test with highest grade, I’m really proud of myself. — Я сдал тест на наивысшую оценку. Я очень горжусь собой.
+      Believe in — верить.
+        %% You should believe in yourself and never give up. — Ты должен верить в себя и никогда не сдаваться.
+      Be pleased with — быть довольным.
+        %% He was pleased with himself after his speech. — Он остался доволен собой после выступления.
+    С предлогом by: by myself, by himself, by yourselves etc.
+      %% Возвратное местоимение в сочетании с предлогом by обозначает: самостоятельно, сам, без никого, без посторонней помощи и указывает на тот факт, что действие выполняется в одиночку, без помощи. С тем же значением можно использовать выражениe on one’s own: on my own, on his own, on your own.
+      %% I wrote this poem by myself / on my own. — Я написал этот стих сам.
+      %% It can be dangerous if you go to the forest by yourself / on your own. — Это может быть опасно, если ты пойдешь в лес без никого.
+      %% She cleaned everything by herself / on her own. — Она помыла все без посторонней помощи.
+      %% They climbed the mountain by themselves / on their own. — Они забрались на гору самостоятельно.
+    В определенных устойчивых сочетаниях, которые используются в разговорной речи:
+      Help yourself! — Не стесняйся! Угощайся!
+      Enjoy yourself! — Хорошо повеселиться!
+      Don’t upset yourself! — Не расстраивайся!
+      I can’t hear myself speak! — Здесь так шумно! Оглохнуть можно!
+      Make yourself at home! — Чувствуйте себя как дома!
+      Make oneself heard — Докричаться до кого-либо.
+      %% It was so noisy in the class that the teacher couldn't make herself heard. — В классе было так шумно, что учительница не могла докричаться до учеников.
+      %% Make oneself understood — донести идею, донести мысль до кого-либо.
+      %% It was not easy to make myself understood as he didn't know English. — Было сложно донести мою идею, потому что он не знал английского.
+      %% Make oneself cheap — вести себя недостойно.
+      %% She really made herself cheap when she offended the child. — Она повела себя недостойно, когда обидела ребенка.
+      %% Make oneself responsible — взять на себя ответственность.
+      %% John made himself responsible for the accident. — Джон взял на себя ответственность за происшествие.
+    Возвратные местоимения используются всегда после следующих глаголов:
+      Avail (oneself of) — использовать возможность, воспользоваться.
+      We availed ourselves of the chance to go abroad for free. — Мы воспользовались возможностью бесплатно съездить за границу.
+      Absent (oneself from) — отсутствовать, отлучаться (глагол произносится [ˈæb.sənt]).
+      %% The students were allowed to absent themselves from the lecture. — Студентам разрешили отсутствовать на занятии.
+      %% Pride (oneself on) — гордиться.
+      %% She prides herself on winning the first prize. — Она гордится собой после выигрыша первого приза.
+
+    После переходных глаголов, которые подразумевают возвратное действие:
+      %% I bought myself a new dress. — Я купила себе новое платье. (Кто? — Я. Кому? — себе. Подлежащее и дополнение — один и тот же человек)
+      %% He taught himself to play the guitar. — Он сам научился играть на гитаре. (Он обучил сам себя)
+      %% We wrote ourselves positive references. — Мы написали себе положительные характеристики. (Мы написали сами о себе.)
+    Чаще всего возвратные местоимения можно встретить c глаголами:
+      Amuse — развлекаться.
+        %% The party was so boring but he tried to amuse himself. — Вечеринка была скучная, но он пытался развлечь себя.
+      Blame — винить.
+        %% She blamed herself of what happened. — Она винила себя в том, что произошло.
+      Burn — обжигаться.
+        %% Did you burn yourself when you were frying meat? — Ты обжегся, когда жарил мясо?
+      Сontent — довольствоваться.
+        %% As we don’t have much money we have to content ourselves with some cheap food. — Так как у нас не много денег, нам придется довольствоваться дешевой едой.
+      Convince — убеждать.
+        %% They were convincing themselves that everything would turn out well. — Они убеждали себя, что все закончится хорошо.
+      Сut — порезать.
+        %% I cut myself when I was peeling the potatoes. — Я порезалась, когда чистила картошку.
+      Encourage — ободрять.
+        %% He should encourage himself to compete. — Он должен ободриться, чтобы соревноваться.
+      Enjoy — хорошо провести время.
+        %% We enjoyed ourselves at the party. — Мы хорошо провели время на вечеринке.
+      Hurt — ушибиться.
+        %% He hurt himself while mending a car. — Он ушибся, когда чинил машину.
+      Introduce — представлять.
+        %% At first you should introduce yourself to the audience. — Сперва тебе следует представиться аудитории.
+      Kill — убивать.
+        %% He is not crazy, he won’t kill himself. — Он не сумасшедший, он не убъет себя.
+      Look at — смотреть на.
+        %% She was looking at herself in the mirror. — Она смотрела на себя в зеркало.
+
+    устойчивые выражения:
+      enjoy yourself – хорошо проводить время, веселиться;
+      apply yourself to – стараться изо всех сил, налегать, концентрировать свои усилия;
+      see yourself as somebody/something – считать/представлять себя кем-то/чем-то;
+      help yourself – угощаться, пользоваться;
+      find yourself somewhere – оказаться, очутиться где-то;
+      behave yourself – хорошо/прилично себя вести;
+      pinch yourself – отказать себе в чем-то.
+    Вот несколько примеров идиоматических выражений:
+      Enjoy oneself = Наслаждаться
+      Behave oneself = Вести себя подобающе
+      Be by oneself = Быть одному
+      Help yourself = Угоститься
+      Find oneself = Найти/обнаружить себя
+      See oneself = Видеть/представлять себя
+      As for myself… = Что касается меня…
+    фразеологизмы:
+      Make oneself at home = Чувствовать себя как дома
+      Make oneself heard = Говорить громче (досл. Заставить себя быть услышанным)
+      Spread oneself too thin = Вымотаться
+      Keep to oneself = Держать (что-либо) при себе
+      Dig oneself into a hole = Копать себе яму
+      Make an exhibition of oneself = Выставлять себя напоказ
+      Tie oneself up in knots = Запутаться/Не находить себе места
+
+  patterns.unusual:
+    Обычно после следующих глаголов мы не используем возвратные местоимения в английском языке:
+    to dress – одеваться, to hide – прятаться, to wash – умываться, to bathe – купаться, to shave – бриться.
+    Но, если мы стремимся показать, что человек сам что-то сделал, или приложил усилия, чтобы сделать что-то, можно добавить эти местоимения.
+      %% Hide behind the wall. – Спрячьтесь за стенкой.
+      %% She likes to bathe in the lake. – Она любит купаться в озере.
+      %% I had a broken finger, but I managed to dress myself. – У меня был сломан палец, но я смогла одеться сама.
+
+  patterns.anti:
+    patterns.anti !!!:
+      после глаголов to feel (чувствовать), to concentrate (сосредоточиться), to relax (расслабиться), to meet (встретиться), to kiss – поцеловаться
+      (и с другими русскими глаголами, которые выражают значение взаимного действия).
+      Также они не используются в выражении to take / to bring something with (взять с собой, принести с собой).
+        %% I feel good! – Я хорошо себя чувствую! (не говорим I feel good myself)
+        %% We shall meet later. – Мы встретимся позже. (не говорим We shall meet ourselves later)
+        %% When I leave, I will take this bag with me. – Когда я буду уезжать, я заберу эту сумку с собой. (не говорим I will take this bag with myself)
+    Возвратные местоимения не используются после глаголов, которые описывают обычные действия, выполняемые людьми каждый день, как например dress(рус. одеваться), wash(рус. мыться), shave(рус. бриться):
+      He washes before breakfast (рус. Он моется перед завтраком)
+      Ann dressed and went out (рус. Анна оделась и вышла)
+    Нельзя использовать возвратные местоимения после английских глаголов feel(рус. чувствовать), afford(рус. позволять), concentrate(рус. концентрироваться), focus(рус. сосредоточиться), relax(рус. расслабиться), meet(встречаться), которые в русском языке являются возвратными:
+      They feel wonderful (рус. Они чувствовали себя великолепно) He’d like to have a huge house but he cannot afford it. (рус. Он бы хотел иметь огромный дом, но не может себе этого позволить)
+    нельзя использовать некоторыми с глаголами:
+      например, чувствовать себя, позволить себе), не используется "себя":
+        %% I feel terrible. - Я ужасно себя чувствую.
+        %% I'd like to have a Porsche but I cannot afford it. - Я хотел бы иметь Порше, но я не могу себе этого позволить.
+      не используются после wash, bath, shave, (un)dress и change (clothes):
+        %% I dressed quickly, had my breakfast and left for work. - Я быстро оделся, позавтракал и уехал на работу.
+    нельзя использовать после предлогов места:
+      %% He closed the door behind him. – Он закрыл за собой дверь.
+      %% She had a suitcase beside her. – У нее был чемодан рядом с собой.
+      Правило в целом верное, но не абсолютное.
+      возвратные местоимения не используются после предлогов места, если речь идет о стандартных ситуациях:
+        %% He closed the door behind him. (а не behind himself)
+        %% She had a suitcase beside her. (а не beside herself)
+      Но есть случаи, когда возвратные местоимения после предлогов используются:
+          Когда речь идет о самоанализе или эмоциональном состоянии
+              %% She was sitting by herself. (Она сидела одна.)
+              %% He was talking to himself. (Он разговаривал сам с собой.)
+          Когда возвратное местоимение подчеркивает, что человек делает что-то самостоятельно
+              %% I built this house by myself. (Я построил этот дом сам.)
+              %% He solved the problem by himself. (Он решил проблему сам.)
+      То есть, если предлог указывает на физическое расположение, используется him, her, them.
+      Если же речь идет о состоянии или самостоятельности, то допустимы himself, herself, themselves.
+
+    С предлогом with (с):
+      My sister took me to the cinema with herself her – Моя сестра взяла меня с собой в кино.
+
+    С предлогами места – отвечают на вопрос «где?» и уточняют на местоположение. Они сочетаются с объектными местоимениями:
+      You can put the clothes into the closet behind yourself you – Ты можешь сложить одежду в шкаф позади тебя.
+      There was the red car beside himself him – Рядом с ним был красный автомобиль.
+
+    Но! В повелительном наклонении данные глаголы употребляются с местоимением.
+      или соответствующее действие выполняется с трудом и исполнителю сложно справиться без помощи. Обычно это касается маленьких детей, больных и пожилых людей.
+      %% Go and dress yourself. – Иди оденься.
+      %% My baby can’t wash himself – Мой ребенок не может сам помыться.
+
+    в конкретных случаях:
+      Stand up – вставать;
+      Get up – просыпаться, вставать;
+      Sit down – садиться;
+      Wake up – просыпаться;
+      Complain – жаловаться;
+      Wash – мыться, умываться;
+      Afford – позволять;
+      Shave – бриться;
+      (un)dress – одеваться, раздеваться;
+      Meet – встречаться;
+      Rest – отдыхать;
+      Relax – расслабляться.
+
+    Возвратные местоимения в английском языке не употребляются после глаголов to feel – чувствовать, to relax – расслаблять(ся), to concentrate – концентрировать(ся), заострять внимание.
+      %% I feel good. (NOT …feel myself good) – Мне хорошо.
+      %% Don’t concentrate on this question. (NOT … concentrate yourself) – Не заостряй внимание на этом вопросе.
+
+    Однако мы можем использовать возвратные местоимения с глаголами wash и dress когда говорим о детях или животных, либо для того, чтобы сделать акцент:
+      %% Although she is only two years old, she can dress herself. – Хотя ей всего два года, она может одеваться сама.
+      %% That dog is washing itself! – Собака моется сама.
+      %% Oh My! She is 15 years old. She is old enough to wash herself! – О Боже! Ей пятнадцать лет. Она достаточно взрослая, чтобы помыться.
+    Если нужно указать, что действие совершено в одиночку и без посторонней помощи, перед reflexive pronoun обычно ставится by.
+      %% Why don’t you go by yourself? – Почему бы тебе не пойти самому? (т.е. одному)
+
+    С рядом глаголов, по переводу которых часто понятно, что действие направлено на лицо его совершающее: feel (чувствовать), relax (расслабляться), hurry (торопиться), concentrate (сосредотачиваться, заострять внимание), meet (встречаться), behave (вести себя) и пр.
+      %% How do you feel yourself? – Как ты себя чувствуешь?
+      %% I want to relax myself this weekend – Я хочу расслабиться на этих выходных.
+    С глаголами, обозначающими действия, которые обычно выполняют сами с собой. Как правило, речь идёт о рутинных и гигиенических процедурах: wake up (просыпаться), wash (мыться), shave (бриться), bath (купаться), dress (одеваться).
+      %% My dad shaves himself every morning — Мой папа бреется каждое утро.
+
+    В таких выражениях, как: enjoy yourself (весело проводить время), behave yourself (прилично себя вести),
+      help yourself (угощаться), find oneself (очутиться), amuse oneself (развлекаться), do it yourself (сделай сам),
+      pinch oneself (отказать себе в чем-либо), take care of oneself (заботиться о ком-то) и другие.
+        %% The sick man can’t take care of himself. – Больной мужчина не может о себе заботиться.
+        %% Make yourself comfortable and help yourself to the cake. – Располагайтесь (чувствуйте себя как дома) и угощайтесь тортом.
+        %% I found myself alone in a strange city. – Я очутилась одна в незнакомом городе.
+        %% Collect yourself, you are a man! – Соберись, ты мужчина!
+    Для усиления значения подлежащего или дополнения в предложении.
+      %% I myself baked the cake. – Я сама испекла пирог.
+      %% He said it himself. – Он сам это сказал.
+      %% The book itself wasn’t very interesting. – Сама книга не была интересной.
+      %% The composer himself conducted the orchestra. – Композитор сам (лично) дирижировал оркестром.
+
+
 >>>
-> Reflexive(Возвратные):
->   Identification:
->     myself     : s1
->     yourself   : s2
->     himself    : s3m
->     herself    : s3f
->     itself     : s3n
->     ourselves  : p1
->     yourselves : p2
->     themselves : p3
->     oneself    : none
+глаголы, которые могут употребляться с возвратным местоимением, но в таком случае они меняют свое значение.
+  После этих глаголов никогда не используется объектные местоимения (me, you, him, her, it, us, them).
+    %% Apply oneself to something — посвятить себя занятию, усердно трудиться.
+    %% He applied himself to this project. — Он усердно трудится над этим проектом.
+    %% Behave oneself — хорошо себя вести.
+    %% The children behaved themselves which was surprising. — Дети вели себя хорошо, что было неожиданно.
+    %% Busy oneself with something — занимать себя.
+    %% I will busy myself with cleaning at the weekend. — Я займу себя уборкой на выходных.
+    Find oneself — оказываться.
+    %% I found myself in a forest. — Я оказалась в лесу.
+    See oneself as — представить себя.
+    %% She sees herself as a singer. — Она представляет, что она певица.
+
+Возвратные местоимения не используются:
+1. Никогда не используются после следующих глаголов:
+Concentrate — сосредоточиться.
+I need to concentrate on the problem. — Мне нужно сосредоточиться на проблеме.
+Feel — чувствовать.
+I feel very tired today. — Я чувствую себя усталым сегодня.
+Meet — встречаться.
+I meet my friends at the weekend. — Я встречаюсь с друзьями на выходных.
+Hurry — торопиться.
+I hurried because I didn't want to miss the last bus. — Я торопился, потому что не хотел пропустить последний автобус.
+Relax — расслабляться.
+I want to relax at the beach. — Я хочу расслабиться на пляже.
+2. Обычно возвратные местоимения не используется после глаголов:
+Wash — мыться, умываться
+Dress — одеваться
+Hide — прятаться
+Shave — бриться
+He washed, shaved, dressed and was ready for work . — Он умылся, побрился, оделся и был готовым к работе.
+The children tried to hide. — Дети пытались спрятаться.
+* Возвратное местоимение может использоваться с глаголами dress, shave, wash, чтобы показать что действие выполнялось с определенными усилиями, что человеку было непросто выполнить данное действие. Часто можно встретить относительно к маленьким детям или к больным, старым людям, которые все делают с трудом.
+Although she is very young she dresses herself. — Несмотря на то, что она очень маленькая, она сама одевается.
+His right arm was broken but he shaved himself. — Его правая рука была сломана, но он сам побрился.
+An old man is weak but can wash himself. — Дедушка слаб, но может сам умываться.
+* С глаголом dry обычно используют возвратное местоимение:
+She took a shower and dried herself with a towel. — Она приняла душ и вытерлась полотенцем.
+3. Возвратные местоимения не всегда используются относительно неодушевленных предметов, несмотря на то, что подлежащее и дополнение — один и тот же предмет:
+The door opened. — Дверь открылась. (The door opened itself.)
+The products sold really well. — Продукты продавались хорошо. (The products sold themselves really well.)
+Но мы можем использовать itself, когда речь идет о животных или живых организмах:
+The dog saw itself in the mirror and barked. — Собака увидела себя в зеркало и залаяла.
+The wound healed itself. — Рана затянулась.
+The virus copies itself within a body . — Вирусы размножаются в теле.
+4. Не используются с предлогами места, и предлогом with (обозначающим С). Вместо возвратных используются объектные местоимения:
+I can see a wall in front of me. — Я вижу стену впереди себя.
+She didn’t have any money with her. — У нее нет денег с собой.
+They left the park behind them. — Они оставили парк позади себя.
+Why don’t you ask a person next to you? — Почему ты не спросишь человека, сидящего рядом с тобой?
+
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+  usage - не используются как подлежащее.
+    %% ✘ Myself went to the store.
+    %% ✔ I went to the store myself.
+    oneself
+      употребляется для обозначения неопределенного лица в предложениях, для построения высказывания общего характера
+        %% One must not live for oneself only. – Нужно жить не только для себя.
+    Themselves и each other/one another.
+      Очень много ошибок допускают, когда путают использование этих двух слов. Themselves — сами себя, each other / one another — друг друга.
+    Возвратные местоимения могут иногда использоваться вместо личных местоимений после слов: as (как), like (как, подобно), but (for) (но, за исключением) и except (for) (за исключением) для выражения вежливости:
+      %% This organisation was found to protect people like yourselves. – Эта организация была основана для помощи таким людям, как вы.
+      %% Everybody had fun on that party but myself. – Все веселились на той вечеринке, кроме меня.
+  patterns.ok - предлоги:
+    %% oneself         обычная возвратность
+    %% oneself         emphatic
+    %% of oneself      Автоматическое действие.
+    %% for oneself     Действие направлено для своей пользы.
+    %% to oneself      Направленность действия на себя.
+    %% by itself       Автоматическое действие (чаще для объектов).
+    %% behind oneself  Физическое или метафорическое расположение.
+    %% against oneself Внутренний конфликт.
+  usage-map:
+    always-with:
+      verbs:
+        %% Avail oneself of         We availed ourselves of the opportunity. (Мы воспользовались возможностью.)
+        %% Absent oneself from      He absented himself from the meeting. (Он отсутствовал на встрече.)
+        %% Pride oneself on         She prides herself on her achievements. (Она гордится своими достижениями.)
+      fixed-expressions:
+        необходимо, чтобы сохранить устойчивый смысл фразы.
+        %% Help yourself            Help yourself to some cake. (Угощайся тортом.)
+        %% Suit yourself            Suit yourself. (Делай, как хочешь.)
+        %% Pull yourself together   Pull yourself together! (Соберись!)
+        %% Enjoy yourself           We enjoyed ourselves at the party. (Мы хорошо провели время на вечеринке.)
+        %% Behave yourself          Please behave yourself. (Пожалуйста, веди себя прилично.)
+        %% Amuse oneself            He amused himself with a puzzle. (Он развлекался, собирая пазл.)
+        %% Find oneself             She found herself in a difficult situation. (Она оказалась в трудной ситуации.)
+        %% Do it yourself           I prefer to do it myself. (Я предпочитаю делать это сам.)
+        %% Pinch oneself            He had to pinch himself to believe it. (Он ущипнул себя, чтобы поверить.)
+        %% Take care of oneself     You should take care of yourself. (Тебе стоит заботиться о себе.)
+    often-with:
+      prepositions:
+        Возвратные местоимения употребляются для указания на субъекта действия.
+        %% By           She did it by herself. (Она сделала это сама.)
+        %% For          I bought a gift for myself. (Я купил подарок для себя.)
+        %% About        He was talking about himself. (Он говорил о себе.)
+        %% To           She was whispering to herself. (Она шептала себе.)
+        %% Of           She is proud of herself. (Она гордится собой.)
+      verbs:
+        Используются с возвратными местоимениями, если действие явно направлено на субъекта.
+        %% Amuse        He amused himself with a book. (Он развлекался книгой.)
+        %% Blame        She blamed herself for the mistake. (Она винила себя за ошибку.)
+        %% Burn         He burned himself on the stove. (Он обжёгся о плиту.)
+        %% Content      We contented ourselves with what we had. (Мы довольствовались тем, что было.)
+        %% Convince     She convinced herself to take the job. (Она убедила себя принять работу.)
+        %% Dry          She dried herself with a towel. (Она вытерлась полотенцем.)
+    rarely-with
+      с неодушвевленными:
+        %% Open          The door opened itself. (Дверь открылась сама.)
+        %% Close         The window closed itself. (Окно закрылось само.)
+        %% Appear        The ghost appeared itself in the mirror. (Призрак появился в зеркале.)
+      для подчёркивание действия, литературный или формальный контекст:
+        verbs:
+          %% Dress       He dressed himself quickly. (Он быстро оделся.)
+          %% Wash        She washed herself after the run. (Она умылась после пробежки.)
+          %% Shave       He shaved himself in the morning. (Он побрился утром.)
+        prepositions:
+          %% Behind      He saw a shadow behind himself. (Он увидел тень позади себя.)
+          %% Beside      She found strength beside herself. (Она нашла силу рядом с собой.)
+          %% Under       He felt the ground shaking under himself. (Он почувствовал, как земля дрожит под ним.)
+          %% Above       He felt the stars above himself. (Он почувствовал звёзды над собой.)
+          %% Over        A dark cloud hung over himself. (Тёмное облако нависло над ним.)
+    never-with:
+      prepositions:
+        %% In front of   I can see a car in front of me. (Я вижу машину перед собой.)
+        %% Next to       He is sitting next to her. (Он сидит рядом с ней.)
+        %% Near          She felt someone near her. (Она почувствовала кого-то рядом с собой.)
+        %% Above         The picture is hanging above them. (Картина висит над ними.)
+        %% Below         The floor below us is very cold. (Этаж под нами очень холодный.)
+        %% Under         He found his shoes under him. (Он нашёл свои туфли под собой.)
+        %% Over          A plane flew over us. (Самолёт пролетел над нами.)
+        %% Around        He looked around him. (Он огляделся вокруг себя.)
+        %% Between       He sat between her and me. (Он сел между ней и мной.)
+      verbs:
+        %% Feel          I feel tired. (Я чувствую себя усталым.)
+        %% Concentrate   I need to concentrate. (Мне нужно сосредоточиться.)
+        %% Relax         I want to relax at home. (Я хочу расслабиться дома.)
+        %% Meet          I meet my friends on weekends. (Я встречаюсь с друзьями на выходных.)
+        %% Hurry         I hurried because I didn't want to miss the last bus.
+
+  emphatic:
     Intensive Pronouns:
       Используются, чтобы подчеркнуть, что действие выполняется самостоятельно, без посторонней помощи.
       Форма выразительных местоимений полностью совпадает с формой возвратных местоимений,
       но они могут использоваться практически со всеми глаголами.
       Они могут стоят после существительного, к которому относятся, или в конце предложения.
       Иногда они могут использоваться с предлогами by, for (для) и другими.
-  reflexive:
-    proper:
-      oneself
-        Местоимение "oneself" употребляется для обозначения неопределенного лица в предложениях, для построения высказывания общего характера
-          %% One must not live for oneself only. – Нужно жить не только для себя.
-      Возвратные местоимения могут иногда использоваться вместо личных местоимений после слов: as (как), like (как, подобно), but (for) (но, за исключением) и except (for) (за исключением) для выражения вежливости:
-        %% This organisation was found to protect people like yourselves. – Эта организация была основана для помощи таким людям, как вы.
-        %% Everybody had fun on that party but myself. – Все веселились на той вечеринке, кроме меня.
-      patterns:
-        %% oneself         Подчёркивает самостоятельность.
-        %% of oneself      Автоматическое действие.
-        %% for oneself     Действие направлено для своей пользы.
-        %% to oneself      Направленность действия на себя.
-        %% by itself       Автоматическое действие (чаще для объектов).
-        %% behind oneself  Физическое или метафорическое расположение.
-        %% against oneself Внутренний конфликт.
-      usage-map:
-        always-with:
-          verbs:
-            %% Avail oneself of         We availed ourselves of the opportunity. (Мы воспользовались возможностью.)
-            %% Absent oneself from      He absented himself from the meeting. (Он отсутствовал на встрече.)
-            %% Pride oneself on         She prides herself on her achievements. (Она гордится своими достижениями.)
-          fixed-expressions:
-            необходимо, чтобы сохранить устойчивый смысл фразы.
-            %% Help yourself            Help yourself to some cake. (Угощайся тортом.)
-            %% Suit yourself            Suit yourself. (Делай, как хочешь.)
-            %% Pull yourself together   Pull yourself together! (Соберись!)
-            %% Enjoy yourself           We enjoyed ourselves at the party. (Мы хорошо провели время на вечеринке.)
-            %% Behave yourself          Please behave yourself. (Пожалуйста, веди себя прилично.)
-            %% Amuse oneself            He amused himself with a puzzle. (Он развлекался, собирая пазл.)
-            %% Find oneself             She found herself in a difficult situation. (Она оказалась в трудной ситуации.)
-            %% Do it yourself           I prefer to do it myself. (Я предпочитаю делать это сам.)
-            %% Pinch oneself            He had to pinch himself to believe it. (Он ущипнул себя, чтобы поверить.)
-            %% Take care of oneself     You should take care of yourself. (Тебе стоит заботиться о себе.)
-        often-with:
-          prepositions:
-            Возвратные местоимения употребляются для указания на субъекта действия.
-            %% By           She did it by herself. (Она сделала это сама.)
-            %% For          I bought a gift for myself. (Я купил подарок для себя.)
-            %% About        He was talking about himself. (Он говорил о себе.)
-            %% To           She was whispering to herself. (Она шептала себе.)
-            %% Of           She is proud of herself. (Она гордится собой.)
-          verbs:
-            Используются с возвратными местоимениями, если действие явно направлено на субъекта.
-            %% Amuse        He amused himself with a book. (Он развлекался книгой.)
-            %% Blame        She blamed herself for the mistake. (Она винила себя за ошибку.)
-            %% Burn         He burned himself on the stove. (Он обжёгся о плиту.)
-            %% Content      We contented ourselves with what we had. (Мы довольствовались тем, что было.)
-            %% Convince     She convinced herself to take the job. (Она убедила себя принять работу.)
-            %% Dry          She dried herself with a towel. (Она вытерлась полотенцем.)
-        rarely-with
-          с неодушвевленными:
-            %% Open          The door opened itself. (Дверь открылась сама.)
-            %% Close         The window closed itself. (Окно закрылось само.)
-            %% Appear        The ghost appeared itself in the mirror. (Призрак появился в зеркале.)
-          для подчёркивание действия, литературный или формальный контекст:
-            verbs:
-              %% Dress       He dressed himself quickly. (Он быстро оделся.)
-              %% Wash        She washed herself after the run. (Она умылась после пробежки.)
-              %% Shave       He shaved himself in the morning. (Он побрился утром.)
-            prepositions:
-              %% Behind      He saw a shadow behind himself. (Он увидел тень позади себя.)
-              %% Beside      She found strength beside herself. (Она нашла силу рядом с собой.)
-              %% Under       He felt the ground shaking under himself. (Он почувствовал, как земля дрожит под ним.)
-              %% Above       He felt the stars above himself. (Он почувствовал звёзды над собой.)
-              %% Over        A dark cloud hung over himself. (Тёмное облако нависло над ним.)
-        never-with:
-          prepositions:
-            %% In front of   I can see a car in front of me. (Я вижу машину перед собой.)
-            %% Next to       He is sitting next to her. (Он сидит рядом с ней.)
-            %% Near          She felt someone near her. (Она почувствовала кого-то рядом с собой.)
-            %% Above         The picture is hanging above them. (Картина висит над ними.)
-            %% Below         The floor below us is very cold. (Этаж под нами очень холодный.)
-            %% Under         He found his shoes under him. (Он нашёл свои туфли под собой.)
-            %% Over          A plane flew over us. (Самолёт пролетел над нами.)
-            %% Around        He looked around him. (Он огляделся вокруг себя.)
-            %% Between       He sat between her and me. (Он сел между ней и мной.)
-          verbs:
-            %% Feel          I feel tired. (Я чувствую себя усталым.)
-            %% Concentrate   I need to concentrate. (Мне нужно сосредоточиться.)
-            %% Relax         I want to relax at home. (Я хочу расслабиться дома.)
-            %% Meet          I meet my friends on weekends. (Я встречаюсь с друзьями на выходных.)
-            %% Hurry         I hurried because I didn't want to miss the last bus.
-    emphatic:
-      в зависимости от желаемого акцента:
-        После подлежащего для акцента на субъекте:
-          %% She herself cooked the meal.
-        После глагола или дополнения для акцента на действии:
-          %% She cooked the meal herself.
-      patterns:
-        %% oneself         Подчёркивает самостоятельность.
-        %% by oneself      Подчёркивает самостоятельность.
-        %% all by oneself  Усиливает значение полного одиночества.
-        %% about oneself   Тема разговора (с акцентом).
-        %% beside oneself  Идиоматическое выражение эмоций.
-      fixed-expressions:
-        Generosity itself (Сама щедрость):
-        %% She was generosity itself. (Она была сама щедрость.)
-        The essence of (something) itself (Суть чего-либо):
-        %% This is the problem itself. (Это сама суть проблемы.)
-      examples:
-        %% But you yourself saw it!
-        %% You saw it yourself!
-        %% Но ведь Вы сами всё видели!
-        %% The movie itself was quite interesting but the some actors were a bit unnatural. (Фильм сам по себе довольно интересный, но некоторые актеры играли ненатурально.)
-        %% The girl herself was pleasant but her boyfriend was rude. (Девушка сама по себе была приятная, но ее парень был груб.)
-        %% I heard it myself! (Я слышал это своими ушами!)
-        %% She saw an UFO herself! (Она собственными глазами видела НЛО!)
-        %% The President congratulated the veterans himself. (Президент поздравил ветеранов лично.)
-        %% The managers introduced a new business strategy themselves. (Менеджеры представили новую бизнес-стратегию лично.)
-        %% She was generosity herself! (Она была сама щедрость!)
-        %% The children were angels themselves. (Дети вели себя ангельски.)
-        %% He painted the picture himself. (Он сам нарисовал картину.)
-        %% The book itself was good, but the translation was poor. (Книга сама по себе была хорошей, но перевод был плохой.)
-    mix:
-      Themselves vs each other/one another.⠁
-      by vs on one’s own⠁
-      reflexive vs personal-object⠁
-  mix:
-    Исключения/Особенности:
-      Reflexive pronouns (myself, yourself и т.д.) не используются как подлежащее. Пример:
-        %% ✘ Myself went to the store.
-        %% ✔ I went to the store myself.
-      Possessive pronouns в абсолютной форме (mine, yours и т.д.) не ставятся перед существительными. Пример:
-        %% ✘ This is mine book.
-        %% ✔ This is my book.
-    упражнения по применению сокращалок:⠁
-      noun -> personal_sub⠁
-      noun -> personal_obj⠁
-      noun -> possesive_abs⠁
-      possesive_dep -> possesive_abs⠁
-      personal_obj -> possesive_abs⠁
-        Пример 1:
-          %% My hat is blue, and your hat is red.
-          %% Можно сократить:
-          %% My hat is blue, and yours is red.
-          %% (Здесь yours заменяет your hat.)
-        Пример 2:
-          %% This car is my car, not his car.
-          %% Можно сократить:
-          %% This car is mine, not his.
-          %% (Здесь mine заменяет my car, а his заменяет his car.)
-      personal_obj -> possesive_abs⠁
-        Когда абсолютные местоимения стоят в конце предложения,
-        они выполняют роль дополнения (не подлежащего) и отсылают нас к ранее упомянутому существительному:
-          %% This house belongs to my daughter, not him.
-          %% This house is hers, not his.
-      noun -> reflexive⠁
-        %% John blamed John. -> John blamed himself.
-      Объединение с частями речи (Сокращение через пропуск дополнительных слов):⠁
-        %% This is my book, not your book. -> This is mine, not yours.
-      more?⠁
-    ruCases2en⠁
+
+Возвратные местоимения для акцентирования и выделения.
+Возвратные местоимения используются для создания определенного эффекта, подчеркивания либо выделения чего-либо. В некоторых пособиях, возвратные местоимения, которые используются для подчеркивания и усиления, называются emphatic pronouns (от слова emphasise — придавать особое значение; подчёркивать, акцентировать). Возвратные местоимения используются в этой функции:
+1. С существительными для создания эффекта контраста.
+В данном случае переводятся «сам по себе»:
+The movie itself was quite interesting but the some actors were a bit unnatural. — Фильм сам по себе довольно интересный, но некоторые актеры играли ненатурально.
+The girl herself was pleasant but her boyfriend was rude. — Девушка сама по себе была приятная, но ее парень был груб.
+2. С местоимениями, одушевленными существительными и глаголами. Используется для создания эффекта и подтверждения правдивости сказанного:
+I heard it myself! — Я слышал это своими ушами!
+She saw an UFO herself! — Она собственными глазами видела НЛО!
+3. С местоимениями и существительными, когда существует неопределенность, и без возвратного местоимения мы не можем определить, кто именно выполнял действие. Переводится как: собственной персоной, лично:
+The President congratulated the veterans himself. — Президент поздравил ветеранов лично.
+The managers introduced a new business strategy themselves. — Менеджеры представили новую бизнес-стратегию лично.
+4. Itself используется в предложениях типа:
+She was generosity herself! — Она была сама щедрость!
+The children were angels themselves. — Дети вели себя ангельски.
+Itself подчеркивает ненатуральность и наигранность.
+
+    в зависимости от желаемого акцента:
+      После подлежащего для акцента на субъекте:
+        %% She herself cooked the meal.
+      После глагола или дополнения для акцента на действии:
+        %% She cooked the meal herself.
+    patterns.ok:
+      %% oneself         Подчёркивает самостоятельность.
+      %% by oneself      Подчёркивает самостоятельность.
+      %% all by oneself  Усиливает значение полного одиночества.
+      %% about oneself   Тема разговора (с акцентом).
+      %% beside oneself  Идиоматическое выражение эмоций.
+    fixed-expressions:
+      Generosity itself (Сама щедрость):
+      %% She was generosity itself. (Она была сама щедрость.)
+      The essence of (something) itself (Суть чего-либо):
+      %% This is the problem itself. (Это сама суть проблемы.)
+    examples:
+      %% But you yourself saw it!
+      %% You saw it yourself!
+      %% Но ведь Вы сами всё видели!
+      %% The movie itself was quite interesting but the some actors were a bit unnatural. (Фильм сам по себе довольно интересный, но некоторые актеры играли ненатурально.)
+      %% The girl herself was pleasant but her boyfriend was rude. (Девушка сама по себе была приятная, но ее парень был груб.)
+      %% I heard it myself! (Я слышал это своими ушами!)
+      %% She saw an UFO herself! (Она собственными глазами видела НЛО!)
+      %% The President congratulated the veterans himself. (Президент поздравил ветеранов лично.)
+      %% The managers introduced a new business strategy themselves. (Менеджеры представили новую бизнес-стратегию лично.)
+      %% She was generosity herself! (Она была сама щедрость!)
+      %% The children were angels themselves. (Дети вели себя ангельски.)
+      %% He painted the picture himself. (Он сам нарисовал картину.)
+      %% The book itself was good, but the translation was poor. (Книга сама по себе была хорошей, но перевод был плохой.)
+
+> Reciprocal(взаимные):
+>   Identification:
+>     each other  : r.2   , f.Neutral/Formal
+>     each other  : r.grp , f.Neutral
+>     one another : r.grp , f.Formal
+>   q:
+>     пересмотреть Referring, Formal, все - не готово
+Разница в том, что reflexives употребляются, когда исполнитель совершает действие по отношению к себе, а reciprocals – когда группа исполнителей выполняют одно и то же действие по отношению друг к другу. Чтобы легче было разобраться, давайте посмотрим таблицу.
+  reciprocal(взаимные):
+    __common-specifications:
+      - могут употребляться в притяжательном падеже:
+          %% We couldn't hear each other's words for the wind. – Мы не могли слышать слова друг друга из-за ветра.
+          %% They enjoy one another's company. – Они наслаждаются компанией друг друга. (о группе более двух человек).
+    each other:
+      matrix:
+        - ru_cases:gdaip
+        - grammatical_role: object_xxx⠁
+        - animacy: animate
+            Пример некорректного употребления:
+              %% The books are placed next to each other. (Неправильно, так как книги не могут сознательно взаимодействовать.)
+            Для неодушевленных объектов используются другие конструкции:
+              %% The books are placed side by side. (Книги расположены рядом друг с другом.)
+              %% The books are arranged in a row. (Книги выстроены в ряд.)
+        - countability: uncountable
+        - formality: neutral
+      specifications:
+        - употребляется к двум лицам
+        - можно разделить в предложении, но тогда либо артикль, либо other это уже это описательное:
+            %% Each told the other the truth.
+            %% Each told other people the truth.
+            %% Each of them told the other the truth.
+    one another:
+      matrix:
+        - ru_cases:gdaip
+        - grammatical_role: object_xxx⠁
+        - animacy: animate
+            Пример некорректного употребления:
+              %% The books are placed next to each other. (Неправильно, так как книги не могут сознательно взаимодействовать.)
+            Для неодушевленных объектов используются другие конструкции:
+              %% The books are placed side by side. (Книги расположены рядом друг с другом.)
+              %% The books are arranged in a row. (Книги выстроены в ряд.)
+        - countability: uncountable
+        - formality: neutral
+      specifications:
+        - употребляется к двум и более лицам
+        - употребляется к череде событий или состояний
+    Themselves vs each other/one another.⠁
 
 Demonstrative(Указательные):
   Identification:
@@ -464,6 +770,7 @@ Demonstrative(Указательные):
         7. Редкие/формальные:
             Wherefore — Почему? Зачем? (устаревшее)
             (Wherefore art thou Romeo? — Почему ты, Ромео?)
+
 > Relative(Относительные):
 >   Identification:
 >     who   : a.Animate
@@ -510,6 +817,7 @@ Demonstrative(Указательные):
     specifications:?⠉
     vs:
       relative pronouns vs conjunctions⠉
+
 > Indefinite(неопределённые):
 >   Identification:
 >     all     : p   , c.Countable/Uncountable , a.Animate/Inanimate
@@ -649,6 +957,7 @@ Demonstrative(Указательные):
           %% He lives in a nice house and I live in a ugly one. — Он живет в красивом доме, а я живу в уродливом.
           %% Of all the comics she gave me I have cho­sen only these ones. — Из всех комиксов, что она мне дала, я выбрал только эти.
     vs:?⠁
+
 > Negative(отрицательные):
 >   Identification:
 >     nobody  : a.Animate           ,         , f.Neutral
@@ -711,52 +1020,6 @@ Demonstrative(Указательные):
       одинарное и двойное отрицание в русском и английском⠉
       no(negative) vs no(indefinite)⠉
 
-> Reciprocal(взаимные):
->   Identification:
->     each other  : r.2   , f.Neutral/Formal
->     each other  : r.grp , f.Neutral
->     one another : r.grp , f.Formal
->   q:
->     пересмотреть Referring, Formal, все - не готово
-  reciprocal(взаимные):
-    __common-specifications:
-      - могут употребляться в притяжательном падеже:
-          %% We couldn't hear each other's words for the wind. – Мы не могли слышать слова друг друга из-за ветра.
-          %% They enjoy one another's company. – Они наслаждаются компанией друг друга. (о группе более двух человек).
-    each other:
-      matrix:
-        - ru_cases:gdaip
-        - grammatical_role: object_xxx⠁
-        - animacy: animate
-            Пример некорректного употребления:
-              %% The books are placed next to each other. (Неправильно, так как книги не могут сознательно взаимодействовать.)
-            Для неодушевленных объектов используются другие конструкции:
-              %% The books are placed side by side. (Книги расположены рядом друг с другом.)
-              %% The books are arranged in a row. (Книги выстроены в ряд.)
-        - countability: uncountable
-        - formality: neutral
-      specifications:
-        - употребляется к двум лицам
-        - можно разделить в предложении, но тогда либо артикль, либо other это уже это описательное:
-            %% Each told the other the truth.
-            %% Each told other people the truth.
-            %% Each of them told the other the truth.
-    one another:
-      matrix:
-        - ru_cases:gdaip
-        - grammatical_role: object_xxx⠁
-        - animacy: animate
-            Пример некорректного употребления:
-              %% The books are placed next to each other. (Неправильно, так как книги не могут сознательно взаимодействовать.)
-            Для неодушевленных объектов используются другие конструкции:
-              %% The books are placed side by side. (Книги расположены рядом друг с другом.)
-              %% The books are arranged in a row. (Книги выстроены в ряд.)
-        - countability: uncountable
-        - formality: neutral
-      specifications:
-        - употребляется к двум и более лицам
-        - употребляется к череде событий или состояний
-
 Determiners/quantifiers(определительные):
   Identification:
     either  : c.Countable   , r.1of2 , e.positive
@@ -770,4 +1033,3 @@ Determiners/quantifiers(определительные):
     many    : c.Countable   , r.3of3 , e.a_lot
     much    : c.Uncountable , r.3of3 , e.a_lot
     all     : c.Countable/Uncountable , r.3of3 , e.abs
-

@@ -1,8 +1,8 @@
 [meta/suspicious_status:0,suspicious_note:'']
 Reflexive(Возвратные):
          Singular      Plural
-  1st    [1.myself   ] [6.ourselves ]
-  2nd    [2.yourself ] [7.yourselves]
-  3rd.m  [3.himself  ] [8.themselves]
-  3rd.f  [4.herself  ] Neutral
-  3rd.n  [5.itself   ] [9.oneself   ]
+  1st    [1.myself  ]  [6.ourselves ]
+  2nd    [2.yourself]  [7.yourselves]
+  3rd.m  [3.himself ]  [8.themselves]
+  3rd.f  [4.herself ]  General
+  3rd.n  [5.itself  ]  [9.oneself   ]

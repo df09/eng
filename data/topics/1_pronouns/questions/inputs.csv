@@ -664,6 +664,7 @@ id;question;extra;suspicious_status;suspicious_note
 287;That reward was [theirs:t.Possessive,p3].;Эта награда была их.;0;
 288;The authority is [theirs:t.Possessive,p3].;Власть их.;0;
 289;The responsibility is [theirs:t.Possessive,p3].;Ответственность их.;0;
+
 # possessive-absolute: its - не существует.
 000;That power was its. -> That was [its power].; Это была его сила.; 0;
 000;That solution won’t be its. -> That won’t be [its solution].; Это решение не будет его.; 0;
@@ -671,7 +672,8 @@ id;question;extra;suspicious_status;suspicious_note
 000;The book will be its. -> This [will be its book].; Это будет его книга.; 0;
 000;The success wasn’t its. -> That wasn’t [its success].; Это не был его успех.; 0;
 000;This advantage isn’t its. -> This isn’t [its advantage].; Это не его преимущество.; 0;
-# possessive-absolute: типичные конструкции - с предлогом "of" (часто в формальных и литературных текстах).
+
+# possessive-absolute: patterns.ok - с предлогом "of" (часто в формальных и литературных текстах).
 000;She is a friend of [mine:s1].;Она моя подруга.;0;
 000;That car of [theirs:p3] is cool.;Та их машина классная.;0;
 000;This idea of [hers:s3f] is brilliant.;Эта её идея блестящая.;0;
@@ -694,30 +696,35 @@ id;question;extra;suspicious_status;suspicious_note
 007;That painting of her is a masterpiece. -> That painting of [hers] is a masterpiece.;<перевод>;0;
 008;A project of our got approved. -> A project of [ours] got approved.;<перевод>;0;
 009;A colleague of your invited me to the event. -> A colleague of [yours] invited me to the event.;<перевод>;0;
-# possessive-absolute: типичные конструкции - после глагола be (в значении принадлежности).
+
+# possessive-absolute: patterns.ok - после глагола be (в значении принадлежности).
 000;This seat is [mine:s1].;Это место моё.;0;
 000;The decision is [yours:s2].;Решение за тобой.;0;
 000;That house is [theirs:p3].;Тот дом их.;0;
 000;The responsibility is [ours:p1].;Ответственность на нас.;0;
 000;This victory is [hers:s3f].;Эта победа её.;0;
-# possessive-absolute: типичные конструкции - в конце предложения (без существительного).
+
+# possessive-absolute: patterns.ok - в конце предложения (без существительного).
 000;I lost my pen, so I borrowed [yours:s2].;Я потерял свою ручку, поэтому одолжил твою.;0;
 000;They have their problems, and we have [ours:p1].;У них свои проблемы, а у нас свои.;0;
 000;His presentation was great, but [mine:s1] was better.;Его презентация была хорошей, но моя лучше.;0;
 000;She forgot her notebook, so I gave her [mine:s1].;Она забыла свой блокнот, поэтому я дал ей свой.;0;
 000;Their car is fast, but [ours:p1] is more comfortable.;Их машина быстрая, но наша удобнее.;0;
-# possessive-absolute: типичные конструкции - в сравнительных конструкциях.
+
+# possessive-absolute: patterns.ok - в сравнительных конструкциях.
 000;Her idea is more creative than [mine:s1].;Её идея креативнее моей.;0;
 000;His grades are higher than [yours:s2].;Его оценки выше твоих.;0;
 000;Your solution is simpler than [ours:p1].;Твоё решение проще нашего.;0;
 000;Their company is bigger than [his:s3m].;Их компания больше, чем его.;0;
 000;This city is more crowded than [theirs:p3].;Этот город более многолюдный, чем их.;0;
-# possessive-absolute: типичные конструкции - в сочетаниях с "own" (для усиления).
+
+# possessive-absolute: patterns.ok - в сочетаниях с "own" (для усиления).
 000;I want a place of [my:s1] own.;Я хочу своё собственное место.;0;
 000;She dreams of having a business of [her:s3f] own.;Она мечтает о собственном бизнесе.;0;
 000;They bought a house of [their:p3] own.;Они купили свой собственный дом.;0;
 000;He needs a car of [his:s3m] own.;Ему нужна своя собственная машина.;0;
 000;We should have an office of [our:p1] own.;Нам нужен собственный офис.;0;
+
 # possessive-absolute: Singular Theirs.
 000;If anyone lost a wallet, this one might be [theirs:t.Possessive].;Если кто-то потерял кошелек, возможно, это его/ее.;0;
 000;Who made this artwork? Oh, it’s [theirs:t.Possessive].;Кто создал эту работу? О, это его/ее.;0;
@@ -726,6 +733,7 @@ id;question;extra;suspicious_status;suspicious_note
 003;One of the students forgot a textbook, but the teacher knew it was [theirs:t.Possessive] by the handwriting.;Один из студентов забыл учебник, но учитель понял, что он его/ее, по почерку.;0;
 004;An artist submitted a painting for the exhibition, and the gallery confirmed it was [theirs:t.Possessive] by the signature.;Художник представил картину на выставку, и галерея подтвердила, что она его/ее, по подписи.;0;
 005;Someone left an umbrella in the office, and the receptionist said it was [theirs:t.Possessive] from yesterday.;Кто-то оставил зонт в офисе, и администратор сказал, что он его/ее со вчерашнего дня.;0;
+
 # possessive-absolute: noun2pronoun.
 000;This pen is [mine:t.Possessive-absolute](my pen).;Это моя ручка;0;
 000;Her jacket is [mine:t.Possessive-absolute](my coat).;Её куртка теплее, чем моя.;0;
@@ -741,6 +749,7 @@ id;question;extra;suspicious_status;suspicious_note
 000;[His:t.Possessive-absolute](His response) was faster than the manager's.;Его ответ был быстрее, чем у менеджера.;0;
 000;[Theirs:t.Possessive-absolute](Their strategy) turned out to be more effective than ours.;Их стратегия оказалась эффективнее, чем наша.;0;
 000;[Mine:t.Possessive-absolute](My design) looked more modern than the previous model.;Мой дизайн выглядел современнее, чем предыдущая модель.;0;
+
 # possessive-cojoint: identification.
 290;This is [my:t.Possessive,s1] book.;Это моя книга.;0;
 291;[My:t.Possessive,s1] car is very old.;Моя машина очень старая.;0;
@@ -826,6 +835,7 @@ id;question;extra;suspicious_status;suspicious_note
 371;Nobody doubted that [their:t.Possessive,p3] decision was the right one in the given situation.;Никто не сомневался, что их решение было верным в данной ситуации.;0;
 372;With [their:t.Possessive,p3] support, the organization was able to expand internationally.;С их поддержкой организация смогла выйти на международный уровень.;0;
 373;It was difficult to ignore [their:t.Possessive,p3] influence on the final result.;Было трудно игнорировать их влияние на окончательный результат.;0;
+
 # possessive-cojoint: порядок местоимений.
 001;This is [your and my](i, you) project.;Это ваш и мой проект.;0;
 002;We discussed [your and his](you, he) ideas.;Мы обсуждали ваши и его идеи.;0;
@@ -844,6 +854,7 @@ id;question;extra;suspicious_status;suspicious_note
 018;She supports [his and our](we, he) project.;Она поддерживает его и наш проект.;0;
 019;We finalized [her and their](she, they) contracts.;Мы завершили её и их контракты.;0;
 020;I value [your and their](you, they) feedback.;Я ценю ваши и их отзывы.;0;
+
 # possessive-cojoint: Singular Their.
 001;Every student should bring [their:t.Possessive] own notebook.;Каждый студент должен принести свой собственный блокнот.;0;
 002;If someone forgets [their:t.Possessive] password, they can reset it online.;Если кто-то забудет свой пароль, он может сбросить его онлайн.;0;
@@ -855,7 +866,8 @@ id;question;extra;suspicious_status;suspicious_note
 008;No one should be forced to change [their:t.Possessive] beliefs.;Никто не должен быть вынужден менять свои убеждения.;0;
 009;If a writer wants to improve [their:t.Possessive] skills, they must practice daily.;Если писатель хочет улучшить свои навыки, он должен практиковаться ежедневно.;0;
 010;Each person must choose [their:t.Possessive] own path in life.;Каждый человек должен выбрать свой собственный путь в жизни.;0;
-# possessive-cojoint: типичные конструкции - в сочетаниях с "own" (для усиления).
+
+# possessive-cojoint: patterns.ok - в сочетаниях с "own" (для усиления).
 001;I have [my:t.Possessive] own apartment.;У меня есть своя собственная квартира.;0;
 002;He prefers [my:t.Possessive] own recipe.;Он предпочитает мой собственный рецепт.;0;
 003;I can solve this problem on [my:t.Possessive] own.;Я могу решить эту проблему самостоятельно.;0;
@@ -891,6 +903,7 @@ id;question;extra;suspicious_status;suspicious_note
 033;[Their:t.Possessive] own house is under construction.;Их собственный дом строится.;0;
 034;[Their:t.Possessive] own words proved them wrong.;Их собственные слова доказали их неправоту.;0;
 035;[Their:t.Possessive] own experience helped them succeed.;Их собственный опыт помог им добиться успеха.;0;
+
 # possessive-cojoint: possessive-cojoint vs "to be".
 000;[They’re](they’re/their) going to the store.;Они идут в магазин.;0;
 000;I like [your](your/you’re) new haircut.;Мне нравится твоя новая стрижка.;0;
@@ -913,6 +926,7 @@ id;question;extra;suspicious_status;suspicious_note
 000;I don’t know [his](his/he’s) name, but she looks familiar.;Я не знаю его имени, но она выглядит знакомой.;0;
 000;The company changed [its](its/it’s) logo last year.;Компания сменила свой логотип в прошлом году.;0;
 000;We’re going to [their](they’re/their) house for the weekend.;Мы едем к ним домой на выходные.;0;
+
 # possessive-cojoint: impact rule (правило воздействия).
 000;She kissed him on [the] cheek.;Она поцеловала его в щёку.;0;
 000;They hit me on [the] head.;Они ударили меня по голове.;0;
@@ -939,6 +953,7 @@ id;question;extra;suspicious_status;suspicious_note
 000;He slapped me with [the] back of his hand.;Он ударил меня тыльной стороной руки.;0;
 000;The child wiped his mouth with [the] sleeve.;Ребёнок вытер рот рукавом.;0;
 000;She covered her face with [the] hands.;Она закрыла лицо руками.;0;
+
 # possessive-cojoint: noun2pronoun - могут замещать существительные с 's или конструкцию с предлогом of.
 000;This is [his friend:t.Possessive](a friend of Michael), not mine.;Это друг Майкла, а не мой.;0;
 001;[His idea:t.Possessive](Jack’s idea) was interesting, but his was even better.;Идея Джека была интересной, но его была ещё лучше.;0;
@@ -969,6 +984,38 @@ id;question;extra;suspicious_status;suspicious_note
 >>>
 > Reflexive(Возвратные)
 
+> Reciprocal
+identification
+646;They respect [each other:t.reciprocal,d.2,f.ntrl/frml].;Они уважают друг друга.;0;
+647;We always support [each other:t.reciprocal,d.2,f.ntrl/frml].;Мы всегда поддерживаем друг друга.;0;
+648;John and Lisa looked at [each other:t.reciprocal,d.2,f.ntrl/frml] in surprise.;Джон и Лиза удивленно посмотрели друг на друга.;0;
+649;They helped [each other:t.reciprocal,d.2,f.ntrl/frml] with their homework.;Они помогали друг другу с домашней работой.;0;
+650;The two brothers argued with [each other:t.reciprocal,d.2,f.ntrl/frml] a lot.;Эти два брата часто спорили друг с другом.;0;
+651;The couple wrote letters to [each other:t.reciprocal,d.2,f.ntrl/frml] for years.;Эта пара писала друг другу письма годами.;0;
+652;Sarah and Tom smiled at [each other:t.reciprocal,d.2,f.ntrl/frml].;Сара и Том улыбнулись друг другу.;0;
+653;The rivals tried to outsmart [each other:t.reciprocal,d.2,f.ntrl/frml].;Соперники пытались перехитрить друг друга.;0;
+654;We called [each other:t.reciprocal,d.2,f.ntrl/frml] every evening.;Мы звонили друг другу каждый вечер.;0;
+655;They shared their secrets with [each other:t.reciprocal,d.2,f.ntrl/frml].;Они делились своими секретами друг с другом.;0;
+656;The students in the class often help [each other:t.reciprocal,d.grp,f.ntrl].;Ученики в классе часто помогают друг другу.;0;
+657;We should listen to [each other:t.reciprocal,d.grp,f.ntrl] more carefully.;Нам стоит внимательнее слушать друг друга.;0;
+658;The kids were throwing the ball to [each other:t.reciprocal,d.grp,f.ntrl].;Дети перекидывали мяч друг другу.;0;
+659;The musicians in the band inspire [each other:t.reciprocal,d.grp,f.ntrl].;Музыканты в группе вдохновляют друг друга.;0;
+660;Friends should always be there for [each other:t.reciprocal,d.grp,f.ntrl].;Друзья всегда должны поддерживать друг друга.;0;
+661;The participants in the game challenged [each other:t.reciprocal,d.grp,f.ntrl].;Участники игры бросали вызовы друг другу.;0;
+662;They laughed and joked with [each other:t.reciprocal,d.grp,f.ntrl] all evening.;Они весь вечер смеялись и шутили друг с другом.;0;
+663;The team members worked closely with [each other:t.reciprocal,d.grp,f.ntrl].;Члены команды тесно работали друг с другом.;0;
+664;We exchanged gifts with [each other:t.reciprocal,d.grp,f.ntrl] during the holidays.;Мы обменялись подарками друг с другом в праздники.;0;
+665;The neighbors in the community support [each other:t.reciprocal,d.grp,f.ntrl].;Соседи в сообществе поддерживают друг друга.;0;
+666;The colleagues addressed [one another:t.reciprocal,d.grp,f.frml] with respect.;Коллеги обращались друг к другу с уважением.;0;
+667;The conference participants introduced [one another:t.reciprocal,d.grp,f.frml].;Участники конференции представили друг друга.;0;
+668;In a civilized society, people must trust [one another:t.reciprocal,d.grp,f.frml].;В цивилизованном обществе люди должны доверять друг другу.;0;
+669;The scholars exchanged research ideas with [one another:t.reciprocal,d.grp,f.frml].;Ученые обменивались идеями исследований друг с другом.;0;
+670;The members of the organization collaborate with [one another:t.reciprocal,d.grp,f.frml].;Члены организации сотрудничают друг с другом.;0;
+671;The diplomats negotiated with [one another:t.reciprocal,d.grp,f.frml] for hours.;Дипломаты вели переговоры друг с другом часами.;0;
+672;The panelists debated [one another:t.reciprocal,d.grp,f.frml] during the discussion.;Участники панели дискутировали друг с другом во время обсуждения.;0;
+673;The delegates greeted [one another:t.reciprocal,d.grp,f.frml] at the reception.;Делегаты приветствовали друг друга на приеме.;0;
+674;The executives shared insights with [one another:t.reciprocal,d.grp,f.frml].;Руководители обменивались идеями друг с другом.;0;
+675;The representatives of different nations learned from [one another:t.reciprocal,d.grp,f.frml].;Представители разных наций учились друг у друга.;0;
 
 374;Do you remember [this:t.demonstr,s,near] moment?;Ты помнишь этот момент?;0;
 375;[This:t.demonstr,s,near] problem needs to be solved immediately.;Эту проблему нужно решить немедленно.;0;
@@ -1242,36 +1289,8 @@ id;question;extra;suspicious_status;suspicious_note
 643;She checked the messages, but [none:t.negative,a.y/n,d.group] were unread.;Она проверила сообщения, но непрочитанных не осталось.;0;
 644;We looked for volunteers, but [none:t.negative,a.y/n,d.group] wanted to help.;Мы искали добровольцев, но никто не захотел помочь.;0;
 645;I wanted answers, but [none:t.negative,a.y/n,d.group] of them made sense.;Я хотел получить ответы, но ни один из них не имел смысла.;0;
-646;They respect [each other:t.reciprocal,d.2,f.ntrl/frml].;Они уважают друг друга.;0;
-647;We always support [each other:t.reciprocal,d.2,f.ntrl/frml].;Мы всегда поддерживаем друг друга.;0;
-648;John and Lisa looked at [each other:t.reciprocal,d.2,f.ntrl/frml] in surprise.;Джон и Лиза удивленно посмотрели друг на друга.;0;
-649;They helped [each other:t.reciprocal,d.2,f.ntrl/frml] with their homework.;Они помогали друг другу с домашней работой.;0;
-650;The two brothers argued with [each other:t.reciprocal,d.2,f.ntrl/frml] a lot.;Эти два брата часто спорили друг с другом.;0;
-651;The couple wrote letters to [each other:t.reciprocal,d.2,f.ntrl/frml] for years.;Эта пара писала друг другу письма годами.;0;
-652;Sarah and Tom smiled at [each other:t.reciprocal,d.2,f.ntrl/frml].;Сара и Том улыбнулись друг другу.;0;
-653;The rivals tried to outsmart [each other:t.reciprocal,d.2,f.ntrl/frml].;Соперники пытались перехитрить друг друга.;0;
-654;We called [each other:t.reciprocal,d.2,f.ntrl/frml] every evening.;Мы звонили друг другу каждый вечер.;0;
-655;They shared their secrets with [each other:t.reciprocal,d.2,f.ntrl/frml].;Они делились своими секретами друг с другом.;0;
-656;The students in the class often help [each other:t.reciprocal,d.grp,f.ntrl].;Ученики в классе часто помогают друг другу.;0;
-657;We should listen to [each other:t.reciprocal,d.grp,f.ntrl] more carefully.;Нам стоит внимательнее слушать друг друга.;0;
-658;The kids were throwing the ball to [each other:t.reciprocal,d.grp,f.ntrl].;Дети перекидывали мяч друг другу.;0;
-659;The musicians in the band inspire [each other:t.reciprocal,d.grp,f.ntrl].;Музыканты в группе вдохновляют друг друга.;0;
-660;Friends should always be there for [each other:t.reciprocal,d.grp,f.ntrl].;Друзья всегда должны поддерживать друг друга.;0;
-661;The participants in the game challenged [each other:t.reciprocal,d.grp,f.ntrl].;Участники игры бросали вызовы друг другу.;0;
-662;They laughed and joked with [each other:t.reciprocal,d.grp,f.ntrl] all evening.;Они весь вечер смеялись и шутили друг с другом.;0;
-663;The team members worked closely with [each other:t.reciprocal,d.grp,f.ntrl].;Члены команды тесно работали друг с другом.;0;
-664;We exchanged gifts with [each other:t.reciprocal,d.grp,f.ntrl] during the holidays.;Мы обменялись подарками друг с другом в праздники.;0;
-665;The neighbors in the community support [each other:t.reciprocal,d.grp,f.ntrl].;Соседи в сообществе поддерживают друг друга.;0;
-666;The colleagues addressed [one another:t.reciprocal,d.grp,f.frml] with respect.;Коллеги обращались друг к другу с уважением.;0;
-667;The conference participants introduced [one another:t.reciprocal,d.grp,f.frml].;Участники конференции представили друг друга.;0;
-668;In a civilized society, people must trust [one another:t.reciprocal,d.grp,f.frml].;В цивилизованном обществе люди должны доверять друг другу.;0;
-669;The scholars exchanged research ideas with [one another:t.reciprocal,d.grp,f.frml].;Ученые обменивались идеями исследований друг с другом.;0;
-670;The members of the organization collaborate with [one another:t.reciprocal,d.grp,f.frml].;Члены организации сотрудничают друг с другом.;0;
-671;The diplomats negotiated with [one another:t.reciprocal,d.grp,f.frml] for hours.;Дипломаты вели переговоры друг с другом часами.;0;
-672;The panelists debated [one another:t.reciprocal,d.grp,f.frml] during the discussion.;Участники панели дискутировали друг с другом во время обсуждения.;0;
-673;The delegates greeted [one another:t.reciprocal,d.grp,f.frml] at the reception.;Делегаты приветствовали друг друга на приеме.;0;
-674;The executives shared insights with [one another:t.reciprocal,d.grp,f.frml].;Руководители обменивались идеями друг с другом.;0;
-675;The representatives of different nations learned from [one another:t.reciprocal,d.grp,f.frml].;Представители разных наций учились друг у друга.;0;
+
+
 676;You can take [either:t.determ,c.y,d.1of2,e.positive] seat near the window.;Ты можешь занять любое из двух мест у окна.;0;
 677;I don’t think [either:t.determ,c.y,d.1of2,e.positive] solution is perfect.;Я не думаю, что любое из двух решений идеально.;0;
 678;You may choose [either:t.determ,c.y,d.1of2,e.positive] method for your experiment.;Ты можешь выбрать любой из двух методов для эксперимента.;0;
