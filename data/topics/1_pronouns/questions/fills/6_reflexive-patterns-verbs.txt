@@ -1,0 +1,22 @@
+[meta/suspicious_status:0,suspicious_note:'']
+Reflexive(Возвратные): patterns.verbs
+
+  Без reflexive не используются:
+    [1.Enjoy oneself           ]  (наслаждаться, развлекаться)
+    [2.Perjure oneself         ]  (лжесвидетельствовать)
+    [3.Comport oneself         ]  (вести себя)
+    [4.Avail oneself of        ]  (воспользоваться)
+    [5.Pride oneself on        ]  (гордиться)
+    [6.Apply oneself to        ]  (приложить усилия)
+    [7.Betake oneself to       ]  (отправляться)
+    [8.Commit oneself to       ]  (взять обязательство)
+    [9.Resign oneself to       ]  (смириться)
+    [10.Busy oneself with      ]  (заняться)
+    [11.Absent oneself from    ]  (отсутствовать)
+    [12.Content oneself with   ]  (довольствоваться)
+    [13.Ingratiate oneself with]  (втираться в доверие)
+
+  Без reflexive меняют смысл:
+    [14.Find oneself  ]  (оказаться). Без "oneself" find значит "найти что-то".
+    [14.See oneself as]  (представить себя). Без "oneself" see просто значит "видеть".
+    [14.Behave oneself]  (хорошо себя вести). Без "oneself" возможно только с уточнением, как человек себя ведёт.

@@ -1,5 +1,5 @@
 [meta/suspicious_status:0,suspicious_note:'']
-Possessive-absolute(Притяжательные-абсолютные):
+Possessive-absolute(Притяжательные-абсолютные): identification
          Singular  Plural
   1st    [1.mine ] [6.ours  ]
   2nd    [2.yours] [7.yours ]

@@ -666,12 +666,12 @@ id;question;extra;suspicious_status;suspicious_note
 289;The responsibility is [theirs:t.Possessive,p3].;Ответственность их.;0;
 
 # possessive-absolute: its - не существует
-000;That power was its. -> That was [its power].; Это была его сила.; 0;
-000;That solution won’t be its. -> That won’t be [its solution].; Это решение не будет его.; 0;
-000;The beauty will be its. -> It will have [its beauty].; У него будет своя красота.; 0;
-000;The book will be its. -> This [will be its book].; Это будет его книга.; 0;
-000;The success wasn’t its. -> That wasn’t [its success].; Это не был его успех.; 0;
-000;This advantage isn’t its. -> This isn’t [its advantage].; Это не его преимущество.; 0;
+000;FIXME: That power was its. -> That was [its power].; Это была его сила.; 0;
+000;FIXME: That solution won’t be its. -> That won’t be [its solution].; Это решение не будет его.; 0;
+000;FIXME: The beauty will be its. -> It will have [its beauty].; У него будет своя красота.; 0;
+000;FIXME: The book will be its. -> This [will be its book].; Это будет его книга.; 0;
+000;FIXME: The success wasn’t its. -> That wasn’t [its success].; Это не был его успех.; 0;
+000;FIXME: This advantage isn’t its. -> This isn’t [its advantage].; Это не его преимущество.; 0;
 
 # possessive-absolute: patterns.ok - с предлогом "of" (часто в формальных и литературных текстах)
 000;She is a friend of [mine:s1].;Она моя подруга.;0;
@@ -686,16 +686,16 @@ id;question;extra;suspicious_status;suspicious_note
 000;That suggestion of [hers:s3f] was helpful.;То её предложение было полезным.;0;
 000;The talent of [his:s3m] is impressive.;Этот его талант впечатляет.;0;
 000;The car of [ours:p1] needs repairs.;Эта наша машина нуждается в ремонте.;0;
-000;This book is a favorite of my. -> This book is a favorite of [mine].;<перевод>;0;
-001;That idea of her is interesting. -> That idea of [hers] is interesting.;<перевод>;0;
-002;This house of our is very old. -> This house of [ours] is very old.;<перевод>;0;
-003;That suggestion of your helped a lot. -> That suggestion of [yours] helped a lot.;<перевод>;0;
-004;The decision of their was unexpected. -> The decision of [theirs] was unexpected.;<перевод>;0;
-005;A friend of his recommended this movie. -> A friend of [his] recommended this movie.;<перевод>;0;
-006;This strategy of my won’t work. -> This strategy of [mine] won’t work.;<перевод>;0;
-007;That painting of her is a masterpiece. -> That painting of [hers] is a masterpiece.;<перевод>;0;
-008;A project of our got approved. -> A project of [ours] got approved.;<перевод>;0;
-009;A colleague of your invited me to the event. -> A colleague of [yours] invited me to the event.;<перевод>;0;
+000;FIXME: This book is a favorite of my. -> This book is a favorite [of mine].;<перевод>;0;
+001;FIXME: That idea of her is interesting. -> That idea [of hers] is interesting.;<перевод>;0;
+002;FIXME: This house of our is very old. -> This house [of ours] is very old.;<перевод>;0;
+003;FIXME: That suggestion of your helped a lot. -> That suggestion [of yours] helped a lot.;<перевод>;0;
+004;FIXME: The decision of their was unexpected. -> The decision [of theirs] was unexpected.;<перевод>;0;
+005;FIXME: A friend of his recommended this movie. -> A friend [of his] recommended this movie.;<перевод>;0;
+006;FIXME: This strategy of my won’t work. -> This strategy [of mine] won’t work.;<перевод>;0;
+007;FIXME: That painting of her is a masterpiece. -> That painting [of hers] is a masterpiece.;<перевод>;0;
+008;FIXME: A project of our got approved. -> A project [of ours] got approved.;<перевод>;0;
+009;FIXME: A colleague of your invited me to the event. -> A colleague [of yours] invited me to the event.;<перевод>;0;
 
 # possessive-absolute: patterns.ok - после глагола be (в значении принадлежности)
 000;This seat is [mine:s1].;Это место моё.;0;
@@ -719,11 +719,16 @@ id;question;extra;suspicious_status;suspicious_note
 000;This city is more crowded than [theirs:p3].;Этот город более многолюдный, чем их.;0;
 
 # possessive-absolute: patterns.ok - в сочетаниях с "own" (для усиления)
-000;I want a place of [my:s1] own.;Я хочу своё собственное место.;0;
-000;She dreams of having a business of [her:s3f] own.;Она мечтает о собственном бизнесе.;0;
-000;They bought a house of [their:p3] own.;Они купили свой собственный дом.;0;
-000;He needs a car of [his:s3m] own.;Ему нужна своя собственная машина.;0;
-000;We should have an office of [our:p1] own.;Нам нужен собственный офис.;0;
+000;I want a place [of my own](of myself).;Я хочу своё собственное место.;0;
+000;She dreams of having a business [of her own](of herself).;Она мечтает о собственном бизнесе.;0;
+000;They bought a house [of their own](of themselves).;Они купили свой собственный дом.;0;
+000;He needs a car [of his own](of himself).;Ему нужна своя собственная машина.;0;
+000;We should have an office [of our own](of ourselves).;Нам нужен собственный офис.;0;
+000;He did it [on his own](of himself).;Он сделал это самостоятельно.;0;
+000;He discovered the answer [on his own](of himself).;Он сам нашёл ответ.;0;
+000;She built a career [of her own](of herself).;Она построила свою собственную карьеру.;0;
+000;She has a car [of her own](of herself).;У неё есть собственная машина.;0;
+000;She wants a room [of her own](of herself).;Она хочет свою собственную комнату.;0;
 
 # possessive-absolute: Singular Theirs
 000;If anyone lost a wallet, this one might be [theirs:t.Possessive].;Если кто-то потерял кошелек, возможно, это его/ее.;0;
@@ -1038,33 +1043,33 @@ id;question;extra;suspicious_status;suspicious_note
 053;One must remind [oneself:t.Reflexive,none] of the bigger picture;Нужно напоминать себе о более широкой перспективе;0;  
 
 # Reflexive(Возвратные): usage - не используются как подлежащее.
-000;Myself can solve the problem. -> [I can solve] the problem myself.;Я сам могу решить проблему.;0;
-001;Yourself should apologize. -> [You should] apologize yourself.;Тебе следует извиниться самому.;0;
-002;Himself fixed the car. -> [He fixed] the car himself.;Он починил машину сам.;0;
-003;Herself wrote the report. -> [She wrote] the report herself.;Она написала отчёт сама.;0;
-004;Itself stopped working. -> [It stopped working] itself.;Оно перестало работать само.;0;
-005;Ourselves finished the project. -> [We finished] the project ourselves.;Мы закончили проект сами.;0;
-006;Yourselves must decide. -> [You must decide] yourselves.;Вы должны решить сами.;0;
-007;Themselves prepared for the test. -> [They prepared] for the test themselves.;Они подготовились к тесту сами.;0;
-008;Oneself should be disciplined. -> [One should be disciplined] oneself.;Человек должен быть дисциплинированным.;0;
-017;The manager and myself will review the reports. -> [The manager and I will review] the reports.;Менеджер и я рассмотрим отчёты.;0;  
-018;Everyone except yourself was invited. -> Everyone [except you] was invited.;Всех, кроме тебя, пригласили.;0;  
-019;The teacher asked if himself had completed the assignment. -> The teacher asked if [he had completed] the assignment.;Учитель спросил, закончил ли он задание.;0;  
-020;We weren’t sure whether herself could handle the pressure. -> We weren’t sure whether [she could handle] the pressure.;Мы не были уверены, сможет ли она справиться с давлением.;0;  
-021;None of the students, including myself, understood the question. -> None of the students, [including me], understood the question.;Никто из студентов, включая меня, не понял вопрос.;0;  
-022;The committee believed that themselves should decide on the policy. -> The committee believed that [they should decide] on the policy.;Комитет считал, что они должны сами принять решение о политике.;0;  
-023;He was unsure whether yourself had been informed. -> He was unsure whether [you had been informed].;Он не был уверен, был ли ты проинформирован.;0;  
-024;She noticed that himself was not paying attention. -> She noticed that he was not paying attention.;Она заметила, что он не обращал внимания.;0;  
-025;The CEO mentioned that myself would be leading the project. -> The CEO mentioned that [I would be leading] the project.;Генеральный директор упомянул, что я буду руководить проектом.;0;  
-026;The report stated that yourself must comply with the regulations. -> The report stated that [you must comply] with the regulations.;В отчёте указано, что ты должен соблюдать правила.;0;  
-027;She asked whether himself had already arrived. -> She asked whether [he had already arrived].;Она спросила, прибыл ли он уже.;0;  
-028;None of the candidates, including herself, met the requirements. -> None of the candidates, [including her], met the requirements.;Никто из кандидатов, включая её, не соответствовал требованиям.;0;  
-029;The director confirmed that ourselves had been selected for the project. -> The director confirmed that [we had been selected] for the project.;Директор подтвердил, что нас выбрали для проекта.;0;  
-030;We wondered if themselves had approved the changes. -> We wondered if [they had approved] the changes.;Мы задавались вопросом, одобрили ли они изменения.;0;  
-031;The lawyer suspected that yourself had altered the documents. -> The lawyer suspected [that you had altered] the documents.;Адвокат подозревал, что ты изменил документы.;0;  
-032;The scientist argued that itself was not a reliable source of data. -> The scientist argued that [it was not] a reliable source of data.;Учёный утверждал, что это не является надёжным источником данных.;0;  
-033;Despite the challenges, the team and myself managed to complete the task. -> Despite the challenges, [the team and I managed to complete] the task.;Несмотря на трудности, команда и я смогли выполнить задание.;0;  
-034;Her colleagues assumed that herself had taken the initiative. -> Her colleagues assumed that [she had taken] the initiative.;Её коллеги предположили, что она взяла инициативу на себя.;0;  
+000;FIXME: Myself can solve the problem. -> [I can solve] the problem myself.;Я сам могу решить проблему.;0;
+001;FIXME: Yourself should apologize. -> [You should] apologize yourself.;Тебе следует извиниться самому.;0;
+002;FIXME: Himself fixed the car. -> [He fixed] the car himself.;Он починил машину сам.;0;
+003;FIXME: Herself wrote the report. -> [She wrote] the report herself.;Она написала отчёт сама.;0;
+004;FIXME: Itself stopped working. -> [It stopped working] itself.;Оно перестало работать само.;0;
+005;FIXME: Ourselves finished the project. -> [We finished] the project ourselves.;Мы закончили проект сами.;0;
+006;FIXME: Yourselves must decide. -> [You must decide] yourselves.;Вы должны решить сами.;0;
+007;FIXME: Themselves prepared for the test. -> [They prepared] for the test themselves.;Они подготовились к тесту сами.;0;
+008;FIXME: Oneself should be disciplined. -> [One should be disciplined] oneself.;Человек должен быть дисциплинированным.;0;
+017;FIXME: The manager and myself will review the reports. -> [The manager and I will review] the reports.;Менеджер и я рассмотрим отчёты.;0;  
+018;FIXME: Everyone except yourself was invited. -> Everyone [except you] was invited.;Всех, кроме тебя, пригласили.;0;  
+019;FIXME: The teacher asked if himself had completed the assignment. -> The teacher asked if [he had completed] the assignment.;Учитель спросил, закончил ли он задание.;0;  
+020;FIXME: We weren’t sure whether herself could handle the pressure. -> We weren’t sure whether [she could handle] the pressure.;Мы не были уверены, сможет ли она справиться с давлением.;0;  
+021;FIXME: None of the students, including myself, understood the question. -> None of the students, [including me], understood the question.;Никто из студентов, включая меня, не понял вопрос.;0;  
+022;FIXME: The committee believed that themselves should decide on the policy. -> The committee believed that [they should decide] on the policy.;Комитет считал, что они должны сами принять решение о политике.;0;  
+023;FIXME: He was unsure whether yourself had been informed. -> He was unsure whether [you had been informed].;Он не был уверен, был ли ты проинформирован.;0;  
+024;FIXME: She noticed that himself was not paying attention. -> She noticed that he was not paying attention.;Она заметила, что он не обращал внимания.;0;  
+025;FIXME: The CEO mentioned that myself would be leading the project. -> The CEO mentioned that [I would be leading] the project.;Генеральный директор упомянул, что я буду руководить проектом.;0;  
+026;FIXME: The report stated that yourself must comply with the regulations. -> The report stated that [you must comply] with the regulations.;В отчёте указано, что ты должен соблюдать правила.;0;  
+027;FIXME: She asked whether himself had already arrived. -> She asked whether [he had already arrived].;Она спросила, прибыл ли он уже.;0;  
+028;FIXME: None of the candidates, including herself, met the requirements. -> None of the candidates, [including her], met the requirements.;Никто из кандидатов, включая её, не соответствовал требованиям.;0;  
+029;FIXME: The director confirmed that ourselves had been selected for the project. -> The director confirmed that [we had been selected] for the project.;Директор подтвердил, что нас выбрали для проекта.;0;  
+030;FIXME: We wondered if themselves had approved the changes. -> We wondered if [they had approved] the changes.;Мы задавались вопросом, одобрили ли они изменения.;0;  
+031;FIXME: The lawyer suspected that yourself had altered the documents. -> The lawyer suspected [that you had altered] the documents.;Адвокат подозревал, что ты изменил документы.;0;  
+032;FIXME: The scientist argued that itself was not a reliable source of data. -> The scientist argued that [it was not] a reliable source of data.;Учёный утверждал, что это не является надёжным источником данных.;0;  
+033;FIXME: Despite the challenges, the team and myself managed to complete the task. -> Despite the challenges, [the team and I managed to complete] the task.;Несмотря на трудности, команда и я смогли выполнить задание.;0;  
+034;FIXME: Her colleagues assumed that herself had taken the initiative. -> Her colleagues assumed that [she had taken] the initiative.;Её коллеги предположили, что она взяла инициативу на себя.;0;  
 
 # Reflexive(Возвратные): usage.oneself - неопределенное лицо, высказывания общего характера
 001;It is important to challenge [oneself:t.Reflexive,s0] every day.;Важно бросать себе вызов каждый день.;0;  
@@ -1078,7 +1083,7 @@ id;question;extra;suspicious_status;suspicious_note
 009;To stay healthy, one should not neglect [oneself:t.Reflexive,s0].;Чтобы оставаться здоровым, нельзя пренебрегать собой.;0;  
 010;Pushing [oneself:t.Reflexive,s0] too hard can lead to burnout.;Чрезмерные нагрузки могут привести к выгоранию.;0;  
   
-# Reflexive(Возвратные): patterns.prepositions > Базовые конструкции > By oneself (alone/independently)
+# Reflexive(Возвратные): patterns.prepositions > Base > By oneself (alone/independently)
 001;He enjoys traveling [by himself:t.Reflexive](on his own).;Ему нравится путешествовать одному.;0;  
 002;She prefers dining [by herself:t.Reflexive](on her own).;Она предпочитает обедать в одиночестве.;0;  
 003;I spent the whole evening [by myself:t.Reflexive](on my own).;Я провел весь вечер один.;0;  
@@ -1110,7 +1115,7 @@ id;question;extra;suspicious_status;suspicious_note
 009;They organized the event [by themselves:t.Reflexive](independently).;Они организовали мероприятие сами.;0;  
 010;She sewed the dress [by herself:t.Reflexive](independently).;Она сшила платье сама.;0;  
 
-# Reflexive(Возвратные): patterns.prepositions > Базовые конструкции > For oneself (Для себя)
+# Reflexive(Возвратные): patterns.prepositions > Base > For oneself (Для себя)
 001;He made the decision [for himself:t.Reflexive](для себя).;Он принял решение для себя.;0;  
 002;She cooked dinner [for herself:t.Reflexive](для себя).;Она приготовила ужин для себя.;0;  
 003;I bought this book [for myself:t.Reflexive](для себя).;Я купил эту книгу для себя.;0;  
@@ -1122,7 +1127,7 @@ id;question;extra;suspicious_status;suspicious_note
 004;They built a house [for themselves:t.Reflexive](для себя) instead of renting one.;Они построили дом для себя, вместо того чтобы снимать жилье.;0;  
 005;He booked a trip [for himself:t.Reflexive](для себя) because he needed a break.;Он забронировал поездку для себя, потому что ему нужен был отдых.;0;  
 
-# Reflexive(Возвратные): patterns.prepositions > Базовые конструкции > About oneself (О себе)
+# Reflexive(Возвратные): patterns.prepositions > Base > About oneself (О себе)
 001;He only thinks [about himself:t.Reflexive](о себе).;Он думает только о себе.;0;  
 002;Tell me something [about yourself:t.Reflexive](о себе).;Расскажи мне что-нибудь о себе.;0;  
 003;She wrote a book [about herself:t.Reflexive](о себе).;Она написала книгу о себе.;0;  
@@ -1134,7 +1139,7 @@ id;question;extra;suspicious_status;suspicious_note
 004;They spoke [about themselves:t.Reflexive](о себе) during the interview.;Они говорили о себе во время интервью.;0;  
 005;He likes reading stories [about himself:t.Reflexive](о себе) in fictional books.;Ему нравится читать истории о себе в художественных книгах.;0;  
 
-# Reflexive(Возвратные): patterns.prepositions > Базовые конструкции > To oneself (По отношению к себе)
+# Reflexive(Возвратные): patterns.prepositions > Base > To oneself (По отношению к себе)
 001;Don’t be so hard [on yourself:t.Reflexive](по отношению к себе).;Не будь так строг к себе.;0;  
 002;He spoke [to himself:t.Reflexive](по отношению к себе).;Он говорил сам с собой.;0;  
 003;She whispered [to herself:t.Reflexive](по отношению к себе).;Она прошептала самой себе.;0;  
@@ -1146,7 +1151,7 @@ id;question;extra;suspicious_status;suspicious_note
 004;They admitted [to themselves:t.Reflexive](по отношению к себе) that they were wrong.;Они признались себе, что были неправы.;0;  
 005;She whispered a secret [to herself:t.Reflexive](по отношению к себе) before falling asleep.;Она прошептала себе секрет перед тем, как заснуть.;0;  
         
-# Reflexive(Возвратные): patterns.prepositions > Полезные конструкции > On oneself (ответственность)
+# Reflexive(Возвратные): patterns.prepositions > Useful > On oneself (ответственность)
 011;He took it [on himself:t.Reflexive](ответственность).;Он взял это на себя.;0;  
 012;She placed the burden [on herself:t.Reflexive](ответственность).;Она взвалила ответственность на себя.;0;  
 013;I assumed the duty [on myself:t.Reflexive](ответственность).;Я взял на себя обязанность.;0;  
@@ -1158,7 +1163,7 @@ id;question;extra;suspicious_status;suspicious_note
 019;They took the challenge [on themselves:t.Reflexive](ответственность) to deliver the product ahead of schedule.;Они взяли на себя задачу доставить продукт раньше срока.;0;  
 020;She assumed full responsibility [on herself:t.Reflexive](ответственность) for the consequences of her actions.;Она взяла на себя полную ответственность за последствия своих действий.;0;  
 
-# Reflexive(Возвратные): patterns.prepositions > Полезные конструкции > Upon oneself (обременение)
+# Reflexive(Возвратные): patterns.prepositions > Useful > Upon oneself (обременение)
 021;He brought trouble [upon himself:t.Reflexive](обременение).;Он навлек на себя неприятности.;0;  
 022;She took the risk [upon herself:t.Reflexive](обременение).;Она взяла на себя риск.;0;  
 023;I placed this challenge [upon myself:t.Reflexive](обременение).;Я возложил этот вызов на себя.;0;  
@@ -1170,7 +1175,7 @@ id;question;extra;suspicious_status;suspicious_note
 029;They imposed additional difficulties [upon themselves:t.Reflexive](обременение) by overcomplicating the process.;Они создали себе дополнительные трудности, чрезмерно усложнив процесс.;0;  
 030;She assumed the entire financial burden [upon herself:t.Reflexive](обременение) to keep her family secure.;Она взяла на себя весь финансовый груз, чтобы обеспечить безопасность своей семьи.;0;  
 
-# Reflexive(Возвратные): patterns.prepositions > Полезные конструкции > Over oneself (самоконтроль)
+# Reflexive(Возвратные): patterns.prepositions > Useful > Over oneself (самоконтроль)
 001;He has complete control [over himself:t.Reflexive](самоконтроль).;Он полностью контролирует себя.;0;  
 002;She struggled [over herself:t.Reflexive](самоконтроль).;Она боролась с собой.;0;  
 003;I regained power [over myself:t.Reflexive](самоконтроль).;Я восстановил контроль над собой.;0;  
@@ -1182,7 +1187,7 @@ id;question;extra;suspicious_status;suspicious_note
 009;They kept control [over themselves:t.Reflexive](самоконтроль) despite the intense pressure at work.;Они сохраняли самоконтроль, несмотря на сильное давление на работе.;0;  
 010;She maintained discipline [over herself:t.Reflexive](самоконтроль) even in the toughest moments of training.;Она сохраняла самодисциплину даже в самые сложные моменты тренировки.;0;  
 
-# Reflexive(Возвратные): patterns.prepositions > Полезные конструкции > Against oneself (борьба,вред)
+# Reflexive(Возвратные): patterns.prepositions > Useful > Against oneself (борьба,вред)
 031;He worked [against himself:t.Reflexive](борьба, вред).;Он работал против себя.;0;  
 032;She acted [against herself:t.Reflexive](борьба, вред).;Она поступала против себя.;0;  
 033;I made choices [against myself:t.Reflexive](борьба, вред).;Я принимал решения против себя.;0;  
@@ -1194,7 +1199,7 @@ id;question;extra;suspicious_status;suspicious_note
 039;They fought [against themselves:t.Reflexive](борьба, вред) when their ambitions clashed with their values.;Они боролись с самими собой, когда их амбиции сталкивались с их ценностями.;0;  
 040;She struggled [against herself:t.Reflexive](борьба, вред) as fear kept her from moving forward.;Она боролась с самой собой, так как страх не давал ей двигаться вперед.;0;  
 
-# Reflexive(Возвратные): patterns.prepositions > Полезные конструкции > Among themselves (Среди подобных)
+# Reflexive(Возвратные): patterns.prepositions > Useful > Among themselves (Среди подобных)
 041;They kept the secret [among themselves:t.Reflexive](среди подобных).;Они хранили секрет между собой.;0;  
 042;The colleagues discussed the matter [among themselves:t.Reflexive](среди подобных).;Коллеги обсудили этот вопрос между собой.;0;  
 043;The students shared the knowledge [among themselves:t.Reflexive](среди подобных).;Студенты поделились знаниями между собой.;0;  
@@ -1206,8 +1211,44 @@ id;question;extra;suspicious_status;suspicious_note
 049;The group built trust [among themselves:t.Reflexive](среди подобных) through open communication.;Группа выстроила доверие между собой с помощью открытого общения.;0;  
 050;The team assigned roles [among themselves:t.Reflexive](среди подобных) to ensure efficiency.;Команда распределила роли между собой для повышения эффективности.;0;  
 
+# Reflexive(Возвратные): patterns.prepositions > Specific > Within oneself (thoughts, feelings)
+001;He kept his fears [within himself:t.Reflexive](thoughts,feelings).;Он держал свои страхи внутри себя.;0;  
+002;She found strength [within herself:t.Reflexive](thoughts,feelings).;Она нашла силу внутри себя.;0;  
+003;I buried my emotions [within myself:t.Reflexive](thoughts,feelings).;Я похоронил свои эмоции внутри себя.;0;  
+004;They hid their doubts [within themselves:t.Reflexive](thoughts,feelings).;Они скрывали свои сомнения внутри себя.;0;  
+005;He nurtured hope [within himself:t.Reflexive](thoughts,feelings).;Он питал надежду внутри себя.;0;  
+006;She carried a deep sadness [within herself:t.Reflexive](thoughts,feelings), never letting anyone see it.;Она носила в себе глубокую печаль, никогда не позволяя никому увидеть её.;0;  
+007;He struggled with his fears [within himself:t.Reflexive](thoughts,feelings), trying not to show weakness.;Он боролся со своими страхами внутри себя, стараясь не показывать слабость.;0;  
+008;I found unexpected confidence [within myself:t.Reflexive](thoughts,feelings) when facing the challenge alone.;Я нашел неожиданную уверенность внутри себя, столкнувшись с вызовом в одиночку.;0;  
+009;They hid their excitement [within themselves:t.Reflexive](thoughts,feelings), pretending to be indifferent.;Они скрывали свое волнение внутри себя, делая вид, что им всё равно.;0;  
+010;She carried a secret [within herself:t.Reflexive](thoughts,feelings) that no one else knew about.;Она хранила в себе секрет, о котором никто больше не знал.;0;  
+
+# Reflexive(Возвратные): patterns.prepositions > Specific > Beside oneself (lost control:actual)
+011;He was [beside himself:t.Reflexive](lost control:actual) with anger.;Он был вне себя от злости.;0;  
+012;She was [beside herself:t.Reflexive](lost control:actual) with excitement.;Она была вне себя от волнения.;0;  
+013;I was [beside myself:t.Reflexive](lost control:actual) with worry.;Я был вне себя от беспокойства.;0;  
+014;They were [beside themselves:t.Reflexive](lost control:actual) with fear.;Они были вне себя от страха.;0;  
+015;He was [beside himself:t.Reflexive](lost control:actual) after hearing the shocking news.;Он был вне себя после шокирующей новости.;0;  
+016;She was [beside herself:t.Reflexive](lost control:actual) with rage after discovering the betrayal.;Она была вне себя от ярости, узнав о предательстве.;0;  
+017;He was [beside himself:t.Reflexive](lost control:actual) with happiness when his dream came true.;Он был вне себя от счастья, когда его мечта сбылась.;0;  
+018;I was [beside myself:t.Reflexive](lost control:actual) with grief, unable to speak or move.;Я был вне себя от горя, не в силах ни говорить, ни двигаться.;0;  
+019;They were [beside themselves:t.Reflexive](lost control:actual) with terror as the storm grew stronger.;Они были вне себя от ужаса, когда буря усилилась.;0;  
+020;She was [beside herself:t.Reflexive](lost control:actual) with frustration after missing her flight.;Она была вне себя от разочарования после того, как пропустила свой рейс.;0;  
+
+# Reflexive(Возвратные): patterns.prepositions > Specific > Out of oneself (lost control:outdated)
+021;He was [out of himself:t.Reflexive](lost control:outdated) with madness.;Он был вне себя от безумия.;0;  
+022;She was [out of herself:t.Reflexive](lost control:outdated) from exhaustion.;Она была вне себя от усталости.;0;  
+023;I was [out of myself:t.Reflexive](lost control:outdated) with desperation.;Я был вне себя от отчаяния.;0;  
+024;They were [out of themselves:t.Reflexive](lost control:outdated) from fear.;Они были вне себя от страха.;0;  
+025;He was [out of himself:t.Reflexive](lost control:outdated) after the accident.;Он был вне себя после аварии.;0;  
+026;She was [out of herself:t.Reflexive](lost control:outdated) with panic, unable to think rationally.;Она была вне себя от паники, не в силах мыслить рационально.;0;  
+027;He was [out of himself:t.Reflexive](lost control:outdated) after drinking too much at the party.;Он был вне себя после того, как выпил слишком много на вечеринке.;0;  
+028;I was [out of myself:t.Reflexive](lost control:outdated) from sheer exhaustion after working for days without rest.;Я был вне себя от крайней усталости после нескольких дней работы без отдыха.;0;  
+029;They were [out of themselves:t.Reflexive](lost control:outdated) with anxiety while waiting for the test results.;Они были вне себя от тревоги, ожидая результатов теста.;0;  
+030;She was [out of herself:t.Reflexive](lost control:outdated) from shock after witnessing the accident.;Она была вне себя от шока после того, как стала свидетелем аварии.;0;  
+
 >>>
-# Reflexive(Возвратные): patterns.prepositions > Специфические конструкции > 
+# Reflexive(Возвратные): patterns.verbs >
 
 > Reciprocal
 identification

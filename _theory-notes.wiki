@@ -105,3 +105,64 @@ concessive clause:
     To make sure we are prepared properly, we should have a brainstorming session to discuss the details, set up an agenda, and find a date for the actual negotiations. 	Для того, чтобы быть уверенными, что мы все тщательно подготовили, нам следует провести мозговой штурм для обсуждения деталей, разработать план встречи и определиться с датой
 конструкции с "one(s)" (когда заменяет существительное):
     I’ll take the red shoes, you can take the blue ones. (подразумевается blue shoes)
+
+Reflexive Voice (Возвратный залог):
+  **Reflexive Voice** – это залог, в котором действие возвращается на субъекта, т.е. подлежащее и объект совпадают. В английском языке это выражается через **reflexive pronouns** (myself, yourself, himself и т. д.).
+  ## **1. Отличие от Active и Passive Voice**
+  | Залог             | Пример              | Перевод          |
+  |------------------|-------------------|----------------|
+  | **Active Voice** | *He washed the car.* | Он помыл машину. |
+  | **Passive Voice** | *The car was washed (by him).* | Машина была помыта (им). |
+  | **Reflexive Voice** | *He washed himself.* | Он помылся. |
+  В **возвратном залоге** объект и подлежащее – одно и то же лицо/предмет.
+  ## **2. Употребление Reflexive Voice**
+  ### **А) Обязательное употребление (когда нельзя опустить местоимение)**
+  Некоторые переходные глаголы требуют **обязательного** использования возвратного местоимения, если действие направлено на подлежащее.
+  **Примеры:**
+  - *She hurt herself.* (Она поранилась.)
+  - *He introduced himself to the team.* (Он представился команде.)
+  - *I defended myself.* (Я защитился.)
+  Без **reflexive pronoun** смысл меняется или предложение становится некорректным.
+  ✗ *She hurt.* (неправильно, отсутствует объект)
+  ✓ *She hurt herself.* (правильно)
+  ### **Б) Факультативное употребление (можно опустить местоимение)**
+  Некоторые глаголы могут использоваться как с возвратным местоимением, так и без него.
+  **Примеры:**
+  - *He washed (himself).* (Он умылся.)
+  - *She dressed (herself).* (Она оделась.)
+  Во многих случаях **reflexive pronoun** может быть опущено, если смысл остается понятным.
+  ### **В) Reflexive Voice + предлоги**
+  Некоторые конструкции требуют **reflexive pronouns** при использовании с определенными предлогами.
+  **Примеры:**
+  - *He looked at himself in the mirror.* (Он посмотрел на себя в зеркало.)
+  - *She talked to herself.* (Она говорила сама с собой.)
+  Предлоги могут менять значение:
+  - *He pulled himself together.* (Он взял себя в руки.)
+  - *He saw himself as a leader.* (Он видел себя лидером.)
+  ## **3. Reflexive Voice vs. Emphatic Use**
+  **Reflexive pronouns** могут также использоваться для усиления (эмфазы), но это **не Reflexive Voice**.
+  | **Reflexive Voice** | **Emphatic Use (усиление)** |
+  |-------------------|-------------------|
+  | *He hurt himself.* (Он поранился.) | *He himself said that.* (Он сам это сказал.) |
+  | *She introduced herself.* (Она представилась.) | *I did it myself!* (Я сделал это сам!) |
+  Если местоимение можно убрать без потери смысла, это **эмфаза**, а не **возвратный залог**.
+  ## **4. Reflexive Voice в пассивных конструкциях**
+  Возвратные глаголы редко используются в **Passive Voice**, но есть исключения:
+  - *He was found by himself in the forest.* (Его нашли одного в лесу.)
+  - *The door closed itself.* (Дверь закрылась сама.)
+  Некоторые глаголы, такие как *wash, shave, dress*, в пассив не ставятся:
+  ✗ *He was washed himself.* (некорректно)
+  ## **5. Reflexive Voice vs. Reciprocal Voice**
+  Если действие происходит между двумя субъектами, то вместо **reflexive pronouns** используются **each other / one another**.
+  **Примеры:**
+  - *They love themselves.* (Они любят самих себя.)
+  - *They love each other.* (Они любят друг друга.)
+  ## **Вывод**
+  - **Reflexive Voice** используется, когда субъект и объект совпадают.
+  - **Некоторые глаголы требуют обязательного reflexive pronoun (hurt, introduce, prepare).**
+  - **Некоторые глаголы допускают опускание местоимения (wash, dress).**
+  - **Reflexive pronouns могут использоваться для эмфазы, но это не Reflexive Voice.**
+  - **Взаимные действия выражаются с each other / one another, а не reflexive pronouns.**
+
+Переходность (Transitivity)
+

@@ -1,0 +1,15 @@
+[meta/suspicious_status:0,suspicious_note:'']
+Reflexive(Возвратные): patterns.fixed-expressions
+
+  [1.Help yourself                 ]  (Угощайся)
+  [2.Enjoy yourself                ]  (Хорошо повеселиться)
+  [3.Behave yourself               ]  (Веди себя прилично)
+  [4.Don’t upset yourself          ]  (Не расстраивайся)
+  [5.Pull yourself together        ]  (Соберись)
+  [6.I can’t hear myself speak     ]  (Здесь так шумно)
+  [7.Make oneself at home          ]  (Чувствовать себя как дома)
+  [8.Make oneself heard            ]  (Докричаться)
+  [9.Take care of oneself          ]  (Заботиться о себе)
+  [10.Make an exhibition of oneself]  (Выставлять себя напоказ)
+  [11.Tie oneself up in knots      ]  (Запутаться, не находить себе места)
+  [12.Spread oneself too thin      ]  (Распыляться, браться за слишком многое)

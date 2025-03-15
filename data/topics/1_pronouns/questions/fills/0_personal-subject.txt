@@ -1,5 +1,5 @@
 [meta/suspicious_status:0,suspicious_note:'']
-Personal-subject (Личные-nominative):
+Personal-subject(Личные-nominative): identification
          Singular Plural
   1st    [1.I  ]  [6.we  ]
   2nd    [2.you]  [7.you ]

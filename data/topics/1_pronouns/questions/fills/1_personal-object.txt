@@ -1,5 +1,5 @@
 [meta/suspicious_status:0,suspicious_note:'']
-Personal-object(Личные-косвенные):
+Personal-object(Личные-косвенные): identification
          Singular Plural
   1st    [1.me ]  [6.us  ]
   2nd    [2.you]  [7.you ]

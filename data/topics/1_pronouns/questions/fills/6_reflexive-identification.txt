@@ -1,5 +1,5 @@
 [meta/suspicious_status:0,suspicious_note:'']
-Reflexive(Возвратные):
+Reflexive(Возвратные): identification
          Singular      Plural
   1st    [1.myself  ]  [6.ourselves ]
   2nd    [2.yourself]  [7.yourselves]
