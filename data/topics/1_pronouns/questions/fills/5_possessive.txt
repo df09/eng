@@ -6,6 +6,7 @@ Possessive-absolute(Притяжательные-абсолютные): identifi
   3rd.m  [3.his  ] [8.theirs]
   3rd.f  [4.hers ]
   3rd.n  [5.NONE ]
+
 Possessive-cojoint(Притяжательные-присоединяемые): identification
          Singular Plural
   1st    [9.my  ]  [14.our  ]

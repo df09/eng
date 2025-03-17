@@ -1,5 +1,6 @@
 >>>
 перепроверить недоработки '>>>'
+>>> she всместо it - для кораблей, самолетов, машин с особым отношением
 noun2pronoun:
   Неопределённые местоимения (Indefinite pronouns):
     %% Do you want this book or that book? -> Do you want this book or that one?
@@ -197,106 +198,75 @@ Reflexive(Возвратные):
     - В повелительном наклонении.
     - Intensive Pronouns (Усилительные местоимения).
   usage:
-    не используются как подлежащее.
-      %% 000;Myself can solve the problem. -> [I can solve] the problem myself.;Я сам могу решить проблему.;0;
-    oneself - неопределенное лицо, высказывания общего характера
-      %% 001;It is important to challenge [oneself:t.Reflexive,s0] every day.;Важно бросать себе вызов каждый день.;0;
-  >>> add q_fill for patterns/antipatterns
+    не используются как подлежащее: Myself can solve the problem. -> I can solve the problem myself.
+    oneself - неопределенное лицо, высказывания общего характера: It is important to challenge oneself every day.
   patterns:
     prepositions:
       Base (often in everyday speech):
         By oneself (alone/independently)
-          действие осуществляется в одиночестве (синоним "on one's own"):
-            %% He enjoys traveling by himself(on his own). - Ему нравится путешествовать одному.
-          действие выполняется самостоятельно:
-            %% 001;I fixed the computer [by myself:t.Reflexive](independently).;Я починил компьютер сам.;0;
-        For oneself (для себя):
-          %% 001;He made the decision [for himself:t.Reflexive](для себя).;Он принял решение для себя.;0;
-        About oneself (о себе):
-          %% 001;He only thinks [about himself:t.Reflexive](о себе).;Он думает только о себе.;0;
-        To oneself (по отношению к себе):
-          %% 001;Don’t be so hard [on yourself:t.Reflexive](по отношению к себе).;Не будь так строг к себе.;0;
+          действие осуществляется в одиночестве (alone/on one's own): He enjoys traveling by himself(on his own). - Ему нравится путешествовать одному.
+          действие выполняется самостоятельно(independently): I fixed the computer by myself. - Я починил компьютер сам.
+        For oneself (для себя): He made the decision for himself. - Он принял решение для себя.
+        About oneself (о себе): He only thinks about himself. - Он думает только о себе.
+        To oneself (по отношению к себе): Don’t be so hard on yourself. - Не будь так строг к себе.
       Useful (often in texts and formal style):
-        On oneself (ответственность):
-          %% 011;He took it [on himself:t.Reflexive](ответственность).;Он взял это на себя.;0;
-        Upon oneself (обременение):
-          %% 021;He brought trouble [upon himself:t.Reflexive](обременение).;Он навлек на себя неприятности.;0;
-        Over oneself (самоконтроль):
-          %% 001;He has complete control [over himself:t.Reflexive](самоконтроль).;Он полностью контролирует себя.;0;
-        Against oneself (борьба,вред):
-          %% 031;He worked [against himself:t.Reflexive](борьба, вред).;Он работал против себя.;0;
-        Among themselves (Среди подобных):
-          %% 041;They kept the secret [among themselves:t.Reflexive](среди подобных).;Они хранили секрет между собой.;0;
+        On oneself (ответственность): He took it on himself. - Он взял это на себя.
+        Upon oneself (обременение): He brought trouble upon himself. - Он навлек на себя неприятности.
+        Over oneself (самоконтроль): He has complete control over himself. - Он полностью контролирует себя.
+        Against oneself (борьба,вред): He worked against himself. - Он работал против себя.
+        Among themselves (Среди подобных): They kept the secret among themselves. - Они хранили секрет между собой.
       Specific:
-        Within oneself (thoughts, feelings):
-          %% 001;He kept his fears [within himself:t.Reflexive](thoughts,feelings).;Он держал свои страхи внутри себя.;0;
-        Beside oneself (lost control:actual):
-          %% 011;He was [beside himself:t.Reflexive](lost control:actual) with anger.;Он был вне себя от злости.;0;
-        Out of oneself (lost control:outdated):
-          %% 021;He was [out of himself:t.Reflexive](lost control:outdated) with madness.;Он был вне себя от безумия.;0;
+        Within oneself (thoughts, feelings): He kept his fears within himself. - Он держал свои страхи внутри себя.
+        Beside oneself (lost control:actual): He was beside himself with anger. - Он был вне себя от злости.
+        Out of oneself (lost control:outdated): He was out of himself with madness. - Он был вне себя от безумия.
     verbs:
-      Без reflexive не используются:
-        Enjoy oneself           (наслаждаться, развлекаться) - They enjoyed themselves at the party.
-        Perjure oneself         (лжесвидетельствовать) - He perjured himself in court.
-        Comport oneself         (вести себя) - She comported herself well in public.
-        Avail oneself of        (воспользоваться) - He availed himself of the opportunity.
-        Pride oneself on        (гордиться) - He prides himself on his honesty.
-        Apply oneself to        (приложить усилия) - He applied himself to his studies.
-        Betake oneself to       (отправляться) - He betook himself to the countryside.
-        Commit oneself to       (взять обязательство) - She committed herself to the project.
-        Resign oneself to       (смириться) - She resigned herself to her fate.
-        Busy oneself with       (заняться) - He busied himself with work.
-        Absent oneself from     (отсутствовать) - She absented herself from the meeting.
-        Content oneself with    (довольствоваться) - He contented himself with a sandwich.
-        Ingratiate oneself with (втираться в доверие) - He ingratiated himself with the manager.
-      Без reflexive меняют смысл:
-        Find oneself (оказаться). Без "oneself" find значит "найти что-то".
-          %% He found himself in a strange place.
-        See oneself as (представить себя). Без "oneself" see просто значит "видеть".
-          %% She sees herself as a leader.
-        Behave oneself (хорошо себя вести). Без "oneself" возможно только с уточнением, как человек себя ведёт.
-          %% Children must behave themselves in class.
-    Fixed expressions:
-      Help yourself (Угощайся)
-      Enjoy yourself (Хорошо повеселиться)
-      Behave yourself (Веди себя прилично)
-      Don’t upset yourself (Не расстраивайся)
-      Pull yourself together (Соберись)
-      I can’t hear myself speak (Здесь так шумно)
-      Make oneself at home (Чувствовать себя как дома)
-      Make oneself heard (Докричаться)
-      Take care of oneself (Заботиться о себе)
-      Make an exhibition of oneself (Выставлять себя напоказ)
-      Tie oneself up in knots (Запутаться, не находить себе места)
-      Spread oneself too thin (Распыляться, браться за слишком многое)
-
-  >>>
+      impossible-wo(Без reflexive невозможно):
+        Perjure oneself (лжесвидетельствовать): He perjured himself in court.
+        Betake oneself to (направиться куда-то): She betook herself to the library.
+        Resign oneself to (смириться с чем-то): He resigned himself to his fate.
+        Absent oneself from (отсутствовать где-то): He absented himself from the meeting.
+        Ingratiate oneself with (заискивать перед кем-то): She tried to ingratiate herself with her boss.
+      req-w-exceptions(Требуют reflexive, но с исключеними):
+        Pride oneself on (гордиться чем-то)
+        Avail oneself of (воспользоваться чем-то)
+    fixed-expressions:
+      2nd:
+        Be yourself (Будь собой)
+        Help yourself (Угощайся)
+        Suit yourself (Как хочешь! Делай, как знаешь.)
+        Enjoy yourself (Хорошо повеселиться)
+        Do it yourself (Сделай сам)
+        Behave yourself (Веди себя прилично)
+        See for yourself (Сам убедись)
+        Speak for yourself (Говори за себя!)
+        Don’t upset yourself (Не расстраивайся)
+        Pull yourself together (Соберись)
+      general:
+        See oneself (видеть себя в зеркале/в будущем/в воображении)
+        Find oneself (неожиданно осознать себя в ситуации)
+        Hear oneself (не слышать себя/не верить своим словам)
+        Lose oneself in (погрузиться во что-то)
+        Come to oneself (прийти в себя)
+        Make oneself heard (Докричаться)
+        In spite of oneself (сделать вопреки себе)
+        Make oneself at home (Чувствовать себя как дома)
+        Take care of oneself (Заботиться о себе)
+        Be beside oneself with (быть вне себя от)
+        Keep oneself to oneself (Быть необщительным, держаться особняком)
+        Tie oneself up in knots (Запутаться, не находить себе места)
+        Spread oneself too thin (Распыляться, браться за слишком многое)
+        Make an exhibition of oneself (Выставлять себя напоказ)
   antipatterns:
-    предлоги:
-      Но! После предлогов, обозначающих средство или способ, обычно используются личные местоимения:
-      после предлогов, когда действие направлено не буквально на самого себя:
-
-      после предлогов места:
-        %% He closed the door behind him. (а не behind himself)
-        %% She had a suitcase beside her. (а не beside herself)
-      С предлогом with (с):
-        %% My sister took me to the cinema with herself her – Моя сестра взяла меня с собой в кино.
-      prepositions:
-        %% Behind      He saw a shadow behind himself. (Он увидел тень позади себя.)
-        %% Beside      She found strength beside herself. (Она нашла силу рядом с собой.)
-        %% Under       He felt the ground shaking under himself. (Он почувствовал, как земля дрожит под ним.)
-        %% Above       He felt the stars above himself. (Он почувствовал звёзды над собой.)
-        %% Over        A dark cloud hung over himself. (Тёмное облако нависло над ним.)
-        %% In front of   I can see a car in front of me. (Я вижу машину перед собой.)
-        %% Next to       He is sitting next to her. (Он сидит рядом с ней.)
-        %% Near          She felt someone near her. (Она почувствовала кого-то рядом с собой.)
-        %% Above         The picture is hanging above them. (Картина висит над ними.)
-        %% Below         The floor below us is very cold. (Этаж под нами очень холодный.)
-        %% Under         He found his shoes under him. (Он нашёл свои туфли под собой.)
-        %% Over          A plane flew over us. (Самолёт пролетел над нами.)
-        %% Around        He looked around him. (Он огляделся вокруг себя.)
-        %% Between       He sat between her and me. (Он сел между ней и мной.)
-    глаголы:
+    prepositions(=>Personal-object):
+      Location/Directional/Proximity (Место/Направление/Близость):
+        He saw a shadow behind himself. -> He saw a shadow behind him.
+      Means/Method (Средство/Способ):
+        He cut the paper with himself. -> He cut the paper with him.
+      Exception! "with" (Reflexive возможно, но лучше Personal-object):
+        My sister took me to the cinema with herself. -> She took her dog with her.
+        He was alone with himself. (Допустимо, если речь о внутреннем состоянии.)
+    >>>
+    verbs:
       рутинные и гигиенические процедуры:
         to dress – одеваться
         to hide – прятаться

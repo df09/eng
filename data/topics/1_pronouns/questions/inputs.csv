@@ -1247,8 +1247,65 @@ id;question;extra;suspicious_status;suspicious_note
 029;They were [out of themselves:t.Reflexive](lost control:outdated) with anxiety while waiting for the test results.;Они были вне себя от тревоги, ожидая результатов теста.;0;  
 030;She was [out of herself:t.Reflexive](lost control:outdated) from shock after witnessing the accident.;Она была вне себя от шока после того, как стала свидетелем аварии.;0;  
 
+# Reflexive(Возвратные): patterns.verbs > impossible-wo(Без reflexive невозможно)
+000;He [perjured himself:t.Reflexive](лжесвидетельствовать) in court.;Он лжесвидетельствовал в суде.;0;
+000;The witness [perjured himself:t.Reflexive](лжесвидетельствовать) during the trial.;Свидетель лжесвидетельствовал во время суда.;0;
+000;She was caught [perjuring herself:t.Reflexive](лжесвидетельствовать) on the stand.;Её поймали на лжесвидетельствовании в зале суда.;0;
+000;She [betook herself to:t.Reflexive](направиться) the library.;Она направилась в библиотеку.;0;
+000;He [betook himself to:t.Reflexive](направиться) the mountains for solitude.;Он направился в горы в поисках уединения.;0;
+000;After dinner, they [betook themselves to:t.Reflexive](направиться) their rooms.;После ужина они разошлись по своим комнатам.;0;
+000;He [resigned himself to:t.Reflexive](смириться) his fate.;Он смирился со своей судьбой.;0;
+000;She [resigned herself to:t.Reflexive](смириться) the idea of moving.;Она смирилась с мыслью о переезде.;0;
+000;They [resigned themselves to:t.Reflexive](смириться) the loss.;Они смирились с потерей.;0;
+000;He [absented himself from:t.Reflexive](отсутствовать) the meeting.;Он отсутствовал на собрании.;0;
+000;She [absented herself from:t.Reflexive](отсутствовать) work for personal reasons.;Она отсутствовала на работе по личным причинам.;0;
+000;The student [absented himself from:t.Reflexive](отсутствовать) class without notice.;Студент отсутствовал на занятиях без предупреждения.;0;
+000;She tried to [ingratiate herself with:t.Reflexive](заискивать) her boss.;Она пыталась заискивать перед начальником.;0;
+000;He [ingratiated himself with:t.Reflexive](заискивать) the wealthy guests.;Он заискивал перед богатыми гостями.;0;
+000;They [ingratiated themselves with:t.Reflexive](заискивать) the new manager.;Они заискивали перед новым менеджером.;0;
+
+# Reflexive(Возвратные): patterns.verbs > req-w-exceptions(Требуют reflexive, но с исключеними)
+000;She [prides herself on:t.Reflexive](гордиться) her achievements.;Она гордится своими достижениями.;0;
+000;He [prides himself on:t.Reflexive](гордиться) being punctual.;Он гордится своей пунктуальностью.;0;
+000;The company [prides itself on:t.Reflexive](гордиться) excellent customer service.;Компания гордится своим отличным сервисом для клиентов.;0;
+000;She [availed herself of:t.Reflexive](воспользоваться) the opportunity.;Она воспользовалась возможностью.;0;
+000;He [availed himself of:t.Reflexive](воспользоваться) the free resources.;Он воспользовался бесплатными ресурсами.;0;
+000;The guests [availed themselves of:t.Reflexive](воспользоваться) the complimentary drinks.;Гости воспользовались бесплатными напитками.;0;
+
 >>>
-# Reflexive(Возвратные): patterns.verbs >
+# Reflexive(Возвратные): antipatterns.prepositions > Location/Directional/Proximity (Место/Направление/Близость)
+000;FIXME:He saw a shadow behind himself. -> [He saw a shadow behind him.];Он увидел тень позади себя.;0;
+000;FIXME:She found strength beside herself. -> [She found strength beside her.];Она нашла силу рядом с собой.;0;
+000;FIXME:He felt the ground shaking under himself. -> [He felt the ground shaking under him.];Он почувствовал, как земля дрожит под ним.;0;
+000;FIXME:A dark cloud hung over himself. -> [A dark cloud hung over him.];Тёмное облако нависло над ним.;0;
+000;FIXME:The floor below ourselves is very cold. -> [The floor below us is very cold.];Пол под нами очень холодный.;0;
+000;FIXME:The picture is hanging above themselves. -> [The picture is hanging above them.];Картина висит над ними.;0;
+000;FIXME:He looked around himself. -> [He looked around him.];Он оглянулся вокруг себя.;0;
+000;FIXME:I can see a car in front of myself. -> [I can see a car in front of me.];Я вижу машину перед собой.;0;
+000;FIXME:He sat between herself and myself. -> [He sat between her and me.];Он сел между ней и мной.;0;
+000;FIXME:A plane flew over ourselves. -> [A plane flew over us.];Самолёт пролетел над нами.;0;
+000;FIXME:He is sitting next to herself. -> [He is sitting next to her.];Он сидит рядом с ней.;0;
+000;FIXME:She felt someone near herself. -> [She felt someone near her.];Она почувствовала, что кто-то рядом с ней.;0;
+
+# Reflexive(Возвратные): antipatterns.prepositions > Means/Method (Средство/Способ)
+000;FIXME:He cut the paper with himself. -> [He cut the paper with him.];Он разрезал бумагу с его помощью.;0;
+000;FIXME:She completed the task by herself. -> [She completed the task by her.];Она завершила задание сама.;0;
+000;FIXME:He solved the problem by himself. -> [He solved the problem by him.];Он решил проблему сам.;0;
+000;FIXME:She wrote the letter with herself. -> [She wrote the letter with her.];Она написала письмо с её помощью.;0;
+
+# Reflexive(Возвратные): antipatterns.prepositions > Exception! "with"
+000;FIXME:My sister took me to the cinema with herself. -> [She took her dog with her.];Моя сестра взяла меня в кино с собой.;0;
+000;FIXME:He took a book with himself. -> [He took a book with him.];Он взял книгу с собой.;0;
+000;FIXME:She brought her dog with herself. -> [She brought her dog with her.];Она привела свою собаку с собой.;0;
+000;FIXME:They carried the bags with themselves. -> [They carried the bags with them.];Они несли сумки с собой.;0;
+000;FIXME:He went to the park with himself. -> [He went to the park with him.];Он пошёл в парк с ним.;0;
+000;FIXME:She took a jacket with herself. -> [She took a jacket with her.];Она взяла куртку с собой.;0;
+000;FIXME:The child brought a toy with himself. -> [The child brought a toy with him.];Ребёнок принёс игрушку с собой.;0;
+
+>>>
+# Reflexive(Возвратные): antipatterns.verbs >
+
+
 
 > Reciprocal
 identification

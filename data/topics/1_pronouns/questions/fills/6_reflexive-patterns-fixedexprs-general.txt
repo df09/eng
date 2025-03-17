@@ -1,0 +1,17 @@
+[meta/suspicious_status:0,suspicious_note:'']
+Reflexive(Возвратные): patterns.fixed-expressions.general
+
+  [1.See oneself                   ]  (видеть себя в зеркале/в будущем/в воображении)
+  [2.Find oneself                  ]  (неожиданно осознать себя в ситуации)
+  [3.Hear oneself                  ]  (не слышать себя/не верить своим словам)
+  [4.Lose oneself in               ]  (погрузиться во что-то)
+  [5.Come to oneself               ]  (прийти в себя)
+  [6.Make oneself heard            ]  (Докричаться)
+  [7.In spite of oneself           ]  (сделать вопреки себе)
+  [8.Make oneself at home          ]  (Чувствовать себя как дома)
+  [9.Take care of oneself          ]  (Заботиться о себе)
+  [10.Be beside oneself with       ]  (быть вне себя от)
+  [11.Keep oneself to oneself      ]  (Быть необщительным, держаться особняком)
+  [12.Tie oneself up in knots      ]  (Запутаться, не находить себе места)
+  [13.Spread oneself too thin      ]  (Распыляться, браться за слишком многое)
+  [14.Make an exhibition of oneself]  (Выставлять себя напоказ)

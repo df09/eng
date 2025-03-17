@@ -6,6 +6,7 @@ Personal-subject(Личные-nominative): identification
   3rd.m  [3.he ]  [8.they]
   3rd.f  [4.she]
   3rd.n  [5.it ]
+
 Personal-object(Личные-косвенные): identification
          Singular Plural
   1st    [9.me ]  [14.us  ]

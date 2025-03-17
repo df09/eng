@@ -1,13 +1,8 @@
 [meta/suspicious_status:0,suspicious_note:'']
-Reflexive(Возвратные): patterns.verbs
+Reflexive(Возвратные): patterns.verbs.impossible-wo(Без reflexive невозможно)
 
-impossible-wo(Без reflexive невозможно):
   [1.Perjure oneself        ]  (лжесвидетельствовать)
   [2.Betake oneself to      ]  (направиться куда-то)
   [3.Resign oneself to      ]  (смириться с чем-то)
   [4.Absent oneself from    ]  (отсутствовать где-то)
   [5.Ingratiate oneself with]  (заискивать перед кем-то)
-
-req-w-exceptions(Требуют reflexive, но возможны исключения):
-  [6.Pride oneself on]  (гордиться чем-то)
-  [7.Avail oneself of]  (воспользоваться чем-то)
