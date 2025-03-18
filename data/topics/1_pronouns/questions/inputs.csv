@@ -1477,41 +1477,35 @@ id;question;extra;suspicious_status;suspicious_note
 000;FIXME: We carried our ID cards with ourselves for security checks. -> [We carried our ID cards with us for security checks.];Мы носили с собой удостоверения личности для проверки безопасности.;0;
 000;FIXME: Do they carry their passports with themselves when they travel? -> [Do they carry their passports with them when they travel?];Они берут с собой паспорта, когда путешествуют?;0;
 
->>>
-Reciprocal(взаимные): nominate
+Reciprocal(взаимные): identification
+000;The two best friends always support [each other:t.Reciprocal,r.2] in tough times.;Два лучших друга всегда поддерживают друг друга в трудные времена.;0;
+000;The twins looked at [each other:t.Reciprocal,r.2] and burst out laughing.;Близнецы посмотрели друг на друга и расхохотались.;0;
+000;They waved to [each other:t.Reciprocal,r.2] from across the street.;Они помахали друг другу через улицу.;0;
+000;In the meeting, all team members exchanged ideas with [one another:t.Reciprocal,r.3].;На встрече все члены команды обменялись идеями друг с другом.;0;
+000;Students from different schools competed against [one another:t.Reciprocal,r.3] in the tournament.;Ученики из разных школ соревновались друг с другом на турнире.;0;
+000;During the debate, politicians argued with [one another:t.Reciprocal,r.3] over policies.;Во время дебатов политики спорили друг с другом по поводу политики.;0;
 Reciprocal(взаимные): possesive
+000;They borrowed [each other's:t.Reciprocal-Possessive,r.2] books for the literature project.;Они одолжили книги друг у друга для литературного проекта.;0;
+000;We couldn't understand [each other's:t.Reciprocal-Possessive,r.2] handwriting.;Мы не могли разобрать почерк друг друга.;0;
+000;The neighbors took care of [each other's:t.Reciprocal-Possessive,r.2] plants while on vacation.;Соседи ухаживали за растениями друг друга во время отпуска.;0;
+000;The band members appreciated [one another's:t.Reciprocal-Possessive,r.3] contributions to the album.;Участники группы ценили вклад друг друга в альбом.;0;
+000;The scientists reviewed [one another's:t.Reciprocal-Possessive,r.3] research papers before publishing.;Учёные рецензировали научные работы друг друга перед публикацией.;0;
+000;The athletes respected [one another's:t.Reciprocal-Possessive,r.3] achievements in the championship.;Атлеты уважали достижения друг друга в чемпионате.;0;
 Reciprocal(взаимные): reciprocal vs themselves
+000;They blamed [each other](each other/themselves) for the mistake, but in reality, it was nobody's fault.;Они винили друг друга за ошибку, но на самом деле это была ничья вина.;0;
+000;The students helped [each other](each other/themselves) with their homework.;Ученики помогали друг другу с домашним заданием.;0;
+000;The two players congratulated [each other](each other/themselves) after the match.;Два игрока поздравили друг друга после матча.;0;
+000;The friends sent [each other](each other/themselves) postcards from their vacations.;Друзья отправляли друг другу открытки со своих отпусков.;0;
+000;The teammates encouraged [each other](each other/themselves) during the competition.;Товарищи по команде подбадривали друг друга во время соревнования.;0;
+000;The couple whispered sweet words to [each other](each other/themselves) during the romantic dinner.;Пара шептала друг другу приятные слова во время романтического ужина.;0;
+000;The children entertained [themselves](each other/themselves) with funny stories.;Дети развлекали себя смешными историями.;0;
+000;They introduced [themselves](each other/themselves) to the new teacher on the first day of school.;Они представились новому учителю в первый день школы.;0;
+000;The dog and the cat groomed [themselves](each other/themselves) after the rain.;Собака и кошка привели себя в порядок после дождя.;0;
+000;The children kept [themselves](each other/themselves) busy with toys while their parents talked.;Дети занимали себя игрушками, пока их родители разговаривали.;0;
+000;The tourists protected [themselves](each other/themselves) from the sun by wearing hats and sunscreen.;Туристы защищали себя от солнца, надевая шляпы и пользуясь солнцезащитным кремом.;0;
 
-646;They respect [each other:t.reciprocal,d.2,f.ntrl/frml].;Они уважают друг друга.;0;
-647;We always support [each other:t.reciprocal,d.2,f.ntrl/frml].;Мы всегда поддерживаем друг друга.;0;
-648;John and Lisa looked at [each other:t.reciprocal,d.2,f.ntrl/frml] in surprise.;Джон и Лиза удивленно посмотрели друг на друга.;0;
-649;They helped [each other:t.reciprocal,d.2,f.ntrl/frml] with their homework.;Они помогали друг другу с домашней работой.;0;
-650;The two brothers argued with [each other:t.reciprocal,d.2,f.ntrl/frml] a lot.;Эти два брата часто спорили друг с другом.;0;
-651;The couple wrote letters to [each other:t.reciprocal,d.2,f.ntrl/frml] for years.;Эта пара писала друг другу письма годами.;0;
-652;Sarah and Tom smiled at [each other:t.reciprocal,d.2,f.ntrl/frml].;Сара и Том улыбнулись друг другу.;0;
-653;The rivals tried to outsmart [each other:t.reciprocal,d.2,f.ntrl/frml].;Соперники пытались перехитрить друг друга.;0;
-654;We called [each other:t.reciprocal,d.2,f.ntrl/frml] every evening.;Мы звонили друг другу каждый вечер.;0;
-655;They shared their secrets with [each other:t.reciprocal,d.2,f.ntrl/frml].;Они делились своими секретами друг с другом.;0;
-656;The students in the class often help [each other:t.reciprocal,d.grp,f.ntrl].;Ученики в классе часто помогают друг другу.;0;
-657;We should listen to [each other:t.reciprocal,d.grp,f.ntrl] more carefully.;Нам стоит внимательнее слушать друг друга.;0;
-658;The kids were throwing the ball to [each other:t.reciprocal,d.grp,f.ntrl].;Дети перекидывали мяч друг другу.;0;
-659;The musicians in the band inspire [each other:t.reciprocal,d.grp,f.ntrl].;Музыканты в группе вдохновляют друг друга.;0;
-660;Friends should always be there for [each other:t.reciprocal,d.grp,f.ntrl].;Друзья всегда должны поддерживать друг друга.;0;
-661;The participants in the game challenged [each other:t.reciprocal,d.grp,f.ntrl].;Участники игры бросали вызовы друг другу.;0;
-662;They laughed and joked with [each other:t.reciprocal,d.grp,f.ntrl] all evening.;Они весь вечер смеялись и шутили друг с другом.;0;
-663;The team members worked closely with [each other:t.reciprocal,d.grp,f.ntrl].;Члены команды тесно работали друг с другом.;0;
-664;We exchanged gifts with [each other:t.reciprocal,d.grp,f.ntrl] during the holidays.;Мы обменялись подарками друг с другом в праздники.;0;
-665;The neighbors in the community support [each other:t.reciprocal,d.grp,f.ntrl].;Соседи в сообществе поддерживают друг друга.;0;
-666;The colleagues addressed [one another:t.reciprocal,d.grp,f.frml] with respect.;Коллеги обращались друг к другу с уважением.;0;
-667;The conference participants introduced [one another:t.reciprocal,d.grp,f.frml].;Участники конференции представили друг друга.;0;
-668;In a civilized society, people must trust [one another:t.reciprocal,d.grp,f.frml].;В цивилизованном обществе люди должны доверять друг другу.;0;
-669;The scholars exchanged research ideas with [one another:t.reciprocal,d.grp,f.frml].;Ученые обменивались идеями исследований друг с другом.;0;
-670;The members of the organization collaborate with [one another:t.reciprocal,d.grp,f.frml].;Члены организации сотрудничают друг с другом.;0;
-671;The diplomats negotiated with [one another:t.reciprocal,d.grp,f.frml] for hours.;Дипломаты вели переговоры друг с другом часами.;0;
-672;The panelists debated [one another:t.reciprocal,d.grp,f.frml] during the discussion.;Участники панели дискутировали друг с другом во время обсуждения.;0;
-673;The delegates greeted [one another:t.reciprocal,d.grp,f.frml] at the reception.;Делегаты приветствовали друг друга на приеме.;0;
-674;The executives shared insights with [one another:t.reciprocal,d.grp,f.frml].;Руководители обменивались идеями друг с другом.;0;
-675;The representatives of different nations learned from [one another:t.reciprocal,d.grp,f.frml].;Представители разных наций учились друг у друга.;0;
+>>>
+Demonstrative(Указательные): identification
 
 374;Do you remember [this:t.demonstr,s,near] moment?;Ты помнишь этот момент?;0;
 375;[This:t.demonstr,s,near] problem needs to be solved immediately.;Эту проблему нужно решить немедленно.;0;
@@ -1547,6 +1541,7 @@ Reciprocal(взаимные): reciprocal vs themselves
 405;She refused to answer [those:t.demonstr,p,far] accusations.;Она отказалась отвечать на те обвинения.;0;
 406;I have never seen [this:t.demonstr,s,near] kind of technology before.;Я никогда раньше не видел такую технологию.;0;
 407;[That:t.demonstr,s,far] decision changed everything.;То решение изменило всё.;0;
+
 408;[What:t.interrog,Inanimate,Case.Nom] book are you reading?; Какую книгу ты читаешь?;0;
 409;[What:t.interrog,Inanimate,Case.Nom] movie do you like the most?; Какой фильм тебе нравится больше всего?;0;
 410;[What:t.interrog,Inanimate,Case.Nom] song are you listening to?; Какую песню ты слушаешь?;0;
@@ -1655,6 +1650,7 @@ Reciprocal(взаимные): reciprocal vs themselves
 513;The scientists analyzed [which:t.interrog,a.n] climate model was the most accurate.; Ученые проанализировали, какая климатическая модель была самой точной.;0;
 514;We had to find out [which:t.interrog,a.n] airline offered the best service.; Нам нужно было выяснить, какая авиакомпания предлагает лучший сервис.;0;
 515;The manager evaluated [which:t.interrog,a.n] strategy would yield the highest profit.; Менеджер оценивал, какая стратегия принесет наибольшую прибыль.;0;
+
 516;The teacher [who:t.relative,animate,f.ntrl/frml] helped us was very kind.;Учитель, который нам помог, был очень добрым.;0;
 517;She met a scientist [who:t.relative,animate,f.ntrl/frml] discovered a new element.;Она встретила учёного, который открыл новый элемент.;0;
 518;The woman [who:t.relative,animate,f.ntrl/frml] lives next door is a doctor.;Женщина, которая живёт по соседству, – врач.;0;
@@ -1705,6 +1701,7 @@ Reciprocal(взаимные): reciprocal vs themselves
 563;The book [which:t.relative,inanimate,f.ntrl/frml] I borrowed is interesting.;Книга, которую я взял, интересная.;0;
 564;The software [which:t.relative,inanimate,f.ntrl/frml] he created is revolutionary.;Программное обеспечение, которое он создал, революционное.;0;
 565;The policy [which:t.relative,inanimate,f.ntrl/frml] was introduced has many benefits.;Политика, которая была введена, имеет много преимуществ.;0;
+
 566;I need [some:t.indef,s,uncountable,inanimate,f.ntrl] water.;Мне нужно немного воды.;0;
 567;Some [some:t.indef,p,countable,animate,f.ntrl] people enjoy reading.;Некоторым людям нравится читать.;0;
 568;Could you lend me [some:t.indef,s,uncountable,inanimate,f.ntrl] money?;Можешь одолжить мне немного денег?;0;
@@ -1745,6 +1742,7 @@ Reciprocal(взаимные): reciprocal vs themselves
 603;[no one:t.indef,s,countable,animate,f.ntrl] can solve this problem.;Никто не может решить эту проблему.;0;
 604;She told [no one:t.indef,s,countable,animate,f.ntrl] about her plans.;Она никому не рассказала о своих планах.;0;
 605;[no one:t.indef,s,countable,animate,f.ntrl] is allowed to enter.;Никому не разрешено входить.;0;
+
 606;There is [nothing:t.negative,Inanimate,d.abs] to worry about.;Не о чем волноваться.;0;
 607;She has [nothing:t.negative,Inanimate,d.abs] to say.;Ей нечего сказать.;0;
 608;[nothing:t.negative,Inanimate,d.abs] is more important than health.;Ничего нет важнее здоровья.;0;
@@ -1785,7 +1783,6 @@ Reciprocal(взаимные): reciprocal vs themselves
 643;She checked the messages, but [none:t.negative,a.y/n,d.group] were unread.;Она проверила сообщения, но непрочитанных не осталось.;0;
 644;We looked for volunteers, but [none:t.negative,a.y/n,d.group] wanted to help.;Мы искали добровольцев, но никто не захотел помочь.;0;
 645;I wanted answers, but [none:t.negative,a.y/n,d.group] of them made sense.;Я хотел получить ответы, но ни один из них не имел смысла.;0;
-
 
 676;You can take [either:t.determ,c.y,d.1of2,e.positive] seat near the window.;Ты можешь занять любое из двух мест у окна.;0;
 677;I don’t think [either:t.determ,c.y,d.1of2,e.positive] solution is perfect.;Я не думаю, что любое из двух решений идеально.;0;
