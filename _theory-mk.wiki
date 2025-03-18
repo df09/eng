@@ -15,6 +15,10 @@ spelling+спорные по произношению слова
   +сложные комбинации⠁
   irregular verbs redo⠁
 условные предложения
+hr:
+  introduce myself
+  comment my work expirience and skills
+  most popular questions and answers
 числительные
 артикли - когда скипать особенно.
 прилагательные:⠁

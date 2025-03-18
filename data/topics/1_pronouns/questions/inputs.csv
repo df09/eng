@@ -1272,7 +1272,49 @@ id;question;extra;suspicious_status;suspicious_note
 000;He [availed himself of:t.Reflexive](воспользоваться) the free resources.;Он воспользовался бесплатными ресурсами.;0;
 000;The guests [availed themselves of:t.Reflexive](воспользоваться) the complimentary drinks.;Гости воспользовались бесплатными напитками.;0;
 
->>>
+# Reflexive(Возвратные): patterns.Intensive(усилительные) > adding intensive
+000;I have done it [myself:t.Intensive] before!;Я делал это сам раньше!;0;
+000;She will bake the cake [herself:t.Intensive] tomorrow!;Она сама испечёт торт завтра!;0;
+000;They had built the house [themselves:t.Intensive] before winter!;Они сами построили дом до зимы!;0;
+000;He wasn’t painting the picture [himself:t.Intensive] when I arrived!;Он не рисовал картину сам, когда я пришёл!;0;
+000;I haven’t written this report [myself:t.Intensive] yet!;Я ещё не писал этот отчёт сам!;0;
+000;You will have to fix the issue [yourself:t.Intensive] next time!;В следующий раз тебе придётся исправить проблему самому!;0;
+000;We didn’t organize the event [ourselves:t.Intensive] this year!;Мы не организовывали мероприятие сами в этом году!;0;
+000;The students are preparing the presentation [themselves:t.Intensive] right now!;Студенты сами готовят презентацию прямо сейчас!;0;
+000;The cat has opened the door [itself:t.Intensive] many times!;Кот много раз сам открывал дверь!;0;
+000;The CEO approved the contract [himself:t.Intensive] just yesterday!;Генеральный директор сам утвердил контракт только вчера!;0;
+000;The teacher explained the rule [herself:t.Intensive] twice before the test!;Учительница сама объяснила правило дважды перед тестом!;0;
+000;They won’t solve the problem [themselves:t.Intensive] without help!;Они не решат проблему сами без помощи!;0;
+000;You made this decision [yourself:t.Intensive], now you must follow through!;Ты сам принял это решение, теперь тебе нужно довести его до конца!;0;
+000;The president is delivering the speech [himself:t.Intensive] at this very moment!;Президент сам произносит речь прямо сейчас!;0;
+000;We cleaned the entire house [ourselves:t.Intensive] last weekend!;Мы сами убрали весь дом на прошлых выходных!;0;
+000;She was writing the entire book [herself:t.Intensive] when the power went out!;Она писала всю книгу сама, когда выключилось электричество!;0;
+000;I repaired the computer [myself:t.Intensive] after reading the manual!;Я сам починил компьютер после прочтения инструкции!;0;
+000;He had installed the software [himself:t.Intensive] before the deadline!;Он сам установил программное обеспечение до дедлайна!;0;
+000;The children decorated the room [themselves:t.Intensive] for the party!;Дети сами украсили комнату к вечеринке!;0;
+000;The scientist conducted the experiment [herself:t.Intensive] under strict supervision!;Учёная сама провела эксперимент под строгим наблюдением!;0;
+# Reflexive(Возвратные): patterns.Intensive(усилительные) > identify intensive
+000;is Intensive Pronoun?: I saw myself in the mirror. [N](Y/N);Я увидел себя в зеркале.;0;
+000;is Intensive Pronoun?: I myself saw the accident. [Y](Y/N);Я сам видел аварию.;0;
+000;is Intensive Pronoun?: She hurt herself while cooking. [N](Y/N);Она поранилась во время готовки.;0;
+000;is Intensive Pronoun?: She herself called the police. [Y](Y/N);Она сама позвонила в полицию.;0;
+000;is Intensive Pronoun?: The dog scratched itself on the fence. [N](Y/N);Собака поцарапалась об забор.;0;
+000;is Intensive Pronoun?: The CEO himself approved the budget. [Y](Y/N);Генеральный директор сам утвердил бюджет.;0;
+000;is Intensive Pronoun?: We introduced ourselves to the neighbors. [N](Y/N);Мы представились соседям.;0;
+000;is Intensive Pronoun?: We ourselves solved the problem. [Y](Y/N);Мы сами решили проблему.;0;
+000;is Intensive Pronoun?: He found himself lost in a strange city. [N](Y/N);Он оказался потерянным в незнакомом городе.;0;
+000;is Intensive Pronoun?: He himself admitted the mistake. [Y](Y/N);Он сам признал ошибку.;0;
+000;is Intensive Pronoun?: You have to remind yourself to stay focused. [N](Y/N);Тебе нужно напоминать себе, чтобы оставаться сосредоточенным.;0;
+000;is Intensive Pronoun?: You yourself decided to take this risk. [Y](Y/N);Ты сам решил пойти на этот риск.;0;
+000;is Intensive Pronoun?: They blamed themselves for the failure. [N](Y/N);Они винили себя за провал.;0;
+000;is Intensive Pronoun?: They themselves organized the entire event. [Y](Y/N);Они сами организовали всё мероприятие.;0;
+000;is Intensive Pronoun?: The machine turns itself off after one hour. [N](Y/N);Машина выключается сама через час.;0;
+000;is Intensive Pronoun?: The teacher herself explained the rule twice. [Y](Y/N);Учительница сама объяснила правило дважды.;0;
+000;is Intensive Pronoun?: The children entertained themselves while waiting. [N](Y/N);Дети развлекались сами, пока ждали.;0;
+000;is Intensive Pronoun?: The president himself delivered the speech. [Y](Y/N);Президент сам произнес речь.;0;
+000;is Intensive Pronoun?: The book opened itself due to the wind. [N](Y/N);Книга открылась сама из-за ветра.;0;
+000;is Intensive Pronoun?: The author himself wrote the foreword. [Y](Y/N);Автор сам написал предисловие.;0;
+
 # Reflexive(Возвратные): antipatterns.prepositions > Location/Directional/Proximity (Место/Направление/Близость)
 000;FIXME:He saw a shadow behind himself. -> [He saw a shadow behind him.];Он увидел тень позади себя.;0;
 000;FIXME:She found strength beside herself. -> [She found strength beside her.];Она нашла силу рядом с собой.;0;
@@ -1302,13 +1344,144 @@ id;question;extra;suspicious_status;suspicious_note
 000;FIXME:She took a jacket with herself. -> [She took a jacket with her.];Она взяла куртку с собой.;0;
 000;FIXME:The child brought a toy with himself. -> [The child brought a toy with him.];Ребёнок принёс игрушку с собой.;0;
 
+# Reflexive(Возвратные): antipatterns.verbs > habitual-action/self-care
+033;FIXME: She has never bathed herself in the river. -> [She has never bathed in the river.];Она никогда не купалась в реке.;0;
+034;FIXME: Did he bathe himself after a long day? -> [Did he bathe after a long day?];Он купался после долгого дня?;0;
+035;FIXME: After a long day, they bathed themselves. -> [After a long day, they bathed.];После долгого дня они купались.;0;
+036;FIXME: She usually dresses herself quickly. -> [She usually dresses quickly.];Она обычно быстро одевается.;0;
+037;FIXME: He isn’t dressing himself in a suit today. -> [He isn’t dressing in a suit today.];Он сегодня не надевает костюм.;0;
+038;FIXME: Have they dressed themselves warmly enough? -> [Have they dressed warmly enough?];Они достаточно тепло оделись?;0;
+039;FIXME: He had already shaved himself before work. -> [He had already shaved before work.];Он уже побрился перед работой.;0;
+040;FIXME: She didn’t shave herself in the shower. -> [She didn’t shave in the shower.];Она не брилась в душе.;0;
+041;FIXME: Will they shave themselves before the ceremony? -> [Will they shave before the ceremony?];Они побреются перед церемонией?;0;
+042;FIXME: She wakes up herself early every day. -> [She wakes up early every day.];Она просыпается рано каждый день.;0;
+043;FIXME: Did he wake up himself before sunrise? -> [Did he wake up before sunrise?];Он проснулся до рассвета?;0;
+044;FIXME: They haven't woken up themselves yet. -> [They haven't woken up yet.];Они ещё не проснулись.;0;
+045;FIXME: She was washing herself when the phone rang. -> [She was washing when the phone rang.];Она мылась, когда зазвонил телефон.;0;
+046;FIXME: Has he washed himself after the match? -> [Has he washed after the match?];Он помылся после матча?;0;
+047;FIXME: They don’t wash themselves in the sink. -> [They don’t wash in the sink.];Они не умываются в раковине.;0;
+048;FIXME: She is combing herself before the meeting. -> [She is combing her hair before the meeting.];Она расчесывает волосы перед встречей.;0;
+049;FIXME: He had combed himself in front of the mirror. -> [He had combed his hair in front of the mirror.];Он уже расчесал волосы перед зеркалом.;0;
+050;FIXME: Did they comb themselves after waking up? -> [Did they comb their hair after waking up?];Они расчесали волосы после пробуждения?;0;
+051;FIXME: She had cut herself a new hairstyle before the event. -> [She had cut her hair into a new style before the event.];Она подстриглась перед мероприятием.;0;
+052;FIXME: He won’t cut himself with scissors again. -> [He won’t cut himself with scissors again.];Он больше не порежется ножницами.;0;
+053;FIXME: Have they ever cut themselves while cooking? -> [Have they ever cut themselves while cooking?];Они когда-нибудь резались во время готовки?;0;
+054;FIXME: She wasn’t brushing herself before bed. -> [She wasn’t brushing her teeth before bed.];Она не чистила зубы перед сном.;0;
+055;FIXME: He had brushed himself after lunch. -> [He had brushed his teeth after lunch.];Он уже почистил зубы после обеда.;0;
+056;FIXME: Will they brush themselves in the morning? -> [Will they brush their teeth in the morning?];Они почистят зубы утром?;0;
+057;FIXME: She showers herself before bed every night. -> [She showers before bed every night.];Она принимает душ перед сном каждый вечер.;0;
+058;FIXME: He wasn’t showering himself after the workout. -> [He wasn’t showering after the workout.];Он не принимал душ после тренировки.;0;
+059;FIXME: Have they showered themselves in the morning? -> [Have they showered in the morning?];Они приняли душ утром?;0;
+
+# Reflexive(Возвратные): antipatterns.verbs > ambiguous reflexivity
+000;FIXME: He had hidden himself behind the tree before they arrived. -> [He had hidden behind the tree before they arrived.];Он спрятался за деревом, прежде чем они прибыли.;0;
+000;FIXME: She is hiding herself under the blanket. -> [She is hiding under the blanket.];Она прячется под одеялом.;0;
+000;FIXME: They didn’t hide themselves in the basement. -> [They didn’t hide in the basement.];Они не прятались в подвале.;0;
+000;FIXME: I will afford myself a new phone next year. -> [I will afford a new phone next year.];Я позволю себе новый телефон в следующем году.;0;
+000;FIXME: She hasn’t afforded herself a vacation in years. -> [She hasn’t afforded a vacation in years.];Она не могла позволить себе отпуск годами.;0;
+000;FIXME: They couldn’t afford themselves a new house last year. -> [They couldn’t afford a new house last year.];В прошлом году они не могли позволить себе новый дом.;0;
+000;FIXME: He had concentrated himself on his work before the deadline. -> [He had concentrated on his work before the deadline.];Он сосредоточился на своей работе перед дедлайном.;0;
+000;FIXME: She isn’t concentrating herself during the test. -> [She isn’t concentrating during the test.];Она не концентрируется во время теста.;0;
+000;FIXME: They will concentrate themselves on solving the problem next week. -> [They will concentrate on solving the problem next week.];Они сосредоточатся на решении проблемы на следующей неделе.;0;
+000;FIXME: He felt himself very tired. -> [He felt very tired.];Он чувствовал себя очень уставшим.;0;
+000;FIXME: She was feeling herself uncomfortable. -> [She was feeling uncomfortable.];Она чувствовала себя некомфортно.;0;
+000;FIXME: They will feel themselves better soon. -> [They will feel better soon.];Скоро они почувствуют себя лучше.;0;
+000;FIXME: I felt myself happy. -> [I felt happy.];Я чувствовал себя счастливым.;0;
+000;FIXME: She didn’t feel herself comfortable in that place. -> [She didn’t feel comfortable in that place.];Она не чувствовала себя комфортно в том месте.;0;
+000;FIXME: He was feeling himself sick. -> [He was feeling sick.];Он чувствовал себя больным.;0;
+000;FIXME: They will feel themselves more confident after training. -> [They will feel more confident after training.];После тренировки они будут чувствовать себя увереннее.;0;
+000;FIXME: He has never felt himself so strong. -> [He has never felt so strong.];Он никогда не чувствовал себя таким сильным.;0;
+000;FIXME: She will feel herself better tomorrow. -> [She will feel better tomorrow.];Завтра она почувствует себя лучше.;0;
+000;FIXME: He focused himself on his studies. -> [He focused on his studies.];Он сосредоточился на учебе.;0;
+000;FIXME: She had focused herself too much on the details. -> [She had focused too much on the details.];Она слишком сосредоточилась на деталях.;0;
+000;FIXME: They are focusing themselves on the main goal. -> [They are focusing on the main goal.];Они сосредотачиваются на главной цели.;0;
+000;FIXME: He focused himself on success. -> [He focused on success.];Он сосредоточился на успехе.;0;
+000;FIXME: She had focused herself too much on details. -> [She had focused too much on details.];Она слишком сосредоточилась на деталях.;0;
+000;FIXME: They are focusing themselves on the task. -> [They are focusing on the task.];Они сосредотачиваются на задаче.;0;
+000;FIXME: He hasn’t focused himself on the right priorities. -> [He hasn’t focused on the right priorities.];Он не сосредоточился на правильных приоритетах.;0;
+000;FIXME: She will focus herself on her studies next year. -> [She will focus on her studies next year.];Она сосредоточится на учебе в следующем году.;0;
+000;FIXME: They didn’t focus themselves on the competition. -> [They didn’t focus on the competition.];Они не сосредоточились на соревновании.;0;
+000;FIXME: They kissed themselves at the party. -> [They kissed at the party.];Они поцеловались на вечеринке.;0;
+000;FIXME: He kissed himself in the mirror. -> [He kissed his reflection in the mirror.];Он поцеловал свое отражение в зеркале.;0;
+000;FIXME: We kissed ourselves before saying goodbye. -> [We kissed before saying goodbye.];Мы поцеловались перед прощанием.;0;
+000;FIXME: They kissed themselves under the stars. -> [They kissed under the stars.];Они поцеловались под звездами.;0;
+000;FIXME: He kissed himself in the mirror. -> [He kissed his reflection in the mirror.];Он поцеловал свое отражение в зеркале.;0;
+000;FIXME: We kissed ourselves before saying goodbye. -> [We kissed before saying goodbye.];Мы поцеловались перед прощанием.;0;
+000;FIXME: She had kissed herself in a dream. -> [She had kissed someone in a dream.];Во сне она кого-то поцеловала.;0;
+000;FIXME: They are kissing themselves at the wedding. -> [They are kissing at the wedding.];Они целуются на свадьбе.;0;
+000;FIXME: He will kiss himself again if no one else does. -> [He will kiss the mirror again if no one else does.];Он снова поцелует зеркало, если никто другой не поцелует его.;0;
+000;FIXME: Just relax yourself after a long day. -> [Just relax after a long day.];Просто расслабься после долгого дня.;0;
+000;FIXME: She had relaxed herself by the pool before dinner. -> [She had relaxed by the pool before dinner.];Она расслабилась у бассейна перед ужином.;0;
+000;FIXME: He wasn’t relaxing himself after work. -> [He wasn’t relaxing after work.];Он не отдыхал после работы.;0;
+000;FIXME: They have met themselves before. -> [They have met before.];Они уже встречались раньше.;0;
+000;FIXME: He wasn’t meeting himself with an old friend at that time. -> [He wasn’t meeting with an old friend at that time.];В тот момент он не встречался со старым другом.;0;
+000;FIXME: We will meet ourselves at the airport tomorrow. -> [We will meet at the airport tomorrow.];Мы встретимся в аэропорту завтра.;0;
+000;FIXME: He adapted himself quickly to the new environment. -> [He adapted quickly to the new environment.];Он быстро адаптировался к новой среде.;0;
+000;FIXME: She hadn’t adapted herself to the new job yet. -> [She hadn’t adapted to the new job yet.];Она ещё не адаптировалась к новой работе.;0;
+000;FIXME: They are adapting themselves to city life. -> [They are adapting to city life.];Они адаптируются к городской жизни.;0;
+000;FIXME: She improved herself in mathematics over the years. -> [She improved in mathematics over the years.];Она улучшила свои знания по математике за годы.;0;
+000;FIXME: He hasn’t improved himself much this year. -> [He hasn’t improved much this year.];В этом году он не сильно продвинулся.;0;
+000;FIXME: They will improve themselves as a team. -> [They will improve as a team.];Они будут развиваться как команда.;0;
+000;FIXME: He improved himself in writing. -> [He improved in writing.];Он улучшил свои навыки письма.;0;
+000;FIXME: She is improving herself every day. -> [She is improving every day.];Она совершенствуется каждый день.;0;
+000;FIXME: They had improved themselves significantly. -> [They had improved significantly.];Они значительно улучшились.;0;
+000;FIXME: He will improve himself over time. -> [He will improve over time.];Со временем он улучшится.;0;
+000;FIXME: She has improved herself in her career. -> [She has improved in her career.];Она выросла в своей карьере.;0;
+000;FIXME: They are improving themselves as individuals. -> [They are improving as individuals.];Они развиваются как личности.;0;
+000;FIXME: He had moved himself to another department before the project started. -> [He had moved to another department before the project started.];Он перевелся в другой отдел до начала проекта.;0;
+000;FIXME: She isn’t moving herself out of her parents’ house yet. -> [She isn’t moving out of her parents’ house yet.];Она ещё не съезжает от родителей.;0;
+000;FIXME: They will move themselves abroad next year. -> [They will move abroad next year.];Они переедут за границу в следующем году.;0;
+000;FIXME: He has developed himself professionally over time. -> [He has developed professionally over time.];Со временем он развивался профессионально.;0;
+000;FIXME: She wasn’t developing herself into a great leader. -> [She wasn’t developing into a great leader.];Она не развивалась в великого лидера.;0;
+000;FIXME: They will develop themselves a reputation. -> [They will develop a reputation.];Они создадут себе репутацию.;0;
+000;FIXME: He developed himself as a professional. -> [He developed as a professional.];Он развился как профессионал.;0;
+000;FIXME: She is developing herself in management. -> [She is developing in management.];Она развивается в управлении.;0;
+000;FIXME: They had developed themselves into skilled engineers. -> [They had developed into skilled engineers.];Они стали опытными инженерами.;0;
+000;FIXME: He has developed himself in multiple fields. -> [He has developed in multiple fields.];Он развился в нескольких сферах.;0;
+000;FIXME: She will develop herself further in this area. -> [She will develop further in this area.];Она будет дальше развиваться в этой области.;0;
+000;FIXME: They are developing themselves into a stronger team. -> [They are developing into a stronger team.];Они становятся более сплоченной командой.;0;
+000;FIXME: He had recovered himself after a stressful week. -> [He had recovered after a stressful week.];Он восстановился после напряженной недели.;0;
+000;FIXME: She isn’t recovering herself from a tough breakup. -> [She isn’t recovering from a tough breakup.];Она не оправляется после тяжелого разрыва.;0;
+000;FIXME: They will recover themselves from financial losses soon. -> [They will recover from financial losses soon.];Они скоро восстановятся после финансовых потерь.;0;
+000;FIXME: He recovered himself from a cold quickly. -> [He recovered from a cold quickly.];Он быстро выздоровел после простуды.;0;
+000;FIXME: She hasn’t recovered herself fully yet. -> [She hasn’t recovered fully yet.];Она еще полностью не восстановилась.;0;
+000;FIXME: They are recovering themselves after a long trip. -> [They are recovering after a long trip.];Они восстанавливаются после долгого путешествия.;0;
+000;FIXME: He had recovered himself from stress before exams started. -> [He had recovered from stress before exams started.];Он восстановился после стресса до начала экзаменов.;0;
+000;FIXME: She is recovering herself from an emotional breakdown. -> [She is recovering from an emotional breakdown.];Она восстанавливается после эмоционального срыва.;0;
+000;FIXME: They will recover themselves soon after the competition. -> [They will recover soon after the competition.];Они скоро восстановятся после соревнования.;0;
+
+# Reflexive(Возвратные): antipatterns.verbs > fixed-expressions
+000;FIXME: I took my laptop with myself. -> [I took my laptop with me.];Я взял свой ноутбук с собой.;0;
+000;FIXME: She took her passport with herself. -> [She took her passport with her.];Она взяла свой паспорт с собой.;0;
+000;FIXME: He had taken his jacket with himself before leaving. -> [He had taken his jacket with him before leaving.];Перед уходом он взял свою куртку с собой.;0;
+000;FIXME: We will take some snacks with ourselves. -> [We will take some snacks with us.];Мы возьмем с собой немного перекусов.;0;
+000;FIXME: They didn’t take an umbrella with themselves. -> [They didn’t take an umbrella with them.];Они не взяли с собой зонт.;0;
+000;FIXME: She brought a gift with herself. -> [She brought a gift with her.];Она принесла подарок с собой.;0;
+000;FIXME: I will bring some documents with myself. -> [I will bring some documents with me.];Я принесу несколько документов с собой.;0;
+000;FIXME: He always brings his camera with himself. -> [He always brings his camera with him.];Он всегда берет с собой камеру.;0;
+000;FIXME: We brought sandwiches with ourselves for the trip. -> [We brought sandwiches with us for the trip.];Мы взяли с собой бутерброды для поездки.;0;
+000;FIXME: Did they bring their dog with themselves? -> [Did they bring their dog with them?];Они привезли свою собаку с собой?;0;
+000;FIXME: Do you have your phone with yourself? -> [Do you have your phone with you?];У тебя с собой телефон?;0;
+000;FIXME: She had a notebook with herself during the lecture. -> [She had a notebook with her during the lecture.];У нее был с собой блокнот во время лекции.;0;
+000;FIXME: He always has cash with himself. -> [He always has cash with him.];Он всегда носит с собой наличные.;0;
+000;FIXME: We had our tickets with ourselves. -> [We had our tickets with us.];У нас были с собой билеты.;0;
+000;FIXME: Do they have their passports with themselves? -> [Do they have their passports with them?];У них есть с собой паспорта?;0;
+000;FIXME: I keep a pen with myself in case I need to write. -> [I keep a pen with me in case I need to write.];Я держу при себе ручку на случай, если нужно будет что-то записать.;0;
+000;FIXME: She keeps her diary with herself at all times. -> [She keeps her diary with her at all times.];Она всегда держит дневник при себе.;0;
+000;FIXME: He kept a flashlight with himself during the blackout. -> [He kept a flashlight with him during the blackout.];Во время отключения света он держал при себе фонарик.;0;
+000;FIXME: We always keep some water with ourselves when hiking. -> [We always keep some water with us when hiking.];Когда мы ходим в походы, у нас всегда есть с собой вода.;0;
+000;FIXME: Do they keep their house keys with themselves? -> [Do they keep their house keys with them?];Они держат ключи от дома при себе?;0;
+000;FIXME: He always carries a map with himself when traveling. -> [He always carries a map with him when traveling.];В путешествиях он всегда носит с собой карту.;0;
+000;FIXME: I carry a small notebook with myself. -> [I carry a small notebook with me.];Я ношу с собой маленький блокнот.;0;
+000;FIXME: She carried an umbrella with herself in case of rain. -> [She carried an umbrella with her in case of rain.];Она носила с собой зонт на случай дождя.;0;
+000;FIXME: We carried our ID cards with ourselves for security checks. -> [We carried our ID cards with us for security checks.];Мы носили с собой удостоверения личности для проверки безопасности.;0;
+000;FIXME: Do they carry their passports with themselves when they travel? -> [Do they carry their passports with them when they travel?];Они берут с собой паспорта, когда путешествуют?;0;
+
 >>>
-# Reflexive(Возвратные): antipatterns.verbs >
+Reciprocal(взаимные): nominate
+Reciprocal(взаимные): possesive
+Reciprocal(взаимные): reciprocal vs themselves
 
-
-
-> Reciprocal
-identification
 646;They respect [each other:t.reciprocal,d.2,f.ntrl/frml].;Они уважают друг друга.;0;
 647;We always support [each other:t.reciprocal,d.2,f.ntrl/frml].;Мы всегда поддерживаем друг друга.;0;
 648;John and Lisa looked at [each other:t.reciprocal,d.2,f.ntrl/frml] in surprise.;Джон и Лиза удивленно посмотрели друг на друга.;0;

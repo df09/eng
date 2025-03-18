@@ -106,7 +106,10 @@ concessive clause:
 конструкции с "one(s)" (когда заменяет существительное):
     I’ll take the red shoes, you can take the blue ones. (подразумевается blue shoes)
 
-Reflexive Voice (Возвратный залог):
+Possesive (притяжательность как отдельная тема):
+  ....
+
+Reflexive (Возвратность как отдельная тема):
   **Reflexive Voice** – это залог, в котором действие возвращается на субъекта, т.е. подлежащее и объект совпадают. В английском языке это выражается через **reflexive pronouns** (myself, yourself, himself и т. д.).
   ## **1. Отличие от Active и Passive Voice**
   | Залог             | Пример              | Перевод          |

@@ -196,7 +196,12 @@ Reflexive(Возвратные):
     - Действие выполняется самостоятельно.
     - Действие выполняется с усилием.
     - В повелительном наклонении.
-    - Intensive Pronouns (Усилительные местоимения).
+    - reflexivity and unanimity:
+        Если нет акцента на технических процессах, автоматизации, действиях без внешнего вмешательства,
+        обычно не используются с неодушевленными предметами, так как такие объекты не могут действовать "на себя".
+    - Intensive Pronouns (Усилительные местоимения):
+        Возвратные местоимения могут использоваться в качестве усиления (intensive pronouns), а не для обозначения возвратного действия.
+        Особенность: если местоимение можно убрать без изменения смысла, значит оно усилительное.
   usage:
     не используются как подлежащее: Myself can solve the problem. -> I can solve the problem myself.
     oneself - неопределенное лицо, высказывания общего характера: It is important to challenge oneself every day.
@@ -256,6 +261,9 @@ Reflexive(Возвратные):
         Tie oneself up in knots (Запутаться, не находить себе места)
         Spread oneself too thin (Распыляться, браться за слишком многое)
         Make an exhibition of oneself (Выставлять себя напоказ)
+    Intensive(усилительные):
+      adding intensive: 000;I have done it [myself:t.Intensive] before!;Я делал это сам раньше!;0;
+      identify intensive: 000;is Intensive Pronoun?: I saw myself in the mirror. [N](Y/N);Я увидел себя в зеркале.;0;
   antipatterns:
     prepositions(=>Personal-object):
       Location/Directional/Proximity (Место/Направление/Близость):
@@ -265,91 +273,63 @@ Reflexive(Возвратные):
       Exception! "with" (Reflexive возможно, но лучше Personal-object):
         My sister took me to the cinema with herself. -> She took her dog with her.
         He was alone with himself. (Допустимо, если речь о внутреннем состоянии.)
-    >>>
     verbs:
-      рутинные и гигиенические процедуры:
-        to dress – одеваться
-        to hide – прятаться
-        to wash – умываться
-        to bathe – купаться
-        to shave – бриться.
-        wake up (просыпаться), wash (мыться), shave (бриться), bath (купаться), dress (одеваться).
-        bath, (un)dress и change (clothes)
-      глаголы с неочевидной возвратностью:
-        afford behave concentrate feel focus hurry kiss meet relax
-        Concentrate — сосредоточиться.
-        Feel — чувствовать.
-        Meet — встречаться.
-        Hurry — торопиться.
-        Relax — расслабляться.
-        verbs:
-          %% Feel          I feel tired. (Я чувствую себя усталым.)
-          %% Concentrate   I need to concentrate. (Мне нужно сосредоточиться.)
-          %% Relax         I want to relax at home. (Я хочу расслабиться дома.)
-          %% Meet          I meet my friends on weekends. (Я встречаюсь с друзьями на выходных.)
-          %% Hurry         I hurried because I didn't want to miss the last bus.
-        >>> ...
-    выражения:
-      to take something with
-      to bring something with
-      >>> ...
-  extra:
-    Возвратные местоимения и неодушевленные предметы.
-    выражения. >>> on one’s own:
-      ...
-    emphatic:
-      Intensive Pronouns - Эмпатический окрас - можно ли так сказать
+      habitual-action/self-care:
+        bathe (мыться, купаться – процесс самоочевиден, возвратное местоимение не требуется)
+        dress (одеваться – подразумевается самостоятельность)
+        shave (бриться – обычно делается самостоятельно)
+        wake up (просыпаться – процесс не требует объекта)
+        wash (мыть – объект часто указывается, но может подразумеваться полностью)
+        comb (расчесывать – действие направлено на волосы, а не на весь субъект)
+        cut (стричь, резать – объект обязателен)
+        brush (чистить – объект, например, зубы, всегда указан)
+        shower (принимать душ – процесс очевиден, возвратное местоимение не требуется)
+      ambiguous reflexivity (уже подразумевают возвратное действие):
+        hide (прятаться – само действие указывает на субъект)
+        afford (позволить себе – не требует возвратного местоимения)
+        concentrate (концентрироваться – уже означает направленность на себя)
+        feel (чувствовать – возвратное местоимение избыточно)
+        focus (фокусироваться – не требует возвратного местоимения)
+        kiss (целоваться – подразумевает взаимное действие)
+        meet (встречаться – уже означает действие с собой или другим)
+        relax (расслабляться – процесс очевиден, возвратное местоимение не нужно)
+        adapt (адаптироваться – уже направлено на себя)
+        improve (улучшаться – не требует возвратного местоимения)
+        move (переезжать – возвратное местоимение не нужно)
+        develop (развиваться – возвратное местоимение не используется)
+        recover (восстанавливаться – действие направлено на себя, возвратное местоимение не нужно)
+    fixed-expressions:
+      to take something with – I took my phone with me. (нельзя I took my phone with myself.)
+      to bring something with – She brought a book with her. (нельзя She brought a book with herself.)
+      to have something with – Do you have your ID with you? (нельзя Do you have your ID with yourself?)
+      to keep something with – I keep my keys with me. (нельзя I keep my keys with myself.)
+      to carry something with – He always carries a notebook with him. (нельзя He always carries a notebook with himself.)
 
+Reciprocal(взаимные):
+  Identification:
+    each other   (r.2, f.Neutral/Formal)
+    one another  (r.3, f.Formal)
+  usage(outdated, even for formal speech, can be neglected, completely interchangeable):
+    each other  (о двух)       - более распространено в любом контексте.
+    one another (о более двух) - звучит формальнее.
+  prepositions - "each other" и "one another" нельзя разрывать предлогом:
+    - They took each on other’s advice. (Кажется, что "on" связано с "each other", но это ошибка.)
+      They took advice on each other. (Правильно: "on" относится к "each other" целиком.)
+    - They spoke each about other. (Ошибочно, потому что предлог "about" разрывает "each other".)
+      They spoke about each other. (Правильно.)
+  possesive:
+    Взаимные местоимения в английском языке могут употребляться в форме притяжательного падежа.
+      %% We couldn't hear each other's words for the wind. – Мы не могли слышать слова друг друга из-за ветра.
+      %% They enjoy one another's company. – Они наслаждаются компанией друг друга. (о группе более двух человек).
+  reciprocal vs themselves:
+    reflexives  - употребляются, когда исполнитель совершает действие по отношению к себе.
+    reciprocals – употребляется, когда группа совершает действие по отношению друг к другу.
 
-> Reciprocal(взаимные):
->   Identification:
->     each other  : r.2   , f.Neutral/Formal
->     each other  : r.grp , f.Neutral
->     one another : r.grp , f.Formal
->   q:
->     пересмотреть Referring, Formal, все - не готово
-Разница в том, что reflexives употребляются, когда исполнитель совершает действие по отношению к себе, а reciprocals – когда группа исполнителей выполняют одно и то же действие по отношению друг к другу. Чтобы легче было разобраться, давайте посмотрим таблицу.
-  reciprocal(взаимные):
-    __common-specifications:
-      - могут употребляться в притяжательном падеже:
-          %% We couldn't hear each other's words for the wind. – Мы не могли слышать слова друг друга из-за ветра.
-          %% They enjoy one another's company. – Они наслаждаются компанией друг друга. (о группе более двух человек).
-    each other:
-      matrix:
-        - ru_cases:gdaip
-        - grammatical_role: object_xxx⠁
-        - animacy: animate
-            Пример некорректного употребления:
-              %% The books are placed next to each other. (Неправильно, так как книги не могут сознательно взаимодействовать.)
-            Для неодушевленных объектов используются другие конструкции:
-              %% The books are placed side by side. (Книги расположены рядом друг с другом.)
-              %% The books are arranged in a row. (Книги выстроены в ряд.)
-        - countability: uncountable
-        - formality: neutral
-      specifications:
-        - употребляется к двум лицам
-        - можно разделить в предложении, но тогда либо артикль, либо other это уже это описательное:
-            %% Each told the other the truth.
-            %% Each told other people the truth.
-            %% Each of them told the other the truth.
-    one another:
-      matrix:
-        - ru_cases:gdaip
-        - grammatical_role: object_xxx⠁
-        - animacy: animate
-            Пример некорректного употребления:
-              %% The books are placed next to each other. (Неправильно, так как книги не могут сознательно взаимодействовать.)
-            Для неодушевленных объектов используются другие конструкции:
-              %% The books are placed side by side. (Книги расположены рядом друг с другом.)
-              %% The books are arranged in a row. (Книги выстроены в ряд.)
-        - countability: uncountable
-        - formality: neutral
-      specifications:
-        - употребляется к двум и более лицам
-        - употребляется к череде событий или состояний
-    Themselves и each other/one another.
-      Очень много ошибок допускают, когда путают использование этих двух слов. Themselves — сами себя, each other / one another — друг друга.
+  >>> q_input где нужно подставить номинатив
+  >>> q_input где нужно подставить притяжательный
+  >>> q_input где нужно подставить reflexive
 
+>>>
 Demonstrative(Указательные):
   Identification:
     this  : s , e.Near
