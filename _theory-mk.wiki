@@ -1,7 +1,6 @@
 %% >>> topics >>>>>>>>>>>>>>>>>>>>>>>>>
 местоимения⠉
 предлоги⠉
-spelling+спорные по произношению слова
 времена/verbs:⠋
   +mastering самые важные глаголы:⠉
     to be⠋
@@ -14,17 +13,25 @@ spelling+спорные по произношению слова
     modals⠋
   +сложные комбинации⠁
   irregular verbs redo⠁
-условные предложения
-hr:
-  introduce myself
-  comment my work expirience and skills
-  most popular questions and answers
+
+сложные предложения step-1:
+  условные предложения
+  придаточные предложения
+
+spelling+спорные по произношению слова
 числительные
-артикли - когда скипать особенно.
 прилагательные:⠁
   вцелом
   сравнительные степени
   списки синонимов от слабого к сильному и тп
+
+hr:
+  introduce myself
+  comment my work expirience and skills
+  most popular questions and answers
+
+
+артикли - когда скипать особенно.
 morphology
   прставки/суффиксы
   сранительные степени

@@ -1549,19 +1549,9 @@ Demonstrative(Указательные): noun2pronoun
 008;Why do you keep staring at [that:t.Demonstrative,e.Away](building)?;Почему ты продолжаешь смотреть на то здание?;0;  
 009;He regrets saying [that:t.Demonstrative,e.Away](word).;Он сожалеет, что сказал то слово.;0;  
 010;We should avoid [that:t.Demonstrative,e.Away](road) during rush hour.;Нам стоит избегать той дороги в час пик.;0;  
-011;[These:t.Demonstrative,e.Near](shoes) are really comfortable.;Эти туфли очень удобные.;0;  
-012;I can't believe how expensive [these:t.Demonstrative,e.Near](tickets) are.;Я не могу поверить, насколько дорогие эти билеты.;0;  
-013;Did you bring [these:t.Demonstrative,e.Near](documents) I asked for?;Ты принёс те документы, о которых я просил?;0;  
-014;[These:t.Demonstrative,e.Near](cookies) taste amazing!;Эти печенья на вкус потрясающие!;0;  
-015;We need to check [these:t.Demonstrative,e.Near](calculations) again.;Нам нужно снова проверить эти расчёты.;0;  
-016;I don’t trust [those:t.Demonstrative,e.Away](people).;Я не доверяю тем людям.;0;  
-017;Do you remember [those:t.Demonstrative,e.Away](days) when we had no worries?;Ты помнишь те дни, когда у нас не было забот?;0;  
-018;She bought [those:t.Demonstrative,e.Away](chairs) last year.;Она купила те стулья в прошлом году.;0;  
-019;I was thinking about [those:t.Demonstrative,e.Away](moments) we spent together.;Я думал о тех моментах, которые мы провели вместе.;0;  
-020;[Those:t.Demonstrative,e.Away](houses) were built over a century ago.;Те дома были построены более века назад.;0;  
 
 >>>
-Interrogative(Вопросительные):
+Relative(Относительные):
 
 
 408;[What:t.interrog,Inanimate,Case.Nom] book are you reading?; Какую книгу ты читаешь?;0;
