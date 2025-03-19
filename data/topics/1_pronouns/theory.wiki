@@ -25,8 +25,8 @@ Personal-subject(Личные-nominative):
   "it" при уточнении личности:
     Местоимение it также может использоваться по отношению к людям,
     когда говорящий пытается установить личность другого человека.
-      %% It was my sister I went to the restaurant with, not my girlfriend. – Я пошел в ресторан со своей сестрой, а не со своей девушкой.
-      %% I saw you with someone yesterday. Was it your friend?. - No it wasn’t. – Я видел тебя с кем-то вчера. Это был твой друг? - Нет, не он.
+      %% It was my sister I went to the restaurant with, not my girlfriend. - Я пошел в ресторан со своей сестрой, а не со своей девушкой.
+      %% I saw you with someone yesterday. Was it your friend?. - No it wasn't. - Я видел тебя с кем-то вчера. Это был твой друг? - Нет, не он.
   "it" к животным:
     использутся к животным, кроме контекста с особым отношением к питомцу, тогда одушвевляется.
       %% The dog is barking loudly -> [It:t.Personal] is barking loudly; Он/Она лает громко.;0;
@@ -38,7 +38,7 @@ Personal-subject(Личные-nominative):
   Singular "they":
     если пол человека неизвестен или неважен использовать либо "he or she", либо "they"
       %% Someone left their phone on the table. -> Кто-то оставил свой телефон на столе.
-      %% If a caller doesn’t leave a message, should I call them back? -> Если звонящий не оставил сообщение, мне перезвонить им?
+      %% If a caller doesn't leave a message, should I call them back? -> Если звонящий не оставил сообщение, мне перезвонить им?
       %% If a customer has a complaint, they should contact support. -> Если у клиента есть жалоба, ему следует обратиться в поддержку.
   Singual "we":
     местоимение we может употребляться для обозначения одного лица:
@@ -51,18 +51,18 @@ Personal-subject(Личные-nominative):
       Покровительственное "we" (Patronizing We):
         При покровительственном, шутливом или сочувственном обращении к собеседнику.
         %% [We:t.Personal,e.Patronizing] are not feeling well today, are we?; Мы сегодня плохо себя чувствуем, не так ли? (врач пациенту);0;
-        %% Ah, [we:t.Personal,e.Patronizing] have been a little naughty, haven’t we?; Ах, мы немножко шалили, да? (взрослый ребёнку);0;
+        %% Ah, [we:t.Personal,e.Patronizing] have been a little naughty, haven't we?; Ах, мы немножко шалили, да? (взрослый ребёнку);0;
   Порядок местоимений:
     когда к одному и тому же глаголу относится несколько местоимений: "2nd,1st; 3rd,1st; 2nd,3rd".
     Если в предложении "3rd,3rd" - порядок любой, но у существительных и одущевленных приоритет.
-      %% My friends and I went to the club yesterday. – Я и мои друзья пошли вчера в клуб.
-      %% Richard and I are old friends. – Мы с Ричардом – старые друзья.
+      %% My friends and I went to the club yesterday. - Я и мои друзья пошли вчера в клуб.
+      %% Richard and I are old friends. - Мы с Ричардом - старые друзья.
   Борьба разговорного с формальным:
     Predicate nominative:
       В официальной и письменной речи лучше использовать именительный падеж (It was I).
       В разговорном английском чаще используется объектный падеж (It was me), и это уже стало нормой.
-        %% Who told him that? – It was I. – Кто ему сказал это? – Я. (литературная, правильная форма)
-        %% Who told him that? – It was me. – Кто ему сказал это? – Я. (разговорная форма)
+        %% Who told him that? - It was I. - Кто ему сказал это? - Я. (литературная, правильная форма)
+        %% Who told him that? - It was me. - Кто ему сказал это? - Я. (разговорная форма)
     После "but,except,than,as..as..,etc": Formal - personal-subj, Colloquial - personal-obj:
       %% No one but [I:t.Personal,s1,f.Formal] understood the instructions.;Никто, кроме меня, не понял инструкций.;0;
       %% She trusts no one except [you:t.Personal,s2,f.Formal].;Она никому не доверяет, кроме тебя.;0;
@@ -74,13 +74,12 @@ Personal-subject(Личные-nominative):
     "... and I" vs "... and me":
       В американском варианте английского языка, при употреблении личного местоимения в качестве дополнения
       с другими местоимениями или существительными, вместо "me" может использоваться местоимение "I":
-        %% Mama told you and I to tidy up our rooms. – Мама говорила тебе и мне убрать в наших комнатах.
-        %% They came to watch TV with my brother and I. – Они приходили смотреть телевизор с моим братом и со мной.
+        %% Mama told you and I to tidy up our rooms. - Мама говорила тебе и мне убрать в наших комнатах.
+        %% They came to watch TV with my brother and I. - Они приходили смотреть телевизор с моим братом и со мной.
       Это отклонение от правила возникло благодаря усиленной борьбе (к месту и не к месту)
-      американской системы образования с распространенным просторечным вариантом me and …:
-        %% Me and my friend were asked to go. – Меня и моего друга попросили уйти. (неформальное употребление),
-        %% My friend and I were asked to go. – Меня и моего друга попросили уйти. (правильный вариант).
-  >>> noun2pronoun:
+      американской системы образования с распространенным просторечным вариантом me and ...:
+        %% Me and my friend were asked to go. - Меня и моего друга попросили уйти. (неформальное употребление),
+        %% My friend and I were asked to go. - Меня и моего друга попросили уйти. (правильный вариант).
 
 Personal-object(Личные-косвенные):
   Identification:
@@ -111,7 +110,6 @@ Personal-object(Личные-косвенные):
     если пол человека неизвестен или неважен использовать либо "him or her", либо "them"
       %% The doctor called a patient and asked [them:t.Personal] to come in.; Врач вызвал пациента и попросил его войти.;0;
       %% If someone finds my keys, please give [them:t.Personal] to the receptionist.; Если кто-то найдёт мои ключи, пожалуйста, отдайте их администратору.;0;
-  >>> noun2pronoun:
 
 Possessive-absolute(Притяжательные-абсолютные):
   Identification:
@@ -124,7 +122,7 @@ Possessive-absolute(Притяжательные-абсолютные):
     theirs : p3
   функция как подлежащего, так и дополнения:
     %% подлежащее: Her dress is blue. Mine is green.
-    %% дополнение: Is this Greg’s car? No, it’s mine.
+    %% дополнение: Is this Greg's car? No, it's mine.
   its - не существует:
     %% That power was its. -> That was [its power]. (Это была его сила.)
   Singular Theirs:
@@ -166,7 +164,7 @@ Possessive-cojoint(Притяжательные-присоединяемые):
   patterns - в сочетаниях с "own" (для усиления):
     %% 001;I have [my:t.Possessive] own apartment.;У меня есть своя собственная квартира.;0;
   possessive-cojoint vs "to be":
-    %% 000;[They’re](they’re/their) going to the store.;Они идут в магазин.;0;
+    %% 000;[They're](they're/their) going to the store.;Они идут в магазин.;0;
   impact rule (правило воздействия):
       в формальном письме чтобы избежать путаницы), использование притяжательных местоимений предпочтительнее:
         %% "He injured his leg during the match." (чтобы чётко указать, чья нога была повреждена).
@@ -213,7 +211,7 @@ Reflexive(Возвратные):
           действие выполняется самостоятельно(independently): I fixed the computer by myself. - Я починил компьютер сам.
         For oneself (для себя): He made the decision for himself. - Он принял решение для себя.
         About oneself (о себе): He only thinks about himself. - Он думает только о себе.
-        To oneself (по отношению к себе): Don’t be so hard on yourself. - Не будь так строг к себе.
+        To oneself (по отношению к себе): Don't be so hard on yourself. - Не будь так строг к себе.
       Useful (often in texts and formal style):
         On oneself (ответственность): He took it on himself. - Он взял это на себя.
         Upon oneself (обременение): He brought trouble upon himself. - Он навлек на себя неприятности.
@@ -244,7 +242,7 @@ Reflexive(Возвратные):
         Behave yourself (Веди себя прилично)
         See for yourself (Сам убедись)
         Speak for yourself (Говори за себя!)
-        Don’t upset yourself (Не расстраивайся)
+        Don't upset yourself (Не расстраивайся)
         Pull yourself together (Соберись)
       general:
         See oneself (видеть себя в зеркале/в будущем/в воображении)
@@ -275,35 +273,35 @@ Reflexive(Возвратные):
         He was alone with himself. (Допустимо, если речь о внутреннем состоянии.)
     verbs:
       habitual-action/self-care:
-        bathe (мыться, купаться – процесс самоочевиден, возвратное местоимение не требуется)
-        dress (одеваться – подразумевается самостоятельность)
-        shave (бриться – обычно делается самостоятельно)
-        wake up (просыпаться – процесс не требует объекта)
-        wash (мыть – объект часто указывается, но может подразумеваться полностью)
-        comb (расчесывать – действие направлено на волосы, а не на весь субъект)
-        cut (стричь, резать – объект обязателен)
-        brush (чистить – объект, например, зубы, всегда указан)
-        shower (принимать душ – процесс очевиден, возвратное местоимение не требуется)
+        bathe (мыться, купаться - процесс самоочевиден, возвратное местоимение не требуется)
+        dress (одеваться - подразумевается самостоятельность)
+        shave (бриться - обычно делается самостоятельно)
+        wake up (просыпаться - процесс не требует объекта)
+        wash (мыть - объект часто указывается, но может подразумеваться полностью)
+        comb (расчесывать - действие направлено на волосы, а не на весь субъект)
+        cut (стричь, резать - объект обязателен)
+        brush (чистить - объект, например, зубы, всегда указан)
+        shower (принимать душ - процесс очевиден, возвратное местоимение не требуется)
       ambiguous reflexivity (уже подразумевают возвратное действие):
-        hide (прятаться – само действие указывает на субъект)
-        afford (позволить себе – не требует возвратного местоимения)
-        concentrate (концентрироваться – уже означает направленность на себя)
-        feel (чувствовать – возвратное местоимение избыточно)
-        focus (фокусироваться – не требует возвратного местоимения)
-        kiss (целоваться – подразумевает взаимное действие)
-        meet (встречаться – уже означает действие с собой или другим)
-        relax (расслабляться – процесс очевиден, возвратное местоимение не нужно)
-        adapt (адаптироваться – уже направлено на себя)
-        improve (улучшаться – не требует возвратного местоимения)
-        move (переезжать – возвратное местоимение не нужно)
-        develop (развиваться – возвратное местоимение не используется)
-        recover (восстанавливаться – действие направлено на себя, возвратное местоимение не нужно)
+        hide (прятаться - само действие указывает на субъект)
+        afford (позволить себе - не требует возвратного местоимения)
+        concentrate (концентрироваться - уже означает направленность на себя)
+        feel (чувствовать - возвратное местоимение избыточно)
+        focus (фокусироваться - не требует возвратного местоимения)
+        kiss (целоваться - подразумевает взаимное действие)
+        meet (встречаться - уже означает действие с собой или другим)
+        relax (расслабляться - процесс очевиден, возвратное местоимение не нужно)
+        adapt (адаптироваться - уже направлено на себя)
+        improve (улучшаться - не требует возвратного местоимения)
+        move (переезжать - возвратное местоимение не нужно)
+        develop (развиваться - возвратное местоимение не используется)
+        recover (восстанавливаться - действие направлено на себя, возвратное местоимение не нужно)
     fixed-expressions:
-      to take something with – I took my phone with me. (нельзя I took my phone with myself.)
-      to bring something with – She brought a book with her. (нельзя She brought a book with herself.)
-      to have something with – Do you have your ID with you? (нельзя Do you have your ID with yourself?)
-      to keep something with – I keep my keys with me. (нельзя I keep my keys with myself.)
-      to carry something with – He always carries a notebook with him. (нельзя He always carries a notebook with himself.)
+      to take something with - I took my phone with me. (нельзя I took my phone with myself.)
+      to bring something with - She brought a book with her. (нельзя She brought a book with herself.)
+      to have something with - Do you have your ID with you? (нельзя Do you have your ID with yourself?)
+      to keep something with - I keep my keys with me. (нельзя I keep my keys with myself.)
+      to carry something with - He always carries a notebook with him. (нельзя He always carries a notebook with himself.)
 
 Reciprocal(взаимные):
   Identification:
@@ -313,83 +311,69 @@ Reciprocal(взаимные):
     each other  (о двух)       - более распространено в любом контексте.
     one another (о более двух) - звучит формальнее.
   prepositions - "each other" и "one another" нельзя разрывать предлогом:
-    - They took each on other’s advice. (Кажется, что "on" связано с "each other", но это ошибка.)
+    - They took each on other's advice. (Кажется, что "on" связано с "each other", но это ошибка.)
       They took advice on each other. (Правильно: "on" относится к "each other" целиком.)
     - They spoke each about other. (Ошибочно, потому что предлог "about" разрывает "each other".)
       They spoke about each other. (Правильно.)
   possesive:
     Взаимные местоимения в английском языке могут употребляться в форме притяжательного падежа.
-      %% We couldn't hear each other's words for the wind. – Мы не могли слышать слова друг друга из-за ветра.
-      %% They enjoy one another's company. – Они наслаждаются компанией друг друга. (о группе более двух человек).
+      %% We couldn't hear each other's words for the wind. - Мы не могли слышать слова друг друга из-за ветра.
+      %% They enjoy one another's company. - Они наслаждаются компанией друг друга. (о группе более двух человек).
   reciprocal vs themselves:
     reflexives  - исполнитель совершает действие по отношению к себе.
-    reciprocals – группа совершает действие по отношению друг к другу.
+    reciprocals - группа совершает действие по отношению друг к другу.
 
->>>
 Demonstrative(Указательные):
-  >>> web
-  >>> q_fill Identification
-  >>> q_input Identification
   Identification:
-    this  : s , e.Near
-    that  : s , e.Away
-    these : p , e.Near
-    those : p , e.Away
-  >>> q_input
-  That/Those - Добавляется one или ones:
-    this one, that one
-    these ones, those ones
-  >>> q_fill fixed expr
-  fixed-expr:
-
-    С "This" (обычно указывает на что-то ближнее, текущее)
-      This is it! – Вот оно! / Это то, что нужно!
-      This is the life! – Вот это жизнь!
-      This is ridiculous! – Это нелепо!
-      This won’t do. – Так не пойдёт.
-      This just in… – Срочные новости…
-      This is how it works. – Вот как это работает.
-      This is what I meant. – Это то, что я имел в виду.
-    С "That" (обычно указывает на что-то дальше или ранее упомянутое)
-      That's right. – Это правильно. / Именно так.
-      That's true. – Это правда.
-      That's it! – Вот и всё! / Именно так!
-      That's all. – Это всё.
-      that's all right — все в порядке
-      That's enough! – Достаточно!
-      That's for sure. – Это точно.
-      That's why… – Вот почему…
-      That's a good one! – Хорошая шутка!
-      That does it! – Всё! Хватит! (выражение раздражения)
-      That's the way it is. – Такова жизнь.
-      That's the last straw! – Это последняя капля!
-      and all that — и все прочее
-    С "These" (множественное число, ближние объекты)
-      These things happen. – Такое бывает.
-      These are the days of our lives. – Это лучшие дни нашей жизни.
-    С "Those" (множественное число, дальние объекты)
-      Those were the days! – Вот были времена!
-      I don’t know about those… – Я не уверен насчёт этого.
-      Those who can, do; those who can’t, teach. – Кто умеет, делает; кто не умеет, учит.
-  >>> q_input
-  it vs this vs that:
-    можно использовать it, this, that по своему желанию.
-  >>> q_input
+    this  : Singular, e.Near
+    that  : Singular, e.Away
+    these : Plural, e.Near
+    those : Plural, e.Away
   that-pronoun vs that-conjunction: Пишутся одинаково, употребляются в разных случаях.
-  >>> q_fill
+  it vs this vs that: можно использовать it, this, that по своему желанию.
+  This и That as an Intensifier:
+    в разговорном могут усиливать прилагательные и наречия.
+    в формальном такое не используется.
   "Что это?":
     "What's this?" - один предмет поблизости.
     "What's that?" - один предмет вдали.
     "What are these?" - предметы поблизости.
     "What are those?" - предметы вдали.
-  >>> q_input
-  Усиление значения:
-    "This" и "That" действительно могут усиливать прилагательные и наречия, особенно в разговорной речи.
-    Но в формальном английском такое использование нежелательно.
-  >>> q_input noun2pronoun
+  fixed-expr:
+    This:
+      This is it! - Вот оно! / Это то, что нужно!
+      This is the life! - Вот это жизнь!
+      This is ridiculous! - Это нелепо!
+      This won't do. - Так не пойдёт.
+      This just in... - Срочные новости...
+      This is how it works. - Вот как это работает.
+      This is what I meant. - Это то, что я имел в виду.
+    That:
+      That's right. - Это правильно. / Именно так.
+      That's true. - Это правда.
+      That's it! - Вот и всё! / Именно так!
+      That's all. - Это всё.
+      that's all right - все в порядке
+      That's enough! - Достаточно!
+      That's for sure. - Это точно.
+      That's why... - Вот почему...
+      That's a good one! - Хорошая шутка!
+      That does it! - Всё! Хватит! (выражение раздражения)
+      That's the way it is. - Такова жизнь.
+      That's the last straw! - Это последняя капля!
+      and all that - и все прочее
+    These:
+      These things happen. - Такое бывает.
+      These are the days of our lives. - Это лучшие дни нашей жизни.
+    Those:
+      Those were the days! - Вот были времена!
+      I don't know about those... - Я не уверен насчёт этого.
+      Those who can, do; those who can't, teach. - Кто умеет, делает; кто не умеет, учит.
 
-
-> Interrogative(Вопросительные):
+Interrogative(Вопросительные):
+>>> web
+>>> q_fill
+>>> q_input
 >   Identification:
 >     who   : s.Nominative , a.Animate
 >     what  : s.Nominative , a.Inanimate
@@ -397,73 +381,69 @@ Demonstrative(Указательные):
 >     who   : s.Objective  , a.Animate           , f.Colloquial
 >     which : s.Objective  , a.Animate/Inanimate
 >     whose : s.Possessive , a.Animate/Inanimate
-    q: when where why
-  interrogative(вопросительные):⠋
-    +ESL⠋
-    +5 links⠋
-    перепроверить matrix⠋
+
     применяется для построения специальных вопросов:
       одуш:
-        Who? — Кто?
-        Whom? – Кому, кем?
-        Whose? — Чей?
+        Who? - Кто?
+        Whom? - Кому, кем?
+        Whose? - Чей?
           как спросить принадлежность для неодуш?⠁
-            Местоимение "who" [hu:] (кто) также имеет притяжательную форму – whose [hu:z] (чей).
+            Местоимение "who" [hu:] (кто) также имеет притяжательную форму - whose [hu:z] (чей).
               значит вопросительные слова тоже можно прогнать по падежам?⠉
             может употребляться в качестве:
               вопросительное притяжательное местоимение:
-                %% Whose house is it? – Чей это дом?
+                %% Whose house is it? - Чей это дом?
               относительное притяжательное местоимение:
-                %% This is the man whose house was burgled. – Вот человек, чей дом был ограблен.
+                %% This is the man whose house was burgled. - Вот человек, чей дом был ограблен.
       неодуш:
-        What? — Что?
-        Which? — Который, какой?
+        What? - Что?
+        Which? - Который, какой?
       more:
         1. Для одушевленных существительных:
-            Who — Кто?
-            (Who is calling? — Кто звонит?)
-            Whom — Кому? Кем?
-            (Whom did you see? — Кого ты видел?)
-            Whose — Чей?
-            (Whose bag is this? — Чья это сумка?)
+            Who - Кто?
+            (Who is calling? - Кто звонит?)
+            Whom - Кому? Кем?
+            (Whom did you see? - Кого ты видел?)
+            Whose - Чей?
+            (Whose bag is this? - Чья это сумка?)
         2. Для неодушевленных существительных:
-            What — Что? Какой?
-            (What is your name? — Как тебя зовут?)
-            Which — Который? Какой?
-            (Which book do you prefer? — Какую книгу ты предпочитаешь?)
+            What - Что? Какой?
+            (What is your name? - Как тебя зовут?)
+            Which - Который? Какой?
+            (Which book do you prefer? - Какую книгу ты предпочитаешь?)
         3. Для указания на причины, время, место и способы:
-            When — Когда?
-            (When will we meet? — Когда мы встретимся?)
-            Where — Где? Куда?
-            (Where is she? — Где она?)
-            Why — Почему? Зачем?
-            (Why are you late? — Почему ты опоздал?)
-            How — Как?
-            (How are you? — Как дела?)
+            When - Когда?
+            (When will we meet? - Когда мы встретимся?)
+            Where - Где? Куда?
+            (Where is she? - Где она?)
+            Why - Почему? Зачем?
+            (Why are you late? - Почему ты опоздал?)
+            How - Как?
+            (How are you? - Как дела?)
         4. Вариации "How" для уточнений:
-            How much — Сколько? (для неисчисляемых)
-            (How much sugar do you need? — Сколько сахара тебе нужно?)
-            How many — Сколько? (для исчисляемых)
-            (How many apples do you have? — Сколько у тебя яблок?)
-            How long — Как долго?
-            (How long will it take? — Сколько времени это займет?)
-            How far — Как далеко?
-            (How far is it from here? — Как далеко это отсюда?)
-            How old — Сколько лет?
-            (How old are you? — Сколько тебе лет?)
-            How often — Как часто?
-            (How often do you travel? — Как часто ты путешествуешь?)
+            How much - Сколько? (для неисчисляемых)
+            (How much sugar do you need? - Сколько сахара тебе нужно?)
+            How many - Сколько? (для исчисляемых)
+            (How many apples do you have? - Сколько у тебя яблок?)
+            How long - Как долго?
+            (How long will it take? - Сколько времени это займет?)
+            How far - Как далеко?
+            (How far is it from here? - Как далеко это отсюда?)
+            How old - Сколько лет?
+            (How old are you? - Сколько тебе лет?)
+            How often - Как часто?
+            (How often do you travel? - Как часто ты путешествуешь?)
         5. Особые формы для выбора:
-            Which one — Который из?
-            (Which one do you prefer? — Какой из них ты предпочитаешь?)
-            What kind of — Какой вид?
-            (What kind of music do you like? — Какую музыку ты любишь?)
+            Which one - Который из?
+            (Which one do you prefer? - Какой из них ты предпочитаешь?)
+            What kind of - Какой вид?
+            (What kind of music do you like? - Какую музыку ты любишь?)
         6. Формы для принадлежности и атрибутов:
-            Whose — Чей? (употребляется как для одушевленных, так и для неодушевленных)
-            (Whose car is this? — Чья это машина?)
+            Whose - Чей? (употребляется как для одушевленных, так и для неодушевленных)
+            (Whose car is this? - Чья это машина?)
         7. Редкие/формальные:
-            Wherefore — Почему? Зачем? (устаревшее)
-            (Wherefore art thou Romeo? — Почему ты, Ромео?)
+            Wherefore - Почему? Зачем? (устаревшее)
+            (Wherefore art thou Romeo? - Почему ты, Ромео?)
 
 > Relative(Относительные):
 >   Identification:
@@ -484,30 +464,30 @@ Demonstrative(Указательные):
       that
     more:
       1. Для одушевленных существительных:
-          Who — Кто, который (выполняет роль подлежащего в придаточном предложении).
-          (The person who called you is my friend. — Человек, который тебе звонил, мой друг.)
-          Whom — Кого, которому, кем (выполняет роль дополнения).
-          (The man whom you met is a doctor. — Человек, которого ты встретил, врач.)
-          Whose — Чей, чей-то (обозначает принадлежность).
-          (The boy whose bike was stolen is crying. — Мальчик, чей велосипед украли, плачет.)
+          Who - Кто, который (выполняет роль подлежащего в придаточном предложении).
+          (The person who called you is my friend. - Человек, который тебе звонил, мой друг.)
+          Whom - Кого, которому, кем (выполняет роль дополнения).
+          (The man whom you met is a doctor. - Человек, которого ты встретил, врач.)
+          Whose - Чей, чей-то (обозначает принадлежность).
+          (The boy whose bike was stolen is crying. - Мальчик, чей велосипед украли, плачет.)
       2. Для неодушевленных существительных:
-          Which — Который, что (для предметов и животных).
-          (The book which I read was interesting. — Книга, которую я прочитал, была интересной.)
+          Which - Который, что (для предметов и животных).
+          (The book which I read was interesting. - Книга, которую я прочитал, была интересной.)
       3. Для одушевленных и неодушевленных существительных:
-          That — Который (универсальное местоимение, используется для людей, предметов и животных).
-          (The house that Jack built. — Дом, который построил Джек.)
+          That - Который (универсальное местоимение, используется для людей, предметов и животных).
+          (The house that Jack built. - Дом, который построил Джек.)
       4. Устаревшие/редкие формы:
-          What — То, что (используется для общего обозначения предметов, абстрактных понятий).
-          (I’ll tell you what I know. — Я расскажу тебе то, что знаю.)
-          As — Такой, как (иногда используется после слов "such" или "the same").
-          (Such people as live here are kind. — Такие люди, как те, что живут здесь, добрые.)
+          What - То, что (используется для общего обозначения предметов, абстрактных понятий).
+          (I'll tell you what I know. - Я расскажу тебе то, что знаю.)
+          As - Такой, как (иногда используется после слов "such" или "the same").
+          (Such people as live here are kind. - Такие люди, как те, что живут здесь, добрые.)
       5. Редкие или формальные конструкции:
-          Where — Где, куда (иногда считается относительным местоимением, если вводит придаточное определительное предложение).
-          (This is the house where I was born. — Это дом, где я родился.)
-          When — Когда (аналогично, при вводе придаточного).
-          (I remember the day when we met. — Я помню день, когда мы встретились.)
-          Why — Почему (используется после "reason").
-          (That’s the reason why I left. — Вот причина, почему я ушел.)
+          Where - Где, куда (иногда считается относительным местоимением, если вводит придаточное определительное предложение).
+          (This is the house where I was born. - Это дом, где я родился.)
+          When - Когда (аналогично, при вводе придаточного).
+          (I remember the day when we met. - Я помню день, когда мы встретились.)
+          Why - Почему (используется после "reason").
+          (That's the reason why I left. - Вот причина, почему я ушел.)
     specifications:?⠉
     vs:
       relative pronouns vs conjunctions⠉
@@ -586,70 +566,70 @@ Demonstrative(Указательные):
       Quantitative (Количественные):
         Выражают неопределённое количество.
           1.1. Определённое количество:
-            Much — много (неисчисляемые).
-            Many — много (исчисляемые).
-            A little — немного (положительная окраска, неисчисляемые).
-            A few — несколько (положительная окраска, исчисляемые).
+            Much - много (неисчисляемые).
+            Many - много (исчисляемые).
+            A little - немного (положительная окраска, неисчисляемые).
+            A few - несколько (положительная окраска, исчисляемые).
           1.2. Неопределённое количество:
-            Little — мало (отрицательная окраска, неисчисляемые).
-            Few — мало (отрицательная окраска, исчисляемые).
+            Little - мало (отрицательная окраска, неисчисляемые).
+            Few - мало (отрицательная окраска, исчисляемые).
           1.3. Другие количественные местоимения:
-            Several — несколько.
-            Plenty — достаточно, множество.
-            A lot, lots — много.
+            Several - несколько.
+            Plenty - достаточно, множество.
+            A lot, lots - много.
         %% Примеры:
         %%   Many were invited to the party.
         %%   Few were late.
       Distributive (Разделительные):
         Выражают выбор без уточнения конкретного объекта.
-          Each — каждый.
-          Both — оба.
-          All — все.
-          Every — каждый (и производные: everybody, everyone, everything).
-          Either — любой из двух.
-          Neither — ни один из двух.
+          Each - каждый.
+          Both - оба.
+          All - все.
+          Every - каждый (и производные: everybody, everyone, everything).
+          Either - любой из двух.
+          Neither - ни один из двух.
         %% Примеры:
         %%   Each of them is responsible.
         %%   Neither of us agreed.
       Proper (Собственно неопределённые):
         Не указывают на конкретный объект или персону.
           3.1. "Some" и "Any" с производными:
-              Somebody, someone, something — кто-то, что-то.
-              Anybody, anyone, anything — кто-нибудь, что-нибудь.
+              Somebody, someone, something - кто-то, что-то.
+              Anybody, anyone, anything - кто-нибудь, что-нибудь.
           3.2. "No" с производными:
-              Nobody, no one, nothing — никто, ничто.
+              Nobody, no one, nothing - никто, ничто.
           3.3. Другие:
-              One — один, некто.
-              Others — другие.
-              None — никто, ни один.
+              One - один, некто.
+              Others - другие.
+              None - никто, ни один.
         %% Примеры:
         %%   Someone called me yesterday.
         %%   Nothing is impossible.
       Употребление местоимения "one":
         "One" используется для обозначения человека, предмета или объекта без уточнения:
-        (One must always try to do their best. — Нужно всегда стараться делать всё возможное.)
+        (One must always try to do their best. - Нужно всегда стараться делать всё возможное.)
     specifications:⠋
       Особенно употребительными неопределенными местоимениями считаются: some, any, many, much, few, lit­tle, one.
       Как правильно употреблять местоимения SOME, ANY и NO?⠁
         Производные от SOME, ANY и NO - прям таблицей: +thing/+body/+one/+where⠉
-      Some, any имеют значение несколько, какие-нибуть, немного и применяются с исчисляемыми существительными. Some используется в утвердительных предложениях, any — в вопросительных и отрицательных предложениях:
-          %% I have brought some flow­ers for you. — Я принес несколько цветов для вас.
-          %% Do you have any offers? — Есть ли у вас предложения?
+      Some, any имеют значение несколько, какие-нибуть, немного и применяются с исчисляемыми существительными. Some используется в утвердительных предложениях, any - в вопросительных и отрицательных предложениях:
+          %% I have brought some flow­ers for you. - Я принес несколько цветов для вас.
+          %% Do you have any offers? - Есть ли у вас предложения?
       Местоимение any способно применяться в утвердительных предложениях, в таком случае оно имеет значение любой:
-          %% You may come at any day. — Вы можете прийти в любой день.
+          %% You may come at any day. - Вы можете прийти в любой день.
       Местоимения much (много) и lit­tle (мало) определяют или замещают неисчисляемые существительные; местоимения many (много) и few (мало) определяют или заменяют исчисляемые существительные: much work, lit­tle time, many friends, lit­tle visitors.
       Местоимения a little и a few обозначают немного, несколько в позитивном смысле:
-          %% I have a little free time today. — Сегодня у меня есть немного свободного времени.
-          %% He is happy because he has a few dol­lars here. — Он рад, потому что имеет несколько долларов здесь.
+          %% I have a little free time today. - Сегодня у меня есть немного свободного времени.
+          %% He is happy because he has a few dol­lars here. - Он рад, потому что имеет несколько долларов здесь.
       Местоимения little и few означают немного, недостаточно в отрицательном значении:
-          %% She had little rest over the week­end and looked slug­gish. — У нее было мало времени чтобы отдохнуть на выходных и она выглядит вялой.
-          %% He is sad because he has few friends yet. — Он грустен, потому что имеет мало друзей.
+          %% She had little rest over the week­end and looked slug­gish. - У нее было мало времени чтобы отдохнуть на выходных и она выглядит вялой.
+          %% He is sad because he has few friends yet. - Он грустен, потому что имеет мало друзей.
       Местоимение one выражает неопределенное лицо и применяется в роли подлежащего. Предложения с one в роли подлежащего переводятся на русский язык неопределенно-личными предложениями:
-          %% One must try to do one’s best. — Необходимо стараться сделать как можно лучше.
-          %% One never knows what to expect of this pussy. — Никогда не знаешь, чего можно ожидать от этого котёнка.
+          %% One must try to do one's best. - Необходимо стараться сделать как можно лучше.
+          %% One never knows what to expect of this pussy. - Никогда не знаешь, чего можно ожидать от этого котёнка.
       Местоимение one (ones) зачастую используется для предотвращения повторения ранее упомянутого существительного:
-          %% He lives in a nice house and I live in a ugly one. — Он живет в красивом доме, а я живу в уродливом.
-          %% Of all the comics she gave me I have cho­sen only these ones. — Из всех комиксов, что она мне дала, я выбрал только эти.
+          %% He lives in a nice house and I live in a ugly one. - Он живет в красивом доме, а я живу в уродливом.
+          %% Of all the comics she gave me I have cho­sen only these ones. - Из всех комиксов, что она мне дала, я выбрал только эти.
     vs:?⠁
 
 > Negative(отрицательные):
@@ -694,21 +674,21 @@ Demonstrative(Указательные):
         no way (никаким образом, ни за что): There's no way I'm doing this. (Я ни за что этого не сделаю.)
     specifications:⠉
       No (никакой, никто из, ни один) располагается перед существительным:
-        %% I have no idea what to do with his attitude – У меня нет никаких идей насчет того, что делать с его поведением.
-        %% No journalist talked about this case – Ни один журналист не говорил об этом случае.
+        %% I have no idea what to do with his attitude - У меня нет никаких идей насчет того, что делать с его поведением.
+        %% No journalist talked about this case - Ни один журналист не говорил об этом случае.
       Nothing (ничего, ничто) можно использовать только с существительными, обозначающими неодушевленные предметы и абстрактные идеи:
-        %% I need nothing from her – Мне ничего от нее не нужно.
-        %% His decisions have nothing to do with me – Его решения не имеют со мной ничего общего.
+        %% I need nothing from her - Мне ничего от нее не нужно.
+        %% His decisions have nothing to do with me - Его решения не имеют со мной ничего общего.
       Nobody и no one принято переводить на русский посредством слова «никто». Эти местоимения применяются примерно так же, как и nothing, но исключительно с одушевленными объектами:
-        %% There was nobody at home – Никого не было дома.
-        %% No one shared his point of view – Никто не разделял его точку зрения.
+        %% There was nobody at home - Никого не было дома.
+        %% No one shared his point of view - Никто не разделял его точку зрения.
       None (никто из).
-        %% None of them came back – Никто из них не вернулся назад.
-        %% There is none like my sister – Никто не похож на мою сестру.
-        %% Оn this festival I saw none of the celebrities I wanted – На этом фестивале я не увидел никого из знаменитостей, на кого хотел посмотреть.
+        %% None of them came back - Никто из них не вернулся назад.
+        %% There is none like my sister - Никто не похож на мою сестру.
+        %% Оn this festival I saw none of the celebrities I wanted - На этом фестивале я не увидел никого из знаменитостей, на кого хотел посмотреть.
       Neither (ни тот ни другой) может быть как местоимением-существительным, так и местоимением-прилагательным. Кроме того, оно используется и с одушевленными, и с неодушевленными объектами:
-        %% Would you like some tea or coffee? Neither. – Вам кофе или чаю? Ни того, ни другого.
-        %% Neither of them was looking for a job – Никто из них не искал работу.
+        %% Would you like some tea or coffee? Neither. - Вам кофе или чаю? Ни того, ни другого.
+        %% Neither of them was looking for a job - Никто из них не искал работу.
     mix:
       прогон через категории GrammaticalRole/Animacy/Countability/Formality⠋
       одинарное и двойное отрицание в русском и английском⠉

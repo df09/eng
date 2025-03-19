@@ -70,12 +70,12 @@ id;question;extra;suspicious_status;suspicious_note
 001;I heard a voice in the hallway. Was it your father?;Я услышал голос в коридоре. Это был твой отец?;0;  
 002;It was Sarah who told me the truth, not Mark.;Это Сара сказала мне правду, а не Марк.;0;  
 003;Was it your sister I saw at the mall yesterday?;Это была твоя сестра, кого я видел вчера в торговом центре?;0;  
-004;It wasn’t John who called you, it was Mike.;Это был не Джон, кто тебе звонил, а Майк.;0;  
+004;It wasn't John who called you, it was Mike.;Это был не Джон, кто тебе звонил, а Майк.;0;  
 005;It was my best friend who stood by me through hard times.;Это мой лучший друг поддерживал меня в трудные времена.;0;  
-006;It wasn’t the teacher who gave us extra homework, it was the principal.;Это не учитель дал нам дополнительное задание, а директор.;0;  
+006;It wasn't the teacher who gave us extra homework, it was the principal.;Это не учитель дал нам дополнительное задание, а директор.;0;  
 007;Was it Lisa who won the competition?;Это Лиза выиграла соревнование?;0;  
 008;It was my uncle who took me to the airport.;Это мой дядя отвез меня в аэропорт.;0;  
-009;It wasn’t your idea, it was mine.;Это была не твоя идея, а моя.;0;  
+009;It wasn't your idea, it was mine.;Это была не твоя идея, а моя.;0;  
 
 # personal-subj: "it" к животным
 000;[It:t.Personal](The dog) is barking loudly.; Он/Она лает громко.;0;
@@ -88,16 +88,16 @@ id;question;extra;suspicious_status;suspicious_note
 000;[It:t.Personal](The spider) is crawling on the wall.; Он/Она ползёт по стене.;0;
 000;[It:t.Personal](The bee) is buzzing around the flower.; Она жужжит вокруг цветка.;0;
 000;[It:t.Personal](The squirrel) is climbing the tree.; Она карабкается на дерево.;0;
-000;I gave the cat some food, but [it:t.Personal] didn’t eat anything.; Я дал коту еды, но он ничего не съел.;0;  
+000;I gave the cat some food, but [it:t.Personal] didn't eat anything.; Я дал коту еды, но он ничего не съел.;0;  
 000;The dog wagged its tail when [it:t.Personal] saw me.; Собака виляла хвостом, когда увидела меня.;0;  
 000;The rabbit was hiding in the bush, but I saw [it:t.Personal].; Кролик прятался в кустах, но я его увидел.;0;  
 000;My parrot can talk, but sometimes [it:t.Personal] just whistles.; Мой попугай умеет говорить, но иногда просто насвистывает.;0;  
 000;I saw a fox last night, but [it:t.Personal] ran away quickly.; Я видел лису прошлой ночью, но она быстро убежала.;0;  
 000;The stray dog was shivering because [it:t.Personal] was cold outside.; Бродячая собака дрожала, потому что на улице было холодно.;0;  
 000;I saw a squirrel, but [it:t.Personal] climbed the tree before I could take a picture.; Я увидел белку, но она забралась на дерево, прежде чем я успел сделать фото.;0;  
-000;The fish looks sick. [It:t.Personal] hasn’t been eating.; Рыба выглядит больной. Она ничего не ела.;0;  
+000;The fish looks sick. [It:t.Personal] hasn't been eating.; Рыба выглядит больной. Она ничего не ела.;0;  
 000;My hamster loves running on its wheel, and [it:t.Personal] never gets tired.; Мой хомяк любит бегать в своем колесе и никогда не устаёт.;0;  
-000;The snake was motionless, but I wasn’t sure if [it:t.Personal] was alive.; Змея была неподвижна, но я не был уверен, жива ли она.;0;  
+000;The snake was motionless, but I wasn't sure if [it:t.Personal] was alive.; Змея была неподвижна, но я не был уверен, жива ли она.;0;  
 000;A bee flew into the room, but [it:t.Personal] left through the open window.; Пчела залетела в комнату, но вылетела через открытое окно.;0;  
 000;The owl opened its eyes when [it:t.Personal] heard a noise.; Сова открыла глаза, когда услышала шум.;0;  
 000;I tried to pet the rabbit, but [it:t.Personal] hopped away.; Я попытался погладить кролика, но он отпрыгнул.;0;  
@@ -107,13 +107,13 @@ id;question;extra;suspicious_status;suspicious_note
 000;The baby is crying because [it:t.Personal] is hungry.; Младенец плачет, потому что он голоден.;0;  
 000;I picked up the newborn, and [it:t.Personal] stopped crying.; Я поднял новорождённого, и он перестал плакать.;0;  
 000;The infant was sleeping peacefully, but then [it:t.Personal] woke up.; Младенец спокойно спал, но потом проснулся.;0;  
-000;We don’t know the baby’s gender yet, so we just call [it:t.Personal] "the little one".; Мы ещё не знаем пол ребёнка, поэтому просто называем его "малышом".;0;  
+000;We don't know the baby's gender yet, so we just call [it:t.Personal] "the little one".; Мы ещё не знаем пол ребёнка, поэтому просто называем его "малышом".;0;  
 000;The baby kicked its legs when [it:t.Personal] heard music.; Младенец замахал ногами, когда услышал музыку.;0;  
 000;Look at this cute baby! [It:t.Personal] is smiling at you.; Посмотри на этого милого младенца! Он тебе улыбается.;0;  
 000;The newborn grabbed my finger and held onto [it:t.Personal] tightly.; Новорождённый схватил мой палец и крепко за него держался.;0;  
-000;I heard the baby laughing, but I didn’t see where [it:t.Personal] was.; Я услышал, как младенец смеётся, но не увидел, где он.;0;  
+000;I heard the baby laughing, but I didn't see where [it:t.Personal] was.; Я услышал, как младенец смеётся, но не увидел, где он.;0;  
 000;The baby sneezed, and [it:t.Personal] looked so adorable.; Младенец чихнул, и это выглядело так мило.;0;  
-000;She wrapped the newborn in a blanket so [it:t.Personal] wouldn’t get cold.; Она завернула новорождённого в одеяло, чтобы ему не было холодно.;0;  
+000;She wrapped the newborn in a blanket so [it:t.Personal] wouldn't get cold.; Она завернула новорождённого в одеяло, чтобы ему не было холодно.;0;  
 
 # personal-subj: singular they
 000;Nobody knows what [they:t.Personal] are doing all the time.; Никто не знает, что делает всё время.; 0;  
@@ -138,7 +138,7 @@ id;question;extra;suspicious_status;suspicious_note
 000;[We:t.Personal,e.Authorial] believe that our findings contribute significantly to the field of neuroscience.; Мы полагаем, что наши выводы вносят значительный вклад в область нейронауки.;0;
 000;[We:t.Personal,e.Authorial] conclude that further research is needed to confirm these results.; Мы заключаем, что необходимы дополнительные исследования для подтверждения этих результатов.;0;
 000;[We:t.Personal,e.Patronizing] are not feeling well today, are we?; Мы сегодня плохо себя чувствуем, не так ли? (врач пациенту);0;
-000;Ah, [we:t.Personal,e.Patronizing] have been a little naughty, haven’t we?; Ах, мы немножко шалили, да? (взрослый ребёнку);0;
+000;Ah, [we:t.Personal,e.Patronizing] have been a little naughty, haven't we?; Ах, мы немножко шалили, да? (взрослый ребёнку);0;
 000;[We:t.Personal,e.Patronizing] must remember to take our medicine every morning.; Мы должны помнить, что принимаем наше лекарство каждое утро. (медсестра пациенту);0;
 000;Are [we:t.Personal,e.Patronizing] ready for our big speech today?; Мы готовы к нашему важному выступлению сегодня? (учитель ученику);0;
 000;[We:t.Personal,e.Patronizing] seem to have forgotten our manners.; Мы, кажется, забыли про хорошие манеры. (покровительственный тон);0;
@@ -174,8 +174,8 @@ id;question;extra;suspicious_status;suspicious_note
 000;My brother and [me:t.Personal,s1,f.Colloquial] went to a concert last night.; Мой брат и я ходили на концерт прошлой ночью.
 000;My colleague and [I:t.Personal,s1,f.Formal] finished the report on time.; Мой коллега и я закончили отчёт вовремя.
 000;My colleague and [me:t.Personal,s1,f.Colloquial] finished the report on time.; Мой коллега и я закончили отчёт вовремя.
-000;Between you and [I:t.Personal,s1,f.Formal], I think he’s wrong. (часто слышится, но неверно); Между нами, я думаю, он неправ. (часто говорят, но это ошибка)
-000;Between you and [me:t.Personal,s1,f.Colloquial], I think he’s wrong.; Между нами, я думаю, он неправ.
+000;Between you and [I:t.Personal,s1,f.Formal], I think he's wrong. (часто слышится, но неверно); Между нами, я думаю, он неправ. (часто говорят, но это ошибка)
+000;Between you and [me:t.Personal,s1,f.Colloquial], I think he's wrong.; Между нами, я думаю, он неправ.
 000;My parents and [I:t.Personal,s1,f.Formal] are going on vacation.; Мои родители и я едем в отпуск.
 000;My parents and [me:t.Personal,s1,f.Colloquial] are going on vacation.; Мои родители и я едем в отпуск.
 000;My best friend and [I:t.Personal,s1,f.Formal] planned the trip.; Мой лучший друг и я спланировали поездку.
@@ -218,46 +218,46 @@ id;question;extra;suspicious_status;suspicious_note
 000;We are as experienced as [them:t.Personal,p3,f.Colloquial].; У нас столько же опыта, сколько у них.;0;
 000;You know as well as [I:t.Personal,s1,f.Formal] do that it's true.; Ты знаешь так же хорошо, как и я, что это правда.;0;
 000;You know as well as [me:t.Personal,s1,f.Colloquial] do that it's true.; Ты знаешь так же хорошо, как и я, что это правда.;0;
-000;Who is responsible for this mistake? – Not [I:t.Personal,s1,f.Formal]!; Кто несёт ответственность за эту ошибку? – Не я!;0;
-000;Who is responsible for this mistake? – Not [Me:t.Personal,s1,f.Colloquial]!; Кто несёт ответственность за эту ошибку? – Не я!;0;
-000;Who wants coffee? – [I:t.Personal,s1,f.Formal] do!; Кто хочет кофе? – Я хочу!;0;
-000;Who wants coffee? – [Me:t.Personal,s1,f.Colloquial]!; Кто хочет кофе? – Я!;0;
-000;Who told you that? – [He:t.Personal,s3,f.Formal] did.; Кто тебе это сказал? – Он сказал.;0;
-000;Who told you that? – [Him:t.Personal,s3,f.Colloquial].; Кто тебе это сказал? – Он.;0;
-000;Who took my pen? – Not [I:t.Personal,s1,f.Formal]!; Кто взял мою ручку? – Не я!;0;
-000;Who took my pen? – Not [Me:t.Personal,s1,f.Colloquial]!; Кто взял мою ручку? – Не я!;0;
-000;Who’s going first? – [I:t.Personal,s1,f.Formal] am.; Кто идёт первым? – Я иду.;0;
-000;Who’s going first? – [Me:t.Personal,s1,f.Colloquial].; Кто идёт первым? – Я.;0;
-000;Who helped you? – [She:t.Personal,s3,f.Formal] did.; Кто тебе помог? – Она помогла.;0;
-000;Who helped you? – [Her:t.Personal,s3,f.Colloquial].; Кто тебе помог? – Она.;0;
-000;Who’s in charge here? – [I:t.Personal,s1,f.Formal] am.; Кто здесь главный? – Я.;0;
-000;Who’s in charge here? – [Me:t.Personal,s1,f.Colloquial].; Кто здесь главный? – Я.;0;
-000;Who ate the last slice? – Not [I:t.Personal,s1,f.Formal]!; Кто съел последний кусок? – Не я!;0;
-000;Who ate the last slice? – Not [Me:t.Personal,s1,f.Colloquial]!; Кто съел последний кусок? – Не я!;0;
-000;Who called earlier? – [They:t.Personal,s3,f.Formal] did.; Кто звонил раньше? – Они звонили.;0;
-000;Who called earlier? – [Them:t.Personal,s3,f.Colloquial].; Кто звонил раньше? – Они.;0;
-000;Who’s ready to leave? – [We:t.Personal,p1,f.Formal] are.; Кто готов уходить? – Мы готовы.;0;
-000;Who’s ready to leave? – [Us:t.Personal,p1,f.Colloquial].; Кто готов уходить? – Мы.;0;
-000;Who has been using my laptop? – Not [I:t.Personal,s1,f.Formal]!; Кто пользовался моим ноутбуком? – Не я!;0;
-000;Who has been using my laptop? – Not [Me:t.Personal,s1,f.Colloquial]!; Кто пользовался моим ноутбуком? – Не я!;0;
-000;Who will have finished the project by tomorrow? – [I:t.Personal,s1,f.Formal] will have.; Кто закончит проект к завтрашнему дню? – Я закончу.;0;
-000;Who will have finished the project by tomorrow? – [Me:t.Personal,s1,f.Colloquial].; Кто закончит проект к завтрашнему дню? – Я.;0;
-000;Who had already left when you arrived? – [She:t.Personal,s3,f.Formal] had.; Кто уже ушёл, когда ты приехал? – Она ушла.;0;
-000;Who had already left when you arrived? – [Her:t.Personal,s3,f.Colloquial].; Кто уже ушёл, когда ты приехал? – Она.;0;
-000;Who would have helped if they had known? – [We:t.Personal,p1,f.Formal] would have.; Кто бы помог, если бы знал? – Мы бы помогли.;0;
-000;Who would have helped if they had known? – [Us:t.Personal,p1,f.Colloquial].; Кто бы помог, если бы знал? – Мы.;0;
-000;Who is supposed to be leading this meeting? – [He:t.Personal,s3,f.Formal] is.; Кто должен вести эту встречу? – Он.;0;
-000;Who is supposed to be leading this meeting? – [Him:t.Personal,s3,f.Colloquial].; Кто должен вести эту встречу? – Он.;0;
-000;Who has been waiting the longest? – [They:t.Personal,p3,f.Formal] have.; Кто ждал дольше всех? – Они ждали.;0;
-000;Who has been waiting the longest? – [Them:t.Personal,p3,f.Colloquial].; Кто ждал дольше всех? – Они.;0;
-000;Who will be speaking at the event? – [I:t.Personal,s1,f.Formal] will be.; Кто будет выступать на мероприятии? – Я буду.;0;
-000;Who will be speaking at the event? – [Me:t.Personal,s1,f.Colloquial].; Кто будет выступать на мероприятии? – Я.;0;
-000;Who should have called earlier? – [He:t.Personal,s3,f.Formal] should have.; Кто должен был позвонить раньше? – Он должен был.;0;
-000;Who should have called earlier? – [Him:t.Personal,s3,f.Colloquial].; Кто должен был позвонить раньше? – Он.;0;
-000;Who might have left the door open? – [She:t.Personal,s3,f.Formal] might have.; Кто мог оставить дверь открытой? – Она могла.;0;
-000;Who might have left the door open? – [Her:t.Personal,s3,f.Colloquial].; Кто мог оставить дверь открытой? – Она.;0;
-000;Who had been working on this before the change? – [We:t.Personal,p1,f.Formal] had been.; Кто работал над этим до изменений? – Мы работали.;0;
-000;Who had been working on this before the change? – [Us:t.Personal,p1,f.Colloquial].; Кто работал над этим до изменений? – Мы.;0;
+000;Who is responsible for this mistake? - Not [I:t.Personal,s1,f.Formal]!; Кто несёт ответственность за эту ошибку? - Не я!;0;
+000;Who is responsible for this mistake? - Not [Me:t.Personal,s1,f.Colloquial]!; Кто несёт ответственность за эту ошибку? - Не я!;0;
+000;Who wants coffee? - [I:t.Personal,s1,f.Formal] do!; Кто хочет кофе? - Я хочу!;0;
+000;Who wants coffee? - [Me:t.Personal,s1,f.Colloquial]!; Кто хочет кофе? - Я!;0;
+000;Who told you that? - [He:t.Personal,s3,f.Formal] did.; Кто тебе это сказал? - Он сказал.;0;
+000;Who told you that? - [Him:t.Personal,s3,f.Colloquial].; Кто тебе это сказал? - Он.;0;
+000;Who took my pen? - Not [I:t.Personal,s1,f.Formal]!; Кто взял мою ручку? - Не я!;0;
+000;Who took my pen? - Not [Me:t.Personal,s1,f.Colloquial]!; Кто взял мою ручку? - Не я!;0;
+000;Who's going first? - [I:t.Personal,s1,f.Formal] am.; Кто идёт первым? - Я иду.;0;
+000;Who's going first? - [Me:t.Personal,s1,f.Colloquial].; Кто идёт первым? - Я.;0;
+000;Who helped you? - [She:t.Personal,s3,f.Formal] did.; Кто тебе помог? - Она помогла.;0;
+000;Who helped you? - [Her:t.Personal,s3,f.Colloquial].; Кто тебе помог? - Она.;0;
+000;Who's in charge here? - [I:t.Personal,s1,f.Formal] am.; Кто здесь главный? - Я.;0;
+000;Who's in charge here? - [Me:t.Personal,s1,f.Colloquial].; Кто здесь главный? - Я.;0;
+000;Who ate the last slice? - Not [I:t.Personal,s1,f.Formal]!; Кто съел последний кусок? - Не я!;0;
+000;Who ate the last slice? - Not [Me:t.Personal,s1,f.Colloquial]!; Кто съел последний кусок? - Не я!;0;
+000;Who called earlier? - [They:t.Personal,s3,f.Formal] did.; Кто звонил раньше? - Они звонили.;0;
+000;Who called earlier? - [Them:t.Personal,s3,f.Colloquial].; Кто звонил раньше? - Они.;0;
+000;Who's ready to leave? - [We:t.Personal,p1,f.Formal] are.; Кто готов уходить? - Мы готовы.;0;
+000;Who's ready to leave? - [Us:t.Personal,p1,f.Colloquial].; Кто готов уходить? - Мы.;0;
+000;Who has been using my laptop? - Not [I:t.Personal,s1,f.Formal]!; Кто пользовался моим ноутбуком? - Не я!;0;
+000;Who has been using my laptop? - Not [Me:t.Personal,s1,f.Colloquial]!; Кто пользовался моим ноутбуком? - Не я!;0;
+000;Who will have finished the project by tomorrow? - [I:t.Personal,s1,f.Formal] will have.; Кто закончит проект к завтрашнему дню? - Я закончу.;0;
+000;Who will have finished the project by tomorrow? - [Me:t.Personal,s1,f.Colloquial].; Кто закончит проект к завтрашнему дню? - Я.;0;
+000;Who had already left when you arrived? - [She:t.Personal,s3,f.Formal] had.; Кто уже ушёл, когда ты приехал? - Она ушла.;0;
+000;Who had already left when you arrived? - [Her:t.Personal,s3,f.Colloquial].; Кто уже ушёл, когда ты приехал? - Она.;0;
+000;Who would have helped if they had known? - [We:t.Personal,p1,f.Formal] would have.; Кто бы помог, если бы знал? - Мы бы помогли.;0;
+000;Who would have helped if they had known? - [Us:t.Personal,p1,f.Colloquial].; Кто бы помог, если бы знал? - Мы.;0;
+000;Who is supposed to be leading this meeting? - [He:t.Personal,s3,f.Formal] is.; Кто должен вести эту встречу? - Он.;0;
+000;Who is supposed to be leading this meeting? - [Him:t.Personal,s3,f.Colloquial].; Кто должен вести эту встречу? - Он.;0;
+000;Who has been waiting the longest? - [They:t.Personal,p3,f.Formal] have.; Кто ждал дольше всех? - Они ждали.;0;
+000;Who has been waiting the longest? - [Them:t.Personal,p3,f.Colloquial].; Кто ждал дольше всех? - Они.;0;
+000;Who will be speaking at the event? - [I:t.Personal,s1,f.Formal] will be.; Кто будет выступать на мероприятии? - Я буду.;0;
+000;Who will be speaking at the event? - [Me:t.Personal,s1,f.Colloquial].; Кто будет выступать на мероприятии? - Я.;0;
+000;Who should have called earlier? - [He:t.Personal,s3,f.Formal] should have.; Кто должен был позвонить раньше? - Он должен был.;0;
+000;Who should have called earlier? - [Him:t.Personal,s3,f.Colloquial].; Кто должен был позвонить раньше? - Он.;0;
+000;Who might have left the door open? - [She:t.Personal,s3,f.Formal] might have.; Кто мог оставить дверь открытой? - Она могла.;0;
+000;Who might have left the door open? - [Her:t.Personal,s3,f.Colloquial].; Кто мог оставить дверь открытой? - Она.;0;
+000;Who had been working on this before the change? - [We:t.Personal,p1,f.Formal] had been.; Кто работал над этим до изменений? - Мы работали.;0;
+000;Who had been working on this before the change? - [Us:t.Personal,p1,f.Colloquial].; Кто работал над этим до изменений? - Мы.;0;
 000;No one but [I:t.Personal,s1,f.Formal] understood the instructions.;Никто, кроме меня, не понял инструкций.;0;
 000;No one but [me:t.Personal,s1,f.Colloquial] understood the instructions.;Никто, кроме меня, не понял инструкций.;0;
 000;All but [I:t.Personal,s1,f.Formal] arrived late to the meeting.;Все, кроме меня, опоздали на встречу.;0;
@@ -356,7 +356,7 @@ id;question;extra;suspicious_status;suspicious_note
 000;[They:t.Personal](The doctor) is reading a book.; Он/Она читает книгу.;0;
 000;[They:t.Personal](The student) loves pizza.; Он/Она любит пиццу.;0;
 000;[They:t.Personal](The manager) works remotely.; Он/Она работает удалённо.;0;
-000;Someone called the student, but [they:t.Personal] didn’t answer.; Кто-то позвонил студенту, но он/она не ответил/а.;0;
+000;Someone called the student, but [they:t.Personal] didn't answer.; Кто-то позвонил студенту, но он/она не ответил/а.;0;
 000;The manager said [they:t.Personal] would be available later.; Менеджер сказал/а, что будет доступен/доступна позже.;0;
 000;If you see the neighbor, let [they:t.Personal] know about the meeting.; Если увидишь соседа, сообщи ему/ей о встрече.;0;
 000;The artist forgot their sketchbook, so [they:t.Personal] went back to get it.; Художник забыл/а свой альбом, поэтому он/она вернулся/вернулась, чтобы забрать его.;0;
@@ -364,7 +364,7 @@ id;question;extra;suspicious_status;suspicious_note
 000;Someone left their bag here. I hope [they:t.Personal] come back for it.; Кто-то оставил здесь свою сумку. Надеюсь, он/она вернется за ней.;0;
 000;The teacher asked the student if [they:t.Personal] had finished the assignment.; Учитель спросил/а студента, закончил/а ли он/она задание.;0;
 000;If your friend arrives, tell [they:t.Personal] to wait for me.; Если твой друг придет, скажи ему/ей, чтобы подождал/а меня.;0;
-000;The director called, but [they:t.Personal] didn’t leave a message.; Директор звонил/а, но не оставил/а сообщение.;0;
+000;The director called, but [they:t.Personal] didn't leave a message.; Директор звонил/а, но не оставил/а сообщение.;0;
 000;A customer came in asking for you, but I told [they:t.Personal] you were out.; Клиент заходил и спрашивал тебя, но я сказал/а ему/ей, что тебя нет.;0;
 
 # personal-obj: identification
@@ -392,7 +392,7 @@ id;question;extra;suspicious_status;suspicious_note
 101;What do you think about [me:t.Personal,s1]?;Что ты думаешь обо мне?;0;
 102;They wrote a story about [me:t.Personal,s1].;Они написали историю обо мне.;0;
 103;The article is about [me:t.Personal,s1].;Эта статья обо мне.;0;
-104;Don’t worry about [me:t.Personal,s1].;Не переживай обо мне.;0;
+104;Don't worry about [me:t.Personal,s1].;Не переживай обо мне.;0;
 105;I saw [you:t.Personal,s2].;Я видел тебя вчера.;0;
 106;They invited [you:t.Personal,p2] to the meeting.;Они пригласили вас на встречу.;0;
 107;She remembered [you:t.Personal,s2] from school.;Она вспомнила тебя из школы.;0;
@@ -416,7 +416,7 @@ id;question;extra;suspicious_status;suspicious_note
 125;They talked about [you:t.Personal,s2] yesterday.;Они говорили о тебе вчера.;0;
 126;The story is about [you:t.Personal,s2].;История о тебе.;0;
 127;She always thinks about [you:t.Personal,s2].;Она всегда думает о тебе.;0;
-128;Don’t worry about [you:t.Personal,s2].;Не переживай о тебе.;0;
+128;Don't worry about [you:t.Personal,s2].;Не переживай о тебе.;0;
 130;I saw [him:t.Personal,s3m].;Я видел его в парке.;0;
 131;They accused [him:t.Personal,s3m] of lying.;Они обвинили его во лжи.;0;
 132;She found [him:t.Personal,s3m] sleeping.;Она нашла его спящим.;0;
@@ -440,7 +440,7 @@ id;question;extra;suspicious_status;suspicious_note
 150;They talked about [him:t.Personal,s3m] yesterday.;Они говорили о нём вчера.;0;
 151;The story is about [him:t.Personal,s3m].;История о нём.;0;
 152;She always thinks about [him:t.Personal,s3m].;Она всегда думает о нём.;0;
-153;Don’t worry about [him:t.Personal,s3m].;Не переживай о нём.;0;
+153;Don't worry about [him:t.Personal,s3m].;Не переживай о нём.;0;
 154;What do you know about [him:t.Personal,s3m]?;Что ты знаешь о нём?;0;
 155;I saw [her:t.Personal,s3f] at the store.;Я видел её в магазине.;0;
 156;They accused [her:t.Personal,s3f] of cheating.;Они обвинили её в обмане.;0;
@@ -455,7 +455,7 @@ id;question;extra;suspicious_status;suspicious_note
 165;I love [her:t.Personal,s3f].;Я люблю её.;0;
 166;He called [her:t.Personal,s3f] last night.;Он звонил ей вчера вечером.;0;
 167;Please help [her:t.Personal,s3f] with her homework.;Пожалуйста, помоги ей с домашним заданием.;0;
-168;I don’t trust [her:t.Personal,s3f].;Я не доверяю ей.;0;
+168;I don't trust [her:t.Personal,s3f].;Я не доверяю ей.;0;
 169;They saw [her:t.Personal,s3f] at the mall.;Они видели её в торговом центре.;0;
 170;They worked with [her:t.Personal,s3f] on the project.;Они работали с ней над проектом.;0;
 171;She danced with [her:t.Personal,s3f] at the party.;Она танцевала с ней на вечеринке.;0;
@@ -465,7 +465,7 @@ id;question;extra;suspicious_status;suspicious_note
 175;They talked about [her:t.Personal,s3f] yesterday.;Они говорили о ней вчера.;0;
 176;The story is about [her:t.Personal,s3f].;История о ней.;0;
 177;She always thinks about [her:t.Personal,s3f].;Она всегда думает о ней.;0;
-178;Don’t worry about [her:t.Personal,s3f].;Не переживай о ней.;0;
+178;Don't worry about [her:t.Personal,s3f].;Не переживай о ней.;0;
 179;What do you know about [her:t.Personal,s3f]?;Что ты знаешь о ней?;0;
 180;She saw [it:t.Personal,s3n] on the table.;Она увидела его на столе.;0;
 181;I took [it:t.Personal,s3n] from the box.;Я взял его из коробки.;0;
@@ -489,7 +489,7 @@ id;question;extra;suspicious_status;suspicious_note
 199;I decorated the room with [it:t.Personal,s3n].;Я украсил комнату с его помощью.;0;
 200;They talked about [it:t.Personal,s3n] yesterday.;Они говорили о нём вчера.;0;
 201;What do you know about [it:t.Personal,s3n]?;Что ты знаешь о нём?;0;
-202;Don’t worry about [it:t.Personal,s3n].;Не переживай о нём.;0;
+202;Don't worry about [it:t.Personal,s3n].;Не переживай о нём.;0;
 203;The story is about [it:t.Personal,s3n].;История о нём.;0;
 204;She always thinks about [it:t.Personal,s3n].;Она всегда думает о нём.;0;
 205;They saw [us:t.Personal,p1] at the party.;Они видели нас на вечеринке.;0;
@@ -515,7 +515,7 @@ id;question;extra;suspicious_status;suspicious_note
 225;They talked about [us:t.Personal,p1] yesterday.;Они говорили о нас вчера.;0;
 226;The story is about [us:t.Personal,p1].;История о нас.;0;
 227;She always thinks about [us:t.Personal,p1].;Она всегда думает о нас.;0;
-228;Don’t worry about [us:t.Personal,p1].;Не переживай о нас.;0;
+228;Don't worry about [us:t.Personal,p1].;Не переживай о нас.;0;
 229;What do you know about [us:t.Personal,p1]?;Что ты знаешь о нас?;0;
 230;I saw [them:t.Personal,p3] at the park.;Я видел их в парке.;0;
 231;They invited [them:t.Personal,p3] to the meeting.;Они пригласили их на встречу.;0;
@@ -540,7 +540,7 @@ id;question;extra;suspicious_status;suspicious_note
 250;They talked about [them:t.Personal,p3] yesterday.;Они говорили о них вчера.;0;
 251;The story is about [them:t.Personal,p3].;История о них.;0;
 252;She always thinks about [them:t.Personal,p3].;Она всегда думает о них.;0;
-253;Don’t worry about [them:t.Personal,p3].;Не переживай о них.;0;
+253;Don't worry about [them:t.Personal,p3].;Не переживай о них.;0;
 254;What do you know about [them:t.Personal,p3]?;Что ты знаешь о них?;0;
 
 # personal-obj: "it" к животным
@@ -549,7 +549,7 @@ id;question;extra;suspicious_status;suspicious_note
 000;I found an injured bird and took [it:t.Personal] to a vet.; Я нашёл раненую птицу и отнёс её к ветеринару.;0;  
 000;The rabbit was hiding, but I managed to catch [it:t.Personal].; Кролик прятался, но мне удалось его поймать.;0;  
 000;I stroked the kitten and petted [it:t.Personal] gently.; Я погладил котёнка и нежно потёр его.;0;  
-000;A fox appeared in my backyard, but I didn’t want to disturb [it:t.Personal].; В моём дворе появилась лиса, но я не хотел её тревожить.;0;  
+000;A fox appeared in my backyard, but I didn't want to disturb [it:t.Personal].; В моём дворе появилась лиса, но я не хотел её тревожить.;0;  
 000;The hamster loves when I give [it:t.Personal] treats.; Хомяк обожает, когда я даю ему вкусняшки.;0;  
 000;A bee landed on my hand, but I gently let [it:t.Personal] go.; Пчела села мне на руку, но я осторожно дал ей улететь.;0;  
 000;The snake was in the way, so we carefully moved [it:t.Personal] aside.; Змея была на пути, поэтому мы осторожно сдвинули её в сторону.;0;  
@@ -563,7 +563,7 @@ id;question;extra;suspicious_status;suspicious_note
 000;We took a picture of the newborn before putting [it:t.Personal] to sleep.; Мы сделали фото новорождённого перед тем, как уложить его спать.;0;  
 000;The nurse lifted the baby and carefully bathed [it:t.Personal].; Медсестра подняла младенца и аккуратно его искупала.;0;  
 000;I saw the baby reaching for the toy, so I gave [it:t.Personal] one.; Я увидел, что младенец тянется к игрушке, поэтому я дал ему одну.;0;  
-000;They named the baby but haven’t introduced [it:t.Personal] to anyone yet.; Они дали младенцу имя, но ещё никому его не представили.;0;  
+000;They named the baby but haven't introduced [it:t.Personal] to anyone yet.; Они дали младенцу имя, но ещё никому его не представили.;0;  
 000;The infant was cold, so we covered [it:t.Personal] with a soft blanket.; Младенец замёрз, поэтому мы накрыли его мягким одеялом.;0;  
 000;The mother kissed the newborn before handing [it:t.Personal] to the father.; Мать поцеловала новорождённого, прежде чем передать его отцу.;0;  
 
@@ -599,11 +599,11 @@ id;question;extra;suspicious_status;suspicious_note
 000;If someone finds my keys, please give [them:t.Personal] to the receptionist.; Если кто-то найдёт мои ключи, пожалуйста, отдайте их администратору.;0;
 000;Each student must submit their assignment before Friday, or I will have to remind [them:t.Personal].; Каждый студент должен сдать задание до пятницы, иначе мне придётся напомнить ему.;0;
 000;A person at the counter left without taking [them:t.Personal] their receipt.; Человек у стойки ушёл, не взяв свой чек.;0;
-000;If a caller refuses to give their name, don’t push [them:t.Personal].; Если звонящий отказывается назвать своё имя, не дави на него.;0;
+000;If a caller refuses to give their name, don't push [them:t.Personal].; Если звонящий отказывается назвать своё имя, не дави на него.;0;
 000;I saw a stranger looking confused, so I asked [them:t.Personal] if they needed help.; Я увидел незнакомца, который выглядел растерянным, и спросил его, нужна ли помощь.;0;
-000;The delivery person dropped off a package, but I couldn’t thank [them:t.Personal] before they left.; Курьер оставил посылку, но я не успел поблагодарить его, прежде чем он ушёл.;0;
+000;The delivery person dropped off a package, but I couldn't thank [them:t.Personal] before they left.; Курьер оставил посылку, но я не успел поблагодарить его, прежде чем он ушёл.;0;
 000;If anybody wants a ride home, I can take [them:t.Personal].; Если кто-то хочет, чтобы его подвезли домой, я могу отвезти.;0;
-000;The applicant didn’t include their email, so I couldn’t contact [them:t.Personal].; Соискатель не указал свой email, поэтому я не смог с ним связаться.;0;
+000;The applicant didn't include their email, so I couldn't contact [them:t.Personal].; Соискатель не указал свой email, поэтому я не смог с ним связаться.;0;
 000;Somebody in the waiting room looks nervous. Maybe you should check on [them:t.Personal].; Кто-то в зале ожидания выглядит нервным. Может, тебе стоит проверить, как он там.;0;
 
 # personal-obj: noun2pronoun
@@ -667,11 +667,11 @@ id;question;extra;suspicious_status;suspicious_note
 
 # possessive-absolute: its - не существует
 000;FIXME: That power was its. -> That was [its power].; Это была его сила.; 0;
-000;FIXME: That solution won’t be its. -> That won’t be [its solution].; Это решение не будет его.; 0;
+000;FIXME: That solution won't be its. -> That won't be [its solution].; Это решение не будет его.; 0;
 000;FIXME: The beauty will be its. -> It will have [its beauty].; У него будет своя красота.; 0;
 000;FIXME: The book will be its. -> This [will be its book].; Это будет его книга.; 0;
-000;FIXME: The success wasn’t its. -> That wasn’t [its success].; Это не был его успех.; 0;
-000;FIXME: This advantage isn’t its. -> This isn’t [its advantage].; Это не его преимущество.; 0;
+000;FIXME: The success wasn't its. -> That wasn't [its success].; Это не был его успех.; 0;
+000;FIXME: This advantage isn't its. -> This isn't [its advantage].; Это не его преимущество.; 0;
 
 # possessive-absolute: patterns.ok - с предлогом "of" (часто в формальных и литературных текстах)
 000;She is a friend of [mine:s1].;Она моя подруга.;0;
@@ -680,9 +680,9 @@ id;question;extra;suspicious_status;suspicious_note
 000;That house of [ours:p1] is quite old.;Тот наш дом довольно старый.;0;
 000;The decision of [yours:s2] surprised me.;Твоё решение удивило меня.;0;
 000;This opinion of [his:s3m] is interesting.;Это его мнение интересное.;0;
-000;That book of [theirs:p3] is a bestseller.;Та их книга — бестселлер.;0;
+000;That book of [theirs:p3] is a bestseller.;Та их книга - бестселлер.;0;
 000;The project of [mine:s1] was approved.;Один из моих проектов был одобрен.;0;
-000;This strategy of [yours:s2] won’t work.;Эта твоя стратегия не сработает.;0;
+000;This strategy of [yours:s2] won't work.;Эта твоя стратегия не сработает.;0;
 000;That suggestion of [hers:s3f] was helpful.;То её предложение было полезным.;0;
 000;The talent of [his:s3m] is impressive.;Этот его талант впечатляет.;0;
 000;The car of [ours:p1] needs repairs.;Эта наша машина нуждается в ремонте.;0;
@@ -692,7 +692,7 @@ id;question;extra;suspicious_status;suspicious_note
 003;FIXME: That suggestion of your helped a lot. -> That suggestion [of yours] helped a lot.;<перевод>;0;
 004;FIXME: The decision of their was unexpected. -> The decision [of theirs] was unexpected.;<перевод>;0;
 005;FIXME: A friend of his recommended this movie. -> A friend [of his] recommended this movie.;<перевод>;0;
-006;FIXME: This strategy of my won’t work. -> This strategy [of mine] won’t work.;<перевод>;0;
+006;FIXME: This strategy of my won't work. -> This strategy [of mine] won't work.;<перевод>;0;
 007;FIXME: That painting of her is a masterpiece. -> That painting [of hers] is a masterpiece.;<перевод>;0;
 008;FIXME: A project of our got approved. -> A project [of ours] got approved.;<перевод>;0;
 009;FIXME: A colleague of your invited me to the event. -> A colleague [of yours] invited me to the event.;<перевод>;0;
@@ -732,9 +732,9 @@ id;question;extra;suspicious_status;suspicious_note
 
 # possessive-absolute: Singular Theirs
 000;If anyone lost a wallet, this one might be [theirs:t.Possessive].;Если кто-то потерял кошелек, возможно, это его/ее.;0;
-000;Who made this artwork? Oh, it’s [theirs:t.Possessive].;Кто создал эту работу? О, это его/ее.;0;
-001;Each driver has a designated parking spot, and this one is [theirs:t.Possessive] to use.;У каждого водителя есть свое парковочное место, и это — его/ее для использования.;0;
-002;A guest left their phone on the table, but I wasn’t sure if it was [theirs:t.Possessive] or someone else’s.;Гость оставил телефон на столе, но я не был уверен, его/ее ли он или чей-то другой.;0;
+000;Who made this artwork? Oh, it's [theirs:t.Possessive].;Кто создал эту работу? О, это его/ее.;0;
+001;Each driver has a designated parking spot, and this one is [theirs:t.Possessive] to use.;У каждого водителя есть свое парковочное место, и это - его/ее для использования.;0;
+002;A guest left their phone on the table, but I wasn't sure if it was [theirs:t.Possessive] or someone else's.;Гость оставил телефон на столе, но я не был уверен, его/ее ли он или чей-то другой.;0;
 003;One of the students forgot a textbook, but the teacher knew it was [theirs:t.Possessive] by the handwriting.;Один из студентов забыл учебник, но учитель понял, что он его/ее, по почерку.;0;
 004;An artist submitted a painting for the exhibition, and the gallery confirmed it was [theirs:t.Possessive] by the signature.;Художник представил картину на выставку, и галерея подтвердила, что она его/ее, по подписи.;0;
 005;Someone left an umbrella in the office, and the receptionist said it was [theirs:t.Possessive] from yesterday.;Кто-то оставил зонт в офисе, и администратор сказал, что он его/ее со вчерашнего дня.;0;
@@ -791,16 +791,16 @@ id;question;extra;suspicious_status;suspicious_note
 322;[Their:t.Possessive,p3] car is new.;Их машина новая.;0;
 323;[Their:t.Possessive,p3] kids are at school.;Их дети в школе.;0;
 324;I like [their:t.Possessive,p3] work.;Мне нравится их работа.;0;
-325;I couldn’t believe how quickly [my:t.Possessive,s1] plans changed after the unexpected news.;Я не мог поверить, как быстро мои планы изменились после неожиданной новости.;0;
+325;I couldn't believe how quickly [my:t.Possessive,s1] plans changed after the unexpected news.;Я не мог поверить, как быстро мои планы изменились после неожиданной новости.;0;
 326;After several revisions, [my:t.Possessive,s1] final decision turned out to be the best one.;После нескольких исправлений моё окончательное решение оказалось лучшим.;0;
 327;The professor praised [my:t.Possessive,s1] work, saying it showed deep understanding of the topic.;Профессор похвалил мою работу, сказав, что она демонстрирует глубокое понимание темы.;0;
-328;Without a doubt, [my:t.Possessive,s1] favorite way to relax is reading a good book in the evening.;Без сомнения, мой любимый способ расслабиться – это чтение хорошей книги вечером.;0;
+328;Without a doubt, [my:t.Possessive,s1] favorite way to relax is reading a good book in the evening.;Без сомнения, мой любимый способ расслабиться - это чтение хорошей книги вечером.;0;
 329;If [my:t.Possessive,s1] calculations are correct, we should reach the destination in two hours.;Если мои расчёты верны, мы должны добраться до места назначения через два часа.;0;
 330;After years of dedication, [my:t.Possessive,s1] hard work finally paid off.;После многих лет упорного труда моя работа наконец окупилась.;0;
 331;Right after [my:t.Possessive,s1] presentation, the audience started asking questions.;Сразу после моей презентации аудитория начала задавать вопросы.;0;
 332;By the time I arrived, [your:t.Possessive,s2] friends had already left for the airport.;К тому времени как я приехал, твои друзья уже уехали в аэропорт.;0;
 333;Could you remind me where [your:t.Possessive,s2] office is located in this building?;Не мог бы ты напомнить мне, где находится твой офис в этом здании?;0;
-334;No matter how hard you try, [your:t.Possessive,s2] efforts won’t go unnoticed by the management.;Как бы ты ни старался, твои усилия не останутся незамеченными руководством.;0;
+334;No matter how hard you try, [your:t.Possessive,s2] efforts won't go unnoticed by the management.;Как бы ты ни старался, твои усилия не останутся незамеченными руководством.;0;
 335;Despite the difficulties, [your:t.Possessive,s2] idea proved to be more effective than expected.;Несмотря на трудности, твоя идея оказалась более эффективной, чем ожидалось.;0;
 336;The fact that [your:t.Possessive,s2] argument was well-structured made a huge difference.;Тот факт, что твой аргумент был хорошо структурирован, сыграл большую роль.;0;
 337;Without [your:t.Possessive,s2] advice, I would have made a terrible mistake.;Без твоего совета я бы совершил ужасную ошибку.;0;
@@ -811,7 +811,7 @@ id;question;extra;suspicious_status;suspicious_note
 342;After years of hard work, [his:t.Possessive,s3m] dream of becoming a doctor finally came true.;После многих лет упорной работы его мечта стать врачом наконец сбылась.;0;
 343;Since [his:t.Possessive,s3m] arrival, things in the office have become more organized.;С момента его прибытия в офисе всё стало более организованным.;0;
 344;Although [his:t.Possessive,s3m] story was interesting, it lacked crucial details.;Хотя его рассказ был интересным, в нём не хватало важных деталей.;0;
-345;It’s fascinating how much [his:t.Possessive,s3m] perspective has changed over the years.;Удивительно, насколько изменилась его точка зрения за эти годы.;0;
+345;It's fascinating how much [his:t.Possessive,s3m] perspective has changed over the years.;Удивительно, насколько изменилась его точка зрения за эти годы.;0;
 346;Although [her:t.Possessive,s3f] suggestions were controversial, they sparked an interesting discussion.;Хотя её предложения были спорными, они вызвали интересную дискуссию.;0;
 347;By the end of the meeting, [her:t.Possessive,s3f] influence on the team was undeniable.;К концу собрания её влияние на команду стало неоспоримым.;0;
 348;Everyone in the office noticed that [her:t.Possessive,s3f] enthusiasm was contagious.;Все в офисе заметили, что её энтузиазм был заразительным.;0;
@@ -887,9 +887,9 @@ id;question;extra;suspicious_status;suspicious_note
 012;[His:t.Possessive] own brother betrayed him.;Его родной брат предал его.;0;
 013;He built [his:t.Possessive] own house.;Он построил свой собственный дом.;0;
 014;He is responsible for [his:t.Possessive] own actions.;Он несёт ответственность за свои собственные поступки.;0;
-015;[His:t.Possessive] own parents didn’t believe him.;Его собственные родители не верили ему.;0;
+015;[His:t.Possessive] own parents didn't believe him.;Его собственные родители не верили ему.;0;
 016;She wants [her:t.Possessive] own space.;Она хочет своё собственное пространство.;0;
-017;[Her:t.Possessive] own friends don’t trust her.;Её собственные друзья ей не доверяют.;0;
+017;[Her:t.Possessive] own friends don't trust her.;Её собственные друзья ей не доверяют.;0;
 018;She designed [her:t.Possessive] own dress.;Она создала своё собственное платье.;0;
 019;She has [her:t.Possessive] own opinion on this matter.;У неё есть своё собственное мнение на этот счёт.;0;
 020;[Her:t.Possessive] own work speaks for itself.;Её собственная работа говорит сама за себя.;0;
@@ -910,27 +910,27 @@ id;question;extra;suspicious_status;suspicious_note
 035;[Their:t.Possessive] own experience helped them succeed.;Их собственный опыт помог им добиться успеха.;0;
 
 # possessive-cojoint: possessive-cojoint vs "to be"
-000;[They’re](they’re/their) going to the store.;Они идут в магазин.;0;
-000;I like [your](your/you’re) new haircut.;Мне нравится твоя новая стрижка.;0;
-000;The dog wagged [its](its/it’s) tail.;Собака виляла хвостом.;0;
-000;[It’s](its/it’s) raining outside.;На улице идет дождь.;0;
-000;[It’s](its/it’s) the best decision you could make! — Это лучшее решение, которое ты мог принять!;0;
-000;She forgot [her](her/she’s) keys at home.;Она забыла свои ключи дома.;0;
-000;[They’re](they’re/their) very happy to see you.;Они очень рады тебя видеть.;0;
-000;The book lost [its](its/it’s) cover.;Книга потеряла свою обложку.;0;
-000;[It’s](Its/It’s) a beautiful day outside.;На улице прекрасный день.;0;
-000;The cat was licking [its](its/it’s) paws.;Кот облизывал свои лапы.;0;
-000;[You’re](Your/You’re) going to love this movie! — Тебе точно понравится этот фильм!;0;
-000;[They’re](Their/They’re) coming over for dinner at six.;Они придут на ужин в шесть.;0;
-000;[You’re](Your/You’re) the best friend I’ve ever had.;Ты лучший друг, который у меня был.;0;
-000;The dog lost [its](Its/It’s) collar somewhere in the park.;Собака потеряла свой ошейник где-то в парке.;0;
-000;I think [you’re](your/you’re) the best choice for the job.;Думаю, ты лучший кандидат на эту работу.;0;
-000;The phone lost [its](its/it’s) battery charge.;Телефон разрядился.;0;
-000;This is my car, and that one is [theirs](their/theirs).;Это моя машина, а та — их.;0;
-000;She said [she’s](she’s/her) not feeling well today.;Она сказала, что плохо себя чувствует сегодня.;0;
-000;I don’t know [his](his/he’s) name, but she looks familiar.;Я не знаю его имени, но она выглядит знакомой.;0;
-000;The company changed [its](its/it’s) logo last year.;Компания сменила свой логотип в прошлом году.;0;
-000;We’re going to [their](they’re/their) house for the weekend.;Мы едем к ним домой на выходные.;0;
+000;[They're](they're/their) going to the store.;Они идут в магазин.;0;
+000;I like [your](your/you're) new haircut.;Мне нравится твоя новая стрижка.;0;
+000;The dog wagged [its](its/it's) tail.;Собака виляла хвостом.;0;
+000;[It's](its/it's) raining outside.;На улице идет дождь.;0;
+000;[It's](its/it's) the best decision you could make! - Это лучшее решение, которое ты мог принять!;0;
+000;She forgot [her](her/she's) keys at home.;Она забыла свои ключи дома.;0;
+000;[They're](they're/their) very happy to see you.;Они очень рады тебя видеть.;0;
+000;The book lost [its](its/it's) cover.;Книга потеряла свою обложку.;0;
+000;[It's](Its/It's) a beautiful day outside.;На улице прекрасный день.;0;
+000;The cat was licking [its](its/it's) paws.;Кот облизывал свои лапы.;0;
+000;[You're](Your/You're) going to love this movie! - Тебе точно понравится этот фильм!;0;
+000;[They're](Their/They're) coming over for dinner at six.;Они придут на ужин в шесть.;0;
+000;[You're](Your/You're) the best friend I've ever had.;Ты лучший друг, который у меня был.;0;
+000;The dog lost [its](Its/It's) collar somewhere in the park.;Собака потеряла свой ошейник где-то в парке.;0;
+000;I think [you're](your/you're) the best choice for the job.;Думаю, ты лучший кандидат на эту работу.;0;
+000;The phone lost [its](its/it's) battery charge.;Телефон разрядился.;0;
+000;This is my car, and that one is [theirs](their/theirs).;Это моя машина, а та - их.;0;
+000;She said [she's](she's/her) not feeling well today.;Она сказала, что плохо себя чувствует сегодня.;0;
+000;I don't know [his](his/he's) name, but she looks familiar.;Я не знаю его имени, но она выглядит знакомой.;0;
+000;The company changed [its](its/it's) logo last year.;Компания сменила свой логотип в прошлом году.;0;
+000;We're going to [their](they're/their) house for the weekend.;Мы едем к ним домой на выходные.;0;
 
 # possessive-cojoint: impact rule (правило воздействия)
 000;She kissed him on [the] cheek.;Она поцеловала его в щёку.;0;
@@ -961,29 +961,29 @@ id;question;extra;suspicious_status;suspicious_note
 
 # possessive-cojoint: noun2pronoun - могут замещать существительные с 's или конструкцию с предлогом of
 000;This is [his friend:t.Possessive](a friend of Michael), not mine.;Это друг Майкла, а не мой.;0;
-001;[His idea:t.Possessive](Jack’s idea) was interesting, but his was even better.;Идея Джека была интересной, но его была ещё лучше.;0;
+001;[His idea:t.Possessive](Jack's idea) was interesting, but his was even better.;Идея Джека была интересной, но его была ещё лучше.;0;
 002;[His idea:t.Possessive](The idea of Jack) was interesting, but his was even better.;Идея Джека была интересной, но его была ещё лучше.;0;
-003;[His decision:t.Possessive](Mark’s decision) was unexpected, but hers was even more surprising.;Решение Марка было неожиданным, но её было ещё более удивительным.;0;
+003;[His decision:t.Possessive](Mark's decision) was unexpected, but hers was even more surprising.;Решение Марка было неожиданным, но её было ещё более удивительным.;0;
 004;[His decision:t.Possessive](The decision of Mark) was unexpected, but hers was even more surprising.;Решение Марка было неожиданным, но её было ещё более удивительным.;0;
-005;[Her book:t.Possessive](Anna’s book) is on the table.;Книга Анны на столе.;0;
+005;[Her book:t.Possessive](Anna's book) is on the table.;Книга Анны на столе.;0;
 006;[Her book:t.Possessive](The book of Anna) is on the table.;Книга Анны на столе.;0;
-007;He supported [her decision:t.Possessive](Anna’s decision), but questioned her reasoning.;Он поддержал решение Анны, но усомнился в её аргументации.;0;
+007;He supported [her decision:t.Possessive](Anna's decision), but questioned her reasoning.;Он поддержал решение Анны, но усомнился в её аргументации.;0;
 008;He supported [her decision:t.Possessive](the decision of Anna), but questioned her reasoning.;Он поддержал решение Анны, но усомнился в её аргументации.;0;
-009;The company changed [its policy:t.Possessive](the department’s policy) to comply with new regulations.;Компания изменила политику отдела, чтобы соответствовать новым правилам.;0;
+009;The company changed [its policy:t.Possessive](the department's policy) to comply with new regulations.;Компания изменила политику отдела, чтобы соответствовать новым правилам.;0;
 010;The company changed [its policy:t.Possessive](the policy of the department) to comply with new regulations.;Компания изменила политику отдела, чтобы соответствовать новым правилам.;0;
-011;The university updated [its catalog:t.Possessive](the library’s catalog) to include digital resources.;Университет обновил каталог библиотеки, чтобы включить цифровые ресурсы.;0;
+011;The university updated [its catalog:t.Possessive](the library's catalog) to include digital resources.;Университет обновил каталог библиотеки, чтобы включить цифровые ресурсы.;0;
 012;The university updated [its catalog:t.Possessive](the catalog of the library) to include digital resources.;Университет обновил каталог библиотеки, чтобы включить цифровые ресурсы.;0;
-013;The company improved [its interface:t.Possessive](the website’s interface) for better user experience.;Компания улучшила интерфейс сайта для лучшего пользовательского опыта.;0;
+013;The company improved [its interface:t.Possessive](the website's interface) for better user experience.;Компания улучшила интерфейс сайта для лучшего пользовательского опыта.;0;
 014;The company improved [its interface:t.Possessive](the interface of the website) for better user experience.;Компания улучшила интерфейс сайта для лучшего пользовательского опыта.;0;
-015;The team followed [its guidelines:t.Possessive](the organization’s guidelines) to ensure compliance.;Команда следовала рекомендациям организации, чтобы обеспечить соответствие.;0;
+015;The team followed [its guidelines:t.Possessive](the organization's guidelines) to ensure compliance.;Команда следовала рекомендациям организации, чтобы обеспечить соответствие.;0;
 016;The team followed [its guidelines:t.Possessive](the guidelines of the organization) to ensure compliance.;Команда следовала рекомендациям организации, чтобы обеспечить соответствие.;0;
-017;The device lost [its calibration:t.Possessive](the sensor’s calibration) after prolonged use.;Устройство потеряло калибровку датчика после длительного использования.;0;
+017;The device lost [its calibration:t.Possessive](the sensor's calibration) after prolonged use.;Устройство потеряло калибровку датчика после длительного использования.;0;
 018;The device lost [its calibration:t.Possessive](the calibration of the sensor) after prolonged use.;Устройство потеряло калибровку датчика после длительного использования.;0;
-019;The school updated [its structure:t.Possessive](the curriculum’s structure) to match new standards.;Школа обновила структуру учебного плана, чтобы соответствовать новым стандартам.;0;
+019;The school updated [its structure:t.Possessive](the curriculum's structure) to match new standards.;Школа обновила структуру учебного плана, чтобы соответствовать новым стандартам.;0;
 020;The school updated [its structure:t.Possessive](the structure of the curriculum) to match new standards.;Школа обновила структуру учебного плана, чтобы соответствовать новым стандартам.;0;
-021;The app changed [its settings:t.Possessive](the notification’s settings) after the update.;Приложение изменило настройки уведомления после обновления.;0;
+021;The app changed [its settings:t.Possessive](the notification's settings) after the update.;Приложение изменило настройки уведомления после обновления.;0;
 022;The app changed [its settings:t.Possessive](the settings of the notification) after the update.;Приложение изменило настройки уведомления после обновления.;0;
-023;[Their house:t.Possessive](James and Sarah’s house) is bigger than ours.;Дом Джеймса и Сары больше, чем наш.;0;
+023;[Their house:t.Possessive](James and Sarah's house) is bigger than ours.;Дом Джеймса и Сары больше, чем наш.;0;
 024;[Their house:t.Possessive](the house of James and Sarah) is bigger than ours.;Дом Джеймса и Сары больше, чем наш.;0;
 
 # Reflexive(Возвратные): identification
@@ -997,8 +997,8 @@ id;question;extra;suspicious_status;suspicious_note
 004;Did you see it [yourself:t.Reflexive,s2]?;Ты видел это сам?;0;  
 005;You can handle this [yourself:t.Reflexive,s2];Ты справишься с этим сам;0;  
 030;You should be proud of [yourself:t.Reflexive,s2] for this achievement;Ты должен гордиться собой за это достижение;0;  
-031;You’ve put [yourself:t.Reflexive,s2] in a difficult situation;Ты поставил себя в сложное положение;0;  
-032;You imagine [yourself:t.Reflexive,s2] as a leader, don’t you?;Ты представляешь себя лидером, не так ли?;0;  
+031;You've put [yourself:t.Reflexive,s2] in a difficult situation;Ты поставил себя в сложное положение;0;  
+032;You imagine [yourself:t.Reflexive,s2] as a leader, don't you?;Ты представляешь себя лидером, не так ли?;0;  
 006;He fixed the car [himself:t.Reflexive,s3m];Он починил машину сам;0;  
 007;He introduced [himself:t.Reflexive,s3m] to the guests;Он представился гостям сам;0;  
 008;He blamed [himself:t.Reflexive,s3m] for the mistake;Он обвинил себя в ошибке;0;  
@@ -1055,7 +1055,7 @@ id;question;extra;suspicious_status;suspicious_note
 017;FIXME: The manager and myself will review the reports. -> [The manager and I will review] the reports.;Менеджер и я рассмотрим отчёты.;0;  
 018;FIXME: Everyone except yourself was invited. -> Everyone [except you] was invited.;Всех, кроме тебя, пригласили.;0;  
 019;FIXME: The teacher asked if himself had completed the assignment. -> The teacher asked if [he had completed] the assignment.;Учитель спросил, закончил ли он задание.;0;  
-020;FIXME: We weren’t sure whether herself could handle the pressure. -> We weren’t sure whether [she could handle] the pressure.;Мы не были уверены, сможет ли она справиться с давлением.;0;  
+020;FIXME: We weren't sure whether herself could handle the pressure. -> We weren't sure whether [she could handle] the pressure.;Мы не были уверены, сможет ли она справиться с давлением.;0;  
 021;FIXME: None of the students, including myself, understood the question. -> None of the students, [including me], understood the question.;Никто из студентов, включая меня, не понял вопрос.;0;  
 022;FIXME: The committee believed that themselves should decide on the policy. -> The committee believed that [they should decide] on the policy.;Комитет считал, что они должны сами принять решение о политике.;0;  
 023;FIXME: He was unsure whether yourself had been informed. -> He was unsure whether [you had been informed].;Он не был уверен, был ли ты проинформирован.;0;  
@@ -1076,9 +1076,9 @@ id;question;extra;suspicious_status;suspicious_note
 002;One should always take care of [oneself:t.Reflexive,s0].;Всегда нужно заботиться о себе.;0;  
 003;To truly understand others, one must first understand [oneself:t.Reflexive,s0].;Чтобы по-настоящему понять других, нужно сначала понять себя.;0;  
 004;Keeping [oneself:t.Reflexive,s0] motivated can be difficult at times.;Иногда бывает трудно поддерживать в себе мотивацию.;0;  
-005;Expressing [oneself:t.Reflexive,s0] clearly is a valuable skill.;Умение ясно выражать свои мысли — это ценный навык.;0;  
+005;Expressing [oneself:t.Reflexive,s0] clearly is a valuable skill.;Умение ясно выражать свои мысли - это ценный навык.;0;  
 006;One should never deceive [oneself:t.Reflexive,s0] about reality.;Никогда нельзя обманывать себя насчёт реальности.;0;  
-007;Learning to defend [oneself:t.Reflexive,s0] is a crucial skill.;Умение защищать себя — важный навык.;0;  
+007;Learning to defend [oneself:t.Reflexive,s0] is a crucial skill.;Умение защищать себя - важный навык.;0;  
 008;One must prepare [oneself:t.Reflexive,s0] for unexpected challenges.;Нужно подготовиться к неожиданным вызовам.;0;  
 009;To stay healthy, one should not neglect [oneself:t.Reflexive,s0].;Чтобы оставаться здоровым, нельзя пренебрегать собой.;0;  
 010;Pushing [oneself:t.Reflexive,s0] too hard can lead to burnout.;Чрезмерные нагрузки могут привести к выгоранию.;0;  
@@ -1140,7 +1140,7 @@ id;question;extra;suspicious_status;suspicious_note
 005;He likes reading stories [about himself:t.Reflexive](о себе) in fictional books.;Ему нравится читать истории о себе в художественных книгах.;0;  
 
 # Reflexive(Возвратные): patterns.prepositions > Base > To oneself (По отношению к себе)
-001;Don’t be so hard [on yourself:t.Reflexive](по отношению к себе).;Не будь так строг к себе.;0;  
+001;Don't be so hard [on yourself:t.Reflexive](по отношению к себе).;Не будь так строг к себе.;0;  
 002;He spoke [to himself:t.Reflexive](по отношению к себе).;Он говорил сам с собой.;0;  
 003;She whispered [to herself:t.Reflexive](по отношению к себе).;Она прошептала самой себе.;0;  
 004;They kept their thoughts [to themselves:t.Reflexive](по отношению к себе).;Они держали свои мысли при себе.;0;  
@@ -1207,7 +1207,7 @@ id;question;extra;suspicious_status;suspicious_note
 045;They debated [among themselves:t.Reflexive](среди подобных) about the best approach.;Они дискутировали между собой о наилучшем подходе.;0;  
 046;The researchers shared their findings [among themselves:t.Reflexive](среди подобных) before publishing the report.;Исследователи поделились своими выводами между собой перед публикацией отчета.;0;  
 047;The team preferred discussing ideas [among themselves:t.Reflexive](среди подобных) rather than presenting them publicly.;Команда предпочитала обсуждать идеи между собой, а не представлять их публично.;0;  
-048;They formed a private network [among themselves:t.Reflexive](среди подобных) to support each other’s growth.;Они создали закрытую сеть между собой, чтобы поддерживать развитие друг друга.;0;  
+048;They formed a private network [among themselves:t.Reflexive](среди подобных) to support each other's growth.;Они создали закрытую сеть между собой, чтобы поддерживать развитие друг друга.;0;  
 049;The group built trust [among themselves:t.Reflexive](среди подобных) through open communication.;Группа выстроила доверие между собой с помощью открытого общения.;0;  
 050;The team assigned roles [among themselves:t.Reflexive](среди подобных) to ensure efficiency.;Команда распределила роли между собой для повышения эффективности.;0;  
 
@@ -1276,15 +1276,15 @@ id;question;extra;suspicious_status;suspicious_note
 000;I have done it [myself:t.Intensive] before!;Я делал это сам раньше!;0;
 000;She will bake the cake [herself:t.Intensive] tomorrow!;Она сама испечёт торт завтра!;0;
 000;They had built the house [themselves:t.Intensive] before winter!;Они сами построили дом до зимы!;0;
-000;He wasn’t painting the picture [himself:t.Intensive] when I arrived!;Он не рисовал картину сам, когда я пришёл!;0;
-000;I haven’t written this report [myself:t.Intensive] yet!;Я ещё не писал этот отчёт сам!;0;
+000;He wasn't painting the picture [himself:t.Intensive] when I arrived!;Он не рисовал картину сам, когда я пришёл!;0;
+000;I haven't written this report [myself:t.Intensive] yet!;Я ещё не писал этот отчёт сам!;0;
 000;You will have to fix the issue [yourself:t.Intensive] next time!;В следующий раз тебе придётся исправить проблему самому!;0;
-000;We didn’t organize the event [ourselves:t.Intensive] this year!;Мы не организовывали мероприятие сами в этом году!;0;
+000;We didn't organize the event [ourselves:t.Intensive] this year!;Мы не организовывали мероприятие сами в этом году!;0;
 000;The students are preparing the presentation [themselves:t.Intensive] right now!;Студенты сами готовят презентацию прямо сейчас!;0;
 000;The cat has opened the door [itself:t.Intensive] many times!;Кот много раз сам открывал дверь!;0;
 000;The CEO approved the contract [himself:t.Intensive] just yesterday!;Генеральный директор сам утвердил контракт только вчера!;0;
 000;The teacher explained the rule [herself:t.Intensive] twice before the test!;Учительница сама объяснила правило дважды перед тестом!;0;
-000;They won’t solve the problem [themselves:t.Intensive] without help!;Они не решат проблему сами без помощи!;0;
+000;They won't solve the problem [themselves:t.Intensive] without help!;Они не решат проблему сами без помощи!;0;
 000;You made this decision [yourself:t.Intensive], now you must follow through!;Ты сам принял это решение, теперь тебе нужно довести его до конца!;0;
 000;The president is delivering the speech [himself:t.Intensive] at this very moment!;Президент сам произносит речь прямо сейчас!;0;
 000;We cleaned the entire house [ourselves:t.Intensive] last weekend!;Мы сами убрали весь дом на прошлых выходных!;0;
@@ -1349,45 +1349,45 @@ id;question;extra;suspicious_status;suspicious_note
 034;FIXME: Did he bathe himself after a long day? -> [Did he bathe after a long day?];Он купался после долгого дня?;0;
 035;FIXME: After a long day, they bathed themselves. -> [After a long day, they bathed.];После долгого дня они купались.;0;
 036;FIXME: She usually dresses herself quickly. -> [She usually dresses quickly.];Она обычно быстро одевается.;0;
-037;FIXME: He isn’t dressing himself in a suit today. -> [He isn’t dressing in a suit today.];Он сегодня не надевает костюм.;0;
+037;FIXME: He isn't dressing himself in a suit today. -> [He isn't dressing in a suit today.];Он сегодня не надевает костюм.;0;
 038;FIXME: Have they dressed themselves warmly enough? -> [Have they dressed warmly enough?];Они достаточно тепло оделись?;0;
 039;FIXME: He had already shaved himself before work. -> [He had already shaved before work.];Он уже побрился перед работой.;0;
-040;FIXME: She didn’t shave herself in the shower. -> [She didn’t shave in the shower.];Она не брилась в душе.;0;
+040;FIXME: She didn't shave herself in the shower. -> [She didn't shave in the shower.];Она не брилась в душе.;0;
 041;FIXME: Will they shave themselves before the ceremony? -> [Will they shave before the ceremony?];Они побреются перед церемонией?;0;
 042;FIXME: She wakes up herself early every day. -> [She wakes up early every day.];Она просыпается рано каждый день.;0;
 043;FIXME: Did he wake up himself before sunrise? -> [Did he wake up before sunrise?];Он проснулся до рассвета?;0;
 044;FIXME: They haven't woken up themselves yet. -> [They haven't woken up yet.];Они ещё не проснулись.;0;
 045;FIXME: She was washing herself when the phone rang. -> [She was washing when the phone rang.];Она мылась, когда зазвонил телефон.;0;
 046;FIXME: Has he washed himself after the match? -> [Has he washed after the match?];Он помылся после матча?;0;
-047;FIXME: They don’t wash themselves in the sink. -> [They don’t wash in the sink.];Они не умываются в раковине.;0;
+047;FIXME: They don't wash themselves in the sink. -> [They don't wash in the sink.];Они не умываются в раковине.;0;
 048;FIXME: She is combing herself before the meeting. -> [She is combing her hair before the meeting.];Она расчесывает волосы перед встречей.;0;
 049;FIXME: He had combed himself in front of the mirror. -> [He had combed his hair in front of the mirror.];Он уже расчесал волосы перед зеркалом.;0;
 050;FIXME: Did they comb themselves after waking up? -> [Did they comb their hair after waking up?];Они расчесали волосы после пробуждения?;0;
 051;FIXME: She had cut herself a new hairstyle before the event. -> [She had cut her hair into a new style before the event.];Она подстриглась перед мероприятием.;0;
-052;FIXME: He won’t cut himself with scissors again. -> [He won’t cut himself with scissors again.];Он больше не порежется ножницами.;0;
+052;FIXME: He won't cut himself with scissors again. -> [He won't cut himself with scissors again.];Он больше не порежется ножницами.;0;
 053;FIXME: Have they ever cut themselves while cooking? -> [Have they ever cut themselves while cooking?];Они когда-нибудь резались во время готовки?;0;
-054;FIXME: She wasn’t brushing herself before bed. -> [She wasn’t brushing her teeth before bed.];Она не чистила зубы перед сном.;0;
+054;FIXME: She wasn't brushing herself before bed. -> [She wasn't brushing her teeth before bed.];Она не чистила зубы перед сном.;0;
 055;FIXME: He had brushed himself after lunch. -> [He had brushed his teeth after lunch.];Он уже почистил зубы после обеда.;0;
 056;FIXME: Will they brush themselves in the morning? -> [Will they brush their teeth in the morning?];Они почистят зубы утром?;0;
 057;FIXME: She showers herself before bed every night. -> [She showers before bed every night.];Она принимает душ перед сном каждый вечер.;0;
-058;FIXME: He wasn’t showering himself after the workout. -> [He wasn’t showering after the workout.];Он не принимал душ после тренировки.;0;
+058;FIXME: He wasn't showering himself after the workout. -> [He wasn't showering after the workout.];Он не принимал душ после тренировки.;0;
 059;FIXME: Have they showered themselves in the morning? -> [Have they showered in the morning?];Они приняли душ утром?;0;
 
 # Reflexive(Возвратные): antipatterns.verbs > ambiguous reflexivity
 000;FIXME: He had hidden himself behind the tree before they arrived. -> [He had hidden behind the tree before they arrived.];Он спрятался за деревом, прежде чем они прибыли.;0;
 000;FIXME: She is hiding herself under the blanket. -> [She is hiding under the blanket.];Она прячется под одеялом.;0;
-000;FIXME: They didn’t hide themselves in the basement. -> [They didn’t hide in the basement.];Они не прятались в подвале.;0;
+000;FIXME: They didn't hide themselves in the basement. -> [They didn't hide in the basement.];Они не прятались в подвале.;0;
 000;FIXME: I will afford myself a new phone next year. -> [I will afford a new phone next year.];Я позволю себе новый телефон в следующем году.;0;
-000;FIXME: She hasn’t afforded herself a vacation in years. -> [She hasn’t afforded a vacation in years.];Она не могла позволить себе отпуск годами.;0;
-000;FIXME: They couldn’t afford themselves a new house last year. -> [They couldn’t afford a new house last year.];В прошлом году они не могли позволить себе новый дом.;0;
+000;FIXME: She hasn't afforded herself a vacation in years. -> [She hasn't afforded a vacation in years.];Она не могла позволить себе отпуск годами.;0;
+000;FIXME: They couldn't afford themselves a new house last year. -> [They couldn't afford a new house last year.];В прошлом году они не могли позволить себе новый дом.;0;
 000;FIXME: He had concentrated himself on his work before the deadline. -> [He had concentrated on his work before the deadline.];Он сосредоточился на своей работе перед дедлайном.;0;
-000;FIXME: She isn’t concentrating herself during the test. -> [She isn’t concentrating during the test.];Она не концентрируется во время теста.;0;
+000;FIXME: She isn't concentrating herself during the test. -> [She isn't concentrating during the test.];Она не концентрируется во время теста.;0;
 000;FIXME: They will concentrate themselves on solving the problem next week. -> [They will concentrate on solving the problem next week.];Они сосредоточатся на решении проблемы на следующей неделе.;0;
 000;FIXME: He felt himself very tired. -> [He felt very tired.];Он чувствовал себя очень уставшим.;0;
 000;FIXME: She was feeling herself uncomfortable. -> [She was feeling uncomfortable.];Она чувствовала себя некомфортно.;0;
 000;FIXME: They will feel themselves better soon. -> [They will feel better soon.];Скоро они почувствуют себя лучше.;0;
 000;FIXME: I felt myself happy. -> [I felt happy.];Я чувствовал себя счастливым.;0;
-000;FIXME: She didn’t feel herself comfortable in that place. -> [She didn’t feel comfortable in that place.];Она не чувствовала себя комфортно в том месте.;0;
+000;FIXME: She didn't feel herself comfortable in that place. -> [She didn't feel comfortable in that place.];Она не чувствовала себя комфортно в том месте.;0;
 000;FIXME: He was feeling himself sick. -> [He was feeling sick.];Он чувствовал себя больным.;0;
 000;FIXME: They will feel themselves more confident after training. -> [They will feel more confident after training.];После тренировки они будут чувствовать себя увереннее.;0;
 000;FIXME: He has never felt himself so strong. -> [He has never felt so strong.];Он никогда не чувствовал себя таким сильным.;0;
@@ -1398,9 +1398,9 @@ id;question;extra;suspicious_status;suspicious_note
 000;FIXME: He focused himself on success. -> [He focused on success.];Он сосредоточился на успехе.;0;
 000;FIXME: She had focused herself too much on details. -> [She had focused too much on details.];Она слишком сосредоточилась на деталях.;0;
 000;FIXME: They are focusing themselves on the task. -> [They are focusing on the task.];Они сосредотачиваются на задаче.;0;
-000;FIXME: He hasn’t focused himself on the right priorities. -> [He hasn’t focused on the right priorities.];Он не сосредоточился на правильных приоритетах.;0;
+000;FIXME: He hasn't focused himself on the right priorities. -> [He hasn't focused on the right priorities.];Он не сосредоточился на правильных приоритетах.;0;
 000;FIXME: She will focus herself on her studies next year. -> [She will focus on her studies next year.];Она сосредоточится на учебе в следующем году.;0;
-000;FIXME: They didn’t focus themselves on the competition. -> [They didn’t focus on the competition.];Они не сосредоточились на соревновании.;0;
+000;FIXME: They didn't focus themselves on the competition. -> [They didn't focus on the competition.];Они не сосредоточились на соревновании.;0;
 000;FIXME: They kissed themselves at the party. -> [They kissed at the party.];Они поцеловались на вечеринке.;0;
 000;FIXME: He kissed himself in the mirror. -> [He kissed his reflection in the mirror.];Он поцеловал свое отражение в зеркале.;0;
 000;FIXME: We kissed ourselves before saying goodbye. -> [We kissed before saying goodbye.];Мы поцеловались перед прощанием.;0;
@@ -1412,15 +1412,15 @@ id;question;extra;suspicious_status;suspicious_note
 000;FIXME: He will kiss himself again if no one else does. -> [He will kiss the mirror again if no one else does.];Он снова поцелует зеркало, если никто другой не поцелует его.;0;
 000;FIXME: Just relax yourself after a long day. -> [Just relax after a long day.];Просто расслабься после долгого дня.;0;
 000;FIXME: She had relaxed herself by the pool before dinner. -> [She had relaxed by the pool before dinner.];Она расслабилась у бассейна перед ужином.;0;
-000;FIXME: He wasn’t relaxing himself after work. -> [He wasn’t relaxing after work.];Он не отдыхал после работы.;0;
+000;FIXME: He wasn't relaxing himself after work. -> [He wasn't relaxing after work.];Он не отдыхал после работы.;0;
 000;FIXME: They have met themselves before. -> [They have met before.];Они уже встречались раньше.;0;
-000;FIXME: He wasn’t meeting himself with an old friend at that time. -> [He wasn’t meeting with an old friend at that time.];В тот момент он не встречался со старым другом.;0;
+000;FIXME: He wasn't meeting himself with an old friend at that time. -> [He wasn't meeting with an old friend at that time.];В тот момент он не встречался со старым другом.;0;
 000;FIXME: We will meet ourselves at the airport tomorrow. -> [We will meet at the airport tomorrow.];Мы встретимся в аэропорту завтра.;0;
 000;FIXME: He adapted himself quickly to the new environment. -> [He adapted quickly to the new environment.];Он быстро адаптировался к новой среде.;0;
-000;FIXME: She hadn’t adapted herself to the new job yet. -> [She hadn’t adapted to the new job yet.];Она ещё не адаптировалась к новой работе.;0;
+000;FIXME: She hadn't adapted herself to the new job yet. -> [She hadn't adapted to the new job yet.];Она ещё не адаптировалась к новой работе.;0;
 000;FIXME: They are adapting themselves to city life. -> [They are adapting to city life.];Они адаптируются к городской жизни.;0;
 000;FIXME: She improved herself in mathematics over the years. -> [She improved in mathematics over the years.];Она улучшила свои знания по математике за годы.;0;
-000;FIXME: He hasn’t improved himself much this year. -> [He hasn’t improved much this year.];В этом году он не сильно продвинулся.;0;
+000;FIXME: He hasn't improved himself much this year. -> [He hasn't improved much this year.];В этом году он не сильно продвинулся.;0;
 000;FIXME: They will improve themselves as a team. -> [They will improve as a team.];Они будут развиваться как команда.;0;
 000;FIXME: He improved himself in writing. -> [He improved in writing.];Он улучшил свои навыки письма.;0;
 000;FIXME: She is improving herself every day. -> [She is improving every day.];Она совершенствуется каждый день.;0;
@@ -1429,10 +1429,10 @@ id;question;extra;suspicious_status;suspicious_note
 000;FIXME: She has improved herself in her career. -> [She has improved in her career.];Она выросла в своей карьере.;0;
 000;FIXME: They are improving themselves as individuals. -> [They are improving as individuals.];Они развиваются как личности.;0;
 000;FIXME: He had moved himself to another department before the project started. -> [He had moved to another department before the project started.];Он перевелся в другой отдел до начала проекта.;0;
-000;FIXME: She isn’t moving herself out of her parents’ house yet. -> [She isn’t moving out of her parents’ house yet.];Она ещё не съезжает от родителей.;0;
+000;FIXME: She isn't moving herself out of her parents' house yet. -> [She isn't moving out of her parents' house yet.];Она ещё не съезжает от родителей.;0;
 000;FIXME: They will move themselves abroad next year. -> [They will move abroad next year.];Они переедут за границу в следующем году.;0;
 000;FIXME: He has developed himself professionally over time. -> [He has developed professionally over time.];Со временем он развивался профессионально.;0;
-000;FIXME: She wasn’t developing herself into a great leader. -> [She wasn’t developing into a great leader.];Она не развивалась в великого лидера.;0;
+000;FIXME: She wasn't developing herself into a great leader. -> [She wasn't developing into a great leader.];Она не развивалась в великого лидера.;0;
 000;FIXME: They will develop themselves a reputation. -> [They will develop a reputation.];Они создадут себе репутацию.;0;
 000;FIXME: He developed himself as a professional. -> [He developed as a professional.];Он развился как профессионал.;0;
 000;FIXME: She is developing herself in management. -> [She is developing in management.];Она развивается в управлении.;0;
@@ -1441,10 +1441,10 @@ id;question;extra;suspicious_status;suspicious_note
 000;FIXME: She will develop herself further in this area. -> [She will develop further in this area.];Она будет дальше развиваться в этой области.;0;
 000;FIXME: They are developing themselves into a stronger team. -> [They are developing into a stronger team.];Они становятся более сплоченной командой.;0;
 000;FIXME: He had recovered himself after a stressful week. -> [He had recovered after a stressful week.];Он восстановился после напряженной недели.;0;
-000;FIXME: She isn’t recovering herself from a tough breakup. -> [She isn’t recovering from a tough breakup.];Она не оправляется после тяжелого разрыва.;0;
+000;FIXME: She isn't recovering herself from a tough breakup. -> [She isn't recovering from a tough breakup.];Она не оправляется после тяжелого разрыва.;0;
 000;FIXME: They will recover themselves from financial losses soon. -> [They will recover from financial losses soon.];Они скоро восстановятся после финансовых потерь.;0;
 000;FIXME: He recovered himself from a cold quickly. -> [He recovered from a cold quickly.];Он быстро выздоровел после простуды.;0;
-000;FIXME: She hasn’t recovered herself fully yet. -> [She hasn’t recovered fully yet.];Она еще полностью не восстановилась.;0;
+000;FIXME: She hasn't recovered herself fully yet. -> [She hasn't recovered fully yet.];Она еще полностью не восстановилась.;0;
 000;FIXME: They are recovering themselves after a long trip. -> [They are recovering after a long trip.];Они восстанавливаются после долгого путешествия.;0;
 000;FIXME: He had recovered himself from stress before exams started. -> [He had recovered from stress before exams started.];Он восстановился после стресса до начала экзаменов.;0;
 000;FIXME: She is recovering herself from an emotional breakdown. -> [She is recovering from an emotional breakdown.];Она восстанавливается после эмоционального срыва.;0;
@@ -1455,7 +1455,7 @@ id;question;extra;suspicious_status;suspicious_note
 000;FIXME: She took her passport with herself. -> [She took her passport with her.];Она взяла свой паспорт с собой.;0;
 000;FIXME: He had taken his jacket with himself before leaving. -> [He had taken his jacket with him before leaving.];Перед уходом он взял свою куртку с собой.;0;
 000;FIXME: We will take some snacks with ourselves. -> [We will take some snacks with us.];Мы возьмем с собой немного перекусов.;0;
-000;FIXME: They didn’t take an umbrella with themselves. -> [They didn’t take an umbrella with them.];Они не взяли с собой зонт.;0;
+000;FIXME: They didn't take an umbrella with themselves. -> [They didn't take an umbrella with them.];Они не взяли с собой зонт.;0;
 000;FIXME: She brought a gift with herself. -> [She brought a gift with her.];Она принесла подарок с собой.;0;
 000;FIXME: I will bring some documents with myself. -> [I will bring some documents with me.];Я принесу несколько документов с собой.;0;
 000;FIXME: He always brings his camera with himself. -> [He always brings his camera with him.];Он всегда берет с собой камеру.;0;
@@ -1504,43 +1504,65 @@ Reciprocal(взаимные): reciprocal vs themselves
 000;The children kept [themselves](each other/themselves) busy with toys while their parents talked.;Дети занимали себя игрушками, пока их родители разговаривали.;0;
 000;The tourists protected [themselves](each other/themselves) from the sun by wearing hats and sunscreen.;Туристы защищали себя от солнца, надевая шляпы и пользуясь солнцезащитным кремом.;0;
 
->>>
 Demonstrative(Указательные): identification
+001;[This:t.Demonstrative,Singular,e.Near] solution seems better than the previous one.;Это решение кажется лучше предыдущего.;0;  
+002;I have never seen [this:t.Demonstrative,Singular,e.Near] kind of behavior before.;Я никогда раньше не видел такого поведения.;0;  
+003;Can you believe how fast [this:t.Demonstrative,Singular,e.Near] year has gone by?;Можешь поверить, как быстро пролетел этот год?;0;  
+004;[This:t.Demonstrative,Singular,e.Near] is exactly what we need to focus on.;Именно на этом нам нужно сосредоточиться.;0;  
+005;She handed me [this:t.Demonstrative,Singular,e.Near] document to review.;Она передала мне этот документ на проверку.;0;  
+009;[That:t.Demonstrative,Singular,e.Away] noise keeps getting louder.;Тот шум становится всё громче.;0;  
+010;She couldn't believe [that:t.Demonstrative,Singular,e.Away] was happening to her.;Она не могла поверить, что это происходит с ней.;0;  
+011;Did you see [that:t.Demonstrative,Singular,e.Away] strange light in the sky?;Ты видел тот странный свет в небе?;0;  
+012;We should avoid [that:t.Demonstrative,Singular,e.Away] road during rush hour.;Нам стоит избегать той дороги в час пик.;0;  
+013;I never understood [that:t.Demonstrative,Singular,e.Away] joke.;Я никогда не понимал ту шутку.;0;  
+014;[These:t.Demonstrative,Plural,e.Near] books belong to the library.;Эти книги принадлежат библиотеке.;0;  
+015;[These:t.Demonstrative,Plural,e.Near] are the best moments of my life.;Это лучшие моменты в моей жизни.;0;  
+016;Could you pass me [these:t.Demonstrative,Plural,e.Near] papers?;Можешь передать мне эти бумаги?;0;  
+017;I love how soft [these:t.Demonstrative,Plural,e.Near] blankets feel.;Мне нравится, какие мягкие эти одеяла.;0;  
+018;He bought [these:t.Demonstrative,Plural,e.Near] shoes just yesterday.;Он купил эти туфли только вчера.;0;  
+019;[Those:t.Demonstrative,Plural,e.Away] mountains look stunning in the sunset.;Те горы выглядят потрясающе на закате.;0;  
+020;Do you remember [those:t.Demonstrative,Plural,e.Away] days when we had no worries?;Ты помнишь те дни, когда у нас не было забот?;0;  
+021;I don't trust [those:t.Demonstrative,Plural,e.Away] people.;Я не доверяю тем людям.;0;  
+022;[Those:t.Demonstrative,Plural,e.Away] birds migrate south every winter.;Те птицы мигрируют на юг каждую зиму.;0;  
+023;She was staring at [those:t.Demonstrative,Plural,e.Away] paintings for hours.;Она часами смотрела на те картины.;0;  
 
-374;Do you remember [this:t.demonstr,s,near] moment?;Ты помнишь этот момент?;0;
-375;[This:t.demonstr,s,near] problem needs to be solved immediately.;Эту проблему нужно решить немедленно.;0;
-376;Can you believe [this:t.demonstr,s,near] news?;Ты можешь поверить в эти новости?;0;
-377;I can’t stop thinking about [this:t.demonstr,s,near] possibility.;Я не могу перестать думать об этой возможности.;0;
-378;We need to focus on [this:t.demonstr,s,near] issue before moving forward.;Нам нужно сосредоточиться на этом вопросе, прежде чем двигаться дальше.;0;
-379;[That:t.demonstr,s,far] was one of the best experiences of my life.;То был один из лучших моментов в моей жизни.;0;
-380;She couldn’t believe [that:t.demonstr,s,far] actually happened.;Она не могла поверить, что это действительно произошло.;0;
-381;I don’t agree with [that:t.demonstr,s,far] opinion.;Я не согласен с этим мнением.;0;
-382;[That:t.demonstr,s,far] sound is coming from outside.;Тот звук идёт снаружи.;0;
-383;If you listen carefully, you’ll understand [that:t.demonstr,s,far] idea.;Если ты послушаешь внимательно, ты поймёшь ту идею.;0;
-384;[These:t.demonstr,p,near] pictures were taken during our vacation.;Эти фотографии были сделаны во время нашего отпуска.;0;
-385;I love [these:t.demonstr,p,near] colors in your painting.;Мне нравятся эти цвета в твоей картине.;0;
-386;We should consider [these:t.demonstr,p,near] factors before making a decision.;Нам стоит учитывать эти факторы перед принятием решения.;0;
-387;[These:t.demonstr,p,near] documents need to be signed by the manager.;Эти документы должны быть подписаны менеджером.;0;
-388;Are [these:t.demonstr,p,near] the keys you were looking for?;Это те ключи, которые ты искал?;0;
-389;Who left [those:t.demonstr,p,far] bags on the table?;Кто оставил те сумки на столе?;0;
-390;I remember [those:t.demonstr,p,far] days like they were yesterday.;Я помню те дни, как будто это было вчера.;0;
-391;[Those:t.demonstr,p,far] books belong to the library.;Те книги принадлежат библиотеке.;0;
-392;Could you pass me [those:t.demonstr,p,far] papers, please?;Можешь передать мне те бумаги, пожалуйста?;0;
-393;[Those:t.demonstr,p,far] ideas were ahead of their time.;Те идеи опередили своё время.;0;
-394;The weather was perfect during [this:t.demonstr,s,near] weekend.;Погода была идеальной в эти выходные.;0;
-395;Let’s talk about [this:t.demonstr,s,near] situation calmly.;Давай спокойно обсудим эту ситуацию.;0;
-396;[That:t.demonstr,s,far] was the moment I realized my mistake.;В тот момент я осознал свою ошибку.;0;
-397;I don’t think [that:t.demonstr,s,far] is a good idea.;Я не думаю, что это хорошая идея.;0;
-398;We need to discuss [these:t.demonstr,p,near] matters with the team.;Нам нужно обсудить эти вопросы с командой.;0;
-399;Why are [these:t.demonstr,p,near] prices so high?;Почему эти цены такие высокие?;0;
-400;The teacher asked about [those:t.demonstr,p,far] assignments.;Учитель спросил про те задания.;0;
-401;I found [those:t.demonstr,p,far] shoes in the closet.;Я нашёл те туфли в шкафу.;0;
-402;What do you think about [this:t.demonstr,s,near] design?;Что ты думаешь об этом дизайне?;0;
-403;[That:t.demonstr,s,far] building was constructed over a century ago.;То здание было построено более века назад.;0;
-404;[These:t.demonstr,p,near] questions are harder than I expected.;Эти вопросы сложнее, чем я ожидал.;0;
-405;She refused to answer [those:t.demonstr,p,far] accusations.;Она отказалась отвечать на те обвинения.;0;
-406;I have never seen [this:t.demonstr,s,near] kind of technology before.;Я никогда раньше не видел такую технологию.;0;
-407;[That:t.demonstr,s,far] decision changed everything.;То решение изменило всё.;0;
+Demonstrative(Указательные): This и That as an Intensifier
+001;I didn't expect it to be [this:t.Demonstrative,e.Intensifier] difficult.;Я не ожидал, что это будет так сложно.;0;  
+002;Why is she [this:t.Demonstrative,e.Intensifier] late today?;Почему она сегодня так опаздывает?;0;  
+003;I've never felt [this:t.Demonstrative,e.Intensifier] exhausted before.;Я никогда раньше не чувствовал себя так уставшим.;0;  
+004;I had no idea the test would be [this:t.Demonstrative,e.Intensifier] tricky.;Я не знал, что тест будет таким сложным.;0;  
+005;She didn't expect the movie to be [this:t.Demonstrative,e.Intensifier] boring.;Она не ожидала, что фильм будет таким скучным.;0;  
+006;Why are you [that:t.Demonstrative,e.Intensifier] nervous about it?;Почему ты так нервничаешь из-за этого?;0;  
+007;I never thought he could be [that:t.Demonstrative,e.Intensifier] rude.;Я никогда не думал, что он может быть настолько грубым.;0;  
+008;Do we really need to be [that:t.Demonstrative,e.Intensifier] careful?;Нам действительно нужно быть настолько осторожными?;0;  
+009;I didn't realize the climb would be [that:t.Demonstrative,e.Intensifier] steep.;Я не думал, что подъём будет таким крутым.;0;  
+010;I've never seen him [that:t.Demonstrative,e.Intensifier] angry before.;Я никогда раньше не видел его таким злым.;0;  
+
+Demonstrative(Указательные): noun2pronoun
+001;I don’t need [this:t.Demonstrative,e.Near](pen).;Мне не нужна эта ручка.;0;  
+002;[This:t.Demonstrative,e.Near](problem) needs to be solved immediately.;Эту проблему нужно решить немедленно.;0;  
+003;Can you believe [this:t.Demonstrative,e.Near](weather)?;Ты можешь поверить в эту погоду?;0;  
+004;I’ve never seen [this:t.Demonstrative,e.Near](painting) before.;Я никогда раньше не видел эту картину.;0;  
+005;Please hold [this:t.Demonstrative,e.Near](box) for a moment.;Подержи эту коробку на секунду.;0;  
+006;I don't want to talk about [that:t.Demonstrative,e.Away](incident).;Я не хочу говорить о том инциденте.;0;  
+007;She didn’t like [that:t.Demonstrative,e.Away](song) at all.;Ей совсем не понравилась та песня.;0;  
+008;Why do you keep staring at [that:t.Demonstrative,e.Away](building)?;Почему ты продолжаешь смотреть на то здание?;0;  
+009;He regrets saying [that:t.Demonstrative,e.Away](word).;Он сожалеет, что сказал то слово.;0;  
+010;We should avoid [that:t.Demonstrative,e.Away](road) during rush hour.;Нам стоит избегать той дороги в час пик.;0;  
+011;[These:t.Demonstrative,e.Near](shoes) are really comfortable.;Эти туфли очень удобные.;0;  
+012;I can't believe how expensive [these:t.Demonstrative,e.Near](tickets) are.;Я не могу поверить, насколько дорогие эти билеты.;0;  
+013;Did you bring [these:t.Demonstrative,e.Near](documents) I asked for?;Ты принёс те документы, о которых я просил?;0;  
+014;[These:t.Demonstrative,e.Near](cookies) taste amazing!;Эти печенья на вкус потрясающие!;0;  
+015;We need to check [these:t.Demonstrative,e.Near](calculations) again.;Нам нужно снова проверить эти расчёты.;0;  
+016;I don’t trust [those:t.Demonstrative,e.Away](people).;Я не доверяю тем людям.;0;  
+017;Do you remember [those:t.Demonstrative,e.Away](days) when we had no worries?;Ты помнишь те дни, когда у нас не было забот?;0;  
+018;She bought [those:t.Demonstrative,e.Away](chairs) last year.;Она купила те стулья в прошлом году.;0;  
+019;I was thinking about [those:t.Demonstrative,e.Away](moments) we spent together.;Я думал о тех моментах, которые мы провели вместе.;0;  
+020;[Those:t.Demonstrative,e.Away](houses) were built over a century ago.;Те дома были построены более века назад.;0;  
+
+>>>
+Interrogative(Вопросительные):
+
 
 408;[What:t.interrog,Inanimate,Case.Nom] book are you reading?; Какую книгу ты читаешь?;0;
 409;[What:t.interrog,Inanimate,Case.Nom] movie do you like the most?; Какой фильм тебе нравится больше всего?;0;
@@ -1551,7 +1573,7 @@ Demonstrative(Указательные): identification
 414;[What:t.interrog,Inanimate,Case.Nom] app do you use for notes?; Какое приложение ты используешь для заметок?;0;
 415;I can't decide [what:t.interrog,Inanimate,Case.Nom] book I should read next.; Я не могу решить, какую книгу мне читать дальше.;0;
 416;She asked me [what:t.interrog,Inanimate,Case.Nom] car I had rented for the trip.; Она спросила меня, какую машину я арендовал для поездки.;0;
-417;I couldn’t remember [what:t.interrog,Inanimate,Case.Nom] gift she had given me last year.; Я не мог вспомнить, какой подарок она мне подарила в прошлом году.;0;
+417;I couldn't remember [what:t.interrog,Inanimate,Case.Nom] gift she had given me last year.; Я не мог вспомнить, какой подарок она мне подарила в прошлом году.;0;
 418;He explained [what:t.interrog,Inanimate,Case.Nom] strategy had led to their success.; Он объяснил, какая стратегия привела к их успеху.;0;
 419;She asked me [what:t.interrog,Inanimate,Case.Nom] laptop I had bought for work.; Она спросила меня, какой ноутбук я купил для работы.;0;
 420;I need to figure out [what:t.interrog,Inanimate,Case.Nom] course would be most useful for my career.; Мне нужно понять, какой курс будет наиболее полезен для моей карьеры.;0;
@@ -1565,7 +1587,7 @@ Demonstrative(Указательные): identification
 428;[Who:t.interrog,Animate,Case.Nom] knows the answer?; Кто знает ответ?;0;
 429;I don't know [who:t.interrog,Animate,Case.Nom] left the door open last night.; Я не знаю, кто оставил дверь открытой прошлой ночью.;0;
 430;She couldn't understand [who:t.interrog,Animate,Case.Nom] had sent her the anonymous letter.; Она не могла понять, кто отправил ей анонимное письмо.;0;
-431;I couldn’t tell [who:t.interrog,Animate,Case.Nom] had left the lights on.; Я не мог сказать, кто оставил свет включённым.;0;
+431;I couldn't tell [who:t.interrog,Animate,Case.Nom] had left the lights on.; Я не мог сказать, кто оставил свет включённым.;0;
 432;She wondered [who:t.interrog,Animate,Case.Nom] had been spreading the rumors.; Она задумалась, кто распространял слухи.;0;
 433;He had no idea [who:t.interrog,Animate,Case.Nom] had stolen his wallet.; Он не имел понятия, кто украл его кошелек.;0;
 434;The manager asked [who:t.interrog,Animate,Case.Nom] had completed the report.; Менеджер спросил, кто закончил отчет.;0;
@@ -1590,7 +1612,7 @@ Demonstrative(Указательные): identification
 453;On [whom:t.interrog,Animate,Case.Obj,f.frml,e.frml-constr] does the final decision depend?; От кого зависит окончательное решение?;0;
 454;Against [whom:t.interrog,Animate,Case.Obj,f.frml,e.frml-constr] were the charges filed?; Против кого были выдвинуты обвинения?;0;
 455;The report must indicate to [whom:t.interrog,Animate,Case.Obj,f.frml,e.frml-constr] the funds were allocated.; Отчет должен указывать, кому были выделены средства.;0;
-456;They haven’t yet decided for [whom:t.interrog,Animate,Case.Obj,f.frml,e.frml-constr] the award will be designated.; Они еще не решили, кому будет присуждена награда.;0;
+456;They haven't yet decided for [whom:t.interrog,Animate,Case.Obj,f.frml,e.frml-constr] the award will be designated.; Они еще не решили, кому будет присуждена награда.;0;
 457;It remains unclear with [whom:t.interrog,Animate,Case.Obj,f.frml,e.frml-constr] the responsibility lies.; Остается неясным, на ком лежит ответственность.;0;
 458;The committee is discussing to [whom:t.interrog,Animate,Case.Obj,f.frml,e.frml-constr] they should grant the research funds.; Комитет обсуждает, кому следует предоставить исследовательские гранты.;0;
 459;The legal team needs to determine against [whom:t.interrog,Animate,Case.Obj,f.frml,e.frml-constr] the lawsuit should be filed.; Юридическая команда должна определить, против кого следует подать иск.;0;
@@ -1603,11 +1625,11 @@ Demonstrative(Указательные): identification
 466;[Who:t.interrog,Animate,Case.Obj,f.coll] did they hire for the job?; Кого они наняли на работу?;0;
 467;I wasn't sure [who:t.interrog,Animate,Case.Obj,f.coll] he had chosen for the position.; Я не был уверен, кого он выбрал на эту должность.;0;
 468;The professor explained [who:t.interrog,Animate,Case.Obj,f.coll] the committee had selected for the scholarship.; Профессор объяснил, кого комитет выбрал для получения стипендии.;0;
-469;I didn’t know [who:t.interrog,Animate,Case.Obj,f.coll] they had chosen for the award.; Я не знал, кого они выбрали на награду.;0;
+469;I didn't know [who:t.interrog,Animate,Case.Obj,f.coll] they had chosen for the award.; Я не знал, кого они выбрали на награду.;0;
 470;She asked [who:t.interrog,Animate,Case.Obj,f.coll] I had talked to about the issue.; Она спросила, с кем я говорил по этому вопросу.;0;
 471;He was wondering [who:t.interrog,Animate,Case.Obj,f.coll] she had invited to dinner.; Он гадал, кого она пригласила на ужин.;0;
 472;They were discussing [who:t.interrog,Animate,Case.Obj,f.coll] should be the next team leader.; Они обсуждали, кто должен быть следующим лидером команды.;0;
-473;I wasn’t sure [who:t.interrog,Animate,Case.Obj,f.coll] the manager had promoted.; Я не был уверен, кого менеджер повысил.;0;
+473;I wasn't sure [who:t.interrog,Animate,Case.Obj,f.coll] the manager had promoted.; Я не был уверен, кого менеджер повысил.;0;
 474;[Whose:t.interrog,a.y/n,Case.Pos] jacket is this?; Чья это куртка?;0;
 475;[Whose:t.interrog,a.y/n,Case.Pos] idea was that?; Чья это была идея?;0;
 476;[Whose:t.interrog,a.y/n,Case.Pos] car is parked outside?; Чья машина припаркована снаружи?;0;
@@ -1629,12 +1651,12 @@ Demonstrative(Указательные): identification
 492;[Which:t.interrog,a.y] athlete broke the record?; Какой спортсмен побил рекорд?;0;
 493;[Which:t.interrog,a.y] author wrote this novel?; Какой автор написал этот роман?;0;
 494;[Which:t.interrog,a.y] musician performed at the concert?; Какой музыкант выступал на концерте?;0;
-495;I wasn’t sure [which:t.interrog,a.y] student had submitted the best project.; Я не был уверен, какой студент представил лучший проект.;0;
+495;I wasn't sure [which:t.interrog,a.y] student had submitted the best project.; Я не был уверен, какой студент представил лучший проект.;0;
 496;She asked me [which:t.interrog,a.y] professor had the highest ratings.; Она спросила меня, у какого профессора самые высокие оценки.;0;
 497;The jury was discussing [which:t.interrog,a.y] candidate deserved the prize.; Жюри обсуждало, какой кандидат заслуживает награду.;0;
 498;We need to determine [which:t.interrog,a.y] researcher contributed the most to the study.; Нам нужно определить, какой исследователь внес наибольший вклад в исследование.;0;
 499;He debated with his colleagues [which:t.interrog,a.y] director should lead the project.; Он обсуждал с коллегами, какой директор должен возглавить проект.;0;
-500;The organizers couldn’t decide [which:t.interrog,a.y] speaker should open the conference.; Организаторы не могли решить, какой спикер должен открыть конференцию.;0;
+500;The organizers couldn't decide [which:t.interrog,a.y] speaker should open the conference.; Организаторы не могли решить, какой спикер должен открыть конференцию.;0;
 501;The hiring committee is evaluating [which:t.interrog,a.y] applicant has the best qualifications.; Комитет по найму оценивает, какой кандидат обладает лучшими квалификациями.;0;
 502;[Which:t.interrog,a.n] book do you recommend?; Какую книгу ты рекомендуешь?;0;
 503;[Which:t.interrog,a.n] car is more fuel-efficient?; Какая машина более экономична по топливу?;0;
@@ -1643,7 +1665,7 @@ Demonstrative(Указательные): identification
 506;[Which:t.interrog,a.n] movie won the Oscar this year?; Какой фильм выиграл Оскар в этом году?;0;
 507;[Which:t.interrog,a.n] software is best for video editing?; Какое программное обеспечение лучше для видеомонтажа?;0;
 508;[Which:t.interrog,a.n] phone has the best battery life?; Какой телефон имеет лучшую автономность?;0;
-509;I wasn’t sure [which:t.interrog,a.n] car model would suit my needs.; Я не был уверен, какая модель автомобиля подойдет мне лучше.;0;
+509;I wasn't sure [which:t.interrog,a.n] car model would suit my needs.; Я не был уверен, какая модель автомобиля подойдет мне лучше.;0;
 510;She asked [which:t.interrog,a.n] programming language is most useful for web development.; Она спросила, какой язык программирования наиболее полезен для веб-разработки.;0;
 511;They discussed [which:t.interrog,a.n] university provides the best engineering program.; Они обсуждали, какой университет предлагает лучшую инженерную программу.;0;
 512;He needed to decide [which:t.interrog,a.n] investment would be the safest.; Ему нужно было решить, какое вложение будет самым безопасным.;0;
@@ -1653,7 +1675,7 @@ Demonstrative(Указательные): identification
 
 516;The teacher [who:t.relative,animate,f.ntrl/frml] helped us was very kind.;Учитель, который нам помог, был очень добрым.;0;
 517;She met a scientist [who:t.relative,animate,f.ntrl/frml] discovered a new element.;Она встретила учёного, который открыл новый элемент.;0;
-518;The woman [who:t.relative,animate,f.ntrl/frml] lives next door is a doctor.;Женщина, которая живёт по соседству, – врач.;0;
+518;The woman [who:t.relative,animate,f.ntrl/frml] lives next door is a doctor.;Женщина, которая живёт по соседству, - врач.;0;
 519;The author [who:t.relative,animate,f.ntrl/frml] wrote this book is famous.;Автор, который написал эту книгу, известен.;0;
 520;I have a friend [who:t.relative,animate,f.ntrl/frml] loves hiking.;У меня есть друг, который любит пешие прогулки.;0;
 521;The musician [who:t.relative,animate,f.ntrl/frml] you saw yesterday has won many awards.;Музыкант, которого ты видел вчера, выиграл много наград.;0;
@@ -1670,11 +1692,11 @@ Demonstrative(Указательные): identification
 532;The scientist [whom:t.relative,animate,f.frml] the committee chose will lead the project.;Учёный, которого выбрал комитет, будет руководить проектом.;0;
 533;The doctor [whom:t.relative,animate,f.frml] you called is unavailable today.;Доктор, которого ты вызвал, сегодня недоступен.;0;
 534;The speaker [whom:t.relative,animate,f.frml] they invited declined the offer.;Спикер, которого они пригласили, отказался от предложения.;0;
-535;The actor [whom:t.relative,animate,f.frml] we saw at the event is a well-known celebrity.;Актёр, которого мы видели на мероприятии, – известная знаменитость.;0;
+535;The actor [whom:t.relative,animate,f.frml] we saw at the event is a well-known celebrity.;Актёр, которого мы видели на мероприятии, - известная знаменитость.;0;
 536;The guy [that:t.relative,animate,f.infr] fixed my car was really fast.;Парень, который починил мою машину, был очень быстрым.;0;
 537;I know someone [that:t.relative,animate,f.infr] can help us.;Я знаю кого-то, кто может нам помочь.;0;
 538;The teacher [that:t.relative,animate,f.infr] teaches math is really strict.;Учитель, который преподаёт математику, очень строгий.;0;
-539;The kid [that:t.relative,animate,f.infr] won the race is my cousin.;Ребёнок, который выиграл гонку, – мой двоюродный брат.;0;
+539;The kid [that:t.relative,animate,f.infr] won the race is my cousin.;Ребёнок, который выиграл гонку, - мой двоюродный брат.;0;
 540;She has a friend [that:t.relative,animate,f.infr] loves rock music.;У неё есть друг, который любит рок-музыку.;0;
 541;The man [that:t.relative,animate,f.infr] I saw yesterday looked familiar.;Мужчина, которого я видел вчера, выглядел знакомым.;0;
 542;The workers [that:t.relative,animate,f.infr] they hired are very professional.;Рабочие, которых они наняли, очень профессиональные.;0;
@@ -1710,12 +1732,12 @@ Demonstrative(Указательные): identification
 571;Do you have [any:t.indef,p,countable,inanimate,f.ntrl] questions?;У вас есть какие-нибудь вопросы?;0;
 572;You can choose [any:t.indef,s,countable,inanimate,f.ntrl] book you like.;Ты можешь выбрать любую книгу, которая тебе нравится.;0;
 573;Is there [any:t.indef,s,uncountable,inanimate,f.ntrl] food left?;Осталась ли какая-нибудь еда?;0;
-574;I didn’t see [any:t.indef,s,uncountable,inanimate,f.ntrl] difference.;Я не заметил никакой разницы.;0;
+574;I didn't see [any:t.indef,s,uncountable,inanimate,f.ntrl] difference.;Я не заметил никакой разницы.;0;
 575;Do you know [any:t.indef,p,countable,inanimate,f.ntrl] good restaurants nearby?;Ты знаешь какие-нибудь хорошие рестораны поблизости?;0;
 576;[none:t.indef,p,countable,animate,f.ntrl] of them came.;Никто из них не пришёл.;0;
 577;[none:t.indef,p,countable,inanimate,f.ntrl] of the answers were correct.;Ни один из ответов не был правильным.;0;
 578;[none:t.indef,p,countable,animate,f.ntrl] of the students passed the test.;Ни один из студентов не сдал тест.;0;
-579;There’s [none:t.indef,s,uncountable,inanimate,f.ntrl] left in the fridge.;В холодильнике ничего не осталось.;0;
+579;There's [none:t.indef,s,uncountable,inanimate,f.ntrl] left in the fridge.;В холодильнике ничего не осталось.;0;
 580;[none:t.indef,p,countable,animate,f.ntrl] of us knew about it.;Никто из нас не знал об этом.;0;
 581;[all:t.indef,s,uncountable,inanimate,f.ntrl] is well.;Всё хорошо.;0;
 582;[all:t.indef,p,countable,animate,f.ntrl] the students passed the exam.;Все студенты сдали экзамен.;0;
@@ -1785,14 +1807,14 @@ Demonstrative(Указательные): identification
 645;I wanted answers, but [none:t.negative,a.y/n,d.group] of them made sense.;Я хотел получить ответы, но ни один из них не имел смысла.;0;
 
 676;You can take [either:t.determ,c.y,d.1of2,e.positive] seat near the window.;Ты можешь занять любое из двух мест у окна.;0;
-677;I don’t think [either:t.determ,c.y,d.1of2,e.positive] solution is perfect.;Я не думаю, что любое из двух решений идеально.;0;
+677;I don't think [either:t.determ,c.y,d.1of2,e.positive] solution is perfect.;Я не думаю, что любое из двух решений идеально.;0;
 678;You may choose [either:t.determ,c.y,d.1of2,e.positive] method for your experiment.;Ты можешь выбрать любой из двух методов для эксперимента.;0;
-679;He doesn’t like [either:t.determ,c.y,d.1of2,e.positive] of the available options.;Ему не нравится ни один из двух доступных вариантов.;0;
-680;She bought a dress, but she couldn’t decide on [either:t.determ,c.y,d.1of2,e.positive] color.;Она купила платье, но не могла выбрать ни один из двух цветов.;0;
+679;He doesn't like [either:t.determ,c.y,d.1of2,e.positive] of the available options.;Ему не нравится ни один из двух доступных вариантов.;0;
+680;She bought a dress, but she couldn't decide on [either:t.determ,c.y,d.1of2,e.positive] color.;Она купила платье, но не могла выбрать ни один из двух цветов.;0;
 681;[Either:t.determ,c.y,d.1of2,e.positive] answer would be acceptable in this case.;Любой из двух ответов будет приемлем в этом случае.;0;
 682;He stood at the crossroads, looking at [either:t.determ,c.y,d.1of2,e.positive] direction with uncertainty.;Он стоял на перекрестке, смотря в любую из двух сторон с неуверенностью.;0;
 683;There was a road on [either:t.determ,c.y,d.1of2,e.positive] side of the river.;По обе стороны реки была дорога.;0;
-684;I don’t think [either:t.determ,c.y,d.1of2,e.positive] of us wants to lose this opportunity.;Я не думаю, что кто-то из нас двоих хочет упустить эту возможность.;0;
+684;I don't think [either:t.determ,c.y,d.1of2,e.positive] of us wants to lose this opportunity.;Я не думаю, что кто-то из нас двоих хочет упустить эту возможность.;0;
 685;You should try [either:t.determ,c.y,d.1of2,e.positive] key to unlock the door.;Попробуй любой из двух ключей, чтобы открыть дверь.;0;
 686;[Each:t.determ,c.y,d.1ofgrp,e.individuality] student must submit their assignment before Friday.;Каждый студент должен сдать свое задание до пятницы.;0;
 687;She gave [each:t.determ,c.y,d.1ofgrp,e.individuality] of her children a separate gift.;Она подарила каждому из своих детей отдельный подарок.;0;
@@ -1874,15 +1896,15 @@ Demonstrative(Указательные): identification
 763;[Many:t.determ,c.y,d.grpofgrp,e.a-lot] people believe in the power of positive thinking.;Многие люди верят в силу позитивного мышления.;0;
 764;He has [many:t.determ,c.y,d.grpofgrp,e.a-lot] friends in different countries.;У него много друзей в разных странах.;0;
 765;[Many:t.determ,c.y,d.grpofgrp,e.a-lot] projects require teamwork to be successful.;Многие проекты требуют командной работы для успеха.;0;
-766;There isn’t [much:t.determ,c.n,d.grpofgrp,e.a-lot] time left before the deadline.;До дедлайна осталось не так много времени.;0;
-767;She doesn’t have [much:t.determ,c.n,d.grpofgrp,e.a-lot] experience in this field.;У нее не так много опыта в этой области.;0;
+766;There isn't [much:t.determ,c.n,d.grpofgrp,e.a-lot] time left before the deadline.;До дедлайна осталось не так много времени.;0;
+767;She doesn't have [much:t.determ,c.n,d.grpofgrp,e.a-lot] experience in this field.;У нее не так много опыта в этой области.;0;
 768;[Much:t.determ,c.n,d.grpofgrp,e.a-lot] effort was needed to complete the task.;Потребовалось много усилий, чтобы завершить задание.;0;
-769;He didn’t show [much:t.determ,c.n,d.grpofgrp,e.a-lot] interest in the topic.;Он не проявил большого интереса к теме.;0;
-770;We don’t have [much:t.determ,c.n,d.grpofgrp,e.a-lot] information about the case.;У нас мало информации по этому делу.;0;
+769;He didn't show [much:t.determ,c.n,d.grpofgrp,e.a-lot] interest in the topic.;Он не проявил большого интереса к теме.;0;
+770;We don't have [much:t.determ,c.n,d.grpofgrp,e.a-lot] information about the case.;У нас мало информации по этому делу.;0;
 771;[Much:t.determ,c.n,d.grpofgrp,e.a-lot] work has been done to improve the system.;Было проделано много работы для улучшения системы.;0;
-772;She doesn’t drink [much:t.determ,c.n,d.grpofgrp,e.a-lot] coffee.;Она не пьет много кофе.;0;
+772;She doesn't drink [much:t.determ,c.n,d.grpofgrp,e.a-lot] coffee.;Она не пьет много кофе.;0;
 773;[Much:t.determ,c.n,d.grpofgrp,e.a-lot] attention was given to the details.;Много внимания было уделено деталям.;0;
-774;There isn’t [much:t.determ,c.n,d.grpofgrp,e.a-lot] traffic in the morning.;Утром нет сильного движения.;0;
+774;There isn't [much:t.determ,c.n,d.grpofgrp,e.a-lot] traffic in the morning.;Утром нет сильного движения.;0;
 775;[Much:t.determ,c.n,d.grpofgrp,e.a-lot] patience is required for this job.;Для этой работы требуется много терпения.;0;
 776;[All:t.determ,c.y/n,d.abs] students must follow the rules.;Все студенты должны соблюдать правила.;0;
 777;He lost [all:t.determ,c.y/n,d.abs] hope after multiple failures.;После множества неудач он потерял всякую надежду.;0;
