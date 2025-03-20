@@ -143,6 +143,18 @@ id;question;extra;suspicious_status;suspicious_note
 000;Are [we:t.Personal,e.Patronizing] ready for our big speech today?; Мы готовы к нашему важному выступлению сегодня? (учитель ученику);0;
 000;[We:t.Personal,e.Patronizing] seem to have forgotten our manners.; Мы, кажется, забыли про хорошие манеры. (покровительственный тон);0;
 
+# personal-subj: Anthropomorphism - персонификация объектов
+000;This ship is a legend. [She:t.Presonal,e.anthropomorphism] has survived the roughest seas.;Этот корабль – легенда. Она пережила самые суровые моря.;0;
+000;His car used to break down often, but now [She:t.Presonal,e.anthropomorphism] runs smoothly after repairs.;Его машина раньше часто ломалась, но теперь она работает без сбоев после ремонта.;0;
+000;The aircraft will complete its final flight tomorrow. [She:t.Presonal,e.anthropomorphism] has served well for decades.;Этот самолет завершит свой последний полет завтра. Она служила верой и правдой десятилетиями.;0;
+000;That battleship wouldn’t have lasted this long if [She:t.Presonal,e.anthropomorphism] weren’t so well built.;Этот линкор не прослужил бы так долго, если бы он не был так хорошо построен.;0;
+000;Her old motorcycle wasn’t as fast as modern bikes, but [She:t.Presonal,e.anthropomorphism] never failed on long trips.;Ее старый мотоцикл не был таким быстрым, как современные, но он никогда не подводил в долгих поездках.;0;
+000;By next year, this submarine will have been decommissioned. [She:t.Presonal,e.anthropomorphism] has completed many missions.;К следующему году эта подводная лодка будет списана. Она выполнила множество миссий.;0;
+000;This truck might not be new, yet [She:t.Presonal,e.anthropomorphism] still carries heavy loads without trouble.;Этот грузовик может и не новый, но он все еще без проблем перевозит тяжелые грузы.;0;
+000;That spaceship wouldn’t have reached Mars if [She:t.Presonal,e.anthropomorphism] hadn’t been designed perfectly.;Тот космический корабль не долетел бы до Марса, если бы он не был спроектирован идеально.;0;
+000;The locomotive had been running for over a century before [She:t.Presonal,e.anthropomorphism] was finally retired.;Этот локомотив работал более века, прежде чем его наконец отправили на покой.;0;
+000;If it weren’t for this cannon, the fort wouldn’t have stood a chance. [She:t.Presonal,e.anthropomorphism] defended the city bravely.;Если бы не эта пушка, крепость не имела бы шансов. Она храбро защищала город.;0;
+
 # personal-subj: порядок местоимений
 000;[You and I] should go to the gym together. (I, you); Мы с тобой должны пойти в спортзал вместе.;0;
 000;[You and I] should work on this project together. (I, you); Мы с тобой должны работать над этим проектом вместе.;0;
@@ -567,6 +579,18 @@ id;question;extra;suspicious_status;suspicious_note
 000;The infant was cold, so we covered [it:t.Personal] with a soft blanket.; Младенец замёрз, поэтому мы накрыли его мягким одеялом.;0;  
 000;The mother kissed the newborn before handing [it:t.Personal] to the father.; Мать поцеловала новорождённого, прежде чем передать его отцу.;0;  
 
+# personal-obj: Anthropomorphism - персонификация объектов
+000;The ship’s crew repaired [her:t.Possessive,e.anthropomorphism] after the storm.;Команда корабля отремонтировала её после шторма.;0;
+000;He looked at his old motorcycle and decided to repaint [her:t.Object,e.anthropomorphism].;Он посмотрел на свой старый мотоцикл и решил перекрасить его.;0;
+000;The pilot trusted his jet and relied on [her:t.Object,e.anthropomorphism] completely.;Пилот доверял своему истребителю и полностью полагался на него.;0;
+000;We sailed on this boat for years, and I can’t imagine selling [her:t.Object,e.anthropomorphism].;Мы плавали на этой лодке много лет, и я не могу представить, что продам её.;0;
+000;The old steam train had a soul, and everyone who rode [her:t.Object,e.anthropomorphism] felt it.;У этого старого паровоза была душа, и каждый, кто ехал на нём, это чувствовал.;0;
+000;He had owned this classic car since college and always took care of [her:t.Object,e.anthropomorphism].;Он владел этим классическим автомобилем со студенческих лет и всегда заботился о нём.;0;
+000;The warship was legendary, and historians still write about [her:t.Object,e.anthropomorphism].;Этот военный корабль был легендарным, и историки до сих пор пишут о нём.;0;
+000;The mechanic lifted the hood of the vintage truck and inspected [her:t.Object,e.anthropomorphism] carefully.;Механик открыл капот старого грузовика и внимательно осмотрел его.;0;
+000;Before the final flight, the engineer checked every part of [her:t.Possessive,e.anthropomorphism] on the spacecraft.;Перед последним полётом инженер проверил каждую деталь на этом космическом корабле.;0;
+000;The captain always spoke of his ship with love, saying [her:t.Object,e.anthropomorphism] name with pride.;Капитан всегда говорил о своём корабле с любовью, произнося его имя с гордостью.;0;
+
 # personal-obj: порядок местоимений
 000;They saw [you and me](you, I) at the park.;Они видели тебя и меня в парке.;0;
 000;She invited [you and me](you, I) to dinner.; Она пригласила тебя и меня на ужин.;0;  
@@ -673,7 +697,16 @@ id;question;extra;suspicious_status;suspicious_note
 000;FIXME: The success wasn't its. -> That wasn't [its success].; Это не был его успех.; 0;
 000;FIXME: This advantage isn't its. -> This isn't [its advantage].; Это не его преимущество.; 0;
 
-# possessive-absolute: patterns.ok - с предлогом "of" (часто в формальных и литературных текстах)
+# possessive-absolute: Singular Theirs
+000;If anyone lost a wallet, this one might be [theirs:t.Possessive].;Если кто-то потерял кошелек, возможно, это его/ее.;0;
+000;Who made this artwork? Oh, it's [theirs:t.Possessive].;Кто создал эту работу? О, это его/ее.;0;
+001;Each driver has a designated parking spot, and this one is [theirs:t.Possessive] to use.;У каждого водителя есть свое парковочное место, и это - его/ее для использования.;0;
+002;A guest left their phone on the table, but I wasn't sure if it was [theirs:t.Possessive] or someone else's.;Гость оставил телефон на столе, но я не был уверен, его/ее ли он или чей-то другой.;0;
+003;One of the students forgot a textbook, but the teacher knew it was [theirs:t.Possessive] by the handwriting.;Один из студентов забыл учебник, но учитель понял, что он его/ее, по почерку.;0;
+004;An artist submitted a painting for the exhibition, and the gallery confirmed it was [theirs:t.Possessive] by the signature.;Художник представил картину на выставку, и галерея подтвердила, что она его/ее, по подписи.;0;
+005;Someone left an umbrella in the office, and the receptionist said it was [theirs:t.Possessive] from yesterday.;Кто-то оставил зонт в офисе, и администратор сказал, что он его/ее со вчерашнего дня.;0;
+
+# possessive-absolute: patterns - с предлогом "of" (часто в формальных и литературных текстах)
 000;She is a friend of [mine:s1].;Она моя подруга.;0;
 000;That car of [theirs:p3] is cool.;Та их машина классная.;0;
 000;This idea of [hers:s3f] is brilliant.;Эта её идея блестящая.;0;
@@ -697,28 +730,28 @@ id;question;extra;suspicious_status;suspicious_note
 008;FIXME: A project of our got approved. -> A project [of ours] got approved.;<перевод>;0;
 009;FIXME: A colleague of your invited me to the event. -> A colleague [of yours] invited me to the event.;<перевод>;0;
 
-# possessive-absolute: patterns.ok - после глагола be (в значении принадлежности)
+# possessive-absolute: patterns - после глагола be (в значении принадлежности)
 000;This seat is [mine:s1].;Это место моё.;0;
 000;The decision is [yours:s2].;Решение за тобой.;0;
 000;That house is [theirs:p3].;Тот дом их.;0;
 000;The responsibility is [ours:p1].;Ответственность на нас.;0;
 000;This victory is [hers:s3f].;Эта победа её.;0;
 
-# possessive-absolute: patterns.ok - в конце предложения (без существительного)
+# possessive-absolute: patterns - в конце предложения (без существительного)
 000;I lost my pen, so I borrowed [yours:s2].;Я потерял свою ручку, поэтому одолжил твою.;0;
 000;They have their problems, and we have [ours:p1].;У них свои проблемы, а у нас свои.;0;
 000;His presentation was great, but [mine:s1] was better.;Его презентация была хорошей, но моя лучше.;0;
 000;She forgot her notebook, so I gave her [mine:s1].;Она забыла свой блокнот, поэтому я дал ей свой.;0;
 000;Their car is fast, but [ours:p1] is more comfortable.;Их машина быстрая, но наша удобнее.;0;
 
-# possessive-absolute: patterns.ok - в сравнительных конструкциях
+# possessive-absolute: patterns - в сравнительных конструкциях
 000;Her idea is more creative than [mine:s1].;Её идея креативнее моей.;0;
 000;His grades are higher than [yours:s2].;Его оценки выше твоих.;0;
 000;Your solution is simpler than [ours:p1].;Твоё решение проще нашего.;0;
 000;Their company is bigger than [his:s3m].;Их компания больше, чем его.;0;
 000;This city is more crowded than [theirs:p3].;Этот город более многолюдный, чем их.;0;
 
-# possessive-absolute: patterns.ok - в сочетаниях с "own" (для усиления)
+# possessive-absolute: patterns - в сочетаниях с "own" (для усиления)
 000;I want a place [of my own](of myself).;Я хочу своё собственное место.;0;
 000;She dreams of having a business [of her own](of herself).;Она мечтает о собственном бизнесе.;0;
 000;They bought a house [of their own](of themselves).;Они купили свой собственный дом.;0;
@@ -730,14 +763,10 @@ id;question;extra;suspicious_status;suspicious_note
 000;She has a car [of her own](of herself).;У неё есть собственная машина.;0;
 000;She wants a room [of her own](of herself).;Она хочет свою собственную комнату.;0;
 
-# possessive-absolute: Singular Theirs
-000;If anyone lost a wallet, this one might be [theirs:t.Possessive].;Если кто-то потерял кошелек, возможно, это его/ее.;0;
-000;Who made this artwork? Oh, it's [theirs:t.Possessive].;Кто создал эту работу? О, это его/ее.;0;
-001;Each driver has a designated parking spot, and this one is [theirs:t.Possessive] to use.;У каждого водителя есть свое парковочное место, и это - его/ее для использования.;0;
-002;A guest left their phone on the table, but I wasn't sure if it was [theirs:t.Possessive] or someone else's.;Гость оставил телефон на столе, но я не был уверен, его/ее ли он или чей-то другой.;0;
-003;One of the students forgot a textbook, but the teacher knew it was [theirs:t.Possessive] by the handwriting.;Один из студентов забыл учебник, но учитель понял, что он его/ее, по почерку.;0;
-004;An artist submitted a painting for the exhibition, and the gallery confirmed it was [theirs:t.Possessive] by the signature.;Художник представил картину на выставку, и галерея подтвердила, что она его/ее, по подписи.;0;
-005;Someone left an umbrella in the office, and the receptionist said it was [theirs:t.Possessive] from yesterday.;Кто-то оставил зонт в офисе, и администратор сказал, что он его/ее со вчерашнего дня.;0;
+# possessive-absolute: Anthropomorphism - персонификация объектов
+000;This submarine is legendary, and no other vessel can match [hers:t.Possessive,e.anthropomorphism].;Эта подводная лодка легендарна, и ни одно другое судно не сравнится с ней.;0;
+000;The steam locomotive has a charm that is uniquely [hers:t.Possessive,e.anthropomorphism].;Этот паровоз обладает очарованием, которое присуще только ему.;0;
+000;The vintage car was parked next to a modern one, but [hers:t.Possessive,e.anthropomorphism] was the one that drew all the attention.;Ретро-автомобиль был припаркован рядом с современным, но именно он привлекал всеобщее внимание.;0;
 
 # possessive-absolute: noun2pronoun
 000;This pen is [mine:t.Possessive-absolute](my pen).;Это моя ручка;0;
@@ -872,7 +901,7 @@ id;question;extra;suspicious_status;suspicious_note
 009;If a writer wants to improve [their:t.Possessive] skills, they must practice daily.;Если писатель хочет улучшить свои навыки, он должен практиковаться ежедневно.;0;
 010;Each person must choose [their:t.Possessive] own path in life.;Каждый человек должен выбрать свой собственный путь в жизни.;0;
 
-# possessive-cojoint: patterns.ok - в сочетаниях с "own" (для усиления)
+# possessive-cojoint: patterns - в сочетаниях с "own" (для усиления)
 001;I have [my:t.Possessive] own apartment.;У меня есть своя собственная квартира.;0;
 002;He prefers [my:t.Possessive] own recipe.;Он предпочитает мой собственный рецепт.;0;
 003;I can solve this problem on [my:t.Possessive] own.;Я могу решить эту проблему самостоятельно.;0;
@@ -908,6 +937,11 @@ id;question;extra;suspicious_status;suspicious_note
 033;[Their:t.Possessive] own house is under construction.;Их собственный дом строится.;0;
 034;[Their:t.Possessive] own words proved them wrong.;Их собственные слова доказали их неправоту.;0;
 035;[Their:t.Possessive] own experience helped them succeed.;Их собственный опыт помог им добиться успеха.;0;
+
+# possessive-cojoint: Anthropomorphism - персонификация объектов
+000;The ship was old, but [her:t.Possessive,e.anthropomorphism] sails were still intact.;Корабль был старым, но его паруса всё ещё были целы.;0;
+000;The jet took off smoothly, showcasing [her:t.Possessive,e.anthropomorphism] impressive power.;Истребитель взлетел плавно, демонстрируя свою впечатляющую мощь.;0;
+000;Despite the years, [her:t.Possessive,e.anthropomorphism] engine still roared like new.;Несмотря на годы, её двигатель всё ещё рычал, как новый.;0;
 
 # possessive-cojoint: possessive-cojoint vs "to be"
 000;[They're](they're/their) going to the store.;Они идут в магазин.;0;
@@ -1484,6 +1518,7 @@ Reciprocal(взаимные): identification
 000;In the meeting, all team members exchanged ideas with [one another:t.Reciprocal,r.3].;На встрече все члены команды обменялись идеями друг с другом.;0;
 000;Students from different schools competed against [one another:t.Reciprocal,r.3] in the tournament.;Ученики из разных школ соревновались друг с другом на турнире.;0;
 000;During the debate, politicians argued with [one another:t.Reciprocal,r.3] over policies.;Во время дебатов политики спорили друг с другом по поводу политики.;0;
+
 Reciprocal(взаимные): possesive
 000;They borrowed [each other's:t.Reciprocal-Possessive,r.2] books for the literature project.;Они одолжили книги друг у друга для литературного проекта.;0;
 000;We couldn't understand [each other's:t.Reciprocal-Possessive,r.2] handwriting.;Мы не могли разобрать почерк друг друга.;0;
@@ -1491,6 +1526,7 @@ Reciprocal(взаимные): possesive
 000;The band members appreciated [one another's:t.Reciprocal-Possessive,r.3] contributions to the album.;Участники группы ценили вклад друг друга в альбом.;0;
 000;The scientists reviewed [one another's:t.Reciprocal-Possessive,r.3] research papers before publishing.;Учёные рецензировали научные работы друг друга перед публикацией.;0;
 000;The athletes respected [one another's:t.Reciprocal-Possessive,r.3] achievements in the championship.;Атлеты уважали достижения друг друга в чемпионате.;0;
+
 Reciprocal(взаимные): reciprocal vs themselves
 000;They blamed [each other](each other/themselves) for the mistake, but in reality, it was nobody's fault.;Они винили друг друга за ошибку, но на самом деле это была ничья вина.;0;
 000;The students helped [each other](each other/themselves) with their homework.;Ученики помогали друг другу с домашним заданием.;0;
@@ -1551,9 +1587,161 @@ Demonstrative(Указательные): noun2pronoun
 010;We should avoid [that:t.Demonstrative,e.Away](road) during rush hour.;Нам стоит избегать той дороги в час пик.;0;  
 
 >>>
-Relative(Относительные):
+606;There is [nothing:t.negative,Inanimate,d.abs] to worry about.;Не о чем волноваться.;0;
+607;She has [nothing:t.negative,Inanimate,d.abs] to say.;Ей нечего сказать.;0;
+608;[nothing:t.negative,Inanimate,d.abs] is more important than health.;Ничего нет важнее здоровья.;0;
+609;I have [nothing:t.negative,Inanimate,d.abs] in my pockets.;У меня ничего нет в карманах.;0;
+610;[nothing:t.negative,Inanimate,d.abs] will stop us.;Ничто нас не остановит.;0;
+611;I told you [nothing:t.negative,Inanimate,d.abs] about it.;Я тебе ничего не говорил об этом.;0;
+612;She found [nothing:t.negative,Inanimate,d.abs] interesting in the book.;Она не нашла в книге ничего интересного.;0;
+613;We saw [nothing:t.negative,Inanimate,d.abs] unusual in his behavior.;Мы не заметили в его поведении ничего необычного.;0;
+614;They gave me [nothing:t.negative,Inanimate,d.abs] useful.;Они не дали мне ничего полезного.;0;
+615;He remembers [nothing:t.negative,Inanimate,d.abs] from that night.;Он ничего не помнит с той ночи.;0;
+616;They searched everywhere, but found [nothing:t.negative,Inanimate,d.abs].;Они искали повсюду, но ничего не нашли.;0;
+617;[no one:t.negative,Animate,s,f.frml] can enter.;Никто не может войти.;0;
+618;[no one:t.negative,Animate,s,f.frml] knew the answer.;Никто не знал ответа.;0;
+619;[no one:t.negative,Animate,s,f.frml] wants to leave early.;Никто не хочет уходить рано.;0;
+620;[no one:t.negative,Animate,s,f.frml] saw what happened.;Никто не видел, что произошло.;0;
+621;[no one:t.negative,Animate,s,f.frml] was ready for the test.;Никто не был готов к тесту.;0;
+622;The teacher said [no one:t.negative,Animate,s,f.frml] passed the test.;Учитель сказал, что никто не сдал тест.;0;
+623;[No one:t.negative,Animate,s,f.frml] in the group understood the question.;Никто в группе не понял вопрос.;0;
+624;She spoke to [no one:t.negative,Animate,s,f.frml] about her problem.;Она ни с кем не говорила о своей проблеме.;0;
+625;We invited many people, but [no one:t.negative,Animate,s,f.frml] showed up.;Мы пригласили многих, но никто не пришёл.;0;
+626;[nobody:t.negative,Animate,s,f.ntrl] saw him.;Никто его не видел.;0;
+627;[nobody:t.negative,Animate,s,f.ntrl] was in the room.;Никого не было в комнате.;0;
+628;[nobody:t.negative,Animate,s,f.ntrl] can help with this task.;Никто не может помочь с этим заданием.;0;
+629;[nobody:t.negative,Animate,s,f.ntrl] believed her story.;Никто не поверил её истории.;0;
+630;[nobody:t.negative,Animate,s,f.ntrl] is answering the phone.;Никто не отвечает на телефон.;0;
+631;[Nobody:t.negative,Animate,s,f.ntrl] in the office noticed the mistake.;Никто в офисе не заметил ошибку.;0;
+632;He asked for help, but [nobody:t.negative,Animate,s,f.ntrl] was available.;Он попросил помощи, но никто не был доступен.;0;
+633;She waited for a response, but [nobody:t.negative,Animate,s,f.ntrl] replied.;Она ждала ответа, но никто не ответил.;0;
+634;He needed support, but [nobody:t.negative,Animate,s,f.ntrl] stood by him.;Ему нужна была поддержка, но никто его не поддержал.;0;
+635;[none:t.negative,a.y/n,d.group] of them agreed.;Никто из них не согласился.;0;
+636;[none:t.negative,a.y/n,d.group] of the plans worked.;Ни один из планов не сработал.;0;
+637;[none:t.negative,a.y/n,d.group] of the students passed the exam.;Никто из студентов не сдал экзамен.;0;
+638;[none:t.negative,a.y/n,d.group] of us knew what to do.;Никто из нас не знал, что делать.;0;
+639;[none:t.negative,a.y/n,d.group] of the cookies are left.;Печенье закончилось.;0;
+640;[None:t.negative,a.y/n,d.group] of my friends like this movie.;Никому из моих друзей не нравится этот фильм.;0;
+641;[None:t.negative,a.y/n,d.group] of them remembered the rule.;Никто из них не вспомнил правило.;0;
+642;He asked for cookies, but [none:t.negative,a.y/n,d.group] were left.;Он попросил печенье, но его не осталось.;0;
+643;She checked the messages, but [none:t.negative,a.y/n,d.group] were unread.;Она проверила сообщения, но непрочитанных не осталось.;0;
+644;We looked for volunteers, but [none:t.negative,a.y/n,d.group] wanted to help.;Мы искали добровольцев, но никто не захотел помочь.;0;
+645;I wanted answers, but [none:t.negative,a.y/n,d.group] of them made sense.;Я хотел получить ответы, но ни один из них не имел смысла.;0;
 
+676;You can take [either:t.determ,c.y,d.1of2,e.positive] seat near the window.;Ты можешь занять любое из двух мест у окна.;0;
+677;I don't think [either:t.determ,c.y,d.1of2,e.positive] solution is perfect.;Я не думаю, что любое из двух решений идеально.;0;
+678;You may choose [either:t.determ,c.y,d.1of2,e.positive] method for your experiment.;Ты можешь выбрать любой из двух методов для эксперимента.;0;
+679;He doesn't like [either:t.determ,c.y,d.1of2,e.positive] of the available options.;Ему не нравится ни один из двух доступных вариантов.;0;
+680;She bought a dress, but she couldn't decide on [either:t.determ,c.y,d.1of2,e.positive] color.;Она купила платье, но не могла выбрать ни один из двух цветов.;0;
+681;[Either:t.determ,c.y,d.1of2,e.positive] answer would be acceptable in this case.;Любой из двух ответов будет приемлем в этом случае.;0;
+682;He stood at the crossroads, looking at [either:t.determ,c.y,d.1of2,e.positive] direction with uncertainty.;Он стоял на перекрестке, смотря в любую из двух сторон с неуверенностью.;0;
+683;There was a road on [either:t.determ,c.y,d.1of2,e.positive] side of the river.;По обе стороны реки была дорога.;0;
+684;I don't think [either:t.determ,c.y,d.1of2,e.positive] of us wants to lose this opportunity.;Я не думаю, что кто-то из нас двоих хочет упустить эту возможность.;0;
+685;You should try [either:t.determ,c.y,d.1of2,e.positive] key to unlock the door.;Попробуй любой из двух ключей, чтобы открыть дверь.;0;
+686;[Each:t.determ,c.y,d.1ofgrp,e.individuality] student must submit their assignment before Friday.;Каждый студент должен сдать свое задание до пятницы.;0;
+687;She gave [each:t.determ,c.y,d.1ofgrp,e.individuality] of her children a separate gift.;Она подарила каждому из своих детей отдельный подарок.;0;
+688;[Each:t.determ,c.y,d.1ofgrp,e.individuality] participant received a certificate of completion.;Каждый участник получил сертификат о прохождении.;0;
+689;The teacher spoke to [each:t.determ,c.y,d.1ofgrp,e.individuality] student separately.;Учитель поговорил с каждым студентом отдельно.;0;
+690;I greeted [each:t.determ,c.y,d.1ofgrp,e.individuality] guest personally as they arrived.;Я лично приветствовал каждого гостя по прибытии.;0;
+691;She placed a flower on [each:t.determ,c.y,d.1ofgrp,e.individuality] desk before the meeting.;Она положила цветок на каждый стол перед собранием.;0;
+692;[Each:t.determ,c.y,d.1ofgrp,e.individuality] chapter in this book has a summary at the end.;Каждая глава в этой книге имеет резюме в конце.;0;
+693;He checked [each:t.determ,c.y,d.1ofgrp,e.individuality] email carefully before replying.;Он внимательно проверил каждое письмо перед ответом.;0;
+694;[Each:t.determ,c.y,d.1ofgrp,e.individuality] of the candidates will have a chance to speak.;Каждый из кандидатов получит возможность высказаться.;0;
+695;I spent time talking to [each:t.determ,c.y,d.1ofgrp,e.individuality] employee about their concerns.;Я поговорил с каждым сотрудником об их проблемах.;0;
+696;[Every:t.determ,c.y,d.1ofgrp,e.general] morning, she goes for a run in the park.;Каждое утро она бегает в парке.;0;
+697;[Every:t.determ,c.y,d.1ofgrp,e.general] employee must follow the company's guidelines.;Каждый сотрудник должен соблюдать правила компании.;0;
+698;He reads a new book [every:t.determ,c.y,d.1ofgrp,e.general] month.;Он читает новую книгу каждый месяц.;0;
+699;I wake up at the same time [every:t.determ,c.y,d.1ofgrp,e.general] day.;Я просыпаюсь в одно и то же время каждый день.;0;
+700;She calls her parents [every:t.determ,c.y,d.1ofgrp,e.general] Sunday evening.;Она звонит родителям каждое воскресенье вечером.;0;
+701;The team meets for a briefing [every:t.determ,c.y,d.1ofgrp,e.general] Monday morning.;Команда собирается на брифинг каждое утро понедельника.;0;
+702;[Every:t.determ,c.y,d.1ofgrp,e.general] child in the school was given a free book.;Каждому ребенку в школе подарили бесплатную книгу.;0;
+703;The system is checked for updates [every:t.determ,c.y,d.1ofgrp,e.general] week.;Система проверяется на обновления каждую неделю.;0;
+704;We clean the house [every:t.determ,c.y,d.1ofgrp,e.general] Saturday.;Мы убираем дом каждую субботу.;0;
+705;[Every:t.determ,c.y,d.1ofgrp,e.general] seat in the theater was taken.;Каждое место в театре было занято.;0;
+706;[Both:t.determ,c.y,d.2,e.positive] of my friends are coming to the party.;Оба моих друга придут на вечеринку.;0;
+707;He is good at [both:t.determ,c.y,d.2,e.positive] math and science.;Он хорош и в математике, и в науке.;0;
+708;She can speak [both:t.determ,c.y,d.2,e.positive] French and Spanish fluently.;Она свободно говорит и на французском, и на испанском.;0;
+709;They [both:t.determ,c.y,d.2,e.positive] agreed to the terms of the contract.;Они оба согласились с условиями контракта.;0;
+710;[Both:t.determ,c.y,d.2,e.positive] solutions are acceptable in this case.;Оба решения приемлемы в этом случае.;0;
+711;We visited [both:t.determ,c.y,d.2,e.positive] cities during our trip.;Мы посетили оба города во время поездки.;0;
+712;He likes [both:t.determ,c.y,d.2,e.positive] coffee and tea.;Ему нравятся и кофе, и чай.;0;
+713;[Both:t.determ,c.y,d.2,e.positive] of the restaurants have excellent reviews.;Оба ресторана имеют отличные отзывы.;0;
+714;The twins look [both:t.determ,c.y,d.2,e.positive] identical.;Близнецы выглядят совершенно одинаково.;0;
+715;You should check [both:t.determ,c.y,d.2,e.positive] options before deciding.;Тебе следует проверить оба варианта перед принятием решения.;0;
+716;[Neither:t.determ,c.y,d.2,e.negative] of the solutions worked as expected.;Ни одно из двух решений не сработало, как ожидалось.;0;
+717;[Neither:t.determ,c.y,d.2,e.negative] of them wanted to take responsibility.;Ни один из них не хотел брать на себя ответственность.;0;
+718;I like [neither:t.determ,c.y,d.2,e.negative] option that was offered.;Мне не нравится ни один из предложенных вариантов.;0;
+719;She can play [neither:t.determ,c.y,d.2,e.negative] piano nor guitar.;Она не умеет играть ни на пианино, ни на гитаре.;0;
+720;[Neither:t.determ,c.y,d.2,e.negative] of us knew the correct answer.;Ни один из нас двоих не знал правильного ответа.;0;
+721;The instructions were unclear, so [neither:t.determ,c.y,d.2,e.negative] approach worked.;Инструкции были непонятны, поэтому ни один из подходов не сработал.;0;
+722;[Neither:t.determ,c.y,d.2,e.negative] parent agreed with the decision.;Ни один из родителей не согласился с решением.;0;
+723;He tried two methods, but [neither:t.determ,c.y,d.2,e.negative] was effective.;Он попробовал два метода, но ни один не был эффективен.;0;
+724;[Neither:t.determ,c.y,d.2,e.negative] film was interesting enough to watch till the end.;Ни один из фильмов не был достаточно интересен, чтобы досмотреть до конца.;0;
+725;We tested both devices, but [neither:t.determ,c.y,d.2,e.negative] functioned properly.;Мы протестировали оба устройства, но ни одно не работало должным образом.;0;
+726;[Several:t.determ,c.y,d.grpofgrp,e.a-litle-neutral] students raised their hands.;Несколько студентов подняли руки.;0;
+727;I visited [several:t.determ,c.y,d.grpofgrp,e.a-litle-neutral] museums while in Paris.;Я посетил несколько музеев, когда был в Париже.;0;
+728;There were [several:t.determ,c.y,d.grpofgrp,e.a-litle-neutral] reasons for the delay.;Было несколько причин задержки.;0;
+729;[Several:t.determ,c.y,d.grpofgrp,e.a-litle-neutral] attempts were made to fix the issue.;Было предпринято несколько попыток исправить проблему.;0;
+730;He has read [several:t.determ,c.y,d.grpofgrp,e.a-litle-neutral] books on the topic.;Он прочитал несколько книг по этой теме.;0;
+731;[Several:t.determ,c.y,d.grpofgrp,e.a-litle-neutral] people complained about the service.;Несколько человек пожаловались на обслуживание.;0;
+732;She has traveled to [several:t.determ,c.y,d.grpofgrp,e.a-litle-neutral] countries in Europe.;Она путешествовала по нескольким странам Европы.;0;
+733;There are [several:t.determ,c.y,d.grpofgrp,e.a-litle-neutral] options to choose from.;Есть несколько вариантов на выбор.;0;
+734;He made [several:t.determ,c.y,d.grpofgrp,e.a-litle-neutral] mistakes in his calculations.;Он допустил несколько ошибок в расчетах.;0;
+735;The company has [several:t.determ,c.y,d.grpofgrp,e.a-litle-neutral] branches worldwide.;У компании есть несколько филиалов по всему миру.;0;
+736;[A few:t.determ,c.y,d.grpofgrp,e.a-litle-positive] guests arrived early.;Несколько гостей пришли раньше.;0;
+737;She has [a few:t.determ,c.y,d.grpofgrp,e.a-litle-positive] close friends she can rely on.;У нее есть несколько близких друзей, на которых можно положиться.;0;
+738;[A few:t.determ,c.y,d.grpofgrp,e.a-litle-positive] adjustments were needed to perfect the design.;Требовалось несколько корректировок, чтобы улучшить дизайн.;0;
+739;We spent [a few:t.determ,c.y,d.grpofgrp,e.a-litle-positive] hours exploring the city.;Мы провели несколько часов, исследуя город.;0;
+740;[A few:t.determ,c.y,d.grpofgrp,e.a-litle-positive] employees stayed late to finish the project.;Несколько сотрудников остались допоздна, чтобы закончить проект.;0;
+741;He took [a few:t.determ,c.y,d.grpofgrp,e.a-litle-positive] photos during the trip.;Он сделал несколько фотографий во время поездки.;0;
+742;[A few:t.determ,c.y,d.grpofgrp,e.a-litle-positive] days of rest will do you good.;Несколько дней отдыха пойдут тебе на пользу.;0;
+743;She made [a few:t.determ,c.y,d.grpofgrp,e.a-litle-positive] minor changes to the text.;Она внесла несколько небольших изменений в текст.;0;
+744;There were [a few:t.determ,c.y,d.grpofgrp,e.a-litle-positive] empty seats in the theater.;В театре было несколько свободных мест.;0;
+745;I have [a few:t.determ,c.y,d.grpofgrp,e.a-litle-positive] questions about the report.;У меня есть несколько вопросов по отчету.;0;
+746;[Few:t.determ,c.y,d.grpofgrp,e.a-litle-negative] people understood his explanation.;Мало кто понял его объяснение.;0;
+747;The event was poorly advertised, so [few:t.determ,c.y,d.grpofgrp,e.a-litle-negative] attendees showed up.;Мероприятие было плохо разрекламировано, поэтому пришло мало людей.;0;
+748;He has [few:t.determ,c.y,d.grpofgrp,e.a-litle-negative] opportunities to advance in his career.;У него мало возможностей для карьерного роста.;0;
+749;[Few:t.determ,c.y,d.grpofgrp,e.a-litle-negative] companies can afford such expensive technology.;Мало компаний могут позволить себе такую дорогую технологию.;0;
+750;She has [few:t.determ,c.y,d.grpofgrp,e.a-litle-negative] reasons to stay in this job.;У нее мало причин оставаться на этой работе.;0;
+751;[Few:t.determ,c.y,d.grpofgrp,e.a-litle-negative] students passed the difficult exam.;Мало студентов сдали этот сложный экзамен.;0;
+752;I have [few:t.determ,c.y,d.grpofgrp,e.a-litle-negative] doubts about his honesty.;У меня мало сомнений в его честности.;0;
+753;[Few:t.determ,c.y,d.grpofgrp,e.a-litle-negative] restaurants serve authentic local cuisine.;Мало ресторанов подают аутентичную местную кухню.;0;
+754;He received [few:t.determ,c.y,d.grpofgrp,e.a-litle-negative] responses to his job application.;Он получил мало откликов на свое резюме.;0;
+755;There are [few:t.determ,c.y,d.grpofgrp,e.a-litle-negative] ways to solve this problem.;Есть мало способов решить эту проблему.;0;
+756;There are [many:t.determ,c.y,d.grpofgrp,e.a-lot] ways to improve your skills.;Есть много способов улучшить свои навыки.;0;
+757;[Many:t.determ,c.y,d.grpofgrp,e.a-lot] students participated in the competition.;Многие студенты приняли участие в соревновании.;0;
+758;She has read [many:t.determ,c.y,d.grpofgrp,e.a-lot] books on this subject.;Она прочитала много книг по этой теме.;0;
+759;[Many:t.determ,c.y,d.grpofgrp,e.a-lot] tourists visit this city every year.;Много туристов посещают этот город каждый год.;0;
+760;There are [many:t.determ,c.y,d.grpofgrp,e.a-lot] reasons to consider this proposal.;Есть много причин рассмотреть это предложение.;0;
+761;[Many:t.determ,c.y,d.grpofgrp,e.a-lot] of the guests arrived early.;Многие из гостей пришли рано.;0;
+762;She has attended [many:t.determ,c.y,d.grpofgrp,e.a-lot] conferences on the topic.;Она посетила много конференций по этой теме.;0;
+763;[Many:t.determ,c.y,d.grpofgrp,e.a-lot] people believe in the power of positive thinking.;Многие люди верят в силу позитивного мышления.;0;
+764;He has [many:t.determ,c.y,d.grpofgrp,e.a-lot] friends in different countries.;У него много друзей в разных странах.;0;
+765;[Many:t.determ,c.y,d.grpofgrp,e.a-lot] projects require teamwork to be successful.;Многие проекты требуют командной работы для успеха.;0;
+766;There isn't [much:t.determ,c.n,d.grpofgrp,e.a-lot] time left before the deadline.;До дедлайна осталось не так много времени.;0;
+767;She doesn't have [much:t.determ,c.n,d.grpofgrp,e.a-lot] experience in this field.;У нее не так много опыта в этой области.;0;
+768;[Much:t.determ,c.n,d.grpofgrp,e.a-lot] effort was needed to complete the task.;Потребовалось много усилий, чтобы завершить задание.;0;
+769;He didn't show [much:t.determ,c.n,d.grpofgrp,e.a-lot] interest in the topic.;Он не проявил большого интереса к теме.;0;
+770;We don't have [much:t.determ,c.n,d.grpofgrp,e.a-lot] information about the case.;У нас мало информации по этому делу.;0;
+771;[Much:t.determ,c.n,d.grpofgrp,e.a-lot] work has been done to improve the system.;Было проделано много работы для улучшения системы.;0;
+772;She doesn't drink [much:t.determ,c.n,d.grpofgrp,e.a-lot] coffee.;Она не пьет много кофе.;0;
+773;[Much:t.determ,c.n,d.grpofgrp,e.a-lot] attention was given to the details.;Много внимания было уделено деталям.;0;
+774;There isn't [much:t.determ,c.n,d.grpofgrp,e.a-lot] traffic in the morning.;Утром нет сильного движения.;0;
+775;[Much:t.determ,c.n,d.grpofgrp,e.a-lot] patience is required for this job.;Для этой работы требуется много терпения.;0;
+776;[All:t.determ,c.y/n,d.abs] students must follow the rules.;Все студенты должны соблюдать правила.;0;
+777;He lost [all:t.determ,c.y/n,d.abs] hope after multiple failures.;После множества неудач он потерял всякую надежду.;0;
+778;[All:t.determ,c.y/n,d.abs] the employees attended the meeting.;Все сотрудники присутствовали на собрании.;0;
+779;She gave [all:t.determ,c.y/n,d.abs] her effort to complete the project.;Она приложила все усилия, чтобы завершить проект.;0;
+780;[All:t.determ,c.y/n,d.abs] roads lead to the city center.;Все дороги ведут в центр города.;0;
+781;We spent [all:t.determ,c.y/n,d.abs] day at the beach.;Мы провели весь день на пляже.;0;
+782;[All:t.determ,c.y/n,d.abs] of them agreed with the decision.;Все они согласились с решением.;0;
+783;She has read [all:t.determ,c.y/n,d.abs] the books on the subject.;Она прочитала все книги по этой теме.;0;
+784;[All:t.determ,c.y/n,d.abs] the water was contaminated.;Вся вода была загрязнена.;0;
+785;He gave [all:t.determ,c.y/n,d.abs] his savings to charity.;Он отдал все свои сбережения на благотворительность.;0;
 
+>>> СНАЧАЛА РАЗОБРАТЬСЯ С ПРИДАТОЧНЫМИ >>> СНАЧАЛА РАЗОБРАТЬСЯ С ПРИДАТОЧНЫМИ
+>>> СНАЧАЛА РАЗОБРАТЬСЯ С ПРИДАТОЧНЫМИ >>> СНАЧАЛА РАЗОБРАТЬСЯ С ПРИДАТОЧНЫМИ
+>>> СНАЧАЛА РАЗОБРАТЬСЯ С ПРИДАТОЧНЫМИ >>> СНАЧАЛА РАЗОБРАТЬСЯ С ПРИДАТОЧНЫМИ
 408;[What:t.interrog,Inanimate,Case.Nom] book are you reading?; Какую книгу ты читаешь?;0;
 409;[What:t.interrog,Inanimate,Case.Nom] movie do you like the most?; Какой фильм тебе нравится больше всего?;0;
 410;[What:t.interrog,Inanimate,Case.Nom] song are you listening to?; Какую песню ты слушаешь?;0;
@@ -1714,195 +1902,4 @@ Relative(Относительные):
 564;The software [which:t.relative,inanimate,f.ntrl/frml] he created is revolutionary.;Программное обеспечение, которое он создал, революционное.;0;
 565;The policy [which:t.relative,inanimate,f.ntrl/frml] was introduced has many benefits.;Политика, которая была введена, имеет много преимуществ.;0;
 
-566;I need [some:t.indef,s,uncountable,inanimate,f.ntrl] water.;Мне нужно немного воды.;0;
-567;Some [some:t.indef,p,countable,animate,f.ntrl] people enjoy reading.;Некоторым людям нравится читать.;0;
-568;Could you lend me [some:t.indef,s,uncountable,inanimate,f.ntrl] money?;Можешь одолжить мне немного денег?;0;
-569;She brought [some:t.indef,p,countable,inanimate,f.ntrl] flowers.;Она принесла немного цветов.;0;
-570;We have [some:t.indef,s,uncountable,inanimate,f.ntrl] news to share.;У нас есть новости, которыми мы хотим поделиться.;0;
-571;Do you have [any:t.indef,p,countable,inanimate,f.ntrl] questions?;У вас есть какие-нибудь вопросы?;0;
-572;You can choose [any:t.indef,s,countable,inanimate,f.ntrl] book you like.;Ты можешь выбрать любую книгу, которая тебе нравится.;0;
-573;Is there [any:t.indef,s,uncountable,inanimate,f.ntrl] food left?;Осталась ли какая-нибудь еда?;0;
-574;I didn't see [any:t.indef,s,uncountable,inanimate,f.ntrl] difference.;Я не заметил никакой разницы.;0;
-575;Do you know [any:t.indef,p,countable,inanimate,f.ntrl] good restaurants nearby?;Ты знаешь какие-нибудь хорошие рестораны поблизости?;0;
-576;[none:t.indef,p,countable,animate,f.ntrl] of them came.;Никто из них не пришёл.;0;
-577;[none:t.indef,p,countable,inanimate,f.ntrl] of the answers were correct.;Ни один из ответов не был правильным.;0;
-578;[none:t.indef,p,countable,animate,f.ntrl] of the students passed the test.;Ни один из студентов не сдал тест.;0;
-579;There's [none:t.indef,s,uncountable,inanimate,f.ntrl] left in the fridge.;В холодильнике ничего не осталось.;0;
-580;[none:t.indef,p,countable,animate,f.ntrl] of us knew about it.;Никто из нас не знал об этом.;0;
-581;[all:t.indef,s,uncountable,inanimate,f.ntrl] is well.;Всё хорошо.;0;
-582;[all:t.indef,p,countable,animate,f.ntrl] the students passed the exam.;Все студенты сдали экзамен.;0;
-583;She gave [all:t.indef,s,uncountable,inanimate,f.ntrl] her time to the project.;Она отдала всё своё время проекту.;0;
-584;[all:t.indef,p,countable,animate,f.ntrl] of us were excited.;Все мы были взволнованы.;0;
-585;[all:t.indef,p,countable,inanimate,f.ntrl] the cookies are gone.;Все печенья закончились.;0;
-586;[one:t.indef,s,countable,animate,f.ntrl] should always be polite.;Всегда нужно быть вежливым.;0;
-587;[one:t.indef,s,countable,animate,f.ntrl] of the students is absent.;Один из студентов отсутствует.;0;
-588;Do you want [one:t.indef,s,countable,inanimate,f.ntrl] or two cups of coffee?;Ты хочешь одну или две чашки кофе?;0;
-589;[one:t.indef,s,countable,animate,f.ntrl] must respect others.;Нужно уважать других.;0;
-590;She bought [one:t.indef,s,countable,inanimate,f.ntrl] for herself.;Она купила один для себя.;0;
-591;[someone:t.indef,s,countable,animate,f.ntrl] is at the door.;Кто-то у двери.;0;
-592;[someone:t.indef,s,countable,animate,f.ntrl] left their phone here.;Кто-то оставил здесь свой телефон.;0;
-593;She met [someone:t.indef,s,countable,animate,f.ntrl] new yesterday.;Она встретила кого-то нового вчера.;0;
-594;[someone:t.indef,s,countable,animate,f.ntrl] should take responsibility.;Кто-то должен взять на себя ответственность.;0;
-595;Is [someone:t.indef,s,countable,animate,f.ntrl] coming to help us?;Кто-то придёт, чтобы помочь нам?;0;
-596;Is there [anyone:t.indef,s,countable,animate,f.ntrl] who can help?;Есть кто-нибудь, кто может помочь?;0;
-597;[anyone:t.indef,s,countable,animate,f.ntrl] can join the club.;Любой может вступить в клуб.;0;
-598;Did [anyone:t.indef,s,countable,animate,f.ntrl] call while I was out?;Кто-нибудь звонил, пока меня не было?;0;
-599;Does [anyone:t.indef,s,countable,animate,f.ntrl] know the answer?;Кто-нибудь знает ответ?;0;
-600;[anyone:t.indef,s,countable,animate,f.ntrl] can learn to swim.;Каждый может научиться плавать.;0;
-601;[no one:t.indef,s,countable,animate,f.ntrl] knows the answer.;Никто не знает ответа.;0;
-602;[no one:t.indef,s,countable,animate,f.ntrl] came to the meeting.;Никто не пришёл на встречу.;0;
-603;[no one:t.indef,s,countable,animate,f.ntrl] can solve this problem.;Никто не может решить эту проблему.;0;
-604;She told [no one:t.indef,s,countable,animate,f.ntrl] about her plans.;Она никому не рассказала о своих планах.;0;
-605;[no one:t.indef,s,countable,animate,f.ntrl] is allowed to enter.;Никому не разрешено входить.;0;
 
-606;There is [nothing:t.negative,Inanimate,d.abs] to worry about.;Не о чем волноваться.;0;
-607;She has [nothing:t.negative,Inanimate,d.abs] to say.;Ей нечего сказать.;0;
-608;[nothing:t.negative,Inanimate,d.abs] is more important than health.;Ничего нет важнее здоровья.;0;
-609;I have [nothing:t.negative,Inanimate,d.abs] in my pockets.;У меня ничего нет в карманах.;0;
-610;[nothing:t.negative,Inanimate,d.abs] will stop us.;Ничто нас не остановит.;0;
-611;I told you [nothing:t.negative,Inanimate,d.abs] about it.;Я тебе ничего не говорил об этом.;0;
-612;She found [nothing:t.negative,Inanimate,d.abs] interesting in the book.;Она не нашла в книге ничего интересного.;0;
-613;We saw [nothing:t.negative,Inanimate,d.abs] unusual in his behavior.;Мы не заметили в его поведении ничего необычного.;0;
-614;They gave me [nothing:t.negative,Inanimate,d.abs] useful.;Они не дали мне ничего полезного.;0;
-615;He remembers [nothing:t.negative,Inanimate,d.abs] from that night.;Он ничего не помнит с той ночи.;0;
-616;They searched everywhere, but found [nothing:t.negative,Inanimate,d.abs].;Они искали повсюду, но ничего не нашли.;0;
-617;[no one:t.negative,Animate,s,f.frml] can enter.;Никто не может войти.;0;
-618;[no one:t.negative,Animate,s,f.frml] knew the answer.;Никто не знал ответа.;0;
-619;[no one:t.negative,Animate,s,f.frml] wants to leave early.;Никто не хочет уходить рано.;0;
-620;[no one:t.negative,Animate,s,f.frml] saw what happened.;Никто не видел, что произошло.;0;
-621;[no one:t.negative,Animate,s,f.frml] was ready for the test.;Никто не был готов к тесту.;0;
-622;The teacher said [no one:t.negative,Animate,s,f.frml] passed the test.;Учитель сказал, что никто не сдал тест.;0;
-623;[No one:t.negative,Animate,s,f.frml] in the group understood the question.;Никто в группе не понял вопрос.;0;
-624;She spoke to [no one:t.negative,Animate,s,f.frml] about her problem.;Она ни с кем не говорила о своей проблеме.;0;
-625;We invited many people, but [no one:t.negative,Animate,s,f.frml] showed up.;Мы пригласили многих, но никто не пришёл.;0;
-626;[nobody:t.negative,Animate,s,f.ntrl] saw him.;Никто его не видел.;0;
-627;[nobody:t.negative,Animate,s,f.ntrl] was in the room.;Никого не было в комнате.;0;
-628;[nobody:t.negative,Animate,s,f.ntrl] can help with this task.;Никто не может помочь с этим заданием.;0;
-629;[nobody:t.negative,Animate,s,f.ntrl] believed her story.;Никто не поверил её истории.;0;
-630;[nobody:t.negative,Animate,s,f.ntrl] is answering the phone.;Никто не отвечает на телефон.;0;
-631;[Nobody:t.negative,Animate,s,f.ntrl] in the office noticed the mistake.;Никто в офисе не заметил ошибку.;0;
-632;He asked for help, but [nobody:t.negative,Animate,s,f.ntrl] was available.;Он попросил помощи, но никто не был доступен.;0;
-633;She waited for a response, but [nobody:t.negative,Animate,s,f.ntrl] replied.;Она ждала ответа, но никто не ответил.;0;
-634;He needed support, but [nobody:t.negative,Animate,s,f.ntrl] stood by him.;Ему нужна была поддержка, но никто его не поддержал.;0;
-635;[none:t.negative,a.y/n,d.group] of them agreed.;Никто из них не согласился.;0;
-636;[none:t.negative,a.y/n,d.group] of the plans worked.;Ни один из планов не сработал.;0;
-637;[none:t.negative,a.y/n,d.group] of the students passed the exam.;Никто из студентов не сдал экзамен.;0;
-638;[none:t.negative,a.y/n,d.group] of us knew what to do.;Никто из нас не знал, что делать.;0;
-639;[none:t.negative,a.y/n,d.group] of the cookies are left.;Печенье закончилось.;0;
-640;[None:t.negative,a.y/n,d.group] of my friends like this movie.;Никому из моих друзей не нравится этот фильм.;0;
-641;[None:t.negative,a.y/n,d.group] of them remembered the rule.;Никто из них не вспомнил правило.;0;
-642;He asked for cookies, but [none:t.negative,a.y/n,d.group] were left.;Он попросил печенье, но его не осталось.;0;
-643;She checked the messages, but [none:t.negative,a.y/n,d.group] were unread.;Она проверила сообщения, но непрочитанных не осталось.;0;
-644;We looked for volunteers, but [none:t.negative,a.y/n,d.group] wanted to help.;Мы искали добровольцев, но никто не захотел помочь.;0;
-645;I wanted answers, but [none:t.negative,a.y/n,d.group] of them made sense.;Я хотел получить ответы, но ни один из них не имел смысла.;0;
-
-676;You can take [either:t.determ,c.y,d.1of2,e.positive] seat near the window.;Ты можешь занять любое из двух мест у окна.;0;
-677;I don't think [either:t.determ,c.y,d.1of2,e.positive] solution is perfect.;Я не думаю, что любое из двух решений идеально.;0;
-678;You may choose [either:t.determ,c.y,d.1of2,e.positive] method for your experiment.;Ты можешь выбрать любой из двух методов для эксперимента.;0;
-679;He doesn't like [either:t.determ,c.y,d.1of2,e.positive] of the available options.;Ему не нравится ни один из двух доступных вариантов.;0;
-680;She bought a dress, but she couldn't decide on [either:t.determ,c.y,d.1of2,e.positive] color.;Она купила платье, но не могла выбрать ни один из двух цветов.;0;
-681;[Either:t.determ,c.y,d.1of2,e.positive] answer would be acceptable in this case.;Любой из двух ответов будет приемлем в этом случае.;0;
-682;He stood at the crossroads, looking at [either:t.determ,c.y,d.1of2,e.positive] direction with uncertainty.;Он стоял на перекрестке, смотря в любую из двух сторон с неуверенностью.;0;
-683;There was a road on [either:t.determ,c.y,d.1of2,e.positive] side of the river.;По обе стороны реки была дорога.;0;
-684;I don't think [either:t.determ,c.y,d.1of2,e.positive] of us wants to lose this opportunity.;Я не думаю, что кто-то из нас двоих хочет упустить эту возможность.;0;
-685;You should try [either:t.determ,c.y,d.1of2,e.positive] key to unlock the door.;Попробуй любой из двух ключей, чтобы открыть дверь.;0;
-686;[Each:t.determ,c.y,d.1ofgrp,e.individuality] student must submit their assignment before Friday.;Каждый студент должен сдать свое задание до пятницы.;0;
-687;She gave [each:t.determ,c.y,d.1ofgrp,e.individuality] of her children a separate gift.;Она подарила каждому из своих детей отдельный подарок.;0;
-688;[Each:t.determ,c.y,d.1ofgrp,e.individuality] participant received a certificate of completion.;Каждый участник получил сертификат о прохождении.;0;
-689;The teacher spoke to [each:t.determ,c.y,d.1ofgrp,e.individuality] student separately.;Учитель поговорил с каждым студентом отдельно.;0;
-690;I greeted [each:t.determ,c.y,d.1ofgrp,e.individuality] guest personally as they arrived.;Я лично приветствовал каждого гостя по прибытии.;0;
-691;She placed a flower on [each:t.determ,c.y,d.1ofgrp,e.individuality] desk before the meeting.;Она положила цветок на каждый стол перед собранием.;0;
-692;[Each:t.determ,c.y,d.1ofgrp,e.individuality] chapter in this book has a summary at the end.;Каждая глава в этой книге имеет резюме в конце.;0;
-693;He checked [each:t.determ,c.y,d.1ofgrp,e.individuality] email carefully before replying.;Он внимательно проверил каждое письмо перед ответом.;0;
-694;[Each:t.determ,c.y,d.1ofgrp,e.individuality] of the candidates will have a chance to speak.;Каждый из кандидатов получит возможность высказаться.;0;
-695;I spent time talking to [each:t.determ,c.y,d.1ofgrp,e.individuality] employee about their concerns.;Я поговорил с каждым сотрудником об их проблемах.;0;
-696;[Every:t.determ,c.y,d.1ofgrp,e.general] morning, she goes for a run in the park.;Каждое утро она бегает в парке.;0;
-697;[Every:t.determ,c.y,d.1ofgrp,e.general] employee must follow the company's guidelines.;Каждый сотрудник должен соблюдать правила компании.;0;
-698;He reads a new book [every:t.determ,c.y,d.1ofgrp,e.general] month.;Он читает новую книгу каждый месяц.;0;
-699;I wake up at the same time [every:t.determ,c.y,d.1ofgrp,e.general] day.;Я просыпаюсь в одно и то же время каждый день.;0;
-700;She calls her parents [every:t.determ,c.y,d.1ofgrp,e.general] Sunday evening.;Она звонит родителям каждое воскресенье вечером.;0;
-701;The team meets for a briefing [every:t.determ,c.y,d.1ofgrp,e.general] Monday morning.;Команда собирается на брифинг каждое утро понедельника.;0;
-702;[Every:t.determ,c.y,d.1ofgrp,e.general] child in the school was given a free book.;Каждому ребенку в школе подарили бесплатную книгу.;0;
-703;The system is checked for updates [every:t.determ,c.y,d.1ofgrp,e.general] week.;Система проверяется на обновления каждую неделю.;0;
-704;We clean the house [every:t.determ,c.y,d.1ofgrp,e.general] Saturday.;Мы убираем дом каждую субботу.;0;
-705;[Every:t.determ,c.y,d.1ofgrp,e.general] seat in the theater was taken.;Каждое место в театре было занято.;0;
-706;[Both:t.determ,c.y,d.2,e.positive] of my friends are coming to the party.;Оба моих друга придут на вечеринку.;0;
-707;He is good at [both:t.determ,c.y,d.2,e.positive] math and science.;Он хорош и в математике, и в науке.;0;
-708;She can speak [both:t.determ,c.y,d.2,e.positive] French and Spanish fluently.;Она свободно говорит и на французском, и на испанском.;0;
-709;They [both:t.determ,c.y,d.2,e.positive] agreed to the terms of the contract.;Они оба согласились с условиями контракта.;0;
-710;[Both:t.determ,c.y,d.2,e.positive] solutions are acceptable in this case.;Оба решения приемлемы в этом случае.;0;
-711;We visited [both:t.determ,c.y,d.2,e.positive] cities during our trip.;Мы посетили оба города во время поездки.;0;
-712;He likes [both:t.determ,c.y,d.2,e.positive] coffee and tea.;Ему нравятся и кофе, и чай.;0;
-713;[Both:t.determ,c.y,d.2,e.positive] of the restaurants have excellent reviews.;Оба ресторана имеют отличные отзывы.;0;
-714;The twins look [both:t.determ,c.y,d.2,e.positive] identical.;Близнецы выглядят совершенно одинаково.;0;
-715;You should check [both:t.determ,c.y,d.2,e.positive] options before deciding.;Тебе следует проверить оба варианта перед принятием решения.;0;
-716;[Neither:t.determ,c.y,d.2,e.negative] of the solutions worked as expected.;Ни одно из двух решений не сработало, как ожидалось.;0;
-717;[Neither:t.determ,c.y,d.2,e.negative] of them wanted to take responsibility.;Ни один из них не хотел брать на себя ответственность.;0;
-718;I like [neither:t.determ,c.y,d.2,e.negative] option that was offered.;Мне не нравится ни один из предложенных вариантов.;0;
-719;She can play [neither:t.determ,c.y,d.2,e.negative] piano nor guitar.;Она не умеет играть ни на пианино, ни на гитаре.;0;
-720;[Neither:t.determ,c.y,d.2,e.negative] of us knew the correct answer.;Ни один из нас двоих не знал правильного ответа.;0;
-721;The instructions were unclear, so [neither:t.determ,c.y,d.2,e.negative] approach worked.;Инструкции были непонятны, поэтому ни один из подходов не сработал.;0;
-722;[Neither:t.determ,c.y,d.2,e.negative] parent agreed with the decision.;Ни один из родителей не согласился с решением.;0;
-723;He tried two methods, but [neither:t.determ,c.y,d.2,e.negative] was effective.;Он попробовал два метода, но ни один не был эффективен.;0;
-724;[Neither:t.determ,c.y,d.2,e.negative] film was interesting enough to watch till the end.;Ни один из фильмов не был достаточно интересен, чтобы досмотреть до конца.;0;
-725;We tested both devices, but [neither:t.determ,c.y,d.2,e.negative] functioned properly.;Мы протестировали оба устройства, но ни одно не работало должным образом.;0;
-726;[Several:t.determ,c.y,d.grpofgrp,e.a-litle-neutral] students raised their hands.;Несколько студентов подняли руки.;0;
-727;I visited [several:t.determ,c.y,d.grpofgrp,e.a-litle-neutral] museums while in Paris.;Я посетил несколько музеев, когда был в Париже.;0;
-728;There were [several:t.determ,c.y,d.grpofgrp,e.a-litle-neutral] reasons for the delay.;Было несколько причин задержки.;0;
-729;[Several:t.determ,c.y,d.grpofgrp,e.a-litle-neutral] attempts were made to fix the issue.;Было предпринято несколько попыток исправить проблему.;0;
-730;He has read [several:t.determ,c.y,d.grpofgrp,e.a-litle-neutral] books on the topic.;Он прочитал несколько книг по этой теме.;0;
-731;[Several:t.determ,c.y,d.grpofgrp,e.a-litle-neutral] people complained about the service.;Несколько человек пожаловались на обслуживание.;0;
-732;She has traveled to [several:t.determ,c.y,d.grpofgrp,e.a-litle-neutral] countries in Europe.;Она путешествовала по нескольким странам Европы.;0;
-733;There are [several:t.determ,c.y,d.grpofgrp,e.a-litle-neutral] options to choose from.;Есть несколько вариантов на выбор.;0;
-734;He made [several:t.determ,c.y,d.grpofgrp,e.a-litle-neutral] mistakes in his calculations.;Он допустил несколько ошибок в расчетах.;0;
-735;The company has [several:t.determ,c.y,d.grpofgrp,e.a-litle-neutral] branches worldwide.;У компании есть несколько филиалов по всему миру.;0;
-736;[A few:t.determ,c.y,d.grpofgrp,e.a-litle-positive] guests arrived early.;Несколько гостей пришли раньше.;0;
-737;She has [a few:t.determ,c.y,d.grpofgrp,e.a-litle-positive] close friends she can rely on.;У нее есть несколько близких друзей, на которых можно положиться.;0;
-738;[A few:t.determ,c.y,d.grpofgrp,e.a-litle-positive] adjustments were needed to perfect the design.;Требовалось несколько корректировок, чтобы улучшить дизайн.;0;
-739;We spent [a few:t.determ,c.y,d.grpofgrp,e.a-litle-positive] hours exploring the city.;Мы провели несколько часов, исследуя город.;0;
-740;[A few:t.determ,c.y,d.grpofgrp,e.a-litle-positive] employees stayed late to finish the project.;Несколько сотрудников остались допоздна, чтобы закончить проект.;0;
-741;He took [a few:t.determ,c.y,d.grpofgrp,e.a-litle-positive] photos during the trip.;Он сделал несколько фотографий во время поездки.;0;
-742;[A few:t.determ,c.y,d.grpofgrp,e.a-litle-positive] days of rest will do you good.;Несколько дней отдыха пойдут тебе на пользу.;0;
-743;She made [a few:t.determ,c.y,d.grpofgrp,e.a-litle-positive] minor changes to the text.;Она внесла несколько небольших изменений в текст.;0;
-744;There were [a few:t.determ,c.y,d.grpofgrp,e.a-litle-positive] empty seats in the theater.;В театре было несколько свободных мест.;0;
-745;I have [a few:t.determ,c.y,d.grpofgrp,e.a-litle-positive] questions about the report.;У меня есть несколько вопросов по отчету.;0;
-746;[Few:t.determ,c.y,d.grpofgrp,e.a-litle-negative] people understood his explanation.;Мало кто понял его объяснение.;0;
-747;The event was poorly advertised, so [few:t.determ,c.y,d.grpofgrp,e.a-litle-negative] attendees showed up.;Мероприятие было плохо разрекламировано, поэтому пришло мало людей.;0;
-748;He has [few:t.determ,c.y,d.grpofgrp,e.a-litle-negative] opportunities to advance in his career.;У него мало возможностей для карьерного роста.;0;
-749;[Few:t.determ,c.y,d.grpofgrp,e.a-litle-negative] companies can afford such expensive technology.;Мало компаний могут позволить себе такую дорогую технологию.;0;
-750;She has [few:t.determ,c.y,d.grpofgrp,e.a-litle-negative] reasons to stay in this job.;У нее мало причин оставаться на этой работе.;0;
-751;[Few:t.determ,c.y,d.grpofgrp,e.a-litle-negative] students passed the difficult exam.;Мало студентов сдали этот сложный экзамен.;0;
-752;I have [few:t.determ,c.y,d.grpofgrp,e.a-litle-negative] doubts about his honesty.;У меня мало сомнений в его честности.;0;
-753;[Few:t.determ,c.y,d.grpofgrp,e.a-litle-negative] restaurants serve authentic local cuisine.;Мало ресторанов подают аутентичную местную кухню.;0;
-754;He received [few:t.determ,c.y,d.grpofgrp,e.a-litle-negative] responses to his job application.;Он получил мало откликов на свое резюме.;0;
-755;There are [few:t.determ,c.y,d.grpofgrp,e.a-litle-negative] ways to solve this problem.;Есть мало способов решить эту проблему.;0;
-756;There are [many:t.determ,c.y,d.grpofgrp,e.a-lot] ways to improve your skills.;Есть много способов улучшить свои навыки.;0;
-757;[Many:t.determ,c.y,d.grpofgrp,e.a-lot] students participated in the competition.;Многие студенты приняли участие в соревновании.;0;
-758;She has read [many:t.determ,c.y,d.grpofgrp,e.a-lot] books on this subject.;Она прочитала много книг по этой теме.;0;
-759;[Many:t.determ,c.y,d.grpofgrp,e.a-lot] tourists visit this city every year.;Много туристов посещают этот город каждый год.;0;
-760;There are [many:t.determ,c.y,d.grpofgrp,e.a-lot] reasons to consider this proposal.;Есть много причин рассмотреть это предложение.;0;
-761;[Many:t.determ,c.y,d.grpofgrp,e.a-lot] of the guests arrived early.;Многие из гостей пришли рано.;0;
-762;She has attended [many:t.determ,c.y,d.grpofgrp,e.a-lot] conferences on the topic.;Она посетила много конференций по этой теме.;0;
-763;[Many:t.determ,c.y,d.grpofgrp,e.a-lot] people believe in the power of positive thinking.;Многие люди верят в силу позитивного мышления.;0;
-764;He has [many:t.determ,c.y,d.grpofgrp,e.a-lot] friends in different countries.;У него много друзей в разных странах.;0;
-765;[Many:t.determ,c.y,d.grpofgrp,e.a-lot] projects require teamwork to be successful.;Многие проекты требуют командной работы для успеха.;0;
-766;There isn't [much:t.determ,c.n,d.grpofgrp,e.a-lot] time left before the deadline.;До дедлайна осталось не так много времени.;0;
-767;She doesn't have [much:t.determ,c.n,d.grpofgrp,e.a-lot] experience in this field.;У нее не так много опыта в этой области.;0;
-768;[Much:t.determ,c.n,d.grpofgrp,e.a-lot] effort was needed to complete the task.;Потребовалось много усилий, чтобы завершить задание.;0;
-769;He didn't show [much:t.determ,c.n,d.grpofgrp,e.a-lot] interest in the topic.;Он не проявил большого интереса к теме.;0;
-770;We don't have [much:t.determ,c.n,d.grpofgrp,e.a-lot] information about the case.;У нас мало информации по этому делу.;0;
-771;[Much:t.determ,c.n,d.grpofgrp,e.a-lot] work has been done to improve the system.;Было проделано много работы для улучшения системы.;0;
-772;She doesn't drink [much:t.determ,c.n,d.grpofgrp,e.a-lot] coffee.;Она не пьет много кофе.;0;
-773;[Much:t.determ,c.n,d.grpofgrp,e.a-lot] attention was given to the details.;Много внимания было уделено деталям.;0;
-774;There isn't [much:t.determ,c.n,d.grpofgrp,e.a-lot] traffic in the morning.;Утром нет сильного движения.;0;
-775;[Much:t.determ,c.n,d.grpofgrp,e.a-lot] patience is required for this job.;Для этой работы требуется много терпения.;0;
-776;[All:t.determ,c.y/n,d.abs] students must follow the rules.;Все студенты должны соблюдать правила.;0;
-777;He lost [all:t.determ,c.y/n,d.abs] hope after multiple failures.;После множества неудач он потерял всякую надежду.;0;
-778;[All:t.determ,c.y/n,d.abs] the employees attended the meeting.;Все сотрудники присутствовали на собрании.;0;
-779;She gave [all:t.determ,c.y/n,d.abs] her effort to complete the project.;Она приложила все усилия, чтобы завершить проект.;0;
-780;[All:t.determ,c.y/n,d.abs] roads lead to the city center.;Все дороги ведут в центр города.;0;
-781;We spent [all:t.determ,c.y/n,d.abs] day at the beach.;Мы провели весь день на пляже.;0;
-782;[All:t.determ,c.y/n,d.abs] of them agreed with the decision.;Все они согласились с решением.;0;
-783;She has read [all:t.determ,c.y/n,d.abs] the books on the subject.;Она прочитала все книги по этой теме.;0;
-784;[All:t.determ,c.y/n,d.abs] the water was contaminated.;Вся вода была загрязнена.;0;
-785;He gave [all:t.determ,c.y/n,d.abs] his savings to charity.;Он отдал все свои сбережения на благотворительность.;0;

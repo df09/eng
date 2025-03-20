@@ -1,5 +1,8 @@
 %% >>> topics >>>>>>>>>>>>>>>>>>>>>>>>>
-местоимения⠉
+местоимения кроме последних двух
+part of speech (syntatic roles): subject, object, complimets, ...
+придаточные
+местоимения добить
 предлоги⠉
 времена/verbs:⠋
   +mastering самые важные глаголы:⠉
@@ -14,39 +17,35 @@
   +сложные комбинации⠁
   irregular verbs redo⠁
 
-сложные предложения step-1:
-  условные предложения
-  придаточные предложения
-
-spelling+спорные по произношению слова
-числительные
+артикли - когда скипать особенно.
 прилагательные:⠁
   вцелом
   сравнительные степени
   списки синонимов от слабого к сильному и тп
+числительные
 
+spelling + спорные по произношению слова
 hr:
   introduce myself
   comment my work expirience and skills
   most popular questions and answers
 
-
-артикли - когда скипать особенно.
 morphology
   прставки/суффиксы
   сранительные степени
   определение рода⠁
   множественного число +исключения⠁
 падежи - en2ru⠉
-сложные предожения
-  conjunctions
 adverbs⠁
+
+migrate anki
+сохры в инсте check
+migrate ud
+
 fixed expressions
 speeches
+
 slang:
   slang
   contractions
   beeing unpolite/ругательства
-migrate anki
-сохры в инсте check
-migrate ud

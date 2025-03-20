@@ -15,7 +15,6 @@ Multi-Clause Sentences (Сложные предложения):
   Compound (Сложносочинённые/Сочинительные) - два независимых предложения, соединённых сочинительным союзом.
   Complex (Сложноподчинённые/Придаточные/Подчинительные): одно главное, одно или несколько придаточных.
     Noun Clauses (Изъяснительные) - отвечают на вопросы: что? кто? о чём?
-      + незабыть про Zero Clauses
     Relative Clauses (Определительные) - уточняют существительное, дают дополнительную или необходимую информацию:
       - Defining (Ограничительные) – необходимы для смысла предложения, без них теряется важная информация.
           Relative Pronouns: who, whom, whose, which, that
@@ -113,7 +112,7 @@ Compound (Сложносочинённые/Сочинительные) - два 
     4. Гипотетическая ситуация в прошлом и её последствия в настоящем
        %% She could have studied harder, or she wouldn't be struggling now.
 
-Complex.Noun (Изъяснительные придаточные предложения):
+Complex.Noun(Изъяснительные):
   >>> q_fill
   >>> q_choice
   Syntactic role:
@@ -135,37 +134,47 @@ Complex.Noun (Изъяснительные придаточные предлож
           - Используется после глаголов ask, wonder, know, doubt и т. д.
           - Можно заменить на whether (формальнее).
     Relative/Interrogative Words (Союзные слова):
-      Союзные слова заменяют существительное (подлежащее или дополнение) или выполняют функцию обстоятельства.
-      1. **Relative Words (относительные местоимения и наречия)**:
-        - Используются в придаточных изъяснительных и выполняют **функцию подлежащего, дополнения или обстоятельства**.
-        - **Relative Pronouns**: who, whom, whose, which, what
-          - I don’t know **who won**. (подлежащее)
-          - Tell me **what she said**. (дополнение)
-        - **Relative Adverbs**: where, when, why
-          - I don’t remember **where he lives**. (обстоятельство места)
-          - Tell me **why she left**. (обстоятельство причины)
-      2. relative-indefinite pronouns (Неопределённые относительные местоимения):
-        - whoever, whatever, whichever = "кто бы ни", "что бы ни", "какой бы ни".
-        - Выполняют функцию подлежащего или дополнения.
-        - Примеры:
-            - **Whoever** arrives first will get the prize. (подлежащее)
-            - Take **whichever** you like. (дополнение)
-      3. **Interrogative Words (вопросительные слова)**:
-        - Используются в косвенных вопросах и передают **вопросительное значение**.
-        - who, whom, whose, which, what
-          - I wonder **who called**.
-        - where, when, why, how
-          - Can you tell me **where she is**?
+      Relative Words (относительные местоимения и наречия):
+        Relative Pronouns(относительные местоимения): who, whom, whose, which, what
+          - I don’t know who won. (подлежащее)
+          - Tell me what she said. (дополнение)
+        Relative Adverbs(относительные наречия): where, when, why
+          - I don’t remember where he lives. (обстоятельство места)
+          - Tell me why she left. (обстоятельство причины)
+        Relative-indefinite pronouns (Неопределённые относительные местоимения): whoever(кто бы ни), whatever(что бы ни), whichever(какой бы ни)
+          - Whoever arrives first will get the prize. (подлежащее)
+          - Take whichever you like. (дополнение)
+      Interrogative Words(вопросительные слова):
+        >>> так же могут использоваться в вопросительных словах с инверсией и всеми делами
+        Interrogative Pronouns(вопросительные местоимения): who, whom, whose, which, what, where, when, why, how
+          - I wonder who called.
+          - Can you tell me where she is?
+        >>> это правилого можно отнести к Interrogative words section или это применимо гдето еще?:
+          Нельзя использовать инверсию, как в вопросах.
+            I don't know where is she. → I don't know where she is.
+            Tell me what does he want. → Tell me what he wants.
   special:
-    - Нельзя использовать инверсию, как в вопросах.
-        I don't know where is she. → I don't know where she is.
-        Tell me what does he want. → Tell me what he wants.
-    - Relative Clauses vs. Noun Clauses
-        Одни и те же слова могут вводить как определительные (Relative Clauses), так и изъяснительные (Noun Clauses).
-        Функция	Relative Clause (Определительное)	Noun Clause (Изъяснительное)
-        Относится к...	Существительному (уточняет его)	Глаголу (заменяет существительное)
-        who, which, that	The book that you gave me is interesting.	I know that she is here.
-        where, when, why	The house where he lives is big.	I know where he lives.
-        Разница:
-          В Relative Clause слово уточняет существительное.
-          В Noun Clause слово заменяет существительное (подлежащее или дополнение).
+    >>> Interrogative Words in Nouns Clauses vs Interrogative Words in Questions
+    Relative Clauses vs. Noun Clauses
+      Одни и те же слова могут вводить как определительные (Relative Clauses), так и изъяснительные (Noun Clauses).
+      Функция	Relative Clause (Определительное)	Noun Clause (Изъяснительное)
+      Относится к...	Существительному (уточняет его)	Глаголу (заменяет существительное)
+      who, which, that	The book that you gave me is interesting.	I know that she is here.
+      where, when, why	The house where he lives is big.	I know where he lives.
+      Разница:
+        В Relative Clause слово уточняет существительное.
+        В Noun Clause слово заменяет существительное (подлежащее или дополнение).
+  >>> q_input clouse to pronoun
+
+Complex.Relative (Определительные) - уточняют существительное:
+  >>> web
+  >>> незабыть про Zero Clauses
+  >>>
+  Defining (Ограничительные) – вводят обязательную информацию, необходимы чтобы соханить общий смысл.
+    Relative Pronouns: who, whom, whose, which, that
+    Relative Adverbs: where, when, why
+  Non-defining (Распространительные) – вводят дополнительную информацию, не влияют на общий смысл.
+    Relative Pronouns: who, whom, whose, which (но не that!)
+    Relative Adverbs: where, when, why
+  Connective (Связующие) –  вводят дополнительную информацию, создавая новый смысл.
+    Relative Pronouns: which
