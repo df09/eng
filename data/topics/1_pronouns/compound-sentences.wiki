@@ -1,4 +1,4 @@
-<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+<<< head <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 preinfo:
   Возможность менять местами clauses определяется их синтаксической ролью в предложении.
   Союзы (Conjunctions) vs. Союзные слова (Relative/Interrogative Words/Determiners):
@@ -15,6 +15,8 @@ Multi-Clause Sentences (Сложные предложения):
   Compound (Сложносочинённые/Сочинительные) - два независимых предложения, соединённых сочинительным союзом.
   Complex (Сложноподчинённые/Придаточные/Подчинительные): одно главное, одно или несколько придаточных.
     Noun Clauses (Изъяснительные) - отвечают на вопросы: что? кто? о чём?
+      - Declarative (Утвердительные): I know (that) she is here.
+      - Interrogative/Indirect Questions (Вопросительные/Косвенные): I wonder where she is.
     Relative Clauses (Определительные) - уточняют существительное, дают дополнительную или необходимую информацию:
       - Defining (Ограничительные) – необходимы для смысла предложения, без них теряется важная информация.
           Relative Pronouns: who, whom, whose, which, that
@@ -47,7 +49,7 @@ Multi-Clause Sentences (Сложные предложения):
       + незабыть про Zero Clauses
   Compound-Complex (Сложные-многосоставные) - как минимум два главных и одно придаточное.
 
-<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+<<< body <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 Compound (Сложносочинённые/Сочинительные) - два независимых предложения, соединённых сочинительным союзом.
   Виды сложносочиненных предложений:
     1. Союзные (coordinating conjunctions или conjunctive adverbs)
@@ -112,13 +114,16 @@ Compound (Сложносочинённые/Сочинительные) - два 
     4. Гипотетическая ситуация в прошлом и её последствия в настоящем
        %% She could have studied harder, or she wouldn't be struggling now.
 
-Complex.Noun(Изъяснительные):
+Complex.Noun Clauses (Изъяснительные) - отвечают на вопросы: что? кто? о чём?
   >>> q_fill
   >>> q_choice
   Syntactic role:
     subject (подлежащее): [What he said] was surprising. (То, что он сказал, было удивительным.)
     object (дополнение): I don't know [what she wants]. (Я не знаю, чего она хочет.)
     predicate nominative (именная часть сказуемого): The problem is [that we have no money]. (Проблема в том, что у нас нет денег.)
+  types:
+    - Declarative (Утвердительные): I know (that) she is here.
+    - Interrogative/Indirect Questions (Вопросительные/Косвенные): I wonder where she is.
   Introduction:
     Subordinating Conjunctions:
       that (что):
