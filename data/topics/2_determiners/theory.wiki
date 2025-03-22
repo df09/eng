@@ -1,0 +1,77 @@
+Determiner (Определитель) — Уточняет или ограничивает существительное, стоит перед ним.
+Categories:
+  Countability Agreement — согласование с исчисляемыми или неисчисляемыми существительными: much (неисчисл.), many (исчисл.), some/any (оба)
+  Number Agreement — Учитывают форму сущ. (each — ед.ч., these — мн.ч.)
+
+>>>> Articles (Артикли):
+  usage: Указывают на определённость
+  Identification:
+     a
+     an
+     the  
+  >>>> web
+  >>>> qs
+>>>> Numerals (Числительные) — Точные количества
+  >>>> web
+  >>>> qs
+  Cardinal Numerals: one, two, three  
+  Ordinal Numerals: first, second, third  
+:::: Possessive Determiners (Притяжательные) — Указывают на принадлежность:
+::::   Identification:
+::::     my    : s1
+::::     your  : s2
+::::     his   : s3m
+::::     her   : s3f
+::::     its   : s3n
+::::     our   : p1
+::::     their : p3
+::::   используются только вместе с соответствующим существительным:
+::::     %% My cat is 5 years old. (Моему коту 5 лет.)
+::::   также употребляются там, где в русском подразумевается "свой":
+::::     %% He put his hand into his pocket. (Он засунул свою руку в свой карман.)
+::::   стоит перед существительным. Если перед существительным стоит прилагательное, то ставится перед прилагательным:
+::::     %% I've lost my new keys. (Я потерял свои новые ключи.)
+::::   исключает употребление артикля и указательных местоимений:
+::::     %% Верно: It is my dog. Или It is a dog
+::::   Порядок местоимений:
+::::     %% This is [your and my](i, you) project.;Это ваш и мой проект.
+::::   Singular Their:
+::::     %% Every student should bring [their:t.Possessive] notebook.;Каждый студент должен принести свой блокнот.
+::::   patterns - в сочетаниях с "own" (для усиления):
+::::     %% I have [my:t.Possessive] own apartment.;У меня есть своя собственная квартира.
+::::   Anthropomorphism - персонификация объектов:
+::::     в разговорной речи некторые объекты (чаще корабли/самолеты, реже амтомобили/оружие, и тп),
+::::     если к ним относятся с особой привязанностью, называют "her".
+::::     %% The ship was old, but [her:t.Possessive,e.anthropomorphism] sails were still intact.;Корабль был старым, но его паруса всё ещё были целы.
+::::   possessive-determiner vs "to be":
+::::     They're = They are (форма глагола to be)
+::::     Their = Possessive determiner (чей? — их)
+::::     %% [They're](they're/their) going to the store.;Они идут в магазин.
+::::   impact rule (правило воздействия):
+::::     После предлогов (on, in, at, by и т.д.) перед частями тела и одеждой, находящейся на человеке,
+::::     используется артикль the, а не притяжательное местоимение (my, his, her и т. д.), если:
+::::       - Действие направлено на часть тела или одежду
+::::       - Уже понятно, кому принадлежит объект
+::::       %% She kissed him on [the] cheek.;Она поцеловала его в щёку.
+::::     но в формальном письме чтобы избежать путаницы, использование притяжательных местоимений предпочтительнее:
+::::       %% He injured his leg during the match. (чтобы чётко указать, чья нога была повреждена).
+::::   noun2pronoun - могут замещать существительные с 's или конструкцию с предлогом of:
+::::     %% This is [his friend:t.Possessive](a friend of Michael), not mine.;Это друг Майкла, а не мой.
+>>>> Demonstrative Determiners (Указательные) — Указывают на объект: this, that, these, those
+  >>>> web
+  >>>> qs
+>>>> Quantifiers (Количественные) — Указывают на количество: some, any, much, few, several
+  >>>> web
+  >>>> qs
+>>>> Distributive Determiners (Распределительные) — Указывают на отдельные элементы из группы: each, every, either, neither
+  >>>> web
+  >>>> qs
+>>>> Interrogative Determiners (Вопросительные) — Используются в вопросах перед существительным: which, what, whose
+  >>>> web
+  >>>> qs
+>>>> Predeterminers: all, both, such, what  
+  >>>> web
+  >>>> qs
+>>>> Exclamative Determiners: what, such  
+  >>>> web
+  >>>> qs

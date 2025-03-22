@@ -1,30 +1,24 @@
+!!!! map:
+!!!!   PoSN:
+!!!!     какими PoSP могут быть
+!!!!     какими Clauses могут быть
+!!!!   PoSP:
+!!!!     Classes
+!!!!       PoSN
+!!!!       CPoSP
+!!!!       specs ->
+!!!!   Classes:
+!!!!     Classes
+!!!!       PoSN
+!!!!       specs ->
+
 %% <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-%% | Top | Part of speech             | Грамматическая сложность                                                                                             |
-%% |-----|----------------------------|----------------------------------------------------------------------------------------------------------------------|
-%% | 1   | Verb (Глагол)              | Времена, виды, залоги, наклонения, модальные/вспомогательные формы, инфинитивы, герундии, фразовые глаголы           |
-%% | 2   | Pronoun (Местоимение)      | Много типов (личные, возвратные, относительные и т.д.), падежи, согласование, совпадения форм, сложное употребление  |
-%% | 3   | Determiner (Определитель)  | Множество подтипов, сочетаемость с существительными, влияние на смысл, пересечения с местоимениями и прилагательными |
-%% | 4   | Noun (Существительное)     | Число, исчисляемость, притяжательный падеж, артикли, сочетания, коллективные формы                                   |
-%% | 5   | Adjective (Прилагательное) | Степени сравнения, позиция в предложении, исторически включает части determiners                                     |
-%% | 6   | Adverb (Наречие)           | Типы, позиция, степени сравнения, может описывать разные элементы, но грамматика проще                               |
-%% | 7   | Preposition (Предлог)      | Значение по контексту, устойчивые сочетания, но сама грамматика минимальна                                           |
-%% | 8   | Conjunction (Союз)         | Чёткие классы, простая структура, легко выучить                                                                      |
-%% | 9   | Interjection (Междометие)  | Нет грамматики, только лексическая функция и интонация                                                               |
-%% <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-%% Crossing Parts of Speech (Пересекающиеся классы и части речи):
+%% Crossing Parts of Speech (CPoSP - Пересекающиеся классы и части речи):
 %%   Одно и то же слово может принадлежать к разным частям речи или разным классам внутри одной части речи в зависимости от контекста.
 %%   Ключ к распознаванию — контекст и грамматическая функция, а не форма.
 %%     Some people (determiner). I want some (pronoun).
 %%     He ran fast (adverb). A fast car (adjective).
 %% <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-
-q:
-  Numeral: куда это относится, у меня такой части речи тут нет⠁
-    -> Determiner: one, two, several
-       %% two apples (Determiner) -> I took two (Pronoun/Noun-like)
-    -> Noun: the two, a hundred
-       %% the two arrived late (Noun-like)
-  где здесь герундий?⠁
 
 Noun (Существительное) — Название предмета, идеи, лица:
   Classes:
@@ -32,6 +26,7 @@ Noun (Существительное) — Название предмета, и�
     Common Nouns (Нарицательные) — Общие названия предметов/понятий: book, idea
       Concrete Nouns (Конкретные) — Осязаемые, физические объекты: apple, chair
       Abstract Nouns (Абстрактные) — Идеи, чувства, качества: freedom, love
+        Gerund Nouns (Отглагольные существительные) — Обозначают действие как вещь: swimming, reading, thinking
     Collective Nouns (Собирательные) — Обозначают группу как единое целое: team, family
   Categories:
     Countability (Исчисляемость) — Возможность посчитать:
@@ -43,51 +38,54 @@ Noun (Существительное) — Название предмета, и�
     Case (Падеж) — Отношение к другим словам:
       Common Case (Общий падеж): car, house
       Possessive Case (Притяжательный падеж): car’s, house’s
-  Crossing-PofS:
-    -> Verb: run, dream, work, call
-       %% I run daily (Verb) -> I went for a run (Noun)
-    -> Adjective: stone, gold, plastic
-       %% a plastic toy (Adjective) -> made of plastic (Noun)
+  CPoSP:
+    Verb: I went for a run -> I run daily
+    Adjective: made of plastic -> a plastic toy
 Pronoun (Местоимение) — Заменяет существительное:
   Classes:
-    %% ::: Personal Pronouns (Личные местоимения) — Указывают на лицо, участвующее в действии:
-    %% :::   Subject Form (Именительная форма): I, you, ...
-    %% :::   Object Form (Объектная форма): me, you, ...
-    %% ::: Possessive Pronouns (Притяжательные местоимения) — Указывают на принадлежность: mine, yours, ...
-    %% ::: Reflexive Pronouns (Возвратные местоимения) — Указывают, что действие возвращается к подлежащему: myself, yourself, ...
-    %% ::: Intensive Pronouns (Усилительные местоимения) — Подчеркивают, кто именно выполняет действие (форма совпадает с возвратными): myself, yourself, ...
-    %% ::: Reciprocal Pronouns (Взаимные местоимения) — Обозначают обоюдность действия: each other, one another
-    %% ::: Demonstrative Pronouns (Указательные местоимения) — Указывают на объекты: this, that, these, those
-    Indefinite Pronouns (Неопределённые местоимения) — Указывают на неопределённое количество или лицо: somebody, someone, ...⠋
+    :::: Personal Pronouns (Личные местоимения) — Указывают на лицо, участвующее в действии:
+    ::::   Subject Form (Именительная форма): I, you, ...
+    ::::   Object Form (Объектная форма): me, you, ...
+    ::::   CPoSP: none
+    :::: Possessive Pronouns (Притяжательные местоимения) — Указывают на принадлежность: mine, yours, ...
+    >>>>   CPoSP:
+    >>>>     Possessive Determiners: The idea was his. -> His idea was great.
+    :::: Reflexive Pronouns (Возвратные местоимения) — Указывают, что действие возвращается к подлежащему: myself, yourself, ...
+    >>>>   CPoSP:
+    >>>>     Intensive Pronouns: I hurt myself. -> I fixed it myself.
+    :::: Intensive Pronouns (Усилительные местоимения) — Подчеркивают, кто именно выполняет действие (форма совпадает с возвратными): myself, yourself, ...
+    >>>>   CPoSP:
+    >>>>     Reflexive Pronouns: I fixed it myself. -> I hurt myself.
+    :::: Reciprocal Pronouns (Взаимные местоимения) — Обозначают обоюдность действия: each other, one another
+    ::::   CPoSP: none
+    :::: Demonstrative Pronouns (Указательные местоимения) — Указывают на объекты: this, that, these, those
+    >>>>   CPoSP:
+    >>>>     Demonstrative Determiners: This is heavy. (Pronoun) -> This box is heavy. (Determiner)  
+    !!!! depend on adverb and determiners⠋
+    >>>> Indefinite Pronouns (Неопределённые местоимения) — Указывают на неопределённое количество или лицо: somebody, someone, ...⠉
+    >>>>   CPoSP:
+    >>>>     Adverbs of Place: Everywhere was silent. -> He looked everywhere.
+    >>>>     Adverbs of Time: Sometime is better than never. -> Let's meet sometime next week.
+    >>>>     Quantifier Determiners: Few survived. -> Few chances remain.
+    >>>>     Distributive Determiners: Each got a prize. -> Each student got a prize.
+    >>>>     Interrogative Determiners: What did you buy? -> What book did you buy?
+    >>>>     Exclamative Determiners: What happened? -> What a surprise!
     Interrogative Pronouns (Вопросительные местоимения) — Используются для вопросов: who, whom, ...⠁
+      CPoSP:
+        ???? Pronoun: ???? -> Who is there?
+        ???? Adjective(archaic/rare): ???? -> What manner of man...?
+        Interrogative Determiners: ???? -> Which car is yours?
     Relative Pronouns (Относительные местоимения) — Связывают части сложноподчинённого предложения: who, whom, ...⠁
-  Crossing-PofS:
-    разбить по классам⠉
-    -> Determiner: my, your, his, her, their
-       %% this book is mine (Pronoun) -> my book (Determiner)
-    -> Adjective: some, any
-       %% some came (Pronoun) -> some people (Adjective-like)
-Adjective (Прилагательное) — Описывает существительное, указывая на его признак:
-  Classes:
-    Descriptive Adjectives (Описательные) — Передают качество или характеристику: happy, red, beautiful
-  Categories (Грамматические характеристики):
-    Degree of Comparison (Степени сравнения): Positive/Comparative/Superlative(Положительная/Сравнительная/Превосходная)
-    Position (Позиция в предложении):
-      Attributive (Перед существительным): a red car
-      Predicative (После глагола-связки): The car is red
-  Crossing-PofS:
-    -> Determiner: this, that, each, every, which, what
-       %% this book (Determiner) -> this idea is nice (Adjective)
-    -> Pronoun: many, few, several, all, some
-       %% many people came (Adjective-like) -> many came (Pronoun)
-    -> Noun: poor, rich, elderly
-       %% the poor need help (Noun-like) -> poor people (Adjective)
+      CPoSP:
+        ????
+    SKIP Archaic/Poetic Forms (опционально): whomsoever, thine, thou
 Verb (Глагол) — Обозначает действие, состояние или отношение к действию:
   Classes:
     Main/Lexical Verbs — Несут основное значение действия: run, speak, build
     Auxiliary Verbs (Вспомогательные) — Строят грамматические конструкции: be, do, have
     Semi-Auxiliary Verbs (Полувспомогательные) — Служат для выражения модальности или аспекта: have to, used to, be able to
     Modal Verbs (Модальные) — Выражают возможность, необходимость, вероятность: can, must, should
+    Copular/Linking Verbs (Глаголы-связки) — Соединяют подлежащее с именной частью: be, seem, become
     Phrasal Verbs — Глаголы + частица/предлог, образуют новое значение: give up, turn on
   Categories (Грамматические характеристики):
     Tense (Время): present, past, future
@@ -102,14 +100,33 @@ Verb (Глагол) — Обозначает действие, состояни�
   Semantic Types (Семантические типы):
     Dynamic Verbs — Физические или ментальные действия: run, write
     Stative Verbs — Состояния, чувства, принадлежность: know, love, belong
-  Crossing-PofS:
-    -> Noun (Gerund): swimming, reading
+  CPoSP (??? возможно надо будет разбить по классам):
+    Noun (Gerund): swimming, reading
        %% swimming is healthy (Noun) -> I am swimming (Verb)
-    -> Adjective (Participle): broken, running
+    Adjective (Participle): broken, running
        %% the broken glass (Adjective) -> I’ve broken it (Verb)
-    -> Noun (Infinitive): to read
+    Noun (Infinitive): to read
        %% to read is useful (Noun-like subject)
-Adverb (Наречие) — Описывает глагол, прилагательное, другое наречие или всё предложение:
+Particle (Частица) — Модификаторы глаголов или инфинитива: not, to, up
+  Classes:
+    ????
+  Categories (Грамматические характеристики):
+    ????
+  CPoSP:
+    ????
+Adjective (Прилагательное) — Описывает существительное, указывая на его признак:
+  Classes:
+    Descriptive Adjectives (Описательные) — Передают качество или характеристику: happy, red, beautiful
+      CPoSP:
+        Noun: poor people -> the poor need help
+        Pronoun: many people came -> many came
+        Determiner: ???? -> ????
+  Categories (Грамматические характеристики):
+    Degree of Comparison (Степени сравнения): Positive/Comparative/Superlative(Положительная/Сравнительная/Превосходная)
+    Position (Позиция в предложении):
+      Attributive (Перед существительным): a red car
+      Predicative (После глагола-связки): The car is red
+Adverb (Наречие) — Описывает глагол, прилагательное, другое наречие или всё предложение:⠉
   Classes:
     Adverbs of Manner (Образа действия) — Как? Каким образом?: quickly, slowly, carefully
     Adverbs of Place (Места) — Где?: here, there, nearby, above
@@ -122,27 +139,59 @@ Adverb (Наречие) — Описывает глагол, прилагате�
   Categories (Грамматические характеристики):
     Comparison (Сравнение): Positive/Comparative/Superlative
     Position (Позиция в предложении)
-  Crossing-PofS:
-    -> Adjective: fast, hard, late, early
+  разбить по классам⠋
+  CPoSP:
+    Adjective: fast, hard, late, early
        %% a fast car (Adjective) -> he runs fast (Adverb)
-    -> Preposition: before, after, around, inside
+    Preposition: before, after, around, inside
        %% He left before (Adverb) -> before lunch (Preposition)
-    -> Conjunction: since, after
+    Conjunction: since, after
        %% since yesterday (Preposition) -> since I came (Conjunction)
-Determiner (Определитель) — Уточняет или ограничивает существительное, стоит перед ним:
+Determiner (Определитель) — Уточняет или ограничивает существительное, стоит перед ним:⠉
   Classes:
-    Articles (Артикли) — Указывают на определённость: a, an, the
-    Numerals (Числительные) — Точные количества: one, two, ten
-    %% >>>: Possessive Determiners (Притяжательные) — Указывают на принадлежность: my, your, his, her, its, our, their
-    %% >>>: Demonstrative Determiners (Указательные) — Указывают на объект: this, that, these, those
-    %% >>>: Quantifiers (Количественные) — Указывают на количество: some, any, much, few, several
-    %% >>>: Distributive Determiners (Распределительные) — Указывают на отдельные элементы из группы: each, every, either, neither
-    %% >>>: Interrogative Determiners (Вопросительные) — Используются в вопросах перед существительным: which, what, whose
+    Articles (Артикли) — Указывают на определённость: a, an, the  
+      CPoSP:  
+        Pronoun (implicit): The best is yet to come. -> "The best" без существительного = как местоимение.  
+        Adjective (with emphasis): She is *a real* friend. -> *Real* is the true descriptor.
+    Numerals (Числительные) — Точные количества:  
+      Cardinal Numerals: one, two, three  
+        CPoSP:  
+          Pronoun: I saw three birds. -> I saw three.  
+          Noun: One of them escaped. -> One is enough.  
+      Ordinal Numerals: first, second, third  
+        CPoSP:  
+          Noun: He came second.  
+          Adjective: The first chapter is short. -> He was the first.
+    :::: Possessive Determiners (Притяжательные): my, your, his, her, its, our, their  
+    >>>>   CPoSP:  
+    >>>>     Pronoun: His idea was great. -> The idea was his.  
+    Demonstrative Determiners: this, that, these, those  
+      CPoSP:  
+        Pronoun: That car is fast. -> That is fast.  
+    Quantifiers: some, any, much, few, several  
+      CPoSP:  
+        Pronoun: Some people left. -> Some left.  
+        Noun: Much of what he said is true. -> Much remains unknown.  
+    Distributive Determiners: each, every, either, neither  
+      CPoSP:  
+        Pronoun: Each student got a prize. -> Each got a prize.  
+        Pronoun: Neither side won. -> Neither was ready.  
+    Interrogative Determiners: which, what, whose  
+      CPoSP:  
+        Pronoun: Which option is better? -> Which is better?  
+        Adjective: What book did you read? -> The book is what I expected.  
+    Predeterminers: all, both, such, what  
+      CPoSP:  
+        Pronoun: All students passed. -> All passed.  
+        Adverb-like (rare/formal): Such a time it was. -> Such were the days.  
+    Exclamative Determiners: what, such  
+      CPoSP:  
+        Adverb-like (emphatic): What a day! -> What happened!  
+        Adjective (emphatic): Such a mess! -> That was such a mess.
   Categories:
     Countability Agreement — согласование с исчисляемыми или неисчисляемыми существительными: much (неисчисл.), many (исчисл.), some/any (оба)
     Number Agreement — Учитывают форму сущ. (each — ед.ч., these — мн.ч.)
-  Crossing-PofS:
-Preposition (Предлог) — Показывает отношение между словами:
+Preposition (Предлог) — Показывает отношение между словами:⠉
   Classes (по значению):
     Time (Временные): at 5pm, in July, on Monday
     Place (Местоположения): on the table, under the bed
@@ -153,10 +202,10 @@ Preposition (Предлог) — Показывает отношение меж�
     Agent (Действующее лицо в пассиве): by
   Categories:
     Simple/Complex Prepositions — из нескольких слов: in front of, due to, on behalf of
-  Crossing-PofS:
-    -> Adverb: around, inside, outside
+  CPoSP:⠉
+    Adverb: around, inside, outside
        %% walk around (Adverb) -> around the park (Preposition)
-    -> Conjunction: before, after, since
+    Conjunction: before, after, since
        %% since the storm (Preposition) -> since we arrived (Conjunction)
 Conjunction (Союз) — Связывает слова, фразы или предложения:
   Classes:
@@ -166,13 +215,14 @@ Conjunction (Союз) — Связывает слова, фразы или пр
   Categories:
     Position — обычно в начале придаточного или между элементами
     Function — указывают на причину, уступку, условие, время и т.д.
-  Crossing-PofS:
-%% ???: Interjection (Междометие) — Выражает эмоции, реакции, сигналы. Не связана с другими членами предложения: oh!, wow!, ugh!
-%% ???:   Classes:
-%% ???:     Emotional Interjections — Сильные чувства: wow!, ouch!, yay!
-%% ???:     Cognitive/Reaction Interjections — Мышление, реакция, пауза: oh, well, hmm
-%% ???:     Greeting/Farewell Interjections — Приветствие и прощание: hi!, bye!, hey!
-%% ???:     Sound Imitation — Звуки: oops!, ah!, meh!
-%% ???:   Crossing-PofS:
-%% ???:     -> Adverb / Discourse Marker: well, oh
-%% ???:        %% well, I agree (Interjection) -> he did well (Adverb)
+  CPoSP:
+    ????
+%% SKIP: Interjection (Междометие) — Выражает эмоции, реакции, сигналы. Не связана с другими членами предложения: oh!, wow!, ugh!
+%% SKIP:   Classes:
+%% SKIP:     Emotional Interjections — Сильные чувства: wow!, ouch!, yay!
+%% SKIP:     Cognitive/Reaction Interjections — Мышление, реакция, пауза: oh, well, hmm
+%% SKIP:     Greeting/Farewell Interjections — Приветствие и прощание: hi!, bye!, hey!
+%% SKIP:     Sound Imitation — Звуки: oops!, ah!, meh!
+%% SKIP:   CPoSP:
+%% SKIP:      Adverb / Discourse Marker: well, oh
+%% SKIP:        %% well, I agree (Interjection) -> he did well (Adverb)

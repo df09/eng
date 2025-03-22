@@ -64,7 +64,6 @@ id;question;extra;suspicious_status;suspicious_note
 007;She commented that [they:t.Personal,p3] seemed very confident.;Она прокомментировала, что они казались очень уверенными.;0;
 008;It was obvious that [they:t.Personal,p3] needed help.;Было очевидно, что им нужна помощь.;0;
 009;The report stated that [they:t.Personal,p3] had reached an agreement.;В отчёте говорилось, что они достигли соглашения.;0;
-
 # personal-subj: "it" при уточнении личности
 000;It was my brother who helped me move, not my neighbor.;Это мой брат помог мне переехать, а не сосед.;0;  
 001;I heard a voice in the hallway. Was it your father?;Я услышал голос в коридоре. Это был твой отец?;0;  
@@ -76,7 +75,6 @@ id;question;extra;suspicious_status;suspicious_note
 007;Was it Lisa who won the competition?;Это Лиза выиграла соревнование?;0;  
 008;It was my uncle who took me to the airport.;Это мой дядя отвез меня в аэропорт.;0;  
 009;It wasn't your idea, it was mine.;Это была не твоя идея, а моя.;0;  
-
 # personal-subj: "it" к животным
 000;[It:t.Personal](The dog) is barking loudly.; Он/Она лает громко.;0;
 000;[It:t.Personal](The bird) is flying in the sky.; Она летит в небе.;0;
@@ -102,7 +100,6 @@ id;question;extra;suspicious_status;suspicious_note
 000;The owl opened its eyes when [it:t.Personal] heard a noise.; Сова открыла глаза, когда услышала шум.;0;  
 000;I tried to pet the rabbit, but [it:t.Personal] hopped away.; Я попытался погладить кролика, но он отпрыгнул.;0;  
 000;The kitten looks sleepy. [It:t.Personal] has been playing all day.; Котёнок выглядит сонным. Он играл весь день.;0;  
-
 # personal-subj: "it" к младенцам
 000;The baby is crying because [it:t.Personal] is hungry.; Младенец плачет, потому что он голоден.;0;  
 000;I picked up the newborn, and [it:t.Personal] stopped crying.; Я поднял новорождённого, и он перестал плакать.;0;  
@@ -114,7 +111,6 @@ id;question;extra;suspicious_status;suspicious_note
 000;I heard the baby laughing, but I didn't see where [it:t.Personal] was.; Я услышал, как младенец смеётся, но не увидел, где он.;0;  
 000;The baby sneezed, and [it:t.Personal] looked so adorable.; Младенец чихнул, и это выглядело так мило.;0;  
 000;She wrapped the newborn in a blanket so [it:t.Personal] wouldn't get cold.; Она завернула новорождённого в одеяло, чтобы ему не было холодно.;0;  
-
 # personal-subj: singular they
 000;Nobody knows what [they:t.Personal] are doing all the time.; Никто не знает, что делает всё время.; 0;  
 000;Someone said [they:t.Personal] would be here by noon.; Кто-то сказал, что они будут здесь к полудню.; 0;  
@@ -125,7 +121,6 @@ id;question;extra;suspicious_status;suspicious_note
 000;Anyone can join if [they:t.Personal] are interested. ; Любой может присоединиться, если ему интересно. ; 0;
 000;Someone forgot [they:t.Personal] umbrella. ; Кто-то забыл свой зонтик. ; 0;
 000;If a student has questions, [they:t.Personal] should ask the teacher. ; Если у студента есть вопросы, он должен спросить учителя. ; 0;
-
 # personal-subj: singular we
 000;[We:t.Personal,e.Royal], the King of France, decree that all taxes shall be lowered.; Мы, король Франции, постановляем снизить все налоги.;0;
 000;[We:t.Personal,e.Royal] have always ruled with wisdom and fairness.; Мы всегда правили с мудростью и справедливостью.;0;
@@ -142,7 +137,6 @@ id;question;extra;suspicious_status;suspicious_note
 000;[We:t.Personal,e.Patronizing] must remember to take our medicine every morning.; Мы должны помнить, что принимаем наше лекарство каждое утро. (медсестра пациенту);0;
 000;Are [we:t.Personal,e.Patronizing] ready for our big speech today?; Мы готовы к нашему важному выступлению сегодня? (учитель ученику);0;
 000;[We:t.Personal,e.Patronizing] seem to have forgotten our manners.; Мы, кажется, забыли про хорошие манеры. (покровительственный тон);0;
-
 # personal-subj: Anthropomorphism - персонификация объектов
 000;This ship is a legend. [She:t.Presonal,e.anthropomorphism] has survived the roughest seas.;Этот корабль – легенда. Она пережила самые суровые моря.;0;
 000;His car used to break down often, but now [She:t.Presonal,e.anthropomorphism] runs smoothly after repairs.;Его машина раньше часто ломалась, но теперь она работает без сбоев после ремонта.;0;
@@ -154,7 +148,6 @@ id;question;extra;suspicious_status;suspicious_note
 000;That spaceship wouldn’t have reached Mars if [She:t.Presonal,e.anthropomorphism] hadn’t been designed perfectly.;Тот космический корабль не долетел бы до Марса, если бы он не был спроектирован идеально.;0;
 000;The locomotive had been running for over a century before [She:t.Presonal,e.anthropomorphism] was finally retired.;Этот локомотив работал более века, прежде чем его наконец отправили на покой.;0;
 000;If it weren’t for this cannon, the fort wouldn’t have stood a chance. [She:t.Presonal,e.anthropomorphism] defended the city bravely.;Если бы не эта пушка, крепость не имела бы шансов. Она храбро защищала город.;0;
-
 # personal-subj: порядок местоимений
 000;[You and I] should go to the gym together. (I, you); Мы с тобой должны пойти в спортзал вместе.;0;
 000;[You and I] should work on this project together. (I, you); Мы с тобой должны работать над этим проектом вместе.;0;
@@ -180,7 +173,6 @@ id;question;extra;suspicious_status;suspicious_note
 000;[You and my cousin] are responsible for organizing the event. (you, my cousin); Вы с моим кузеном отвечаете за организацию мероприятия.;0;
 000;[You and they] were chosen for the project. (you, they); Вас с ними выбрали для проекта.;0;
 000;[You and Mark] should present the results. (you, Mark); Вам с Марком следует представить результаты.;0;
-
 # personal-subj: борьба разговорного с формальным
 000;My brother and [I:t.Personal,s1,f.Formal] went to a concert last night.; Мой брат и я ходили на концерт прошлой ночью.
 000;My brother and [me:t.Personal,s1,f.Colloquial] went to a concert last night.; Мой брат и я ходили на концерт прошлой ночью.
@@ -354,7 +346,6 @@ id;question;extra;suspicious_status;suspicious_note
 000;We arrived earlier than [them:t.Personal,p3,f.Colloquial].;Мы прибыли раньше, чем они.;0;
 000;Their results were as impressive as [they:t.Personal,p3,f.Formal] claimed.;Их результаты были столь же впечатляющими, как они утверждали.;0;
 000;Their results were as impressive as [them:t.Personal,p3,f.Colloquial] claimed.;Их результаты были столь же впечатляющими, как они утверждали.;0;
-
 # personal-subj: noun2pronoun
 000;[He:t.Personal](John) is reading a book.; Он читает книгу.;0;
 000;[It:t.Personal](The cat) is sleeping on the couch.; Он/Она спит на диване.;0;
@@ -554,7 +545,6 @@ id;question;extra;suspicious_status;suspicious_note
 252;She always thinks about [them:t.Personal,p3].;Она всегда думает о них.;0;
 253;Don't worry about [them:t.Personal,p3].;Не переживай о них.;0;
 254;What do you know about [them:t.Personal,p3]?;Что ты знаешь о них?;0;
-
 # personal-obj: "it" к животным
 000;I saw a stray dog and fed [it:t.Personal].; Я увидел бездомную собаку и покормил её.;0;  
 000;The cat was scared, so I tried to calm [it:t.Personal] down.; Кошка испугалась, поэтому я попытался её успокоить.;0;  
@@ -566,7 +556,6 @@ id;question;extra;suspicious_status;suspicious_note
 000;A bee landed on my hand, but I gently let [it:t.Personal] go.; Пчела села мне на руку, но я осторожно дал ей улететь.;0;  
 000;The snake was in the way, so we carefully moved [it:t.Personal] aside.; Змея была на пути, поэтому мы осторожно сдвинули её в сторону.;0;  
 000;I saw a squirrel and took a picture of [it:t.Personal].; Я увидел белку и сфотографировал её.;0;  
-
 # personal-obj: "it" к младенцам
 000;The baby was crying, so I picked [it:t.Personal] up.; Младенец плакал, поэтому я его поднял.;0;  
 000;She wrapped the newborn in a blanket and held [it:t.Personal] close.; Она завернула новорождённого в одеяло и прижала его к себе.;0;  
@@ -578,7 +567,6 @@ id;question;extra;suspicious_status;suspicious_note
 000;They named the baby but haven't introduced [it:t.Personal] to anyone yet.; Они дали младенцу имя, но ещё никому его не представили.;0;  
 000;The infant was cold, so we covered [it:t.Personal] with a soft blanket.; Младенец замёрз, поэтому мы накрыли его мягким одеялом.;0;  
 000;The mother kissed the newborn before handing [it:t.Personal] to the father.; Мать поцеловала новорождённого, прежде чем передать его отцу.;0;  
-
 # personal-obj: Anthropomorphism - персонификация объектов
 000;The ship’s crew repaired [her:t.Possessive,e.anthropomorphism] after the storm.;Команда корабля отремонтировала её после шторма.;0;
 000;He looked at his old motorcycle and decided to repaint [her:t.Object,e.anthropomorphism].;Он посмотрел на свой старый мотоцикл и решил перекрасить его.;0;
@@ -590,7 +578,6 @@ id;question;extra;suspicious_status;suspicious_note
 000;The mechanic lifted the hood of the vintage truck and inspected [her:t.Object,e.anthropomorphism] carefully.;Механик открыл капот старого грузовика и внимательно осмотрел его.;0;
 000;Before the final flight, the engineer checked every part of [her:t.Possessive,e.anthropomorphism] on the spacecraft.;Перед последним полётом инженер проверил каждую деталь на этом космическом корабле.;0;
 000;The captain always spoke of his ship with love, saying [her:t.Object,e.anthropomorphism] name with pride.;Капитан всегда говорил о своём корабле с любовью, произнося его имя с гордостью.;0;
-
 # personal-obj: порядок местоимений
 000;They saw [you and me](you, I) at the park.;Они видели тебя и меня в парке.;0;
 000;She invited [you and me](you, I) to dinner.; Она пригласила тебя и меня на ужин.;0;  
@@ -617,7 +604,6 @@ id;question;extra;suspicious_status;suspicious_note
 000;The company promoted [Michael and him](Michael, he) last year.; Компания повысила Майкла и его в прошлом году.;0;  
 000;The teacher corrected [John and her](John, she) on their mistakes.; Учитель исправил ошибки Джона и её.;0;  
 000;They assigned the task to [Tom and her](Tom, she).; Они поручили задание Тому и ей.;0;  
-
 # personal-obj: singular they
 000;The doctor called a patient and asked [them:t.Personal] to come in.; Врач вызвал пациента и попросил его войти.;0;
 000;If someone finds my keys, please give [them:t.Personal] to the receptionist.; Если кто-то найдёт мои ключи, пожалуйста, отдайте их администратору.;0;
@@ -629,7 +615,6 @@ id;question;extra;suspicious_status;suspicious_note
 000;If anybody wants a ride home, I can take [them:t.Personal].; Если кто-то хочет, чтобы его подвезли домой, я могу отвезти.;0;
 000;The applicant didn't include their email, so I couldn't contact [them:t.Personal].; Соискатель не указал свой email, поэтому я не смог с ним связаться.;0;
 000;Somebody in the waiting room looks nervous. Maybe you should check on [them:t.Personal].; Кто-то в зале ожидания выглядит нервным. Может, тебе стоит проверить, как он там.;0;
-
 # personal-obj: noun2pronoun
 000;I see [him:t.Personal](John).; Я вижу его.;0;
 000;She likes [it:t.Personal](the cat).; Она любит его/её.;0;  
@@ -652,7 +637,7 @@ id;question;extra;suspicious_status;suspicious_note
 000;They introduced [us:t.Personal](their new friends) at the party.; Они представили нас на вечеринке.;0;  
 000;The coach congratulated [him:t.Personal](the best player) after the game.; Тренер поздравил его после игры.;0;  
 
-# possessive-absolute: identification
+# possessive: identification
 255;This pen is [mine:t.Possessive,s1].;Эта ручка моя.;0;
 256;The last word is [mine:t.Possessive,s1].;Последнее слово за мной.;0;
 257;The apartment is [mine:t.Possessive,s1].;Квартира моя.;0;
@@ -688,16 +673,14 @@ id;question;extra;suspicious_status;suspicious_note
 287;That reward was [theirs:t.Possessive,p3].;Эта награда была их.;0;
 288;The authority is [theirs:t.Possessive,p3].;Власть их.;0;
 289;The responsibility is [theirs:t.Possessive,p3].;Ответственность их.;0;
-
-# possessive-absolute: its - не существует
+# possessive: its - не существует
 000;FIXME: That power was its. -> That was [its power].; Это была его сила.; 0;
 000;FIXME: That solution won't be its. -> That won't be [its solution].; Это решение не будет его.; 0;
 000;FIXME: The beauty will be its. -> It will have [its beauty].; У него будет своя красота.; 0;
 000;FIXME: The book will be its. -> This [will be its book].; Это будет его книга.; 0;
 000;FIXME: The success wasn't its. -> That wasn't [its success].; Это не был его успех.; 0;
 000;FIXME: This advantage isn't its. -> This isn't [its advantage].; Это не его преимущество.; 0;
-
-# possessive-absolute: Singular Theirs
+# possessive: Singular Theirs
 000;If anyone lost a wallet, this one might be [theirs:t.Possessive].;Если кто-то потерял кошелек, возможно, это его/ее.;0;
 000;Who made this artwork? Oh, it's [theirs:t.Possessive].;Кто создал эту работу? О, это его/ее.;0;
 001;Each driver has a designated parking spot, and this one is [theirs:t.Possessive] to use.;У каждого водителя есть свое парковочное место, и это - его/ее для использования.;0;
@@ -705,8 +688,7 @@ id;question;extra;suspicious_status;suspicious_note
 003;One of the students forgot a textbook, but the teacher knew it was [theirs:t.Possessive] by the handwriting.;Один из студентов забыл учебник, но учитель понял, что он его/ее, по почерку.;0;
 004;An artist submitted a painting for the exhibition, and the gallery confirmed it was [theirs:t.Possessive] by the signature.;Художник представил картину на выставку, и галерея подтвердила, что она его/ее, по подписи.;0;
 005;Someone left an umbrella in the office, and the receptionist said it was [theirs:t.Possessive] from yesterday.;Кто-то оставил зонт в офисе, и администратор сказал, что он его/ее со вчерашнего дня.;0;
-
-# possessive-absolute: patterns - с предлогом "of" (часто в формальных и литературных текстах)
+# possessive: patterns - с предлогом "of" (часто в формальных и литературных текстах)
 000;She is a friend of [mine:s1].;Она моя подруга.;0;
 000;That car of [theirs:p3] is cool.;Та их машина классная.;0;
 000;This idea of [hers:s3f] is brilliant.;Эта её идея блестящая.;0;
@@ -729,29 +711,25 @@ id;question;extra;suspicious_status;suspicious_note
 007;FIXME: That painting of her is a masterpiece. -> That painting [of hers] is a masterpiece.;<перевод>;0;
 008;FIXME: A project of our got approved. -> A project [of ours] got approved.;<перевод>;0;
 009;FIXME: A colleague of your invited me to the event. -> A colleague [of yours] invited me to the event.;<перевод>;0;
-
-# possessive-absolute: patterns - после глагола be (в значении принадлежности)
+# possessive: patterns - после глагола be (в значении принадлежности)
 000;This seat is [mine:s1].;Это место моё.;0;
 000;The decision is [yours:s2].;Решение за тобой.;0;
 000;That house is [theirs:p3].;Тот дом их.;0;
 000;The responsibility is [ours:p1].;Ответственность на нас.;0;
 000;This victory is [hers:s3f].;Эта победа её.;0;
-
-# possessive-absolute: patterns - в конце предложения (без существительного)
+# possessive: patterns - в конце предложения (без существительного)
 000;I lost my pen, so I borrowed [yours:s2].;Я потерял свою ручку, поэтому одолжил твою.;0;
 000;They have their problems, and we have [ours:p1].;У них свои проблемы, а у нас свои.;0;
 000;His presentation was great, but [mine:s1] was better.;Его презентация была хорошей, но моя лучше.;0;
 000;She forgot her notebook, so I gave her [mine:s1].;Она забыла свой блокнот, поэтому я дал ей свой.;0;
 000;Their car is fast, but [ours:p1] is more comfortable.;Их машина быстрая, но наша удобнее.;0;
-
-# possessive-absolute: patterns - в сравнительных конструкциях
+# possessive: patterns - в сравнительных конструкциях
 000;Her idea is more creative than [mine:s1].;Её идея креативнее моей.;0;
 000;His grades are higher than [yours:s2].;Его оценки выше твоих.;0;
 000;Your solution is simpler than [ours:p1].;Твоё решение проще нашего.;0;
 000;Their company is bigger than [his:s3m].;Их компания больше, чем его.;0;
 000;This city is more crowded than [theirs:p3].;Этот город более многолюдный, чем их.;0;
-
-# possessive-absolute: patterns - в сочетаниях с "own" (для усиления)
+# possessive: patterns - в сочетаниях с "own" (для усиления)
 000;I want a place [of my own](of myself).;Я хочу своё собственное место.;0;
 000;She dreams of having a business [of her own](of herself).;Она мечтает о собственном бизнесе.;0;
 000;They bought a house [of their own](of themselves).;Они купили свой собственный дом.;0;
@@ -762,13 +740,11 @@ id;question;extra;suspicious_status;suspicious_note
 000;She built a career [of her own](of herself).;Она построила свою собственную карьеру.;0;
 000;She has a car [of her own](of herself).;У неё есть собственная машина.;0;
 000;She wants a room [of her own](of herself).;Она хочет свою собственную комнату.;0;
-
-# possessive-absolute: Anthropomorphism - персонификация объектов
+# possessive: Anthropomorphism - персонификация объектов
 000;This submarine is legendary, and no other vessel can match [hers:t.Possessive,e.anthropomorphism].;Эта подводная лодка легендарна, и ни одно другое судно не сравнится с ней.;0;
 000;The steam locomotive has a charm that is uniquely [hers:t.Possessive,e.anthropomorphism].;Этот паровоз обладает очарованием, которое присуще только ему.;0;
 000;The vintage car was parked next to a modern one, but [hers:t.Possessive,e.anthropomorphism] was the one that drew all the attention.;Ретро-автомобиль был припаркован рядом с современным, но именно он привлекал всеобщее внимание.;0;
-
-# possessive-absolute: noun2pronoun
+# possessive: noun2pronoun
 000;This pen is [mine:t.Possessive-absolute](my pen).;Это моя ручка;0;
 000;Her jacket is [mine:t.Possessive-absolute](my coat).;Её куртка теплее, чем моя.;0;
 000;Their apartment is [ours:t.Possessive-absolute](our flat).;Их квартира больше, чем наша.;0;
@@ -783,242 +759,6 @@ id;question;extra;suspicious_status;suspicious_note
 000;[His:t.Possessive-absolute](His response) was faster than the manager's.;Его ответ был быстрее, чем у менеджера.;0;
 000;[Theirs:t.Possessive-absolute](Their strategy) turned out to be more effective than ours.;Их стратегия оказалась эффективнее, чем наша.;0;
 000;[Mine:t.Possessive-absolute](My design) looked more modern than the previous model.;Мой дизайн выглядел современнее, чем предыдущая модель.;0;
-
-# possessive-cojoint: identification
-290;This is [my:t.Possessive,s1] book.;Это моя книга.;0;
-291;[My:t.Possessive,s1] car is very old.;Моя машина очень старая.;0;
-292;[My:t.Possessive,s1] house is near the park.;Мой дом рядом с парком.;0;
-293;[My:t.Possessive,s1] friend is waiting for me.;Мой друг ждёт меня.;0;
-294;[My:t.Possessive,s1] phone is charging.;Мой телефон заряжается.;0;
-295;[Your:t.Possessive,s2] efforts matter.;Ваши усилия важны.;0;
-296;[Your:t.Possessive,s2] house is beautiful.;Ваш дом красивый.;0;
-297;Where is [your:t.Possessive,s2] car?;Где ваша машина?;0;
-298;[Your:t.Possessive,s2] kids are very polite.;Ваши дети очень вежливы.;0;
-299;I like [your:t.Possessive,s2] idea.;Мне нравится ваша идея.;0;
-300;[His:t.Possessive,s3m] dog is friendly.;Его собака дружелюбная.;0;
-301;[His:t.Possessive,s3m] house is very big.;Его дом очень большой.;0;
-302;I like [his:t.Possessive,s3m] car.;Мне нравится его машина.;0;
-303;[His:t.Possessive,s3m] work is inspiring.;Его работа вдохновляющая.;0;
-304;Where is [his:t.Possessive,s3m] book?;Где его книга?;0;
-305;[Her:t.Possessive,s3f] ideas are brilliant.;Её идеи блестящие.;0;
-306;[Her:t.Possessive,s3f] voice is beautiful.;Её голос прекрасен.;0;
-307;[Her:t.Possessive,s3f] house is near the school.;Её дом рядом со школой.;0;
-308;I like [her:t.Possessive,s3f] style.;Мне нравится её стиль.;0;
-309;This is [her:t.Possessive,s3f] favorite color.;Это её любимый цвет.;0;
-310;[Its:t.Possessive,s3n] color is vibrant.;Его цвет яркий.;0;
-311;[Its:t.Possessive,s3n] size is perfect.;Его размер идеален.;0;
-312;I like [its:t.Possessive,s3n] design.;Мне нравится его дизайн.;0;
-313;[Its:t.Possessive,s3n] role is important.;Его роль важна.;0;
-314;[Its:t.Possessive,s3n] sound is unique.;Его звук уникален.;0;
-315;[Our:t.Possessive,p1] team is strong.;Наша команда сильная.;0;
-316;[Our:t.Possessive,p1] house is on the corner.;Наш дом на углу.;0;
-317;[Our:t.Possessive,p1] car is parked outside.;Наша машина припаркована снаружи.;0;
-318;[Our:t.Possessive,p1] work is almost done.;Наша работа почти завершена.;0;
-319;[Our:t.Possessive,p1] friends are coming over.;Наши друзья идут к нам.;0;
-320;[Their:t.Possessive,p3] house is beautiful.;Их дом красивый.;0;
-321;[Their:t.Possessive,p3] dog is very playful.;Их собака очень игривая.;0;
-322;[Their:t.Possessive,p3] car is new.;Их машина новая.;0;
-323;[Their:t.Possessive,p3] kids are at school.;Их дети в школе.;0;
-324;I like [their:t.Possessive,p3] work.;Мне нравится их работа.;0;
-325;I couldn't believe how quickly [my:t.Possessive,s1] plans changed after the unexpected news.;Я не мог поверить, как быстро мои планы изменились после неожиданной новости.;0;
-326;After several revisions, [my:t.Possessive,s1] final decision turned out to be the best one.;После нескольких исправлений моё окончательное решение оказалось лучшим.;0;
-327;The professor praised [my:t.Possessive,s1] work, saying it showed deep understanding of the topic.;Профессор похвалил мою работу, сказав, что она демонстрирует глубокое понимание темы.;0;
-328;Without a doubt, [my:t.Possessive,s1] favorite way to relax is reading a good book in the evening.;Без сомнения, мой любимый способ расслабиться - это чтение хорошей книги вечером.;0;
-329;If [my:t.Possessive,s1] calculations are correct, we should reach the destination in two hours.;Если мои расчёты верны, мы должны добраться до места назначения через два часа.;0;
-330;After years of dedication, [my:t.Possessive,s1] hard work finally paid off.;После многих лет упорного труда моя работа наконец окупилась.;0;
-331;Right after [my:t.Possessive,s1] presentation, the audience started asking questions.;Сразу после моей презентации аудитория начала задавать вопросы.;0;
-332;By the time I arrived, [your:t.Possessive,s2] friends had already left for the airport.;К тому времени как я приехал, твои друзья уже уехали в аэропорт.;0;
-333;Could you remind me where [your:t.Possessive,s2] office is located in this building?;Не мог бы ты напомнить мне, где находится твой офис в этом здании?;0;
-334;No matter how hard you try, [your:t.Possessive,s2] efforts won't go unnoticed by the management.;Как бы ты ни старался, твои усилия не останутся незамеченными руководством.;0;
-335;Despite the difficulties, [your:t.Possessive,s2] idea proved to be more effective than expected.;Несмотря на трудности, твоя идея оказалась более эффективной, чем ожидалось.;0;
-336;The fact that [your:t.Possessive,s2] argument was well-structured made a huge difference.;Тот факт, что твой аргумент был хорошо структурирован, сыграл большую роль.;0;
-337;Without [your:t.Possessive,s2] advice, I would have made a terrible mistake.;Без твоего совета я бы совершил ужасную ошибку.;0;
-338;When [your:t.Possessive,s2] schedule is so packed, how do you find time to relax?;Когда твой график такой плотный, как ты находишь время на отдых?;0;
-339;With every passing day, [his:t.Possessive,s3m] confidence in the project continued to grow.;С каждым днём его уверенность в проекте продолжала расти.;0;
-340;We were surprised to see that [his:t.Possessive,s3m] proposal had already been accepted.;Мы были удивлены, увидев, что его предложение уже было принято.;0;
-341;Without hesitation, [his:t.Possessive,s3m] decision influenced the outcome of the negotiation.;Без колебаний его решение повлияло на исход переговоров.;0;
-342;After years of hard work, [his:t.Possessive,s3m] dream of becoming a doctor finally came true.;После многих лет упорной работы его мечта стать врачом наконец сбылась.;0;
-343;Since [his:t.Possessive,s3m] arrival, things in the office have become more organized.;С момента его прибытия в офисе всё стало более организованным.;0;
-344;Although [his:t.Possessive,s3m] story was interesting, it lacked crucial details.;Хотя его рассказ был интересным, в нём не хватало важных деталей.;0;
-345;It's fascinating how much [his:t.Possessive,s3m] perspective has changed over the years.;Удивительно, насколько изменилась его точка зрения за эти годы.;0;
-346;Although [her:t.Possessive,s3f] suggestions were controversial, they sparked an interesting discussion.;Хотя её предложения были спорными, они вызвали интересную дискуссию.;0;
-347;By the end of the meeting, [her:t.Possessive,s3f] influence on the team was undeniable.;К концу собрания её влияние на команду стало неоспоримым.;0;
-348;Everyone in the office noticed that [her:t.Possessive,s3f] enthusiasm was contagious.;Все в офисе заметили, что её энтузиазм был заразительным.;0;
-349;If you look closely, [her:t.Possessive,s3f] painting reveals an impressive level of detail.;Если присмотреться, её картина раскрывает впечатляющий уровень детализации.;0;
-350;Before making a decision, [her:t.Possessive,s3f] team conducted thorough research.;Перед принятием решения её команда провела тщательное исследование.;0;
-351;The moment [her:t.Possessive,s3f] name was mentioned, everyone turned to listen.;В тот момент, когда её имя было упомянуто, все обернулись, чтобы послушать.;0;
-352;Despite [her:t.Possessive,s3f] warnings, they continued with their risky plan.;Несмотря на её предупреждения, они продолжили свой рискованный план.;0;
-353;After the storm, [its:t.Possessive,s3n] structure remained surprisingly intact despite the strong winds.;После шторма его структура осталась удивительно неповреждённой, несмотря на сильные ветры.;0;
-354;Even though the company faced challenges, [its:t.Possessive,s3n] reputation remained solid.;Несмотря на трудности, её репутация осталась прочной.;0;
-355;Because of [its:t.Possessive,s3n] design, this bridge can withstand extreme weather conditions.;Благодаря своему дизайну, этот мост может выдерживать экстремальные погодные условия.;0;
-356;The new policy is controversial, but [its:t.Possessive,s3n] implementation has already begun.;Новая политика спорна, но её внедрение уже началось.;0;
-357;We were amazed by how much [its:t.Possessive,s3n] features had improved in the new version.;Мы были поражены тем, насколько улучшились его характеристики в новой версии.;0;
-358;Thanks to [its:t.Possessive,s3n] durability, this product lasts much longer than expected.;Благодаря своей прочности, этот продукт служит намного дольше, чем ожидалось.;0;
-359;If [its:t.Possessive,s3n] performance continues to improve, the company will thrive.;Если его производительность продолжит расти, компания будет процветать.;0;
-360;Although [our:t.Possessive,p1] team was smaller, we managed to win the competition.;Хотя наша команда была меньше, мы смогли выиграть соревнование.;0;
-361;After months of preparation, [our:t.Possessive,p1] project was finally approved by the board.;После нескольких месяцев подготовки наш проект наконец был одобрен советом.;0;
-362;It was clear that [our:t.Possessive,p1] approach to solving the issue was the most efficient.;Было очевидно, что наш подход к решению проблемы был самым эффективным.;0;
-363;Before we started the journey, [our:t.Possessive,p1] guide explained the safety rules in detail.;Перед тем как мы отправились в путешествие, наш гид подробно объяснил правила безопасности.;0;
-364;As a result of [our:t.Possessive,p1] collaboration, the project exceeded all expectations.;В результате нашего сотрудничества проект превзошёл все ожидания.;0;
-365;Because of [our:t.Possessive,p1] mistake, the deadline had to be extended.;Из-за нашей ошибки срок пришлось продлить.;0;
-366;Ever since [our:t.Possessive,p1] training began, we have become much more confident.;С тех пор как началась наша подготовка, мы стали гораздо увереннее.;0;
-367;As soon as the guests arrived, [their:t.Possessive,p3] attention was drawn to the stunning view.;Как только гости прибыли, их внимание привлек потрясающий вид.;0;
-368;Even after years of separation, [their:t.Possessive,p3] bond remained as strong as ever.;Даже после многих лет разлуки их связь осталась такой же крепкой.;0;
-369;No one expected [their:t.Possessive,p3] reaction to be so emotional.;Никто не ожидал, что их реакция будет такой эмоциональной.;0;
-370;Because of [their:t.Possessive,p3] efforts, the event turned out to be a great success.;Благодаря их усилиям мероприятие оказалось большим успехом.;0;
-371;Nobody doubted that [their:t.Possessive,p3] decision was the right one in the given situation.;Никто не сомневался, что их решение было верным в данной ситуации.;0;
-372;With [their:t.Possessive,p3] support, the organization was able to expand internationally.;С их поддержкой организация смогла выйти на международный уровень.;0;
-373;It was difficult to ignore [their:t.Possessive,p3] influence on the final result.;Было трудно игнорировать их влияние на окончательный результат.;0;
-
-# possessive-cojoint: порядок местоимений
-001;This is [your and my](i, you) project.;Это ваш и мой проект.;0;
-002;We discussed [your and his](you, he) ideas.;Мы обсуждали ваши и его идеи.;0;
-003;She reviewed [their and my](i, they) reports.;Она проверила их и мои отчёты.;0;
-004;They liked [your and her](you, she) presentation.;Им понравилась ваша и её презентация.;0;
-005;This is [his and our](we, he) responsibility.;Это его и наша ответственность.;0;
-006;We should respect [your and their](you, they) opinion.;Мы должны уважать ваши и их мнения.;0;
-007;She borrowed [his and my](i, he) notes for the test.;Она взяла его и мои записи для теста.;0;
-008;I appreciate [your and her](you, she) help.;Я ценю вашу и её помощь.;0;
-009;They are considering [your and our](you, we) proposal.;Они рассматривают ваше и наше предложение.;0;
-010;We need to combine [your and their](you, they) resources.;Нам нужно объединить ваши и их ресурсы.;0;
-011;I corrected [your and his](you, he) mistakes.;Я исправил ваши и его ошибки.;0;
-013;She accepted [their and my](i, they) offer.;Она приняла их и моё предложение.;0;
-016;They shared [your and my](i, you) concerns.;Они разделяют ваши и мои опасения.;0;
-017;I need to check [your and their](you, they) schedules.;Мне нужно проверить ваши и их расписания.;0;
-018;She supports [his and our](we, he) project.;Она поддерживает его и наш проект.;0;
-019;We finalized [her and their](she, they) contracts.;Мы завершили её и их контракты.;0;
-020;I value [your and their](you, they) feedback.;Я ценю ваши и их отзывы.;0;
-
-# possessive-cojoint: Singular Their
-001;Every student should bring [their:t.Possessive] own notebook.;Каждый студент должен принести свой собственный блокнот.;0;
-002;If someone forgets [their:t.Possessive] password, they can reset it online.;Если кто-то забудет свой пароль, он может сбросить его онлайн.;0;
-003;Nobody wants to lose [their:t.Possessive] job.;Никто не хочет потерять свою работу.;0;
-004;A person should follow [their:t.Possessive] dreams.;Человек должен следовать своим мечтам.;0;
-005;Each employee has [their:t.Possessive] own responsibilities.;Каждый сотрудник имеет свои собственные обязанности.;0;
-006;If a doctor loves [their:t.Possessive] job, they will help more patients.;Если врач любит свою работу, он поможет большему количеству пациентов.;0;
-007;When a customer enters, greet [their:t.Possessive] visit with a smile.;Когда клиент заходит, приветствуйте его визит с улыбкой.;0;
-008;No one should be forced to change [their:t.Possessive] beliefs.;Никто не должен быть вынужден менять свои убеждения.;0;
-009;If a writer wants to improve [their:t.Possessive] skills, they must practice daily.;Если писатель хочет улучшить свои навыки, он должен практиковаться ежедневно.;0;
-010;Each person must choose [their:t.Possessive] own path in life.;Каждый человек должен выбрать свой собственный путь в жизни.;0;
-
-# possessive-cojoint: patterns - в сочетаниях с "own" (для усиления)
-001;I have [my:t.Possessive] own apartment.;У меня есть своя собственная квартира.;0;
-002;He prefers [my:t.Possessive] own recipe.;Он предпочитает мой собственный рецепт.;0;
-003;I can solve this problem on [my:t.Possessive] own.;Я могу решить эту проблему самостоятельно.;0;
-004;[My:t.Possessive] own experience tells me otherwise.;Мой собственный опыт говорит мне обратное.;0;
-005;I want to start [my:t.Possessive] own business.;Я хочу открыть свой собственный бизнес.;0;
-006;This is [your:t.Possessive] own choice.;Это твой собственный выбор.;0;
-007;You should have [your:t.Possessive] own opinion.;Тебе следует иметь своё собственное мнение.;0;
-008;Do you have [your:t.Possessive] own office?;У тебя есть свой собственный офис?;0;
-009;[Your:t.Possessive] own words contradict you.;Твои собственные слова тебе противоречат.;0;
-010;You must make [your:t.Possessive] own decisions.;Ты должен принимать свои собственные решения.;0;
-011;He has [his:t.Possessive] own car.;У него есть своя собственная машина.;0;
-012;[His:t.Possessive] own brother betrayed him.;Его родной брат предал его.;0;
-013;He built [his:t.Possessive] own house.;Он построил свой собственный дом.;0;
-014;He is responsible for [his:t.Possessive] own actions.;Он несёт ответственность за свои собственные поступки.;0;
-015;[His:t.Possessive] own parents didn't believe him.;Его собственные родители не верили ему.;0;
-016;She wants [her:t.Possessive] own space.;Она хочет своё собственное пространство.;0;
-017;[Her:t.Possessive] own friends don't trust her.;Её собственные друзья ей не доверяют.;0;
-018;She designed [her:t.Possessive] own dress.;Она создала своё собственное платье.;0;
-019;She has [her:t.Possessive] own opinion on this matter.;У неё есть своё собственное мнение на этот счёт.;0;
-020;[Her:t.Possessive] own work speaks for itself.;Её собственная работа говорит сама за себя.;0;
-021;The little cabin has [its:t.Possessive] own charm.;Небольшой домик имеет свой собственный шарм.;0;
-022;The company has [its:t.Possessive] own rules.;У компании есть свои собственные правила.;0;
-023;The tree grew in [its:t.Possessive] own unique way.;Дерево выросло по-своему.;0;
-024;The school has [its:t.Possessive] own traditions.;У школы есть свои собственные традиции.;0;
-025;The system has [its:t.Possessive] own limitations.;У системы есть свои собственные ограничения.;0;
-026;We have [our:t.Possessive] own traditions.;У нас есть свои собственные традиции.;0;
-027;[Our:t.Possessive] own team won the championship.;Наша собственная команда выиграла чемпионат.;0;
-028;This is [our:t.Possessive] own responsibility.;Это наша собственная ответственность.;0;
-029;We are building [our:t.Possessive] own future.;Мы строим своё собственное будущее.;0;
-030;[Our:t.Possessive] own mistakes teach us the most.;Наши собственные ошибки учат нас больше всего.;0;
-031;They have [their:t.Possessive] own business.;У них есть свой собственный бизнес.;0;
-032;[Their:t.Possessive] own ideas changed the industry.;Их собственные идеи изменили индустрию.;0;
-033;[Their:t.Possessive] own house is under construction.;Их собственный дом строится.;0;
-034;[Their:t.Possessive] own words proved them wrong.;Их собственные слова доказали их неправоту.;0;
-035;[Their:t.Possessive] own experience helped them succeed.;Их собственный опыт помог им добиться успеха.;0;
-
-# possessive-cojoint: Anthropomorphism - персонификация объектов
-000;The ship was old, but [her:t.Possessive,e.anthropomorphism] sails were still intact.;Корабль был старым, но его паруса всё ещё были целы.;0;
-000;The jet took off smoothly, showcasing [her:t.Possessive,e.anthropomorphism] impressive power.;Истребитель взлетел плавно, демонстрируя свою впечатляющую мощь.;0;
-000;Despite the years, [her:t.Possessive,e.anthropomorphism] engine still roared like new.;Несмотря на годы, её двигатель всё ещё рычал, как новый.;0;
-
-# possessive-cojoint: possessive-cojoint vs "to be"
-000;[They're](they're/their) going to the store.;Они идут в магазин.;0;
-000;I like [your](your/you're) new haircut.;Мне нравится твоя новая стрижка.;0;
-000;The dog wagged [its](its/it's) tail.;Собака виляла хвостом.;0;
-000;[It's](its/it's) raining outside.;На улице идет дождь.;0;
-000;[It's](its/it's) the best decision you could make! - Это лучшее решение, которое ты мог принять!;0;
-000;She forgot [her](her/she's) keys at home.;Она забыла свои ключи дома.;0;
-000;[They're](they're/their) very happy to see you.;Они очень рады тебя видеть.;0;
-000;The book lost [its](its/it's) cover.;Книга потеряла свою обложку.;0;
-000;[It's](Its/It's) a beautiful day outside.;На улице прекрасный день.;0;
-000;The cat was licking [its](its/it's) paws.;Кот облизывал свои лапы.;0;
-000;[You're](Your/You're) going to love this movie! - Тебе точно понравится этот фильм!;0;
-000;[They're](Their/They're) coming over for dinner at six.;Они придут на ужин в шесть.;0;
-000;[You're](Your/You're) the best friend I've ever had.;Ты лучший друг, который у меня был.;0;
-000;The dog lost [its](Its/It's) collar somewhere in the park.;Собака потеряла свой ошейник где-то в парке.;0;
-000;I think [you're](your/you're) the best choice for the job.;Думаю, ты лучший кандидат на эту работу.;0;
-000;The phone lost [its](its/it's) battery charge.;Телефон разрядился.;0;
-000;This is my car, and that one is [theirs](their/theirs).;Это моя машина, а та - их.;0;
-000;She said [she's](she's/her) not feeling well today.;Она сказала, что плохо себя чувствует сегодня.;0;
-000;I don't know [his](his/he's) name, but she looks familiar.;Я не знаю его имени, но она выглядит знакомой.;0;
-000;The company changed [its](its/it's) logo last year.;Компания сменила свой логотип в прошлом году.;0;
-000;We're going to [their](they're/their) house for the weekend.;Мы едем к ним домой на выходные.;0;
-
-# possessive-cojoint: impact rule (правило воздействия)
-000;She kissed him on [the] cheek.;Она поцеловала его в щёку.;0;
-000;They hit me on [the] head.;Они ударили меня по голове.;0;
-000;He slapped her on [the] wrist.;Он шлёпнул её по запястью.;0;
-000;The ball hit him on [the] knee.;Мяч ударил его по колену.;0;
-000;She patted the child on [the] back.;Она похлопала ребёнка по спине.;0;
-000;He punched me in [the] stomach.;Он ударил меня в живот.;0;
-000;The insect stung her in [the] arm.;Насекомое ужалило её в руку.;0;
-000;She kicked him in [the] shin.;Она ударила его по голени.;0;
-000;He hit me in [the] ribs.;Он ударил меня по рёбрам.;0;
-000;The doctor injected him in [the] shoulder.;Врач сделал ему укол в плечо.;0;
-000;He grabbed me at [the] wrist.;Он схватил меня за запястье.;0;
-000;She scratched him at [the] neck.;Она поцарапала его в области шеи.;0;
-000;The cat bit him at [the] ankle.;Кошка укусила его за лодыжку.;0;
-000;He tugged her at [the] sleeve.;Он потянул её за рукав.;0;
-000;I felt a pain at [the] temple.;Я почувствовал боль в виске.;0;
-000;He pulled me by [the] arm.;Он потянул меня за руку.;0;
-000;She held him by [the] shoulder.;Она держала его за плечо.;0;
-000;He grabbed her by [the] collar.;Он схватил её за воротник.;0;
-000;The officer took him by [the] wrist.;Офицер взял его за запястье.;0;
-000;The dog caught him by [the] pant leg.;Собака схватила его за штанину.;0;
-000;He hit me with [the] palm of his hand.;Он ударил меня ладонью руки.;0;
-000;She poked him with [the] finger.;Она ткнула его пальцем.;0;
-000;He slapped me with [the] back of his hand.;Он ударил меня тыльной стороной руки.;0;
-000;The child wiped his mouth with [the] sleeve.;Ребёнок вытер рот рукавом.;0;
-000;She covered her face with [the] hands.;Она закрыла лицо руками.;0;
-
-# possessive-cojoint: noun2pronoun - могут замещать существительные с 's или конструкцию с предлогом of
-000;This is [his friend:t.Possessive](a friend of Michael), not mine.;Это друг Майкла, а не мой.;0;
-001;[His idea:t.Possessive](Jack's idea) was interesting, but his was even better.;Идея Джека была интересной, но его была ещё лучше.;0;
-002;[His idea:t.Possessive](The idea of Jack) was interesting, but his was even better.;Идея Джека была интересной, но его была ещё лучше.;0;
-003;[His decision:t.Possessive](Mark's decision) was unexpected, but hers was even more surprising.;Решение Марка было неожиданным, но её было ещё более удивительным.;0;
-004;[His decision:t.Possessive](The decision of Mark) was unexpected, but hers was even more surprising.;Решение Марка было неожиданным, но её было ещё более удивительным.;0;
-005;[Her book:t.Possessive](Anna's book) is on the table.;Книга Анны на столе.;0;
-006;[Her book:t.Possessive](The book of Anna) is on the table.;Книга Анны на столе.;0;
-007;He supported [her decision:t.Possessive](Anna's decision), but questioned her reasoning.;Он поддержал решение Анны, но усомнился в её аргументации.;0;
-008;He supported [her decision:t.Possessive](the decision of Anna), but questioned her reasoning.;Он поддержал решение Анны, но усомнился в её аргументации.;0;
-009;The company changed [its policy:t.Possessive](the department's policy) to comply with new regulations.;Компания изменила политику отдела, чтобы соответствовать новым правилам.;0;
-010;The company changed [its policy:t.Possessive](the policy of the department) to comply with new regulations.;Компания изменила политику отдела, чтобы соответствовать новым правилам.;0;
-011;The university updated [its catalog:t.Possessive](the library's catalog) to include digital resources.;Университет обновил каталог библиотеки, чтобы включить цифровые ресурсы.;0;
-012;The university updated [its catalog:t.Possessive](the catalog of the library) to include digital resources.;Университет обновил каталог библиотеки, чтобы включить цифровые ресурсы.;0;
-013;The company improved [its interface:t.Possessive](the website's interface) for better user experience.;Компания улучшила интерфейс сайта для лучшего пользовательского опыта.;0;
-014;The company improved [its interface:t.Possessive](the interface of the website) for better user experience.;Компания улучшила интерфейс сайта для лучшего пользовательского опыта.;0;
-015;The team followed [its guidelines:t.Possessive](the organization's guidelines) to ensure compliance.;Команда следовала рекомендациям организации, чтобы обеспечить соответствие.;0;
-016;The team followed [its guidelines:t.Possessive](the guidelines of the organization) to ensure compliance.;Команда следовала рекомендациям организации, чтобы обеспечить соответствие.;0;
-017;The device lost [its calibration:t.Possessive](the sensor's calibration) after prolonged use.;Устройство потеряло калибровку датчика после длительного использования.;0;
-018;The device lost [its calibration:t.Possessive](the calibration of the sensor) after prolonged use.;Устройство потеряло калибровку датчика после длительного использования.;0;
-019;The school updated [its structure:t.Possessive](the curriculum's structure) to match new standards.;Школа обновила структуру учебного плана, чтобы соответствовать новым стандартам.;0;
-020;The school updated [its structure:t.Possessive](the structure of the curriculum) to match new standards.;Школа обновила структуру учебного плана, чтобы соответствовать новым стандартам.;0;
-021;The app changed [its settings:t.Possessive](the notification's settings) after the update.;Приложение изменило настройки уведомления после обновления.;0;
-022;The app changed [its settings:t.Possessive](the settings of the notification) after the update.;Приложение изменило настройки уведомления после обновления.;0;
-023;[Their house:t.Possessive](James and Sarah's house) is bigger than ours.;Дом Джеймса и Сары больше, чем наш.;0;
-024;[Their house:t.Possessive](the house of James and Sarah) is bigger than ours.;Дом Джеймса и Сары больше, чем наш.;0;
 
 # Reflexive(Возвратные): identification
 000;I went to the store [myself:t.Reflexive,s1];Я пошёл в магазин сам;0;  
@@ -1075,7 +815,6 @@ id;question;extra;suspicious_status;suspicious_note
 051;One should push [oneself:t.Reflexive,none] to improve daily;Нужно подталкивать себя к улучшению каждый день;0;  
 052;One can easily lose [oneself:t.Reflexive,none] in thoughts;Можно легко потеряться в мыслях;0;  
 053;One must remind [oneself:t.Reflexive,none] of the bigger picture;Нужно напоминать себе о более широкой перспективе;0;  
-
 # Reflexive(Возвратные): usage - не используются как подлежащее.
 000;FIXME: Myself can solve the problem. -> [I can solve] the problem myself.;Я сам могу решить проблему.;0;
 001;FIXME: Yourself should apologize. -> [You should] apologize yourself.;Тебе следует извиниться самому.;0;
@@ -1104,7 +843,6 @@ id;question;extra;suspicious_status;suspicious_note
 032;FIXME: The scientist argued that itself was not a reliable source of data. -> The scientist argued that [it was not] a reliable source of data.;Учёный утверждал, что это не является надёжным источником данных.;0;  
 033;FIXME: Despite the challenges, the team and myself managed to complete the task. -> Despite the challenges, [the team and I managed to complete] the task.;Несмотря на трудности, команда и я смогли выполнить задание.;0;  
 034;FIXME: Her colleagues assumed that herself had taken the initiative. -> Her colleagues assumed that [she had taken] the initiative.;Её коллеги предположили, что она взяла инициативу на себя.;0;  
-
 # Reflexive(Возвратные): usage.oneself - неопределенное лицо, высказывания общего характера
 001;It is important to challenge [oneself:t.Reflexive,s0] every day.;Важно бросать себе вызов каждый день.;0;  
 002;One should always take care of [oneself:t.Reflexive,s0].;Всегда нужно заботиться о себе.;0;  
@@ -1148,7 +886,6 @@ id;question;extra;suspicious_status;suspicious_note
 008;I cooked dinner [by myself:t.Reflexive](independently).;Я приготовил ужин сам.;0;  
 009;They organized the event [by themselves:t.Reflexive](independently).;Они организовали мероприятие сами.;0;  
 010;She sewed the dress [by herself:t.Reflexive](independently).;Она сшила платье сама.;0;  
-
 # Reflexive(Возвратные): patterns.prepositions > Base > For oneself (Для себя)
 001;He made the decision [for himself:t.Reflexive](для себя).;Он принял решение для себя.;0;  
 002;She cooked dinner [for herself:t.Reflexive](для себя).;Она приготовила ужин для себя.;0;  
@@ -1160,7 +897,6 @@ id;question;extra;suspicious_status;suspicious_note
 003;I took a day off [for myself:t.Reflexive](для себя) to relax and recharge.;Я взял выходной для себя, чтобы расслабиться и набраться сил.;0;  
 004;They built a house [for themselves:t.Reflexive](для себя) instead of renting one.;Они построили дом для себя, вместо того чтобы снимать жилье.;0;  
 005;He booked a trip [for himself:t.Reflexive](для себя) because he needed a break.;Он забронировал поездку для себя, потому что ему нужен был отдых.;0;  
-
 # Reflexive(Возвратные): patterns.prepositions > Base > About oneself (О себе)
 001;He only thinks [about himself:t.Reflexive](о себе).;Он думает только о себе.;0;  
 002;Tell me something [about yourself:t.Reflexive](о себе).;Расскажи мне что-нибудь о себе.;0;  
@@ -1172,7 +908,6 @@ id;question;extra;suspicious_status;suspicious_note
 003;I learned something new [about myself:t.Reflexive](о себе) during this trip.;Я узнал что-то новое о себе во время этого путешествия.;0;  
 004;They spoke [about themselves:t.Reflexive](о себе) during the interview.;Они говорили о себе во время интервью.;0;  
 005;He likes reading stories [about himself:t.Reflexive](о себе) in fictional books.;Ему нравится читать истории о себе в художественных книгах.;0;  
-
 # Reflexive(Возвратные): patterns.prepositions > Base > To oneself (По отношению к себе)
 001;Don't be so hard [on yourself:t.Reflexive](по отношению к себе).;Не будь так строг к себе.;0;  
 002;He spoke [to himself:t.Reflexive](по отношению к себе).;Он говорил сам с собой.;0;  
@@ -1196,7 +931,6 @@ id;question;extra;suspicious_status;suspicious_note
 018;I accepted the duty [on myself:t.Reflexive](ответственность) and ensured everything was completed on time.;Я принял на себя обязанность и убедился, что все было выполнено вовремя.;0;  
 019;They took the challenge [on themselves:t.Reflexive](ответственность) to deliver the product ahead of schedule.;Они взяли на себя задачу доставить продукт раньше срока.;0;  
 020;She assumed full responsibility [on herself:t.Reflexive](ответственность) for the consequences of her actions.;Она взяла на себя полную ответственность за последствия своих действий.;0;  
-
 # Reflexive(Возвратные): patterns.prepositions > Useful > Upon oneself (обременение)
 021;He brought trouble [upon himself:t.Reflexive](обременение).;Он навлек на себя неприятности.;0;  
 022;She took the risk [upon herself:t.Reflexive](обременение).;Она взяла на себя риск.;0;  
@@ -1208,7 +942,6 @@ id;question;extra;suspicious_status;suspicious_note
 028;I placed unnecessary responsibility [upon myself:t.Reflexive](обременение) instead of delegating tasks.;Я возложил на себя ненужную ответственность, вместо того чтобы делегировать задачи.;0;  
 029;They imposed additional difficulties [upon themselves:t.Reflexive](обременение) by overcomplicating the process.;Они создали себе дополнительные трудности, чрезмерно усложнив процесс.;0;  
 030;She assumed the entire financial burden [upon herself:t.Reflexive](обременение) to keep her family secure.;Она взяла на себя весь финансовый груз, чтобы обеспечить безопасность своей семьи.;0;  
-
 # Reflexive(Возвратные): patterns.prepositions > Useful > Over oneself (самоконтроль)
 001;He has complete control [over himself:t.Reflexive](самоконтроль).;Он полностью контролирует себя.;0;  
 002;She struggled [over herself:t.Reflexive](самоконтроль).;Она боролась с собой.;0;  
@@ -1220,7 +953,6 @@ id;question;extra;suspicious_status;suspicious_note
 008;I fought [over myself:t.Reflexive](самоконтроль) to remain calm during the argument.;Я боролся с собой, чтобы оставаться спокойным во время спора.;0;  
 009;They kept control [over themselves:t.Reflexive](самоконтроль) despite the intense pressure at work.;Они сохраняли самоконтроль, несмотря на сильное давление на работе.;0;  
 010;She maintained discipline [over herself:t.Reflexive](самоконтроль) even in the toughest moments of training.;Она сохраняла самодисциплину даже в самые сложные моменты тренировки.;0;  
-
 # Reflexive(Возвратные): patterns.prepositions > Useful > Against oneself (борьба,вред)
 031;He worked [against himself:t.Reflexive](борьба, вред).;Он работал против себя.;0;  
 032;She acted [against herself:t.Reflexive](борьба, вред).;Она поступала против себя.;0;  
@@ -1232,7 +964,6 @@ id;question;extra;suspicious_status;suspicious_note
 038;I kept choosing [against myself:t.Reflexive](борьба, вред) instead of trusting my instincts.;Я постоянно выбирал против себя, вместо того чтобы довериться своим инстинктам.;0;  
 039;They fought [against themselves:t.Reflexive](борьба, вред) when their ambitions clashed with their values.;Они боролись с самими собой, когда их амбиции сталкивались с их ценностями.;0;  
 040;She struggled [against herself:t.Reflexive](борьба, вред) as fear kept her from moving forward.;Она боролась с самой собой, так как страх не давал ей двигаться вперед.;0;  
-
 # Reflexive(Возвратные): patterns.prepositions > Useful > Among themselves (Среди подобных)
 041;They kept the secret [among themselves:t.Reflexive](среди подобных).;Они хранили секрет между собой.;0;  
 042;The colleagues discussed the matter [among themselves:t.Reflexive](среди подобных).;Коллеги обсудили этот вопрос между собой.;0;  
@@ -1244,7 +975,6 @@ id;question;extra;suspicious_status;suspicious_note
 048;They formed a private network [among themselves:t.Reflexive](среди подобных) to support each other's growth.;Они создали закрытую сеть между собой, чтобы поддерживать развитие друг друга.;0;  
 049;The group built trust [among themselves:t.Reflexive](среди подобных) through open communication.;Группа выстроила доверие между собой с помощью открытого общения.;0;  
 050;The team assigned roles [among themselves:t.Reflexive](среди подобных) to ensure efficiency.;Команда распределила роли между собой для повышения эффективности.;0;  
-
 # Reflexive(Возвратные): patterns.prepositions > Specific > Within oneself (thoughts, feelings)
 001;He kept his fears [within himself:t.Reflexive](thoughts,feelings).;Он держал свои страхи внутри себя.;0;  
 002;She found strength [within herself:t.Reflexive](thoughts,feelings).;Она нашла силу внутри себя.;0;  
@@ -1256,7 +986,6 @@ id;question;extra;suspicious_status;suspicious_note
 008;I found unexpected confidence [within myself:t.Reflexive](thoughts,feelings) when facing the challenge alone.;Я нашел неожиданную уверенность внутри себя, столкнувшись с вызовом в одиночку.;0;  
 009;They hid their excitement [within themselves:t.Reflexive](thoughts,feelings), pretending to be indifferent.;Они скрывали свое волнение внутри себя, делая вид, что им всё равно.;0;  
 010;She carried a secret [within herself:t.Reflexive](thoughts,feelings) that no one else knew about.;Она хранила в себе секрет, о котором никто больше не знал.;0;  
-
 # Reflexive(Возвратные): patterns.prepositions > Specific > Beside oneself (lost control:actual)
 011;He was [beside himself:t.Reflexive](lost control:actual) with anger.;Он был вне себя от злости.;0;  
 012;She was [beside herself:t.Reflexive](lost control:actual) with excitement.;Она была вне себя от волнения.;0;  
@@ -1268,7 +997,6 @@ id;question;extra;suspicious_status;suspicious_note
 018;I was [beside myself:t.Reflexive](lost control:actual) with grief, unable to speak or move.;Я был вне себя от горя, не в силах ни говорить, ни двигаться.;0;  
 019;They were [beside themselves:t.Reflexive](lost control:actual) with terror as the storm grew stronger.;Они были вне себя от ужаса, когда буря усилилась.;0;  
 020;She was [beside herself:t.Reflexive](lost control:actual) with frustration after missing her flight.;Она была вне себя от разочарования после того, как пропустила свой рейс.;0;  
-
 # Reflexive(Возвратные): patterns.prepositions > Specific > Out of oneself (lost control:outdated)
 021;He was [out of himself:t.Reflexive](lost control:outdated) with madness.;Он был вне себя от безумия.;0;  
 022;She was [out of herself:t.Reflexive](lost control:outdated) from exhaustion.;Она была вне себя от усталости.;0;  
@@ -1280,7 +1008,6 @@ id;question;extra;suspicious_status;suspicious_note
 028;I was [out of myself:t.Reflexive](lost control:outdated) from sheer exhaustion after working for days without rest.;Я был вне себя от крайней усталости после нескольких дней работы без отдыха.;0;  
 029;They were [out of themselves:t.Reflexive](lost control:outdated) with anxiety while waiting for the test results.;Они были вне себя от тревоги, ожидая результатов теста.;0;  
 030;She was [out of herself:t.Reflexive](lost control:outdated) from shock after witnessing the accident.;Она была вне себя от шока после того, как стала свидетелем аварии.;0;  
-
 # Reflexive(Возвратные): patterns.verbs > impossible-wo(Без reflexive невозможно)
 000;He [perjured himself:t.Reflexive](лжесвидетельствовать) in court.;Он лжесвидетельствовал в суде.;0;
 000;The witness [perjured himself:t.Reflexive](лжесвидетельствовать) during the trial.;Свидетель лжесвидетельствовал во время суда.;0;
@@ -1297,7 +1024,6 @@ id;question;extra;suspicious_status;suspicious_note
 000;She tried to [ingratiate herself with:t.Reflexive](заискивать) her boss.;Она пыталась заискивать перед начальником.;0;
 000;He [ingratiated himself with:t.Reflexive](заискивать) the wealthy guests.;Он заискивал перед богатыми гостями.;0;
 000;They [ingratiated themselves with:t.Reflexive](заискивать) the new manager.;Они заискивали перед новым менеджером.;0;
-
 # Reflexive(Возвратные): patterns.verbs > req-w-exceptions(Требуют reflexive, но с исключеними)
 000;She [prides herself on:t.Reflexive](гордиться) her achievements.;Она гордится своими достижениями.;0;
 000;He [prides himself on:t.Reflexive](гордиться) being punctual.;Он гордится своей пунктуальностью.;0;
@@ -1305,7 +1031,6 @@ id;question;extra;suspicious_status;suspicious_note
 000;She [availed herself of:t.Reflexive](воспользоваться) the opportunity.;Она воспользовалась возможностью.;0;
 000;He [availed himself of:t.Reflexive](воспользоваться) the free resources.;Он воспользовался бесплатными ресурсами.;0;
 000;The guests [availed themselves of:t.Reflexive](воспользоваться) the complimentary drinks.;Гости воспользовались бесплатными напитками.;0;
-
 # Reflexive(Возвратные): patterns.Intensive(усилительные) > adding intensive
 000;I have done it [myself:t.Intensive] before!;Я делал это сам раньше!;0;
 000;She will bake the cake [herself:t.Intensive] tomorrow!;Она сама испечёт торт завтра!;0;
@@ -1348,7 +1073,6 @@ id;question;extra;suspicious_status;suspicious_note
 000;is Intensive Pronoun?: The president himself delivered the speech. [Y](Y/N);Президент сам произнес речь.;0;
 000;is Intensive Pronoun?: The book opened itself due to the wind. [N](Y/N);Книга открылась сама из-за ветра.;0;
 000;is Intensive Pronoun?: The author himself wrote the foreword. [Y](Y/N);Автор сам написал предисловие.;0;
-
 # Reflexive(Возвратные): antipatterns.prepositions > Location/Directional/Proximity (Место/Направление/Близость)
 000;FIXME:He saw a shadow behind himself. -> [He saw a shadow behind him.];Он увидел тень позади себя.;0;
 000;FIXME:She found strength beside herself. -> [She found strength beside her.];Она нашла силу рядом с собой.;0;
@@ -1362,13 +1086,11 @@ id;question;extra;suspicious_status;suspicious_note
 000;FIXME:A plane flew over ourselves. -> [A plane flew over us.];Самолёт пролетел над нами.;0;
 000;FIXME:He is sitting next to herself. -> [He is sitting next to her.];Он сидит рядом с ней.;0;
 000;FIXME:She felt someone near herself. -> [She felt someone near her.];Она почувствовала, что кто-то рядом с ней.;0;
-
 # Reflexive(Возвратные): antipatterns.prepositions > Means/Method (Средство/Способ)
 000;FIXME:He cut the paper with himself. -> [He cut the paper with him.];Он разрезал бумагу с его помощью.;0;
 000;FIXME:She completed the task by herself. -> [She completed the task by her.];Она завершила задание сама.;0;
 000;FIXME:He solved the problem by himself. -> [He solved the problem by him.];Он решил проблему сам.;0;
 000;FIXME:She wrote the letter with herself. -> [She wrote the letter with her.];Она написала письмо с её помощью.;0;
-
 # Reflexive(Возвратные): antipatterns.prepositions > Exception! "with"
 000;FIXME:My sister took me to the cinema with herself. -> [She took her dog with her.];Моя сестра взяла меня в кино с собой.;0;
 000;FIXME:He took a book with himself. -> [He took a book with him.];Он взял книгу с собой.;0;
@@ -1377,7 +1099,6 @@ id;question;extra;suspicious_status;suspicious_note
 000;FIXME:He went to the park with himself. -> [He went to the park with him.];Он пошёл в парк с ним.;0;
 000;FIXME:She took a jacket with herself. -> [She took a jacket with her.];Она взяла куртку с собой.;0;
 000;FIXME:The child brought a toy with himself. -> [The child brought a toy with him.];Ребёнок принёс игрушку с собой.;0;
-
 # Reflexive(Возвратные): antipatterns.verbs > habitual-action/self-care
 033;FIXME: She has never bathed herself in the river. -> [She has never bathed in the river.];Она никогда не купалась в реке.;0;
 034;FIXME: Did he bathe himself after a long day? -> [Did he bathe after a long day?];Он купался после долгого дня?;0;
@@ -1406,7 +1127,6 @@ id;question;extra;suspicious_status;suspicious_note
 057;FIXME: She showers herself before bed every night. -> [She showers before bed every night.];Она принимает душ перед сном каждый вечер.;0;
 058;FIXME: He wasn't showering himself after the workout. -> [He wasn't showering after the workout.];Он не принимал душ после тренировки.;0;
 059;FIXME: Have they showered themselves in the morning? -> [Have they showered in the morning?];Они приняли душ утром?;0;
-
 # Reflexive(Возвратные): antipatterns.verbs > ambiguous reflexivity
 000;FIXME: He had hidden himself behind the tree before they arrived. -> [He had hidden behind the tree before they arrived.];Он спрятался за деревом, прежде чем они прибыли.;0;
 000;FIXME: She is hiding herself under the blanket. -> [She is hiding under the blanket.];Она прячется под одеялом.;0;
@@ -1483,7 +1203,6 @@ id;question;extra;suspicious_status;suspicious_note
 000;FIXME: He had recovered himself from stress before exams started. -> [He had recovered from stress before exams started.];Он восстановился после стресса до начала экзаменов.;0;
 000;FIXME: She is recovering herself from an emotional breakdown. -> [She is recovering from an emotional breakdown.];Она восстанавливается после эмоционального срыва.;0;
 000;FIXME: They will recover themselves soon after the competition. -> [They will recover soon after the competition.];Они скоро восстановятся после соревнования.;0;
-
 # Reflexive(Возвратные): antipatterns.verbs > fixed-expressions
 000;FIXME: I took my laptop with myself. -> [I took my laptop with me.];Я взял свой ноутбук с собой.;0;
 000;FIXME: She took her passport with herself. -> [She took her passport with her.];Она взяла свой паспорт с собой.;0;
@@ -1518,7 +1237,6 @@ Reciprocal(взаимные): identification
 000;In the meeting, all team members exchanged ideas with [one another:t.Reciprocal,r.3].;На встрече все члены команды обменялись идеями друг с другом.;0;
 000;Students from different schools competed against [one another:t.Reciprocal,r.3] in the tournament.;Ученики из разных школ соревновались друг с другом на турнире.;0;
 000;During the debate, politicians argued with [one another:t.Reciprocal,r.3] over policies.;Во время дебатов политики спорили друг с другом по поводу политики.;0;
-
 Reciprocal(взаимные): possesive
 000;They borrowed [each other's:t.Reciprocal-Possessive,r.2] books for the literature project.;Они одолжили книги друг у друга для литературного проекта.;0;
 000;We couldn't understand [each other's:t.Reciprocal-Possessive,r.2] handwriting.;Мы не могли разобрать почерк друг друга.;0;
@@ -1526,7 +1244,6 @@ Reciprocal(взаимные): possesive
 000;The band members appreciated [one another's:t.Reciprocal-Possessive,r.3] contributions to the album.;Участники группы ценили вклад друг друга в альбом.;0;
 000;The scientists reviewed [one another's:t.Reciprocal-Possessive,r.3] research papers before publishing.;Учёные рецензировали научные работы друг друга перед публикацией.;0;
 000;The athletes respected [one another's:t.Reciprocal-Possessive,r.3] achievements in the championship.;Атлеты уважали достижения друг друга в чемпионате.;0;
-
 Reciprocal(взаимные): reciprocal vs themselves
 000;They blamed [each other](each other/themselves) for the mistake, but in reality, it was nobody's fault.;Они винили друг друга за ошибку, но на самом деле это была ничья вина.;0;
 000;The students helped [each other](each other/themselves) with their homework.;Ученики помогали друг другу с домашним заданием.;0;
@@ -1561,7 +1278,6 @@ Demonstrative(Указательные): identification
 021;I don't trust [those:t.Demonstrative,Plural,e.Away] people.;Я не доверяю тем людям.;0;  
 022;[Those:t.Demonstrative,Plural,e.Away] birds migrate south every winter.;Те птицы мигрируют на юг каждую зиму.;0;  
 023;She was staring at [those:t.Demonstrative,Plural,e.Away] paintings for hours.;Она часами смотрела на те картины.;0;  
-
 Demonstrative(Указательные): This и That as an Intensifier
 001;I didn't expect it to be [this:t.Demonstrative,e.Intensifier] difficult.;Я не ожидал, что это будет так сложно.;0;  
 002;Why is she [this:t.Demonstrative,e.Intensifier] late today?;Почему она сегодня так опаздывает?;0;  
@@ -1573,7 +1289,6 @@ Demonstrative(Указательные): This и That as an Intensifier
 008;Do we really need to be [that:t.Demonstrative,e.Intensifier] careful?;Нам действительно нужно быть настолько осторожными?;0;  
 009;I didn't realize the climb would be [that:t.Demonstrative,e.Intensifier] steep.;Я не думал, что подъём будет таким крутым.;0;  
 010;I've never seen him [that:t.Demonstrative,e.Intensifier] angry before.;Я никогда раньше не видел его таким злым.;0;  
-
 Demonstrative(Указательные): noun2pronoun
 001;I don’t need [this:t.Demonstrative,e.Near](pen).;Мне не нужна эта ручка.;0;  
 002;[This:t.Demonstrative,e.Near](problem) needs to be solved immediately.;Эту проблему нужно решить немедленно.;0;  

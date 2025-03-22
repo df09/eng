@@ -104,7 +104,7 @@ Personal-object(Личные-косвенные):
       %% The doctor called a patient and asked [them:t.Personal] to come in.; Врач вызвал пациента и попросил его войти.;0;
       %% If someone finds my keys, please give [them:t.Personal] to the receptionist.; Если кто-то найдёт мои ключи, пожалуйста, отдайте их администратору.;0;
 
-Possessive-absolute(Притяжательные-абсолютные):
+Possessive(Притяжательные):
   Identification:
     mine   : s1
     yours  : s2
@@ -119,63 +119,23 @@ Possessive-absolute(Притяжательные-абсолютные):
   its - не существует:
     %% That power was its. -> That was [its power]. (Это была его сила.)
   Singular Theirs:
-    %% If anyone lost a wallet, this one might be theirs.  (Если кто-то потерял кошелек, возможно, это его/ее.)
+    %% If anyone lost a wallet, this one might be theirs. (Если кто-то потерял кошелек, возможно, это его/ее.)
   patterns - с предлогом "of" (часто в формальных и литературных текстах):
-    %% She is a friend of [mine:s1].;Она моя подруга.;0;
+    %% She is a friend of [mine:s1].;Она моя подруга.
   patterns - после глагола be (в значении принадлежности):
-    %% This seat is [mine:s1].;Это место моё.;0;
+    %% This seat is [mine:s1].;Это место моё.
   patterns - в конце предложения (без существительного):
-    %% I lost my pen, so I borrowed [yours:s2].;Я потерял свою ручку, поэтому одолжил твою.;0;
+    %% I lost my pen, so I borrowed [yours:s2].;Я потерял свою ручку, поэтому одолжил твою.
   patterns - в сравнительных конструкциях:
-    %% Her idea is more creative than [mine:s1].;Её идея креативнее моей.;0;
+    %% Her idea is more creative than [mine:s1].;Её идея креативнее моей.
   patterns - в сочетаниях с "own" (для усиления):
-    %% I want a place of [my:s1] own.;Я хочу своё собственное место.;0;
+    %% I want a place of [my:s1] own.;Я хочу своё собственное место.
   Anthropomorphism - персонификация объектов:
     в разговорной речи некторые объекты (чаще корабли/самолеты, реже амтомобили/оружие, и тп),
     если к ним относятся с особой привязанностью, называют "hers".
-      %% 000;This submarine is legendary, and no other vessel can match [hers:t.Possessive,e.anthropomorphism].;Эта подводная лодка легендарна, и ни одно другое судно не сравнится с ней.;0;
+      %% This submarine is legendary, and no other vessel can match [hers:t.Possessive,e.anthropomorphism].;Эта подводная лодка легендарна, и ни одно другое судно не сравнится с ней.
   noun2pronoun:
-    %% This pen is [mine:t.Possessive-absolute](my pen).;Это моя ручка.
-
-Possessive-determiner(Притяжательные-присоединяемые):
-  Identification:
-    my    : s1
-    your  : s2
-    his   : s3m
-    her   : s3f
-    its   : s3n
-    our   : p1
-    their : p3
-  используются только вместе с соответствующим существительным:
-    %% My cat is 5 years old. (Моему коту 5 лет.)
-  также употребляются там, где в русском подразумевается "свой":
-    %% He put his hand into his pocket. (Он засунул свою руку в свой карман.)
-  стоит перед существительным. Если перед существительным стоит прилагательное, то ставится перед прилагательным:
-    %% I've lost my new keys. (Я потерял свои новые ключи.)
-  исключает употребление артикля и указательных местоимений:
-    %% Верно: It is my dog. Или It is a dog
-  Порядок местоимений:
-    %% 001;This is [your and my](i, you) project.;Это ваш и мой проект.;0;
-  Singular Their:
-    %% 001;Every student should bring [their:t.Possessive] own notebook.;Каждый студент должен принести свой собственный блокнот.;0;
-  patterns - в сочетаниях с "own" (для усиления):
-    %% 001;I have [my:t.Possessive] own apartment.;У меня есть своя собственная квартира.;0;
-  Anthropomorphism - персонификация объектов:
-    в разговорной речи некторые объекты (чаще корабли/самолеты, реже амтомобили/оружие, и тп),
-    если к ним относятся с особой привязанностью, называют "her".
-    %% 000;The ship was old, but [her:t.Possessive,e.anthropomorphism] sails were still intact.;Корабль был старым, но его паруса всё ещё были целы.;0;
-  possessive-determiner vs "to be":
-    %% 000;[They're](they're/their) going to the store.;Они идут в магазин.;0;
-  impact rule (правило воздействия):
-      в формальном письме чтобы избежать путаницы), использование притяжательных местоимений предпочтительнее:
-        %% "He injured his leg during the match." (чтобы чётко указать, чья нога была повреждена).
-    После предлогов (on, in, at, by и т.д.) перед частями тела и одеждой, находящейся на человеке,
-    используется артикль the, а не притяжательное местоимение (my, his, her и т. д.), если:
-      - Действие направлено на часть тела или одежду
-      - Уже понятно, кому принадлежит объект
-      %% 000;She kissed him on [the] cheek.;Она поцеловала его в щёку.;0;
-  noun2pronoun - могут замещать существительные с 's или конструкцию с предлогом of:
-    %% 000;This is [his friend:t.Possessive](a friend of Michael), not mine.;Это друг Майкла, а не мой.;0;
+    %% This pen is [mine:t.Possessive](my pen).;Это моя ручка.
 
 Reflexive(Возвратные):
   %% TODO reflexive voice это отдельная большая тема

@@ -1,5 +1,5 @@
 [meta/suspicious_status:0,suspicious_note:'']
-Possessive-cojoint(Притяжательные-присоединяемые): identification
+Possessive(Притяжательные): identification
          Singular Plural
   1st    [1.my  ] [6.our  ]
   2nd    [2.your] [7.your ]
