@@ -137,7 +137,7 @@ Possessive-absolute(Притяжательные-абсолютные):
   noun2pronoun:
     %% This pen is [mine:t.Possessive-absolute](my pen).;Это моя ручка.
 
-Possessive-cojoint(Притяжательные-присоединяемые):
+Possessive-determiner(Притяжательные-присоединяемые):
   Identification:
     my    : s1
     your  : s2
@@ -164,7 +164,7 @@ Possessive-cojoint(Притяжательные-присоединяемые):
     в разговорной речи некторые объекты (чаще корабли/самолеты, реже амтомобили/оружие, и тп),
     если к ним относятся с особой привязанностью, называют "her".
     %% 000;The ship was old, but [her:t.Possessive,e.anthropomorphism] sails were still intact.;Корабль был старым, но его паруса всё ещё были целы.;0;
-  possessive-cojoint vs "to be":
+  possessive-determiner vs "to be":
     %% 000;[They're](they're/their) going to the store.;Они идут в магазин.;0;
   impact rule (правило воздействия):
       в формальном письме чтобы избежать путаницы), использование притяжательных местоимений предпочтительнее:
@@ -372,8 +372,7 @@ Demonstrative(Указательные):
       Those who can, do; those who can't, teach. - Кто умеет, делает; кто не умеет, учит.
 
 >>>
-Indefinite Pronouns (Неопределённые местоимения):
-  %% TODO depnd on syntatic-roles
+Indefinite Pronouns (Неопределённые местоимения):⠋
   Identification:
     >>> прогнать syntatic role
     >>> прогнать исчисляемость
@@ -396,13 +395,19 @@ Indefinite Pronouns (Неопределённые местоимения):
       >   neither  (ни тот ни другой)        y
       >   half     (половина)                y/n
       >   enough   (достаточно)              y/n
-        >>> ДРУГИЕ? ДРУГИЕ? ДРУГИЕ? >>> ДРУГИЕ? ДРУГИЕ? ДРУГИЕ?
-        >>> ДРУГИЕ? ДРУГИЕ? ДРУГИЕ? >>> ДРУГИЕ? ДРУГИЕ? ДРУГИЕ?
-        >>> ДРУГИЕ? ДРУГИЕ? ДРУГИЕ? >>> ДРУГИЕ? ДРУГИЕ? ДРУГИЕ?
-        >>> ДРУГИЕ? ДРУГИЕ? ДРУГИЕ? >>> ДРУГИЕ? ДРУГИЕ? ДРУГИЕ?
-    >>> разобрать что в единственном числе что во множественном а что согласовывается.
+    >>> прогнать число и согласование
     >>> пронать каждое по +-?
     >>> пронать Притяжательная форма - Неопределенные местоимения, указывающие только на человека (которые оканчиваются на -one и -body) могут использоваться в притяжательной форме. В этом случае к ним добавляется окончание -’s.
+
+    pronoun:
+      syntatic-roles
+      countability
+      pluralibility
+      behavior in +-?
+      possesive form
+
+
+
     Количество (Quantity):
       Количество (Quantity):
         all (debatable: может быть определённым, если с уточнением — all the ...)
@@ -422,7 +427,6 @@ Indefinite Pronouns (Неопределённые местоимения):
         enough (debatable)
       much[???], many[???] – много
         -> determiner, pronoun
-        >>> исчисляемость
       a lot[???], lots[???] – много
         -> pronoun (обычно), иногда informal determiner
       a few[???], few[???] – мало (исчисляемые, отрицательная окраска)
@@ -430,11 +434,10 @@ Indefinite Pronouns (Неопределённые местоимения):
       a little[???], little[???] – мало (неисчисляемые, отрицательная окраска)
         -> determiner, pronoun
       all[determiner, pronoun] (debatable: может быть определённым, если с уточнением — all the ...)
-      most[determiner, pronoun] (debatable: может быть определителем, а не местоимением)
+      most[pronoun, determiner] (debatable: может быть определителем, а не местоимением)
       plenty[pronoun, noun] – достаточно, множество
-      several[determiner, pronoun] – несколько
-      enough[determiner, pronoun, adverb] (debatable)
-        может быть как местоимением, так и определителем: enough was said / enough time
+      several[pronoun, determiner] – несколько
+      enough[pronoun, determiner,  adverb] (debatable)
       notes:
         many, much, a lot, lots:
           Подобно своему синониму many, much больше употребляется в отрицательных предложениях и вопросах
@@ -643,14 +646,8 @@ Indefinite Pronouns (Неопределённые местоимения):
             I have not done anything much today. – Я не особо много сделал сегодня (очень мало, ничего не сделал).
             There is nothing much to eat in the fridge. – В холодильнике не особо много еды (очень мало, нет еды).
 
-<<<<<<<<<<<<<<<<<<<<<<<<<<
->>> СНАЧАЛА РАЗОБРАТЬСЯ С ПРИДАТОЧНЫМИ >>> СНАЧАЛА РАЗОБРАТЬСЯ С ПРИДАТОЧНЫМИ
->>> СНАЧАЛА РАЗОБРАТЬСЯ С ПРИДАТОЧНЫМИ >>> СНАЧАЛА РАЗОБРАТЬСЯ С ПРИДАТОЧНЫМИ
->>> СНАЧАЛА РАЗОБРАТЬСЯ С ПРИДАТОЧНЫМИ >>> СНАЧАЛА РАЗОБРАТЬСЯ С ПРИДАТОЧНЫМИ
->>> СНАЧАЛА РАЗОБРАТЬСЯ С ПРИДАТОЧНЫМИ >>> СНАЧАЛА РАЗОБРАТЬСЯ С ПРИДАТОЧНЫМИ
->>> СНАЧАЛА РАЗОБРАТЬСЯ С ПРИДАТОЧНЫМИ >>> СНАЧАЛА РАЗОБРАТЬСЯ С ПРИДАТОЧНЫМИ
+>>> СНАЧАЛА РАЗОБРАТЬСЯ С ПРИДАТОЧНЫМИ >>> СНАЧАЛА РАЗОБРАТЬСЯ С ПРИДАТОЧНЫМИ⠉
 Relative-Interrogative(Относительно-Вопросительные):
-  %% TODO depnd on complex-sentences
 >>> дать:
 >>>   q_fill
 >>>     употрбеление для каждого:

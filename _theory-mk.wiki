@@ -1,5 +1,5 @@
-%% >>> step-1:
-proonuns(except Indefinite, relative-itterogative)
+%% step-1:
+proonuns(except Indefinite, relative-itterogative)⠋
 syntatic roles
 Indefinite Pronouns (depend on syntatic roles)
 compex sentetces (depend on syntatic roles)
@@ -11,7 +11,7 @@ relative-itterogative pronouns (depend on compex sentetces)
   придаточные
   местоимения добить
 
-%% >>> step-2:
+%% step-2:
 предлоги
 времена/verbs:
   +mastering самые важные глаголы:
@@ -26,9 +26,9 @@ relative-itterogative pronouns (depend on compex sentetces)
   +сложные комбинации
   irregular verbs redo
 
-%% >>> step-3:
+%% step-3:
 артикли - когда скипать особенно.
-прилагательные:⠁
+прилагательные:
   вцелом
   сравнительные степени
   списки синонимов от слабого к сильному и тп
@@ -37,20 +37,20 @@ relative-itterogative pronouns (depend on compex sentetces)
 spelling + спорные по произношению слова
   + spelling номеров, чисел
 
-%% >>> step-4:
+%% step-4:
 hr:
   introduce myself
   comment my work expirience and skills
   most popular questions and answers
 
-%% >>> etc:
+%% etc:
 morphology
   прставки/суффиксы
   сранительные степени
-  определение рода⠁
-  множественного число +исключения⠁
-падежи - en2ru⠉
-adverbs⠁
+  определение рода
+  множественного число +исключения
+падежи - en2ru
+adverbs
 
 migrate anki
 сохры в инсте check
