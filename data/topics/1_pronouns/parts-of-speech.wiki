@@ -60,7 +60,7 @@ Pronoun (Местоимение) — Заменяет существительн
     ::::   CPoSP: none
     :::: Demonstrative Pronouns (Указательные местоимения) — Указывают на объекты: this, that, these, those
     >>>>   CPoSP:
-    >>>>     Demonstrative Determiners: This is heavy. (Pronoun) -> This box is heavy. (Determiner)  
+    >>>>     Demonstrative Determiners: This is heavy. (Pronoun) -> This box is heavy. (Determiner)
     !!!! depend on adverb and determiners⠋
     >>>> Indefinite Pronouns (Неопределённые местоимения) — Указывают на неопределённое количество или лицо: somebody, someone, ...⠉
     >>>>   CPoSP:
@@ -149,44 +149,45 @@ Adverb (Наречие) — Описывает глагол, прилагате�
        %% since yesterday (Preposition) -> since I came (Conjunction)
 Determiner (Определитель) — Уточняет или ограничивает существительное, стоит перед ним:⠉
   Classes:
-    Articles (Артикли) — Указывают на определённость: a, an, the  
-      CPoSP:  
-        Pronoun (implicit): The best is yet to come. -> "The best" без существительного = как местоимение.  
+    Zero determiner (Нулевой) — Строгое отсутствие любого определителя.
+    Articles (Артикли) — Указывают на определённость: a, an, the
+      CPoSP:
+        Pronoun (implicit): The best is yet to come. -> "The best" без существительного = как местоимение.
         Adjective (with emphasis): She is *a real* friend. -> *Real* is the true descriptor.
-    Numerals (Числительные) — Точные количества:  
-      Cardinal Numerals: one, two, three  
-        CPoSP:  
-          Pronoun: I saw three birds. -> I saw three.  
-          Noun: One of them escaped. -> One is enough.  
-      Ordinal Numerals: first, second, third  
-        CPoSP:  
-          Noun: He came second.  
+    Numerals (Числительные) — Точные количества:
+      Cardinal Numerals: one, two, three
+        CPoSP:
+          Pronoun: I saw three birds. -> I saw three.
+          Noun: One of them escaped. -> One is enough.
+      Ordinal Numerals: first, second, third
+        CPoSP:
+          Noun: He came second.
           Adjective: The first chapter is short. -> He was the first.
-    :::: Possessive Determiners (Притяжательные): my, your, his, her, its, our, their  
-    >>>>   CPoSP:  
-    >>>>     Pronoun: His idea was great. -> The idea was his.  
-    Demonstrative Determiners: this, that, these, those  
-      CPoSP:  
-        Pronoun: That car is fast. -> That is fast.  
-    Quantifiers: some, any, much, few, several  
-      CPoSP:  
-        Pronoun: Some people left. -> Some left.  
-        Noun: Much of what he said is true. -> Much remains unknown.  
-    Distributive Determiners: each, every, either, neither  
-      CPoSP:  
-        Pronoun: Each student got a prize. -> Each got a prize.  
-        Pronoun: Neither side won. -> Neither was ready.  
-    Interrogative Determiners: which, what, whose  
-      CPoSP:  
-        Pronoun: Which option is better? -> Which is better?  
-        Adjective: What book did you read? -> The book is what I expected.  
-    Predeterminers: all, both, such, what  
-      CPoSP:  
-        Pronoun: All students passed. -> All passed.  
-        Adverb-like (rare/formal): Such a time it was. -> Such were the days.  
-    Exclamative Determiners: what, such  
-      CPoSP:  
-        Adverb-like (emphatic): What a day! -> What happened!  
+    :::: Possessive Determiners (Притяжательные): my, your, his, her, its, our, their
+    >>>>   CPoSP:
+    >>>>     Pronoun: His idea was great. -> The idea was his.
+    Demonstrative Determiners: this, that, these, those
+      CPoSP:
+        Pronoun: That car is fast. -> That is fast.
+    Quantifiers: some, any, much, few, several
+      CPoSP:
+        Pronoun: Some people left. -> Some left.
+        Noun: Much of what he said is true. -> Much remains unknown.
+    Distributive Determiners: each, every, either, neither
+      CPoSP:
+        Pronoun: Each student got a prize. -> Each got a prize.
+        Pronoun: Neither side won. -> Neither was ready.
+    Interrogative Determiners: which, what, whose
+      CPoSP:
+        Pronoun: Which option is better? -> Which is better?
+        Adjective: What book did you read? -> The book is what I expected.
+    Predeterminers: all, both, such, what
+      CPoSP:
+        Pronoun: All students passed. -> All passed.
+        Adverb-like (rare/formal): Such a time it was. -> Such were the days.
+    Exclamative Determiners: what, such
+      CPoSP:
+        Adverb-like (emphatic): What a day! -> What happened!
         Adjective (emphatic): Such a mess! -> That was such a mess.
   Categories:
     Countability Agreement — согласование с исчисляемыми или неисчисляемыми существительными: much (неисчисл.), many (исчисл.), some/any (оба)

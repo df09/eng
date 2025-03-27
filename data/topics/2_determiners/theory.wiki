@@ -1,53 +1,40 @@
-Determiner (Определитель) — Уточняет или ограничивает существительное, стоит перед ним.
-Примеры:
-  Артикли: a, an, the
-  Указатели: this, that, these, those
-  Притяжательные: my, your, his
-  Вопросительные: which, what, whose
-  Количественные: some, many, few, all, every, each, no
-  Числительные: one, two, three
-  Усилители: such, rather, quite (в роли predeterminers)
-позиция:
-  почти всегда перед существительным. Если они стоят после — это либо:
-    архаика / поэтика
-    уточнение / приложение
-    особый стиль или структура (напр. The Lord our God)
-    редкие устойчивые обороты
-определяют исчисляемость и число:⠁
-  a/an — только с исчисляемыми в ед. числе
-  many, few — только с исчисляемыми во мн. числе
-  much, little — с неисчисляемыми
-  some, any — с любыми
-когда determiner может не быть вовсе (zero determiner):⠁
-несколько determiners:
-  Обычно determiner один (Central Determiner), но возможны комбинации по строгому порядку.
-  Порядок determiners:
-    [Predeterminer] + [Central Determiner] + [Postdeterminer] + [Noun]
-      Predeterminers:
-        Predeterminers (all, both, such, what)
-        Exclamative (what, such)
-      Central Determiner:
-        Articles
-        Possessive
-        Demonstrative
-        Quantifiers -> some, any
-        Distributive Determiners
-        Interrogative Determiners
-      Postdeterminer:
-        Numerals
-        Quantifiers -> much, few, several
+common:
+  Determiner (Определитель) — Уточняет или ограничивает существительное, стоит перед ним.
+  Classes:
+    Zero determiner (Нулевой) — Строгое отсутствие любого определителя.
+    Articles (Артикли) — Указывают на определённость: a, an, the
+    Numerals (Числительные) — Точные количества:
+      Cardinal Numerals: one, two, three
+      Ordinal Numerals: first, second, third
+    Possessive Determiners (Притяжательные): my, your, his, her, its, our, their
+    Demonstrative Determiners: this, that, these, those
+    Quantifiers: some, any, much, few, several
+    Distributive Determiners: each, every, either, neither
+    Interrogative Determiners: which, what, whose
+    Predeterminers: all, both, such, what
+    Exclamative Determiners: what, such
+  Categories:
+    определяют исчисляемость (Countability Agreement) и число (Number Agreement). например:
+      a/an — только с исчисляемыми в ед. числе
+      many, few — только с исчисляемыми во мн. числе
+      much, little — с неисчисляемыми
+      some, any — с любыми
+  Позиция:
+    почти всегда перед существительным.
+    Редко после устойчивые оборотов (He is a man possessed), архаика/поэтика (The Lord our God).
+  usage:
+    >>>> (move to class description) когда обязан быть zero determiner:⠋
+      Неисчисляемое существительное в общем смысле:
+        I need help.
+        She drank water.
+        ✅ Нельзя: a help, the water (если не конкретизируем)
 
-
-
-      комбинирование:
-        central determiner должен быть только один.
-
-
-      что это за типы?⠁
-         Заменяют артикль в большинстве случаев⠁
-         5. Взаимодействие с артиклем⠉
-
-            Если есть possessive/demonstrative/interrogative — они вытесняют артикль
+        Общий смысл (zero determiner):
+          She drank water.
+          He gave me advice.
+        Конкретный смысл (нужен determiner):
+          She drank the water I gave her.
+          He gave me the advice I needed.
 
 
 
@@ -55,12 +42,81 @@ Determiner (Определитель) — Уточняет или огранич
 
 
 
-  Пример:
-    All my three ideas failed.
-      all:   predeterminer
-      my:    central
-      three: postdeterminer
-      ideas: noun
+      Множественное исчисляемое существительное в общем смысле
+        Cats hate water.
+        People need freedom.
+        ✅ Нельзя: the people (если не конкретные)
+      Имена собственные (обычно)
+        John is my friend.
+        I went to Paris.
+      Названия языков, предметов, игр, видов спорта
+        He speaks Spanish.
+        She studies math.
+        They play soccer.
+      Дни, месяцы, праздники
+        We met on Monday.
+        He loves Christmas.
+      Устойчивые выражения с учреждениями (по функции)
+        go to school, be in prison, go to bed, at church
+        ✅ Нельзя: go to the school (если не о функции, а о здании — тогда можно)
+      Транспорт с "by"
+        by car, by train, by bus
+
+варианты уже описанных тобой категорий, в других формах подачи (стиль, жанр, устойчивость выражения):
+  Названия блюд, напитков, материалов — в общем смысле
+   She had tea and cake for breakfast.
+   Chairs are made of wood.
+   ✅ Артикль запрещён, если говорим об этом в общем (не о конкретной чашке чая)
+  Заголовки, названия, списки, инструкции (стиль без артикля)
+   President Visits Japan
+   Add sugar. Mix well.
+   ✅ Это стиль, а не грамматическая обязанность, но артикли системно опускаются
+   Фразы типа “life goes on”, “time flies”, “nature heals”
+   Life is short.
+   Time heals all wounds.
+   ✅ Часто zero determiner, если концепт обобщённый
+
+
+
+
+    когда обязан быть хотябы один определитель:⠉
+    как использовать несколько:⠉
+      Пример:
+        All the last few guests left early.
+          All — predeterminer
+          the — central determiner
+          last — postdeterminer (ordinal)
+          few — postdeterminer (quantifier)
+          guests — noun
+      порядок:
+        NP ::= Predet? Det? Postdet* Modifier* N
+          Det — обязателен, если есть Predet
+          Det может быть один
+          Вся группа (Predet Det или Det) — опциональна
+          Затем — любое количество Postdet и Modifier
+          И обязательно — существительное N
+
+          Predeterminers:
+            Predeterminers (all, both, such, what)⠁ - уточнять
+            Exclamative (what, such) - уточнять⠁
+          Central Determiner:
+            Articles - уточнять⠁
+            Possessive - уточнять⠁
+            Demonstrative - уточнять⠁
+            Quantifiers -> some, any - уточнять⠁
+            Distributive Determiners - уточнять⠁
+            Interrogative Determiners - уточнять⠁
+          Postdeterminer:
+            Numerals - уточнять⠁
+            Quantifiers -> much, few, several - уточнять⠁
+      central determiner должен быть только один.
+
+
+
+
+
+
+
 
 
 
@@ -71,19 +127,19 @@ Determiner (Определитель) — Уточняет или огранич
     a/an   indefinite   Один, но неопределённый предмет  I am reading a book.   — читаю одну (неопределённую) книгу
     the    definite     Один, конкретный предмет         I am reading the book. — читаю ту самую книгу (которую ты знаешь)
 
-Артикль            | Исчисляемое  | Неисчисляемое    | Единственное  число | Множественное число  
+Артикль            | Исчисляемое  | Неисчисляемое    | Единственное  число | Множественное число
 -------------------|--------------|------------------|---------------------|----------------------
-a / an             |     c.y  +    n.s   |         –        |          +          |          –           
-the                |     c.yn +    n.sp  |         +        |          +          |          +           
-(без артикля)      |     c.yn +    n.p  |         +        |          –          |          +           
+a / an             |     c.y  +    n.s   |         –        |          +          |          –
+the                |     c.yn +    n.sp  |         +        |          +          |          +
+(без артикля)      |     c.yn +    n.p  |         +        |          –          |          +
 
   >>>> gpt
   >>>> qs
 >>>> Numerals (Числительные) — Точные количества
   >>>> web
   >>>> qs
-  Cardinal Numerals: one, two, three  
-  Ordinal Numerals: first, second, third  
+  Cardinal Numerals: one, two, three
+  Ordinal Numerals: first, second, third
 :::: Possessive Determiners (Притяжательные) — Указывают на принадлежность:
 ::::   Identification:
 ::::     my    : s1
@@ -137,10 +193,10 @@ the                |     c.yn +    n.sp  |         +        |          +        
 >>>> Interrogative Determiners (Вопросительные) — Используются в вопросах перед существительным: which, what, whose
   >>>> web
   >>>> qs
->>>> Predeterminers: all, both, such, what  
+>>>> Predeterminers: all, both, such, what
   >>>> web
   >>>> qs
->>>> Exclamative Determiners: what, such  
+>>>> Exclamative Determiners: what, such
   >>>> web
   >>>> qs
 
@@ -149,8 +205,8 @@ the                |     c.yn +    n.sp  |         +        |          +        
 >>>> Quantifiers (Количественные) — Указывают на количество: some, any, much, few, several
 >>>> Distributive Determiners (Распределительные) — Указывают на отдельные элементы из группы: each, every, either, neither
 >>>> Interrogative Determiners (Вопросительные) — Используются в вопросах перед существительным: which, what, whose
->>>> Predeterminers: all, both, such, what  
->>>> Exclamative Determiners: what, such  
+>>>> Predeterminers: all, both, such, what
+>>>> Exclamative Determiners: what, such
 
 
 

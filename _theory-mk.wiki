@@ -1,6 +1,8 @@
 %% step-1:
+phrases and clauses⠉
+syntatic roles⠉
 proonuns(except Indefinite, relative-itterogative)⠋
-syntatic roles
+
 Indefinite Pronouns (depend on syntatic roles)
 compex sentetces (depend on syntatic roles)
 relative-itterogative pronouns (depend on compex sentetces)
