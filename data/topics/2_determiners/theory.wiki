@@ -36,12 +36,6 @@ common:
           She drank the water I gave her.
           He gave me the advice I needed.
 
-
-
-
-
-
-
       Множественное исчисляемое существительное в общем смысле
         Cats hate water.
         People need freedom.
@@ -80,6 +74,7 @@ common:
 
 
     когда обязан быть хотябы один определитель:⠉
+
     как использовать несколько:⠉
       Пример:
         All the last few guests left early.
