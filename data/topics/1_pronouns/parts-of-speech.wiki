@@ -48,27 +48,27 @@ Pronoun (Местоимение) — Заменяет существительн
     ::::   Object Form (Объектная форма): me, you, ...
     ::::   CPoSP: none
     :::: Possessive Pronouns (Притяжательные местоимения) — Указывают на принадлежность: mine, yours, ...
-    >>>>   CPoSP:
-    >>>>     Possessive Determiners: The idea was his. -> His idea was great.
+           CPoSP:
+             Possessive Determiners: The idea was his. -> His idea was great.
     :::: Reflexive Pronouns (Возвратные местоимения) — Указывают, что действие возвращается к подлежащему: myself, yourself, ...
-    >>>>   CPoSP:
-    >>>>     Intensive Pronouns: I hurt myself. -> I fixed it myself.
+           CPoSP:
+             Intensive Pronouns: I hurt myself. -> I fixed it myself.
     :::: Intensive Pronouns (Усилительные местоимения) — Подчеркивают, кто именно выполняет действие (форма совпадает с возвратными): myself, yourself, ...
-    >>>>   CPoSP:
-    >>>>     Reflexive Pronouns: I fixed it myself. -> I hurt myself.
+           CPoSP:
+             Reflexive Pronouns: I fixed it myself. -> I hurt myself.
     :::: Reciprocal Pronouns (Взаимные местоимения) — Обозначают обоюдность действия: each other, one another
     ::::   CPoSP: none
     :::: Demonstrative Pronouns (Указательные местоимения) — Указывают на объекты: this, that, these, those
-    >>>>   CPoSP:
-    >>>>     Demonstrative Determiners: This is heavy. (Pronoun) -> This box is heavy. (Determiner)
+           CPoSP:
+             Demonstrative Determiners: This is heavy. (Pronoun) -> This box is heavy. (Determiner)
     !!!! depend on adverb and determiners⠋
-    >>>> Indefinite Pronouns (Неопределённые местоимения) — Указывают на неопределённое количество или лицо: somebody, someone, ...⠉
-    >>>>   CPoSP:
-    >>>>     Adverbs of Place: Everywhere was silent. -> He looked everywhere.
-    >>>>     Adverbs of Time: Sometime is better than never. -> Let's meet sometime next week.
-    >>>>     Quantifier Determiners: Few survived. -> Few chances remain.
-    >>>>     Distributive Determiners: Each got a prize. -> Each student got a prize.
-    >>>>     Interrogative Determiners: What did you buy? -> What book did you buy?
+         Indefinite Pronouns (Неопределённые местоимения) — Указывают на неопределённое количество или лицо: somebody, someone, ...⠉
+           CPoSP:
+             Adverbs of Place: Everywhere was silent. -> He looked everywhere.
+             Adverbs of Time: Sometime is better than never. -> Let's meet sometime next week.
+             Quantifier Determiners: Few survived. -> Few chances remain.
+             Distributive Determiners: Each got a prize. -> Each student got a prize.
+             Interrogative Determiners: What did you buy? -> What book did you buy?
     Interrogative Pronouns (Вопросительные местоимения) — Используются для вопросов: who, whom, ...⠁
       CPoSP:
         ???? Pronoun: ???? -> Who is there?
@@ -78,6 +78,60 @@ Pronoun (Местоимение) — Заменяет существительн
       CPoSP:
         ????
     SKIP Archaic/Poetic Forms (опционально): whomsoever, thine, thou
+Determiner (Определитель) — Уточняет или ограничивает существительное, стоит перед ним:⠉
+  Classes:
+    !!!! Zero determiner (Нулевой) — Строгое отсутствие любого определителя.
+    !!!! Articles (Артикли) — Указывают на определённость: a, an, the
+      CPoSP:
+        Pronoun (implicit): The best is yet to come. -> "The best" без существительного = как местоимение.
+        Adjective (with emphasis): She is *a real* friend. -> *Real* is the true descriptor.
+    :::: Possessive (Притяжательные): my, your, his, her, its, our, their
+           CPoSP:
+             Pronoun: His idea was great. -> The idea was his.
+    Numerals (Числительные) — Точные количества:
+      Cardinal Numerals: one, two, three
+        CPoSP:
+          Pronoun: I saw three birds. -> I saw three.
+          Noun: One of them escaped. -> One is enough.
+      Ordinal Numerals: first, second, third
+        CPoSP:
+          Noun: He came second.
+          Adjective: The first chapter is short. -> He was the first.
+    Quantifiers: some, any, much, few, several
+      CPoSP:
+        Pronoun: Some people left. -> Some left.
+        Noun: Much of what he said is true. -> Much remains unknown.
+    Demonstrative: this, that, these, those
+      CPoSP:
+        Pronoun: That car is fast. -> That is fast.
+    Distributive: each, every, either, neither
+      CPoSP:
+        Pronoun: Each student got a prize. -> Each got a prize.
+        Pronoun: Neither side won. -> Neither was ready.
+    Interrogative: which, what, whose
+      CPoSP:
+        Pronoun: Which option is better? -> Which is better?
+        Adjective: What book did you read? -> The book is what I expected.
+    Negative: no
+    Predeterminers: all, both, such, what
+      CPoSP:
+        Pronoun: All students passed. -> All passed.
+        Adverb-like (rare/formal): Such a time it was. -> Such were the days.
+  Categories:
+    Countability Agreement — согласование с исчисляемыми или неисчисляемыми существительными: much (неисчисл.), many (исчисл.), some/any (оба)
+    Number Agreement — Учитывают форму сущ. (each — ед.ч., these — мн.ч.)
+Adjective (Прилагательное) — Описывает существительное, указывая на его признак:
+  Classes:
+    Descriptive Adjectives (Описательные) — Передают качество или характеристику: happy, red, beautiful
+      CPoSP:
+        Noun: poor people -> the poor need help
+        Pronoun: many people came -> many came
+        Determiner: ???? -> ????
+  Categories (Грамматические характеристики):
+    Degree of Comparison (Степени сравнения): Positive/Comparative/Superlative(Положительная/Сравнительная/Превосходная)
+    Position (Позиция в предложении):
+      Attributive (Перед существительным): a red car
+      Predicative (После глагола-связки): The car is red
 Verb (Глагол) — Обозначает действие, состояние или отношение к действию:
   Classes:
     Main/Lexical Verbs — Несут основное значение действия: run, speak, build
@@ -106,25 +160,6 @@ Verb (Глагол) — Обозначает действие, состояни�
        %% the broken glass (Adjective) -> I’ve broken it (Verb)
     Noun (Infinitive): to read
        %% to read is useful (Noun-like subject)
-Particle (Частица) — Модификаторы глаголов или инфинитива: not, to, up
-  Classes:
-    ????
-  Categories (Грамматические характеристики):
-    ????
-  CPoSP:
-    ????
-Adjective (Прилагательное) — Описывает существительное, указывая на его признак:
-  Classes:
-    Descriptive Adjectives (Описательные) — Передают качество или характеристику: happy, red, beautiful
-      CPoSP:
-        Noun: poor people -> the poor need help
-        Pronoun: many people came -> many came
-        Determiner: ???? -> ????
-  Categories (Грамматические характеристики):
-    Degree of Comparison (Степени сравнения): Positive/Comparative/Superlative(Положительная/Сравнительная/Превосходная)
-    Position (Позиция в предложении):
-      Attributive (Перед существительным): a red car
-      Predicative (После глагола-связки): The car is red
 Adverb (Наречие) — Описывает глагол, прилагательное, другое наречие или всё предложение:⠉
   Classes:
     Adverbs of Manner (Образа действия) — Как? Каким образом?: quickly, slowly, carefully
@@ -146,51 +181,6 @@ Adverb (Наречие) — Описывает глагол, прилагате�
        %% He left before (Adverb) -> before lunch (Preposition)
     Conjunction: since, after
        %% since yesterday (Preposition) -> since I came (Conjunction)
-Determiner (Определитель) — Уточняет или ограничивает существительное, стоит перед ним:⠉
-  Classes:
-    Zero determiner (Нулевой) — Строгое отсутствие любого определителя.
-    Articles (Артикли) — Указывают на определённость: a, an, the
-      CPoSP:
-        Pronoun (implicit): The best is yet to come. -> "The best" без существительного = как местоимение.
-        Adjective (with emphasis): She is *a real* friend. -> *Real* is the true descriptor.
-    Numerals (Числительные) — Точные количества:
-      Cardinal Numerals: one, two, three
-        CPoSP:
-          Pronoun: I saw three birds. -> I saw three.
-          Noun: One of them escaped. -> One is enough.
-      Ordinal Numerals: first, second, third
-        CPoSP:
-          Noun: He came second.
-          Adjective: The first chapter is short. -> He was the first.
-    :::: Possessive Determiners (Притяжательные): my, your, his, her, its, our, their
-    >>>>   CPoSP:
-    >>>>     Pronoun: His idea was great. -> The idea was his.
-    Demonstrative Determiners: this, that, these, those
-      CPoSP:
-        Pronoun: That car is fast. -> That is fast.
-    Quantifiers: some, any, much, few, several
-      CPoSP:
-        Pronoun: Some people left. -> Some left.
-        Noun: Much of what he said is true. -> Much remains unknown.
-    Distributive Determiners: each, every, either, neither
-      CPoSP:
-        Pronoun: Each student got a prize. -> Each got a prize.
-        Pronoun: Neither side won. -> Neither was ready.
-    Interrogative Determiners: which, what, whose
-      CPoSP:
-        Pronoun: Which option is better? -> Which is better?
-        Adjective: What book did you read? -> The book is what I expected.
-    Predeterminers: all, both, such, what
-      CPoSP:
-        Pronoun: All students passed. -> All passed.
-        Adverb-like (rare/formal): Such a time it was. -> Such were the days.
-    Exclamative Determiners: what, such
-      CPoSP:
-        Adverb-like (emphatic): What a day! -> What happened!
-        Adjective (emphatic): Such a mess! -> That was such a mess.
-  Categories:
-    Countability Agreement — согласование с исчисляемыми или неисчисляемыми существительными: much (неисчисл.), many (исчисл.), some/any (оба)
-    Number Agreement — Учитывают форму сущ. (each — ед.ч., these — мн.ч.)
 Preposition (Предлог) — Показывает отношение между словами:⠉
   Classes (по значению):
     Time (Временные): at 5pm, in July, on Monday
@@ -215,6 +205,13 @@ Conjunction (Союз) — Связывает слова, фразы или пр
   Categories:
     Position — обычно в начале придаточного или между элементами
     Function — указывают на причину, уступку, условие, время и т.д.
+  CPoSP:
+    ????
+Particle (Частица) — Модификаторы глаголов или инфинитива: not, to, up
+  Classes:
+    ????
+  Categories (Грамматические характеристики):
+    ????
   CPoSP:
     ????
 %% SKIP: Interjection (Междометие) — Выражает эмоции, реакции, сигналы. Не связана с другими членами предложения: oh!, wow!, ugh!

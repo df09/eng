@@ -1,16 +1,18 @@
+>>>> qs
 common:
   Determiner (Определитель) — Уточняет или ограничивает существительное, стоит перед ним.
   Classes:
-    Zero determiner (Нулевой) — Строгое отсутствие любого определителя.
-    Articles (Артикли) — Указывают на определённость: a, an, the
+    Zero (Нулевой) — Строгое отсутствие определителя.
+    Articles (Артикли) — Maindet: Указывают на определённость: a, an, the
+    Possessive (Притяжательные): my, your, his, her, its, our, their
     Numerals (Числительные) — Точные количества:
       Cardinal Numerals: one, two, three
       Ordinal Numerals: first, second, third
-    Possessive Determiners (Притяжательные): my, your, his, her, its, our, their
-    Demonstrative Determiners: this, that, these, those
     Quantifiers: some, any, much, few, several
-    Distributive Determiners: each, every, either, neither
-    Interrogative Determiners: which, what, whose
+    Demonstrative: this, that, these, those
+    Distributive: each, every, either, neither
+    Interrogative: which, what, whose
+    Negative: no
     Predeterminers: all, both, such, what
   Categories:
     определяют исчисляемость (Countability Agreement) и число (Number Agreement).
@@ -23,106 +25,16 @@ common:
     почти всегда перед существительным.
     Редко после устойчивые оборотов (He is a man possessed), архаика/поэтика (The Lord our God).
   usage:
+    note:
+      В определителях (determiners) контекст важнее формальных правил.
+      При хорошем понимании смысла и коммуникативной задачи, грамматические правила могут уступать,
+      чтобы точнее передать оттенки значения или стилистическую окраску.
     когда обязан быть хотябы один determiner?
-      %% !!!! а не правила ли это употребления zero determiner?
-      если существительное в единственном числе и исчисляемое,
+      если существительное в единственном числе и исчисляемое должен быть хотябы один determiner,
       будь то артикль, притяжательное, указательное и т.п.
+      но употреблять predeterminer в одиночку можно только в разговорной речи.
       исключения:
-        gpt-1:
-          Перед неисчисляемыми существительными в общем смысле:
-            %% She likes music.
-            %% We need information.
-          Перед множественным числом в общем смысле:
-            %% Dogs are loyal.
-            %% Books are expensive.
-          Перед именами собственными:
-            %% John is here.
-            %% I visited France.
-          Перед днями недели, месяцами, праздниками:
-            %% See you on Monday.
-            %% I love Christmas.
-          Перед названиями видов спорта и языков:
-            %% He plays football.
-            %% She speaks English.
-          После предлогов с транспортом/местом (by/in/at/home etc.):
-            %% He goes to work by car.
-            %% She is at home.
-          Перед названиями еды, если говорится о ней в общем:
-            %% I like coffee.
-            %% We had bread and cheese.
-          С обращениями и титулами (без уточнения):
-            %% Doctor Smith is here.
-            %% President Kennedy.
-        gpt-2:
-          Имена собственные (обычно)
-            John is my friend.
-            I went to Paris.
-          Названия языков, предметов, игр, видов спорта
-            He speaks Spanish.
-            She studies math.
-            They play soccer.
-          Дни, месяцы, праздники
-            We met on Monday.
-            He loves Christmas.
-          Устойчивые выражения с учреждениями (по функции)
-            go to school, be in prison, go to bed, at church
-            ✅ Нельзя: go to the school (если не о функции, а о здании — тогда можно)
-          Транспорт с "by"
-            by car, by train, by bus
-        gpt-3:
-          1. Грамматические конструкции
-              После be, become, elect, make, name, appoint (роль, должность):
-              %% She became president.
-              %% They elected him captain.
-              В универсальных обобщениях с неисчисляемыми и множественными существительными:
-              %% Music is powerful.
-              %% Dogs are loyal.
-              После некоторых предлогов (literary/law style):
-              %% She worked as teacher.
-              %% He died without heir.
-              %% He was tried by judge.
-          2. Стиль и жанр
-            2.1. Заголовки, телеграммный стиль, интерфейсы
-              Новости, заметки, таблоиды:
-              %% President visits city.
-              Инструкции, команды, интерфейсы, рецепты:
-              %% Insert coin.
-              %% Click button.
-              Анкеты, тесты, формуляры:
-              %% Name: Mark
-              %% Answer question below.
-            2.2. Поэтический, религиозный, архаичный стиль
-              %% Man is mortal.
-              %% Lord God Almighty.
-              %% King of kings.
-          3. Лексика и контекст
-            Фиксированные выражения с функцией места:
-            go to school, be in hospital, in prison, at sea (если речь о функции, не объекте):
-            %% He is in prison (as a prisoner).
-            %% She is in hospital (BrE).
-            Словарный/научный стиль:
-            %% Dog: domesticated mammal.
-            %% Water is H₂O.
-            Языки, занятия, спорт, предметы обучения:
-            %% Study math.
-            %% Play chess.
-            %% Learn piano (AmE).
-            Слова вроде genius, fool — без артикля как ярлык (стилистически):
-            %% He's genius. (разговорно, нарочито)
-        gpt-4:
-          Названия блюд, напитков, материалов — в общем смысле
-            She had tea and cake for breakfast.
-            Chairs are made of wood.
-            ✅ Артикль запрещён, если говорим об этом в общем (не о конкретной чашке чая)
-          Заголовки, названия, списки, инструкции (стиль без артикля)
-            President Visits Japan
-            Add sugar. Mix well.
-            ✅ Это стиль, а не грамматическая обязанность, но артикли системно опускаются
-          Фразы типа “life goes on”, “time flies”, “nature heals”
-            Life is short.
-            Time heals all wounds.
-            ✅ Часто zero determiner, если концепт обобщённый
-        ???? проверить интерененет когда буду учить артикли⠉
+        см. Class.Zero Determiner
     как использовать несколько:
       example:
         All the last few guests left early.
@@ -132,52 +44,380 @@ common:
           few:    postdeterminer (quantifier)
           guests: noun
       order:
-        NP ::= Predet? Det? Postdet* (Modifier*) N
+        NP ::= Predet? Maindet? Postdet* (Modifier*) N
           NP:       noun phrase.
           Predet:   может быть 0 или 1.
-                    обычно требует Det.
-                    в разговорной речи Det может опускаться.
-          Det:      может быть 0 или 1.
+                    обычно требует Maindet.
+                    в разговорной речи Maindet может опускаться.
+          Maindet:  может быть 0 или 1.
           Postdet:  может быть 0 или более.
-                    требует наличия Det.
+                    требует наличия Maindet.
           Modifier: может быть 0 или более.
                     указан для полноты определения NP.
           N:        noun.
         Predeterminers:
           см. Class.Predeterminers
-        Central Determiner:
+        Maindet:
           Articles - все ли ????
           Possessive - все ли ????
           Demonstrative - все ли ????
           Quantifiers - partialy ????
+            !!!! указывать в identification для каждого какой это тип?⠉
           Distributive Determiners - все ли ????
           Interrogative Determiners - все ли ????
+          Negative: no - ????
         Postdeterminer:
           Numerals - все ли ????
           Quantifiers - partialy ????
+            !!!! указывать в identification для каждого какой это тип?⠉
 
->>>> Zero determiner (Нулевой) — Строгое отсутствие любого определителя.
->>>> Articles (Артикли):
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!! заново пересмотреть случаи употребления, особенно the/zero !!!!!!!!!!!!!!!⠉
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+>>>> qs
+Zero determiner (Нулевой) — Строгое отсутствие любого определителя.
+  desc:
+    Выбор стоит между нулевым артиклем (zero determiner) и артиклем (a/an/the),
+    так как наличие любого другого определителя (например, my, this, some) исключает использование zero determiner.
+  usage:
+    общие правила:
+      обобщённое значение с неисчисляемыми и существительными во множественном числе:
+        "a/an" невозможен, "the" не подходит — остаётся zero determiner.
+        перед неисчисляемыми существительными:
+          %% She likes music.
+          %% Water is life.
+          %% There is milk in the cup.
+          %% Friendship is founded on trust and respect.
+        перед исчисляемыми во множественном числе:
+          %% Dogs are loyal.
+          %% Books are expensive.
+          %% These are lamps. (It is a lamp.)
+          %% They are students. (He is a student.)
+      перед исчисляемым существительным в единственном числе, где речь идет не о предмете,
+      а о действии/состоянии/процессе (возможны оба варианта — с артиклем и без, но значение меняется):
+        Типовые действия, состояния, роли (в обобщённом значении):
+          %% go to bed, go to sleep, go home, go to work
+          %% have breakfast, have lunch, have dinner
+          %% be at home, be at school, be at work
+          %% take care, take place, take part
+          %% go by car, go by bus, on foot
+          %% I go to bed at 11.
+          %% She has lunch at work.
+          %% We went home after the movie.
+          %% He is in prison. (он сидит как заключённый)
+          %% They go to church. (как прихожане)
+        Обобщение через обстоятельство (часто после предлогов in, at, by, on, with):
+          существительное обозначает способ/состояние/источник/процесс, но не предмет
+          %% Birds can sleep in flight.         # "в полёте" вообще
+          %% He learned it by experience.       # из опыта вообще
+          %% He goes to work by car.            # способом, не в конкретной машине
+          %% She is at home.                    # как состояние, не здание
+          %% We went on foot.                   # пешком, не на "ноге"
+    уникальные сущности, имена, обращения, категориальные существительные:
+      имена собственные:
+        !!!!!!!!!!!!!!!! но существуют исключения где ставится "the"⠋
+        ???? the vs zero determiner - особенно именна собственные⠉
+        ???? the vs zero determiner - особенно именна собственные⠉
+        ???? the vs zero determiner - особенно именна собственные⠉
+        ???? the vs zero determiner - особенно именна собственные⠉
+        %% London is the capital of England. – Столица Англии — Лондон.
+        %% John is here.
+        %% I visited France.
+      обращения и титулы:
+        %% Doctor Smith is here.
+        %% President Kennedy.
+      Перед существительным, служащим обращением:
+        %% How old are you, young man? – Сколько те' лет, молодой человек?
+      Языки, занятия, спорт, предметы обучения:
+        %% He plays football.
+        %% She speaks English.
+        %% He speaks Spanish.
+        %% She studies math.
+        %% They play soccer.
+        %% Study math.
+        %% Play chess.
+        %% Learn piano (AmE).
+      дни недели, месяцы, праздники:
+        %% See you on Monday.
+        %% I love Christmas.
+        %% We met on Monday.
+        %% He loves Christmas.
+      нулевой артикль в сочетаниях с числовым уточнением:
+        когда существительное сопровождается числительным, годом, номером и т.п.
+        артикль не ставится, так как числительное само по себе уточняет объект
+          %% She is in year six.               # учебный год
+          %% We are in room 207.               # номер комнаты
+          %% He came in spring 2010.           # сезон + год (возможен вариант с артиклем: in the spring of 2010)
+    Стиль и жанр:
+      Заголовки, названия, списки, инструкции (стиль без артикля):
+        Новости, заметки, таблоиды:
+          %% President visits city.
+        Инструкции, команды, интерфейсы, рецепты:
+          %% Insert coin.
+          %% Click button.
+        Анкеты, тесты, формуляры:
+          %% Name: Mark
+          %% Answer question below.
+      Словарный/научный стиль:
+        %% Dog: domesticated mammal.
+        %% Water is H₂O.
+      Поэтический, религиозный, архаичный стиль
+        %% Man is mortal.
+        %% Lord God Almighty.
+        %% King of kings.
+    в предложных оборотах и глагольных выражениях:
+      %% by chance – случайно
+      %% by day – днем
+      %% by heart – наизусть
+      %% by mistake – ошибочно
+      %% day after day – день за днем
+      %% day by day – изо дня в день
+      %% in conclusion – в заключение
+      %% in debt – в долгу
+      %% in fact – действительно
+      %% in mind – мысленно
+      %% in trouble – в беде
+      %% on board – на борту
+      %% on deck – на палубе
+      %% on sale – в продаже
+      %% to declare war – объявлять войну
+      %% to drop anchor – бросить якорь
+      %% to keep house – вести хозяйство
+      %% to lose sight of – потерять из виду
+      %% to make haste – торопиться
+      %% to make use of – использовать
+      %% to take care – заботиться
+      %% to take part – участвовать
+      %% to take place – происходить, иметь место
+    экспрессивное маркирование (ярлык, оценка, эмоциональное выделение):
+      Артикль опускается для усиления, нарочитости, придания оценочного оттенка
+      Не соответствует нормам формальной грамматики, но используется в разговорной речи и художественных текстах.
+        %% He's genius.           # как ярлык: "Он – гений!"
+        %% You're a fool.         # нормальный вариант
+        %% You're fool.           # грубо, эмоционально (редко, но встречается)
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!! заново пересмотреть случаи употребления, особенно the/zero !!!!!!!!!!!!!!!⠉
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+>>>> qs
+Articles (Артикли) — Maindet: Указывают на определённость: a, an, the
   Identification:
-    %% <none> zero         Категория, вещь вообще           I am reading books.    — читаю книги вообще (например, для учёбы)
+    <none> zero         Категория, вещь вообще           I am reading books.    — читаю книги вообще (например, для учёбы)
     a/an   indefinite   Один, но неопределённый предмет  I am reading a book.   — читаю одну (неопределённую) книгу
     the    definite     Один, конкретный предмет         I am reading the book. — читаю ту самую книгу (которую ты знаешь)
-  !!!! gpt
-  !!!! web
-
-Артикль            | Исчисляемое  | Неисчисляемое    | Единственное  число | Множественное число
--------------------|--------------|------------------|---------------------|----------------------
-a / an             |     c.y  +    n.s   |         –        |          +          |          –
-the                |     c.yn +    n.sp  |         +        |          +          |          +
-(без артикля)      |     c.yn +    n.p  |         +        |          –          |          +
-
-  >>>> qs
-
->>>> Numerals (Числительные) — Точные количества
-  >>>> web
-  >>>> qs
-  Cardinal Numerals: one, two, three
-  Ordinal Numerals: first, second, third
+    note:
+      zero determiner не относится к артиклям — это отдельный тип определителя.
+  usage:
+    a/an (Indefinite):
+      образованно от числительного "one" (один, единственный).
+      употребляется с исчисляемыми существительными в единственном числе.
+      a vs an:
+        выбирается по первому звуку после него, вне зависимости от того что пишется и части речи:
+          "a":  перед согласным звуком.
+          "an": перед гласным звуком.
+      используется когда:
+        один из многих.
+        первое упоминание.
+        собеседник не знает, о чём речь.
+        A / AN в значении PER
+          Иногда артикль A / AN используется в английском вместо «per», так что не удивляйтесь, если встретите его в таком значении.
+            Bananas cost $1.30 a pound.
+            You want $100 a person for the tour?
+        Артикль A с наречиями FEW и LITTLE
+          Очень интересный пункт! В зависимости от использования с артиклем или без, наречия «little» и «few» меняют своё значение. Без артикля A они значат «немного», иногда в смысле «меньше, чем вы рассчитывали». Когда мы добавляем артикль A, значение меняется на почти противоположное: «несколько», в смысле «больше, чем вы рассчитывали».
+          Будьте внимательны! Если в предложении с a few или a little есть слова only или just, то эти наречия снова означают немного. Вот так всё непросто.
+            Unfortunately, I had little time to enjoy Roma as I had much work to do.
+            She has a few friends who can help her move.
+            They have little money, so they can’t pay their son’s tuition.
+    the (Definite):
+      образовано от указательных местоимений this/these/that/those.
+      употребляется с исчисляемыми/неисчисляемыми в единственном/множественнном числе.
+      используется когда:
+        контекстуальное выделение из общего множества.
+        ранее упомянутоe.
+        когда говорят о группе предметов.
+        !!!!!!!!!!!!!!!! но существуют исключения где ставится "the"⠋
+        ???? the vs zero determiner - особенно именна собственные⠉
+        ???? the vs zero determiner - особенно именна собственные⠉
+        ???? the vs zero determiner - особенно именна собственные⠉
+        ???? the vs zero determiner - особенно именна собственные⠉
+        когда это часть устойчивого наименования (газеты, музеи и т.п.).
+        Географические (и астрономические) названия:
+          !!!! астрономические⠁
+          Всегда с the — потому что воспринимается как описание, а не имя:
+            Категория	Примеры
+            Реки	the Nile, the Amazon
+            Моря, океаны, проливы	the Pacific, the Baltic Sea, the English Channel
+            Пустыни	the Sahara, the Gobi
+            Полюса, экватор	the North Pole, the Equator
+            Полушария	the Western Hemisphere
+            Группы островов	the Philippines, the Bahamas
+            Множественные образования	the United States, the Netherlands, the Alps
+            Направления как регионы	the North, the East
+          Никогда без the — потому что это имя, а не описание:
+            Категория	Примеры
+            Континенты	Asia, Europe, Africa
+            Страны (одиночные)	Russia, France, Japan
+            Горы (одиночные)	Everest, Kilimanjaro
+            Острова (одиночные)	Greenland, Madagascar
+            Города	London, Paris, Tokyo
+            Озёра	Lake Baikal, Lake Victoria
+          Итого:
+            Russia — имя страны → без артикля.
+            the Equator — уникальное географическое понятие → с артиклем.
+            the Arctic Circle — описательная структура (не имя) → с артиклем.
+          исключения:
+            Артикль the используется в названиях стран: Нидерланды, Ватикан.
+              the Netherlands – Нидерланды
+              the Vatican – Ватикан
+        Родовые понятия:
+          когда исчисляемое существительное представляет собой не отдельное понятие,
+          а класс однородных предметов или понятий:
+            %% The lion is the King of the Jungle. – Лев - король джунглей.
+            %% The telephone was invented in the 19th century. – Телефон был изобретен в 19м веке.
+          исключения:
+            "man" в значении родового названия не используется с артиклем the.
+            "woman" может использоваться с артиклем the, хотя чаще встречается без него.
+        Организации, учреждения
+          Артикль the используется в названиях крупных организаций и учреждений, включая те, в названиях которых присутствуют аббревиатуры.
+            the Commonwealth – Содружество наций
+            the Fed – Федеральная резервная система
+            the EU – Европейский союз
+            the BBC – Би-би-си
+            the World Wildlife Fund – Всемирный фонд дикой природы
+          Однако если аббревиатуры являются акронимами (читаются как самостоятельное слово), то артикль the не используется.
+            OPEC – ОПЕК
+            NATO – НАТО
+            UNESCO – ЮНЕСКО
+            WWF – Всемирный фонд дикой природы
+        Музыкальные инструменты, танцы
+          Артикль the используется перед названиями музыкальных инструментов и танцев.
+            the trumpet – труба
+            the guitar – гитара
+            the flamenco – фламенко
+            the waltz – вальс
+        Титул, звание
+          Артикль the используется перед титулами и званиями, если после них не стоят собственные имена.
+            the Pope – Папа Римский
+            the King – король
+            the Prime Minister – премьер-министр
+            the President – президент
+        Время, исторические эпохи
+          Артикль the используется перед словами day (день), morning (утро), afternoon (после обеда), evening (вечер), когда они указывают на время выполнения действия.
+            I take a shower in the morning. – Я принимаю душ утром.
+            We will go shopping in the evening. – Мы пойдем за покупками вечером.
+          Однако, the не используется в следующих словосочетаниях.
+            at night – ночью
+            at noon – в полдень
+            at midnight – в полночь
+            by day – днем (в дневное время)
+            by night – ночью (в ночное время)
+          Артикль the используется с названиями столетий, исторических эпох, а также с историческими событиями. Однако артикль the не используется в словосочетаниях World War I и World War II.
+            the 21st century – 21-е столетие
+            the Renaissance – эпоха Возрождения
+            the Middle Ages – Средневековье
+            the Korean war – Корейская война
+            the Battle of Waterloo – битва при Ватерлоо
+            the Second World War – Вторая мировая война
+        Превосходная степень сравнения
+          Артикль the обязательно используется с превосходной степенью сравнения.
+            That was the best summer! – Это было лучшее лето!
+            He’s the smartest guy around. – Он самый умный парень в округе.
+            This is the most expensive restaurant in the city. – Это самый дорогой ресторан в городе.
+        Some, most, none
+          Артикль the используется после слов some (несколько), many (много), none (ни один из), most (большинство), когда после них следует предлог of.
+            Some of the students in this class speak really good French. – Некоторые студенты в этом классе очень хорошо говорят по-французски.
+            Most of the cats don’t like swimming. – Большинство котов не любят плавать.
+            None of the gentlemen helped this lady. – Никто из джентльменов не помог этой даме.
+          Однако, если после слов some, many, most следует существительное без предлога of, то артикль the не используется.
+            Most cats don’t like swimming. – Большинство котов не любят плавать.
+            Many students prepare for exams one day before them. – Большинство студентов готовятся к экзаменам за один день до них.
+        Only, last, first, wrong, right, very
+          Артикль the используется перед словами only (единственный), last (последний), first (первый), wrong (не тот), right (тот), very (тот самый), когда они используются в качестве прилагательных.
+            She was the last person to leave. – Она была последней, кто вышел.
+            It is the first time I eat scallops. – Я впервые ем гребешки.
+            It is the only chance we have. – Это единственный наш шанс.
+            We entered the wrong room. – Мы вошли не в ту комнату.
+            Follow me, I know the right way. – Следуйте за мной, я знаю путь.
+            You are the very person I wanted. – Ты – тот, кто мне нужен.
+        Перед словами same, whole, only, last, next, previous и др.
+          артикль the обязателен, потому что эти слова:
+            указывают на уникальность,
+            конкретизируют объект,
+            часто входят в устойчивые выражения.
+              %% We have the same values.
+              %% She read the whole book.
+              %% He took the wrong bus.
+        Перед порядковыми числительными
+          the ставится, потому что порядковое число делает объект уникальным по позиции.
+            %% the first time
+            %% the second floor
+            %% the thirty-sixth attempt
+        С датой
+          %% On the 22nd of September — двадцать второго сентября
+        С периодом времени
+          %% Fashion of the 60s — мода шестидесятых
+          %% He is one of the greatest novelist of the 1900s. — Он один из выдающихся писателей 1900-х годов.
+        С музыкальными инструментами
+          %% He plays the violin. — Он играет на скрипке.
+          %% They play the guitar. — Они играют на гитаре.
+        С собирательными прилагательными в качестве существительного.
+          %% The poor — бедные
+          %% The deaf — глухие
+        Используется, чтобы сделать акцент на том, что место или человек известные или самые лучшие/подходящие
+          %% Leonardo DiCaprio was here. — The Leonardo DiCaprio, really? — Здесь был Леонардо ди Каприо. — Тот самый Ди Каприо?
+          %% Russia is THE place for people who love extreme. — Россия — это то самое место для людей, которые любят экстрим.
+        С единичными объектами: the sky (небо), the moon (луна), the sun (солнце)
+          %% The sun is bright today. — Солнце сегодня яркое.
+      THE с названиями болезней
+        Как правило, артикли не используются в английском с названиями болезней или заболеваний. Они относятся к неисчисляемым существительным. Однако, с некоторыми болезнями ставится артикль THE — это исключения:
+          %% the measles
+          %% the flu
+          %% the mumps
+          %% the bubonic plague
+        Но и это ещё не всё! Ещё есть несколько состояний здоровья или заболеваний, которые можно использовать как с A / AN, так и с THE. Эта категория включает в себя большинство болей, опухолей и приступов. В случае с этими словами действует основное правило использования артиклей (вверху страницы):
+          %% a / the cold
+          %% a / the heart attack
+          %% a / the stroke
+          %% a / the wart, a / the tumor, a / the growth…
+          %% a / the sore throat, a / the sore back, a / the sore foot…
+          %% a / the headache, a / the toothache, a / the backache…
+        Примеры:
+          %% Oncologists are doctors who specialize in treating cancer.
+          %% Old people are particularly vulnerable to the flu.
+          %% John has a cold. The cold was pretty bad.
+      the с модификаторами:
+        Артикль the обязателен, если модификатор делает объект уникальным, конкретным или выделяет его из множества
+        порядковые числительные:
+          %% the first step
+          %% the second attempt
+          %% the next day
+          %% the last chapter
+          %% the previous page
+          %% the following example
+        превосходная степень прилагательных:
+          %% the best idea
+          %% the worst moment
+          %% the most important rule
+          %% the least useful function
+        прилагательные с уникализирующим значением:
+          %% the only chance
+          %% the same problem
+          %% the main reason
+          %% the right answer
+          %% the wrong decision
+          %% the very person I needed
+        прилагательные → существительные (группы людей):
+          %% the rich
+          %% the poor
+          %% the elderly
+          %% the unemployed
+          %% the young
+          %% the sick
+        прочие уникализирующие прилагательные:
+          %% the central square
+          %% the final version
+          %% the upper floor
+          %% the current situation
 :::: Possessive Determiners (Притяжательные) — Указывают на принадлежность:
 ::::   Identification:
 ::::     my    : s1
@@ -219,28 +459,27 @@ the                |     c.yn +    n.sp  |         +        |          +        
 ::::       %% He injured his leg during the match. (чтобы чётко указать, чья нога была повреждена).
 ::::   noun2pronoun - могут замещать существительные с 's или конструкцию с предлогом of:
 ::::     %% This is [his friend:t.Possessive](a friend of Michael), not mine.;Это друг Майкла, а не мой.
+
+>>>> Numerals (Числительные) — Точные количества
+  >>>> web
+  >>>> qs
+  Cardinal Numerals: one, two, three
+  Ordinal Numerals: first, second, third
+>>>> Quantifiers (Количественные) — Указывают на количество: some, any, much, few, several
+  >>>> web
+  >>>> qs
 >>>> Demonstrative Determiners (Указательные) — Указывают на объект: this, that, these, those
   >>>> web
   >>>> qs
->>>> Quantifiers (Количественные) — Указывают на количество: some, any, much, few, several
-  >>>> web
-  >>>> qs
 >>>> Distributive Determiners (Распределительные) — Указывают на отдельные элементы из группы: each, every, either, neither
   >>>> web
   >>>> qs
 >>>> Interrogative Determiners (Вопросительные) — Используются в вопросах перед существительным: which, what, whose
   >>>> web
   >>>> qs
+>>>> Negative: no - ????
+  >>>> web
+  >>>> qs
 >>>> Predeterminers: all, both, such, what
   >>>> web
   >>>> qs
-
-
-
->>>> Quantifiers (Количественные) — Указывают на количество: some, any, much, few, several
->>>> Distributive Determiners (Распределительные) — Указывают на отдельные элементы из группы: each, every, either, neither
->>>> Interrogative Determiners (Вопросительные) — Используются в вопросах перед существительным: which, what, whose
->>>> Predeterminers: all, both, such, what
-
-
-
