@@ -69,7 +69,6 @@ Pronoun (Местоимение) — Заменяет существительн
     >>>>     Quantifier Determiners: Few survived. -> Few chances remain.
     >>>>     Distributive Determiners: Each got a prize. -> Each student got a prize.
     >>>>     Interrogative Determiners: What did you buy? -> What book did you buy?
-    >>>>     Exclamative Determiners: What happened? -> What a surprise!
     Interrogative Pronouns (Вопросительные местоимения) — Используются для вопросов: who, whom, ...⠁
       CPoSP:
         ???? Pronoun: ???? -> Who is there?

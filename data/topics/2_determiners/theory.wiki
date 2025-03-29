@@ -12,9 +12,9 @@ common:
     Distributive Determiners: each, every, either, neither
     Interrogative Determiners: which, what, whose
     Predeterminers: all, both, such, what
-    Exclamative Determiners: what, such
   Categories:
-    определяют исчисляемость (Countability Agreement) и число (Number Agreement). например:
+    определяют исчисляемость (Countability Agreement) и число (Number Agreement).
+    примеры:
       a/an — только с исчисляемыми в ед. числе
       many, few — только с исчисляемыми во мн. числе
       much, little — с неисчисляемыми
@@ -23,104 +23,147 @@ common:
     почти всегда перед существительным.
     Редко после устойчивые оборотов (He is a man possessed), архаика/поэтика (The Lord our God).
   usage:
-    >>>> (move to class description) когда обязан быть zero determiner:⠋
-      Неисчисляемое существительное в общем смысле:
-        I need help.
-        She drank water.
-        ✅ Нельзя: a help, the water (если не конкретизируем)
-
-        Общий смысл (zero determiner):
-          She drank water.
-          He gave me advice.
-        Конкретный смысл (нужен determiner):
-          She drank the water I gave her.
-          He gave me the advice I needed.
-
-      Множественное исчисляемое существительное в общем смысле
-        Cats hate water.
-        People need freedom.
-        ✅ Нельзя: the people (если не конкретные)
-      Имена собственные (обычно)
-        John is my friend.
-        I went to Paris.
-      Названия языков, предметов, игр, видов спорта
-        He speaks Spanish.
-        She studies math.
-        They play soccer.
-      Дни, месяцы, праздники
-        We met on Monday.
-        He loves Christmas.
-      Устойчивые выражения с учреждениями (по функции)
-        go to school, be in prison, go to bed, at church
-        ✅ Нельзя: go to the school (если не о функции, а о здании — тогда можно)
-      Транспорт с "by"
-        by car, by train, by bus
-
-варианты уже описанных тобой категорий, в других формах подачи (стиль, жанр, устойчивость выражения):
-  Названия блюд, напитков, материалов — в общем смысле
-   She had tea and cake for breakfast.
-   Chairs are made of wood.
-   ✅ Артикль запрещён, если говорим об этом в общем (не о конкретной чашке чая)
-  Заголовки, названия, списки, инструкции (стиль без артикля)
-   President Visits Japan
-   Add sugar. Mix well.
-   ✅ Это стиль, а не грамматическая обязанность, но артикли системно опускаются
-   Фразы типа “life goes on”, “time flies”, “nature heals”
-   Life is short.
-   Time heals all wounds.
-   ✅ Часто zero determiner, если концепт обобщённый
-
-
-
-
-    когда обязан быть хотябы один определитель:⠉
-
-    как использовать несколько:⠉
-      Пример:
+    когда обязан быть хотябы один determiner?
+      %% !!!! а не правила ли это употребления zero determiner?
+      если существительное в единственном числе и исчисляемое,
+      будь то артикль, притяжательное, указательное и т.п.
+      исключения:
+        gpt-1:
+          Перед неисчисляемыми существительными в общем смысле:
+            %% She likes music.
+            %% We need information.
+          Перед множественным числом в общем смысле:
+            %% Dogs are loyal.
+            %% Books are expensive.
+          Перед именами собственными:
+            %% John is here.
+            %% I visited France.
+          Перед днями недели, месяцами, праздниками:
+            %% See you on Monday.
+            %% I love Christmas.
+          Перед названиями видов спорта и языков:
+            %% He plays football.
+            %% She speaks English.
+          После предлогов с транспортом/местом (by/in/at/home etc.):
+            %% He goes to work by car.
+            %% She is at home.
+          Перед названиями еды, если говорится о ней в общем:
+            %% I like coffee.
+            %% We had bread and cheese.
+          С обращениями и титулами (без уточнения):
+            %% Doctor Smith is here.
+            %% President Kennedy.
+        gpt-2:
+          Имена собственные (обычно)
+            John is my friend.
+            I went to Paris.
+          Названия языков, предметов, игр, видов спорта
+            He speaks Spanish.
+            She studies math.
+            They play soccer.
+          Дни, месяцы, праздники
+            We met on Monday.
+            He loves Christmas.
+          Устойчивые выражения с учреждениями (по функции)
+            go to school, be in prison, go to bed, at church
+            ✅ Нельзя: go to the school (если не о функции, а о здании — тогда можно)
+          Транспорт с "by"
+            by car, by train, by bus
+        gpt-3:
+          1. Грамматические конструкции
+              После be, become, elect, make, name, appoint (роль, должность):
+              %% She became president.
+              %% They elected him captain.
+              В универсальных обобщениях с неисчисляемыми и множественными существительными:
+              %% Music is powerful.
+              %% Dogs are loyal.
+              После некоторых предлогов (literary/law style):
+              %% She worked as teacher.
+              %% He died without heir.
+              %% He was tried by judge.
+          2. Стиль и жанр
+            2.1. Заголовки, телеграммный стиль, интерфейсы
+              Новости, заметки, таблоиды:
+              %% President visits city.
+              Инструкции, команды, интерфейсы, рецепты:
+              %% Insert coin.
+              %% Click button.
+              Анкеты, тесты, формуляры:
+              %% Name: Mark
+              %% Answer question below.
+            2.2. Поэтический, религиозный, архаичный стиль
+              %% Man is mortal.
+              %% Lord God Almighty.
+              %% King of kings.
+          3. Лексика и контекст
+            Фиксированные выражения с функцией места:
+            go to school, be in hospital, in prison, at sea (если речь о функции, не объекте):
+            %% He is in prison (as a prisoner).
+            %% She is in hospital (BrE).
+            Словарный/научный стиль:
+            %% Dog: domesticated mammal.
+            %% Water is H₂O.
+            Языки, занятия, спорт, предметы обучения:
+            %% Study math.
+            %% Play chess.
+            %% Learn piano (AmE).
+            Слова вроде genius, fool — без артикля как ярлык (стилистически):
+            %% He's genius. (разговорно, нарочито)
+        gpt-4:
+          Названия блюд, напитков, материалов — в общем смысле
+            She had tea and cake for breakfast.
+            Chairs are made of wood.
+            ✅ Артикль запрещён, если говорим об этом в общем (не о конкретной чашке чая)
+          Заголовки, названия, списки, инструкции (стиль без артикля)
+            President Visits Japan
+            Add sugar. Mix well.
+            ✅ Это стиль, а не грамматическая обязанность, но артикли системно опускаются
+          Фразы типа “life goes on”, “time flies”, “nature heals”
+            Life is short.
+            Time heals all wounds.
+            ✅ Часто zero determiner, если концепт обобщённый
+        ???? проверить интерененет когда буду учить артикли⠉
+    как использовать несколько:
+      example:
         All the last few guests left early.
-          All — predeterminer
-          the — central determiner
-          last — postdeterminer (ordinal)
-          few — postdeterminer (quantifier)
-          guests — noun
-      порядок:
-        NP ::= Predet? Det? Postdet* Modifier* N
-          Det — обязателен, если есть Predet
-          Det может быть один
-          Вся группа (Predet Det или Det) — опциональна
-          Затем — любое количество Postdet и Modifier
-          И обязательно — существительное N
+          All:    predeterminer
+          the:    central determiner
+          last:   postdeterminer (ordinal)
+          few:    postdeterminer (quantifier)
+          guests: noun
+      order:
+        NP ::= Predet? Det? Postdet* (Modifier*) N
+          NP:       noun phrase.
+          Predet:   может быть 0 или 1.
+                    обычно требует Det.
+                    в разговорной речи Det может опускаться.
+          Det:      может быть 0 или 1.
+          Postdet:  может быть 0 или более.
+                    требует наличия Det.
+          Modifier: может быть 0 или более.
+                    указан для полноты определения NP.
+          N:        noun.
+        Predeterminers:
+          см. Class.Predeterminers
+        Central Determiner:
+          Articles - все ли ????
+          Possessive - все ли ????
+          Demonstrative - все ли ????
+          Quantifiers - partialy ????
+          Distributive Determiners - все ли ????
+          Interrogative Determiners - все ли ????
+        Postdeterminer:
+          Numerals - все ли ????
+          Quantifiers - partialy ????
 
-          Predeterminers:
-            Predeterminers (all, both, such, what)⠁ - уточнять
-            Exclamative (what, such) - уточнять⠁
-          Central Determiner:
-            Articles - уточнять⠁
-            Possessive - уточнять⠁
-            Demonstrative - уточнять⠁
-            Quantifiers -> some, any - уточнять⠁
-            Distributive Determiners - уточнять⠁
-            Interrogative Determiners - уточнять⠁
-          Postdeterminer:
-            Numerals - уточнять⠁
-            Quantifiers -> much, few, several - уточнять⠁
-      central determiner должен быть только один.
-
-
-
-
-
-
-
-
-
-
+>>>> Zero determiner (Нулевой) — Строгое отсутствие любого определителя.
 >>>> Articles (Артикли):
-  !!!! web
   Identification:
-    <none> zero         Категория, вещь вообще           I am reading books.    — читаю книги вообще (например, для учёбы)
+    %% <none> zero         Категория, вещь вообще           I am reading books.    — читаю книги вообще (например, для учёбы)
     a/an   indefinite   Один, но неопределённый предмет  I am reading a book.   — читаю одну (неопределённую) книгу
     the    definite     Один, конкретный предмет         I am reading the book. — читаю ту самую книгу (которую ты знаешь)
+  !!!! gpt
+  !!!! web
 
 Артикль            | Исчисляемое  | Неисчисляемое    | Единственное  число | Множественное число
 -------------------|--------------|------------------|---------------------|----------------------
@@ -128,8 +171,8 @@ a / an             |     c.y  +    n.s   |         –        |          +      
 the                |     c.yn +    n.sp  |         +        |          +          |          +
 (без артикля)      |     c.yn +    n.p  |         +        |          –          |          +
 
-  >>>> gpt
   >>>> qs
+
 >>>> Numerals (Числительные) — Точные количества
   >>>> web
   >>>> qs
@@ -191,9 +234,6 @@ the                |     c.yn +    n.sp  |         +        |          +        
 >>>> Predeterminers: all, both, such, what
   >>>> web
   >>>> qs
->>>> Exclamative Determiners: what, such
-  >>>> web
-  >>>> qs
 
 
 
@@ -201,7 +241,6 @@ the                |     c.yn +    n.sp  |         +        |          +        
 >>>> Distributive Determiners (Распределительные) — Указывают на отдельные элементы из группы: each, every, either, neither
 >>>> Interrogative Determiners (Вопросительные) — Используются в вопросах перед существительным: which, what, whose
 >>>> Predeterminers: all, both, such, what
->>>> Exclamative Determiners: what, such
 
 
 
