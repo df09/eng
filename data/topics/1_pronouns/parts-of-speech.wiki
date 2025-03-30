@@ -11,6 +11,54 @@
 !!!!     Classes
 !!!!       PoSN
 !!!!       specs ->
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!! ???? переписать разбор частей речи отдельно по топикам !!!!!!!!!!!!!!!!!!
+!!!! ???? где будут рассматириваться все возможные CPoSP  !!!!!!!!!!!!!!!!!!!!
+!!!! >>>> ex. на примере числительных:
+!!!! >>>> ex.   Numerals (Числительные) — Точные количества:
+!!!! >>>> ex.     могут быть именной частью сложного сказуемого
+!!!! >>>> ex.     Виды:
+!!!! >>>> ex.       Cardinal Numerals (Количественные): one, two, three…
+!!!! >>>> ex.       Ordinal Numerals (Порядковые): first, second, third…
+!!!! >>>> ex.       Fractions (Дробные): one half, three quarters, etc.
+!!!! >>>> ex.       Multipliers (Множители): once, twice, three times
+!!!! >>>> ex.       Distributive Numerals (Распределительные): each, every, per (иногда)
+!!!! >>>> ex.       Collective Numerals (Собирательные, редко): a dozen, a pair (в устойчивых выражениях)
+!!!! >>>> ex.
+!!!! >>>> ex.     CPoSP:
+!!!! >>>> ex.       Cardinal Numerals:
+!!!! >>>> ex.         Determiner: I saw three birds.
+!!!! >>>> ex.         Pronoun: I saw three. (числительное как самостоятельный объект)
+!!!! >>>> ex.         Noun: One is enough. / Hundreds were injured.
+!!!! >>>> ex.         Subject: Three were absent.
+!!!! >>>> ex.         Object: I took five.
+!!!! >>>> ex.         Predicative: My score is ten.
+!!!! >>>> ex.         Modifier: A ten-page document.
+!!!! >>>> ex.         Apposition: The number three, our lucky charm.
+!!!! >>>> ex.
+!!!! >>>> ex.       Ordinal Numerals:
+!!!! >>>> ex.         Determiner/Adjective: The second chapter is short.
+!!!! >>>> ex.         Noun: He came second.
+!!!! >>>> ex.         Predicative: This is third on the list.
+!!!! >>>> ex.         Modifier: Our first real meeting.
+!!!! >>>> ex.         Apposition: Henry the Fourth.
+!!!! >>>> ex.
+!!!! >>>> ex.       Fractions:
+!!!! >>>> ex.         Noun: One half is enough.
+!!!! >>>> ex.         Modifier: A one-third chance.
+!!!! >>>> ex.         Predicative: That is three quarters.
+!!!! >>>> ex.
+!!!! >>>> ex.       Multipliers:
+!!!! >>>> ex.         Adverbial: I tried twice. / He came first.
+!!!! >>>> ex.         Noun: Three times is enough.
+!!!! >>>> ex.         Modifier: A two-time champion.
+!!!! >>>> ex.
+!!!! >>>> ex.       Distributive Numerals (частично пересекаются с quantifiers):
+!!!! >>>> ex.         Determiner: Each student got a paper.
+!!!! >>>> ex.         Adverbial: We met every two days.
+!!!! >>>> ex.
+!!!! >>>> ex.       Collective:
+!!!! >>>> ex.         Noun: I bought a dozen. / A pair of socks.
 
 %% <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 %% Crossing Parts of Speech (CPoSP - Пересекающиеся классы и части речи):
@@ -19,6 +67,7 @@
 %%     Some people (determiner). I want some (pronoun).
 %%     He ran fast (adverb). A fast car (adjective).
 %% <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
 
 Noun (Существительное) — Название предмета, идеи, лица:
   Classes:

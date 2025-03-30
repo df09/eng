@@ -1,0 +1,7 @@
+%% ???? Модуль: culture-geography-history
+%% ????   US-culture: праздники
+%% ????   US-geography: штаты
+%% ????   US-history: исторические события
+%% ????   World-culture: праздники
+%% ????   World-geography: штаты
+%% ????   World-history: исторические события

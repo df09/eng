@@ -1,0 +1,128 @@
+%% ???? Модуль: математика
+%% ????   Количественные числительные (cardinals)
+%% ????   Порядковые (ordinals)
+%% ????   Десятичные, дроби
+%% ????   Степени, корни
+%% ????   Проценты
+%% ????   Иррациональные числа (π, √2 и т.п.)
+%% ????   Количественные выражения (twice, half, dozen)
+%% ????   ...
+%% >>>> ДРОБИ
+%%   В простых дробях числитель обозначается количественным числительным, а знаменатель - порядковым. Порядковое числительное, т. е. знаменатель, принимает окончание множественного числа -s, если числитель больше единицы.
+%%     ПРОСТЫЕ ДРОБИ (THE FRACTIONS)
+%%       ПИШЕТСЯ
+%%       ЧИТАЕТСЯ
+%%       ПИШЕТСЯ
+%%       ЧИТАЕТСЯ
+%%       1/2
+%%       1/3
+%%       1/4
+%%       1/5
+%%       1/10
+%%       1/25
+%%       1/100
+%%       1/1225
+%%       a (one) half
+%%       a (one) third
+%%       a (one) fourth/quarter
+%%       a (one) fifth
+%%       a (one) tenth
+%%       a (one) twenty-fifth
+%%       a (one) hundredth
+%%       a (one) thousand two hundred and
+%%       twenty-fifth
+%%       2/3
+%%       3/4
+%%       4/7
+%%       7/18
+%%       9/10
+%%       2 1/2
+%%       3 1/4
+%%       2/5 ton
+%%       1/4 kilometre
+%%       1/2 kilometre
+%%       two thirds
+%%       three fourths/quarters
+%%       four sevenths
+%%       seven eighteenths
+%%       nine tenths
+%%       two and a half
+%%       three and a quarter/fourth
+%%       two fifths of a ton
+%%       quarter of a kilometre
+%%       half a kilometre
+%%     ДЕСЯТИЧНЫЕ ДРОБИ (THE DECIMAL FRACTIONS)
+%%       ОСОБЕННОСТИ
+%%       ПИШЕТСЯ
+%%       ЧИТАЕТСЯ
+%%       В десятичных дробях в английском языке ставится точка (point) вместо
+%%       запятой
+%%       0.2
+%%       .2
+%%       0.5
+%%       3.4
+%%       3.215
+%%       53.75
+%%       (zero) point two
+%%       point two
+%%       (zero) point five
+%%       three point four
+%%       three point two one five
+%%       fifty-three point seven five
+%% >>>> АНГЛИЙСКИЕ МЕРЫ И ИХ ЭКВИВАЛЕНТЫ
+%%   МЕРА
+%%   ЭКВИВАЛЕНТ
+%%   1 inch  1 дюйм
+%%   2.54 centimetres 2,54 см
+%%   1 foot  1 фут
+%%   30.4799 centimetres 30,4799 см
+%%   1 yard  1 ярд
+%%   0.914399 metre  0,914399 м
+%%   1 mile  1 миля
+%%   1.609344 kilometres  1,609344 км
+%%   1 ounce  1 унция
+%%   28.35 grams  28,35 г
+%%   1 pound  1 фунт
+%%   453.59 grams  453,59 г
+Проценты
+  Проценты (percentages) в английском языке обозначаются словом percent (процент).
+  После числительных слово percent никогда не принимает окончание множественного числа -s,
+  так как с французского языка это слово дословно переводится как «из сотни», «на сотню».
+    %% 1% – one percent
+    %% 10% – ten percent
+    %% 255% – two hundred fifty-five percent
+    %% 30.55% – thirty point five five percent
+Дроби
+  Простые дроби (fractions) в английском языке часто пишутся словами и через дефис,
+  если в числителе или знаменателе не используется свой дефис.
+  Для числителя (numerator) используются количественные числительные,
+  а для знаменателя (denominator) – порядковые.
+    %% ???? дать полную раскладку
+    %% 1/2 – one-half, a half (0.5)
+    %% 1/100 – one-hundredth (0.01)
+    %% 1/5 – one-fifth
+    %% 1/1000 – one-thousandth
+    %% 2/7 – two-seventh
+    %% 44/73 – forty-four seventy-third
+    %% 27/100 – twenty-seven hundredth
+    %% 6 целых 15/19 – six and fifteen-nineteenth
+  Десятичные дроби (decimals) в английском языке читаются с помощью слова point (точка),
+  после которой все цифры читаются отдельно. Это правило не относится к счету денег.
+    %% 0.2 – zero point two (point two)
+    %% 1.05 – one point zero five
+    %% 0.25 – zero point two five (point two five)
+    %% 3.005 – three point zero zero five
+    %% 120.85 – one hundred twenty point eight five
+    %% 13.445 – thirteen point four four five
+Арифметические действия
+  При арифметических действиях глагол to be или to equal (равняться)
+  в большинстве случаев употребляется в форме единственного числа.
+    %% 2 + 1 = 3 – two plus one is three.
+    %% 5 – 4 = 1 – five minus four equals one.
+    %% 20 х 2 = 40 – twenty multiplied by two is forty.
+    %% 30 : 6 = 5 – thirty divided by six equals five.
+  В случае сложения глагол может стоять также в форме множественного числа.
+  Также может использоваться глагол to make.
+    %% 3 + 21 = 24 – three and twenty-one are twenty-four.
+    %% 5 + 100 = 105 – five plus hundred equal one hundred five.
+    %% 7 + 3 = 10 – seven and three make ten.
