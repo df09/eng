@@ -89,6 +89,7 @@ Determiner (Определитель) — Уточняет или огранич
            CPoSP:
              Pronoun: His idea was great. -> The idea was his.
     Numerals (Числительные) — Точные количества:
+      могут быть именной частью сложного сказуемого⠋
       Cardinal Numerals: one, two, three
         CPoSP:
           Pronoun: I saw three birds. -> I saw three.

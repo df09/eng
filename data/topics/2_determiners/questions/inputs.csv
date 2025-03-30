@@ -1,6 +1,6 @@
 id;question;extra;suspicious_status;suspicious_note
+# >>>> Zero determiner (Нулевой) — Строгое отсутствие любого определителя.
 # >>>> Articles (Артикли) — Указывают на определённость: a, an, the
-# >>>> Numerals (Числительные) — Точные количества: one, two, ten
 # possessive: identification
 290;This is [my:t.Possessive,s1] book.;Это моя книга.;0;
 291;[My:t.Possessive,s1] car is very old.;Моя машина очень старая.;0;
@@ -86,6 +86,88 @@ id;question;extra;suspicious_status;suspicious_note
 371;Nobody doubted that [their:t.Possessive,p3] decision was the right one in the given situation.;Никто не сомневался, что их решение было верным в данной ситуации.;0;
 372;With [their:t.Possessive,p3] support, the organization was able to expand internationally.;С их поддержкой организация смогла выйти на международный уровень.;0;
 373;It was difficult to ignore [their:t.Possessive,p3] influence on the final result.;Было трудно игнорировать их влияние на окончательный результат.;0;
+# possessive: determiner rules > ставится перед прилагательным
+000;I've lost my new keys.[Y:t.Possessive](Y/N);Я потерял свои новые ключи;0;
+000;She loves her big dog.[Y:t.Possessive](Y/N);Она любит свою большую собаку;0;
+000;We painted our old house.[Y:t.Possessive](Y/N);Мы покрасили наш старый дом;0;
+000;They sold their red car.[Y:t.Possessive](Y/N);Они продали свою красную машину;0;
+000;He fixed his broken phone.[Y:t.Possessive](Y/N);Он починил свой сломанный телефон;0;
+000;I've lost new my keys.[N:t.Possessive](Y/N);"my" должно стоять перед "new": my new keys;0;
+000;She loves big her dog.[N:t.Possessive](Y/N);"her" должно стоять перед "big": her big dog;0;
+000;We painted old our house.[N:t.Possessive](Y/N);"our" должно стоять перед "old": our old house;0;
+000;They sold red their car.[N:t.Possessive](Y/N);"their" должно стоять перед "red": their red car;0;
+000;He fixed broken his phone.[N:t.Possessive](Y/N);"his" должно стоять перед "broken": his broken phone;0;
+# possessive: determiner rules > исключает употребление артикля и указательных местоимений
+000;It is my dog.[Y:t.Possessive](Y/N);Это моя собака;0;
+000;That is her bike.[Y:t.Possessive](Y/N);Это её велосипед;0;
+000;His idea was interesting.[Y:t.Possessive](Y/N);Его идея была интересной;0;
+000;Their apartment is huge.[Y:t.Possessive](Y/N);Их квартира огромная;0;
+000;Our teacher is kind.[Y:t.Possessive](Y/N);Наш учитель добрый;0;
+000;It is the my dog.[N:t.Possessive](Y/N);*the* и *my* вместе не используются;0;
+000;This my friend is a doctor.[N:t.Possessive](Y/N);*this* и *my* вместе не используются;0;
+000;A your idea is good.[N:t.Possessive](Y/N);*a* и *your* вместе не используются;0;
+000;That her book is on the table.[N:t.Possessive](Y/N);*that* и *her* вместе не используются;0;
+000;An our problem remains.[N:t.Possessive](Y/N);*an* и *our* вместе не используются;0;
+# possessive: determiner rules > multi-determiners > Possessive + Noun
+000;my phone is charging.[Y:t.Possessive](Y/N);мой телефон заряжается;0;
+000;her name is Sarah.[Y:t.Possessive](Y/N);её зовут Сара;0;
+000;their house is big.[Y:t.Possessive](Y/N);их дом большой;0;
+000;our team won.[Y:t.Possessive](Y/N);наша команда победила;0;
+000;his car is fast.[Y:t.Possessive](Y/N);его машина быстрая;0;
+000;the my phone.[N:t.Possessive](Y/N);"the" и "my" вместе не используются;0;
+000;this my name.[N:t.Possessive](Y/N);"this" и "my" вместе не используются;0;
+000;a your house.[N:t.Possessive](Y/N);"a" и "your" вместе не используются;0;
+000;these their books.[N:t.Possessive](Y/N);"these" и "their" вместе не используются;0;
+000;that her idea.[N:t.Possessive](Y/N);"that" и "her" вместе не используются;0;
+# possessive: determiner rules > multi-determiners > Possessive + Postdet (число/кол-во) + Noun
+000;my two dogs are sleeping.[Y:t.Possessive+Postdet](Y/N);мои две собаки спят;0;
+000;his several books are old.[Y:t.Possessive+Postdet](Y/N);несколько его книг старые;0;
+000;our many options are open.[Y:t.Possessive+Postdet](Y/N);у нас много открытых вариантов;0;
+000;their few ideas were good.[Y:t.Possessive+Postdet](Y/N);немногие их идеи были хороши;0;
+000;her three friends arrived.[Y:t.Possessive+Postdet](Y/N);её три друга пришли;0;
+000;my the two dogs.[N:t.Possessive+Postdet](Y/N);"my" и "the" вместе не используются;0;
+000;some my books.[N:t.Possessive+Postdet](Y/N);"some" не может идти перед "my";0;
+000;your all ideas.[N:t.Possessive+Postdet](Y/N);"all" не может идти после "your";0;
+000;a our three plans.[N:t.Possessive+Postdet](Y/N);"a" и "our" вместе не используются;0;
+000;the his several shirts.[N:t.Possessive+Postdet](Y/N);"the" и "his" вместе не используются;0;
+# possessive: determiner rules > multi-determiners > Possessive + Modifier (прилагательное) + Noun
+000;her new job is interesting.[Y:t.Possessive+Mod](Y/N);её новая работа интересная;0;
+000;their beautiful garden is huge.[Y:t.Possessive+Mod](Y/N);их красивый сад огромен;0;
+000;my old shoes are torn.[Y:t.Possessive+Mod](Y/N);мои старые туфли порвались;0;
+000;his small apartment is nice.[Y:t.Possessive+Mod](Y/N);его маленькая квартира приятная;0;
+000;our main goal is clear.[Y:t.Possessive+Mod](Y/N);наша главная цель ясна;0;
+000;a my new job.[N:t.Possessive+Mod](Y/N);"a" и "my" не сочетаются;0;
+000;the your beautiful garden.[N:t.Possessive+Mod](Y/N);"the" и "your" не сочетаются;0;
+000;this his old shoes.[N:t.Possessive+Mod](Y/N);"this" и "his" не сочетаются;0;
+000;that her small house.[N:t.Possessive+Mod](Y/N);"that" и "her" не сочетаются;0;
+000;an our main idea.[N:t.Possessive+Mod](Y/N);"an" и "our" не сочетаются;0;
+# possessive: determiner rules > multi-determiners > Possessive + Postdet + Modifier + Noun
+000;our three best friends are here.[Y:t.Possessive+Postdet+Mod](Y/N);наши три лучших друга здесь;0;
+000;his several strange ideas are valid.[Y:t.Possessive+Postdet+Mod](Y/N);несколько его странных идей верны;0;
+000;my two new shirts are clean.[Y:t.Possessive+Postdet+Mod](Y/N);мои две новые рубашки чистые;0;
+000;their five recent projects failed.[Y:t.Possessive+Postdet+Mod](Y/N);их пять недавних проектов провалились;0;
+000;her many difficult tasks are done.[Y:t.Possessive+Postdet+Mod](Y/N);многие её сложные задачи выполнены;0;
+000;all our the three best friends.[N:t.Possessive+Postdet+Mod](Y/N);"all" + "our" + "the" недопустимо;0;
+000;the his several strange ideas.[N:t.Possessive+Postdet+Mod](Y/N);"the" и "his" не сочетаются;0;
+000;some my two new shirts.[N:t.Possessive+Postdet+Mod](Y/N);"some" не может стоять перед "my";0;
+000;a their five recent calls.[N:t.Possessive+Postdet+Mod](Y/N);"a" и "their" не сочетаются;0;
+000;these her many difficult jobs.[N:t.Possessive+Postdet+Mod](Y/N);"these" и "her" не сочетаются;0;
+# possessive: determiner rules > multi-determiners > of + Possessive (особый случай)
+000;a friend of mine.[Y:t.of+Possessive](Y/N);один из моих друзей;0;
+000;this idea of yours is great.[Y:t.of+Possessive](Y/N);эта твоя идея отличная;0;
+000;no fault of theirs.[Y:t.of+Possessive](Y/N);не их вина;0;
+000;some relatives of hers came.[Y:t.of+Possessive](Y/N);пришли некоторые её родственники;0;
+000;that habit of his is annoying.[Y:t.of+Possessive](Y/N);эта его привычка раздражает;0;
+000;that idea yours of is brilliant.[N:t.of+Possessive](Y/N);"of" должно идти перед "yours": "that idea of yours";0;
+000;an mine of friend called me.[N:t.of+Possessive](Y/N);"mine" должно быть после "of": "a friend of mine";0;
+000;some hers relatives of came yesterday.[N:t.of+Possessive](Y/N);"hers" должно стоять после "of": "some relatives of hers";0;
+000;the theirs problem of was serious.[N:t.of+Possessive](Y/N);"theirs" должно быть после "of": "the problem of theirs";0;
+000;no his of habit is funny.[N:t.of+Possessive](Y/N);"his" должно быть после "of": "no habit of his";0;
+000;this yours suggestion surprised me.[N:t.of+Possessive](Y/N);"yours" не может стоять перед существительным — нужно "suggestion of yours";0;
+000;a hers friend called you.[N:t.of+Possessive](Y/N);"hers" не может идти перед существительным — нужно "a friend of hers";0;
+000;each mine idea failed.[N:t.of+Possessive](Y/N);"mine" должно стоять после "of": "each idea of mine";0;
+000;some his of ideas worked.[N:t.of+Possessive](Y/N);"his" должно быть после "of": "some ideas of his";0;
+000;that their of project was approved.[N:t.of+Possessive](Y/N);"their" должно быть после "of": "that project of theirs";0;
 # possessive: порядок местоимений
 001;This is [your and my](i, you) project.;Это ваш и мой проект.;0;
 002;We discussed [your and his](you, he) ideas.;Мы обсуждали ваши и его идеи.;0;
@@ -230,7 +312,10 @@ id;question;extra;suspicious_status;suspicious_note
 023;[Their house:t.Possessive](James and Sarah's house) is bigger than ours.;Дом Джеймса и Сары больше, чем наш.;0;
 024;[Their house:t.Possessive](the house of James and Sarah) is bigger than ours.;Дом Джеймса и Сары больше, чем наш.;0;
 
-# >>>> Demonstrative Determiners (Указательные) — Указывают на объект: this, that, these, those
+# >>>> Numerals (Числительные) — Точные количества: one, two, ten
 # >>>> Quantifiers (Количественные) — Указывают на количество: some, any, much, few, several
+# >>>> Demonstrative Determiners (Указательные) — Указывают на объект: this, that, these, those
 # >>>> Distributive Determiners (Распределительные) — Указывают на отдельные элементы из группы: each, every, either, neither
 # >>>> Interrogative Determiners (Вопросительные) — Используются в вопросах перед существительным: which, what, whose
+# >>>> Negative: no
+# >>>> Predeterminers: all, both, such, what
