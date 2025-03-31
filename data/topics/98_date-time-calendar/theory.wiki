@@ -43,6 +43,45 @@
 %%   The twenty-fifth of July, nineteen seventy-six;
 %%   July the twenty-fifth, nineteen seventy-six
 %%   25 июля 1976 года
+Даты записываются порядковыми числительными:
+  %% 17th January, 1998 – the seventeenth of January, nineteen ninety-eight
+  %% January 17th, 1998 / January 17, 1998 – January the seventeenth, nineteen ninety-eight
+Также они могут быть записаны в формате месяц/день/год через точку или косую черту:
+  %% 01.17.98
+  %% 01/17/98 – американский вариант
+Время дня
+  %% 4.00 – four (o'clock)
+  %% 8.05 – five minutes past eight (eight oh five)
+  %% 2.10 – ten minutes past two (two ten)
+  %% 5.12 – twelve minutes past five (five twelve)
+  %% 11.15 – quarter past eleven (eleven fifteen)
+  %% 9.30 – half past nine (nine thirty)
+  %% 1.35 – twenty-five minutes to two (one thirty-five)
+  %% 10.45 – quarter to eleven (ten forty-five)
+  %% 7.52 – eight minutes to eight (seven fifty-two)
+в большинстве ситуаций время можно прочитать двумя способами:
+  <часы> <минуты>
+    %% The train departs at seven fifty-two. - Поезд отправляется в 7:52.
+  <минуты> past/to <часы>
+    %% The shop will be closed at quarter to six. - Магазин закроется без пятнадцати шесть.
+    %% I want to see the TV program at ten minutes past nine. - Я хочу посмотреть программу в десять минут десятого.
+  Past используется для обозначения части часа от нуля до 30 минут
+  (буквально значит "после"):
+    %% I came here at quarter past nine. - Я пришел сюда в 9:15.
+  "To" обозначает время от 30 до 59 минут ("до"):
+    %% The plane takes off at ten minutes to twelve. - Самолет взлетает без десяти двенадцать.
+  В американском варианте английского языка также иногда используются слова after и till:
+    %% quarter after nine - пятнадцать минут десятого
+    %% ten minutes till twelve - без десяти двенадцать
+  Слово o'clock используется только для обозначение целого часа (без минут). Оно не используется вместе со словами am / pm или после цифр «.00»
+    %% The accident occurred at six o'clock. - Авария произошла в шесть часов.
+  В неформальном разговоре слово o'clock зачастую опускается:
+    %% I'm stuck in traffic, I'll be home only at 8. - Я застрял в пробке, буду дома только к восьми.
+  Слова AM и PM (от лат. "ante meridiem" и "post meridiem")
+  обозначают время до и после полудня аналогично русским "утра" и "вечера":
+    >>>> пройтись по граням с 12 часами
+      %% The match is starting at 4 p. m. - Матч начинается в 4 вечера (16:00).
+      %% I usually get up at 7 a. m. - Я обычно встаю в семь утра (7:00).
 Летоисчисление
   Годы в английском языке обозначаются количественными числительными.
   Четырехзначные годы при чтении делятся пополам и эти половинки читаются как два отдельных числа.

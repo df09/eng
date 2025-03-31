@@ -93,27 +93,47 @@
     %% 255% – two hundred fifty-five percent
     %% 30.55% – thirty point five five percent
 Дроби
-  Простые дроби (fractions) в английском языке часто пишутся словами и через дефис,
-  если в числителе или знаменателе не используется свой дефис.
-  Для числителя (numerator) используются количественные числительные,
-  а для знаменателя (denominator) – порядковые.
-    %% ???? дать полную раскладку
-    %% 1/2 – one-half, a half (0.5)
-    %% 1/100 – one-hundredth (0.01)
-    %% 1/5 – one-fifth
-    %% 1/1000 – one-thousandth
-    %% 2/7 – two-seventh
-    %% 44/73 – forty-four seventy-third
-    %% 27/100 – twenty-seven hundredth
-    %% 6 целых 15/19 – six and fifteen-nineteenth
-  Десятичные дроби (decimals) в английском языке читаются с помощью слова point (точка),
-  после которой все цифры читаются отдельно. Это правило не относится к счету денег.
-    %% 0.2 – zero point two (point two)
-    %% 1.05 – one point zero five
-    %% 0.25 – zero point two five (point two five)
-    %% 3.005 – three point zero zero five
-    %% 120.85 – one hundred twenty point eight five
-    %% 13.445 – thirteen point four four five
+  Простые дроби (fractions):
+    Простые дроби (fractions) в английском языке часто пишутся словами и через дефис,
+    если в числителе или знаменателе не используется свой дефис.
+    Для числителя (numerator) используются количественные числительные,
+    а для знаменателя (denominator) – порядковые.
+      %% ???? дать полную раскладку
+      %% 1/2 – one-half, a half (0.5)
+      %% 1/100 – one-hundredth (0.01)
+      %% 1/5 – one-fifth
+      %% 1/1000 – one-thousandth
+      %% 2/7 – two-seventh
+      %% 44/73 – forty-four seventy-third
+      %% 27/100 – twenty-seven hundredth
+      %% 6 целых 15/19 – six and fifteen-nineteenth
+    Простые дроби состоят из количественного числителя и порядкового знаменателя:
+      %% 1/12 – one-twelfth
+      %% 1/7 – one-seventh
+    Исключениями являются 1/2 и 1/4, которые читаются «one half» и «one quarter».
+    Если числитель больше одного, знаменатель используется в форме множественного числа:
+      %% 5/6 – five-sixths
+      %% 8/10 – eight-tenths
+    В смешанных числах дробная часть присоединяется к целой союзом and:
+      %% 5 1/3 – five and one-third
+    Существительные, связанные с дробным числом, используются в единственном числе и с предлогом of:
+      %% 1/4 mile – one quarter of a mile
+    Существительные, связанные со смешанной дробью, используются во множественном числе и без предлога of:
+      %% 5 1/7 kilograms – five and one seventh kilograms
+  Десятичные дроби (decimals):
+    Десятичные дроби (decimals) в английском языке читаются с помощью слова point (точка),
+    после которой все цифры читаются отдельно. Это правило не относится к счету денег.
+      %% 0.2 – zero point two (point two)
+      %% 1.05 – one point zero five
+      %% 0.25 – zero point two five (point two five)
+      %% 3.005 – three point zero zero five
+      %% 120.85 – one hundred twenty point eight five
+      %% 13.445 – thirteen point four four five
+    В десятичных дробях дробная часть присоединяется к целой словами point или decimal:
+      %% 0.6 – zero point six
+      %% 8.2 – eight point two
+    Если целая часть равна нулю, то она может не читаться:
+      %% 0.75 (.75) – point seventy five
 Арифметические действия
   При арифметических действиях глагол to be или to equal (равняться)
   в большинстве случаев употребляется в форме единственного числа.
