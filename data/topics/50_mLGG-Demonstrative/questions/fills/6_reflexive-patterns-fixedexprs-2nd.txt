@@ -1,0 +1,13 @@
+[meta/suspicious_status:0,suspicious_note:'']
+Reflexive(Возвратные): patterns.fixed-expressions.2nd
+
+  [1.Suit yourself         ]  (Как хочешь! Делай, как знаешь.)
+  [2.Speak for yourself    ]  (Говори за себя!)
+  [3.See for yourself      ]  (Сам убедись)
+  [4.Pull yourself together]  (Соберись)
+  [5.Help yourself         ]  (Угощайся)
+  [6.Enjoy yourself        ]  (Хорошо повеселиться)
+  [7.Don’t upset yourself  ]  (Не расстраивайся)
+  [8.Do it yourself        ]  (Сделай сам)
+  [9.Behave yourself       ]  (Веди себя прилично)
+  [10.Be yourself          ]  (Будь собой)

@@ -1,0 +1,20 @@
+[meta/suspicious_status:0,suspicious_note:'']
+Reflexive(Возвратные): patterns.prepositions
+
+  Base (often in everyday speech):
+    [1.About oneself    ]  (о себе)
+    [2.By oneself       ]  (alone/independently)
+    [3.For oneself      ]  (для себя)
+    [4.To oneself       ]  (по отношению к себе)
+
+  Useful (often in texts and formal style):
+    [5.Against oneself  ]  (борьба,вред)
+    [6.Among themselves ]  (Среди подобных)
+    [7.On oneself       ]  (ответственность)
+    [8.Over oneself     ]  (самоконтроль)
+    [9.Upon oneself     ]  (обременение)
+
+  Specific:
+    [10.Beside oneself  ]  (lost control:actual)
+    [11.Out of oneself  ]  (lost control:outdated)
+    [12.Within oneself  ]  (thoughts, feelings)

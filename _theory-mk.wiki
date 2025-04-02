@@ -1,67 +1,25 @@
 %% step-1:
-phrases and clauses⠉
-syntatic roles⠉
-proonuns(except Indefinite, relative-itterogative)⠋
-
-Indefinite Pronouns (depend on syntatic roles)
-compex sentetces (depend on syntatic roles)
-relative-itterogative pronouns (depend on compex sentetces)
-%% notes:
-  part of speech (syntatic roles): subject, object, complimets, ...
-    в первую очередь представить их в виде чем могут быть выражены
-      чтобы потом рассмотреть частный случай когда это clouse
-  придаточные
-  местоимения добить
-
+LGG
 %% step-2:
-предлоги
-времена/verbs:
-  +mastering самые важные глаголы:
-    to be
-    to have
-    to do
-      я опять запутался когда использовать глагол do:
-        в вопросах
-        в обчыных предложениях встатить extra-todo
-    to go
-    modals
-  +сложные комбинации
-  irregular verbs redo
-
+mLGG
 %% step-3:
-артикли - когда скипать особенно.
-прилагательные:
-  вцелом
-  сравнительные степени
-  списки синонимов от слабого к сильному и тп
-числительные
-герундии и всякие разные составные глаголы
-spelling + спорные по произношению слова
-  + spelling номеров, чисел
-
-%% step-4:
-hr:
-  introduce myself
-  comment my work expirience and skills
-  most popular questions and answers
-
+extra-modules +
+  spelling + спорные по произношению слова
+    + spelling номеров, чисел
+  morphology
+    прставки/суффиксы
+  speeches:
+    fixed expressions
+    slang:
+      slang
+      contractions
+      beeing unpolite/ругательства
+    hr:
+      introduce myself
+      comment my work expirience and skills
+      most popular questions and answers
 %% etc:
-morphology
-  прставки/суффиксы
-  сранительные степени
-  определение рода
-  множественного число +исключения
-падежи - en2ru
-adverbs
-
-migrate anki
+check telegram-hotes
+check anki
+check ud
 сохры в инсте check
-migrate ud
-
-fixed expressions
-speeches
-
-slang:
-  slang
-  contractions
-  beeing unpolite/ругательства

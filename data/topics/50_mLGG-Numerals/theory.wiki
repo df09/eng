@@ -1,0 +1,346 @@
+Lexico-Grammatical Groups (LGG)
+├── Referentials (обозначают предмет, лицо, идею)
+│   ├── Nouns:
+│   │   └──(4) Numerals Nouns (one, two, a dozen) — как самостоятельные именные единицы
+│   │          # ???? example
+│   └── Pronouns:
+│       └──(4) Numerals (one, two, several) — заменяющие существительные
+│              # ???? example
+├── Determiners (уточняют Referentials):
+│   └──(4) Numerals
+│          # ???? example
+└── Modifiers (уточняют Referentials, Verbs, Modifiers)
+    └──(!!!! Indefinite,Interrogative,Relative,Numerals) Adverbs (семантическая классификация):⠉
+       %% ???? example
+
+Numerals:
+  Cardinal (one, two)
+  Ordinal (first, second)
+  Fractional (one half)
+  Multipliers (once, twice)
+  Distributive (each, every)
+  Collective (a dozen)
+
+LGG.Determiners.Numerals:
+>>>> qs
+>>>> Numerals (Числительные) — Maindet/Postdet: указывает на количество предметов или их порядок.
+
+  multi-determiners:
+    В большинстве случаев numerals (one, two, three…) — это Postdeterminers
+      %% Our (Maindet) two (Postdet) dogs.
+      %% My (Maindet) three (Postdet) ideas.
+    Но если нет Maindet, numerals могут быть Maindet:
+      %% Two (Maindet) dogs barked.
+      %% One (Maindet) idea changed me.
+  Cardinal (Количественные):
+    простые:
+      %% 1:   one
+      %% 2:   two
+      %% 3:   three
+      %% 4:   four
+      %% 5:   five
+      %% 6:   six
+      %% 7:   seven
+      %% 8:   eight
+      %% 9:   nine
+      %% 10:  ten
+      %% 11:  eleven
+      %% 12:  twelve
+      %% 13:  thirteen
+      %% 14:  fourteen
+      %% 15:  fifteen
+      %% 16:  sixteen
+      %% 17:  seventeen
+      %% 18:  eighteen
+      %% 19:  nineteen
+      %% 20:  twenty
+      %% 30:  thirty
+      %% 40:  forty
+      %% 50:  fifty
+      %% 60:  sixty
+      %% 70:  seventy
+      %% 80:  eighty
+      %% 90:  ninety
+      %% 100:           one hundred
+      %% 200:           two hundred
+      %% 1000:          one thousand
+      %% 1200:          one thousand two hundred / twelve hundred
+      %% 100 000:       one hundred thousand
+      %% 1 000 000:     one million
+      %% 1 000 000 000: one billion
+    составные:
+      %% 21:    twenty-one
+      %% 22:    twenty-two
+      %% 23:    twenty-three
+      %% 24:    twenty-four
+      %% 25:    twenty-five
+      %% 26:    twenty-six
+      %% 27:    twenty-seven
+      %% 28:    twenty-eight
+      %% 29:    twenty-nine
+      %% 34:    thirty-four
+      %% 47:    forty-seven
+      %% 59:    fifty-nine
+      %% 62:    sixty-two
+      %% 75:    seventy-five
+      %% 88:    eighty-eight
+      %% 91:    ninety-one
+      %% 93:    ninety-three
+      %% 98:    ninety-eight
+      %% 99:    ninety-nine
+      %% 101:   one hundred (and) one
+      %% 117:   one hundred (and) seventeen
+      %% 143:   one hundred (and) forty-three
+      %% 234:   two hundred (and) thirty-four
+      %% 345:   three hundred (and) forty-five
+      %% 456:   four hundred (and) fifty-six
+      %% 567:   five hundred (and) sixty-seven
+      %% 678:   six hundred (and) seventy-eight
+      %% 999:   nine hundred (and) ninety-nine
+      %% 1234:  one thousand two hundred (and) thirty-four / twelve hundred (and) thirty-four / twelve (and) thirty-four
+      %% 1250:  one thousand two hundred (and) fifty / twelve hundred (and) fifty / twelve (and) fifty
+      %% 1299:  one thousand two hundred (and) ninety-nine / twelve hundred (and) ninety-nine / twelve (and) ninety-nine
+      %% 1300:  one thousand three hundred / thirteen hundred / thirteen hundred
+      %% 1325:  one thousand three hundred (and) twenty-five / thirteen hundred (and) twenty-five / thirteen (and) twenty-five
+      %% 1357:  one thousand three hundred (and) fifty-seven / thirteen hundred (and) fifty-seven / thirteen (and) fifty-seven
+      %% 1400:  one thousand four hundred / fourteen hundred / fourteen hundred
+      %% 1432:  one thousand four hundred (and) thirty-two / fourteen hundred (and) thirty-two / fourteen (and) thirty-two
+      %% 1499:  one thousand four hundred (and) ninety-nine / fourteen hundred (and) ninety-nine / fourteen (and) ninety-nine
+      %% 1500:  one thousand five hundred / fifteen hundred / fifteen hundred
+      %% 1520:  one thousand five hundred (and) twenty / fifteen hundred (and) twenty / fifteen (and) twenty
+      %% 1590:  one thousand five hundred (and) ninety / fifteen hundred (and) ninety / fifteen (and) ninety
+      %% 1600:  one thousand six hundred / sixteen hundred / sixteen hundred
+      %% 1655:  one thousand six hundred (and) fifty-five / sixteen hundred (and) fifty-five / sixteen (and) fifty-five
+      %% 1700:  one thousand seven hundred / seventeen hundred / seventeen hundred
+      %% 1750:  one thousand seven hundred (and) fifty / seventeen hundred (and) fifty / seventeen (and) fifty
+      %% 1800:  one thousand eight hundred / eighteen hundred / eighteen hundred
+      %% 1888:  one thousand eight hundred (and) eighty-eight / eighteen hundred (and) eighty-eight / eighteen (and) eighty-eight
+      %% 1999:  one thousand nine hundred (and) ninety-nine / nineteen hundred (and) ninety-nine / nineteen (and) ninety-nine
+    сложно-составные:
+      с сотнями и единицами, без десятков (например, 104, 1502, 1807, 1901):
+        "one thousand five hundred (and) two" — нейтральная, полная форма (подходит для всех контекстов).
+        "fifteen hundred (and) two" — разговорная форма (часто в адресах, годах, номерах моделей).
+        "fifteen oh two" — тоже возможно (реже, но встречается: особенно в военной или технической среде)
+          %% 502:   five hundred (and) two / five oh two
+          %% 604:   six hundred (and) four / six oh four
+          %% 706:   seven hundred (and) six / seventeen oh six
+          %% 807:   eight hundred (and) seven / eighteen oh seven
+          %% 901:   nine hundred (and) one / nineteen oh one
+          %% 1913:  one thousand nine hundred (and) thirteen / nineteen hundred (and) thirteen / nineteen thirteen
+          %% 1945:  one thousand nine hundred (and) forty-five / nineteen hundred (and) forty-five / nineteen forty-five
+          %% 1980:  one thousand nine hundred (and) eighty / nineteen hundred (and) eighty / nineteen eighty
+          %% 1994:  one thousand nine hundred (and) ninety-four / nineteen hundred (and) ninety-four / nineteen ninety-four
+          %% 1999:  one thousand nine hundred (and) ninety-nine / nineteen hundred (and) ninety-nine / nineteen ninety-nine
+      с тысячами и единицами, без сотен и десятков:
+        "two thousand (and) one" — нормально и естественно.
+        "twenty oh one" — нельзя (кроме редких кодов/паролей).
+          %% 2001:  two thousand (and) one
+          %% 3002:  three thousand (and) two
+          %% 7006:  seven thousand (and) six
+          %% 10009: ten thousand (and) nine
+      после 1999 форма с "hundred" больше не используется:
+        "twenty hundred and one" — нельзя    %% 2105:  two thousand (and) one hundred (and) five
+          %% 2200:  two thousand two hundred
+          %% 2307:  two thousand three hundred (and) seven
+          %% 2450:  two thousand four hundred (and) fifty
+          %% 2789:  two thousand seven hundred (and) eighty-nine
+          %% 3100:  three thousand one hundred
+          %% 3502:  three thousand five hundred (and) two
+          %% 4004:  four thousand (and) four
+          %% 5678:  five thousand six hundred (and) seventy-eight
+          %% 9999:  nine thousand nine hundred (and) ninety-nine
+  Ordinal (Порядковые):
+    простые:
+      %% 1:   first
+      %% 2:   second
+      %% 3:   third
+      %% 4:   fourth
+      %% 5:   fifth
+      %% 6:   sixth
+      %% 7:   seventh
+      %% 8:   eighth
+      %% 9:   ninth
+      %% 10:  tenth
+      %% 11:  eleventh
+      %% 12:  twelfth
+      %% 13:  thirteenth
+      %% 14:  fourteenth
+      %% 15:  fifteenth
+      %% 16:  sixteenth
+      %% 17:  seventeenth
+      %% 18:  eighteenth
+      %% 19:  nineteenth
+      %% 20:  twentieth
+      %% 30:  thirtieth
+      %% 40:  fortieth
+      %% 50:  fiftieth
+      %% 60:  sixtieth
+      %% 70:  seventieth
+      %% 80:  eightieth
+      %% 90:  ninetieth
+      %% 100:           one hundredth
+      %% 200:           two hundredth
+      %% 1000:          one thousandth
+      %% 1200:          one thousand two hundredth / twelve hundredth
+      %% 100 000:       one hundred thousandth
+      %% 1 000 000:     one millionth
+      %% 1 000 000 000: one billionth
+    составные:
+      %% 21:    twenty-first
+      %% 22:    twenty-second
+      %% 23:    twenty-third
+      %% 24:    twenty-fourth
+      %% 25:    twenty-fifth
+      %% 26:    twenty-sixth
+      %% 27:    twenty-seventh
+      %% 28:    twenty-eighth
+      %% 29:    twenty-ninth
+      %% 34:    thirty-fourth
+      %% 47:    forty-seventh
+      %% 59:    fifty-ninth
+      %% 62:    sixty-second
+      %% 75:    seventy-fifth
+      %% 88:    eighty-eighth
+      %% 91:    ninety-first
+      %% 93:    ninety-third
+      %% 98:    ninety-eighth
+      %% 99:    ninety-ninth
+      %% 101:   one hundred (and) first
+      %% 117:   one hundred (and) seventeenth
+      %% 143:   one hundred (and) forty-third
+      %% 234:   two hundred (and) thirty-fourth
+      %% 345:   three hundred (and) forty-fifth
+      %% 456:   four hundred (and) fifty-sixth
+      %% 567:   five hundred (and) sixty-seventh
+      %% 678:   six hundred (and) seventy-eighth
+      %% 999:   nine hundred (and) ninety-ninth
+      %% 1234:  one thousand two hundred (and) thirty-fourth / twelve hundred (and) thirty-fourth / twelve (and) thirty-fourth
+      %% 1250:  one thousand two hundred (and) fiftieth / twelve hundred (and) fiftieth / twelve (and) fiftieth
+      %% 1299:  one thousand two hundred (and) ninety-ninth / twelve hundred (and) ninety-ninth / twelve (and) ninety-ninth
+      %% 1300:  one thousand three hundredth / thirteen hundredth / thirteen hundredth
+      %% 1325:  one thousand three hundred (and) twenty-fifth / thirteen hundred (and) twenty-fifth / thirteen (and) twenty-fifth
+      %% 1357:  one thousand three hundred (and) fifty-seventh / thirteen hundred (and) fifty-seventh / thirteen (and) fifty-seventh
+      %% 1400:  one thousand four hundredth / fourteen hundredth / fourteen hundredth
+      %% 1432:  one thousand four hundred (and) thirty-second / fourteen hundred (and) thirty-second / fourteen (and) thirty-second
+      %% 1499:  one thousand four hundred (and) ninety-ninth / fourteen hundred (and) ninety-ninth / fourteen (and) ninety-ninth
+      %% 1500:  one thousand five hundredth / fifteen hundredth / fifteen hundredth
+      %% 1520:  one thousand five hundred (and) twentieth / fifteen hundred (and) twentieth / fifteen (and) twentieth
+      %% 1590:  one thousand five hundred (and) ninetieth / fifteen hundred (and) ninetieth / fifteen (and) ninetieth
+      %% 1600:  one thousand six hundredth / sixteen hundredth / sixteen hundredth
+      %% 1655:  one thousand six hundred (and) fifty-fifth / sixteen hundred (and) fifty-fifth / sixteen (and) fifty-fifth
+      %% 1700:  one thousand seven hundredth / seventeen hundredth / seventeen hundredth
+      %% 1750:  one thousand seven hundred (and) fiftieth / seventeen hundred (and) fiftieth / seventeen (and) fiftieth
+      %% 1800:  one thousand eight hundredth / eighteen hundredth / eighteen hundredth
+      %% 1888:  one thousand eight hundred (and) eighty-eighth / eighteen hundred (and) eighty-eighth / eighteen (and) eighty-eighth
+      %% 1999:  one thousand nine hundred (and) ninety-ninth / nineteen hundred (and) ninety-ninth / nineteen (and) ninety-ninth
+    сложно-составные:
+      с сотнями и единицами, без десятков:
+        %% 502:   five hundred (and) second / five oh second
+        %% 604:   six hundred (and) fourth / six oh fourth
+        %% 706:   seven hundred (and) sixth / seventeen oh sixth
+        %% 807:   eight hundred (and) seventh / eighteen oh seventh
+        %% 901:   nine hundred (and) first / nineteen oh first
+        %% 1913:  one thousand nine hundred (and) thirteenth / nineteen hundred (and) thirteenth / nineteen thirteenth
+        %% 1945:  one thousand nine hundred (and) forty-fifth / nineteen hundred (and) forty-fifth / nineteen forty-fifth
+        %% 1980:  one thousand nine hundred (and) eightieth / nineteen hundred (and) eightieth / nineteen eightieth
+        %% 1994:  one thousand nine hundred (and) ninety-fourth / nineteen hundred (and) ninety-fourth / nineteen ninety-fourth
+        %% 1999:  one thousand nine hundred (and) ninety-ninth / nineteen hundred (and) ninety-ninth / nineteen ninety-ninth
+      с тысячами и единицами, без сотен и десятков:
+        %% 2001:  two thousand (and) first
+        %% 3002:  three thousand (and) second
+        %% 7006:  seven thousand (and) sixth
+        %% 10009: ten thousand (and) ninth
+      после 1999 форма с "hundred" больше не используется:
+        %% 2105:  two thousand (and) one hundred (and) fifth
+        %% 2200:  two thousand two hundredth
+        %% 2307:  two thousand three hundred (and) seventh
+        %% 2450:  two thousand four hundred (and) fiftieth
+        %% 2789:  two thousand seven hundred (and) eighty-ninth
+        %% 3100:  three thousand one hundredth
+        %% 3502:  three thousand five hundred (and) second
+        %% 4004:  four thousand (and) fourth
+        %% 5678:  five thousand six hundred (and) seventy-eighth
+        %% 9999:  nine thousand nine hundred (and) ninety-ninth
+  usage:
+    Существительные, перед которыми стоят порядковые числительные, используются с определенным артиклем the.
+      Они отвечают на вопрос "который по счету?".
+      %% It is the first time I see such beautiful flowers. – В первый раз я вижу такие красивые цветы!
+      %% The tenth candy was too much for me. – Десятая конфета была для меня лишней.
+      %% Matt was the hundredth customer that day so he got a present. – В тот день Мэтт был сотым покупателем, поэтому он получил подарок.
+    Ноль
+      Цифра ноль в английском языке в зависимости от контекста может читаться по-разному: zero, o, nil.
+      Иногда говорят "oh" вместо "zero":
+        %% room 404 → room four oh four
+        %% room 404 -> room four zero four / room four oh four
+      Ноль произносится как «zero», когда ноль используется в дробях, процентах, телефонных номерах и в определенных выражениях.
+        %% Please, write down my phone number: three-two-four zero-zero-one six-eight-six. – Пожалуйста, запишите мой телефон: 3-2-4 0-0-1 6-8-6.
+        %% There is 0% chance that we will win. – У нас нулевые шансы того, что мы выиграем.
+      O (читается, как английская буква o [əu]) – используется в обозначении годов, времени, в адресах, иногда в телефонных номерах.
+        %% It happened in fourteen o seven. – Это произошло в 1407 году.
+        %% Our train leaves at thirteen o five. – Наш поезд отправляется в 13:05.
+      Nil – используется в счете спортивных матчей.
+        %% Our team won with the score three-nil. – Наша команда выиграла со счетом 3-0.
+        %% And the game is ending in a draw with a score nil-nil. Such a tough game it was! – И игра заканчивается ничьей со счетом ноль-ноль. Какая была напряженная игра!
+    Деньги
+      Для счета денег в английском языке сначала произносится число, а потом название валюты.
+      Если число состоит из десятичной дроби, то произносится целая часть,
+      название валюты, после которой десятичная часть (копейки) произносится как обычное число.
+      В конце может добавляться название монеты, если оно существует.
+        %% $2 – two dollars
+        %% €14,99 – fourteen euros ninety nine (cents, euro cents)
+        %% £204 – two hundred and four pounds
+        %% ₴167 – one hundred and sixty seven hryvnias
+        %% ₱25.15 – twenty five roubles and fifteen kopecks
+        %% ¥10 000 – ten thousand yen
+    нумерация:
+      В английском языке при обозначении номеров, страниц, глав, частей книг, аудиторий, домов, трамваев и т. п.
+      обычно употребляются количественные числительные. В этом случае количественное числительное
+      следует за определяемым им существительным, причем существительное употребляется без артикля:
+        %% chapter one – глава первая
+        %% part two – часть вторая
+        %% lesson three – урок третий
+        %% page fifteen – страница пятнадцатая
+        %% Open your books at page 23. (twenty-three) - Откройте книги на 23-й странице.
+        %% Read paragraph 5. (five) - Читайте пятый параграф.
+      При употреблении порядкового числительного в аналогичных случаях порядковое числительное ставится перед существительным, и существительное приобретает определенный артикль:
+        %% the first chapter – первая глава
+        %% the second part – вторая часть
+        %% the third lesson – третий урок
+      Года обозначаются количественными числительными.
+      При чтении обозначений года хронологическая дата делится пополам,
+      причем каждая половина читается как отдельное число:
+        %% 1917 (nineteen seventeen)
+        %% 1848 (eighteen forty-eight)
+        %% A. S. Pushkin was born in 1799 and died in 1837. - А. С. Пушкин родился в 1799 году и умер в 1837 году.
+    При обозначении арифметических действий глагол, выражающий результат действия,
+    может стоять как в единственном, так и во множественном числе:
+      %% Five plus four is nine. - Пять плюс четыре будет девять.
+      %% Three times four are twelve. - Три умножить на четыре будет двенадцать.
+    Количественные числительные (cardinals) больше одного требуют множественного числа существительного:
+      %% There are three classes of reactors: slow, intermediate and fast.
+      %% Имеются три вида реакторов: реакторы на медленных, промежуточных и быстрых нейтронах.
+      %% There are thirty-one days in January.
+      %% В январе тридцать один день.
+    Порядковые числительные и артикль:
+      Существительное, связанное с порядковым числительным, употребляется с определенным артиклем:
+        %% The second act of the play is my favourite.
+        %% Второй акт пьесы – мой любимый.
+      Реже в таком случае может использоваться неопределенный артикль, тогда значение фразы меняется на «еще один»:
+        %% I've written a complaint, and then a second one.
+        %% Я написал одну жалобу, а потом еще и вторую.
+
+    >>>> web
+    more:
+      см. date-time-calendar, math, culture-geography-history modules
+
+???? Функции английских числительных в предложении
+????   Подлежащее
+????     238 is the total number of protons and neutrons in uranium-238. - 238 — общее число протонов и нейтронов в уране-238.
+????   Дополнение
+????     Subtract 92 from 238 and the remainder is the number of neutrons in uranium-238. - Вычтите 92 из 238, и остаток будет число нейтронов в уране-238.
+????   Определение
+????     There are three classes of reactors. - Существуют три типа реакторов.
+????     The first class is the slow fission reactor. - Первый тип — это реактор на медленных нейтронах.
+????   Именная часть составного сказуемого
+????     Five times five is twenty-five. - Пять умноженное на пять равняется двадцати пяти.
+????     An "oxygen unit" is 1/16 of the weight of an atom of oxygen. - “Кислородная единица” равна 1/16 веса атома кислорода.

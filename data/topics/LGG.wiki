@@ -1,0 +1,115 @@
+Syntax Roles (SXR):
+  Subject (S) — подлежащее
+  Attribute (Atr) — определение к существительному
+  Apposition (App) — пояснение/синоним существительного
+  Predicate (P) — сказуемое
+  Complement (C) — именная/прилагательная часть сказуемого:
+    Subject Complement (SC) — описывает/идентифицирует подлежащее
+    Object Complement (OC) — описывает объект
+  Object (O) — дополнение:
+    Direct Object (DO) — получает действие напрямую
+    Indirect Object (IO) — получает выгоду/адресат действия
+    Prepositional Object (PO) — объект после предлога
+  Adverbial (Adv) — обстоятельство:
+    Time (AdvT) — времени
+    Place (AdvL) — места
+    Manner/Cause/Purpose (AdvM) - причины, цели, образа действия
+  Parenthetical (Par) — вводное слово/фраза
+  Vocative (Voc) — обращение
+Parts of Speech (POS):
+  Nouns (Существительное): book, freedom, John
+  Pronouns (Местоимение): he, it, yourself, someone
+  Determiners (Определитель): the, a, this, my, each, some
+  Adjectives (Прилагательное): red, happy, broken
+  Verbs (Глагол): run, be, can, have been
+  Adverbs (Наречие): quickly, very, here, now
+  Prepositions (Предлог): in, on, under, because of
+  Particles (Частица): not, to (в инфинитиве), up (в phrasal verbs)
+  Conjunctions (Союз): and, but, although, either...or
+  Interjections (Междометие): oh!, wow, ouch
+
+>>>> Lexico-Grammatical Groups (LGG)
+>>>> ├── Referentials (обозначают предмет, лицо, идею)
+>>>> │   ├── Nouns:
+>>>> │   │   ├── Proper (John, London)
+>>>> │   │   ├── Concrete (apple, chair)
+>>>> │   │   ├── Abstract (freedom, love)
+>>>> │   │   ├── Collective (team, family)
+>>>> │   │   ├──(mLGG) Gerunds (swimming)
+>>>> │   │   ├──(mLGG) Infinitives (to go)
+>>>> │   │   └──(mLGG) Numerals (one, two, a dozen) — как самостоятельные именные единицы
+>>>> │   └── Pronouns:
+:::: │       ├── Personal:
+:::: │       │   ├── Subject Form (I, you)
+:::: │       │   └── Object Form (me, you)
+:::: │       ├── Possessive (mine, yours)
+:::: │       ├── Reflexive/Intensive (myself, yourself)
+:::: │       ├── Reciprocal (each other, one another)
+>>>> │       ├──(mLGG) Demonstrative (this, that)
+>>>> │       ├──(mLGG) Indefinite (someone, few, each)
+>>>> │       ├──(mLGG) Interrogative (????)
+>>>> │       ├──(mLGG) Relative (????)
+>>>> │       └──(mLGG) Numerals (one, two, several) — заменяющие существительные
+>>>> ├── Determiners (уточняют Referentials):
+>>>> │   ├── Articles (a, an, the, <zero>)
+>>>> │   ├── Possessive (my, his)
+>>>> │   ├──(mLGG) Demonstrative (this, those)
+>>>>     в каких случаях это может adverb ????⠉
+>>>> │   ├──(mLGG) Numerals:⠉
+>>>> │   │   ├── Cardinal (one, two) >>>>
+>>>> │   │   ├── Ordinal (first, second) >>>>
+>>>> │   │   ├── Fractional (one half) >>>>
+>>>> │   │   ├── Multipliers (once, twice) >>>>
+>>>> │   │   ├── Distributive (each, every) >>>>
+>>>> │   │   └── Collective (a dozen) >>>>
+>>>> │   ├──(mLGG.Indefinite) Quantifiers (some, any, many, few)
+>>>> │   ├──(mLGG) Interrogative (which, what)
+>>>> │   ├── Distributive (each, either) >>>>
+>>>> │   ├── Negative (no) ???? а разве это не частица?
+>>>> │   └── Predeterminers (all, both, such, what) >>>> pronoun, adverb?
+>>>> ├── Verbs (могут образовывать Verb Complex)
+>>>> │   ├── Lexical Verbs (run, build)
+>>>> │   ├── Auxiliary Verbs (be, do, have)
+>>>> │   ├── Modal Verbs (can, must)
+>>>> │   ├── Semi-Auxiliaries (have to, be able to)
+>>>> │   ├── Copulas (be, seem)
+>>>> │   ├──(???? adjective) Participles (broken, running) adjective⠁
+>>>> │   ├──(mLGG) Gerunds (reading, thinking)
+>>>> │   └──(mLGG) Infinitives (to go)
+>>>> ├── Modifiers (уточняют Referentials, Verbs, Modifiers)
+>>>> │   ├── Adjectives (rich) >>>> noun (какой класс?)
+>>>> │   └──(!!!! Indefinite,Interrogative,Relative,Numerals) Adverbs (семантическая классификация):⠉
+>>>> │       ├── Manner (quickly)
+>>>> │       ├── Place (here, there)
+>>>> │       ├── Time (now, yesterday)
+>>>> │       ├── Frequency (always, never)
+>>>> │       ├── Degree (very, too)
+>>>> │       ├── Comment / Viewpoint (frankly, probably)
+>>>>         ???? а разве правильно выделены эти группы?⠉
+>>>> │       ├── Interrogative (how, when, where)
+>>>> │       └── Relative (where, when)
+>>>> ├── Relators (Prepositions):
+>>>> │   ├── Time (at, on, in)
+>>>> │   ├── Place (under, over)
+>>>> │   ├── Direction (into, onto)
+>>>> │   ├── Cause (because of, due to)
+>>>> │   ├── Purpose (for, to)
+>>>> │   ├── Agent (by)
+>>>> │   └── Complex Prepositions (in front of, on behalf of)
+>>>> ├── Connectors
+>>>> │   ├── Coordinating (and, but)
+>>>> │   ├──(mLGG.Demonstrative) Subordinating (because, although)
+>>>> │   ├── Correlative (either...or)
+>>>> │   ├──(???? adverb) Adverbial Connectors (however, therefore)
+>>>> │   └──(???? preposition, adverb) Hybrid Connectives (since, after)
+>>>> ├── Emphasis / Negation / Focus
+>>>> │   ├── Particles:
+>>>> │   │   ├── Negation (not)
+>>>> │   │   ├── Infinitive Marker (to)
+>>>> │   │   └── Verb Particles (up, out, off)
+>>>> │   └──(???? adverb, particle) Focus Words (only, even, just)
+>>>> └── Interjections
+>>>>     ├── Greeting/Farewell (hi, bye)
+>>>>     ├── Emotional (wow, ouch)
+>>>>     ├── Cognitive (oh, hmm)
+>>>>     └── Sound Imitation (meh, oops)

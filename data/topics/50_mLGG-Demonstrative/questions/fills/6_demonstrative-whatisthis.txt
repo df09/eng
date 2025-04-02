@@ -1,0 +1,7 @@
+[meta/suspicious_status:0,suspicious_note:'']
+Demonstrative(Указательные): "Что это?"
+
+  [1.What's this?]     - один предмет поблизости.
+  [2.What's that?]     - один предмет вдали.
+  [3.What are these?]  - предметы поблизости.
+  [4.What are those?]  - предметы вдали.

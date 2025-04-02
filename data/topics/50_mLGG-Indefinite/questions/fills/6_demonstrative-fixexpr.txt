@@ -1,0 +1,28 @@
+[meta/suspicious_status:0,suspicious_note:'']
+Demonstrative(Указательные): fixed-expressions
+
+  [1.I don't know about those...                ]  Я не уверен насчёт этого.
+  [2.That does it!                              ]  Всё! Хватит! (выражение раздражения)
+  [3.That's a good one!                         ]  Хорошая шутка!
+  [4.That's all.                                ]  Это всё.
+  [5.That's enough!                             ]  Достаточно!
+  [6.That's for sure.                           ]  Это точно.
+  [7.That's it!                                 ]  Вот и всё! / Именно так!
+  [8.That's right.                              ]  Это правильно. / Именно так.
+  [9.That's the last straw!                     ]  Это последняя капля!
+  [10.That's the way it is.                     ]  Такова жизнь.
+  [11.That's true.                              ]  Это правда.
+  [12.That's why...                             ]  Вот почему...
+  [13.These are the days of our lives.          ]  Это лучшие дни нашей жизни.
+  [14.These things happen.                      ]  Такое бывает.
+  [15.This is how it works.                     ]  Вот как это работает.
+  [16.This is it!                               ]  Вот оно! / Это то, что нужно!
+  [17.This is ridiculous!                       ]  Это нелепо!
+  [18.This is the life!                         ]  Вот это жизнь!
+  [19.This is what I meant.                     ]  Это то, что я имел в виду.
+  [20.This just in...                           ]  Срочные новости...
+  [21.This won't do.                            ]  Так не пойдёт.
+  [22.Those were the days!                      ]  Вот были времена!
+  [23.Those who can, do; those who can't, teach.]  Кто умеет, делает; кто не умеет, учит.
+  [24.And all that                              ]  и все прочее
+  [25.That's all right                          ]  все в порядке
