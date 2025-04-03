@@ -1,0 +1,6 @@
+Lexico-Grammatical Groups (LGG)
+├── Referentials (обозначают предмет, лицо, идею)
+│   ├── Nouns:
+│   │   ├──(mLGG) Infinitives (to go)
+├── Verbs (могут образовывать Verb Complex)
+│   └──(mLGG) Infinitives (to go)
