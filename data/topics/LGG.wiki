@@ -1,100 +1,103 @@
-Syntax Roles (SXR):
-  Subject (S) — подлежащее
-  Attribute (Atr) — определение к существительному
-  Apposition (App) — пояснение/синоним существительного
-  Predicate (P) — сказуемое
-  Complement (C) — именная/прилагательная часть сказуемого:
-    Subject Complement (SC) — описывает/идентифицирует подлежащее
-    Object Complement (OC) — описывает объект
-  Object (O) — дополнение:
-    Direct Object (DO) — получает действие напрямую
-    Indirect Object (IO) — получает выгоду/адресат действия
-    Prepositional Object (PO) — объект после предлога
-  Adverbial (Adv) — обстоятельство:
-    Time (AdvT) — времени
-    Place (AdvL) — места
-    Manner/Cause/Purpose (AdvM) - причины, цели, образа действия
-  Parenthetical (Par) — вводное слово/фраза
-  Vocative (Voc) — обращение
+%% Syntax Roles (SXR):
+%%  Subject (S) — подлежащее
+%%  Attribute (Atr) — определение к существительному
+%%  Apposition (App) — пояснение/синоним существительного
+%%  Predicate (P) — сказуемое
+%%  Complement (C) — именная/прилагательная часть сказуемого:
+%%    Subject Complement (SC) — описывает/идентифицирует подлежащее
+%%    Object Complement (OC) — описывает объект
+%%  Object (O) — дополнение:
+%%    Direct Object (DO) — получает действие напрямую
+%%    Indirect Object (IO) — получает выгоду/адресат действия
+%%    Prepositional Object (PO) — объект после предлога
+%%  Adverbial (Adv) — обстоятельство:
+%%    Time (AdvT) — времени
+%%    Place (AdvL) — места
+%%    Manner/Cause/Purpose (AdvM) - причины, цели, образа действия
+%%  Parenthetical (Par) — вводное слово/фраза
+%%  Vocative (Voc) — обращение
 
-Parts of Speech (POS):
-├── Nouns:
-│   ├── Proper (John, London)
-│   ├── Concrete (apple, chair)
-│   ├── Abstract (freedom, love)
-│   ├── Collective (team, family)
-│   ├── (LGG) Gerunds (swimming)
-│   ├── (LGG) Infinitives (to go)
-│   ├── (LGG) Numerals (one, two, a dozen) — как самостоятельные именные единицы
-│   └── (LGG) Adjectives (rich)
-├── Pronouns:
-│   ├── Personal:
-│   │   ├── Subject Form (I, you)
-│   │   └── Object Form (me, you)
-│   ├── Possessive (mine, yours)
-│   ├── Reflexive/Intensive (myself, yourself)
-│   ├── Reciprocal (each other, one another)
-│   ├── (LGG) Demonstrative (this, that)
-│   ├── (LGG) Indefinite (someone, few, each)
-│   ├── (LGG) Interrogative (????)
-│   ├── (LGG) Relative (????)
-│   └── (LGG) Numerals (one, two, several) — заменяющие существительные
-├── Determiners (уточняют Referentials):
-│   ├── Articles (a, an, the, <zero>)
-│   ├── Possessive (my, his)
-│   ├── Distributive (each, either) >>>>
-│   ├── Negative (no) ???? а разве это не частица?
-│   ├── Predeterminers (all, both, such, what) >>>> pronoun, adverb?
-│   ├── (LGG) Demonstrative (this, those)
-│   ├── (LGG.Indefinite) Quantifiers (some, any, many, few)
-│   ├── (LGG) Interrogative (which, what)
-│   └── (LGG) Numerals
-├── Verbs (могут образовывать Verb Complex)
-│   ├── Lexical Verbs (run, build)
-│   ├── Auxiliary Verbs (be, do, have)
-│   ├── Modal Verbs (can, must)
-│   ├── Semi-Auxiliaries (have to, be able to)
-│   ├── Copulas (be, seem)
-│   ├── (LGG) Gerunds (reading, thinking)
-│   ├── (LGG) Infinitives (to go)
-│   └── (???? adjective/adverb) Participles (broken, running) adjective/adverb⠁
-├── (LGG) Adjectives (rich)
-│   └── (???? adjective/adverb) Participles (broken, running) adjective/adverb⠁
-├── (LGG !!!! Indefinite,Interrogative,Relative,Numerals,Participles) Adverbs (семантическая классификация):⠉
-│   ├── Manner (quickly)
-│   ├── Place (here, there)
-│   ├── Time (now, yesterday)
-│   ├── Frequency (always, never)
-│   ├── Degree (very, too)
-│   ├── Comment / Viewpoint (frankly, probably)
-│   ├── Interrogative (how, when, where)⠁
-│   └── Relative (where, when)⠁
-│   └── (???? adjective/adverb) Participles (broken, running) adjective/adverb⠁
-│   ├──(???? adverb) Adverbial Connectors (however, therefore)
-│   └──(???? preposition, adverb) Hybrid Connectives (since, after)
-│   └──(???? adverb, particle) Focus Words (only, even, just)
-├── Prepositions:
-│   ├── Time (at, on, in)
-│   ├── Place (under, over)
-│   ├── Direction (into, onto)
-│   ├── Cause (because of, due to)
-│   ├── Purpose (for, to)
-│   ├── Agent (by)
-│   └── Complex Prepositions (in front of, on behalf of)
-│   └──(???? preposition, adverb) Hybrid Connectives (since, after)
-├── Conjunctions
-│   ├── Coordinating (and, but)
-│   ├──(LGG.Demonstrative) Subordinating (because, although)
-│   ├── Correlative (either...or)
-│   ├──(???? adverb) Adverbial Connectors (however, therefore)
-│   └──(???? preposition, adverb) Hybrid Connectives (since, after)
-├── Particles:
-│   ├── Negation (not)
-│   ├── Infinitive Marker (to)
-│   ├── Verb Particles (up, out, off)
-│   └──(???? adverb, particle) Focus Words (only, even, just)
-└── Interjections
-    ├── Greeting/Farewell (hi, bye)
-    ├── Emotional (wow, ouch)
-    ├── Cognitive (oh, hmm)
-    └── Sound Imitation (meh, oops)
+>>>> 1.Nouns:
+>>>>   Proper (John, London)
+>>>>   Concrete (apple, chair)
+>>>>   Abstract (freedom, love)
+>>>>   Collective (team, family)
+____   (LGG) Gerunds (swimming)
+____   (LGG) Infinitives (to go)
+____   (LGG) Numerals (one, two, a dozen) — как самостоятельные именные единицы
+____   (LGG) Descriptive (rich)
+____   (LGG) Quotation
+:::: 2.Pronouns:
+::::   Personal:
+::::     Subject Form (I, you)
+::::     Object Form (me, you)
+::::   Possessive (mine, yours)
+::::   Reflexive/Intensive (myself, yourself)
+::::   Reciprocal (each other, one another)
+xxxx   (LGG) Demonstrative (this, that)
+xxxx   (LGG) Indefinite (someone, few, each)
+xxxx   (LGG) Relative-Interrogative (which, what)
+xxxx   (LGG) Numerals (one, two, several)
+!!!! 3.Determiners:
+!!!!   Articles (a, an, the, <zero>)
+::::   Possessive (my, his)
+!!!!   Distributive (each, either)
+!!!!   Predeterminers (all, both, such, what)
+!!!!   Negative (no)
+xxxx   (LGG) Demonstrative (this, those)
+xxxx   (LGG) [Indefinite] Quantifiers (some, any, many, few)
+xxxx   (LGG) [Relative-Interrogative] Interrogative (which, what)
+xxxx   (LGG) Numerals (one, two, several)
+>>>> 4.Adjectives:
+>>>>   Limiting (main, only, next)
+>>>>   (LGG) Descriptive (rich) - только у этих есть степени сравнения
+____   (LGG) Participles (broken, running)
+____ 5.Verbs:
+____   Lexical Verbs (run, build)
+____   Auxiliary Verbs (be, do, have)
+____   Modal Verbs (can, must)
+____   Semi-Auxiliaries (have to, be able to)
+____   Copulas (be, seem)
+____   (LGG) Gerunds (reading, thinking)
+____   (LGG) Infinitives (to go)
+____   (LGG) Participles (broken, running)
+____ 6.Adverbs (семантическая классификация):
+____   Manner (quickly)
+____   Place (here, there)
+____   Time (now, yesterday)
+____   Frequency (always, never)
+____   Degree (very, too)
+____   Comment / Viewpoint (frankly, probably)
+____   (LGG) Indefinite
+____   (LGG) Interrogative
+____   (LGG) Relative
+____   (LGG) Numerals
+____   (LGG) Participles
+____   (LGG) Adverbial Connectors (however, therefore)
+____   (LGG) Hybrid Connectives (since, after)
+____   (LGG) Focus Words (only, even, just)
+>>>> 7.Prepositions:
+>>>>   Time (at, on, in)
+>>>>   Place (under, over)
+>>>>   Direction (into, onto)
+>>>>   Cause (because of, due to)
+>>>>   Purpose (for, to)
+>>>>   Agent (by)
+>>>>   Complex Prepositions (in front of, on behalf of)
+>>>>   (LGG) Hybrid Connectives (since, after)
+____ 8.Conjunctions
+____   Coordinating (and, but)
+____   Correlative (either...or)
+____   (LGG) [Demonstrative] Subordinating (because, although)
+____   (LGG) Adverbial Connectors (however, therefore)
+____   (LGG) Hybrid Connectives (since, after)
+____ 9.Particles:
+____   Negation (not)
+____   Infinitive Marker (to)
+____   Verb Particles (up, out, off)
+____   (LGG) Focus Words (only, even, just)
+SKIP 10.Interjections
+SKIP   Greeting/Farewell (hi, bye)
+SKIP   Emotional (wow, ouch)
+SKIP   Cognitive (oh, hmm)
+SKIP   Sound Imitation (meh, oops)

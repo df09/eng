@@ -1,6 +1,0 @@
-Lexico-Grammatical Groups (LGG)
-├── Referentials (обозначают предмет, лицо, идею)
-│   ├── Nouns:
-│   │   ├──(mLGG) Gerunds (swimming)
-├── Verbs (могут образовывать Verb Complex)
-│   ├──(mLGG) Gerunds (reading, thinking)

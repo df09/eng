@@ -1,22 +1,4 @@
->>>> Lexico-Grammatical Groups (LGG)
->>>> ├── Referentials (обозначают предмет, лицо, идею)
->>>> │   └── Pronouns:
->>>> │       ├──(mLGG) Indefinite (someone, few, each)
->>>> ├── Determiners (уточняют Referentials):
->>>> │   ├──(mLGG.Indefinite) Quantifiers (some, any, many, few)
->>>> ├── Modifiers (уточняют Referentials, Verbs, Modifiers)
->>>> │   └──(!!!! Indefinite,Interrogative,Relative,Numerals) Adverbs (семантическая классификация):⠉
->>>> │       ├── Manner (quickly)
->>>> │       ├── Place (here, there)
->>>> │       ├── Time (now, yesterday)
->>>> │       ├── Frequency (always, never)
->>>> │       ├── Degree (very, too)
->>>> │       ├── Comment / Viewpoint (frankly, probably)
->>>>         ???? а разве правильно выделены эти группы?⠉
->>>> │       ├── Interrogative (how, when, where)
->>>> │       └── Relative (where, when)
-
-Indefinite Pronouns (Неопределённые местоимения):⠋
+Indefinite Pronouns (Неопределённые местоимения):
   Identification:
     >>> прогнать syntatic role
     >>> прогнать исчисляемость

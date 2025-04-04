@@ -1,13 +1,4 @@
->>>> Lexico-Grammatical Groups (LGG)
->>>> ├── Referentials (обозначают предмет, лицо, идею)
->>>> │   └── Pronouns:
->>>> │       ├──(mLGG) Demonstrative (this, that)
->>>> ├── Determiners (уточняют Referentials):
->>>> │   ├──(mLGG) Demonstrative (this, those)
->>>> ├── Connectors
->>>> │   ├──(mLGG.Demonstrative) Subordinating (because, although)
-
-Demonstrative(Указательные):
+Pronouns.Demonstrative(Указательные):
   Identification:
     this  : Singular, e.Near.
     that  : Singular, e.Away

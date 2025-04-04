@@ -1,18 +1,3 @@
-Lexico-Grammatical Groups (LGG)
-├── Referentials (обозначают предмет, лицо, идею)
-│   ├── Nouns:
-│   │   └──(4) Numerals Nouns (one, two, a dozen) — как самостоятельные именные единицы
-│   │          # ???? example
-│   └── Pronouns:
-│       └──(4) Numerals (one, two, several) — заменяющие существительные
-│              # ???? example
-├── Determiners (уточняют Referentials):
-│   └──(4) Numerals
-│          # ???? example
-└── Modifiers (уточняют Referentials, Verbs, Modifiers)
-    └──(!!!! Indefinite,Interrogative,Relative,Numerals) Adverbs (семантическая классификация):⠉
-       %% ???? example
-
 Numerals:
   Cardinal (one, two)
   Ordinal (first, second)
@@ -328,19 +313,3 @@ LGG.Determiners.Numerals:
       Реже в таком случае может использоваться неопределенный артикль, тогда значение фразы меняется на «еще один»:
         %% I've written a complaint, and then a second one.
         %% Я написал одну жалобу, а потом еще и вторую.
-
-    >>>> web
-    more:
-      см. date-time-calendar, math, culture-geography-history modules
-
-???? Функции английских числительных в предложении
-????   Подлежащее
-????     238 is the total number of protons and neutrons in uranium-238. - 238 — общее число протонов и нейтронов в уране-238.
-????   Дополнение
-????     Subtract 92 from 238 and the remainder is the number of neutrons in uranium-238. - Вычтите 92 из 238, и остаток будет число нейтронов в уране-238.
-????   Определение
-????     There are three classes of reactors. - Существуют три типа реакторов.
-????     The first class is the slow fission reactor. - Первый тип — это реактор на медленных нейтронах.
-????   Именная часть составного сказуемого
-????     Five times five is twenty-five. - Пять умноженное на пять равняется двадцати пяти.
-????     An "oxygen unit" is 1/16 of the weight of an atom of oxygen. - “Кислородная единица” равна 1/16 веса атома кислорода.

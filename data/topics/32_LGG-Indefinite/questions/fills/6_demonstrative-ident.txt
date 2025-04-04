@@ -1,7 +1,0 @@
-[meta/suspicious_status:0,suspicious_note:'']
-Demonstrative(Указательные): identification
-
-  [1.this ]  (Singual, Near)
-  [2.that ]  (Singual, Away)
-  [3.these]  (Plural, Near)
-  [4.those]  (Plural, Away)

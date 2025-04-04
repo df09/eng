@@ -1,5 +1,0 @@
-[meta/suspicious_status:0,suspicious_note:'']
-Reciprocal(взаимные): identification
-
-  [1.each other ]  (r.2, f.Neutral/Formal)
-  [2.one another]  (r.3, f.Formal)

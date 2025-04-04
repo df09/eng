@@ -1,5 +1,0 @@
-[meta/suspicious_status:0,suspicious_note:'']
-Reflexive(Возвратные): patterns.verbs.req-w-exceptions(Требуют reflexive, но возможны исключения):
-
-  [1.Pride oneself on]  (гордиться чем-то)
-  [2.Avail oneself of]  (воспользоваться чем-то)

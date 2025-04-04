@@ -1,8 +1,0 @@
-[meta/suspicious_status:0,suspicious_note:'']
-Personal-object(Личные-косвенные): identification
-         Singular Plural
-  1st    [1.me ]  [6.us  ]
-  2nd    [2.you]  [7.you ]
-  3rd.m  [3.him]  [8.them]
-  3rd.f  [4.her]
-  3rd.n  [5.it ]
