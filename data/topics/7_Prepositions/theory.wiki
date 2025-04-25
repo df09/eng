@@ -7,3 +7,13 @@ Prepositions:
   Agent (by)
   Complex Prepositions (in front of, on behalf of)
   (LGG) Hybrid Connectives (since, after)
+
+common:
+  - не меняют своей формы
+  - не употребляются самостоятельно
+  - за предлогом следует:
+      - чаще всего: существительное или местоимение
+      - реже: прилагательными, числительными герундиями
+
+
+
