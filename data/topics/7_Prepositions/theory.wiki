@@ -1,16 +1,357 @@
-Prepositions:
-  Time (at, on, in)
-  Place (under, over)
-  Direction (into, onto)
-  Cause (because of, due to)
-  Purpose (for, to)
-  Agent (by)
-  Complex Prepositions (in front of, on behalf of)
-  (LGG) Hybrid Connectives (since, after)
+!!!! составить справочник предлогов по структуре⠋
+!!!! отдельные топики сравнения всякиех популярных групп предлогов⠋
+>>>> (LGG) Hybrid Connectives (since, after)⠉
 
-common:
-  - не меняют своей формы
-  - не употребляются самостоятельно
-  - за предлогом следует:
-      - чаще всего: существительное или местоимение
-      - реже: прилагательными, числительными герундиями
+==== Common ========
+не меняют своей формы
+не употребляются самостоятельно
+за предлогом следует:
+  чаще всего: существительное или местоимение
+  реже: прилагательными, числительными герундиями
+
+==== Справочник ====
+== Defenitions ==
+  Classes:
+    Simple (простые):
+      %% Односложные или базовые предлоги, состоящие из одного слова.
+      %% Примеры: in, at, on, by, with
+    Compound (сложные):
+      %% Состоят из двух и более слов, часто включают существительное с другим предлогом.
+      %% Примеры: due to, because of, in front of
+    Participial (причастные):
+      %% Образованы от причастий (-ing форм), но используются как предлоги.
+      %% Примеры: concerning, regarding, considering
+    Phrasal (фразовые):
+      %% Устойчивые выражения, выполняющие функцию предлога.
+      %% Примеры: in spite of, as far as, in case of
+  Types:
+    Time (время) — at, on, in, before, after...
+    Place (место) — under, over, in, at, on, behind...
+    Direction (направление) — into, onto, to, from, toward...
+    Manner (способ действия): with, like, as
+    Instrument (средство): with, by means of
+    Condition (условие): in case of, in the event of
+    Cause (причина) — because of, due to, owing to...
+    Purpose (цель) — for, to, in order to...
+    Comparison (сравнение): like, as, than
+    Concession/Contrast (уступка/противоставление): despite, in spite of, although
+    Agent (исполнитель действия) — by (в страдательном залоге)
+  Pattern:
+    <Class>:
+      <Preposition>:
+        meanings:
+          <type>: <перевод>
+            %% 000;<expample-1>;<expample-1 translation>;0;
+            %% 000;<expample-2>;<expample-2 translation>;0;
+            %% 000;<expample-3>;<expample-3 translation>;0;
+          ...
+        collocations (опционально, указыать только если есть. пропустить для class "Phrasal"):
+          <collocation>: <перевод>
+            %% 000;<expample-1>;<expample-1 translation>;0;
+            %% 000;<expample-2>;<expample-2 translation>;0;
+            %% 000;<expample-3>;<expample-3 translation>;0;
+          ...
+      <Preposition>:
+        ...
+      ...
+    ...
+== Prepositions ==
+Simple (простые):
+  as:
+    meanings:
+      Comparison (сравнение): как, словно
+        %% 000;He works as a teacher.;Он работает учителем.;0;
+        %% 000;She sings as beautifully as a professional.;Она поёт так же красиво, как профессионал.;0;
+        %% 000;Treat me as your equal.;Обращайся со мной как с равным.;0;
+      Purpose (цель): в качестве
+        %% 000;She was hired as a manager.;Её наняли в качестве менеджера.;0;
+        %% 000;I use this box as a table.;Я использую эту коробку как стол.;0;
+        %% 000;He served as an interpreter.;Он служил переводчиком.;0;
+      Time (время): когда, по мере того как
+        %% 000;As I was leaving, the phone rang.;Когда я выходил, зазвонил телефон.;0;
+        %% 000;As the years passed, he became wiser.;С годами он становился мудрее.;0;
+        %% 000;As we arrived, the rain started.;Когда мы прибыли, начался дождь.;0;
+      Cause (причина): так как, поскольку
+        %% 000;As it was late, we went home.;Так как было поздно, мы пошли домой.;0;
+        %% 000;As you are here, let’s begin.;Раз уж ты здесь, давай начнем.;0;
+        %% 000;As there’s no objection, we’ll proceed.;Так как нет возражений, продолжим.;0;
+    collocations:
+      as well as: так же как и
+        %% 000;She speaks Spanish as well as English.;Она говорит по-испански так же, как и по-английски.;0;
+        %% 000;He’s strong as well as fast.;Он силён, а также быстр.;0;
+        %% 000;The job requires skill as well as experience.;Работа требует как навыков, так и опыта.;0;
+      as if / as though: как будто, словно
+        %% 000;He talks as if he knew everything.;Он говорит, как будто знает всё.;0;
+        %% 000;She looks as though she’s seen a ghost.;Она выглядит так, словно увидела привидение.;0;
+        %% 000;He behaved as if nothing had happened.;Он вел себя так, будто ничего не произошло.;0;
+      as soon as: как только
+        %% 000;Call me as soon as you arrive.;Позвони мне, как только приедешь.;0;
+        %% 000;I’ll let you know as soon as possible.;Я сообщу, как только смогу.;0;
+        %% 000;Leave as soon as the bell rings.;Уходи, как только прозвенит звонок.;0;
+      as far as I know: насколько я знаю
+        %% 000;As far as I know, he’s still in New York.;Насколько я знаю, он всё ещё в Нью-Йорке.;0;
+        %% 000;As far as I know, the project is on track.;Насколько мне известно, проект идёт по плану.;0;
+        %% 000;As far as I know, she hasn’t replied yet.;Насколько я знаю, она ещё не ответила.;0;
+  at:
+    meanings:
+      Place (место): у, в, на
+        %% 000;She is at the station.;Она на станции.;0;
+        %% 000;We met at the cinema.;Мы встретились в кинотеатре.;0;
+        %% 000;He’s sitting at his desk.;Он сидит за своим столом.;0;
+      Time (время): в (о времени)
+        %% 000;The meeting starts at 9 o’clock.;Встреча начинается в 9 часов.;0;
+        %% 000;She left at midnight.;Она ушла в полночь.;0;
+        %% 000;I’ll see you at lunch.;Увидимся за обедом.;0;
+      Direction (направление): к (цели/объекту)
+        %% 000;He threw the ball at me.;Он бросил мяч в меня.;0;
+        %% 000;She shouted at the children.;Она накричала на детей.;0;
+        %% 000;Don’t point at people.;Не показывай на людей пальцем.;0;
+      Manner (способ действия): с (характеристика действия)
+        %% 000;He laughed at my joke.;Он засмеялся над моей шуткой.;0;
+        %% 000;She smiled at him warmly.;Она тепло улыбнулась ему.;0;
+        %% 000;He stared at the screen.;Он уставился на экран.;0;
+    collocations:
+      at all: совсем, вообще
+        %% 000;I don’t understand it at all.;Я вообще этого не понимаю.;0;
+        %% 000;He didn’t help me at all.;Он мне совсем не помог.;0;
+        %% 000;Do you care at all?;Тебе вообще не важно?;0;
+      at least: по крайней мере
+        %% 000;At least try to be polite.;По крайней мере постарайся быть вежливым.;0;
+        %% 000;We need at least five volunteers.;Нам нужно как минимум пять добровольцев.;0;
+        %% 000;At least we’re safe now.;По крайней мере теперь мы в безопасности.;0;
+      at the moment: сейчас, в данный момент
+        %% 000;I’m busy at the moment.;Я занят сейчас.;0;
+        %% 000;We don’t need anything at the moment.;Нам ничего не нужно в данный момент.;0;
+        %% 000;At the moment, things are stable.;Сейчас всё стабильно.;0;
+
+  but:
+    meanings:
+      Concession/Contrast (уступка/противопоставление): кроме, за исключением
+        %% 000;Everyone but John was invited.;Все, кроме Джона, были приглашены.;0;
+        %% 000;She eats nothing but fruit.;Она ест только фрукты (ничего, кроме фруктов).;0;
+        %% 000;Nobody but you can help me.;Никто, кроме тебя, не может мне помочь.;0;
+
+  by:
+    meanings:
+      Agent (исполнитель действия): кем (в пассиве)
+        %% 000;The book was written by Orwell.;Книга была написана Оруэллом.;0;
+        %% 000;The song was composed by her.;Песня была сочинена ею.;0;
+        %% 000;The decision was made by the manager.;Решение было принято менеджером.;0;
+      Place (место): у, рядом с
+        %% 000;She sat by the window.;Она сидела у окна.;0;
+        %% 000;The house is by the lake.;Дом стоит у озера.;0;
+        %% 000;There’s a bench by the door.;У двери есть скамейка.;0;
+      Time (время): к (моменту)
+        %% 000;I’ll finish the work by Friday.;Я закончу работу к пятнице.;0;
+        %% 000;Be home by 9 PM.;Будь дома к 9 вечера.;0;
+        %% 000;The report must be ready by tomorrow.;Отчёт должен быть готов к завтрашнему дню.;0;
+      Manner (способ действия): посредством, путём
+        %% 000;He traveled by car.;Он путешествовал на машине.;0;
+        %% 000;I sent it by email.;Я отправил это по электронной почте.;0;
+        %% 000;She paid by credit card.;Она заплатила кредиткой.;0;
+    collocations:
+      by the way: кстати
+        %% 000;By the way, have you seen my keys?;Кстати, ты не видел мои ключи?;0;
+        %% 000;By the way, I got the job.;Кстати, меня взяли на работу.;0;
+        %% 000;Oh, by the way, John called.;О, кстати, звонил Джон.;0;
+      by accident: случайно
+        %% 000;I deleted the file by accident.;Я случайно удалил файл.;0;
+        %% 000;We met by accident.;Мы случайно встретились.;0;
+        %% 000;He broke the glass by accident.;Он случайно разбил стакан.;0;
+
+  down:
+    meanings:
+      Direction (направление): вниз
+        %% 000;He fell down the stairs.;Он упал с лестницы.;0;
+        %% 000;She looked down from the roof.;Она посмотрела вниз с крыши.;0;
+        %% 000;The ball rolled down the hill.;Мяч покатился вниз по склону.;0;
+      Place (место): вдоль, по (ниже по направлению)
+        %% 000;We walked down the street.;Мы шли по улице.;0;
+        %% 000;There’s a shop down the road.;Там есть магазин внизу по дороге.;0;
+        %% 000;He lives down the hall.;Он живёт в конце коридора.;0;
+
+  for:
+    meanings:
+      Purpose (цель): для
+        %% 000;This gift is for you.;Этот подарок для тебя.;0;
+        %% 000;This button is for power.;Эта кнопка для включения.;0;
+        %% 000;A knife is for cutting.;Нож нужен для резки.;0;
+      Time (время): в течение
+        %% 000;I’ve lived here for five years.;Я живу здесь пять лет.;0;
+        %% 000;He stayed for an hour.;Он пробыл час.;0;
+        %% 000;She worked here for two months.;Она работала здесь два месяца.;0;
+      Cause (причина): из-за, по причине
+        %% 000;He was punished for being late.;Он был наказан за опоздание.;0;
+        %% 000;Thank you for your help.;Спасибо за помощь.;0;
+        %% 000;I’m sorry for the mistake.;Простите за ошибку.;0;
+    collocations:
+      for example: например
+        %% 000;Some countries, for example Germany, support the policy.;Некоторые страны, например Германия, поддерживают эту политику.;0;
+        %% 000;I like fruit, for example apples and bananas.;Мне нравится фрукт, например яблоки и бананы.;0;
+        %% 000;For example, take this case.;Например, возьмем этот случай.;0;
+
+  from:
+    meanings:
+      Direction (направление): от, из
+        %% 000;I got a letter from my friend.;Я получил письмо от друга.;0;
+        %% 000;He came from Spain.;Он приехал из Испании.;0;
+        %% 000;The gift is from her.;Подарок от неё.;0;
+      Cause (причина): из-за, по причине
+        %% 000;He suffers from stress.;Он страдает от стресса.;0;
+        %% 000;The damage came from the storm.;Повреждение возникло из-за шторма.;0;
+        %% 000;She collapsed from exhaustion.;Она упала от изнеможения.;0;
+      Comparison (сравнение): отличающийся от
+        %% 000;This is different from the original.;Это отличается от оригинала.;0;
+        %% 000;He looks different from his brother.;Он выглядит иначе, чем брат.;0;
+        %% 000;The result varies from case to case.;Результат различается в каждом случае.;0;
+
+  in:
+    meanings:
+      Place (место): в, внутри
+        %% 000;She is in the room.;Она в комнате.;0;
+        %% 000;Put the book in the bag.;Положи книгу в сумку.;0;
+        %% 000;The keys are in my pocket.;Ключи у меня в кармане.;0;
+      Time (время): через, в течение, в (в определённый период)
+        %% 000;I’ll be ready in 5 minutes.;Я буду готов через 5 минут.;0;
+        %% 000;We met in 2020.;Мы встретились в 2020 году.;0;
+        %% 000;He was born in May.;Он родился в мае.;0;
+      Condition (условие): в (состоянии)
+        %% 000;He is in trouble.;Он в беде.;0;
+        %% 000;The machine is in good condition.;Машина в хорошем состоянии.;0;
+        %% 000;She was in shock.;Она была в шоке.;0;
+    collocations:
+      in charge of: ответственный за
+        %% 000;She’s in charge of the project.;Она отвечает за проект.;0;
+        %% 000;I’m in charge of logistics.;Я отвечаю за логистику.;0;
+        %% 000;He’s in charge of the team.;Он отвечает за команду.;0;
+
+  near:
+    meanings:
+      Place (место): рядом с, около, возле
+        %% 000;There’s a café near the park.;Там кафе рядом с парком.;0;
+        %% 000;He stood near the door.;Он стоял у двери.;0;
+        %% 000;She lives near the station.;Она живёт возле станции.;0;
+
+  of:
+    meanings:
+      Possession (принадлежность): чей-то, из
+        %% 000;The cover of the book is torn.;Обложка книги порвана.;0;
+        %% 000;She’s a friend of mine.;Она моя подруга.;0;
+        %% 000;The color of the sky is beautiful.;Цвет неба прекрасен.;0;
+      Cause (причина): от, из-за
+        %% 000;He died of cancer.;Он умер от рака.;0;
+        %% 000;I’m tired of this.;Я устал от этого.;0;
+        %% 000;She screamed out of fear.;Она закричала от страха.;0;
+
+  off:
+    meanings:
+      Direction (направление): с, прочь
+        %% 000;He fell off the bike.;Он упал с велосипеда.;0;
+        %% 000;Take your feet off the table.;Убери ноги со стола.;0;
+        %% 000;She got off the train.;Она сошла с поезда.;0;
+      Condition (состояние): отключено, не работает
+        %% 000;The light is off.;Свет выключен.;0;
+        %% 000;The alarm went off.;Сработала сигнализация.;0;
+        %% 000;The system is off for maintenance.;Система отключена для обслуживания.;0;
+
+  on:
+    meanings:
+      Place (место): на (поверхности)
+        %% 000;The book is on the table.;Книга на столе.;0;
+        %% 000;There’s a mark on your shirt.;На твоей рубашке пятно.;0;
+        %% 000;He stood on the balcony.;Он стоял на балконе.;0;
+      Time (время): в (день/дату)
+        %% 000;The meeting is on Monday.;Встреча в понедельник.;0;
+        %% 000;He was born on July 4th.;Он родился 4 июля.;0;
+        %% 000;We met on New Year’s Eve.;Мы встретились в канун Нового года.;0;
+      Topic (тема): о, по поводу
+        %% 000;A book on philosophy.;Книга по философии.;0;
+        %% 000;She gave a talk on climate change.;Она выступала по теме изменения климата.;0;
+        %% 000;A report on education.;Доклад об образовании.;0;
+
+  out:
+    meanings:
+      Direction (направление): из, наружу
+        %% 000;He went out of the room.;Он вышел из комнаты.;0;
+        %% 000;She looked out the window.;Она выглянула в окно.;0;
+        %% 000;Take it out of the bag.;Достань это из сумки.;0;
+      Condition (состояние): выключен, неактивен
+        %% 000;The lights are out.;Свет выключен.;0;
+        %% 000;The fire went out.;Огонь погас.;0;
+        %% 000;The website is out of service.;Сайт не работает.;0;
+
+  over:
+    meanings:
+      Direction (направление): через, над
+        %% 000;He jumped over the fence.;Он перепрыгнул через забор.;0;
+        %% 000;The plane flew over the city.;Самолёт пролетел над городом.;0;
+        %% 000;She threw a blanket over him.;Она накинула на него одеяло.;0;
+      Cause (причина): из-за
+        %% 000;They argued over money.;Они спорили из-за денег.;0;
+        %% 000;She cried over the news.;Она плакала из-за новостей.;0;
+        %% 000;He got angry over nothing.;Он разозлился из-за пустяка.;0;
+
+  per:
+    meanings:
+      Ratio (соотношение): за, на
+        %% 000;60 miles per hour.;60 миль в час.;0;
+        %% 000;Ten dollars per person.;Десять долларов с человека.;0;
+        %% 000;One pill per day.;Одна таблетка в день.;0;
+
+  till:
+    meanings:
+      Time (время): до
+        %% 000;Wait till I get back.;Подожди, пока я не вернусь.;0;
+        %% 000;She stayed till midnight.;Она оставалась до полуночи.;0;
+        %% 000;The store is open till 10 PM.;Магазин открыт до 10 вечера.;0;
+
+  to:
+    meanings:
+      Direction (направление): к, в
+        %% 000;I’m going to the store.;Я иду в магазин.;0;
+        %% 000;Give it to me.;Дай это мне.;0;
+        %% 000;He walked to the window.;Он подошёл к окну.;0;
+      Time (время): до
+        %% 000;It’s ten to six.;Без десяти шесть.;0;
+        %% 000;From Monday to Friday.;С понедельника по пятницу.;0;
+        %% 000;Five minutes to midnight.;Без пяти минут полночь.;0;
+      Purpose (цель): чтобы, для
+        %% 000;I called to say hi.;Я позвонил, чтобы поздороваться.;0;
+        %% 000;She works to earn money.;Она работает, чтобы зарабатывать.;0;
+        %% 000;He trains to win.;Он тренируется, чтобы победить.;0;
+
+  under:
+    meanings:
+      Place (место): под
+        %% 000;The cat is under the table.;Кошка под столом.;0;
+        %% 000;He hid under the bed.;Он спрятался под кроватью.;0;
+        %% 000;There’s water under the bridge.;Вода под мостом.;0;
+      Condition (условие): при, в условиях
+        %% 000;Under pressure, he confessed.;Под давлением он признался.;0;
+        %% 000;Under these circumstances, we agree.;В этих обстоятельствах мы соглашаемся.;0;
+        %% 000;He worked under stress.;Он работал в стрессовых условиях.;0;
+
+  up:
+    meanings:
+      Direction (направление): вверх
+        %% 000;He climbed up the ladder.;Он взобрался по лестнице.;0;
+        %% 000;The balloon went up.;Шар взлетел.;0;
+        %% 000;They looked up at the sky.;Они посмотрели вверх на небо.;0;
+
+  via:
+    meanings:
+      Instrument (средство): через, посредством
+        %% 000;Send it via email.;Отправь это по электронной почте.;0;
+        %% 000;We came via Chicago.;Мы приехали через Чикаго.;0;
+        %% 000;He learned about it via social media.;Он узнал об этом через соцсети.;0;
+
+  with:
+    meanings:
+      Manner (способ действия): с, используя
+        %% 000;He cut the paper with scissors.;Он разрезал бумагу ножницами.;0;
+        %% 000;She wrote with a pen.;Она писала ручкой.;0;
+        %% 000;Mix it with water.;Смешай это с водой.;0;
+      Accompaniment (сопровождение): с, вместе с
+        %% 000;I went with my friend.;Я пошёл с другом.;0;
+        %% 000;She lives with her parents.;Она живёт с родителями.;0;
+        %% 000;He’s staying with us.;Он остаётся у нас.;0;
