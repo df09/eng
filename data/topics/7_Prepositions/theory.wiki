@@ -1,232 +1,18 @@
-extra_collations:
-  about:
-  - anxious about
-  - argue about
-  - ask about
-  - aware about
-  - care about
-  - comment about
-  - complain about
-  - curious about
-  - dream about
-  - excited about
-  - hear about
-  - information about
-  - nervous about
-  - object about
-  - opinion about
-  - optimistic about
-  - pessimistic about
-  - serious about
-  - shy about
-  - story about
-  - talk about
-  - think about
-  - upset about
-  - worried about
-  - worry about
-  - write about
-  at:
-  - aim at
-  - angry at
-  - arrive at
-  - bad at
-  - good at
-  - laugh at
-  - look at
-  - shout at
-  by:
-  - fascinated by
-  - impressed by
-  - surprised by
-  for:
-  - account for
-  - apologetic for
-  - apologize for
-  - apply for
-  - ask for
-  - care for
-  - cure for
-  - demand for
-  - eager for
-  - eligible for
-  - excuse for
-  - famous for
-  - forgive for
-  - grateful for
-  - hope for
-  - known for
-  - look for
-  - love for
-  - need for
-  - pay for
-  - pray for
-  - preference for
-  - preparation for
-  - prepare for
-  - ready for
-  - reason for
-  - responsibility for
-  - responsible for
-  - search for
-  - sorry for
-  - suitable for
-  - sympathy for
-  - talent for
-  - thankful for
-  - wait for
-  - zealous for
-  from:
-  - benefit from
-  - distract from
-  - escape from
-  - excuse from
-  - free from
-  - prevent from
-  - protect from
-  - recover from
-  - suffer from
-  in:
-  - arrive in
-  - believe in
-  - belong in
-  - confide in
-  - confident in
-  - consist in
-  - decrease in
-  - dressed in
-  - engaged in
-  - experience in
-  - increase in
-  - indulge in
-  - interest in
-  - invest in
-  - involved in
-  - participate in
-  - recover in
-  - result in
-  - success in
-  - successful in
-  of:
-  - accused of
-  - afraid of
-  - ashamed of
-  - aware of
-  - awareness of
-  - complain of
-  - convinced of
-  - danger of
-  - fear of
-  - fond of
-  - frightened of
-  - full of
-  - guilty of
-  - innocent of
-  - jealous of
-  - lack of
-  - matter of
-  - possibility of
-  - proud of
-  - remind of
-  - result of
-  - sick of
-  - sure of
-  - suspicious of
-  - think of
-  - tired of
-  - typical of
-  - understanding of
-  - waste of
-  on:
-  - agree on
-  - base on
-  - blame on
-  - check on
-  - comment on
-  - concentrate on
-  - decide on
-  - depend on
-  - focus on
-  - insist on
-  - rely on
-  to:
-  - add to
-  - adjust to
-  - agree to
-  - answer to
-  - belong to
-  - close to
-  - confess to
-  - contribution to
-  - dedicated to
-  - expose to
-  - faithful to
-  - generous to
-  - inclined to
-  - invitation to
-  - kind to
-  - look forward to
-  - married to
-  - object to
-  - opposed to
-  - opposition to
-  - polite to
-  - related to
-  - relevant to
-  - reluctant to
-  - rude to
-  - subscribe to
-  - visit to
-  - witness to
-  - write to
-  towards:
-  - attitude towards
-  with:
-  - angry with
-  - argue with
-  - bored with
-  - collide with
-  - compete with
-  - comply with
-  - connect with
-  - cope with
-  - deal with
-  - disappointed with
-  - disgusted with
-  - face with
-  - familiar with
-  - help with
-  - honest with
-  - interact with
-  - pleased with
-  - popular with
-  - problem with
-  - replace with
-  - respond with
-  - satisfied with
-  after:
-  - look after
-  into:
-  - divide into
-  - escape into
-  - translate into
-  against:
-  - protect against
+by virtue of
+by reason of
+away from
+across from
+alongside
 
+
+пройтись еще раз по всем collocations - может можно накопать еще где их мало?⠉
 !!!! составить справочник предлогов по структуре⠋
 !!!! отдельные топики сравнения всякиех популярных групп предлогов⠋
 >>>> (LGG) Hybrid Connectives⠉
 >>>> добавить таблички с предлогами по месту времени и тд чтобы fill questions делать⠉
 >>>> Предлоги, наречия и союзы - добавить тесты где нужно отличить одно от другого⠉
-xxxx notes xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-on  the  photo  - на фотографии (т.е. что-то может лежать на поверхности распечатанной фотографии)There  is  a fly  on  the  photo . - На фотографии муха (муха села на фото).
-in  the  photo  - то, что я изображено на фотографииIn  this  photo  I see  a dog . - На этой фотографии я вижу собаку.(собака изображена на фотографии)
-
-По-русски - “на кухне”, по-английски “in  the  kitchen ” “в кухне”, внутри помещения.
-
-at: in  the  theatre , in  the  cinema , in  the  gym , in  the  library , in  the  airport  - тоже правильный вариант
-
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+  Предлог или союз?⠉
+  Предлог или наречие?⠉
 <<<< Common <<<<<<<<<<<<<<<<<<<<<<<<<
 Не меняют своей формы.
 Не употребляются самостоятельно.
@@ -239,6 +25,14 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
   В конце пассивной конструкции.
   В конце вопросительного предложения.
   Перед вопросительным/относительным словом (в формальном стиле).
+
+<<<< notes <<<<<<<<<<<<<<<<<<<<<<<<<<
+on  the  photo  - на фотографии (т.е. что-то может лежать на поверхности распечатанной фотографии)There  is  a fly  on  the  photo . - На фотографии муха (муха села на фото).
+in  the  photo  - то, что я изображено на фотографииIn  this  photo  I see  a dog . - На этой фотографии я вижу собаку.(собака изображена на фотографии)
+
+По-русски - “на кухне”, по-английски “in  the  kitchen ” “в кухне”, внутри помещения.
+
+at: in  the  theatre , in  the  cinema , in  the  gym , in  the  library , in  the  airport  - тоже правильный вариант
 
 <<<<<<<< Справочник
 <<<< Defenitions
@@ -300,12 +94,10 @@ below:
       %% 000;The painting hangs below the mirror.;Картина висит ниже зеркала.;0;
       %% 000;They live below us.;Они живут под нами.;0;
       %% 000;The sun disappeared below the horizon.;Солнце скрылось за горизонтом.;0;
-
     Comparison (сравнение): меньше, ниже по уровню/качеству
       %% 000;His performance was below average.;Его результат был ниже среднего.;0;
       %% 000;Temperatures dropped below zero.;Температура опустилась ниже нуля.;0;
       %% 000;She ranks below him in the company.;Она ниже его по должности в компании.;0;
-
   collocations:
     fall below: опуститься ниже
       %% 000;Sales fell below expectations.;Продажи оказались ниже ожиданий.;0;
@@ -377,6 +169,38 @@ at:
       %% 000;I’m busy at the moment.;Я занят сейчас.;0;
       %% 000;We don’t need anything at the moment.;Нам ничего не нужно в данный момент.;0;
       %% 000;At the moment, things are stable.;Сейчас всё стабильно.;0;
+    aim at: целиться в, быть направленным на
+      %% 000;He aimed at the target and fired.;Он прицелился в мишень и выстрелил.;0;
+      %% 000;The program is aimed at teenagers.;Программа ориентирована на подростков.;0;
+      %% 000;She aimed the ball at the basket.;Она нацелила мяч в корзину.;0;
+    angry at: злиться на
+      %% 000;I’m angry at the delay.;Я злюсь из-за задержки.;0;
+      %% 000;She was angry at his behavior.;Она злилась на его поведение.;0;
+      %% 000;They were angry at being ignored.;Они злились из-за игнорирования.;0;
+    arrive at: прибывать на (место)
+      %% 000;We arrived at the station on time.;Мы прибыли на станцию вовремя.;0;
+      %% 000;He arrived at the airport early.;Он прибыл в аэропорт рано.;0;
+      %% 000;What time will you arrive at the hotel?;Во сколько ты прибудешь в отель?;0;
+    bad at: плохо разбираться в, быть неумелым в
+      %% 000;I’m bad at math.;Я плохо разбираюсь в математике.;0;
+      %% 000;He’s bad at remembering names.;Он плохо запоминает имена.;0;
+      %% 000;She’s bad at cooking.;Она плохо готовит.;0;
+    good at: хорошо разбираться в, быть способным к
+      %% 000;She’s good at drawing.;Она хорошо рисует.;0;
+      %% 000;He’s good at fixing things.;Он хорошо чинит вещи.;0;
+      %% 000;They’re good at working in a team.;Они хорошо работают в команде.;0;
+    laugh at: смеяться над
+      %% 000;They laughed at his joke.;Они засмеялись над его шуткой.;0;
+      %% 000;She laughed at the cartoon.;Она смеялась над мультиком.;0;
+      %% 000;Don’t laugh at other people’s mistakes.;Не смейся над ошибками других.;0;
+    look at: смотреть на
+      %% 000;Look at that beautiful sunset.;Посмотри на этот красивый закат.;0;
+      %% 000;He looked at her with surprise.;Он посмотрел на неё с удивлением.;0;
+      %% 000;I looked at the clock and panicked.;Я посмотрел на часы и запаниковал.;0;
+    shout at: кричать на
+      %% 000;She shouted at the kids.;Она накричала на детей.;0;
+      %% 000;Don’t shout at me!;Не кричи на меня!;0;
+      %% 000;He shouted at the driver.;Он накричал на водителя.;0;
 but:
   meanings:
     Concession/Contrast (уступка/противопоставление): кроме, за исключением
@@ -410,6 +234,18 @@ by:
       %% 000;I deleted the file by accident.;Я случайно удалил файл.;0;
       %% 000;We met by accident.;Мы случайно встретились.;0;
       %% 000;He broke the glass by accident.;Он случайно разбил стакан.;0;
+    fascinated by: очарован чем-либо, увлечён
+      %% 000;She was fascinated by his stories.;Она была очарована его рассказами.;0;
+      %% 000;I’m fascinated by astronomy.;Меня увлекает астрономия.;0;
+      %% 000;They were fascinated by the performance.;Они были очарованы выступлением.;0;
+    impressed by: впечатлён чем-либо
+      %% 000;I was impressed by her dedication.;Я был впечатлён её преданностью.;0;
+      %% 000;He’s impressed by your skills.;Он впечатлён твоими навыками.;0;
+      %% 000;They were impressed by the presentation.;Они были впечатлены презентацией.;0;
+    surprised by: удивлён чем-либо
+      %% 000;We were surprised by the outcome.;Мы были удивлены результатом.;0;
+      %% 000;She was surprised by his reaction.;Она была удивлена его реакцией.;0;
+      %% 000;I’m surprised by how quickly it ended.;Я удивлён, как быстро всё закончилось.;0;
 down:
   meanings:
     Direction (направление): вниз
@@ -435,10 +271,154 @@ for:
       %% 000;Thank you for your help.;Спасибо за помощь.;0;
       %% 000;I’m sorry for the mistake.;Простите за ошибку.;0;
   collocations:
+    account for: объяснять, учитывать
+      %% 000;How do you account for this mistake?;Как вы объясните эту ошибку?;0;
+      %% 000;He couldn’t account for his absence.;Он не смог объяснить своё отсутствие.;0;
+      %% 000;These factors account for the decline in sales.;Эти факторы объясняют снижение продаж.;0;
+    apologetic for: извиняющийся за
+      %% 000;He was apologetic for being late.;Он извинялся за опоздание.;0;
+      %% 000;She looked apologetic for the mistake.;Она выглядела извиняющейся за ошибку.;0;
+      %% 000;They were apologetic for the inconvenience.;Они извинились за неудобства.;0;
+    apologize for: извиняться за
+      %% 000;I apologize for the confusion.;Извините за путаницу.;0;
+      %% 000;She apologized for being rude.;Она извинилась за грубость.;0;
+      %% 000;They apologized for the delay.;Они извинились за задержку.;0;
+    apply for: подавать заявление на
+      %% 000;I want to apply for this job.;Я хочу подать заявку на эту работу.;0;
+      %% 000;He applied for a scholarship.;Он подал заявку на стипендию.;0;
+      %% 000;She applied for a visa last week.;Она подала заявление на визу на прошлой неделе.;0;
+    ask for: просить о
+      %% 000;Can I ask for your advice?;Можно я попрошу у тебя совета?;0;
+      %% 000;He asked for help.;Он попросил помощи.;0;
+      %% 000;She asked for directions.;Она спросила, как пройти.;0;
+    care for: заботиться о, нравиться
+      %% 000;She cares for her elderly parents.;Она заботится о своих пожилых родителях.;0;
+      %% 000;Do you care for some tea?;Хочешь чаю?;0;
+      %% 000;He doesn’t really care for spicy food.;Он не особо любит острую еду.;0;
+    cure for: лекарство от
+      %% 000;Scientists are searching for a cure for cancer.;Учёные ищут лекарство от рака.;0;
+      %% 000;There’s no known cure for this disease.;Известного лекарства от этой болезни нет.;0;
+      %% 000;He found a natural cure for headaches.;Он нашёл натуральное средство от головной боли.;0;
+    demand for: спрос на
+      %% 000;There’s high demand for electric cars.;Существует высокий спрос на электромобили.;0;
+      %% 000;The demand for housing keeps growing.;Спрос на жильё продолжает расти.;0;
+      %% 000;Demand for skilled workers is rising.;Растёт спрос на квалифицированных работников.;0;
+    famous for: известный благодаря
+      %% 000;Paris is famous for its cafes.;Париж знаменит своими кафе.;0;
+      %% 000;He’s famous for his inventions.;Он знаменит своими изобретениями.;0;
+      %% 000;The region is famous for wine.;Регион славится вином.;0;
+    eager for: стремящийся к
+      %% 000;She’s eager for success.;Она стремится к успеху.;0;
+      %% 000;I’m eager for the weekend to begin.;Я с нетерпением жду выходных.;0;
+      %% 000;They’re eager for more information.;Они жаждут дополнительной информации.;0;
+    eligible for: имеющий право на
+      %% 000;He’s eligible for a pension.;Он имеет право на пенсию.;0;
+      %% 000;Are you eligible for the discount?;Вы имеете право на скидку?;0;
+      %% 000;She’s not eligible for this program.;Она не подходит для этой программы.;0;
+    excuse for: оправдание за
+      %% 000;There’s no excuse for such behavior.;Нет оправдания такому поведению.;0;
+      %% 000;He gave a lame excuse for being late.;Он привёл слабое оправдание опозданию.;0;
+      %% 000;What’s your excuse for not coming?;Какое у тебя оправдание, что не пришёл?;0;
     for example: например
       %% 000;Some countries, for example Germany, support the policy.;Некоторые страны, например Германия, поддерживают эту политику.;0;
       %% 000;I like fruit, for example apples and bananas.;Мне нравится фрукт, например яблоки и бананы.;0;
       %% 000;For example, take this case.;Например, возьмем этот случай.;0;
+    forgive for: прощать за
+      %% 000;She forgave him for lying.;Она простила его за ложь.;0;
+      %% 000;Can you forgive me for what I did?;Ты можешь простить меня за то, что я сделал?;0;
+      %% 000;He never forgave her for leaving.;Он так и не простил её за уход.;0;
+    grateful for: благодарный за
+      %% 000;I’m grateful for your help.;Я благодарен за твою помощь.;0;
+      %% 000;We’re grateful for the opportunity.;Мы благодарны за эту возможность.;0;
+      %% 000;She felt grateful for his support.;Она чувствовала благодарность за его поддержку.;0;
+    hope for: надеяться на
+      %% 000;We hope for the best.;Мы надеемся на лучшее.;0;
+      %% 000;I’m hoping for good weather.;Я надеюсь на хорошую погоду.;0;
+      %% 000;They hope for a peaceful resolution.;Они надеются на мирное разрешение.;0;
+    known for: известный за/благодаря
+      %% 000;He’s known for his generosity.;Он известен своей щедростью.;0;
+      %% 000;The city is known for its architecture.;Город известен своей архитектурой.;0;
+      %% 000;She’s known for her honesty.;Она известна своей честностью.;0;
+    look for: искать
+      %% 000;I’m looking for my keys.;Я ищу свои ключи.;0;
+      %% 000;He’s looking for a job.;Он ищет работу.;0;
+      %% 000;They’re looking for answers.;Они ищут ответы.;0;
+    love for: любовь к
+      %% 000;His love for music is obvious.;Его любовь к музыке очевидна.;0;
+      %% 000;She has a deep love for her family.;У неё глубокая любовь к семье.;0;
+      %% 000;Love for animals is a great quality.;Любовь к животным — отличное качество.;0;
+    need for: необходимость в
+      %% 000;There’s a need for change.;Необходимы перемены.;0;
+      %% 000;We see the need for action.;Мы видим необходимость действий.;0;
+      %% 000;There’s an urgent need for help.;Существует срочная необходимость в помощи.;0;
+    pay for: платить за
+      %% 000;I’ll pay for dinner.;Я заплачу за ужин.;0;
+      %% 000;Who paid for the drinks?;Кто заплатил за напитки?;0;
+      %% 000;She paid for the tickets online.;Она заплатила за билеты онлайн.;0;
+    pray for: молиться о
+      %% 000;We prayed for peace.;Мы молились за мир.;0;
+      %% 000;They prayed for her recovery.;Они молились за её выздоровление.;0;
+      %% 000;I pray for strength every day.;Я молюсь о силе каждый день.;0;
+    preference for: предпочтение чему-либо
+      %% 000;I have a preference for coffee.;Я предпочитаю кофе.;0;
+      %% 000;She showed a preference for quiet places.;Она предпочитает тихие места.;0;
+      %% 000;What’s your preference for breakfast?;Что ты предпочитаешь на завтрак?;0;
+    preparation for: подготовка к
+      %% 000;Preparation for the exam took weeks.;Подготовка к экзамену заняла недели.;0;
+      %% 000;They made preparations for the trip.;Они готовились к поездке.;0;
+      %% 000;Preparation for the meeting is important.;Подготовка к встрече важна.;0;
+    prepare for: готовиться к
+      %% 000;We need to prepare for the worst.;Нам нужно подготовиться к худшему.;0;
+      %% 000;She prepared for the interview.;Она готовилась к собеседованию.;0;
+      %% 000;He’s preparing for the test.;Он готовится к тесту.;0;
+    ready for: готов к
+      %% 000;Are you ready for the challenge?;Ты готов к вызову?;0;
+      %% 000;I’m ready for anything.;Я готов ко всему.;0;
+      %% 000;She’s ready for a change.;Она готова к переменам.;0;
+    reason for: причина чего-либо
+      %% 000;What’s the reason for your absence?;Какова причина твоего отсутствия?;0;
+      %% 000;There’s no reason for panic.;Нет причин для паники.;0;
+      %% 000;He gave a reason for being late.;Он объяснил причину опоздания.;0;
+    responsibility for: ответственность за
+      %% 000;He took responsibility for the error.;Он взял на себя ответственность за ошибку.;0;
+      %% 000;They denied responsibility for the damage.;Они отказались от ответственности за ущерб.;0;
+      %% 000;The manager has responsibility for the team.;Менеджер отвечает за команду.;0;
+    responsible for: ответственный за
+      %% 000;She’s responsible for marketing.;Она отвечает за маркетинг.;0;
+      %% 000;Who is responsible for this mess?;Кто отвечает за этот бардак?;0;
+      %% 000;I’m not responsible for what happened.;Я не несу ответственности за случившееся.;0;
+    search for: искать кого/что-либо
+      %% 000;He searched for his phone everywhere.;Он везде искал свой телефон.;0;
+      %% 000;They searched for survivors.;Они искали выживших.;0;
+      %% 000;I’m searching for answers.;Я ищу ответы.;0;
+    sorry for: извиняющийся за, сожалеющий о
+      %% 000;I’m sorry for being late.;Извините за опоздание.;0;
+      %% 000;He’s sorry for the mistake.;Он извиняется за ошибку.;0;
+      %% 000;She was sorry for what she said.;Ей было жаль, что она сказала.;0;
+    suitable for: подходящий для
+      %% 000;This movie is suitable for kids.;Этот фильм подходит для детей.;0;
+      %% 000;Is this coat suitable for winter?;Эта куртка подходит для зимы?;0;
+      %% 000;That solution is not suitable for everyone.;Это решение не подходит всем.;0;
+    sympathy for: сочувствие к
+      %% 000;I feel sympathy for the victims.;Я сочувствую жертвам.;0;
+      %% 000;She expressed sympathy for his loss.;Она выразила соболезнования по поводу его утраты.;0;
+      %% 000;They showed sympathy for the cause.;Они выразили сочувствие делу.;0;
+    talent for: талант к
+      %% 000;She has a talent for painting.;У неё талант к рисованию.;0;
+      %% 000;He’s got a real talent for music.;У него настоящий музыкальный талант.;0;
+      %% 000;They have talent for leadership.;У них талант к лидерству.;0;
+    thankful for: благодарный за
+      %% 000;I’m thankful for your support.;Я благодарен за твою поддержку.;0;
+      %% 000;She’s thankful for her family.;Она благодарна за свою семью.;0;
+      %% 000;We’re thankful for the opportunity.;Мы благодарны за возможность.;0;
+    wait for: ждать кого-либо/чего-либо
+      %% 000;I’ll wait for you here.;Я подожду тебя здесь.;0;
+      %% 000;We’re waiting for the bus.;Мы ждём автобус.;0;
+      %% 000;She waited for hours.;Она ждала часами.;0;
+    zealous for: рьяный, фанатично преданный (чему-либо)
+      %% 000;He’s zealous for justice.;Он рвётся к справедливости.;0;
+      %% 000;They were zealous for the cause.;Они были преданы делу.;0;
+      %% 000;She’s zealous for her beliefs.;Она яро отстаивает свои убеждения.;0;
 from:
   meanings:
     Direction (направление): от, из
@@ -453,6 +433,43 @@ from:
       %% 000;This is different from the original.;Это отличается от оригинала.;0;
       %% 000;He looks different from his brother.;Он выглядит иначе, чем брат.;0;
       %% 000;The result varies from case to case.;Результат различается в каждом случае.;0;
+  collocations:
+    benefit from: извлечь пользу из
+      %% 000;Everyone can benefit from regular exercise.;Каждый может извлечь пользу из регулярных тренировок.;0;
+      %% 000;She benefited from the training program.;Она получила пользу от обучающей программы.;0;
+      %% 000;We all benefit from fresh air and sunlight.;Мы все выигрываем от свежего воздуха и солнечного света.;0;
+    distract from: отвлекать от
+      %% 000;Noise can distract students from studying.;Шум может отвлекать студентов от учёбы.;0;
+      %% 000;Her beauty distracted me from the conversation.;Её красота отвлекла меня от разговора.;0;
+      %% 000;He tried to distract me from my work.;Он пытался отвлечь меня от работы.;0;
+    escape from: сбежать от, избежать
+      %% 000;He managed to escape from prison.;Ему удалось сбежать из тюрьмы.;0;
+      %% 000;They escaped from the burning building.;Они выбежали из горящего здания.;0;
+      %% 000;She was trying to escape from reality.;Она пыталась убежать от реальности.;0;
+    excuse from: освободить от, простить за
+      %% 000;He was excused from jury duty.;Его освободили от участия в суде присяжных.;0;
+      %% 000;The teacher excused her from homework.;Учитель освободил её от домашнего задания.;0;
+      %% 000;Can I be excused from this task?;Можно я буду освобождён от этой задачи?;0;
+    free from: свободен от
+      %% 000;This product is free from artificial additives.;Этот продукт не содержит искусственных добавок.;0;
+      %% 000;They are now free from fear.;Они теперь свободны от страха.;0;
+      %% 000;The area is free from pollution.;Этот район свободен от загрязнений.;0;
+    prevent from: мешать, не дать, удержать от
+      %% 000;Lack of time prevents me from finishing the project.;Недостаток времени мешает мне закончить проект.;0;
+      %% 000;She prevented him from making a mistake.;Она не дала ему совершить ошибку.;0;
+      %% 000;Heavy rain prevented us from leaving.;Сильный дождь не дал нам уйти.;0;
+    protect from: защищать от
+      %% 000;Sunscreen protects your skin from UV rays.;Солнцезащитный крем защищает кожу от ультрафиолета.;0;
+      %% 000;The vaccine protects children from diseases.;Вакцина защищает детей от болезней.;0;
+      %% 000;This coat will protect you from the cold.;Это пальто защитит тебя от холода.;0;
+    recover from: восстановиться после, оправиться от
+      %% 000;He’s recovering from surgery.;Он восстанавливается после операции.;0;
+      %% 000;She recovered from the flu quickly.;Она быстро оправилась от гриппа.;0;
+      %% 000;It takes time to recover from a shock.;Нужно время, чтобы оправиться от шока.;0;
+    suffer from: страдать от
+      %% 000;He suffers from back pain.;Он страдает от боли в спине.;0;
+      %% 000;Many people suffer from anxiety.;Многие страдают от тревожности.;0;
+      %% 000;The city suffers from air pollution.;Город страдает от загрязнения воздуха.;0;
 in:
   meanings:
     Place (место): в, внутри
@@ -472,6 +489,86 @@ in:
       %% 000;She’s in charge of the project.;Она отвечает за проект.;0;
       %% 000;I’m in charge of logistics.;Я отвечаю за логистику.;0;
       %% 000;He’s in charge of the team.;Он отвечает за команду.;0;
+    arrive in: прибыть в (город, страну)
+      %% 000;We arrived in Paris at noon.;Мы прибыли в Париж в полдень.;0;
+      %% 000;She arrived in the United States last week.;Она прибыла в США на прошлой неделе.;0;
+      %% 000;They arrived in the city during the night.;Они приехали в город ночью.;0;
+    believe in: верить в
+      %% 000;I believe in honesty and hard work.;Я верю в честность и упорный труд.;0;
+      %% 000;Do you believe in ghosts?;Ты веришь в привидений?;0;
+      %% 000;She believes in herself.;Она верит в себя.;0;
+    belong in: быть на своём месте, принадлежать к
+      %% 000;This painting belongs in a museum.;Эта картина должна быть в музее.;0;
+      %% 000;You belong in this team.;Ты на своём месте в этой команде.;0;
+      %% 000;Such behavior doesn’t belong in the workplace.;Такому поведению не место на рабочем месте.;0;
+    confide in: довериться кому-либо
+      %% 000;She confided in me about her problems.;Она доверилась мне по поводу своих проблем.;0;
+      %% 000;I need someone I can confide in.;Мне нужен кто-то, кому я могу довериться.;0;
+      %% 000;He rarely confides in anyone.;Он редко кому-то доверяется.;0;
+    confident in: уверенный в
+      %% 000;She’s confident in her abilities.;Она уверена в своих способностях.;0;
+      %% 000;I’m confident in this plan.;Я уверен в этом плане.;0;
+      %% 000;They’re confident in their success.;Они уверены в своём успехе.;0;
+    consist in: заключаться в
+      %% 000;Happiness consists in simple things.;Счастье заключается в простых вещах.;0;
+      %% 000;The beauty of the idea consists in its simplicity.;Прелесть идеи в её простоте.;0;
+      %% 000;True success consists in helping others.;Истинный успех заключается в помощи другим.;0;
+    decrease in: снижение чего-либо
+      %% 000;There’s been a decrease in crime rates.;Уровень преступности снизился.;0;
+      %% 000;We’ve seen a decrease in demand.;Мы наблюдаем снижение спроса.;0;
+      %% 000;There was a decrease in profits this year.;В этом году прибыль снизилась.;0;
+    dressed in: одет в
+      %% 000;She was dressed in black.;Она была одета в чёрное.;0;
+      %% 000;The children were dressed in costumes.;Дети были в костюмах.;0;
+      %% 000;He arrived dressed in a tuxedo.;Он пришёл в смокинге.;0;
+    engaged in: вовлечён в
+      %% 000;He’s engaged in research.;Он занят исследованием.;0;
+      %% 000;She’s engaged in volunteer work.;Она участвует в волонтёрской работе.;0;
+      %% 000;They were engaged in a heated discussion.;Они были вовлечены в жаркую дискуссию.;0;
+    experience in: опыт в
+      %% 000;She has experience in marketing.;У неё есть опыт в маркетинге.;0;
+      %% 000;I lack experience in sales.;Мне не хватает опыта в продажах.;0;
+      %% 000;They want someone with experience in finance.;Им нужен кто-то с опытом в финансах.;0;
+    increase in: рост чего-либо
+      %% 000;There’s been an increase in tourism.;Произошёл рост туризма.;0;
+      %% 000;We see an increase in interest.;Мы наблюдаем рост интереса.;0;
+      %% 000;There was an increase in prices.;Произошёл рост цен.;0;
+    indulge in: предаваться, баловать себя
+      %% 000;She indulged in chocolate cake.;Она побаловала себя шоколадным тортом.;0;
+      %% 000;He sometimes indulges in video games.;Он иногда балуется видеоиграми.;0;
+      %% 000;They indulged in shopping.;Они предались шопингу.;0;
+    interest in: интерес к
+      %% 000;I have a strong interest in science.;Я очень интересуюсь наукой.;0;
+      %% 000;Her interest in art is growing.;Её интерес к искусству растёт.;0;
+      %% 000;There’s increasing interest in renewable energy.;Растёт интерес к возобновляемой энергии.;0;
+    invest in: инвестировать в
+      %% 000;He invested in real estate.;Он вложился в недвижимость.;0;
+      %% 000;They’re investing in new technology.;Они инвестируют в новые технологии.;0;
+      %% 000;You should invest in yourself.;Ты должен вкладывать в себя.;0;
+    involved in: вовлечён в
+      %% 000;He’s involved in several projects.;Он участвует в нескольких проектах.;0;
+      %% 000;She’s deeply involved in politics.;Она глубоко вовлечена в политику.;0;
+      %% 000;They got involved in an argument.;Они ввязались в спор.;0;
+    participate in: участвовать в
+      %% 000;She participates in local events.;Она участвует в местных мероприятиях.;0;
+      %% 000;Students are encouraged to participate in discussions.;Студентов поощряют участвовать в обсуждениях.;0;
+      %% 000;He doesn’t usually participate in meetings.;Он обычно не участвует в собраниях.;0;
+    recover in: восстановиться в (контексте места/ситуации)
+      %% 000;He recovered in the hospital.;Он восстановился в больнице.;0;
+      %% 000;She recovered in a peaceful environment.;Она восстановилась в спокойной обстановке.;0;
+      %% 000;They recovered in time for the event.;Они восстановились как раз к мероприятию.;0;
+    result in: привести к
+      %% 000;Lack of planning may result in failure.;Отсутствие планирования может привести к провалу.;0;
+      %% 000;The conflict resulted in many casualties.;Конфликт привёл к многочисленным жертвам.;0;
+      %% 000;His actions resulted in serious consequences.;Его действия повлекли серьёзные последствия.;0;
+    success in: успех в
+      %% 000;She found success in her career.;Она добилась успеха в карьере.;0;
+      %% 000;He’s had great success in business.;Он добился большого успеха в бизнесе.;0;
+      %% 000;Their success in the tournament was unexpected.;Их успех в турнире был неожиданным.;0;
+    successful in: успешен в
+      %% 000;She’s successful in everything she does.;Она успешна во всём, что делает.;0;
+      %% 000;He was successful in solving the problem.;Он успешно решил проблему.;0;
+      %% 000;They were successful in getting the grant.;Им удалось получить грант.;0;
 near:
   meanings:
     Place (место): рядом с, около, возле
@@ -488,6 +585,123 @@ of:
       %% 000;He died of cancer.;Он умер от рака.;0;
       %% 000;I’m tired of this.;Я устал от этого.;0;
       %% 000;She screamed out of fear.;Она закричала от страха.;0;
+  collocations:
+    accused of: обвинён в
+      %% 000;He was accused of stealing money.;Его обвинили в краже денег.;0;
+      %% 000;They were accused of cheating on the exam.;Их обвинили в списывании на экзамене.;0;
+      %% 000;She was accused of lying to the police.;Её обвинили во лжи полиции.;0;
+    afraid of: бояться чего-либо
+      %% 000;I’m afraid of spiders.;Я боюсь пауков.;0;
+      %% 000;She’s afraid of flying.;Она боится летать.;0;
+      %% 000;He’s afraid of making mistakes.;Он боится делать ошибки.;0;
+    ashamed of: стыдиться чего-либо
+      %% 000;I’m ashamed of my behavior.;Мне стыдно за своё поведение.;0;
+      %% 000;She felt ashamed of lying.;Ей было стыдно за ложь.;0;
+      %% 000;He’s ashamed of what he did.;Ему стыдно за то, что он сделал.;0;
+    aware of: осведомлён о
+      %% 000;Are you aware of the risks?;Ты осведомлён о рисках?;0;
+      %% 000;She wasn’t aware of the changes.;Она не знала об изменениях.;0;
+      %% 000;We must be aware of the consequences.;Мы должны осознавать последствия.;0;
+    awareness of: осознание, знание
+      %% 000;Public awareness of climate change is growing.;Общественное осознание изменения климата растёт.;0;
+      %% 000;He has little awareness of the issue.;Он почти не осведомлён об этом вопросе.;0;
+      %% 000;Awareness of mental health is important.;Осведомлённость о психическом здоровье важна.;0;
+    complain of: жаловаться на (боли, симптомы)
+      %% 000;He complained of chest pain.;Он пожаловался на боль в груди.;0;
+      %% 000;She complained of a headache.;Она пожаловалась на головную боль.;0;
+      %% 000;Patients often complain of fatigue.;Пациенты часто жалуются на усталость.;0;
+    convinced of: убеждён в
+      %% 000;I’m convinced of his innocence.;Я убеждён в его невиновности.;0;
+      %% 000;She’s convinced of the plan’s success.;Она уверена в успехе плана.;0;
+      %% 000;They were convinced of their victory.;Они были уверены в своей победе.;0;
+    danger of: опасность чего-либо
+      %% 000;There’s a danger of flooding.;Есть угроза наводнения.;0;
+      %% 000;The danger of infection is high.;Опасность заражения высока.;0;
+      %% 000;We must be aware of the danger of fire.;Нам нужно осознавать опасность пожара.;0;
+    fear of: страх чего-либо
+      %% 000;He has a fear of heights.;У него страх высоты.;0;
+      %% 000;Her fear of failure stops her.;Её страх неудачи мешает ей.;0;
+      %% 000;Many people have a fear of public speaking.;Многие боятся выступлений.;0;
+    fond of: любить, обожать
+      %% 000;I’m fond of classical music.;Я люблю классическую музыку.;0;
+      %% 000;She’s fond of animals.;Она обожает животных.;0;
+      %% 000;They’re fond of hiking.;Они любят походы.;0;
+    frightened of: напуганный чем-либо
+      %% 000;She’s frightened of thunder.;Она боится грома.;0;
+      %% 000;He’s frightened of the dark.;Он боится темноты.;0;
+      %% 000;I’m frightened of losing everything.;Я боюсь потерять всё.;0;
+    full of: полный чего-либо
+      %% 000;The basket is full of apples.;Корзина полна яблок.;0;
+      %% 000;She’s full of energy.;Она полна энергии.;0;
+      %% 000;The book is full of useful tips.;Книга полна полезных советов.;0;
+    guilty of: виновен в
+      %% 000;He was found guilty of theft.;Его признали виновным в краже.;0;
+      %% 000;She’s guilty of breaking the law.;Она нарушила закон.;0;
+      %% 000;They were guilty of fraud.;Они были виновны в мошенничестве.;0;
+    innocent of: невиновен в
+      %% 000;He was declared innocent of all charges.;Его признали невиновным по всем обвинениям.;0;
+      %% 000;She’s innocent of the crime.;Она невиновна в преступлении.;0;
+      %% 000;They were proven innocent of wrongdoing.;Их невиновность была доказана.;0;
+    jealous of: ревновать, завидовать
+      %% 000;He’s jealous of his brother’s success.;Он завидует успеху брата.;0;
+      %% 000;She was jealous of her friend.;Она ревновала подругу.;0;
+      %% 000;I’m not jealous of anyone.;Я никому не завидую.;0;
+    lack of: нехватка, отсутствие
+      %% 000;There’s a lack of evidence.;Недостаточно доказательств.;0;
+      %% 000;The project failed due to a lack of funding.;Проект провалился из-за нехватки финансирования.;0;
+      %% 000;He showed a lack of interest.;Он проявил равнодушие.;0;
+    matter of: вопрос, дело
+      %% 000;It’s a matter of time.;Это вопрос времени.;0;
+      %% 000;It’s a matter of principle.;Это дело принципа.;0;
+      %% 000;It’s a matter of choice.;Это вопрос выбора.;0;
+    possibility of: возможность чего-либо
+      %% 000;There’s a possibility of rain.;Возможно, пойдёт дождь.;0;
+      %% 000;He mentioned the possibility of delay.;Он упомянул возможность задержки.;0;
+      %% 000;We’re exploring the possibility of expansion.;Мы рассматриваем возможность расширения.;0;
+    proud of: гордиться чем-либо
+      %% 000;I’m proud of you.;Я горжусь тобой.;0;
+      %% 000;She’s proud of her achievements.;Она гордится своими достижениями.;0;
+      %% 000;They’re proud of their children.;Они гордятся своими детьми.;0;
+    remind of: напоминать о
+      %% 000;This song reminds me of summer.;Эта песня напоминает мне лето.;0;
+      %% 000;He reminds me of my brother.;Он напоминает мне моего брата.;0;
+      %% 000;She reminded him of their anniversary.;Она напомнила ему об их годовщине.;0;
+    result of: результат чего-либо
+      %% 000;This mess is the result of carelessness.;Этот бардак — результат небрежности.;0;
+      %% 000;The accident was the result of speeding.;Авария произошла из-за превышения скорости.;0;
+      %% 000;Her illness is the result of stress.;Её болезнь — результат стресса.;0;
+    sick of: сыт по горло
+      %% 000;I’m sick of this weather.;Меня достала эта погода.;0;
+      %% 000;She’s sick of his excuses.;Ей надоели его отговорки.;0;
+      %% 000;We’re sick of waiting.;Мы устали ждать.;0;
+    sure of: уверен в
+      %% 000;Are you sure of that?;Ты в этом уверен?;0;
+      %% 000;I’m sure of my answer.;Я уверен в своём ответе.;0;
+      %% 000;She’s sure of her decision.;Она уверена в своём решении.;0;
+    suspicious of: подозревать кого-либо
+      %% 000;The police are suspicious of his story.;Полиция подозревает его рассказ.;0;
+      %% 000;I’m suspicious of that offer.;Я подозреваю, что это предложение нечисто.;0;
+      %% 000;They’re suspicious of strangers.;Они с подозрением относятся к незнакомцам.;0;
+    think of: подумать о, иметь мнение о
+      %% 000;What do you think of this idea?;Что ты думаешь об этой идее?;0;
+      %% 000;I’ll think of a solution.;Я подумаю над решением.;0;
+      %% 000;Think of it as an opportunity.;Считай это возможностью.;0;
+    tired of: устал от
+      %% 000;I’m tired of working so much.;Я устал так много работать.;0;
+      %% 000;She’s tired of waiting.;Ей надоело ждать.;0;
+      %% 000;They’re tired of the noise.;Они устали от шума.;0;
+    typical of: типично для
+      %% 000;That’s typical of him.;Это так на него похоже.;0;
+      %% 000;Such behavior is typical of teenagers.;Такое поведение типично для подростков.;0;
+      %% 000;It’s not typical of her to be late.;Для неё нехарактерно опаздывать.;0;
+    understanding of: понимание чего-либо
+      %% 000;He has a deep understanding of history.;У него глубокое понимание истории.;0;
+      %% 000;Your understanding of the topic is impressive.;Твоё понимание темы впечатляет.;0;
+      %% 000;We need a better understanding of the problem.;Нам нужно лучше понять проблему.;0;
+    waste of: пустая трата
+      %% 000;It’s a waste of time.;Это пустая трата времени.;0;
+      %% 000;Buying that was a waste of money.;Покупка того — пустая трата денег.;0;
+      %% 000;Arguing with him is a waste of energy.;Спорить с ним — пустая трата энергии.;0;
 off:
   meanings:
     Direction (направление): с, прочь
@@ -512,6 +726,51 @@ on:
       %% 000;A book on philosophy.;Книга по философии.;0;
       %% 000;She gave a talk on climate change.;Она выступала по теме изменения климата.;0;
       %% 000;A report on education.;Доклад об образовании.;0;
+  collocations:
+    agree on: договориться о, прийти к согласию по поводу
+      %% 000;We couldn’t agree on a date.;Мы не смогли договориться о дате.;0;
+      %% 000;They agreed on the terms of the contract.;Они договорились об условиях контракта.;0;
+      %% 000;Let’s agree on a plan before we act.;Давайте сначала договоримся о плане.;0;
+    base on: основываться на
+      %% 000;The film is based on a true story.;Фильм основан на реальной истории.;0;
+      %% 000;His theory is based on facts.;Его теория основана на фактах.;0;
+      %% 000;The decision was based on the data.;Решение было основано на данных.;0;
+    blame on: возлагать вину на
+      %% 000;Don’t blame it on me.;Не сваливай это на меня.;0;
+      %% 000;He blamed the mistake on the system.;Он обвинил систему в ошибке.;0;
+      %% 000;She blamed the delay on traffic.;Она обвинила в задержке пробки.;0;
+    check on: проверить, навестить
+      %% 000;Can you check on the baby?;Можешь проверить, как там ребёнок?;0;
+      %% 000;I’ll check on dinner.;Я посмотрю, как там ужин.;0;
+      %% 000;He checked on his neighbors after the storm.;Он навестил соседей после шторма.;0;
+    comment on: прокомментировать
+      %% 000;She refused to comment on the issue.;Она отказалась комментировать вопрос.;0;
+      %% 000;Please comment on the changes.;Прокомментируйте изменения.;0;
+      %% 000;He commented on the article.;Он высказался по поводу статьи.;0;
+    concentrate on: сосредоточиться на
+      %% 000;I need to concentrate on my work.;Мне нужно сосредоточиться на работе.;0;
+      %% 000;She can’t concentrate on studying.;Она не может сосредоточиться на учёбе.;0;
+      %% 000;Let’s concentrate on the main problem.;Давайте сосредоточимся на главной проблеме.;0;
+    decide on: принять решение о
+      %% 000;Have you decided on a name?;Ты выбрал имя?;0;
+      %% 000;They decided on a new strategy.;Они решили использовать новую стратегию.;0;
+      %% 000;We need to decide on a location.;Нам нужно выбрать место.;0;
+    depend on: зависеть от
+      %% 000;It depends on the weather.;Это зависит от погоды.;0;
+      %% 000;You can always depend on me.;Ты всегда можешь на меня положиться.;0;
+      %% 000;Success depends on hard work.;Успех зависит от упорного труда.;0;
+    focus on: сосредоточиться на
+      %% 000;Let’s focus on the solution, not the problem.;Сосредоточимся на решении, а не на проблеме.;0;
+      %% 000;She focused on her goals.;Она сосредоточилась на своих целях.;0;
+      %% 000;He needs to focus on his studies.;Ему нужно сосредоточиться на учёбе.;0;
+    insist on: настаивать на
+      %% 000;I insist on paying for dinner.;Я настаиваю, чтобы заплатить за ужин.;0;
+      %% 000;She insisted on coming with us.;Она настояла на том, чтобы пойти с нами.;0;
+      %% 000;He insisted on doing it himself.;Он настоял на том, чтобы сделать это сам.;0;
+    rely on: полагаться на
+      %% 000;You can rely on her advice.;Ты можешь положиться на её совет.;0;
+      %% 000;We rely on donations to survive.;Мы живём за счёт пожертвований.;0;
+      %% 000;He relies on his instincts.;Он полагается на свои инстинкты.;0;
 out:
   meanings:
     Direction (направление): из, наружу
@@ -564,6 +823,123 @@ to:
       %% 000;I called to say hi.;Я позвонил, чтобы поздороваться.;0;
       %% 000;She works to earn money.;Она работает, чтобы зарабатывать.;0;
       %% 000;He trains to win.;Он тренируется, чтобы победить.;0;
+  collocations:
+    add to: добавлять к, усиливать
+      %% 000;Her comments added to the confusion.;Её замечания добавили путаницы.;0;
+      %% 000;This adds to the overall cost.;Это увеличивает общую стоимость.;0;
+      %% 000;The rain added to our problems.;Дождь добавил нам проблем.;0;
+    adjust to: приспособиться к
+      %% 000;He adjusted to his new job quickly.;Он быстро адаптировался к новой работе.;0;
+      %% 000;It’s hard to adjust to the climate.;Трудно привыкнуть к климату.;0;
+      %% 000;She’s adjusting to life abroad.;Она привыкает к жизни за границей.;0;
+    agree to: согласиться на
+      %% 000;He agreed to the proposal.;Он согласился на предложение.;0;
+      %% 000;They agreed to help us.;Они согласились помочь нам.;0;
+      %% 000;She agreed to join the team.;Она согласилась вступить в команду.;0;
+    answer to: отвечать перед кем-либо, подчиняться
+      %% 000;He answers to the director.;Он подчиняется директору.;0;
+      %% 000;You’ll have to answer to the boss.;Тебе придётся отчитаться перед начальником.;0;
+      %% 000;I answer to no one.;Я ни перед кем не отчитываюсь.;0;
+    belong to: принадлежать кому-либо
+      %% 000;This book belongs to me.;Эта книга принадлежит мне.;0;
+      %% 000;Who does this phone belong to?;Чей это телефон?;0;
+      %% 000;The land belongs to the government.;Земля принадлежит государству.;0;
+    close to: близкий к
+      %% 000;We’re very close to each other.;Мы очень близки.;0;
+      %% 000;The school is close to my house.;Школа находится рядом с моим домом.;0;
+      %% 000;She’s emotionally close to her mother.;Она эмоционально близка к своей матери.;0;
+    confess to: признаться в
+      %% 000;He confessed to the crime.;Он признался в преступлении.;0;
+      %% 000;She confessed to cheating.;Она призналась в обмане.;0;
+      %% 000;They confessed to lying.;Они признались во лжи.;0;
+    contribution to: вклад в
+      %% 000;Her contribution to the project was essential.;Её вклад в проект был важен.;0;
+      %% 000;They made a great contribution to science.;Они внесли большой вклад в науку.;0;
+      %% 000;He acknowledged her contribution to the success.;Он признал её вклад в успех.;0;
+    dedicated to: посвящён чему-либо
+      %% 000;She’s dedicated to her work.;Она предана своей работе.;0;
+      %% 000;He’s dedicated to his family.;Он посвятил себя своей семье.;0;
+      %% 000;The book is dedicated to her mentor.;Книга посвящена её наставнику.;0;
+    expose to: подвергнуть воздействию
+      %% 000;Don’t expose children to violence.;Не подвергайте детей насилию.;0;
+      %% 000;She was exposed to toxic chemicals.;Она подверглась воздействию токсинов.;0;
+      %% 000;We were exposed to new ideas.;Мы познакомились с новыми идеями.;0;
+    faithful to: верный, преданный
+      %% 000;He’s always been faithful to his wife.;Он всегда был верен своей жене.;0;
+      %% 000;She remained faithful to her beliefs.;Она осталась верна своим убеждениям.;0;
+      %% 000;The dog was faithful to its owner.;Собака была предана своему хозяину.;0;
+    generous to: щедрый по отношению к
+      %% 000;She’s generous to everyone.;Она щедра со всеми.;0;
+      %% 000;He was generous to the poor.;Он был щедр к бедным.;0;
+      %% 000;They’re always generous to their friends.;Они всегда щедры к друзьям.;0;
+    inclined to: склонен к
+      %% 000;He’s inclined to worry too much.;Он склонен слишком переживать.;0;
+      %% 000;She’s inclined to believe him.;Она склонна ему верить.;0;
+      %% 000;They’re inclined to agree with us.;Они склонны с нами согласиться.;0;
+    invitation to: приглашение на
+      %% 000;We received an invitation to the wedding.;Мы получили приглашение на свадьбу.;0;
+      %% 000;He accepted the invitation to speak.;Он принял приглашение выступить.;0;
+      %% 000;I declined the invitation to dinner.;Я отклонил приглашение на ужин.;0;
+    kind to: добрый к
+      %% 000;Be kind to animals.;Будь добр к животным.;0;
+      %% 000;She’s always kind to children.;Она всегда добра к детям.;0;
+      %% 000;He was kind to me when I was new.;Он был добр ко мне, когда я был новичком.;0;
+    look forward to: с нетерпением ждать
+      %% 000;I look forward to meeting you.;Я с нетерпением жду встречи с тобой.;0;
+      %% 000;We’re looking forward to the trip.;Мы с нетерпением ждём поездки.;0;
+      %% 000;She looks forward to the weekend.;Она ждёт выходных с нетерпением.;0;
+    married to: женат/замужем за
+      %% 000;She’s married to a doctor.;Она замужем за доктором.;0;
+      %% 000;He’s married to his college sweetheart.;Он женат на своей школьной любви.;0;
+      %% 000;Are you married to your work?;Ты женат на своей работе?;0;
+    object to: возражать против
+      %% 000;I object to that decision.;Я возражаю против этого решения.;0;
+      %% 000;He objected to the new rules.;Он выступил против новых правил.;0;
+      %% 000;We object to being recorded.;Мы против того, чтобы нас записывали.;0;
+    opposed to: выступающий против
+      %% 000;She’s strongly opposed to the plan.;Она решительно против этого плана.;0;
+      %% 000;I’m opposed to violence.;Я против насилия.;0;
+      %% 000;They are opposed to the new law.;Они против нового закона.;0;
+    opposition to: противодействие, сопротивление
+      %% 000;There was strong opposition to the project.;Было сильное сопротивление проекту.;0;
+      %% 000;He expressed his opposition to the proposal.;Он выразил своё несогласие с предложением.;0;
+      %% 000;Public opposition to the law grew.;Общественное сопротивление закону росло.;0;
+    polite to: вежливый по отношению к
+      %% 000;He’s always polite to strangers.;Он всегда вежлив с незнакомцами.;0;
+      %% 000;Be polite to the guests.;Будь вежлив с гостями.;0;
+      %% 000;She’s not very polite to her parents.;Она не очень вежлива с родителями.;0;
+    related to: связанный с
+      %% 000;His work is related to biology.;Его работа связана с биологией.;0;
+      %% 000;Are you related to him?;Ты ему родственник?;0;
+      %% 000;It’s not directly related to our issue.;Это напрямую не связано с нашей проблемой.;0;
+    relevant to: относящийся к, уместный
+      %% 000;The information is relevant to our case.;Информация относится к нашему делу.;0;
+      %% 000;That’s not relevant to the discussion.;Это не относится к обсуждению.;0;
+      %% 000;Only relevant documents were accepted.;Были приняты только уместные документы.;0;
+    reluctant to: неохотно делать что-либо
+      %% 000;He’s reluctant to admit his mistake.;Он неохотно признаёт ошибку.;0;
+      %% 000;She was reluctant to leave.;Она не хотела уходить.;0;
+      %% 000;They’re reluctant to change the rules.;Они не хотят менять правила.;0;
+    rude to: грубый по отношению к
+      %% 000;Don’t be rude to the waiter.;Не груби официанту.;0;
+      %% 000;He was rude to me yesterday.;Он был груб со мной вчера.;0;
+      %% 000;She’s rude to her classmates.;Она груба с одноклассниками.;0;
+    subscribe to: подписаться на
+      %% 000;I subscribe to several magazines.;Я подписан на несколько журналов.;0;
+      %% 000;He subscribed to the service last month.;Он подписался на сервис в прошлом месяце.;0;
+      %% 000;She doesn’t subscribe to that belief.;Она не разделяет этого убеждения.;0;
+    visit to: визит, поездка в/на
+      %% 000;We paid a visit to the museum.;Мы сходили в музей.;0;
+      %% 000;It was his first visit to London.;Это был его первый визит в Лондон.;0;
+      %% 000;Their visit to the factory was brief.;Их визит на завод был недолгим.;0;
+    witness to: свидетель чего-либо
+      %% 000;He was a witness to the accident.;Он был свидетелем аварии.;0;
+      %% 000;She was a witness to history.;Она была свидетельницей истории.;0;
+      %% 000;We have a witness to the event.;У нас есть свидетель происшествия.;0;
+    write to: писать кому-либо
+      %% 000;I’ll write to my grandmother.;Я напишу бабушке.;0;
+      %% 000;She wrote to the company to complain.;Она написала жалобу в компанию.;0;
+      %% 000;Have you written to your friend yet?;Ты уже написал своему другу?;0;
 under:
   meanings:
     Place (место): под
@@ -596,6 +972,95 @@ with:
       %% 000;I went with my friend.;Я пошёл с другом.;0;
       %% 000;She lives with her parents.;Она живёт с родителями.;0;
       %% 000;He’s staying with us.;Он остаётся у нас.;0;
+  collocations:
+    angry with: зол на кого-либо
+      %% 000;I’m angry with him for being late.;Я зол на него за опоздание.;0;
+      %% 000;She was angry with her friend.;Она злилась на подругу.;0;
+      %% 000;Don’t be angry with me.;Не злись на меня.;0;
+    argue with: спорить с
+      %% 000;He argued with his brother.;Он спорил с братом.;0;
+      %% 000;I don’t want to argue with you.;Я не хочу с тобой спорить.;0;
+      %% 000;She argued with the teacher about the grade.;Она спорила с учителем из-за оценки.;0;
+    bored with: скучающий от чего-либо
+      %% 000;I’m bored with this movie.;Мне скучно смотреть этот фильм.;0;
+      %% 000;She’s bored with her job.;Ей наскучила работа.;0;
+      %% 000;They were bored with the conversation.;Им наскучил разговор.;0;
+    collide with: столкнуться с
+      %% 000;The car collided with a truck.;Машина столкнулась с грузовиком.;0;
+      %% 000;Two ideas collided with each other.;Две идеи столкнулись.;0;
+      %% 000;She collided with a cyclist.;Она столкнулась с велосипедистом.;0;
+    compete with: соревноваться с
+      %% 000;He competed with top athletes.;Он соревновался с лучшими спортсменами.;0;
+      %% 000;Our company competes with global brands.;Наша компания конкурирует с мировыми брендами.;0;
+      %% 000;She had to compete with her peers.;Ей пришлось соревноваться со сверстниками.;0;
+    comply with: соответствовать, подчиняться
+      %% 000;You must comply with the rules.;Ты должен соблюдать правила.;0;
+      %% 000;They complied with the new regulations.;Они соблюдали новые правила.;0;
+      %% 000;The system complies with safety standards.;Система соответствует стандартам безопасности.;0;
+    connect with: установить связь с
+      %% 000;I connected with him immediately.;Я сразу нашёл с ним контакт.;0;
+      %% 000;She connects with her audience well.;Она хорошо находит контакт с аудиторией.;0;
+      %% 000;The police connected him with the crime.;Полиция связала его с преступлением.;0;
+    cope with: справляться с
+      %% 000;She’s coping with stress.;Она справляется со стрессом.;0;
+      %% 000;He couldn’t cope with the pressure.;Он не справился с давлением.;0;
+      %% 000;I’m trying to cope with all the work.;Я пытаюсь справиться со всей работой.;0;
+    deal with: иметь дело с, справляться с
+      %% 000;I have to deal with a lot of problems.;Мне приходится решать много проблем.;0;
+      %% 000;She’s dealing with a difficult client.;Она имеет дело со сложным клиентом.;0;
+      %% 000;He knows how to deal with stress.;Он знает, как справляться со стрессом.;0;
+    disappointed with: разочарован в
+      %% 000;I’m disappointed with the results.;Я разочарован результатами.;0;
+      %% 000;She was disappointed with his answer.;Она была разочарована его ответом.;0;
+      %% 000;They’re disappointed with the service.;Они разочарованы обслуживанием.;0;
+    disgusted with: чувствовать отвращение к
+      %% 000;He was disgusted with the meal.;Он почувствовал отвращение к еде.;0;
+      %% 000;She’s disgusted with his behavior.;Её тошнит от его поведения.;0;
+      %% 000;I’m disgusted with politics.;Меня отвращает политика.;0;
+    face with: столкнуться с
+      %% 000;We were faced with a tough decision.;Мы столкнулись со сложным решением.;0;
+      %% 000;She was faced with many challenges.;Она столкнулась со множеством трудностей.;0;
+      %% 000;They’re faced with a crisis.;Они оказались перед кризисом.;0;
+    familiar with: знаком с
+      %% 000;I’m familiar with this software.;Я знаком с этим программным обеспечением.;0;
+      %% 000;She’s familiar with the process.;Она знакома с этим процессом.;0;
+      %% 000;Are you familiar with the rules?;Ты знаком с правилами?;0;
+    help with: помочь с
+      %% 000;Can you help me with this task?;Можешь помочь мне с этим заданием?;0;
+      %% 000;He helped me with my homework.;Он помог мне с домашним заданием.;0;
+      %% 000;She helped with the preparations.;Она помогала с подготовкой.;0;
+    honest with: честен с
+      %% 000;Be honest with yourself.;Будь честен с собой.;0;
+      %% 000;He was honest with me about everything.;Он был честен со мной во всём.;0;
+      %% 000;She’s not being honest with her feelings.;Она не откровенна со своими чувствами.;0;
+    interact with: взаимодействовать с
+      %% 000;Children need to interact with others.;Детям нужно взаимодействовать с другими.;0;
+      %% 000;He rarely interacts with colleagues.;Он редко общается с коллегами.;0;
+      %% 000;She enjoys interacting with customers.;Ей нравится работать с клиентами.;0;
+    pleased with: доволен чем-либо
+      %% 000;I’m pleased with your progress.;Я доволен твоим прогрессом.;0;
+      %% 000;She was pleased with the outcome.;Она осталась довольна результатом.;0;
+      %% 000;They’re pleased with the new design.;Они довольны новым дизайном.;0;
+    popular with: популярен среди
+      %% 000;He’s popular with his classmates.;Он популярен среди одноклассников.;0;
+      %% 000;The app is popular with teenagers.;Приложение популярно среди подростков.;0;
+      %% 000;She’s very popular with customers.;Она очень популярна у клиентов.;0;
+    problem with: проблема с
+      %% 000;I have a problem with my phone.;У меня проблема с телефоном.;0;
+      %% 000;She had a problem with the settings.;У неё была проблема с настройками.;0;
+      %% 000;What’s the problem with this plan?;В чём проблема этого плана?;0;
+    replace with: заменить на
+      %% 000;We replaced the old chairs with new ones.;Мы заменили старые стулья на новые.;0;
+      %% 000;Sugar can be replaced with honey.;Сахар можно заменить мёдом.;0;
+      %% 000;They replaced the glass with plastic.;Они заменили стекло пластиком.;0;
+    respond with: ответить чем-либо
+      %% 000;He responded with a smile.;Он ответил улыбкой.;0;
+      %% 000;She responded with silence.;Она ответила молчанием.;0;
+      %% 000;They responded with force.;Они ответили силой.;0;
+    satisfied with: доволен чем-либо
+      %% 000;I’m satisfied with the results.;Я доволен результатами.;0;
+      %% 000;She wasn’t satisfied with the explanation.;Её не устроило объяснение.;0;
+      %% 000;They’re satisfied with their purchase.;Они довольны своей покупкой.;0;
 about:
   meanings:
     Cause (причина): о, насчёт, относительно
@@ -611,6 +1076,98 @@ about:
       %% 000;I was about to leave when she arrived.;Я собирался уйти, когда она пришла.;0;
       %% 000;He is about to start a new job.;Он вот-вот начнёт новую работу.;0;
       %% 000;We’re about to eat dinner.;Мы собираемся ужинать.;0;
+    anxious about: тревожиться о, волноваться из-за
+      %% 000;She felt anxious about the exam.;Она волновалась из-за экзамена.;0;
+      %% 000;I’m anxious about my future.;Я тревожусь за своё будущее.;0;
+      %% 000;They’re anxious about the meeting.;Они переживают насчёт совещания.;0;
+    argue about: спорить о, ссориться из-за
+      %% 000;They always argue about money.;Они постоянно ссорятся из-за денег.;0;
+      %% 000;We argued about politics.;Мы спорили о политике.;0;
+      %% 000;Stop arguing about trivial things.;Прекрати спорить о пустяках.;0;
+    ask about: спрашивать о
+      %% 000;He asked about your health.;Он спросил о твоём здоровье.;0;
+      %% 000;She asked about the schedule.;Она спросила о расписании.;0;
+      %% 000;I wanted to ask about the assignment.;Я хотел спросить о задании.;0;
+    care about: заботиться о, быть неравнодушным к
+      %% 000;I really care about you.;Ты мне действительно не безразличен.;0;
+      %% 000;She cares about animals.;Она заботится о животных.;0;
+      %% 000;They don’t care about the rules.;Им плевать на правила.;0;
+    complain about: жаловаться на
+      %% 000;He complained about the noise.;Он пожаловался на шум.;0;
+      %% 000;She’s always complaining about her job.;Она постоянно жалуется на свою работу.;0;
+      %% 000;I want to complain about the service.;Я хочу пожаловаться на обслуживание.;0;
+    curious about: интересоваться чем-либо
+      %% 000;I’m curious about other cultures.;Мне интересны другие культуры.;0;
+      %% 000;She’s curious about your project.;Её интересует твой проект.;0;
+      %% 000;They’re curious about the results.;Они интересуются результатами.;0;
+    dream about: мечтать о, видеть во сне
+      %% 000;I often dream about flying.;Мне часто снится, что я лечу.;0;
+      %% 000;He dreams about becoming a pilot.;Он мечтает стать пилотом.;0;
+      %% 000;Did you dream about anything last night?;Тебе что-нибудь снилось прошлой ночью?;0;
+    excited about: быть в восторге от
+      %% 000;She’s excited about her birthday.;Она в восторге от своего дня рождения.;0;
+      %% 000;I’m excited about the trip.;Я рад предстоящей поездке.;0;
+      %% 000;They’re excited about the concert.;Они в восторге от концерта.;0;
+    hear about: слышать о
+      %% 000;Did you hear about the news?;Ты слышал новости?;0;
+      %% 000;I heard about his promotion.;Я слышал о его повышении.;0;
+      %% 000;Have you heard about this app?;Ты слышал об этом приложении?;0;
+    information about: информация о
+      %% 000;There’s no information about the event.;Нет информации о мероприятии.;0;
+      %% 000;We need more information about the case.;Нам нужно больше информации о деле.;0;
+      %% 000;I found useful information about visas.;Я нашёл полезную информацию о визах.;0;
+    nervous about: нервничать из-за
+      %% 000;I’m nervous about the interview.;Я нервничаю перед собеседованием.;0;
+      %% 000;She was nervous about flying.;Она нервничала из-за полёта.;0;
+      %% 000;They’re nervous about the deadline.;Они нервничают из-за дедлайна.;0;
+    opinion about: мнение о
+      %% 000;What’s your opinion about this?;Каково твоё мнение об этом?;0;
+      %% 000;I have no opinion about the movie.;У меня нет мнения о фильме.;0;
+      %% 000;Her opinion about politics is strong.;У неё твёрдое мнение о политике.;0;
+    optimistic about: быть оптимистом в отношении
+      %% 000;I’m optimistic about the results.;Я настроен оптимистично по поводу результатов.;0;
+      %% 000;She’s optimistic about her future.;Она с оптимизмом смотрит в будущее.;0;
+      %% 000;We are optimistic about the outcome.;Мы надеемся на благоприятный исход.;0;
+    pessimistic about: быть пессимистом в отношении
+      %% 000;He’s pessimistic about his chances.;Он пессимистично оценивает свои шансы.;0;
+      %% 000;I’m pessimistic about the weather.;Я настроен пессимистично насчёт погоды.;0;
+      %% 000;They’re pessimistic about the reforms.;Они скептически относятся к реформам.;0;
+    serious about: серьёзно относиться к
+      %% 000;I’m serious about this relationship.;Я серьёзно отношусь к этим отношениям.;0;
+      %% 000;She’s serious about her goals.;Она серьёзно настроена на свои цели.;0;
+      %% 000;Are you serious about moving abroad?;Ты серьёзно собираешься уехать за границу?;0;
+    shy about: стесняться чего-либо
+      %% 000;He’s shy about speaking in public.;Он стесняется говорить на публике.;0;
+      %% 000;I was shy about showing my work.;Я стеснялся показывать свою работу.;0;
+      %% 000;She’s shy about her accent.;Она стесняется своего акцента.;0;
+    story about: рассказ о
+      %% 000;Tell me a story about your childhood.;Расскажи мне историю о своём детстве.;0;
+      %% 000;This is a story about courage.;Это история о смелости.;0;
+      %% 000;He wrote a story about a lost dog.;Он написал рассказ о потерянной собаке.;0;
+    talk about: говорить о
+      %% 000;Let’s talk about your plans.;Давай поговорим о твоих планах.;0;
+      %% 000;They talked about politics.;Они говорили о политике.;0;
+      %% 000;We need to talk about this issue.;Нам нужно обсудить этот вопрос.;0;
+    think about: думать о
+      %% 000;Think about what I said.;Подумай о том, что я сказал.;0;
+      %% 000;I’m thinking about moving.;Я подумываю о переезде.;0;
+      %% 000;Have you thought about the consequences?;Ты подумал о последствиях?;0;
+    upset about: расстроен из-за
+      %% 000;He’s upset about the results.;Он расстроен из-за результатов.;0;
+      %% 000;She’s upset about what happened.;Она расстроена из-за произошедшего.;0;
+      %% 000;They’re upset about the decision.;Они расстроены решением.;0;
+    worried about: обеспокоен чем-либо
+      %% 000;I’m worried about my exam.;Я переживаю из-за экзамена.;0;
+      %% 000;She’s worried about her job.;Она беспокоится из-за работы.;0;
+      %% 000;We’re worried about the future.;Мы тревожимся за будущее.;0;
+    worry about: переживать о, беспокоиться о
+      %% 000;Don’t worry about it.;Не переживай об этом.;0;
+      %% 000;You always worry about everything.;Ты всегда обо всём переживаешь.;0;
+      %% 000;I try not to worry about the past.;Я стараюсь не переживать о прошлом.;0;
+    write about: писать о
+      %% 000;I’m writing about climate change.;Я пишу о климатических изменениях.;0;
+      %% 000;She wrote about her experience abroad.;Она писала о своём опыте за границей.;0;
+      %% 000;He’s writing about modern art.;Он пишет о современном искусстве.;0;
 above:
   meanings:
     Place (место): выше, над
@@ -675,6 +1232,10 @@ against:
       %% 000;We’re up against a serious problem.;Мы столкнулись с серьёзной проблемой.;0;
       %% 000;They’re up against tough competition.;У них жёсткая конкуренция.;0;
       %% 000;You’ll be up against some challenges.;Ты столкнёшься с трудностями.;0;
+    protect against: защищать от
+      %% 000;This vaccine protects against the flu.;Эта вакцина защищает от гриппа.;0;
+      %% 000;The sunscreen protects against UV rays.;Солнцезащитный крем защищает от УФ-лучей.;0;
+      %% 000;They built a wall to protect against flooding.;Они построили стену для защиты от наводнения.;0;
 along:
   meanings:
     Direction (направление): вдоль
@@ -855,6 +1416,19 @@ into:
       %% 000;She’s really into music.;Она очень увлекается музыкой.;0;
       %% 000;I’m not into politics.;Я не интересуюсь политикой.;0;
       %% 000;He’s into hiking and camping.;Он увлекается походами и лагерями.;0;
+  collocations:
+    divide into: разделить на
+      %% 000;We divided the cake into eight pieces.;Мы разделили торт на восемь частей.;0;
+      %% 000;The class was divided into two groups.;Класс был разделён на две группы.;0;
+      %% 000;He divided the list into categories.;Он разделил список на категории.;0;
+    escape into: сбежать в, уйти в
+      %% 000;The thief escaped into the crowd.;Вор скрылся в толпе.;0;
+      %% 000;He escaped into the forest.;Он сбежал в лес.;0;
+      %% 000;She escapes into books to avoid reality.;Она уходит в книги, чтобы избежать реальности.;0;
+    translate into: перевести на, преобразовать в
+      %% 000;Can you translate this text into English?;Ты можешь перевести этот текст на английский?;0;
+      %% 000;The book was translated into many languages.;Книга была переведена на многие языки.;0;
+      %% 000;Their ideas translated into action.;Их идеи перешли в действия.;0;
 onto:
   meanings:
     Direction (направление): на (указывает на движение на поверхность)
@@ -932,6 +1506,11 @@ towards:
       %% 000;He paid $100 towards the bill.;Он внёс $100 в счёт оплаты.;0;
       %% 000;This effort is towards a better future.;Эти усилия направлены на лучшее будущее.;0;
       %% 000;She’s working towards a degree.;Она учится, чтобы получить диплом.;0;
+  collocations:
+    attitude towards: отношение к
+      %% 000;His attitude towards work has improved.;Его отношение к работе улучшилось.;0;
+      %% 000;What’s your attitude towards this idea?;Как ты относишься к этой идее?;0;
+      %% 000;She has a positive attitude towards learning.;У неё положительное отношение к обучению.;0;
 underneath:
   meanings:
     Place (место): под, ниже
@@ -982,6 +1561,36 @@ without:
       %% 000;Without practice, you’ll forget it.;Без практики ты это забудешь.;0;
 
 <<<< Phrasal:
+by virtue of:
+  meanings:
+    Cause (причина): в силу, благодаря, на основании
+      %% 000;She got the position by virtue of her experience.;Она получила должность благодаря своему опыту.;0;
+      %% 000;By virtue of his authority, he made the final decision.;На основании своих полномочий он принял окончательное решение.;0;
+      %% 000;They acted by virtue of the law.;Они действовали в соответствии с законом.;0;
+by reason of:
+  meanings:
+    Cause (причина): по причине, ввиду
+      %% 000;He was excused by reason of illness.;Он был освобождён по причине болезни.;0;
+      %% 000;She was acquitted by reason of insanity.;Она была оправдана по причине невменяемости.;0;
+      %% 000;By reason of his age, he was not eligible.;По возрасту он не подходил.;0;
+away from:
+  meanings:
+    Direction (направление): вдали от, прочь от
+      %% 000;Stay away from the edge.;Держись подальше от края.;0;
+      %% 000;He moved away from the fire.;Он отошёл от огня.;0;
+      %% 000;Keep the chemicals away from children.;Держите химикаты подальше от детей.;0;
+across from:
+  meanings:
+    Place (место): напротив, по другую сторону от
+      %% 000;The café is across from the library.;Кафе напротив библиотеки.;0;
+      %% 000;He sat across from me during lunch.;Он сидел напротив меня за обедом.;0;
+      %% 000;There’s a gas station across from the hotel.;Напротив отеля есть заправка.;0;
+alongside:
+  meanings:
+    Place (место): рядом с, вдоль
+      %% 000;He parked the car alongside the curb.;Он припарковал машину у тротуара.;0;
+      %% 000;They worked alongside each other.;Они работали бок о бок.;0;
+      %% 000;The ship sailed alongside the pier.;Корабль шёл вдоль пирса.;0;
 as a result of:
   meanings:
     Cause (причина): в результате, вследствие
