@@ -1,15 +1,14 @@
-поставить ближе phrasal и collocations?⠁
-пройтись еще раз по всем collocations - может можно накопать еще где их мало?⠉
-Употребление предлогов в английском языке: как найти нужный
-  ex. нужно употребить предлог "на": несколько вариантов его перевода на английский – on, to, onto, at, for.
-!!!! составить справочник предлогов по структуре⠋
-!!!! отдельные топики сравнения всякиех популярных групп предлогов⠋
-  типа in или on? - популярные русские ошибки⠋
->>>> (LGG) Hybrid Connectives⠉
->>>> добавить таблички с предлогами по месту времени и тд чтобы fill questions делать⠉
->>>> Предлоги, наречия и союзы - добавить тесты где нужно отличить одно от другого⠉
-  Предлог или союз?⠉
-  Предлог или наречие?⠉
+!!!! добить справочник предлогов по структуре⠋
+  пройтись еще раз по всем collocations - может можно накопать еще где их мало?⠁
+  проверить на наличие дубликатов⠉
+
+добавить тестов на позицию предлогов⠉
+Предлог или союз или наречие?⠉
+  Предлог или союз?⠁
+  Предлог или наречие?⠁
+как выражать время предлогами? - типа часы даты и тд⠉
+  в отдельный топик часы и даты?⠁
+>>>> (LGG) Hybrid Connectives⠛
 
 <<<< Common <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 Не меняют своей формы.
@@ -17,7 +16,6 @@
 Значение определяется контекстом.
 Иногда выражают падежные отношения.
 Участвуют в устойчивых сочетаниях (collocations, фразовые выражения).
-добавить тестов на позицию предлогов⠉
 Позиция предлогов:
   Перед дополнением (стандартный порядок).
   В конце вопросительного предложения.
@@ -26,8 +24,6 @@
   В конце пассивной конструкции.
   В конце конструкций с инфинитивом или герундием.
   Перед вопросительным или относительным словом (в формальном стиле).
-
-<<<< notes <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 <<<<<<<<<<<< Справочник <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 <<<< Defenitions <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
@@ -870,7 +866,7 @@ for:
       %% 000;I can vouch for his honesty.;Я могу поручиться за его честность.;0;
       %% 000;She vouched for the quality of the product.;Она поручилась за качество товара.;0;
       %% 000;They vouched for each other’s character.;Они поручились за характер друг друга.;0;
-from: 
+from:
   meanings:
     Direction (направление): от, из
       %% 000;I got a letter from my friend.;Я получил письмо от друга.;0;
@@ -969,7 +965,6 @@ from:
       %% 000;He resigned from his position.;Он ушёл со своей должности.;0;
       %% 000;She resigned from the board of directors.;Она ушла из совета директоров.;0;
       %% 000;They resigned from the project.;Они вышли из проекта.;0;
->>>>
 in:
   meanings:
     Place (место): в, внутри
@@ -1191,17 +1186,26 @@ near:
       %% 000;There’s a café near the park.;Там кафе рядом с парком.;0;
       %% 000;He stood near the door.;Он стоял у двери.;0;
       %% 000;She lives near the station.;Она живёт возле станции.;0;
-near to:
-  meanings:
-    Place/Approximation (близость): рядом с, около (более разговорный или усиленный вариант "near")
-      %% 000;The school is near to the library.;Школа рядом с библиотекой.;0;
-      %% 000;He came near to tears.;Он был близок к слезам.;0;
-      %% 000;We are near to finishing the project.;Мы почти закончили проект.;0;
-
-
-
-
-
+  related_phrasal:
+    near to:
+      meanings:
+        Place/Approximation (близость): рядом с, около (более разговорный или усиленный вариант "near")
+          %% 000;The school is near to the library.;Школа рядом с библиотекой.;0;
+          %% 000;He came near to tears.;Он был близок к слезам.;0;
+          %% 000;We are near to finishing the project.;Мы почти закончили проект.;0;
+  collocations:
+    close to: близко к
+      %% 000;My house is close to the school.;Мой дом рядом со школой.;0;
+      %% 000;She stood close to me.;Она стояла рядом со мной.;0;
+      %% 000;The library is close to the university.;Библиотека находится рядом с университетом.;0;
+    near to: рядом с, возле (более формально и реже)
+      %% 000;The hotel is near to the beach.;Отель находится рядом с пляжем.;0;
+      %% 000;He parked near to the entrance.;Он припарковался возле входа.;0;
+      %% 000;They live near to the city center.;Они живут рядом с центром города.;0;
+    near miss: опасное приближение, почти что (в негативном контексте)
+      %% 000;It was a near miss — the car almost hit us.;Это было почти столкновение — машина чуть не сбила нас.;0;
+      %% 000;They had a near miss during takeoff.;У них было опасное сближение при взлёте.;0;
+      %% 000;That was a near miss — too close for comfort.;Это было слишком близко — едва не попали.;0;
 of:
   meanings:
     Possession (принадлежность): чей-то, из
@@ -1245,19 +1249,6 @@ of:
         %% 000;She chose tea instead of coffee.;Она выбрала чай вместо кофе.;0;
         %% 000;Let’s walk instead of taking the bus.;Давай пойдём пешком вместо автобуса.;0;
         %% 000;He used wood instead of metal.;Он использовал дерево вместо металла.;0;
-    out of:
-      Direction (направление): из, наружу
-        %% 000;He walked out of the room.;Он вышел из комнаты.;0;
-        %% 000;Take it out of the bag.;Достань это из сумки.;0;
-        %% 000;She ran out of the house.;Она выбежала из дома.;0;
-      Cause (причина): из-за, вследствие
-        %% 000;He acted out of fear.;Он поступил из страха.;0;
-        %% 000;She called out of concern.;Она позвонила из-за беспокойства.;0;
-        %% 000;They left out of boredom.;Они ушли от скуки.;0;
-      Absence (отсутствие): без, вне
-        %% 000;We’re out of time.;У нас нет времени.;0;
-        %% 000;They’re out of money.;У них нет денег.;0;
-        %% 000;I’m out of ideas.;У меня закончились идеи.;0;
     regardless of:
       Concession (уступка): несмотря на
         %% 000;We’ll proceed regardless of the risk.;Мы продолжим, несмотря на риск.;0;
@@ -1323,6 +1314,29 @@ off:
       %% 000;The light is off.;Свет выключен.;0;
       %% 000;The alarm went off.;Сработала сигнализация.;0;
       %% 000;The system is off for maintenance.;Система отключена для обслуживания.;0;
+  related_phrasal:
+    off of:
+      Direction (направление): с поверхности (разговорное, особенно в американском английском)
+        %% 000;He jumped off of the couch.;Он спрыгнул с дивана.;0;
+        %% 000;Take the book off of the shelf.;Сними книгу с полки.;0;
+        %% 000;She brushed dust off of her coat.;Она стряхнула пыль с пальто.;0;
+  collocations:
+    fall off: упасть с
+      %% 000;He fell off the ladder.;Он упал с лестницы.;0;
+      %% 000;The picture fell off the wall.;Картина упала со стены.;0;
+      %% 000;She fell off her bike.;Она упала с велосипеда.;0;
+    get off: сойти, выйти (из транспорта)
+      %% 000;We got off at the next station.;Мы вышли на следующей станции.;0;
+      %% 000;He got off the bus.;Он сошёл с автобуса.;0;
+      %% 000;She got off the train early.;Она рано сошла с поезда.;0;
+    go off: сработать, взорваться, отключиться
+      %% 000;The fire alarm went off at night.;Пожарная сигнализация сработала ночью.;0;
+      %% 000;The bomb went off.;Бомба взорвалась.;0;
+      %% 000;My phone went off in the middle of the meeting.;Телефон зазвонил посреди встречи.;0;
+    turn off: выключить
+      %% 000;Please turn off the lights.;Пожалуйста, выключи свет.;0;
+      %% 000;She turned off the computer.;Она выключила компьютер.;0;
+      %% 000;He turned off the TV and left.;Он выключил телевизор и ушёл.;0;
 on:
   meanings:
     Place (место): на (поверхности)
@@ -1357,6 +1371,11 @@ on:
         %% 000;Put the book on top of the pile.;Положи книгу на вершину стопки.;0;
         %% 000;The statue stands on top of the hill.;Статуя стоит на вершине холма.;0;
         %% 000;There’s a label on top of the box.;На коробке есть наклейка.;0;
+    on behalf of:
+      Representation (от имени): от имени, по поручению
+        %% 000;I’m writing on behalf of my manager.;Я пишу от имени моего менеджера.;0;
+        %% 000;He spoke on behalf of the whole team.;Он говорил от имени всей команды.;0;
+        %% 000;They acted on behalf of the organization.;Они действовали от лица организации.;0;
   collocations:
     agree on: договориться о
       %% 000;We couldn’t agree on a date.;Мы не смогли договориться о дате.;0;
@@ -1402,8 +1421,12 @@ on:
       %% 000;You can rely on her advice.;Ты можешь положиться на её совет.;0;
       %% 000;We rely on donations to survive.;Мы живём за счёт пожертвований.;0;
       %% 000;He relies on his instincts.;Он полагается на свои инстинкты.;0;
+    keep an eye on: присматривать за
+      %% 000;Can you keep an eye on my bag?;Можешь присмотреть за моей сумкой?;0;
+      %% 000;Keep an eye on the oven.;Следи за духовкой.;0;
+      %% 000;She asked me to keep an eye on the kids.;Она попросила присмотреть за детьми.;0;
 out:
-  meanings: ???? что здесь делает out of? это же фразовый⠁
+  meanings:
     Direction (направление): из, наружу
       %% 000;He went out of the room.;Он вышел из комнаты.;0;
       %% 000;She looked out the window.;Она выглянула в окно.;0;
@@ -1412,6 +1435,38 @@ out:
       %% 000;The lights are out.;Свет выключен.;0;
       %% 000;The fire went out.;Огонь погас.;0;
       %% 000;The website is out of service.;Сайт не работает.;0;
+  related_phrasal:
+    out of:
+      Direction (направление): из, наружу
+        %% 000;He walked out of the room.;Он вышел из комнаты.;0;
+        %% 000;Take it out of the bag.;Достань это из сумки.;0;
+        %% 000;She ran out of the house.;Она выбежала из дома.;0;
+      Cause (причина): из-за, вследствие
+        %% 000;He acted out of fear.;Он поступил из страха.;0;
+        %% 000;She called out of concern.;Она позвонила из-за беспокойства.;0;
+        %% 000;They left out of boredom.;Они ушли от скуки.;0;
+      Absence (отсутствие): без, вне
+        %% 000;We’re out of time.;У нас нет времени.;0;
+        %% 000;They’re out of money.;У них нет денег.;0;
+        %% 000;I’m out of ideas.;У меня закончились идеи.;0;
+  collocations:
+    run out: закончиться
+      %% 000;We’ve run out of milk.;У нас закончилось молоко.;0;
+      %% 000;Time is running out.;Время на исходе.;0;
+      %% 000;She ran out of patience.;У неё закончились терпение.;0;
+    break out: разразиться, вспыхнуть
+      %% 000;A fire broke out in the kitchen.;В кухне вспыхнул пожар.;0;
+      %% 000;War broke out unexpectedly.;Война началась неожиданно.;0;
+      %% 000;A fight broke out at the bar.;В баре началась драка.;0;
+    get out: выбраться, выйти
+      %% 000;Get out of the car.;Выходи из машины.;0;
+      %% 000;He got out safely.;Он благополучно выбрался.;0;
+      %% 000;I told him to get out.;Я сказал ему уйти.;0;
+    out cold: без сознания, вырублен
+      %% 000;He was knocked out cold.;Его вырубили.;0;
+      %% 000;She fainted and was out cold for a minute.;Она потеряла сознание на минуту.;0;
+      %% 000;The boxer was out cold after the punch.;Боксер был без сознания после удара.;0;
+>>>>
 over:
   meanings:
     Direction (направление): через, над
