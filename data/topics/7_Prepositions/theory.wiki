@@ -1,11 +1,12 @@
-!!!! добить справочник предлогов по структуре⠋
-  пройтись еще раз по всем collocations - может можно накопать еще где их мало?⠁
+добить справочник предлогов по структуре⠋
   проверить на наличие дубликатов⠉
-
-добавить тестов на позицию предлогов⠉
+  под каждым предлогом добавить описание и чем отличается⠁
+добавить тестов на позицию предлогов⠁
 Предлог или союз или наречие?⠉
   Предлог или союз?⠁
+    список союзов⠉
   Предлог или наречие?⠁
+    что такое наречие⠋
 как выражать время предлогами? - типа часы даты и тд⠉
   в отдельный топик часы и даты?⠁
 >>>> (LGG) Hybrid Connectives⠛
@@ -99,7 +100,15 @@ absent:
       %% 000;Absent clear evidence, the case was dropped.;При отсутствии доказательств дело закрыли.;0;
       %% 000;He acted absent any instructions.;Он действовал без каких-либо указаний.;0;
   related_phrasal: {}
-  collocations: {}
+  collocations:
+    absent from: отсутствующий на/в
+      %% 000;He was absent from school yesterday.;Вчера он отсутствовал в школе.;0;
+      %% 000;Her name is absent from the list.;Её имя отсутствует в списке.;0;
+      %% 000;Several members were absent from the meeting.;Несколько участников отсутствовали на встрече.;0;
+    absent minded: рассеянный, забывчивый
+      %% 000;He’s so absent minded these days.;Он в последнее время такой рассеянный.;0;
+      %% 000;Her absent minded behavior worried us.;Её рассеянное поведение нас беспокоило.;0;
+      %% 000;He left his phone at home again — absent minded as usual.;Он снова забыл телефон дома — как всегда рассеянный.;0;
 amidst:
   meanings:
     Place (место): среди, посреди
@@ -128,6 +137,10 @@ amongst:
       %% 000;She is numbered amongst the elite scientists.;Она входит в число ведущих учёных.;0;
       %% 000;He is numbered amongst our greatest poets.;Он входит в число величайших поэтов.;0;
       %% 000;This project is numbered amongst our top priorities.;Этот проект входит в число наших главных приоритетов.;0;
+    discussion amongst: обсуждение среди
+      %% 000;There was discussion amongst the board members.;Среди членов совета было обсуждение.;0;
+      %% 000;The news sparked debate amongst the students.;Новости вызвали споры среди студентов.;0;
+      %% 000;There was panic amongst the crowd.;В толпе началась паника.;0;
 bar:
   meanings:
     Exclusion (исключение): кроме, за исключением (формально/юридически)
@@ -140,14 +153,27 @@ bar:
       %% 000;She’s the best dancer in the group, bar none.;Она лучшая танцовщица в группе, без исключения.;0;
       %% 000;His performance was the best, bar none.;Его выступление было лучшим, вне конкуренции.;0;
       %% 000;That was the most exciting game this season, bar none.;Это была самая захватывающая игра сезона, без исключения.;0;
+    bar entry: отказ во входе, запрет на вход
+      %% 000;He was barred entry due to lack of ID.;Ему отказали во входе из-за отсутствия удостоверения личности.;0;
+      %% 000;The rules bar entry to minors.;Правила запрещают вход несовершеннолетним.;0;
+      %% 000;They bar entry to unauthorized personnel.;Вход неавторизованным лицам запрещён.;0;
 beneath:
   meanings:
     Place (место): под, ниже
       %% 000;The pen was beneath the table.;Ручка была под столом.;0;
       %% 000;The valley lay beneath the mountain.;Долина лежала под горой.;0;
       %% 000;She looked beneath the surface.;Она посмотрела под поверхность.;0;
-  related_phrasal: {}
-  collocations: {}
+  related_phrasal:
+    beneath the surface:
+      Figurative (переносное значение): под поверхностью, глубже, скрыто
+        %% 000;There’s more going on beneath the surface.;Под поверхностью происходит больше, чем кажется.;0;
+        %% 000;He seems fine, but beneath the surface he’s struggling.;Он кажется в порядке, но внутри у него трудности.;0;
+        %% 000;The novel explores what lies beneath the surface of society.;Роман исследует то, что скрывается под поверхностью общества.;0;
+  collocations:
+    beneath contempt: ниже всякого презрения
+      %% 000;His actions were beneath contempt.;Его поступки были ниже всякого презрения.;0;
+      %% 000;She thinks lying is beneath contempt.;Она считает ложь ниже всякого презрения.;0;
+      %% 000;Such behavior is simply beneath contempt.;Такое поведение просто недопустимо.;0;
 circa:
   meanings:
     Time (время): около, примерно (о датах)
@@ -155,7 +181,11 @@ circa:
       %% 000;The event happened circa the 12th century.;Событие произошло около XII века.;0;
       %% 000;He was born circa 1943.;Он родился примерно в 1943 году.;0;
   related_phrasal: {}
-  collocations: {}
+  collocations:
+    circa date: приблизительная дата
+      %% 000;The artifact dates to circa 1200 BCE.;Артефакт датируется примерно 1200 г. до н. э.;0;
+      %% 000;Circa dates are often used in archaeology.;Приблизительные даты часто используются в археологии.;0;
+      %% 000;This document was signed circa 1900.;Этот документ был подписан около 1900 года.;0;
 despite:
   meanings:
     Concession (уступка): несмотря на
@@ -163,7 +193,11 @@ despite:
       %% 000;She succeeded despite the odds.;Она добилась успеха несмотря ни на что.;0;
       %% 000;Despite his age, he’s very active.;Несмотря на возраст, он очень активен.;0;
   related_phrasal: {}
-  collocations: {}
+  collocations:
+    despite all odds: несмотря ни на что
+      %% 000;Despite all odds, they survived.;Несмотря ни на что, они выжили.;0;
+      %% 000;She succeeded despite all odds.;Она добилась успеха несмотря ни на что.;0;
+      %% 000;The team won despite all odds.;Команда победила, несмотря на все трудности.;0;
 except:
   meanings:
     Exclusion (исключение): кроме
@@ -176,7 +210,11 @@ except:
         %% 000;Everyone came except for John.;Все пришли, кроме Джона.;0;
         %% 000;The room was empty except for a chair.;Комната была пуста, если не считать стула.;0;
         %% 000;I’ve finished all the tasks except for one.;Я закончил все задачи, кроме одной.;0;
-  collocations: {}
+  collocations:
+    no one except: никто, кроме
+      %% 000;No one except you knew the answer.;Никто, кроме тебя, не знал ответ.;0;
+      %% 000;No one except her can do it.;Только она может это сделать.;0;
+      %% 000;No one except the manager was allowed inside.;Только менеджеру было разрешено войти внутрь.;0;
 minus:
   meanings:
     Exclusion (вычитание): за вычетом, минус
@@ -184,22 +222,40 @@ minus:
       %% 000;Everyone minus Mark agreed.;Все, кроме Марка, согласились.;0;
       %% 000;Minus the fees, we earned $500.;За вычетом комиссий мы заработали $500.;0;
   related_phrasal: {}
-  collocations: {}
+  collocations:
+    minus sign: знак минус
+      %% 000;Don't forget the minus sign in the equation.;Не забудь знак минус в уравнении.;0;
+      %% 000;The temperature dropped below zero, showing a minus sign.;Температура опустилась ниже нуля, появился знак минус.;0;
+      %% 000;He mistook the minus sign for a dash.;Он перепутал знак минус с тире.;0;
 opposite:
   meanings:
     Place (место): напротив
       %% 000;The school is opposite the bank.;Школа находится напротив банка.;0;
       %% 000;She sat opposite me.;Она сидела напротив меня.;0;
       %% 000;They live opposite the park.;Они живут напротив парка.;0;
-  related_phrasal: {}
-  collocations: {}
+  related_phrasal:
+    opposite to:
+      Comparison (сравнение): противоположный, в отличие от
+        %% 000;His view is opposite to mine.;Его мнение противоположно моему.;0;
+        %% 000;This result is opposite to what we expected.;Этот результат противоположен нашим ожиданиям.;0;
+        %% 000;Their goals are opposite to ours.;Их цели противоположны нашим.;0;
+  collocations:
+    sit opposite: сидеть напротив
+      %% 000;He sat opposite his teacher.;Он сел напротив учителя.;0;
+      %% 000;They sat opposite each other in silence.;Они молча сидели напротив друг друга.;0;
+      %% 000;She sat opposite me and smiled.;Она села напротив меня и улыбнулась.;0;
 save:
   meanings:
     Concession (исключение): кроме, за исключением (формально)
       %% 000;Everyone was asleep save the guard.;Все спали, кроме охранника.;0;
       %% 000;Save a few errors, the essay was good.;За исключением нескольких ошибок, эссе было хорошим.;0;
       %% 000;Save for later discussion, we’ll skip this.;За неимением времени, пропустим это сейчас.;0;
-  related_phrasal: {}
+  related_phrasal:
+    save for:
+      Exception (исключение): за исключением, если не считать
+        %% 000;Save for one small detail, everything is perfect.;Если не считать одной мелочи, всё идеально.;0;
+        %% 000;The day went well, save for the rain.;День прошёл хорошо, если не считать дождя.;0;
+        %% 000;Everyone agreed, save for John.;Все согласились, кроме Джона.;0;
   collocations: {}
 versus:
   meanings:
@@ -208,7 +264,11 @@ versus:
       %% 000;It’s always a question of nature versus nurture.;Это всегда вопрос природы против воспитания.;0;
       %% 000;Team A versus Team B is the final match.;Команда A против команды B — финал.;0;
   related_phrasal: {}
-  collocations: {}
+  collocations:
+    A vs B: A против B (сокращённая форма)
+      %% 000;It’s democracy vs authoritarianism.;Это демократия против авторитаризма.;0;
+      %% 000;Man vs nature is a common theme.;Человек против природы — распространённая тема.;0;
+      %% 000;It’s logic vs emotion in this debate.;В этом споре — логика против эмоций.;0;
 like:
   meanings:
     Comparison (сравнение): как, подобно, наподобие
@@ -270,7 +330,12 @@ past:
       %% 000;She’s past caring.;Ей уже всё равно.;0;
       %% 000;He’s past his prime.;Он уже не в лучшей форме.;0;
       %% 000;I can’t get past this problem.;Я не могу справиться с этой проблемой.;0;
-  related_phrasal: {}
+  related_phrasal:
+    past the point of:
+      Limit/Threshold (граница, предел): за пределами, уже поздно
+        %% 000;We’re past the point of no return.;Мы прошли точку невозврата.;0;
+        %% 000;He’s past the point of caring.;Ему уже всё равно.;0;
+        %% 000;The discussion is past the point of being useful.;Обсуждение уже бесполезно.;0;
   collocations:
     get past: преодолеть, справиться
       %% 000;I can’t get past the loss.;Я не могу пережить эту утрату.;0;
@@ -294,7 +359,12 @@ below:
       %% 000;His performance was below average.;Его результат был ниже среднего.;0;
       %% 000;Temperatures dropped below zero.;Температура опустилась ниже нуля.;0;
       %% 000;She ranks below him in the company.;Она ниже его по должности в компании.;0;
-  related_phrasal: {}
+  related_phrasal:
+    below the surface:
+      Metaphor (подтекст, глубинный уровень): под поверхностью, вглубь
+        %% 000;There’s more going on below the surface.;Под поверхностью происходит нечто большее.;0;
+        %% 000;She seems calm, but below the surface, she’s anxious.;Она кажется спокойной, но внутри волнуется.;0;
+        %% 000;Look below the surface to understand the real issue.;Посмотри глубже, чтобы понять настоящую проблему.;0;
   collocations:
     fall below: опуститься ниже
       %% 000;Sales fell below expectations.;Продажи оказались ниже ожиданий.;0;
@@ -1466,7 +1536,6 @@ out:
       %% 000;He was knocked out cold.;Его вырубили.;0;
       %% 000;She fainted and was out cold for a minute.;Она потеряла сознание на минуту.;0;
       %% 000;The boxer was out cold after the punch.;Боксер был без сознания после удара.;0;
->>>>
 over:
   meanings:
     Direction (направление): через, над
@@ -1477,24 +1546,76 @@ over:
       %% 000;They argued over money.;Они спорили из-за денег.;0;
       %% 000;She cried over the news.;Она плакала из-за новостей.;0;
       %% 000;He got angry over nothing.;Он разозлился из-за пустяка.;0;
+    Time (время): в течение, за
+      %% 000;We stayed there over the weekend.;Мы пробыли там в течение выходных.;0;
+      %% 000;Over the years, I’ve learned a lot.;За эти годы я многому научился.;0;
+      %% 000;She improved a lot over the course of the year.;Она сильно улучшилась за год.;0;
+    Control (контроль/власть): над
+      %% 000;He has control over the budget.;Он контролирует бюджет.;0;
+      %% 000;The manager presides over the meeting.;Менеджер председательствует на собрании.;0;
+      %% 000;Parents worry over their children.;Родители переживают за своих детей.;0;
+  related_phrasal: {}
+  collocations:
+    take over: захватить, взять под контроль
+      %% 000;The company was taken over by a rival.;Компания была поглощена конкурентом.;0;
+      %% 000;He took over the project.;Он взял проект под своё руководство.;0;
+      %% 000;Let me take over from here.;Позволь мне продолжить отсюда.;0;
+    get over: оправиться, пережить
+      %% 000;She got over the flu quickly.;Она быстро оправилась от гриппа.;0;
+      %% 000;It took him a while to get over the breakup.;Ему понадобилось время, чтобы пережить разрыв.;0;
+      %% 000;I can’t get over how beautiful this is.;Я не могу перестать восхищаться, как это красиво.;0;
+    go over: просматривать, перепроверять
+      %% 000;Let’s go over the details.;Давайте пересмотрим детали.;0;
+      %% 000;I need to go over my notes before the test.;Мне нужно просмотреть записи перед экзаменом.;0;
+      %% 000;The teacher went over the answers with us.;Учитель с нами разобрал ответы.;0;
 per:
   meanings:
     Ratio (соотношение): за, на
       %% 000;60 miles per hour.;60 миль в час.;0;
       %% 000;Ten dollars per person.;Десять долларов с человека.;0;
       %% 000;One pill per day.;Одна таблетка в день.;0;
+    According to (согласно): согласно (редко, формально)
+      %% 000;Per your request, we’ve sent the documents.;Согласно вашему запросу, мы отправили документы.;0;
+      %% 000;Per company policy, you must sign first.;Согласно политике компании, вы должны сначала подписать.;0;
+      %% 000;Per the schedule, the meeting starts at 9.;Согласно расписанию, встреча начинается в 9.;0;
+  related_phrasal: {}
+  collocations:
+    as per: в соответствии с
+      %% 000;As per our agreement, payment is due today.;Согласно нашему соглашению, платёж должен быть сегодня.;0;
+      %% 000;Everything is arranged as per your instructions.;Всё устроено согласно вашим указаниям.;0;
+      %% 000;As per usual, he was late.;Как обычно, он опоздал.;0;
 till:
   meanings:
     Time (время): до
       %% 000;Wait till I get back.;Подожди, пока я не вернусь.;0;
       %% 000;She stayed till midnight.;Она оставалась до полуночи.;0;
       %% 000;The store is open till 10 PM.;Магазин открыт до 10 вечера.;0;
+  related_phrasal: {}
+  collocations:
+    not till: не раньше чем, только когда
+      %% 000;Don’t open the present till your birthday.;Не открывай подарок до дня рождения.;0;
+      %% 000;You can’t go out till you finish your homework.;Ты не можешь выйти, пока не сделаешь уроки.;0;
+      %% 000;Not till I say so.;Только когда я скажу.;0;
+    wait till: подожди пока
+      %% 000;Wait till I’m ready.;Подожди, пока я буду готов.;0;
+      %% 000;Wait till you hear this.;Подожди, пока не услышишь это.;0;
+      %% 000;Wait till she finds out.;Подожди, пока она узнает.;0;
 until:
   meanings:
     Time (время): до
       %% 000;Wait until I get back.;Подожди, пока я не вернусь.;0;
       %% 000;She stayed until midnight.;Она оставалась до полуночи.;0;
       %% 000;The store is open until 10 PM.;Магазин открыт до 10 вечера.;0;
+  related_phrasal: {}
+  collocations:
+    not until: не раньше чем, только когда
+      %% 000;Not until tomorrow will I know the result.;Я узнаю результат не раньше завтрашнего дня.;0;
+      %% 000;He didn’t leave until the end.;Он не ушёл до самого конца.;0;
+      %% 000;She won’t call until she arrives.;Она не позвонит, пока не приедет.;0;
+    until now: до сих пор
+      %% 000;Until now, we had no problems.;До сих пор у нас не было проблем.;0;
+      %% 000;He hadn’t realized it until now.;Он не осознавал этого до настоящего момента.;0;
+      %% 000;Everything went smoothly until now.;Всё шло гладко до этого момента.;0;
 to:
   meanings:
     Recipient (получатель): кому, в адрес
@@ -1691,6 +1812,37 @@ under:
       %% 000;Under pressure, he confessed.;Под давлением он признался.;0;
       %% 000;Under these circumstances, we agree.;В этих обстоятельствах мы соглашаемся.;0;
       %% 000;He worked under stress.;Он работал в стрессовых условиях.;0;
+  related_phrasal:
+    under way:
+      Process (процесс): в процессе, в разгаре
+        %% 000;The project is already under way.;Проект уже в процессе.;0;
+        %% 000;Preparations are under way for the festival.;Идёт подготовка к фестивалю.;0;
+        %% 000;Negotiations are currently under way.;Переговоры в данный момент продолжаются.;0;
+  collocations:
+    under control: под контролем
+      %% 000;The situation is under control.;Ситуация под контролем.;0;
+      %% 000;Keep your emotions under control.;Держи свои эмоции под контролем.;0;
+      %% 000;The fire is finally under control.;Огонь наконец-то под контролем.;0;
+    under pressure: под давлением
+      %% 000;He performs well under pressure.;Он хорошо справляется под давлением.;0;
+      %% 000;She’s under a lot of pressure at work.;У неё сильное давление на работе.;0;
+      %% 000;The team collapsed under pressure.;Команда не выдержала давления.;0;
+    under the impression: под впечатлением (ошибочным)
+      %% 000;I was under the impression you’d left.;Я был под впечатлением, что ты ушёл.;0;
+      %% 000;She’s under the impression everything’s fine.;Она думает, что всё в порядке.;0;
+      %% 000;He was under the impression she liked him.;Он думал, что он ей нравится.;0;
+    under construction: на стадии строительства
+      %% 000;The road is under construction.;Дорога на ремонте.;0;
+      %% 000;This building is still under construction.;Это здание ещё строится.;0;
+      %% 000;The website is under construction.;Сайт в разработке.;0;
+    under investigation: под расследованием
+      %% 000;The case is under investigation.;Дело расследуется.;0;
+      %% 000;He’s under investigation for fraud.;Он под следствием по делу о мошенничестве.;0;
+      %% 000;Several employees are under investigation.;Несколько сотрудников под следствием.;0;
+    under threat: под угрозой
+      %% 000;The species is under threat of extinction.;Вид под угрозой исчезновения.;0;
+      %% 000;His job is under threat.;Его работа под угрозой.;0;
+      %% 000;The area is under threat from flooding.;Району угрожает наводнение.;0;
 up:
   meanings:
     Direction (направление): вверх
@@ -1712,12 +1864,31 @@ up:
       %% 000;We’re up against a serious problem.;Мы столкнулись с серьёзной проблемой.;0;
       %% 000;They’re up against tough competition.;У них жёсткая конкуренция.;0;
       %% 000;You’ll be up against some challenges.;Ты столкнёшься с трудностями.;0;
+    up for: готов к, рассматривается
+      %% 000;I’m up for a challenge.;Я готов к вызову.;0;
+      %% 000;He’s up for promotion.;Он рассматривается на повышение.;0;
+      %% 000;Are you up for going out tonight?;Ты не против выбраться сегодня вечером?;0;
+    up and running: в рабочем состоянии
+      %% 000;The system is up and running.;Система работает.;0;
+      %% 000;We’ll be up and running by Monday.;Мы будем в рабочем режиме к понедельнику.;0;
+      %% 000;The website is finally up and running.;Сайт наконец-то работает.;0;
 via:
   meanings:
     Instrument (средство): через, посредством
       %% 000;Send it via email.;Отправь это по электронной почте.;0;
       %% 000;We came via Chicago.;Мы приехали через Чикаго.;0;
       %% 000;He learned about it via social media.;Он узнал об этом через соцсети.;0;
+  related_phrasal:
+    via email:
+      Instrument (средство): по электронной почте
+        %% 000;Please send your response via email.;Пожалуйста, отправьте свой ответ по электронной почте.;0;
+        %% 000;We received the invoice via email.;Мы получили счёт по email.;0;
+        %% 000;He contacted us via email yesterday.;Он связался с нами по email вчера.;0;
+  collocations:
+    access via: доступ через
+      %% 000;You can access the files via this link.;Вы можете получить доступ к файлам через эту ссылку.;0;
+      %% 000;The website is available via mobile.;Сайт доступен через мобильное устройство.;0;
+      %% 000;He logged in via Facebook.;Он вошёл через Facebook.;0;
 with:
   meanings:
     Manner (способ действия): с, используя
@@ -1734,7 +1905,7 @@ with:
       %% 000;I saw a cat with green eyes.;Я видел кошку с зелёными глазами.;0;
   related_phrasal:
     with a side of:
-      Manner (способ действия): с гарниром из, в придачу (букв. и перен.)
+      Manner (способ действия): с гарниром из, в придачу
         %% 000;I’ll take a burger with a side of fries.;Я возьму бургер с картошкой фри.;0;
         %% 000;She ordered fish with a side of salad.;Она заказала рыбу с салатом.;0;
         %% 000;The day came with a side of stress and traffic.;День выдался с "гарниром" из стресса и пробок.;0;
@@ -1744,27 +1915,27 @@ with:
         %% 000;She enrolled with a view to improving her skills.;Она записалась с целью улучшить свои навыки.;0;
         %% 000;We met with a view to cooperation.;Мы встретились с намерением сотрудничать.;0;
     with an eye to:
-      Purpose (цель): с прицелом на, с намерением
+      Purpose (цель): с прицелом на
         %% 000;He’s saving money with an eye to retirement.;Он копит деньги с прицелом на пенсию.;0;
         %% 000;They invested with an eye to future growth.;Они инвестировали с расчётом на будущий рост.;0;
         %% 000;She trained with an eye to competition.;Она тренировалась с прицелом на соревнование.;0;
     with an eye on:
-      Attention/Intent (внимание, прицел): рассчитывая на, держа в виду
+      Attention/Intent (внимание): рассчитывая на
         %% 000;She’s working with an eye on a promotion.;Она работает, рассчитывая на повышение.;0;
         %% 000;He acted with an eye on public opinion.;Он действовал с оглядкой на общественное мнение.;0;
         %% 000;They developed the product with an eye on international markets.;Они разрабатывали продукт с прицелом на международные рынки.;0;
     with reference to:
-      Topic/Reference (отсылка): ссылаясь на, относительно
+      Topic (отсылка): ссылаясь на
         %% 000;I am writing with reference to your recent email.;Пишу по поводу вашего недавнего письма.;0;
         %% 000;With reference to your request, here is the information.;Относительно вашего запроса — вот информация.;0;
         %% 000;The letter was sent with reference to the complaint.;Письмо было отправлено по поводу жалобы.;0;
     with regard to:
-      Topic (тема): относительно, в отношении
+      Topic (тема): относительно
         %% 000;With regard to your question, we have no comment.;Что касается вашего вопроса, у нас нет комментариев.;0;
         %% 000;With regard to pricing, we offer discounts.;Относительно цен мы предлагаем скидки.;0;
         %% 000;There were concerns with regard to safety.;Были опасения по поводу безопасности.;0;
     with respect to:
-      Topic (тема): что касается, с учетом
+      Topic (тема): что касается
         %% 000;With respect to your proposal, we need more time.;Что касается вашего предложения, нам нужно больше времени.;0;
         %% 000;With respect to the contract, changes are required.;По поводу контракта — необходимы изменения.;0;
         %% 000;There’s no issue with respect to delivery.;Нет проблем относительно доставки.;0;
@@ -1774,12 +1945,12 @@ with:
         %% 000;With the exception of this item, everything is in stock.;За исключением этого товара, всё есть в наличии.;0;
         %% 000;Everyone was invited, with the exception of her.;Были приглашены все, кроме неё.;0;
     with the help of:
-      Instrument (средство): с помощью, благодаря
+      Instrument (средство): с помощью
         %% 000;He solved the problem with the help of a calculator.;Он решил задачу с помощью калькулятора.;0;
         %% 000;With the help of friends, she moved quickly.;С помощью друзей она быстро переехала.;0;
         %% 000;They finished the task with the help of a guide.;Они выполнили задание с помощью гида.;0;
   collocations:
-    angry with: зол на кого-либо
+    angry with: зол на
       %% 000;I’m angry with him for being late.;Я зол на него за опоздание.;0;
       %% 000;She was angry with her friend.;Она злилась на подругу.;0;
       %% 000;Don’t be angry with me.;Не злись на меня.;0;
@@ -1787,7 +1958,7 @@ with:
       %% 000;He argued with his brother.;Он спорил с братом.;0;
       %% 000;I don’t want to argue with you.;Я не хочу с тобой спорить.;0;
       %% 000;She argued with the teacher about the grade.;Она спорила с учителем из-за оценки.;0;
-    bored with: скучающий от чего-либо
+    bored with: скучать от
       %% 000;I’m bored with this movie.;Мне скучно смотреть этот фильм.;0;
       %% 000;She’s bored with her job.;Ей наскучила работа.;0;
       %% 000;They were bored with the conversation.;Им наскучил разговор.;0;
@@ -1799,11 +1970,11 @@ with:
       %% 000;He competed with top athletes.;Он соревновался с лучшими спортсменами.;0;
       %% 000;Our company competes with global brands.;Наша компания конкурирует с мировыми брендами.;0;
       %% 000;She had to compete with her peers.;Ей пришлось соревноваться со сверстниками.;0;
-    comply with: соответствовать, подчиняться
+    comply with: подчиняться
       %% 000;You must comply with the rules.;Ты должен соблюдать правила.;0;
       %% 000;They complied with the new regulations.;Они соблюдали новые правила.;0;
       %% 000;The system complies with safety standards.;Система соответствует стандартам безопасности.;0;
-    connect with: установить связь с
+    connect with: наладить связь с
       %% 000;I connected with him immediately.;Я сразу нашёл с ним контакт.;0;
       %% 000;She connects with her audience well.;Она хорошо находит контакт с аудиторией.;0;
       %% 000;The police connected him with the crime.;Полиция связала его с преступлением.;0;
@@ -1811,7 +1982,7 @@ with:
       %% 000;She’s coping with stress.;Она справляется со стрессом.;0;
       %% 000;He couldn’t cope with the pressure.;Он не справился с давлением.;0;
       %% 000;I’m trying to cope with all the work.;Я пытаюсь справиться со всей работой.;0;
-    deal with: иметь дело с, справляться с
+    deal with: иметь дело с
       %% 000;I have to deal with a lot of problems.;Мне приходится решать много проблем.;0;
       %% 000;She’s dealing with a difficult client.;Она имеет дело со сложным клиентом.;0;
       %% 000;He knows how to deal with stress.;Он знает, как справляться со стрессом.;0;
@@ -1819,7 +1990,7 @@ with:
       %% 000;I’m disappointed with the results.;Я разочарован результатами.;0;
       %% 000;She was disappointed with his answer.;Она была разочарована его ответом.;0;
       %% 000;They’re disappointed with the service.;Они разочарованы обслуживанием.;0;
-    disgusted with: чувствовать отвращение к
+    disgusted with: испытывать отвращение
       %% 000;He was disgusted with the meal.;Он почувствовал отвращение к еде.;0;
       %% 000;She’s disgusted with his behavior.;Её тошнит от его поведения.;0;
       %% 000;I’m disgusted with politics.;Меня отвращает политика.;0;
@@ -1831,7 +2002,7 @@ with:
       %% 000;I’m familiar with this software.;Я знаком с этим программным обеспечением.;0;
       %% 000;She’s familiar with the process.;Она знакома с этим процессом.;0;
       %% 000;Are you familiar with the rules?;Ты знаком с правилами?;0;
-    help with: помочь с
+    help with: помогать с
       %% 000;Can you help me with this task?;Можешь помочь мне с этим заданием?;0;
       %% 000;He helped me with my homework.;Он помог мне с домашним заданием.;0;
       %% 000;She helped with the preparations.;Она помогала с подготовкой.;0;
@@ -1843,11 +2014,11 @@ with:
       %% 000;Children need to interact with others.;Детям нужно взаимодействовать с другими.;0;
       %% 000;He rarely interacts with colleagues.;Он редко общается с коллегами.;0;
       %% 000;She enjoys interacting with customers.;Ей нравится работать с клиентами.;0;
-    pleased with: доволен чем-либо
+    pleased with: доволен
       %% 000;I’m pleased with your progress.;Я доволен твоим прогрессом.;0;
       %% 000;She was pleased with the outcome.;Она осталась довольна результатом.;0;
       %% 000;They’re pleased with the new design.;Они довольны новым дизайном.;0;
-    popular with: популярен среди
+    popular with: популярен у
       %% 000;He’s popular with his classmates.;Он популярен среди одноклассников.;0;
       %% 000;The app is popular with teenagers.;Приложение популярно среди подростков.;0;
       %% 000;She’s very popular with customers.;Она очень популярна у клиентов.;0;
@@ -1859,11 +2030,11 @@ with:
       %% 000;We replaced the old chairs with new ones.;Мы заменили старые стулья на новые.;0;
       %% 000;Sugar can be replaced with honey.;Сахар можно заменить мёдом.;0;
       %% 000;They replaced the glass with plastic.;Они заменили стекло пластиком.;0;
-    respond with: ответить чем-либо
+    respond with: ответить
       %% 000;He responded with a smile.;Он ответил улыбкой.;0;
       %% 000;She responded with silence.;Она ответила молчанием.;0;
       %% 000;They responded with force.;Они ответили силой.;0;
-    satisfied with: доволен чем-либо
+    satisfied with: удовлетворён
       %% 000;I’m satisfied with the results.;Я доволен результатами.;0;
       %% 000;She wasn’t satisfied with the explanation.;Её не устроило объяснение.;0;
       %% 000;They’re satisfied with their purchase.;Они довольны своей покупкой.;0;
@@ -1881,16 +2052,22 @@ about:
       %% 000;There were about 50 people at the event.;На мероприятии было около 50 человек.;0;
       %% 000;I’ll be there in about an hour.;Я буду там примерно через час.;0;
       %% 000;She earns about $2,000 a month.;Она зарабатывает около 2000 долларов в месяц.;0;
+  related_phrasal:
+    about to:
+      Imminence (неминуемость): вот-вот, собираться
+        %% 000;He is about to leave.;Он вот-вот уйдёт.;0;
+        %% 000;I was about to call you.;Я собирался тебе позвонить.;0;
+        %% 000;The show is about to start.;Шоу вот-вот начнётся.;0;
   collocations:
     be about to: собираться (что-то сделать)
       %% 000;I was about to leave when she arrived.;Я собирался уйти, когда она пришла.;0;
       %% 000;He is about to start a new job.;Он вот-вот начнёт новую работу.;0;
       %% 000;We’re about to eat dinner.;Мы собираемся ужинать.;0;
-    anxious about: тревожиться о, волноваться из-за
+    anxious about: тревожиться о
       %% 000;She felt anxious about the exam.;Она волновалась из-за экзамена.;0;
       %% 000;I’m anxious about my future.;Я тревожусь за своё будущее.;0;
       %% 000;They’re anxious about the meeting.;Они переживают насчёт совещания.;0;
-    argue about: спорить о, ссориться из-за
+    argue about: спорить о
       %% 000;They always argue about money.;Они постоянно ссорятся из-за денег.;0;
       %% 000;We argued about politics.;Мы спорили о политике.;0;
       %% 000;Stop arguing about trivial things.;Прекрати спорить о пустяках.;0;
@@ -1898,7 +2075,7 @@ about:
       %% 000;He asked about your health.;Он спросил о твоём здоровье.;0;
       %% 000;She asked about the schedule.;Она спросила о расписании.;0;
       %% 000;I wanted to ask about the assignment.;Я хотел спросить о задании.;0;
-    care about: заботиться о, быть неравнодушным к
+    care about: заботиться о
       %% 000;I really care about you.;Ты мне действительно не безразличен.;0;
       %% 000;She cares about animals.;Она заботится о животных.;0;
       %% 000;They don’t care about the rules.;Им плевать на правила.;0;
@@ -1906,11 +2083,11 @@ about:
       %% 000;He complained about the noise.;Он пожаловался на шум.;0;
       %% 000;She’s always complaining about her job.;Она постоянно жалуется на свою работу.;0;
       %% 000;I want to complain about the service.;Я хочу пожаловаться на обслуживание.;0;
-    curious about: интересоваться чем-либо
+    curious about: интересоваться
       %% 000;I’m curious about other cultures.;Мне интересны другие культуры.;0;
       %% 000;She’s curious about your project.;Её интересует твой проект.;0;
       %% 000;They’re curious about the results.;Они интересуются результатами.;0;
-    dream about: мечтать о, видеть во сне
+    dream about: мечтать о
       %% 000;I often dream about flying.;Мне часто снится, что я лечу.;0;
       %% 000;He dreams about becoming a pilot.;Он мечтает стать пилотом.;0;
       %% 000;Did you dream about anything last night?;Тебе что-нибудь снилось прошлой ночью?;0;
@@ -1934,11 +2111,11 @@ about:
       %% 000;What’s your opinion about this?;Каково твоё мнение об этом?;0;
       %% 000;I have no opinion about the movie.;У меня нет мнения о фильме.;0;
       %% 000;Her opinion about politics is strong.;У неё твёрдое мнение о политике.;0;
-    optimistic about: быть оптимистом в отношении
+    optimistic about: оптимистично относиться к
       %% 000;I’m optimistic about the results.;Я настроен оптимистично по поводу результатов.;0;
       %% 000;She’s optimistic about her future.;Она с оптимизмом смотрит в будущее.;0;
       %% 000;We are optimistic about the outcome.;Мы надеемся на благоприятный исход.;0;
-    pessimistic about: быть пессимистом в отношении
+    pessimistic about: пессимистично относиться к
       %% 000;He’s pessimistic about his chances.;Он пессимистично оценивает свои шансы.;0;
       %% 000;I’m pessimistic about the weather.;Я настроен пессимистично насчёт погоды.;0;
       %% 000;They’re pessimistic about the reforms.;Они скептически относятся к реформам.;0;
@@ -1966,11 +2143,11 @@ about:
       %% 000;He’s upset about the results.;Он расстроен из-за результатов.;0;
       %% 000;She’s upset about what happened.;Она расстроена из-за произошедшего.;0;
       %% 000;They’re upset about the decision.;Они расстроены решением.;0;
-    worried about: обеспокоен чем-либо
+    worried about: обеспокоен
       %% 000;I’m worried about my exam.;Я переживаю из-за экзамена.;0;
       %% 000;She’s worried about her job.;Она беспокоится из-за работы.;0;
       %% 000;We’re worried about the future.;Мы тревожимся за будущее.;0;
-    worry about: переживать о, беспокоиться о
+    worry about: беспокоиться о
       %% 000;Don’t worry about it.;Не переживай об этом.;0;
       %% 000;You always worry about everything.;Ты всегда обо всём переживаешь.;0;
       %% 000;I try not to worry about the past.;Я стараюсь не переживать о прошлом.;0;
@@ -1988,6 +2165,12 @@ above:
       %% 000;She thinks she is above the rules.;Она считает себя выше правил.;0;
       %% 000;His rank is above mine.;Его звание выше моего.;0;
       %% 000;Morality is above law sometimes.;Иногда мораль выше закона.;0;
+  related_phrasal:
+    from above:
+      Direction (направление): сверху
+        %% 000;Light came from above.;Свет шёл сверху.;0;
+        %% 000;They watched us from above.;Они наблюдали за нами сверху.;0;
+        %% 000;Snow fell gently from above.;Снег мягко падал сверху.;0;
   collocations:
     above all: прежде всего, главным образом
       %% 000;Above all, be kind.;Прежде всего, будь добрым.;0;
@@ -2003,6 +2186,12 @@ across:
       %% 000;The store is across the road.;Магазин находится через дорогу.;0;
       %% 000;He lives across from me.;Он живёт напротив меня.;0;
       %% 000;We sat across the table from each other.;Мы сидели друг напротив друга.;0;
+  related_phrasal:
+    across from:
+      Place (место): напротив
+        %% 000;The school is across from the library.;Школа напротив библиотеки.;0;
+        %% 000;There’s a bench across from the bus stop.;Скамейка напротив автобусной остановки.;0;
+        %% 000;He sat across from his boss.;Он сидел напротив начальника.;0;
   collocations:
     come across: случайно встретить/натолкнуться
       %% 000;I came across an old friend yesterday.;Я случайно встретил старого друга вчера.;0;
@@ -2022,6 +2211,17 @@ after:
       %% 000;He’s after a promotion.;Он добивается повышения.;0;
       %% 000;She’s after a new job.;Она ищет новую работу.;0;
       %% 000;What are you after?;Чего ты добиваешься?;0;
+  related_phrasal:
+    go after:
+      Purpose (цель): стремиться к, добиваться
+        %% 000;He’s going after a new contract.;Он добивается нового контракта.;0;
+        %% 000;She went after her dreams.;Она шла за своей мечтой.;0;
+        %% 000;They went after the suspect.;Они погнались за подозреваемым.;0;
+    take after:
+      Resemblance (сходство): быть похожим на (родственника)
+        %% 000;He takes after his father.;Он похож на своего отца.;0;
+        %% 000;She takes after her grandmother.;Она пошла в бабушку.;0;
+        %% 000;I take after my uncle in temperament.;Я по характеру похож на дядю.;0;
   collocations:
     look after: присматривать за
       %% 000;Can you look after my dog?;Ты можешь присмотреть за моей собакой?;0;
@@ -2037,11 +2237,26 @@ against:
       %% 000;It’s against the law.;Это противозаконно.;0;
       %% 000;The team played against Brazil.;Команда играла против Бразилии.;0;
       %% 000;I’m against this decision.;Я против этого решения.;0;
+  related_phrasal:
+    go against:
+      Opposition (противоречие): идти против, нарушать
+        %% 000;It goes against my principles.;Это противоречит моим принципам.;0;
+        %% 000;He went against the rules.;Он пошёл против правил.;0;
+        %% 000;They went against public opinion.;Они пошли против общественного мнения.;0;
+    stand against:
+      Resistance (противостояние): противостоять, выступать против
+        %% 000;She stood against injustice.;Она выступала против несправедливости.;0;
+        %% 000;He stood against the new law.;Он выступал против нового закона.;0;
+        %% 000;They stood against the enemy.;Они противостояли врагу.;0;
   collocations:
     protect against: защищать от
       %% 000;This vaccine protects against the flu.;Эта вакцина защищает от гриппа.;0;
       %% 000;The sunscreen protects against UV rays.;Солнцезащитный крем защищает от УФ-лучей.;0;
       %% 000;They built a wall to protect against flooding.;Они построили стену для защиты от наводнения.;0;
+    defend against: обороняться от
+      %% 000;We must defend against cyber attacks.;Нам нужно защищаться от кибератак.;0;
+      %% 000;The castle was built to defend against invaders.;Замок был построен для защиты от захватчиков.;0;
+      %% 000;She defended herself against criticism.;Она защищалась от критики.;0;
 along:
   meanings:
     Direction (направление): вдоль
@@ -2058,11 +2273,20 @@ along:
         %% 000;He came along with his brother.;Он пришёл вместе со своим братом.;0;
         %% 000;I sent the letter along with the documents.;Я отправил письмо вместе с документами.;0;
         %% 000;Along with math, she teaches physics.;Кроме математики, она преподаёт физику.;0;
+    move along:
+      Direction (движение): проходить дальше, двигаться вперёд
+        %% 000;The police told the crowd to move along.;Полиция сказала толпе расходиться.;0;
+        %% 000;Let’s move along to the next point.;Давайте перейдём к следующему пункту.;0;
+        %% 000;He moved along the corridor.;Он прошёл по коридору.;0;
   collocations:
     get along with: ладить с кем-либо
       %% 000;They get along well.;Они хорошо ладят.;0;
       %% 000;Do you get along with your boss?;Ты ладишь со своим начальником?;0;
       %% 000;I don’t get along with her.;Я с ней не лажу.;0;
+    come along: идти вместе, сопровождать; продвигаться
+      %% 000;Come along with us to the party.;Пойдём с нами на вечеринку.;0;
+      %% 000;How’s your project coming along?;Как продвигается твой проект?;0;
+      %% 000;A taxi came along at just the right time.;Такси подъехало как раз вовремя.;0;
 amid:
   meanings:
     Place (место): среди, посреди, между (в окружении чего-либо)
@@ -2073,6 +2297,17 @@ amid:
       %% 000;The company collapsed amid a financial crisis.;Компания рухнула на фоне финансового кризиса.;0;
       %% 000;Amid growing tensions, talks resumed.;На фоне растущей напряжённости переговоры возобновились.;0;
       %% 000;He stayed calm amid chaos.;Он сохранял спокойствие в условиях хаоса.;0;
+  related_phrasal:
+    amid reports of:
+      Reference (ссылки на сообщения): на фоне сообщений о
+        %% 000;The CEO resigned amid reports of fraud.;Генеральный директор ушёл в отставку на фоне сообщений о мошенничестве.;0;
+        %% 000;Amid reports of unrest, the embassy closed.;На фоне сообщений о беспорядках посольство закрылось.;0;
+        %% 000;They canceled the event amid reports of violence.;Они отменили мероприятие на фоне сообщений о насилии.;0;
+  collocations:
+    calm amid: сохранять спокойствие посреди
+      %% 000;She stayed calm amid the chaos.;Она сохраняла спокойствие среди хаоса.;0;
+      %% 000;He remained calm amid criticism.;Он оставался спокойным на фоне критики.;0;
+      %% 000;Calm amid pressure is a valuable trait.;Спокойствие в условиях давления — ценное качество.;0;
 among:
   meanings:
     Place (место): среди (множества объектов или группы)
@@ -2083,6 +2318,21 @@ among:
       %% 000;Divide the cake among the children.;Раздели торт между детьми.;0;
       %% 000;The prize was shared among the winners.;Приз был разделён между победителями.;0;
       %% 000;They discussed it among themselves.;Они обсудили это между собой.;0;
+  related_phrasal:
+    among others:
+      Addition (дополнение): среди прочих
+        %% 000;He mentioned Tom, among others.;Он упомянул Тома среди прочих.;0;
+        %% 000;The law was criticized by journalists, among others.;Закон критиковали, среди прочих, и журналисты.;0;
+        %% 000;She works with refugees, among others.;Она работает, в числе прочих, с беженцами.;0;
+  collocations:
+    popular among: популярен среди
+      %% 000;This show is popular among teenagers.;Это шоу популярно среди подростков.;0;
+      %% 000;The app is popular among professionals.;Это приложение популярно среди профессионалов.;0;
+      %% 000;He’s well-known among scientists.;Он хорошо известен среди учёных.;0;
+    agreement among: согласие между
+      %% 000;There was agreement among all members.;Между всеми участниками было согласие.;0;
+      %% 000;They reached agreement among the parties.;Они достигли соглашения между сторонами.;0;
+      %% 000;Agreement among nations is hard to achieve.;Согласие между нациями сложно достичь.;0;
 around:
   meanings:
     Place (место): вокруг, по периметру
@@ -2097,17 +2347,51 @@ around:
       %% 000;He turned around quickly.;Он быстро развернулся.;0;
       %% 000;Look around and find a seat.;Оглядись и найди место.;0;
       %% 000;We drove around for hours.;Мы катались по округе несколько часов.;0;
+  related_phrasal:
+    around the corner:
+      Place/Time (место/время): за углом, скоро
+        %% 000;The store is just around the corner.;Магазин прямо за углом.;0;
+        %% 000;There’s a coffee shop around the corner.;За углом есть кофейня.;0;
+        %% 000;Summer is just around the corner.;Лето уже не за горами.;0;
+    all around:
+      Place (место): повсюду, везде
+        %% 000;There was laughter all around.;Повсюду был смех.;0;
+        %% 000;Flowers grew all around the house.;Цветы росли по всему дому.;0;
+        %% 000;People were dancing all around.;Повсюду танцевали люди.;0;
   collocations:
     get around: передвигаться, распространяться, избегать
       %% 000;She gets around with a cane.;Она передвигается с тростью.;0;
       %% 000;The news got around fast.;Новость быстро распространилась.;0;
       %% 000;He found a way to get around the rule.;Он нашёл способ обойти правило.;0;
+    look around: осмотреться
+      %% 000;Let’s look around the city.;Давайте осмотрим город.;0;
+      %% 000;He looked around the room.;Он оглядел комнату.;0;
+      %% 000;They looked around for a place to sit.;Они искали, где присесть.;0;
+    turn around: обернуться, изменить ход событий
+      %% 000;She turned around quickly.;Она быстро обернулась.;0;
+      %% 000;The company turned around in a year.;Компания вышла из кризиса за год.;0;
+      %% 000;Turn around and look at this.;Обернись и посмотри на это.;0;
 atop:
   meanings:
     Place (место): на, поверх, наверху
       %% 000;The flag was placed atop the building.;Флаг был установлен на вершине здания.;0;
       %% 000;A book lay atop the pile.;Книга лежала поверх стопки.;0;
       %% 000;She wore a crown atop her head.;На её голове была корона.;0;
+  related_phrasal:
+    atop of:
+      Place (место): поверх, на вершине (реже, усиленный вариант)
+        %% 000;He stood atop of the cliff, looking down.;Он стоял на вершине утёса, глядя вниз.;0;
+        %% 000;The dessert had cherries atop of the cream.;На десерте были вишни поверх крема.;0;
+        %% 000;She perched atop of the rock.;Она сидела на вершине скалы.;0;
+  collocations:
+    sit atop: находиться на вершине, возглавлять
+      %% 000;The castle sits atop a hill.;Замок стоит на вершине холма.;0;
+      %% 000;A temple sits atop the mountain.;Храм находится на вершине горы.;0;
+      %% 000;A statue sits atop the dome.;Статуя установлена на куполе.;0;
+    lie atop: лежать поверх
+      %% 000;A blanket lay atop the bed.;Одеяло лежало поверх кровати.;0;
+      %% 000;Snow lay atop the trees.;Снег лежал на вершинах деревьев.;0;
+      %% 000;Books lay atop each other.;Книги лежали одна на другой.;0;
 before:
   meanings:
     Time (время): до, перед
@@ -2122,6 +2406,30 @@ before:
       %% 000;Duty before pleasure.;Долг важнее удовольствия.;0;
       %% 000;He puts his work before everything.;Он ставит работу выше всего.;0;
       %% 000;Think before yourself.;Думай не только о себе.;0;
+  related_phrasal:
+    before long:
+      Time (время): скоро, в ближайшее время
+        %% 000;He’ll be here before long.;Он скоро будет здесь.;0;
+        %% 000;You’ll get used to it before long.;Ты скоро к этому привыкнешь.;0;
+        %% 000;Before long, it started to rain.;Вскоре начался дождь.;0;
+    before someone’s eyes:
+      Place/Emphasis (буквально и образно): на глазах у кого-то
+        %% 000;The building collapsed before our eyes.;Здание рухнуло у нас на глазах.;0;
+        %% 000;He saw his dream vanish before his eyes.;Он видел, как его мечта исчезает у него на глазах.;0;
+        %% 000;The truth unfolded before their eyes.;Истина раскрылась у них на глазах.;0;
+  collocations:
+    never before: никогда ранее
+      %% 000;Never before have I seen such beauty.;Никогда раньше я не видел такой красоты.;0;
+      %% 000;She had never before traveled abroad.;Она никогда раньше не выезжала за границу.;0;
+      %% 000;This has never happened before.;Такого никогда раньше не было.;0;
+    right before: прямо перед
+      %% 000;He called right before the meeting.;Он позвонил прямо перед встречей.;0;
+      %% 000;The lights went out right before the show.;Свет погас прямо перед шоу.;0;
+      %% 000;I saw her right before she left.;Я видел её прямо перед тем, как она ушла.;0;
+    just before: незадолго до
+      %% 000;She arrived just before sunset.;Она приехала незадолго до заката.;0;
+      %% 000;He called just before dinner.;Он позвонил прямо перед ужином.;0;
+      %% 000;They left just before the storm.;Они уехали незадолго до шторма.;0;
 behind:
   meanings:
     Place (место): позади, сзади
@@ -2136,11 +2444,30 @@ behind:
       %% 000;Who’s behind this idea?;Кто стоит за этой идеей?;0;
       %% 000;He’s behind the project.;Он руководит проектом.;0;
       %% 000;There’s a strong motive behind it.;За этим стоит серьёзный мотив.;0;
+  related_phrasal:
+    behind bars:
+      Place (место): за решёткой, в тюрьме
+        %% 000;He spent ten years behind bars.;Он провёл десять лет за решёткой.;0;
+        %% 000;She ended up behind bars for fraud.;Она оказалась за решёткой за мошенничество.;0;
+        %% 000;Many activists were put behind bars.;Многих активистов посадили.;0;
+    behind the scenes:
+      Condition (условие): за кулисами, неофициально
+        %% 000;A lot happened behind the scenes.;Многое происходило за кулисами.;0;
+        %% 000;She worked behind the scenes to make it happen.;Она работала за кулисами, чтобы это произошло.;0;
+        %% 000;Negotiations continued behind the scenes.;Переговоры продолжались за кулисами.;0;
   collocations:
     fall behind: отставать
       %% 000;He fell behind in class.;Он начал отставать в учёбе.;0;
       %% 000;Don’t fall behind the group.;Не отставай от группы.;0;
       %% 000;We’ve fallen behind schedule.;Мы отстаём от графика.;0;
+    behind schedule: с отставанием от графика
+      %% 000;The project is behind schedule.;Проект идёт с опозданием.;0;
+      %% 000;We’re behind schedule due to delays.;Мы выбились из графика из-за задержек.;0;
+      %% 000;The delivery is slightly behind schedule.;Доставка немного задерживается.;0;
+    behind the times: отставать от времени
+      %% 000;He’s a bit behind the times.;Он немного отстал от жизни.;0;
+      %% 000;This technology is behind the times.;Эта технология устарела.;0;
+      %% 000;She’s not behind the times at all.;Она совсем не отстаёт от времени.;0;
 beside:
   meanings:
     Place (место): рядом, у, возле
@@ -2151,6 +2478,17 @@ beside:
       %% 000;Beside her talent, mine is nothing.;В сравнении с её талантом мой ничто.;0;
       %% 000;This problem is nothing beside what we’ve faced.;Эта проблема ничто по сравнению с тем, с чем мы сталкивались.;0;
       %% 000;His wealth is small beside theirs.;Его богатство ничтожно по сравнению с их.;0;
+  related_phrasal:
+    beside the point:
+      Relevance (уместность): не по делу, не имеет значения
+        %% 000;What he said is beside the point.;То, что он сказал, не имеет значения.;0;
+        %% 000;That argument is beside the point.;Этот аргумент не по делу.;0;
+        %% 000;It’s true, but it’s beside the point.;Это правда, но это не имеет отношения к делу.;0;
+  collocations:
+    sit beside: сидеть рядом с
+      %% 000;He sat beside her during the ceremony.;Он сидел рядом с ней во время церемонии.;0;
+      %% 000;Come sit beside me.;Сядь рядом со мной.;0;
+      %% 000;She sat beside the fireplace.;Она сидела у камина.;0;
 besides:
   meanings:
     Addition (добавление): кроме того, помимо
@@ -2161,6 +2499,17 @@ besides:
       %% 000;I’m not hungry. Besides, it’s late.;Я не голоден. К тому же, уже поздно.;0;
       %% 000;It’s too expensive and, besides, it’s ugly.;Это слишком дорого и, к тому же, некрасиво.;0;
       %% 000;Besides, we have other options.;К тому же, у нас есть другие варианты.;0;
+  related_phrasal:
+    besides that:
+      Addition (добавление): кроме того
+        %% 000;Besides that, there’s nothing new.;Кроме того, ничего нового.;0;
+        %% 000;He’s a great worker. Besides that, he’s very kind.;Он отличный работник. Кроме того, он очень добрый.;0;
+        %% 000;Besides that, I have no complaints.;Кроме этого, у меня нет претензий.;0;
+  collocations:
+    nobody besides: никто кроме
+      %% 000;Nobody besides him knew the answer.;Никто, кроме него, не знал ответа.;0;
+      %% 000;Nobody besides us showed up.;Кроме нас, никто не пришёл.;0;
+      %% 000;There was nobody besides the guard.;Никого не было, кроме охранника.;0;
 between:
   meanings:
     Place (место): между (двумя объектами)
@@ -2175,6 +2524,12 @@ between:
       %% 000;Choose between tea and coffee.;Выбери между чаем и кофе.;0;
       %% 000;There’s a big difference between them.;Между ними большая разница.;0;
       %% 000;She divided the money between her sons.;Она разделила деньги между сыновьями.;0;
+  related_phrasal:
+    in between:
+      Position (расположение): посередине, между
+        %% 000;He sat in between the two leaders.;Он сидел между двумя лидерами.;0;
+        %% 000;There’s a lot of work in between meetings.;Много работы между совещаниями.;0;
+        %% 000;She managed to rest in between tasks.;Ей удалось отдохнуть между заданиями.;0;
   collocations:
     between you and me: между нами
       %% 000;Between you and me, I don’t trust him.;Между нами говоря, я ему не доверяю.;0;
@@ -2194,6 +2549,17 @@ beyond:
       %% 000;I can’t plan beyond next week.;Я не могу планировать дальше следующей недели.;0;
       %% 000;Don’t think beyond today.;Не думай дальше сегодняшнего дня.;0;
       %% 000;This rule is valid beyond 2025.;Это правило действует после 2025 года.;0;
+  related_phrasal:
+    beyond doubt:
+      Certainty (уверенность): вне сомнений
+        %% 000;It’s true beyond doubt.;Это несомненно правда.;0;
+        %% 000;He is guilty beyond doubt.;Его вина вне сомнений.;0;
+        %% 000;Her talent is beyond doubt.;Её талант не вызывает сомнений.;0;
+    beyond recognition:
+      Change (изменение): до неузнаваемости
+        %% 000;The town has changed beyond recognition.;Город изменился до неузнаваемости.;0;
+        %% 000;He was injured beyond recognition.;Он был изуродован до неузнаваемости.;0;
+        %% 000;The place is restored beyond recognition.;Место восстановили до неузнаваемости.;0;
   collocations:
     go beyond: выходить за рамки
       %% 000;This goes beyond simple mistakes.;Это выходит за рамки обычных ошибок.;0;
@@ -2209,6 +2575,17 @@ inside:
       %% 000;Come inside quickly!;Заходи внутрь быстро!;0;
       %% 000;She went inside the building.;Она зашла внутрь здания.;0;
       %% 000;Put the phone inside your pocket.;Положи телефон в карман.;0;
+  related_phrasal:
+    from inside:
+      Source (источник): изнутри
+        %% 000;A noise came from inside the house.;Звук доносился изнутри дома.;0;
+        %% 000;The damage was caused from inside.;Повреждение было нанесено изнутри.;0;
+        %% 000;Voices came from inside the building.;Голоса доносились из здания.;0;
+    inside out:
+      Thoroughness (полностью, досконально): наизнанку, вдоль и поперёк
+        %% 000;I know this book inside out.;Я знаю эту книгу вдоль и поперёк.;0;
+        %% 000;She turned the shirt inside out.;Она вывернула рубашку наизнанку.;0;
+        %% 000;He understands the system inside out.;Он отлично знает систему.;0;
   collocations:
     look inside: заглянуть внутрь
       %% 000;Did you look inside the box?;Ты заглянул в коробку?;0;
@@ -2228,6 +2605,17 @@ into:
       %% 000;She’s really into music.;Она очень увлекается музыкой.;0;
       %% 000;I’m not into politics.;Я не интересуюсь политикой.;0;
       %% 000;He’s into hiking and camping.;Он увлекается походами и лагерями.;0;
+  related_phrasal:
+    crash into:
+      Impact (столкновение): врезаться в
+        %% 000;The car crashed into a tree.;Машина врезалась в дерево.;0;
+        %% 000;He crashed into me by accident.;Он случайно врезался в меня.;0;
+        %% 000;The plane crashed into the mountain.;Самолёт врезался в гору.;0;
+    break into:
+      Entry/Action (вломиться, начать делать резко): ворваться, начать
+        %% 000;Someone broke into the house.;Кто-то вломился в дом.;0;
+        %% 000;She broke into tears.;Она расплакалась.;0;
+        %% 000;He broke into song.;Он вдруг запел.;0;
   collocations:
     divide into: разделить на
       %% 000;We divided the cake into eight pieces.;Мы разделили торт на восемь частей.;0;
@@ -2251,6 +2639,17 @@ onto:
       %% 000;The story moved onto a new chapter.;История перешла к новой главе.;0;
       %% 000;He went onto become a famous actor.;Он впоследствии стал известным актёром.;0;
       %% 000;Let’s move onto the next topic.;Давайте перейдём к следующей теме.;0;
+  related_phrasal:
+    hold onto:
+      Persistence (удержание, сохранение): держаться за, не отпускать
+        %% 000;Hold onto the rope tightly.;Крепко держись за верёвку.;0;
+        %% 000;She held onto her beliefs.;Она придерживалась своих убеждений.;0;
+        %% 000;He’s holding onto hope.;Он не теряет надежду.;0;
+  collocations:
+    get onto: перейти к (теме, делу); попасть на (транспорт)
+      %% 000;Let’s get onto the main issue.;Давайте перейдём к главному вопросу.;0;
+      %% 000;He got onto the train just in time.;Он успел сесть на поезд вовремя.;0;
+      %% 000;I’ll get onto that right away.;Я сразу этим займусь.;0;
 outside:
   meanings:
     Place (место): снаружи
@@ -2265,16 +2664,28 @@ outside:
       %% 000;That’s outside my responsibility.;Это вне моей ответственности.;0;
       %% 000;Outside working hours, call this number.;Вне рабочего времени звоните по этому номеру.;0;
       %% 000;This is outside our budget.;Это вне нашего бюджета.;0;
+  related_phrasal: {}
+  collocations:
+    outside of: вне, за пределами
+      %% 000;Outside of work, I rarely use email.;Вне работы я редко пользуюсь почтой.;0;
+      %% 000;Outside of New York, housing is cheaper.;За пределами Нью-Йорка жильё дешевле.;0;
+      %% 000;Outside of that one mistake, everything’s fine.;Кроме той одной ошибки, всё отлично.;0;
 since:
   meanings:
     Time (время): с, с тех пор как
       %% 000;I’ve lived here since 2010.;Я живу здесь с 2010 года.;0;
       %% 000;It’s been raining since morning.;Дождь идёт с утра.;0;
       %% 000;They’ve been friends since childhood.;Они друзья с детства.;0;
-    Cause (причина): поскольку, так как (в разговорной и письменной речи часто выполняет роль союза)
+    Cause (причина): поскольку, так как
       %% 000;Since you’re here, let’s talk.;Раз уж ты здесь, давай поговорим.;0;
       %% 000;Since we’re late, let’s hurry.;Раз мы опаздываем, давай поторопимся.;0;
       %% 000;Since it’s cold, wear a jacket.;Так как холодно, надень куртку.;0;
+  related_phrasal: {}
+  collocations:
+    ever since: с тех пор как
+      %% 000;I’ve been tired ever since the trip.;Я устал с тех пор, как вернулся из поездки.;0;
+      %% 000;He’s avoided me ever since the argument.;Он избегает меня с тех пор, как мы поссорились.;0;
+      %% 000;She’s lived there ever since her childhood.;Она живёт там с детства.;0;
 through:
   meanings:
     Direction (направление): через, сквозь (движение внутри пространства)
@@ -2289,11 +2700,20 @@ through:
       %% 000;I learned about it through a friend.;Я узнал об этом через друга.;0;
       %% 000;She succeeded through hard work.;Она добилась успеха благодаря упорному труду.;0;
       %% 000;He solved the issue through negotiation.;Он решил проблему путём переговоров.;0;
+  related_phrasal: {}
   collocations:
     go through: пройти через (опыт, ситуацию)
       %% 000;He went through a lot last year.;Он многое пережил в прошлом году.;0;
       %% 000;We’re going through a tough time.;Мы переживаем тяжёлое время.;0;
       %% 000;She went through his phone.;Она просмотрела его телефон.;0;
+    get through: справиться, дозвониться
+      %% 000;We got through the hard times.;Мы справились с трудностями.;0;
+      %% 000;I can’t get through to him.;Я не могу до него дозвониться.;0;
+      %% 000;She got through the exam.;Она сдала экзамен.;0;
+    through and through: полностью, насквозь
+      %% 000;He’s a New Yorker through and through.;Он во всём настоящий ньюйоркец.;0;
+      %% 000;She’s loyal through and through.;Она полностью преданна.;0;
+      %% 000;The bullet went through and through.;Пуля прошла насквозь.;0;
 throughout:
   meanings:
     Place (место): повсюду, во всех частях
@@ -2304,6 +2724,20 @@ throughout:
       %% 000;It rained throughout the day.;Дождь шёл весь день.;0;
       %% 000;He stayed calm throughout the interview.;Он оставался спокойным во время всего интервью.;0;
       %% 000;The policy remained unchanged throughout the year.;Политика оставалась неизменной весь год.;0;
+  related_phrasal: {}
+  collocations:
+    throughout the world: по всему миру
+      %% 000;This tradition is known throughout the world.;Эта традиция известна по всему миру.;0;
+      %% 000;They have branches throughout the world.;У них есть филиалы по всему миру.;0;
+      %% 000;The news spread throughout the world.;Новости распространились по всему миру.;0;
+    throughout history: на протяжении всей истории
+      %% 000;Throughout history, people have sought meaning.;На протяжении всей истории люди искали смысл.;0;
+      %% 000;Wars have occurred throughout history.;Войны происходили на протяжении всей истории.;0;
+      %% 000;Women have played key roles throughout history.;Женщины играли важную роль на протяжении всей истории.;0;
+    throughout the day: в течение дня
+      %% 000;He felt tired throughout the day.;Он чувствовал усталость весь день.;0;
+      %% 000;They had meetings throughout the day.;У них были встречи в течение дня.;0;
+      %% 000;Pain persisted throughout the day.;Боль сохранялась весь день.;0;
 towards:
   meanings:
     Direction (направление): к, в сторону
@@ -2318,11 +2752,20 @@ towards:
       %% 000;He paid $100 towards the bill.;Он внёс $100 в счёт оплаты.;0;
       %% 000;This effort is towards a better future.;Эти усилия направлены на лучшее будущее.;0;
       %% 000;She’s working towards a degree.;Она учится, чтобы получить диплом.;0;
+  related_phrasal: {}
   collocations:
     attitude towards: отношение к
       %% 000;His attitude towards work has improved.;Его отношение к работе улучшилось.;0;
       %% 000;What’s your attitude towards this idea?;Как ты относишься к этой идее?;0;
       %% 000;She has a positive attitude towards learning.;У неё положительное отношение к обучению.;0;
+    bias towards: предвзятость по отношению к
+      %% 000;There’s a clear bias towards men in this field.;В этой области явно предпочитают мужчин.;0;
+      %% 000;Her bias towards tradition is strong.;Она сильно тяготеет к традициям.;0;
+      %% 000;The system has a bias towards the rich.;Система благоволит богатым.;0;
+    move towards: двигаться в сторону, стремиться к
+      %% 000;They’re moving towards a solution.;Они движутся к решению проблемы.;0;
+      %% 000;The country is moving towards democracy.;Страна движется к демократии.;0;
+      %% 000;We’re moving towards our goals steadily.;Мы неуклонно движемся к своим целям.;0;
 underneath:
   meanings:
     Place (место): под, ниже
@@ -2333,6 +2776,12 @@ underneath:
       %% 000;Underneath his calm face was fear.;Под его спокойным лицом скрывался страх.;0;
       %% 000;She collapsed underneath the pressure.;Она сломалась под давлением.;0;
       %% 000;Underneath the success, there was struggle.;Под успехом скрывалась борьба.;0;
+  related_phrasal: {}
+  collocations:
+    underneath it all: под всем этим, несмотря на всё
+      %% 000;Underneath it all, he’s still a good person.;Несмотря ни на что, он всё ещё хороший человек.;0;
+      %% 000;She seems tough, but underneath it all she’s sensitive.;Она кажется жёсткой, но под всем этим — она ранимая.;0;
+      %% 000;Underneath it all, he was scared.;В глубине души он боялся.;0;
 upon:
   meanings:
     Time (время): сразу после, как только
@@ -2347,6 +2796,12 @@ upon:
       %% 000;Taxes are imposed upon citizens.;Налоги накладываются на граждан.;0;
       %% 000;The decision rests upon the evidence.;Решение зависит от доказательств.;0;
       %% 000;Responsibility lies upon you.;Ответственность лежит на тебе.;0;
+  related_phrasal: {}
+  collocations:
+    once upon a time: однажды, давным-давно
+      %% 000;Once upon a time, there was a king.;Жил-был король.;0;
+      %% 000;Once upon a time, I believed in magic.;Когда-то я верил в магию.;0;
+      %% 000;Once upon a time, they were close friends.;Однажды они были близкими друзьями.;0;
 within:
   meanings:
     Time (время): в течение, не позже чем
@@ -2361,6 +2816,12 @@ within:
       %% 000;It’s within my rights.;Это в рамках моих прав.;0;
       %% 000;Keep expenses within reason.;Сохраняй расходы в разумных пределах.;0;
       %% 000;He acted within the law.;Он действовал в рамках закона.;0;
+  related_phrasal: {}
+  collocations:
+    from within: изнутри
+      %% 000;Change must come from within.;Изменения должны прийти изнутри.;0;
+      %% 000;The house collapsed from within.;Дом разрушился изнутри.;0;
+      %% 000;They attacked from within the walls.;Они атаковали из-за стен.;0;
 without:
   meanings:
     Absence (отсутствие): без
@@ -2371,12 +2832,24 @@ without:
       %% 000;Without water, plants die.;Без воды растения умирают.;0;
       %% 000;You won’t succeed without effort.;Ты не добьёшься успеха без усилий.;0;
       %% 000;Without practice, you’ll forget it.;Без практики ты это забудешь.;0;
+  related_phrasal: {}
+  collocations:
+    go without: обходиться без
+      %% 000;I can’t go without coffee.;Я не могу обходиться без кофе.;0;
+      %% 000;They had to go without food.;Им пришлось обходиться без еды.;0;
+      %% 000;We went without sleep for two days.;Мы не спали два дня.;0;
 alongside:
   meanings:
     Place (место): рядом с, вдоль
       %% 000;He parked the car alongside the curb.;Он припарковал машину у тротуара.;0;
       %% 000;They worked alongside each other.;Они работали бок о бок.;0;
       %% 000;The ship sailed alongside the pier.;Корабль шёл вдоль пирса.;0;
+  related_phrasal: {}
+  collocations:
+    work alongside: работать вместе с
+      %% 000;I worked alongside engineers on the project.;Я работал вместе с инженерами над проектом.;0;
+      %% 000;She worked alongside her mentor.;Она работала вместе со своим наставником.;0;
+      %% 000;They’re working alongside local authorities.;Они работают совместно с местными властями.;0;
 
 <<<< Participial <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 accepting:
@@ -2385,135 +2858,232 @@ accepting:
       %% 000;Accepting the weather, it was a great trip.;Если не считать погоду, это была отличная поездка.;0;
       %% 000;Accepting his age, he did quite well.;Учитывая его возраст, он справился неплохо.;0;
       %% 000;Accepting that he’s new, the work is decent.;Допуская, что он новичок, работа выполнена достойно.;0;
+  related_phrasal: {}
+  collocations:
+    accepting of: принимающий (что-либо), терпимый к
+      %% 000;She’s very accepting of other cultures.;Она очень терпима к другим культурам.;0;
+      %% 000;We should be more accepting of differences.;Нам стоит быть более терпимыми к различиям.;0;
+      %% 000;He was accepting of the changes.;Он спокойно принял изменения.;0;
 assuming:
   meanings:
     Condition (условие): при условии, предполагая
       %% 000;Assuming you’re right, what happens next?;Если ты прав, что дальше?;0;
       %% 000;Assuming good weather, we’ll go hiking.;При хорошей погоде мы пойдём в поход.;0;
       %% 000;Assuming no delays, we’ll arrive on time.;Если не будет задержек, мы прибудем вовремя.;0;
+  related_phrasal: {}
+  collocations:
+    assuming that: при условии, что
+      %% 000;Assuming that he agrees, we’ll start tomorrow.;Если он согласится, мы начнём завтра.;0;
+      %% 000;Assuming that the data is correct, the results are clear.;Если данные верны, результаты очевидны.;0;
+      %% 000;Assuming that she arrives on time, we won’t be late.;Если она придёт вовремя, мы не опоздаем.;0;
 barring:
   meanings:
     Condition/Exclusion (исключение): за исключением, если не
       %% 000;Barring accidents, we’ll arrive on time.;Если не случится ничего, мы приедем вовремя.;0;
       %% 000;Barring a miracle, he won’t pass the test.;Если не произойдёт чудо, он не сдаст экзамен.;0;
       %% 000;Barring further delays, it’ll be ready soon.;Если не будет новых задержек, всё будет готово скоро.;0;
+  related_phrasal: {}
+  collocations:
+    barring complications: если не возникнет осложнений
+      %% 000;Barring complications, the surgery should go smoothly.;Если не возникнет осложнений, операция пройдёт гладко.;0;
+      %% 000;We’ll be discharged tomorrow barring complications.;Нас выпишут завтра, если не будет осложнений.;0;
+      %% 000;Barring complications, he’ll make a full recovery.;Если не будет осложнений, он полностью восстановится.;0;
 concerning:
   meanings:
     Topic (тема): касательно, относительно
       %% 000;He asked a question concerning the project.;Он задал вопрос относительно проекта.;0;
       %% 000;We received a complaint concerning your order.;Мы получили жалобу по поводу вашего заказа.;0;
       %% 000;There are issues concerning safety.;Есть проблемы, касающиеся безопасности.;0;
+  related_phrasal: {}
+  collocations:
+    concern about / concerning: обеспокоенность по поводу
+      %% 000;There is concern about the rising costs.;Есть обеспокоенность из-за роста цен.;0;
+      %% 000;The letter expressed concern concerning the delay.;В письме выражалась обеспокоенность по поводу задержки.;0;
+      %% 000;Public concern about pollution is growing.;Общественная обеспокоенность загрязнением растёт.;0;
 considering:
   meanings:
     Cause/Concession (причина/уступка): учитывая, принимая во внимание
       %% 000;Considering the circumstances, you did well.;Учитывая обстоятельства, ты справился хорошо.;0;
       %% 000;It’s not bad considering the price.;Неплохо, учитывая цену.;0;
       %% 000;Considering his age, he’s very active.;Учитывая его возраст, он очень активен.;0;
+  related_phrasal: {}
+  collocations:
+    considering that: учитывая то, что
+      %% 000;Considering that he’s new, he’s doing fine.;Учитывая, что он новичок, он справляется отлично.;0;
+      %% 000;She did great, considering that she was nervous.;Она отлично справилась, учитывая, что она нервничала.;0;
+      %% 000;It’s a good score, considering that he didn’t study.;Это хороший результат, учитывая, что он не учился.;0;
 counting:
   meanings:
     Inclusion (включение): включая, с учётом
       %% 000;There were ten people, counting the driver.;Было десять человек, включая водителя.;0;
       %% 000;Counting expenses, we barely broke even.;С учётом расходов, мы едва вышли в ноль.;0;
       %% 000;Everyone, counting the kids, joined the trip.;Все, включая детей, поехали в поездку.;0;
+  related_phrasal: {}
+  collocations: {}
 depending:
   meanings:
     Condition (условие): в зависимости от
       %% 000;We may cancel, depending on the weather.;Мы можем отменить, в зависимости от погоды.;0;
       %% 000;The price varies depending on the model.;Цена варьируется в зависимости от модели.;0;
       %% 000;Your response time will change depending on demand.;Время ответа изменится в зависимости от спроса.;0;
+  related_phrasal: {}
+  collocations:
+    depending on: в зависимости от
+      %% 000;Delivery time depends on your location.;Срок доставки зависит от вашего местоположения.;0;
+      %% 000;It may cost more, depending on the size.;Это может стоить дороже, в зависимости от размера.;0;
+      %% 000;You’ll get different results depending on the method used.;Вы получите разные результаты в зависимости от используемого метода.;0;
 during:
   meanings:
     Time (время): во время, в течение
       %% 000;He fell asleep during the movie.;Он уснул во время фильма.;0;
       %% 000;No phones are allowed during the exam.;Во время экзамена телефоны запрещены.;0;
       %% 000;We talked during lunch.;Мы разговаривали во время обеда.;0;
+  related_phrasal: {}
+  collocations:
+    during the course of: в течение (формально)
+      %% 000;During the course of the year, many changes happened.;В течение года произошло много изменений.;0;
+      %% 000;He matured during the course of the trip.;Он повзрослел за время поездки.;0;
+      %% 000;Many events occurred during the course of the project.;Во время проекта произошло много событий.;0;
 excepting:
   meanings:
     Exclusion (исключение): за исключением
       %% 000;Everyone excepting Tom was present.;Все, за исключением Тома, были присутствующими.;0;
       %% 000;Excepting the last chapter, the book was good.;Если не считать последнюю главу, книга была хорошей.;0;
       %% 000;Excepting minor issues, the system works well.;За исключением мелких проблем, система работает хорошо.;0;
+  related_phrasal: {}
+  collocations: {}
 excluding:
   meanings:
     Exclusion (исключение): исключая, помимо
       %% 000;The price is $100, excluding tax.;Цена — 100 долларов, не включая налоги.;0;
       %% 000;Excluding children, there were ten guests.;Не считая детей, было десять гостей.;0;
       %% 000;He paid $50, excluding the service fee.;Он заплатил 50 долларов, не считая комиссии за обслуживание.;0;
+  related_phrasal: {}
+  collocations: {}
 failing:
   meanings:
     Condition (условие): за неимением, при отсутствии
       %% 000;Failing any evidence, the case was dropped.;За неимением доказательств дело было закрыто.;0;
       %% 000;Failing a better plan, we’ll go with this.;Если не будет плана получше, воспользуемся этим.;0;
       %% 000;Failing instructions, use your judgment.;При отсутствии инструкций, полагайтесь на здравый смысл.;0;
+  related_phrasal: {}
+  collocations: {}
 following:
   meanings:
     Time (время): после, вслед за
       %% 000;Following the meeting, we had lunch.;После встречи мы пообедали.;0;
       %% 000;Following the announcement, the stock rose.;После объявления акции выросли.;0;
       %% 000;Following graduation, he moved abroad.;После выпуска он уехал за границу.;0;
+  related_phrasal: {}
+  collocations:
+    following up: в продолжение, в развитии
+      %% 000;I’m following up on our last conversation.;Я продолжаю наш прошлый разговор.;0;
+      %% 000;She sent an email following up on the request.;Она отправила письмо с уточнением по запросу.;0;
+      %% 000;Following up, here’s the data you asked for.;В дополнение вот запрошенные данные.;0;
 given:
   meanings:
     Cause/Condition (причина/условие): учитывая, принимая во внимание
       %% 000;Given the circumstances, we did our best.;Учитывая обстоятельства, мы сделали всё возможное.;0;
       %% 000;Given her background, the choice makes sense.;Учитывая её прошлое, выбор понятен.;0;
       %% 000;Given the weather, we’ll stay indoors.;Учитывая погоду, мы останемся внутри.;0;
-gone:
+  related_phrasal: {}
+  collocations:
+    given that: учитывая что, поскольку
+      %% 000;Given that he’s busy, let’s reschedule.;Учитывая, что он занят, давай перенесём.;0;
+      %% 000;Given that it’s late, we should go.;Поскольку уже поздно, нам пора.;0;
+      %% 000;Given that she’s new, she’s doing well.;Учитывая, что она новичок, у неё хорошо получается.;0;
   meanings:
-    Comparison/Excess (превышение): за, больше чем (редкий, разговорный/устаревший стиль)
+    Comparison/Excess (превышение): за, больше чем (разг./устар.)
       %% 000;He’s gone six feet tall now.;Он уже выше шести футов.;0;
       %% 000;Gone midnight, we finally left.;После полуночи мы наконец ушли.;0;
       %% 000;She’s gone thirty now.;Ей уже за тридцать.;0;
+  related_phrasal: {}
+  collocations: {}
 granted:
   meanings:
     Condition (условие): при условии, если предположить
       %% 000;Granted the data is correct, the results follow.;Если данные верны, то результаты закономерны.;0;
       %% 000;Granted he’s late, we’ll start without him.;Если он опоздает, начнём без него.;0;
       %% 000;Granted her experience, she was hired quickly.;Учитывая её опыт, её быстро наняли.;0;
+  related_phrasal: {}
+  collocations:
+    take for granted: принимать как должное
+      %% 000;Don’t take your health for granted.;Не воспринимай здоровье как должное.;0;
+      %% 000;She took his kindness for granted.;Она воспринимала его доброту как нечто само собой разумеющееся.;0;
+      %% 000;We often take clean water for granted.;Мы часто воспринимаем чистую воду как должное.;0;
 including:
   meanings:
     Inclusion (включение): включая, в том числе
       %% 000;There were ten people, including the teacher.;Было десять человек, включая преподавателя.;0;
       %% 000;The bill includes tax, including service charge.;Счёт включает налог, включая сбор за обслуживание.;0;
       %% 000;He invited everyone, including his ex.;Он пригласил всех, включая свою бывшую.;0;
+  related_phrasal: {}
+  collocations:
+    including but not limited to: включая, но не ограничиваясь
+      %% 000;You may bring items including but not limited to snacks and drinks.;Можно приносить вещи, включая, но не ограничиваясь, закусками и напитками.;0;
+      %% 000;We offer services including but not limited to consulting and support.;Мы предлагаем услуги, включая, но не ограничиваясь, консультированием и поддержкой.;0;
+      %% 000;The course covers topics including but not limited to AI and data science.;Курс охватывает темы, включая, но не ограничиваясь, ИИ и анализом данных.;0;
 notwithstanding:
   meanings:
     Concession (уступка): несмотря на, вопреки
       %% 000;Notwithstanding the difficulties, we succeeded.;Несмотря на трудности, мы добились успеха.;0;
       %% 000;Notwithstanding her anger, she helped.;Вопреки злости она помогла.;0;
       %% 000;The law passed, notwithstanding public opposition.;Закон был принят, несмотря на общественное сопротивление.;0;
+  related_phrasal: {}
+  collocations:
+    notwithstanding that: несмотря на то что
+      %% 000;Notwithstanding that he was tired, he kept working.;Несмотря на то что он устал, он продолжал работать.;0;
+      %% 000;Notwithstanding that the facts were known, they did nothing.;Несмотря на то что факты были известны, ничего не сделали.;0;
+      %% 000;Notwithstanding that she disagreed, she stayed silent.;Несмотря на то что она была против, она промолчала.;0;
 pending:
   meanings:
     Time/Condition (в ожидании, вплоть до): до, в течение, пока не
       %% 000;Pending approval, we’ll wait.;До одобрения мы будем ждать.;0;
       %% 000;The decision is pending further review.;Решение откладывается до дальнейшего рассмотрения.;0;
       %% 000;Pending her arrival, no action will be taken.;До её прибытия никаких действий не предпринимается.;0;
+  related_phrasal: {}
+  collocations: {}
 provided:
   meanings:
     Condition (условие): при условии, если
       %% 000;You can go out, provided you finish your work.;Ты можешь пойти, если закончишь работу.;0;
       %% 000;Provided there are no objections, we’ll proceed.;Если не будет возражений, мы продолжим.;0;
       %% 000;I’ll help, provided you ask.;Я помогу, если ты попросишь.;0;
+  related_phrasal: {}
+  collocations:
+    provided that: при условии что
+      %% 000;You may attend, provided that you register first.;Ты можешь участвовать, при условии что зарегистрируешься заранее.;0;
+      %% 000;They’ll agree, provided that the price is fair.;Они согласятся, при условии что цена будет справедливой.;0;
+      %% 000;We can start tomorrow, provided that everyone is ready.;Мы можем начать завтра, при условии что все будут готовы.;0;
 regarding:
   meanings:
     Topic (тема): относительно, касательно
       %% 000;I have a question regarding your order.;У меня вопрос по поводу вашего заказа.;0;
       %% 000;There were concerns regarding safety.;Были опасения по поводу безопасности.;0;
       %% 000;He spoke regarding the new policy.;Он говорил относительно новой политики.;0;
+  related_phrasal: {}
+  collocations: {}
 respecting:
   meanings:
     Topic (тема): относительно, в отношении
       %% 000;A decision was made respecting the case.;Было принято решение относительно дела.;0;
       %% 000;We found no issues respecting the rules.;Мы не нашли нарушений относительно правил.;0;
       %% 000;She asked questions respecting the budget.;Она задала вопросы относительно бюджета.;0;
+  related_phrasal: {}
+  collocations: {}
 saving:
   meanings:
     Exclusion (исключение): за исключением
       %% 000;Saving your objection, everyone agreed.;Все согласились, за исключением твоего возражения.;0;
       %% 000;No one attended, saving John.;Никто не пришёл, кроме Джона.;0;
       %% 000;Saving a few typos, the report is fine.;Если не считать опечаток, отчёт в порядке.;0;
+  related_phrasal: {}
+  collocations: {}
 touching:
   meanings:
     Topic (тема): касательно, относительно (устар./форм.)
       %% 000;Touching your inquiry, we will respond shortly.;Касательно вашего запроса, мы скоро ответим.;0;
       %% 000;A letter was sent touching the new policy.;Было отправлено письмо относительно новой политики.;0;
       %% 000;He raised an issue touching finances.;Он затронул вопрос, касающийся финансов.;0;
+  related_phrasal: {}
+  collocations: {}
