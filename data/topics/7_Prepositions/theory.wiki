@@ -239,6 +239,10 @@ opposite:
         %% 000;His view is opposite to mine.;Его мнение противоположно моему.;0;
         %% 000;This result is opposite to what we expected.;Этот результат противоположен нашим ожиданиям.;0;
         %% 000;Their goals are opposite to ours.;Их цели противоположны нашим.;0;
+      Place/Direction (место, противоположность): напротив, против, противоположный
+        %% 000;He sat opposite to me.;Он сидел напротив меня.;0;
+        %% 000;The store is opposite to the school.;Магазин напротив школы.;0;
+        %% 000;This view is opposite to mine.;Это мнение противоположно моему.;0;
   collocations:
     sit opposite: сидеть напротив
       %% 000;He sat opposite his teacher.;Он сел напротив учителя.;0;
@@ -438,11 +442,6 @@ as:
         %% 000;As regards your request, we’ll discuss it tomorrow.;Что касается твоего запроса, обсудим это завтра.;0;
         %% 000;As regards payment, it’s due next week.;Что касается оплаты, она назначена на следующую неделю.;0;
         %% 000;As regards his behavior, I’m concerned.;Относительно его поведения, я обеспокоен.;0;
-    as per:
-      Formal Use (формальное): согласно, в соответствии с
-        %% 000;As per your request, I’ve attached the file.;Как вы просили, я приложил файл.;0;
-        %% 000;As per the agreement, payment is due Monday.;Согласно договору, платёж должен быть в понедельник.;0;
-        %% 000;As per company policy, refunds require a receipt.;Согласно политике компании, возврат требует чека.;0;
   collocations:
     as well as: так же как и; а также
       %% 000;She speaks Spanish as well as French.;Она говорит по-испански, а также по-французски.;0;
@@ -965,11 +964,6 @@ from:
         %% 000;Stay away from the edge.;Держись подальше от края.;0;
         %% 000;He moved away from the fire.;Он отошёл от огня.;0;
         %% 000;Keep the chemicals away from children.;Держите химикаты подальше от детей.;0;
-    across from:
-      Place (место): напротив, по другую сторону от
-        %% 000;The café is across from the library.;Кафе напротив библиотеки.;0;
-        %% 000;He sat across from me during lunch.;Он сидел напротив меня за обедом.;0;
-        %% 000;There’s a gas station across from the hotel.;Напротив отеля есть заправка.;0;
     apart from:
       Concession/Contrast (уступка): кроме, помимо
         %% 000;Apart from Spanish, he speaks French.;Помимо испанского, он говорит по-французски.;0;
@@ -1258,20 +1252,11 @@ near:
       %% 000;She lives near the station.;Она живёт возле станции.;0;
   related_phrasal:
     near to:
-      meanings:
-        Place/Approximation (близость): рядом с, около (более разговорный или усиленный вариант "near")
-          %% 000;The school is near to the library.;Школа рядом с библиотекой.;0;
-          %% 000;He came near to tears.;Он был близок к слезам.;0;
-          %% 000;We are near to finishing the project.;Мы почти закончили проект.;0;
+      Place/Approximation (близость): рядом с, около (более разговорный или усиленный вариант "near")
+        %% 000;The school is near to the library.;Школа рядом с библиотекой.;0;
+        %% 000;He came near to tears.;Он был близок к слезам.;0;
+        %% 000;We are near to finishing the project.;Мы почти закончили проект.;0;
   collocations:
-    close to: близко к
-      %% 000;My house is close to the school.;Мой дом рядом со школой.;0;
-      %% 000;She stood close to me.;Она стояла рядом со мной.;0;
-      %% 000;The library is close to the university.;Библиотека находится рядом с университетом.;0;
-    near to: рядом с, возле (более формально и реже)
-      %% 000;The hotel is near to the beach.;Отель находится рядом с пляжем.;0;
-      %% 000;He parked near to the entrance.;Он припарковался возле входа.;0;
-      %% 000;They live near to the city center.;Они живут рядом с центром города.;0;
     near miss: опасное приближение, почти что (в негативном контексте)
       %% 000;It was a near miss — the car almost hit us.;Это было почти столкновение — машина чуть не сбила нас.;0;
       %% 000;They had a near miss during takeoff.;У них было опасное сближение при взлёте.;0;
@@ -1669,11 +1654,6 @@ to:
         %% 000;He sat next to me.;Он сел рядом со мной.;0;
         %% 000;The bank is next to the supermarket.;Банк находится рядом с супермаркетом.;0;
         %% 000;She parked next to the building.;Она припарковалась возле здания.;0;
-    opposite to:
-      Place/Direction (место, противоположность): напротив, против, противоположный
-        %% 000;He sat opposite to me.;Он сидел напротив меня.;0;
-        %% 000;The store is opposite to the school.;Магазин напротив школы.;0;
-        %% 000;This view is opposite to mine.;Это мнение противоположно моему.;0;
     owing to:
       Cause (причина): благодаря, вследствие, из-за
         %% 000;The delay was owing to bad weather.;Задержка произошла из-за плохой погоды.;0;
@@ -2188,7 +2168,7 @@ across:
       %% 000;We sat across the table from each other.;Мы сидели друг напротив друга.;0;
   related_phrasal:
     across from:
-      Place (место): напротив
+      Place (место): напротив, по другую сторону от
         %% 000;The school is across from the library.;Школа напротив библиотеки.;0;
         %% 000;There’s a bench across from the bus stop.;Скамейка напротив автобусной остановки.;0;
         %% 000;He sat across from his boss.;Он сидел напротив начальника.;0;
