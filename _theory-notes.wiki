@@ -1,3 +1,104 @@
+немного разговорных фраз:
+  1. What's up? — Как дела? / Что нового?
+     - "Hey man, what's up?"
+  2. No biggie — Ничего страшного, пустяк
+     - "Sorry I’m late." — "No biggie."
+  3. My bad — Моя вина
+     - "Oops, my bad! I didn’t mean to delete that."
+  4. Chill out — Успокойся
+     - "Just chill out, everything’s fine."
+  5. Bummer — Облом, неприятность
+     - "You missed the concert? That’s a bummer."
+  6. I’m down — Я за, я согласен
+     - "Wanna grab tacos?" — "I’m down!"
+  7. Screw it — Да к черту это / Забей
+     - "Screw it, I’ll do it tomorrow."
+  8. Lit — Круто, огонь (о вечеринке, событии)
+     - "That party last night was lit!"
+  9. Go for it — Дерзай, действуй
+     - "You want to ask her out? Go for it!"
+  10. Bail — Свалить, уйти, отказаться
+      - "He bailed on the meeting last minute."
+  11. Ghost someone — Игнорировать кого-то полностью
+      - "She ghosted me after two dates."
+  12. Crash — Заснуть / прийти без приглашения
+      - "I’m gonna crash at your place tonight."
+  13. Throw shade — Критиковать намеками, язвить
+      - "She threw shade at her ex in that tweet."
+  14. Salty — Раздражённый, обиженный
+      - "He’s salty because he lost."
+  15. Flex — Понтоваться
+      - "He’s flexing his new car on Instagram."
+  16. Clap back — Жестко ответить на критику
+      - "She clapped back at the haters."
+  17. Low-key — Немного, слегка, по-тихому
+      - "I’m low-key tired of this job."
+  18. High-key — Откровенно, явно
+      - "I high-key love this show."
+  19. Boujee (bourgie) — Роскошный и претенциозный
+      - "She only drinks boujee coffee."
+  20. Basic — Заурядный, типичный (чаще о девушках)
+      - "Pumpkin spice latte? So basic."
+  21. Hang out — Тусить, проводить время
+      - "Wanna hang out after work?"
+  22. Cram — Зубрить (перед экзаменом)
+      - "I have to cram all night for this test."
+  23. Hit me up — Напиши/позвони мне
+      - "Hit me up later, let’s chill."
+  24. Ballpark figure — Приблизительное число
+      - "Can you give me a ballpark figure?"
+  25. Crash and burn — Провалиться с треском
+      - "His speech totally crashed and burned."
+  26. Wrap it up — Заканчивай
+      - "Alright guys, let’s wrap it up."
+  27. Cut to the chase — Перейти к сути
+      - "Cut to the chase — what do you want?"
+  28. Hit the spot — Именно то, что нужно (обычно о еде)
+      - "This burger really hit the spot."
+  29. Catch some Z’s — Поспать
+      - "I need to catch some Z’s before work."
+  30. Hustle — Работать усердно, крутиться
+      - "You gotta hustle if you want to make it."
+  31. In no time — Очень быстро
+      - "We’ll finish this in no time."
+  32. No sweat — Легкотня, без проблем
+      - "Can you help me move?" — "No sweat."
+  33. Pull yourself together — Соберись
+      - "Pull yourself together, man!"
+  34. Down to earth — Простой, приземлённый
+      - "She’s rich but so down to earth."
+  35. On point — В точку, идеально
+      - "Her outfit is on point."
+  36. Bomb — Классный (вещь, еда)
+      - "This pizza is the bomb."
+  37. Hella — Очень (калифорнийский сленг)
+      - "That’s hella good."
+  38. Ride or die — Надёжный друг, до конца
+      - "She’s my ride or die."
+  39. Throw a fit — Закатить истерику
+      - "He threw a fit when he lost."
+  40. Broke — Без денег
+      - "I’m totally broke after the weekend."
+  41. Hit the road — Отправиться в путь
+      - "Let’s hit the road before traffic hits."
+  42. Give props — Отдать должное
+      - "Give props to him — he did great."
+  43. All ears — Внимательно слушаю
+      - "You have news? I’m all ears."
+  44. Suck it up — Смирись, терпи
+      - "Suck it up and do your job."
+  45. Drop the ball — Облажаться
+      - "He dropped the ball on that report."
+  46. Burnout — Переутомление, выгорание
+      - "I feel burnout after all these shifts."
+  47. Cut it out — Прекрати
+      - "Cut it out, you’re being annoying."
+  48. Couch potato — Лентяй, домосед
+      - "You’ve been a couch potato all weekend."
+  49. Hit the books — Сесть за учебу
+      - "I need to hit the books tonight."
+  50. Take a rain check — Отложить на потом
+      - "Mind if I take a rain check on dinner?"
 from telegram:
   Annual ежегодный
   Временные предлоги, словарный запас

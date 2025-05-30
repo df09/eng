@@ -1,15 +1,8 @@
-добить справочник предлогов по структуре⠋
-  проверить на наличие дубликатов⠉
-  под каждым предлогом добавить описание и чем отличается⠁
-добавить тестов на позицию предлогов⠁
-Предлог или союз или наречие?⠉
-  Предлог или союз?⠁
-    список союзов⠉
-  Предлог или наречие?⠁
-    что такое наречие⠋
 как выражать время предлогами? - типа часы даты и тд⠉
-  в отдельный топик часы и даты?⠁
+  в отдельный топик часы и даты?⠋
+
 >>>> (LGG) Hybrid Connectives⠛
+
 
 <<<< Common <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 Не меняют своей формы.
@@ -25,6 +18,92 @@
   В конце пассивной конструкции.
   В конце конструкций с инфинитивом или герундием.
   Перед вопросительным или относительным словом (в формальном стиле).
+prepositions_vs_conjunctions:
+  - after:
+      preposition: "We went home after the movie."
+      conjunction: "We went home after the movie ended."
+  - as:
+      preposition: "He works as a driver."
+      conjunction: "He left as I was arriving."
+  - before:
+      preposition: "Wash your hands before dinner."
+      conjunction: "Wash your hands before you eat."
+  - considering:
+      preposition: "Considering his age, he looks strong."
+      conjunction: "Considering that he's injured, he plays well."
+  - except:
+      preposition: "Everyone came except John."
+      conjunction: "I would go, except I’m sick."
+  - notwithstanding:
+      preposition: "Notwithstanding his efforts, he failed."
+      conjunction: "Notwithstanding that he tried, he failed."
+  - save:
+      preposition: "None were present save Mary."
+      conjunction: "I’d agree, save that it’s too risky."
+  - since:
+      preposition: "I haven't seen her since Monday."
+      conjunction: "I haven't seen her since she moved."
+  - than:
+      preposition: "He is taller than me."
+      conjunction: "He is taller than I am."
+  - till:
+      preposition: "Wait till next week."
+      conjunction: "Wait till she finishes."
+  - until:
+      preposition: "Stay here until sunset."
+      conjunction: "Stay here until I return."
+prepositions_vs_adverbs:
+  - after:
+      preposition: "We went home after the movie."
+      adverb: "He ran after."
+  - before:
+      preposition: "Wash your hands before dinner."
+      adverb: "I’ve never seen her before."
+  - behind:
+      preposition: "The keys are behind the curtain."
+      adverb: "He stayed behind."
+  - below:
+      preposition: "The temperature fell below zero."
+      adverb: "Look at the text below."
+  - above:
+      preposition: "The painting hangs above the sofa."
+      adverb: "The stars shone above."
+  - around:
+      preposition: "She walked around the park."
+      adverb: "No one was around."
+  - outside:
+      preposition: "He waited outside the door."
+      adverb: "It’s cold outside."
+  - inside:
+      preposition: "They went inside the house."
+      adverb: "Stay inside."
+  - over:
+      preposition: "She hung the mirror over the sink."
+      adverb: "Come over later."
+  - under:
+      preposition: "The cat is under the table."
+      adverb: "He looked under."
+  - across:
+      preposition: "She ran across the field."
+      adverb: "I looked across and saw him."
+  - in:
+      preposition: "Put it in the bag."
+      adverb: "Come in!"
+  - out:
+      preposition: "He jumped out the window."
+      adverb: "She went out."
+  - up:
+      preposition: "She climbed up the ladder."
+      adverb: "Stand up."
+  - down:
+      preposition: "He ran down the stairs."
+      adverb: "Sit down."
+  - off:
+      preposition: "He fell off the bike."
+      adverb: "Take it off."
+  - on:
+      preposition: "Put the book on the table."
+      adverb: "Come on!"
 
 <<<<<<<<<<<< Справочник <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 <<<< Defenitions <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<

@@ -1,1 +1,313 @@
-id,question,correct,options,extra,suspicious_status,suspicious_note
+id;question;correct;options;extra;suspicious_status;suspicious_note
+# позиция предлогов
+# >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+# >>>> не отработаны все кейсы - например вопросительные слова и тп >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+# >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+000;Выберите правильную позицию для предлога "about";This is the topic we talked about.;This is about the topic we talked./This is the topic about we talked./This is the topic we talked about./This is the topic we about talked.;;;
+000;Выберите правильную позицию для предлога "about";This is the topic we talked about.;This is about the topic we talked./This is the topic about we talked./This is the topic we talked about./This is the topic we about talked.;;;
+000;Выберите правильную позицию для предлога "about";This is the topic we talked about.;This is about the topic we talked./This is the topic we talked about./This is the topic about we talked./This is the topic we about talked.;;;
+000;Выберите правильную позицию для предлога "about";This is the topic we talked about.;This is the topic about we talked./This is about the topic we talked./This is the topic we about talked./This is the topic we talked about.;;;
+000;Выберите правильную позицию для предлога "about";This is the topic we talked about.;This is the topic about we talked./This is about the topic we talked./This is the topic we talked about./This is the topic we about talked.;;;
+000;Выберите правильную позицию для предлога "about";This is the topic we talked about.;This is the topic we about talked./This is about the topic we talked./This is the topic we talked about./This is the topic about we talked.;;;
+000;Выберите правильную позицию для предлога "about";This is the topic we talked about.;This is the topic we about talked./This is the topic we talked about./This is the topic about we talked./This is about the topic we talked.;;;
+000;Выберите правильную позицию для предлога "about";This is the topic we talked about.;This is the topic we talked about./This is about the topic we talked./This is the topic we about talked./This is the topic about we talked.;;;
+000;Выберите правильную позицию для предлога "about";This is the topic we talked about.;This is the topic we talked about./This is the topic about we talked./This is the topic we about talked./This is about the topic we talked.;;;
+000;Выберите правильную позицию для предлога "about";This is the topic we talked about.;This is the topic we talked about./This is the topic about we talked./This is the topic we about talked./This is about the topic we talked.;;;
+000;Выберите правильную позицию для предлога "about";What are you talking about.;What about are you talking./What are about you talking./What are you about talking./What are you talking about.;;;
+000;Выберите правильную позицию для предлога "about";What are you talking about.;What about are you talking./What are about you talking./What are you talking about./What are you about talking.;;;
+000;Выберите правильную позицию для предлога "about";What are you talking about.;What about are you talking./What are you about talking./What are about you talking./What are you talking about.;;;
+000;Выберите правильную позицию для предлога "about";What are you talking about.;What about are you talking./What are you talking about./What are you about talking./What are about you talking.;;;
+000;Выберите правильную позицию для предлога "about";What are you talking about.;What are about you talking./What are you about talking./What about are you talking./What are you talking about.;;;
+000;Выберите правильную позицию для предлога "about";What are you talking about.;What are about you talking./What are you talking about./What about are you talking./What are you about talking.;;;
+000;Выберите правильную позицию для предлога "about";What are you talking about.;What are about you talking./What are you talking about./What are you about talking./What about are you talking.;;;
+000;Выберите правильную позицию для предлога "about";What are you talking about.;What are you about talking./What about are you talking./What are you talking about./What are about you talking.;;;
+000;Выберите правильную позицию для предлога "about";What are you talking about.;What are you talking about./What are about you talking./What about are you talking./What are you about talking.;;;
+000;Выберите правильную позицию для предлога "about";What are you talking about.;What are you talking about./What are about you talking./What about are you talking./What are you about talking.;;;
+000;Выберите правильную позицию для предлога "after";They went home after the show.;After they went home the show./They went after home the show./They after went home the show./They went home after the show.;;;
+000;Выберите правильную позицию для предлога "after";They went home after the show.;After they went home the show./They went after home the show./They went home after the show./They after went home the show.;;;
+000;Выберите правильную позицию для предлога "after";They went home after the show.;They after went home the show./After they went home the show./They went home after the show./They went after home the show.;;;
+000;Выберите правильную позицию для предлога "at";What are you looking at?;At what are you looking?/What are at you looking?/What at are you looking?/What are you looking at?;;;
+000;Выберите правильную позицию для предлога "at";What are you looking at?;At what are you looking?/What at are you looking?/What are you looking at?/What are at you looking?;;;
+000;Выберите правильную позицию для предлога "at";What are you looking at?;What are at you looking?/What are you looking at?/At what are you looking?/What at are you looking?;;;
+000;Выберите правильную позицию для предлога "at";What are you looking at?;What are you looking at?/At what are you looking?/What at are you looking?/What are at you looking?;;;
+000;Выберите правильную позицию для предлога "at";What are you looking at?;What are you looking at?/At what are you looking?/What at are you looking?/What are at you looking?;;;
+000;Выберите правильную позицию для предлога "at";What are you looking at?;What are you looking at?/What at are you looking?/At what are you looking?/What are at you looking?;;;
+000;Выберите правильную позицию для предлога "at";What are you looking at?;What are you looking at?/What at are you looking?/What are at you looking?/At what are you looking?;;;
+000;Выберите правильную позицию для предлога "at";What are you looking at?;What at are you looking?/What are at you looking?/What are you looking at?/At what are you looking?;;;
+000;Выберите правильную позицию для предлога "at";What are you looking at?;What at are you looking?/What are at you looking?/What are you looking at?/At what are you looking?;;;
+000;Выберите правильную позицию для предлога "at";What at are you looking?;What at are you looking?/What are you looking at?/At what are you looking?/What are at you looking?;;;
+000;Выберите правильную позицию для предлога "by";This book was written by her.;This book by was written her./By this book was written her./This book was by written her./This book was written by her.;;;
+000;Выберите правильную позицию для предлога "by";This book was written by her.;This book by was written her./This book was written by her./By this book was written her./This book was by written her.;;;
+000;Выберите правильную позицию для предлога "by";This book was written by her.;This book by was written her./This book was written by her./This book was by written her./By this book was written her.;;;
+000;Выберите правильную позицию для предлога "by";This book was written by her.;This book by was written her./This book was written by her./This book was by written her./By this book was written her.;;;
+000;Выберите правильную позицию для предлога "by";This book was written by her.;This book was by written her./This book was written by her./This book by was written her./By this book was written her.;;;
+000;Выберите правильную позицию для предлога "by";This book was written by her.;This book was written by her./By this book was written her./This book was by written her./This book by was written her.;;;
+000;Выберите правильную позицию для предлога "by";This book was written by her.;This book was written by her./This book by was written her./By this book was written her./This book was by written her.;;;
+000;Выберите правильную позицию для предлога "for";He is the person I was looking for.;He is for the person I was looking./He is the person I was looking for./He is the person I for was looking./He is the person for I was looking.;;;
+000;Выберите правильную позицию для предлога "for";He is the person I was looking for.;He is for the person I was looking./He is the person I was looking for./He is the person I for was looking./He is the person for I was looking.;;;
+000;Выберите правильную позицию для предлога "for";He is the person I was looking for.;He is the person I for was looking./He is the person for I was looking./He is the person I was looking for./He is for the person I was looking.;;;
+000;Выберите правильную позицию для предлога "for";He is the person I was looking for.;He is the person I was looking for./He is for the person I was looking./He is the person for I was looking./He is the person I for was looking.;;;
+000;Выберите правильную позицию для предлога "for";He is the person I was looking for.;He is the person I was looking for./He is for the person I was looking./He is the person for I was looking./He is the person I for was looking.;;;
+000;Выберите правильную позицию для предлога "for";He is the person I was looking for.;He is the person I was looking for./He is the person I for was looking./He is for the person I was looking./He is the person for I was looking.;;;
+000;Выберите правильную позицию для предлога "for";He is the person I was looking for.;He is the person I was looking for./He is the person I for was looking./He is the person for I was looking./He is for the person I was looking.;;;
+000;Выберите правильную позицию для предлога "for";He is the person I was looking for.;He is the person I was looking for./He is the person I for was looking./He is the person for I was looking./He is for the person I was looking.;;;
+000;Выберите правильную позицию для предлога "for";He is the person I was looking for.;He is the person for I was looking./He is for the person I was looking./He is the person I was looking for./He is the person I for was looking.;;;
+000;Выберите правильную позицию для предлога "for";He is the person I was looking for.;He is the person for I was looking./He is the person I was looking for./He is for the person I was looking./He is the person I for was looking.;;;
+000;Выберите правильную позицию для предлога "from";This is the shop I bought it from.;From this is the shop I bought it./This is from the shop I bought it./This is the shop from I bought it./This is the shop I bought it from.;;;
+000;Выберите правильную позицию для предлога "from";This is the shop I bought it from.;This is from the shop I bought it./From this is the shop I bought it./This is the shop I bought it from./This is the shop from I bought it.;;;
+000;Выберите правильную позицию для предлога "from";This is the shop I bought it from.;This is from the shop I bought it./From this is the shop I bought it./This is the shop I bought it from./This is the shop from I bought it.;;;
+000;Выберите правильную позицию для предлога "from";This is the shop I bought it from.;This is from the shop I bought it./From this is the shop I bought it./This is the shop I bought it from./This is the shop from I bought it.;;;
+000;Выберите правильную позицию для предлога "from";This is the shop I bought it from.;This is from the shop I bought it./This is the shop I bought it from./This is the shop from I bought it./From this is the shop I bought it.;;;
+000;Выберите правильную позицию для предлога "from";This is the shop I bought it from.;This is the shop from I bought it./This is from the shop I bought it./This is the shop I bought it from./From this is the shop I bought it.;;;
+000;Выберите правильную позицию для предлога "from";This is the shop I bought it from.;This is the shop from I bought it./This is the shop I bought it from./This is from the shop I bought it./From this is the shop I bought it.;;;
+000;Выберите правильную позицию для предлога "in";That’s the house we lived in for years.;That’s the house in we lived for years./That’s the house we lived for years in./That’s the house we lived in for years./That’s the house we in lived for years.;;;
+000;Выберите правильную позицию для предлога "in";That’s the house we lived in for years.;That’s the house in we lived for years./That’s the house we lived for years in./That’s the house we lived in for years./That’s the house we in lived for years.;;;
+000;Выберите правильную позицию для предлога "in";That’s the house we lived in for years.;That’s the house we in lived for years./That’s the house we lived for years in./That’s the house we lived in for years./That’s the house in we lived for years.;;;
+000;Выберите правильную позицию для предлога "in";That’s the house we lived in for years.;That’s the house we in lived for years./That’s the house we lived for years in./That’s the house we lived in for years./That’s the house in we lived for years.;;;
+000;Выберите правильную позицию для предлога "in";That’s the house we lived in for years.;That’s the house we in lived for years./That’s the house we lived in for years./That’s the house we lived for years in./That’s the house in we lived for years.;;;
+000;Выберите правильную позицию для предлога "in";That’s the house we lived in for years.;That’s the house we lived for years in./That’s the house we in lived for years./That’s the house in we lived for years./That’s the house we lived in for years.;;;
+000;Выберите правильную позицию для предлога "in";That’s the house we lived in for years.;That’s the house we lived for years in./That’s the house we lived in for years./That’s the house in we lived for years./That’s the house we in lived for years.;;;
+000;Выберите правильную позицию для предлога "in";That’s the house we lived in for years.;That’s the house we lived in for years./That’s the house in we lived for years./That’s the house we in lived for years./That’s the house we lived for years in.;;;
+000;Выберите правильную позицию для предлога "in";That’s the house we lived in for years.;That’s the house we lived in for years./That’s the house in we lived for years./That’s the house we in lived for years./That’s the house we lived for years in.;;;
+000;Выберите правильную позицию для предлога "in";That’s the house we lived in for years.;That’s the house we lived in for years./That’s the house we in lived for years./That’s the house in we lived for years./That’s the house we lived for years in.;;;
+000;Выберите правильную позицию для предлога "on";This is the person I can rely on.;This is on the person I can rely./This is the person I can rely on./This is the person I on can rely./This is the person on I can rely.;;;
+000;Выберите правильную позицию для предлога "on";This is the person I can rely on.;This is the person I can rely on./This is on the person I can rely./This is the person I on can rely./This is the person on I can rely.;;;
+000;Выберите правильную позицию для предлога "on";This is the person I can rely on.;This is the person I can rely on./This is on the person I can rely./This is the person on I can rely./This is the person I on can rely.;;;
+000;Выберите правильную позицию для предлога "on";This is the person I can rely on.;This is the person I can rely on./This is on the person I can rely./This is the person on I can rely./This is the person I on can rely.;;;
+000;Выберите правильную позицию для предлога "on";This is the person I can rely on.;This is the person I can rely on./This is the person on I can rely./This is on the person I can rely./This is the person I on can rely.;;;
+000;Выберите правильную позицию для предлога "on";This is the person I can rely on.;This is the person I can rely on./This is the person on I can rely./This is on the person I can rely./This is the person I on can rely.;;;
+000;Выберите правильную позицию для предлога "on";This is the person I can rely on.;This is the person I on can rely./This is the person I can rely on./This is on the person I can rely./This is the person on I can rely.;;;
+000;Выберите правильную позицию для предлога "on";This is the person I can rely on.;This is the person on I can rely./This is the person I can rely on./This is the person I on can rely./This is on the person I can rely.;;;
+000;Выберите правильную позицию для предлога "on";This is the person I can rely on.;This is the person on I can rely./This is the person I on can rely./This is the person I can rely on./This is on the person I can rely.;;;
+000;Выберите правильную позицию для предлога "on";This is the person I can rely on.;This is the person on I can rely./This is the person I on can rely./This is the person I can rely on./This is on the person I can rely.;;;
+000;Выберите правильную позицию для предлога "over";We argued over the smallest details.;Over we argued the smallest details./We over argued the smallest details./We argued over the smallest details./We argued the smallest details over.;;;
+000;Выберите правильную позицию для предлога "over";We argued over the smallest details.;We argued over the smallest details./Over we argued the smallest details./We argued the smallest details over./We over argued the smallest details.;;;
+000;Выберите правильную позицию для предлога "over";We argued over the smallest details.;We argued over the smallest details./We over argued the smallest details./We argued the smallest details over./Over we argued the smallest details.;;;
+000;Выберите правильную позицию для предлога "over";We argued over the smallest details.;We argued the smallest details over./Over we argued the smallest details./We over argued the smallest details./We argued over the smallest details.;;;
+000;Выберите правильную позицию для предлога "over";We argued over the smallest details.;We argued the smallest details over./Over we argued the smallest details./We over argued the smallest details./We argued over the smallest details.;;;
+000;Выберите правильную позицию для предлога "over";We argued over the smallest details.;We over argued the smallest details./We argued over the smallest details./We argued the smallest details over./Over we argued the smallest details.;;;
+000;Выберите правильную позицию для предлога "through";We walked through the forest.;We through walked the forest./Through we walked the forest./We walked through the forest./We walked the through forest.;;;
+000;Выберите правильную позицию для предлога "through";We walked through the forest.;We through walked the forest./We walked the through forest./We walked through the forest./Through we walked the forest.;;;
+000;Выберите правильную позицию для предлога "through";We walked through the forest.;We through walked the forest./We walked through the forest./Through we walked the forest./We walked the through forest.;;;
+000;Выберите правильную позицию для предлога "through";We walked through the forest.;We through walked the forest./We walked through the forest./We walked the through forest./Through we walked the forest.;;;
+000;Выберите правильную позицию для предлога "through";We walked through the forest.;We through walked the forest./We walked through the forest./We walked the through forest./Through we walked the forest.;;;
+000;Выберите правильную позицию для предлога "to";This is the person I was talking to.;This is the person I to was talking./This is the person to I was talking./This is the person I was talking to./To this is the person I was talking.;;;
+000;Выберите правильную позицию для предлога "to";This is the person I was talking to.;This is the person I to was talking./This is the person to I was talking./This is the person I was talking to./To this is the person I was talking.;;;
+000;Выберите правильную позицию для предлога "to";This is the person I was talking to.;This is the person I to was talking./To this is the person I was talking./This is the person to I was talking./This is the person I was talking to.;;;
+000;Выберите правильную позицию для предлога "to";This is the person I was talking to.;This is the person I was talking to./This is the person I to was talking./To this is the person I was talking./This is the person to I was talking.;;;
+000;Выберите правильную позицию для предлога "to";This is the person I was talking to.;This is the person I was talking to./This is the person to I was talking./This is the person I to was talking./To this is the person I was talking.;;;
+000;Выберите правильную позицию для предлога "to";This is the person I was talking to.;This is the person to I was talking./This is the person I was talking to./This is the person I to was talking./To this is the person I was talking.;;;
+000;Выберите правильную позицию для предлога "to";This is the person I was talking to.;This is the person to I was talking./This is the person I was talking to./This is the person I to was talking./To this is the person I was talking.;;;
+000;Выберите правильную позицию для предлога "to";This is the person I was talking to.;This is the person to I was talking./This is the person I was talking to./To this is the person I was talking./This is the person I to was talking.;;;
+000;Выберите правильную позицию для предлога "to";This is the person I was talking to.;This is the person to I was talking./To this is the person I was talking./This is the person I was talking to./This is the person I to was talking.;;;
+000;Выберите правильную позицию для предлога "to";This is the person I was talking to.;This is the person to I was talking./To this is the person I was talking./This is the person I was talking to./This is the person I to was talking.;;;
+000;Выберите правильную позицию для предлога "to";This is the person I was talking to.;To this is the person I was talking./This is the person I to was talking./This is the person I was talking to./This is the person to I was talking.;;;
+000;Выберите правильную позицию для предлога "to";This is the person I was talking to.;To this is the person I was talking./This is the person I to was talking./This is the person I was talking to./This is the person to I was talking.;;;
+000;Выберите правильную позицию для предлога "under";The keys were under the mat.;The keys under were the mat./The keys were the under mat./Under the keys were the mat./The keys were under the mat.;;;
+000;Выберите правильную позицию для предлога "under";The keys were under the mat.;The keys under were the mat./The keys were under the mat./The keys were the under mat./Under the keys were the mat.;;;
+000;Выберите правильную позицию для предлога "under";The keys were under the mat.;The keys under were the mat./Under the keys were the mat./The keys were under the mat./The keys were the under mat.;;;
+000;Выберите правильную позицию для предлога "under";The keys were under the mat.;The keys were the under mat./The keys under were the mat./The keys were under the mat./Under the keys were the mat.;;;
+000;Выберите правильную позицию для предлога "with";That's the girl he was dancing with.;That's the girl he with was dancing./That's the girl with he was dancing./That's the girl he was dancing with./With that's the girl he was dancing.;;;
+000;Выберите правильную позицию для предлога "with";That's the girl he was dancing with.;That's the girl with he was dancing./With that's the girl he was dancing./That's the girl he was dancing with./That's the girl he with was dancing.;;;
+000;Выберите правильную позицию для предлога "with";That's the girl he was dancing with.;That's the girl with he was dancing./With that's the girl he was dancing./That's the girl he with was dancing./That's the girl he was dancing with.;;;
+000;Выберите правильную позицию для предлога "with";That's the girl he was dancing with.;With that's the girl he was dancing./That's the girl with he was dancing./That's the girl he was dancing with./That's the girl he with was dancing.;;;
+000;Выберите правильную позицию для предлога "without";He left without saying goodbye.;He left saying goodbye without./Without he left saying goodbye./He without left saying goodbye./He left without saying goodbye.;;;
+000;Выберите правильную позицию для предлога "without";He left without saying goodbye.;He left without saying goodbye./He left saying goodbye without./Without he left saying goodbye./He without left saying goodbye.;;;
+# prepositions_vs_conjunctions:
+# prepositions_vs_conjunctions - after:
+000;We went home after the movie.;preposition;preposition/conjunction;Определите часть речи для "after";0;
+001;She called me after lunch.;preposition;preposition/conjunction;Определите часть речи для "after";0;
+002;I always take a nap after work.;preposition;preposition/conjunction;Определите часть речи для "after";0;
+003;We went home after the movie ended.;conjunction;preposition/conjunction;Определите часть речи для "after";0;
+004;They left after the show was over.;conjunction;preposition/conjunction;Определите часть речи для "after";0;
+005;He started cooking after she arrived.;conjunction;preposition/conjunction;Определите часть речи для "after";0;
+# prepositions_vs_conjunctions - as:
+006;He works as a driver.;preposition;preposition/conjunction;Определите часть речи для "as";0;
+007;She served as the manager during his absence.;preposition;preposition/conjunction;Определите часть речи для "as";0;
+008;He was hired as a consultant.;preposition;preposition/conjunction;Определите часть речи для "as";0;
+009;He left as I was arriving.;conjunction;preposition/conjunction;Определите часть речи для "as";0;
+010;I watched as he opened the door.;conjunction;preposition/conjunction;Определите часть речи для "as";0;
+011;She smiled as he spoke.;conjunction;preposition/conjunction;Определите часть речи для "as";0;
+# prepositions_vs_conjunctions - before:
+012;Wash your hands before dinner.;preposition;preposition/conjunction;Определите часть речи для "before";0;
+013;I usually jog before breakfast.;preposition;preposition/conjunction;Определите часть речи для "before";0;
+014;He called me before the meeting.;preposition;preposition/conjunction;Определите часть речи для "before";0;
+015;Wash your hands before you eat.;conjunction;preposition/conjunction;Определите часть речи для "before";0;
+016;Think carefully before you answer.;conjunction;preposition/conjunction;Определите часть речи для "before";0;
+017;She left before I had a chance to speak.;conjunction;preposition/conjunction;Определите часть речи для "before";0;
+# prepositions_vs_conjunctions - considering:
+018;Considering his age, he looks strong.;preposition;preposition/conjunction;Определите часть речи для "considering";0;
+019;Considering the time, we should hurry.;preposition;preposition/conjunction;Определите часть речи для "considering";0;
+020;Considering her background, she did well.;preposition;preposition/conjunction;Определите часть речи для "considering";0;
+021;Considering that he's injured, he plays well.;conjunction;preposition/conjunction;Определите часть речи для "considering";0;
+022;Considering that they started late, they arrived on time.;conjunction;preposition/conjunction;Определите часть речи для "considering";0;
+023;Considering that she was new, her report was impressive.;conjunction;preposition/conjunction;Определите часть речи для "considering";0;
+# prepositions_vs_conjunctions - except:
+024;Everyone came except John.;preposition;preposition/conjunction;Определите часть речи для "except";0;
+025;I know everyone here except the new guy.;preposition;preposition/conjunction;Определите часть речи для "except";0;
+026;All employees attended except Mary and Tom.;preposition;preposition/conjunction;Определите часть речи для "except";0;
+027;I would go, except I’m sick.;conjunction;preposition/conjunction;Определите часть речи для "except";0;
+028;She agreed, except she had one concern.;conjunction;preposition/conjunction;Определите часть речи для "except";0;
+029;They would have come, except they missed the train.;conjunction;preposition/conjunction;Определите часть речи для "except";0;
+# prepositions_vs_conjunctions - notwithstanding:
+030;Notwithstanding his efforts, he failed.;preposition;preposition/conjunction;Определите часть речи для "notwithstanding";0;
+031;Notwithstanding the bad weather, they went hiking.;preposition;preposition/conjunction;Определите часть речи для "notwithstanding";0;
+032;Notwithstanding her objections, the plan was approved.;preposition;preposition/conjunction;Определите часть речи для "notwithstanding";0;
+033;Notwithstanding that he tried, he failed.;conjunction;preposition/conjunction;Определите часть речи для "notwithstanding";0;
+034;Notwithstanding that she apologized, he stayed angry.;conjunction;preposition/conjunction;Определите часть речи для "notwithstanding";0;
+035;Notwithstanding that it rained, we played soccer.;conjunction;preposition/conjunction;Определите часть речи для "notwithstanding";0;
+# prepositions_vs_conjunctions - save:
+036;None were present save Mary.;preposition;preposition/conjunction;Определите часть речи для "save";0;
+037;All were silent save the child.;preposition;preposition/conjunction;Определите часть речи для "save";0;
+038;Every door was locked save one.;preposition;preposition/conjunction;Определите часть речи для "save";0;
+039;I would agree, save that it’s too risky.;conjunction;preposition/conjunction;Определите часть речи для "save";0;
+040;They accepted, save that they wanted changes.;conjunction;preposition/conjunction;Определите часть речи для "save";0;
+041;He complied, save that he raised one objection.;conjunction;preposition/conjunction;Определите часть речи для "save";0;
+# prepositions_vs_conjunctions - since:
+042;I haven't seen her since Monday.;preposition;preposition/conjunction;Определите часть речи для "since";0;
+043;He has lived here since 2010.;preposition;preposition/conjunction;Определите часть речи для "since";0;
+044;She’s been sick since last week.;preposition;preposition/conjunction;Определите часть речи для "since";0;
+045;I haven't seen her since she moved.;conjunction;preposition/conjunction;Определите часть речи для "since";0;
+046;He’s been quieter since he lost his job.;conjunction;preposition/conjunction;Определите часть речи для "since";0;
+047;She hasn’t eaten since she got home.;conjunction;preposition/conjunction;Определите часть речи для "since";0;
+# prepositions_vs_conjunctions - than:
+048;He is taller than me.;preposition;preposition/conjunction;Определите часть речи для "than";0;
+049;This task is easier than mine.;preposition;preposition/conjunction;Определите часть речи для "than";0;
+050;She’s stronger than him.;preposition;preposition/conjunction;Определите часть речи для "than";0;
+051;He is taller than I am.;conjunction;preposition/conjunction;Определите часть речи для "than";0;
+052;This task is easier than it looks.;conjunction;preposition/conjunction;Определите часть речи для "than";0;
+053;She’s stronger than she used to be.;conjunction;preposition/conjunction;Определите часть речи для "than";0;
+# prepositions_vs_conjunctions - till:
+048;He is taller than me.;preposition;preposition/conjunction;Определите часть речи для "than";0;
+049;This task is easier than mine.;preposition;preposition/conjunction;Определите часть речи для "than";0;
+050;She’s stronger than him.;preposition;preposition/conjunction;Определите часть речи для "than";0;
+051;He is taller than I am.;conjunction;preposition/conjunction;Определите часть речи для "than";0;
+052;This task is easier than it looks.;conjunction;preposition/conjunction;Определите часть речи для "than";0;
+053;She’s stronger than she used to be.;conjunction;preposition/conjunction;Определите часть речи для "than";0;
+# prepositions_vs_conjunctions - until:
+060;Stay here until sunset.;preposition;preposition/conjunction;Определите часть речи для "until";0;
+061;He waited until midnight.;preposition;preposition/conjunction;Определите часть речи для "until";0;
+062;They won’t leave until Friday.;preposition;preposition/conjunction;Определите часть речи для "until";0;
+063;Stay here until I return.;conjunction;preposition/conjunction;Определите часть речи для "until";0;
+064;He waited until she finished.;conjunction;preposition/conjunction;Определите часть речи для "until";0;
+065;They won’t leave until the guests arrive.;conjunction;preposition/conjunction;Определите часть речи для "until";0;
+# prepositions_vs_adverbs:
+# prepositions_vs_adverbs - after:
+000;We went home after the movie.;preposition;preposition/adverb;Определите часть речи для "after";0;
+001;She called me after lunch.;preposition;preposition/adverb;Определите часть речи для "after";0;
+002;I always take a nap after work.;preposition;preposition/adverb;Определите часть речи для "after";0;
+003;He ran after.;adverb;preposition/adverb;Определите часть речи для "after";0;
+004;The dog ran after.;adverb;preposition/adverb;Определите часть речи для "after";0;
+005;She looked after and smiled.;adverb;preposition/adverb;Определите часть речи для "after";0;
+# prepositions_vs_adverbs - before:
+006;Wash your hands before dinner.;preposition;preposition/adverb;Определите часть речи для "before";0;
+007;He left before sunrise.;preposition;preposition/adverb;Определите часть речи для "before";0;
+008;Call me before lunch.;preposition;preposition/adverb;Определите часть речи для "before";0;
+009;I’ve never seen her before.;adverb;preposition/adverb;Определите часть речи для "before";0;
+010;She had never tried sushi before.;adverb;preposition/adverb;Определите часть речи для "before";0;
+011;Have we met before?;adverb;preposition/adverb;Определите часть речи для "before";0;
+# prepositions_vs_adverbs - behind:
+012;The keys are behind the curtain.;preposition;preposition/adverb;Определите часть речи для "behind";0;
+013;She parked the car behind the house.;preposition;preposition/adverb;Определите часть речи для "behind";0;
+014;There’s a fence behind the garage.;preposition;preposition/adverb;Определите часть речи для "behind";0;
+015;He stayed behind.;adverb;preposition/adverb;Определите часть речи для "behind";0;
+016;One student remained behind.;adverb;preposition/adverb;Определите часть речи для "behind";0;
+017;The others left, but she stayed behind.;adverb;preposition/adverb;Определите часть речи для "behind";0;
+# prepositions_vs_adverbs - below:
+018;The temperature fell below zero.;preposition;preposition/adverb;Определите часть речи для "below";0;
+019;He lives below the third floor.;preposition;preposition/adverb;Определите часть речи для "below";0;
+020;Water was leaking below the sink.;preposition;preposition/adverb;Определите часть речи для "below";0;
+021;Look at the text below.;adverb;preposition/adverb;Определите часть речи для "below";0;
+022;See the notes below.;adverb;preposition/adverb;Определите часть речи для "below";0;
+023;The answer is written below.;adverb;preposition/adverb;Определите часть речи для "below";0;
+# prepositions_vs_adverbs - above:
+024;The painting hangs above the sofa.;preposition;preposition/adverb;Определите часть речи для "above";0;
+025;There’s a mirror above the sink.;preposition;preposition/adverb;Определите часть речи для "above";0;
+026;The ceiling fan is right above the bed.;preposition;preposition/adverb;Определите часть речи для "above";0;
+027;The stars shone above.;adverb;preposition/adverb;Определите часть речи для "above";0;
+028;A helicopter hovered above.;adverb;preposition/adverb;Определите часть речи для "above";0;
+029;Nothing was visible above.;adverb;preposition/adverb;Определите часть речи для "above";0;
+# prepositions_vs_adverbs - around:
+030;She walked around the park.;preposition;preposition/adverb;Определите часть речи для "around";0;
+031;He looked around the room.;preposition;preposition/adverb;Определите часть речи для "around";0;
+032;We drove around the city.;preposition;preposition/adverb;Определите часть речи для "around";0;
+033;No one was around.;adverb;preposition/adverb;Определите часть речи для "around";0;
+034;Is anyone around?;adverb;preposition/adverb;Определите часть речи для "around";0;
+035;She’s not around right now.;adverb;preposition/adverb;Определите часть речи для "around";0;
+# prepositions_vs_adverbs - outside:
+036;He waited outside the door.;preposition;preposition/adverb;Определите часть речи для "outside";0;
+037;There’s a bench outside the building.;preposition;preposition/adverb;Определите часть речи для "outside";0;
+038;A dog was barking outside the house.;preposition;preposition/adverb;Определите часть речи для "outside";0;
+039;It’s cold outside.;adverb;preposition/adverb;Определите часть речи для "outside";0;
+040;Nobody was outside.;adverb;preposition/adverb;Определите часть речи для "outside";0;
+041;She stepped outside.;adverb;preposition/adverb;Определите часть речи для "outside";0;
+# prepositions_vs_adverbs - inside:
+042;They went inside the house.;preposition;preposition/adverb;Определите часть речи для "inside";0;
+043;He hid inside the closet.;preposition;preposition/adverb;Определите часть речи для "inside";0;
+044;We waited inside the building.;preposition;preposition/adverb;Определите часть речи для "inside";0;
+045;Stay inside.;adverb;preposition/adverb;Определите часть речи для "inside";0;
+046;She’s inside.;adverb;preposition/adverb;Определите часть речи для "inside";0;
+047;Go inside quickly.;adverb;preposition/adverb;Определите часть речи для "inside";0;
+# prepositions_vs_adverbs - over:
+048;She hung the mirror over the sink.;preposition;preposition/adverb;Определите часть речи для "over";0;
+049;A blanket was spread over the bed.;preposition;preposition/adverb;Определите часть речи для "over";0;
+050;Smoke rose over the city.;preposition;preposition/adverb;Определите часть речи для "over";0;
+051;Come over later.;adverb;preposition/adverb;Определите часть речи для "over";0;
+052;He came over for dinner.;adverb;preposition/adverb;Определите часть речи для "over";0;
+053;Can you come over now?;adverb;preposition/adverb;Определите часть речи для "over";0;
+# prepositions_vs_adverbs - under:
+054;The cat is under the table.;preposition;preposition/adverb;Определите часть речи для "under";0;
+055;He hid under the bed.;preposition;preposition/adverb;Определите часть речи для "under";0;
+056;She crawled under the fence.;preposition;preposition/adverb;Определите часть речи для "under";0;
+057;He looked under.;adverb;preposition/adverb;Определите часть речи для "under";0;
+058;She bent down and peered under.;adverb;preposition/adverb;Определите часть речи для "under";0;
+059;Something moved under.;adverb;preposition/adverb;Определите часть речи для "under";0;
+# prepositions_vs_adverbs - across:
+060;She ran across the field.;preposition;preposition/adverb;Определите часть речи для "across";0;
+061;They built a bridge across the river.;preposition;preposition/adverb;Определите часть речи для "across";0;
+062;He walked across the street.;preposition;preposition/adverb;Определите часть речи для "across";0;
+063;I looked across and saw him.;adverb;preposition/adverb;Определите часть речи для "across";0;
+064;She glanced across quickly.;adverb;preposition/adverb;Определите часть речи для "across";0;
+065;He shouted across.;adverb;preposition/adverb;Определите часть речи для "across";0;
+# prepositions_vs_adverbs - in:
+066;Put it in the bag.;preposition;preposition/adverb;Определите часть речи для "in";0;
+067;She lives in the city.;preposition;preposition/adverb;Определите часть речи для "in";0;
+068;There’s a gift in the box.;preposition;preposition/adverb;Определите часть речи для "in";0;
+069;Come in!;adverb;preposition/adverb;Определите часть речи для "in";0;
+070;He walked in and sat down.;adverb;preposition/adverb;Определите часть речи для "in";0;
+071;Let them in.;adverb;preposition/adverb;Определите часть речи для "in";0;
+# prepositions_vs_adverbs - out:
+072;He jumped out the window.;preposition;preposition/adverb;Определите часть речи для "out";0;
+073;Smoke came out the chimney.;preposition;preposition/adverb;Определите часть речи для "out";0;
+074;She ran out the door.;preposition;preposition/adverb;Определите часть речи для "out";0;
+075;She went out.;adverb;preposition/adverb;Определите часть речи для "out";0;
+076;The lights went out.;adverb;preposition/adverb;Определите часть речи для "out";0;
+077;He looked out.;adverb;preposition/adverb;Определите часть речи для "out";0;
+# prepositions_vs_adverbs - up:
+078;She climbed up the ladder.;preposition;preposition/adverb;Определите часть речи для "up";0;
+079;The cat jumped up the stairs.;preposition;preposition/adverb;Определите часть речи для "up";0;
+080;They went up the hill.;preposition;preposition/adverb;Определите часть речи для "up";0;
+081;Stand up.;adverb;preposition/adverb;Определите часть речи для "up";0;
+082;She woke up suddenly.;adverb;preposition/adverb;Определите часть речи для "up";0;
+083;He got up and left.;adverb;preposition/adverb;Определите часть речи для "up";0;
+# prepositions_vs_adverbs - down:
+084;He ran down the stairs.;preposition;preposition/adverb;Определите часть речи для "down";0;
+085;The ball rolled down the hill.;preposition;preposition/adverb;Определите часть речи для "down";0;
+086;She walked down the street.;preposition;preposition/adverb;Определите часть речи для "down";0;
+087;Sit down.;adverb;preposition/adverb;Определите часть речи для "down";0;
+088;He fell down.;adverb;preposition/adverb;Определите часть речи для "down";0;
+089;They calmed down quickly.;adverb;preposition/adverb;Определите часть речи для "down";0;
+# prepositions_vs_adverbs - off:
+090;He fell off the bike.;preposition;preposition/adverb;Определите часть речи для "off";0;
+091;She jumped off the table.;preposition;preposition/adverb;Определите часть речи для "off";0;
+092;The bottle rolled off the shelf.;preposition;preposition/adverb;Определите часть речи для "off";0;
+093;Take it off.;adverb;preposition/adverb;Определите часть речи для "off";0;
+094;He turned the light off.;adverb;preposition/adverb;Определите часть речи для "off";0;
+095;The music is off.;adverb;preposition/adverb;Определите часть речи для "off";0;
+# prepositions_vs_adverbs - on:
+096;Put the book on the table.;preposition;preposition/adverb;Определите часть речи для "on";0;
+097;He sat on the bench.;preposition;preposition/adverb;Определите часть речи для "on";0;
+098;There’s a vase on the shelf.;preposition;preposition/adverb;Определите часть речи для "on";0;
+099;Come on!;adverb;preposition/adverb;Определите часть речи для "on";0;
+100;She kept going on and on.;adverb;preposition/adverb;Определите часть речи для "on";0;
+101;The show is still on.;adverb;preposition/adverb;Определите часть речи для "on";0;
