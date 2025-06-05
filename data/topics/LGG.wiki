@@ -16,88 +16,78 @@
 %%    Manner/Cause/Purpose (AdvM) - причины, цели, образа действия
 %%  Parenthetical (Par) — вводное слово/фраза
 %%  Vocative (Voc) — обращение
-
->>>> 1.Nouns:
->>>>   Proper (John, London)
->>>>   Concrete (apple, chair)
->>>>   Abstract (freedom, love)
->>>>   Collective (team, family)
-____   (LGG-5) Gerunds (swimming)
-____   (LGG-6) Infinitives (to go)
-____   (LGG-4) Numerals (one, two, a dozen) — как самостоятельные именные единицы
-____   (LGG-8) Descriptive (rich)
-____   (LGG) Quotation
-:::: 2.Pronouns:
-::::   Personal:
-::::     Subject Form (I, you)
-::::     Object Form (me, you)
-::::   Possessive (mine, yours)
-::::   Reflexive/Intensive (myself, yourself)
-::::   Reciprocal (each other, one another)
-xxxx   (LGG-1) Demonstrative (this, that)
-xxxx   (LGG-2) Indefinite (someone, few, each)
-xxxx   (LGG-3) Relative-Interrogative (which, what)
-xxxx   (LGG-4) Numerals (one, two, several)
-!!!! 3.Determiners:
-!!!!   Articles (a, an, the, <zero>)
-::::   Possessive (my, his)
-!!!!   Distributive (each, either)
-!!!!   Predeterminers (all, both, such, what)
-!!!!   Negative (no)
-xxxx   (LGG-1) Demonstrative (this, those)
-xxxx   (LGG-2) [Indefinite] Quantifiers (some, any, many, few)
-xxxx   (LGG-3) [Relative-Interrogative] Interrogative (which, what)
-xxxx   (LGG-4) Numerals (one, two, several)
->>>> 4.Adjectives:
->>>>   Limiting (main, only, next)
->>>>   (LGG-8) Descriptive (rich) - только у этих есть степени сравнения
-____   (LGG-7) Participles (broken, running)
-____ 5.Verbs:
-____   Lexical Verbs (run, build)
-____   Auxiliary Verbs (be, do, have)
-____   Modal Verbs (can, must)
-____   Semi-Auxiliaries (have to, be able to)
-____   Copulas (be, seem)
-____   (LGG-5) Gerunds (reading, thinking)
-____   (LGG-6) Infinitives (to go)
-____   (LGG-7) Participles (broken, running)
-____ 6.Adverbs (семантическая классификация):
-____   Manner (quickly)
-____   Place (here, there)
-____   Time (now, yesterday)
-____   Frequency (always, never)
-____   Degree (very, too)
-____   Comment / Viewpoint (frankly, probably)
-____   (LGG-2) Indefinite
-____   (LGG) Interrogative
-____   (LGG) Relative
-____   (LGG-4) Numerals
-____   (LGG-7) Participles
-____   (LGG) Adverbial Connectors (however, therefore)
-____   (LGG) Hybrid Connectives (since, after)
-____   (LGG) Focus Words (only, even, just)
->>>> 7.Prepositions:
->>>>   Time (at, on, in)
->>>>   Place (under, over)
->>>>   Direction (into, onto)
->>>>   Cause (because of, due to)
->>>>   Purpose (for, to)
->>>>   Agent (by)
->>>>   Complex Prepositions (in front of, on behalf of)
->>>>   (LGG) Hybrid Connectives (since, after)
-____ 8.Conjunctions
-____   Coordinating (and, but)
-____   Correlative (either...or)
-____   (LGG-1) [Demonstrative] Subordinating (????: doesn't look like lgg-1: because, although)
-____   (LGG) Adverbial Connectors (however, therefore)
-____   (LGG) Hybrid Connectives (since, after)
-____ 9.Particles:
-____   Negation (not)
-____   Infinitive Marker (to)
-____   Verb Particles (up, out, off)
-____   (LGG) Focus Words (only, even, just)
-SKIP 10.Interjections
-SKIP   Greeting/Farewell (hi, bye)
-SKIP   Emotional (wow, ouch)
-SKIP   Cognitive (oh, hmm)
-SKIP   Sound Imitation (meh, oops)
+:::: все зеленое - пройтись еще раз покрыть вопросами, сейчас собирается только теория⠝
+:::: 11.Pronouns:
+::::    Personal:
+::::      Subject Form (I, you)
+::::      Object Form (me, you)
+::::    Possessive (mine, yours)
+::::    Reflexive/Intensive (myself, yourself)
+::::    Reciprocal (each other, one another)
+<<<<    (LGG-1) Demonstrative (this, that)
+<<<<    (LGG-2) Indefinite (someone, few, each)
+<<<<    (LGG-3) Relative-Interrogative (which, what)
+<<<<    (LGG-4) Numerals (one, two, several)
+>>>> 12.Nouns:
+>>>>    Proper (John, London)
+>>>>    Concrete (apple, chair)
+>>>>    Abstract (freedom, love)
+>>>>    Collective (team, family)
+<<<<    (LGG-5) Gerunds (swimming)
+<<<<    (LGG-6) Infinitives (to go)
+<<<<    (LGG-4) Numerals (one, two, a dozen) — как самостоятельные именные единицы
+<<<<    (LGG-8) Descriptive (rich)
+<<<<    (LGG) Quotation
+!!!! 21.Verbs:
+!!!!    Lexical Verbs (run, build)
+!!!!    Auxiliary Verbs (be, do, have)
+!!!!    Modal Verbs (can, must)
+!!!!    Semi-Auxiliaries (have to, be able to)
+!!!!    Copulas (be, seem)
+!!!!    (LGG-5) Gerunds (reading, thinking)
+!!!!    (LGG-6) Infinitives (to go)
+!!!!    (LGG-7) Participles (broken, running)
+<<<< 31.Adjectives:
+<<<<    Limiting (main, only, next)
+<<<<    (LGG-8) Descriptive (rich) - только у этих есть степени сравнения
+<<<<    (LGG-7) Participles (broken, running)
+xxxx 32.Adverbs (семантическая классификация):
+xxxx    (LGG-2) Indefinite
+xxxx    (LGG) Interrogative
+xxxx    (LGG) Relative
+xxxx    (LGG-4) Numerals
+xxxx    (LGG-7) Participles
+xxxx    (LGG) Adverbial Connectors (however, therefore)
+xxxx    (LGG) Focus Words (only, even, just)
+:::: 41.Prepositions:
+::::    Simple Prepositions (in front of, on behalf of)
+::::    Phrasal Prepositions (in front of, on behalf of)
+>>>> 42.Connectives:
+>>>>    Conjunctions
+>>>>      Coordinating (and, but)
+>>>>      Subordinating (because, although, if)
+>>>>      Correlative (either...or)
+>>>>      (LGG-1) [Demonstrative] Subordinating (????: doesn't look like lgg-1: because, although)
+>>>>    conjunctive_adverbs: however, therefore, moreover
+>>>>    Hybrid Connectives (since, after)
+>>>>    discourse_markers: after all, that said, to be fair
+!!!! 43.Determiners:
+!!!!    Articles (a, an, the, <zero>)
+::::    Possessive (my, his)
+!!!!    Distributive (each, either)
+!!!!    Predeterminers (all, both, such, what)
+!!!!    Negative (no)
+<<<<    (LGG-1) Demonstrative (this, those)
+<<<<    (LGG-2) [Indefinite] Quantifiers (some, any, many, few)
+<<<<    (LGG-3) [Relative-Interrogative] Interrogative (which, what)
+<<<<    (LGG-4) Numerals (one, two, several)
+xxxx 51.Particles:
+xxxx    Negation (not)
+xxxx    Infinitive Marker (to)
+xxxx    Verb Particles (up, out, off)
+xxxx    (LGG) Focus Words (only, even, just)
+xxxx 52.Interjections
+xxxx    Greeting/Farewell (hi, bye)
+xxxx    Emotional (wow, ouch)
+xxxx    Cognitive (oh, hmm)
+xxxx    Sound Imitation (meh, oops)
