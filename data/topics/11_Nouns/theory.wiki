@@ -1,0 +1,138 @@
+>>>> 11.Nouns:
+<<<<    (LGG-5) Gerunds (swimming)
+<<<<    (LGG-6) Infinitives (to go)
+<<<<    (LGG-4) Numerals (one, two, a dozen) — как самостоятельные именные единицы
+<<<<    (LGG-8) Descriptive (rich)
+<<<<    (LGG) Quotation
+
+
+Хорошо. Вот **подробный, но практичный обзор всего, что нужно знать о существительных в английском языке**, чтобы уверенно их использовать в разговоре и письме.
+
+---
+
+## 1. Что такое существительное (noun)
+
+Существительное — это слово, которое называет **человека, предмет, место, идею или явление**.
+Оно может быть:
+
+* **подлежащим** (The dog **sleeps**.)
+* **дополнением** (I saw **a car**.)
+* **объектом предлога** (She lives in **London**.)
+
+---
+
+## 2. Грамматически важные признаки
+
+### A. **Исчисляемость (Countable / Uncountable)**
+
+* **Countable nouns**: можно посчитать, есть формы единственного и множественного числа.
+
+  * a cat, two cats
+  * a book, many books
+
+* **Uncountable nouns**: нельзя посчитать поштучно, нет формы множественного числа.
+
+  * water, rice, information
+
+**Важно:**
+
+* У неисчисляемых существительных нельзя ставить артикль **a/an**.
+* Вместо этого: some, much, a lot of.
+
+---
+
+### B. **Число (Singular / Plural)**
+
+* **Singular (ед. число)**: a dog, the idea
+* **Plural (мн. число)**: dogs, ideas
+
+**Формирование множественного числа:**
+
+* обычно +s: car → cars
+* +es после шипящих: bus → buses
+* изменяется корень: man → men, child → children
+* одинаковая форма: sheep → sheep
+
+---
+
+### C. **Артикли (a / an / the / zero)**
+
+* **a/an** — неопределённый артикль, только для **исчисляемых в ед. числе**
+
+  * a chair, an apple
+
+* **the** — определённый артикль, для **любой категории** (ед./мн., исч./неисч.)
+
+  * the water, the books, the idea
+
+* **без артикля (zero)**:
+
+  * перед **множественным числом во множественном значении**: Dogs are loyal.
+  * перед **неисчисляемыми в общем значении**: Music is powerful.
+
+---
+
+### D. **Притяжательная форма ('s / of)**
+
+* **'s**: используется для живых существ, чаще всего людей
+
+  * John's phone, the girl's bag
+
+* **of**: используется для вещей и абстрактных понятий
+
+  * the cover of the book, the end of the world
+
+---
+
+### E. **Согласование с глаголом (Subject-Verb Agreement)**
+
+* **Единственное число** → глагол с -s в Present Simple
+
+  * The cat **sleeps**.
+
+* **Множественное число** → без -s
+
+  * The cats **sleep**.
+
+**Особенность:** Collective nouns (team, family) могут вести себя как в ед., так и во мн. числе:
+
+* The team **is** winning. (американский вариант)
+* The team **are** winning. (британский вариант)
+
+---
+
+## 3. Семантические типы (для понимания смысла, но не обязательны грамматически)
+
+* **Concrete**: можно воспринять чувствами — apple, chair, rain
+* **Abstract**: нельзя потрогать — freedom, anger, happiness
+* **Collective**: группа как единое целое — team, family, crowd
+* **Proper**: имена собственные — John, New York, Google
+* **Common**: нарицательные — table, cat, school
+* **Material**: вещества — gold, water, iron
+
+---
+
+## 4. Частые ловушки и советы
+
+* **Information, advice, news** — неисчисляемые! Нельзя говорить *an information*.
+* **People** — множественное число от *person*. *Persons* только в формальном праве.
+* **Many vs Much**:
+
+  * many — для countable: many cars
+  * much — для uncountable: much water
+* **Some / any** работают с обеими группами:
+
+  * some apples / some milk
+
+---
+
+## 5. Часто употребляемые фразы
+
+* I have **a question**. (не *some question*)
+* I need **some information**. (не *an information*)
+* There is **a lot of traffic** today. (не *many traffics*)
+* **Most people** agree. (не *the most of people*)
+
+---
+
+Хочешь — могу сделать сокращённый формат или карточки по каждому признаку.

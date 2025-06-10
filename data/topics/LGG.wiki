@@ -17,7 +17,13 @@
 %%  Parenthetical (Par) — вводное слово/фраза
 %%  Vocative (Voc) — обращение
 :::: все зеленое - пройтись еще раз покрыть вопросами, сейчас собирается только теория⠝
-:::: 11.Pronouns:
+>>>> 11.Nouns:
+<<<<    (LGG-5) Gerunds (swimming)
+<<<<    (LGG-6) Infinitives (to go)
+<<<<    (LGG-4) Numerals (one, two, a dozen) — как самостоятельные именные единицы
+<<<<    (LGG-8) Descriptive (rich)
+<<<<    (LGG) Quotation
+:::: 12.Pronouns:
 ::::    Personal:
 ::::      Subject Form (I, you)
 ::::      Object Form (me, you)
@@ -28,16 +34,6 @@
 <<<<    (LGG-2) Indefinite (someone, few, each)
 <<<<    (LGG-3) Relative-Interrogative (which, what)
 <<<<    (LGG-4) Numerals (one, two, several)
->>>> 12.Nouns:
->>>>    Proper (John, London)
->>>>    Concrete (apple, chair)
->>>>    Abstract (freedom, love)
->>>>    Collective (team, family)
-<<<<    (LGG-5) Gerunds (swimming)
-<<<<    (LGG-6) Infinitives (to go)
-<<<<    (LGG-4) Numerals (one, two, a dozen) — как самостоятельные именные единицы
-<<<<    (LGG-8) Descriptive (rich)
-<<<<    (LGG) Quotation
 !!!! 21.Verbs:
 !!!!    Lexical Verbs (run, build)
 !!!!    Auxiliary Verbs (be, do, have)
