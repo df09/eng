@@ -1,6 +1,5 @@
 %% >>>> mk:
 data folder: сделать структуру топиков проще
-добавить кнопку "GPT: проверить на корректность" рядом с suspicious.
 deploy на production
 
 %% >>>> backlog
