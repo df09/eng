@@ -1,22 +1,22 @@
-%% Syntax Roles (SXR):
-%%  Subject (S) — подлежащее
-%%  Attribute (Atr) — определение к существительному
-%%  Apposition (App) — пояснение/синоним существительного
-%%  Predicate (P) — сказуемое
-%%  Complement (C) — именная/прилагательная часть сказуемого:
-%%    Subject Complement (SC) — описывает/идентифицирует подлежащее
-%%    Object Complement (OC) — описывает объект
-%%  Object (O) — дополнение:
-%%    Direct Object (DO) — получает действие напрямую
-%%    Indirect Object (IO) — получает выгоду/адресат действия
-%%    Prepositional Object (PO) — объект после предлога
-%%  Adverbial (Adv) — обстоятельство:
-%%    Time (AdvT) — времени
-%%    Place (AdvL) — места
-%%    Manner/Cause/Purpose (AdvM) - причины, цели, образа действия
-%%  Parenthetical (Par) — вводное слово/фраза
-%%  Vocative (Voc) — обращение
-:::: все зеленое - пройтись еще раз покрыть вопросами, сейчас собирается только теория⠝
+# Syntax Roles (SXR):
+#  Subject (S) — подлежащее
+#  Attribute (Atr) — определение к существительному
+#  Apposition (App) — пояснение/синоним существительного
+#  Predicate (P) — сказуемое
+#  Complement (C) — именная/прилагательная часть сказуемого:
+#    Subject Complement (SC) — описывает/идентифицирует подлежащее
+#    Object Complement (OC) — описывает объект
+#  Object (O) — дополнение:
+#    Direct Object (DO) — получает действие напрямую
+#    Indirect Object (IO) — получает выгоду/адресат действия
+#    Prepositional Object (PO) — объект после предлога
+#  Adverbial (Adv) — обстоятельство:
+#    Time (AdvT) — времени
+#    Place (AdvL) — места
+#    Manner/Cause/Purpose (AdvM) - причины, цели, образа действия
+#  Parenthetical (Par) — вводное слово/фраза
+#  Vocative (Voc) — обращение
+:::: все зеленое - пройтись еще раз покрыть вопросами, сейчас собирается только теория⠉
 >>>> 11.Nouns:
 <<<<    (LGG-5) Gerunds (swimming)
 <<<<    (LGG-6) Infinitives (to go)
